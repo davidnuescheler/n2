@@ -6645,15 +6645,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YXEPUXO24HCB3NF6DMAF5BZS",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "7YEXAL3D4O45GSFUWVGMLPYS",
      "modifier_data": {
       "name": "pepperoni",
@@ -6828,15 +6819,6 @@ var catalog_raw=[
   "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
   "modifier_data": {
    "name": "pint of raspberry sour cream ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "YXEPUXO24HCB3NF6DMAF5BZS",
-  "modifier_data": {
-   "name": "beehive",
    "price_money": {
     "amount": 0
    }
