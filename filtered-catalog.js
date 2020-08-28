@@ -5627,6 +5627,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
+     "modifier_data": {
+      "name": "pint of raspberry sour cream ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6629,7 +6638,34 @@ var catalog_raw=[
     {
      "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
      "modifier_data": {
-      "name": "vegan",
+      "name": "margherita",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YXEPUXO24HCB3NF6DMAF5BZS",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7YEXAL3D4O45GSFUWVGMLPYS",
+     "modifier_data": {
+      "name": "pepperoni",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FKDUX64QREG6HESQGM5SZYU7",
+     "modifier_data": {
+      "name": "vegan (all veg!)",
       "price_money": {
        "amount": 0
       }
@@ -6641,7 +6677,7 @@ var catalog_raw=[
  {
   "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
   "modifier_data": {
-   "name": "vegan",
+   "name": "margherita",
    "price_money": {
     "amount": 0
    }
@@ -6783,6 +6819,42 @@ var catalog_raw=[
   "id": "K7EIASHSOLKSYHJXBQL7AG22",
   "modifier_data": {
    "name": "vanilla + peach TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
+  "modifier_data": {
+   "name": "pint of raspberry sour cream ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YXEPUXO24HCB3NF6DMAF5BZS",
+  "modifier_data": {
+   "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7YEXAL3D4O45GSFUWVGMLPYS",
+  "modifier_data": {
+   "name": "pepperoni",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "FKDUX64QREG6HESQGM5SZYU7",
+  "modifier_data": {
+   "name": "vegan (all veg!)",
    "price_money": {
     "amount": 0
    }
