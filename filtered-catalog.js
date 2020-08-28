@@ -3596,15 +3596,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4W3H6MUMVJ7H5QPMTA775RJK",
-     "modifier_data": {
-      "name": "raspberry sour cream",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "NISM5NCVXD5UXFHSQOBCX5EL",
      "modifier_data": {
       "name": "milk chocolate + banana TWIST",
@@ -4512,15 +4503,6 @@ var catalog_raw=[
    "name": "tomato jam (v) (gv)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "4W3H6MUMVJ7H5QPMTA775RJK",
-  "modifier_data": {
-   "name": "raspberry sour cream",
-   "price_money": {
-    "amount": 300
    }
   }
  },
