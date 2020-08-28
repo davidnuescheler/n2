@@ -6661,6 +6661,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "GZJ3HIJSAIKDWK6FXSDDMYCC",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6837,6 +6846,15 @@ var catalog_raw=[
   "id": "FKDUX64QREG6HESQGM5SZYU7",
   "modifier_data": {
    "name": "vegan (all veg!)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "GZJ3HIJSAIKDWK6FXSDDMYCC",
+  "modifier_data": {
+   "name": "beehive",
    "price_money": {
     "amount": 0
    }
