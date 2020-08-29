@@ -185,15 +185,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6FBHLWGXRJZBYG2DNGWI6U4H",
-     "modifier_data": {
-      "name": "chocolate sprinkles",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
      "modifier_data": {
       "name": "sweet cream NORMAL DOTS",
@@ -6721,15 +6712,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "6FBHLWGXRJZBYG2DNGWI6U4H",
-  "modifier_data": {
-   "name": "chocolate sprinkles",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
