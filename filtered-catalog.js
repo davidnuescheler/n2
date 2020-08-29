@@ -6291,7 +6291,7 @@ var catalog_raw=[
   "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "happyYUM"
+   "name": "corndogYUM"
   }
  },
  {
@@ -6627,15 +6627,6 @@ var catalog_raw=[
    "name": "pizza option",
    "modifiers": [
     {
-     "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "7YEXAL3D4O45GSFUWVGMLPYS",
      "modifier_data": {
       "name": "pepperoni",
@@ -6663,15 +6654,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
-  "modifier_data": {
-   "name": "margherita",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
