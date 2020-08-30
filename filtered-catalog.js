@@ -4403,7 +4403,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "W5WI3ZPTHNMMCIXBRNWBZ53K"
     }
    ],
    "variations": [
@@ -6819,6 +6819,51 @@ var catalog_raw=[
   "id": "GZJ3HIJSAIKDWK6FXSDDMYCC",
   "modifier_data": {
    "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "W5WI3ZPTHNMMCIXBRNWBZ53K",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "cup only CC",
+   "modifiers": [
+    {
+     "id": "PJUDLDSSANUR4K7SP7TMFVLO",
+     "modifier_data": {
+      "name": "cup",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "CXHLPBBJH53AM6OK6HO4YMHY",
+     "modifier_data": {
+      "name": "cup + cone on top!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "PJUDLDSSANUR4K7SP7TMFVLO",
+  "modifier_data": {
+   "name": "cup",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CXHLPBBJH53AM6OK6HO4YMHY",
+  "modifier_data": {
+   "name": "cup + cone on top!",
    "price_money": {
     "amount": 0
    }
