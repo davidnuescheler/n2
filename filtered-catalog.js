@@ -6850,46 +6850,5 @@ var catalog_raw=[
     "amount": 0
    }
   }
- },
- {
-  "id": "VDRHMJXBQFT5TWAEKTB2NVGN",
-  "type": "ITEM",
-  "item_data": {
-   "name": "salted vanilla bean",
-   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
-    },
-    {
-     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
-    },
-    {
-     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
-    }
-   ],
-   "variations": [
-    {
-     "id": "LOXK736PGCPQO7OJOH2HAK4M",
-     "item_variation_data": {
-      "item_id": "VDRHMJXBQFT5TWAEKTB2NVGN",
-      "name": "half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "BFQPMCQCXIYMRYPZIGUGPMKD",
-     "item_variation_data": {
-      "item_id": "VDRHMJXBQFT5TWAEKTB2NVGN",
-      "name": "normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
  }
 ]
