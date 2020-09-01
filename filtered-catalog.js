@@ -230,15 +230,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JIH5BOBHV5W6EHVRLWGNXLWS",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "OV2F2ZNGILOVXMD26R734MF7",
      "modifier_data": {
       "name": "chocolate sprinkles (v) (gf)",
@@ -329,15 +320,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "JIH5BOBHV5W6EHVRLWGNXLWS",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
