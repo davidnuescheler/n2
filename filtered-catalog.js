@@ -6642,5 +6642,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "HJDBQZH5PCXFF3A6PI2VDBJR",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "belikejoe"
+  }
  }
 ]
