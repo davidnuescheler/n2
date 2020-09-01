@@ -6832,5 +6832,79 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "CVMOVN75J6NADSS7GEG4WMFW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "store cone",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
+    },
+    {
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    },
+    {
+     "modifier_list_id": "JEAVKSELLBC4LFKUJETJAXYV"
+    }
+   ],
+   "variations": [
+    {
+     "id": "4ABVBOTLCZ6NMPS5SCW3QAJ4",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FTB3AXSW64YLEZKYQ5LULXI3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "banana",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WNADR4CHF2IWAPBWR4YKKXTG",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "raspberry sour cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VAYDR6RFNONIEZ5XQFDJZHQ7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vanilla + peach TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LKVGD4EEIEWO643HL35BEDEK",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + banana TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
  }
 ]
