@@ -6295,9 +6295,27 @@ var catalog_raw=[
    "name": "pizza option",
    "modifiers": [
     {
+     "id": "4BAJVVTKB5B3NQKJWMSQGHWP",
+     "modifier_data": {
+      "name": "margherita",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "7YEXAL3D4O45GSFUWVGMLPYS",
      "modifier_data": {
       "name": "pepperoni",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "JBLFBYZZI7TOZUJTJSMU5POG",
+     "modifier_data": {
+      "name": "beehive",
       "price_money": {
        "amount": 0
       }
@@ -6657,6 +6675,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "4BAJVVTKB5B3NQKJWMSQGHWP",
+  "modifier_data": {
+   "name": "margherita",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JBLFBYZZI7TOZUJTJSMU5POG",
+  "modifier_data": {
+   "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
