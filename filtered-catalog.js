@@ -4096,26 +4096,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "D5JBUKKKA5K2WYM7WSIAKU73",
-  "type": "ITEM",
-  "item_data": {
-   "name": "make it a normal® day BAGGU bag",
-   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
-   "variations": [
-    {
-     "id": "GSKADBOMKEBVK2SPSETKM6BM",
-     "item_variation_data": {
-      "item_id": "D5JBUKKKA5K2WYM7WSIAKU73",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "FPGER3KRXCCAQHDM5DAXYAT2",
   "modifier_data": {
    "name": "peach (v)",
@@ -6638,6 +6618,45 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "belikejoe"
+  }
+ },
+ {
+  "id": "ZTJSGORTRS227LWQU2M6TYXE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "your vote, your voice sticker",
+   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
+   "variations": [
+    {
+     "id": "N5LTPQCHNJGXQHU3C2R4TS4Y",
+     "item_variation_data": {
+      "item_id": "ZTJSGORTRS227LWQU2M6TYXE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EF4FFNRU4AEAZ6FZG74X4GYH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "your vote, your voice sticker",
+   "variations": [
+    {
+     "id": "VEJV7E23JSR74GDWBFS32IAH",
+     "item_variation_data": {
+      "item_id": "EF4FFNRU4AEAZ6FZG74X4GYH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    }
+   ]
   }
  }
 ]
