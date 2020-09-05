@@ -5270,15 +5270,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YCQD3KNULXPUFOYT2D3ATKVY",
-     "modifier_data": {
-      "name": "pint of milk chocolate ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
       "name": "pint of banana ice cream",
@@ -5312,15 +5303,6 @@ var catalog_raw=[
   "id": "JGGSV6RDRISO3DJMT3LPH5OY",
   "modifier_data": {
    "name": "pint of peach ice cream (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "YCQD3KNULXPUFOYT2D3ATKVY",
-  "modifier_data": {
-   "name": "pint of milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
