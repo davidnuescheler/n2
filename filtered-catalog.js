@@ -6526,7 +6526,7 @@ var catalog_raw=[
      "id": "2OU56C35NA2AUPCIU5OCJDRE",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "peach (v)",
+      "name": "mango (v)",
       "price_money": {
        "amount": 0
       }
@@ -6546,7 +6546,7 @@ var catalog_raw=[
      "id": "FTB3AXSW64YLEZKYQ5LULXI3",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 0
       }
@@ -6556,7 +6556,7 @@ var catalog_raw=[
      "id": "WNADR4CHF2IWAPBWR4YKKXTG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "raspberry sour cream",
+      "name": "sweet corn",
       "price_money": {
        "amount": 0
       }
@@ -6678,6 +6678,41 @@ var catalog_raw=[
       "name": "normal",
       "price_money": {
        "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XDBNDZW2GYOYDDZOFIKLYKAV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "aziza",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "OE7CPVRO53H3EQQLNUQUAA7W",
+     "item_variation_data": {
+      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
+      "name": "normal",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "6DTPHVOIBXPBQNRLYF6FXPI4",
+     "item_variation_data": {
+      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
+      "name": "half",
+      "price_money": {
+       "amount": 500
       }
      }
     }
