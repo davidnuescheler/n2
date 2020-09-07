@@ -6638,5 +6638,45 @@ var catalog_raw=[
     "amount": 300
    }
   }
+ },
+ {
+  "id": "TXA6RUK5V6Y7MXSDUMOED6NT",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peach sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "F5H5FTTW3XJN2AFDP2MJOTRE",
+     "item_variation_data": {
+      "item_id": "TXA6RUK5V6Y7MXSDUMOED6NT",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "STDRG3UHNP36OST6JYOIQM42",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan vanilla! ice cream",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "XJ47JO2TEE7IJYRRPE56MX34",
+     "item_variation_data": {
+      "item_id": "STDRG3UHNP36OST6JYOIQM42",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
