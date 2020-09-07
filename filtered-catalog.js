@@ -3386,7 +3386,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "peach (v)",
+      "name": "mango (v)",
       "price_money": {
        "amount": 300
       }
@@ -3395,7 +3395,7 @@ var catalog_raw=[
     {
      "id": "257BXO5TXJKTOAEJQMM3RPSG",
      "modifier_data": {
-      "name": "vanilla + peach TWIST",
+      "name": "vanilla + mango TWIST",
       "price_money": {
        "amount": 300
       }
@@ -3413,7 +3413,7 @@ var catalog_raw=[
     {
      "id": "CGAN2H32QKZ27B43FAOB6Z5O",
      "modifier_data": {
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 300
       }
@@ -3422,7 +3422,16 @@ var catalog_raw=[
     {
      "id": "NISM5NCVXD5UXFHSQOBCX5EL",
      "modifier_data": {
-      "name": "milk chocolate + banana TWIST",
+      "name": "milk chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
+     "modifier_data": {
+      "name": "sweet corn",
       "price_money": {
        "amount": 300
       }
@@ -3443,7 +3452,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "peach (v)",
+   "name": "mango (v)",
    "price_money": {
     "amount": 300
    }
@@ -4070,7 +4079,7 @@ var catalog_raw=[
  {
   "id": "CGAN2H32QKZ27B43FAOB6Z5O",
   "modifier_data": {
-   "name": "banana",
+   "name": "brownie batter",
    "price_money": {
     "amount": 300
    }
@@ -4252,7 +4261,7 @@ var catalog_raw=[
  {
   "id": "NISM5NCVXD5UXFHSQOBCX5EL",
   "modifier_data": {
-   "name": "milk chocolate + banana TWIST",
+   "name": "milk chocolate + brownie batter TWIST",
    "price_money": {
     "amount": 300
    }
@@ -5974,7 +5983,7 @@ var catalog_raw=[
     {
      "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
      "modifier_data": {
-      "name": "strawberry milk",
+      "name": "vegan vanilla! (v)",
       "price_money": {
        "amount": 300
       }
@@ -5983,7 +5992,7 @@ var catalog_raw=[
     {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
-      "name": "pineapple (v)",
+      "name": "rhubarb sorbet  (v)",
       "price_money": {
        "amount": 300
       }
@@ -5992,7 +6001,7 @@ var catalog_raw=[
     {
      "id": "UM4WAEHGILERHWPNYJNGIPHV",
      "modifier_data": {
-      "name": "strawberry + pineapple TWIST",
+      "name": "vegan vanilla + rhubarb TWIST (v)",
       "price_money": {
        "amount": 300
       }
@@ -6001,7 +6010,7 @@ var catalog_raw=[
     {
      "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
      "modifier_data": {
-      "name": "mascarpone",
+      "name": "coffee",
       "price_money": {
        "amount": 300
       }
@@ -6010,7 +6019,7 @@ var catalog_raw=[
     {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
-      "name": "oreo milk (v)",
+      "name": "caramel corn",
       "price_money": {
        "amount": 300
       }
@@ -6019,7 +6028,7 @@ var catalog_raw=[
     {
      "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
      "modifier_data": {
-      "name": "mascarpone + oreo milk TWIST",
+      "name": "coffee + caramel corn TWIST",
       "price_money": {
        "amount": 300
       }
@@ -6040,7 +6049,7 @@ var catalog_raw=[
  {
   "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
   "modifier_data": {
-   "name": "strawberry milk",
+   "name": "vegan vanilla! (v)",
    "price_money": {
     "amount": 300
    }
@@ -6049,7 +6058,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "pineapple (v)",
+   "name": "rhubarb sorbet  (v)",
    "price_money": {
     "amount": 300
    }
@@ -6058,7 +6067,7 @@ var catalog_raw=[
  {
   "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
   "modifier_data": {
-   "name": "mascarpone",
+   "name": "coffee",
    "price_money": {
     "amount": 300
    }
@@ -6067,7 +6076,7 @@ var catalog_raw=[
  {
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
-   "name": "oreo milk (v)",
+   "name": "caramel corn",
    "price_money": {
     "amount": 300
    }
@@ -6076,7 +6085,7 @@ var catalog_raw=[
  {
   "id": "UM4WAEHGILERHWPNYJNGIPHV",
   "modifier_data": {
-   "name": "strawberry + pineapple TWIST",
+   "name": "vegan vanilla + rhubarb TWIST (v)",
    "price_money": {
     "amount": 300
    }
@@ -6085,7 +6094,7 @@ var catalog_raw=[
  {
   "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
   "modifier_data": {
-   "name": "mascarpone + oreo milk TWIST",
+   "name": "coffee + caramel corn TWIST",
    "price_money": {
     "amount": 300
    }
@@ -6244,7 +6253,7 @@ var catalog_raw=[
  {
   "id": "257BXO5TXJKTOAEJQMM3RPSG",
   "modifier_data": {
-   "name": "vanilla + peach TWIST",
+   "name": "vanilla + mango TWIST",
    "price_money": {
     "amount": 300
    }
@@ -6646,6 +6655,15 @@ var catalog_raw=[
    "name": "vegan vanilla NORMAL DOTS (v) (gf)",
    "price_money": {
     "amount": 150
+   }
+  }
+ },
+ {
+  "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
+  "modifier_data": {
+   "name": "sweet corn",
+   "price_money": {
+    "amount": 300
    }
   }
  }
