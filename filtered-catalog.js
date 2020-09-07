@@ -6678,5 +6678,125 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "OQSI5B3DZXGXJXW6LGTFTDHS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cookie butter + cake exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "3WZCPOOPRECZDKUMHWLCGWKC",
+     "item_variation_data": {
+      "item_id": "OQSI5B3DZXGXJXW6LGTFTDHS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VOOED3JUF2MJ3WHHPRZYSBZJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "blueberry abomination exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "5L7VNIYWU2PQXOC6F2KC3CR3",
+     "item_variation_data": {
+      "item_id": "VOOED3JUF2MJ3WHHPRZYSBZJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "2ZPOIIF5FJOIMSESSWGNGOA2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "goat cheese + cherry exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "Q3PYHYTVYP6OERG2J3PNTBCK",
+     "item_variation_data": {
+      "item_id": "2ZPOIIF5FJOIMSESSWGNGOA2",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "OGGCTR56SZV4KD75ZHBCH6RY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "strawberry balsamic exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "OIRD2UABNUT5MY4KQI2VJ2ID",
+     "item_variation_data": {
+      "item_id": "OGGCTR56SZV4KD75ZHBCH6RY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "REGZ2KWK7JWBP3F2N2UYB74W",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peanut milk + fudge exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "M2FRJVVQHZJVKIATEBYIRKZG",
+     "item_variation_data": {
+      "item_id": "REGZ2KWK7JWBP3F2N2UYB74W",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TZL77U7HWEK7T3GSUI5DUER7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ube + yuzu exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "NNR47OHGOXKHWLBJUJOUABIH",
+     "item_variation_data": {
+      "item_id": "TZL77U7HWEK7T3GSUI5DUER7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
