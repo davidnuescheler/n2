@@ -49,15 +49,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
-     "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
      "modifier_data": {
       "name": "malt balls (gf)",
@@ -3837,15 +3828,6 @@ var catalog_raw=[
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "HNI5W3JCDMENH6WYMM4RLGCI",
-  "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
    }
