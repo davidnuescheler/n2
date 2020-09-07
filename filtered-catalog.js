@@ -110,15 +110,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "CJIC4W737MHWERRR5INB7V4L",
-     "modifier_data": {
-      "name": "vegan vanilla NORMAL DOTS (v) (gf)",
-      "price_money": {
-       "amount": 150
-      }
-     }
     }
    ]
   }
@@ -6646,15 +6637,6 @@ var catalog_raw=[
    "name": "pistachio kanufa",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "CJIC4W737MHWERRR5INB7V4L",
-  "modifier_data": {
-   "name": "vegan vanilla NORMAL DOTS (v) (gf)",
-   "price_money": {
-    "amount": 150
    }
   }
  },
