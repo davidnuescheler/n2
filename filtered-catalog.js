@@ -177,7 +177,7 @@ var catalog_raw=[
     {
      "id": "JY6NIYOH43SEGGHPSURFL2LP",
      "modifier_data": {
-      "name": "tajin meringue (v)",
+      "name": "tajin meringue (v)(gf)",
       "price_money": {
        "amount": 75
       }
@@ -186,7 +186,7 @@ var catalog_raw=[
     {
      "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
      "modifier_data": {
-      "name": "lime fluid gel",
+      "name": "lime caramel (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -195,7 +195,7 @@ var catalog_raw=[
     {
      "id": "J3Z4PLUU34QDCAA36N6FNCX4",
      "modifier_data": {
-      "name": "passion fruit caramel",
+      "name": "passion fruit caramel (gf)",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +204,7 @@ var catalog_raw=[
     {
      "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
      "modifier_data": {
-      "name": "hot fudge",
+      "name": "hot fudge (gf)",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +222,7 @@ var catalog_raw=[
     {
      "id": "AZNR646FEVK63TAXVCZ3CYWX",
      "modifier_data": {
-      "name": "orange blossom fluid gel",
+      "name": "orange blossom water (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -2145,7 +2145,7 @@ var catalog_raw=[
     {
      "id": "FPGER3KRXCCAQHDM5DAXYAT2",
      "modifier_data": {
-      "name": "peach (v)",
+      "name": "mango (v)",
       "price_money": {
        "amount": 0
       }
@@ -2154,7 +2154,7 @@ var catalog_raw=[
     {
      "id": "K7EIASHSOLKSYHJXBQL7AG22",
      "modifier_data": {
-      "name": "vanilla + peach TWIST",
+      "name": "vanilla + mango TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2172,7 +2172,7 @@ var catalog_raw=[
     {
      "id": "UMJVQBV35FCSMQHTQRY3D6QU",
      "modifier_data": {
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 0
       }
@@ -2181,7 +2181,7 @@ var catalog_raw=[
     {
      "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
      "modifier_data": {
-      "name": "milk chocolate + banana twist",
+      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2190,7 +2190,7 @@ var catalog_raw=[
     {
      "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
      "modifier_data": {
-      "name": "raspberry sour cream",
+      "name": "sweet corn",
       "price_money": {
        "amount": 0
       }
@@ -4088,7 +4088,7 @@ var catalog_raw=[
  {
   "id": "FPGER3KRXCCAQHDM5DAXYAT2",
   "modifier_data": {
-   "name": "peach (v)",
+   "name": "mango (v)",
    "price_money": {
     "amount": 0
    }
@@ -4192,7 +4192,7 @@ var catalog_raw=[
  {
   "id": "UMJVQBV35FCSMQHTQRY3D6QU",
   "modifier_data": {
-   "name": "banana",
+   "name": "brownie batter",
    "price_money": {
     "amount": 0
    }
@@ -4252,7 +4252,7 @@ var catalog_raw=[
  {
   "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
   "modifier_data": {
-   "name": "milk chocolate + banana twist",
+   "name": "milk chocolate + brownie batter TWIST",
    "price_money": {
     "amount": 0
    }
@@ -6197,7 +6197,7 @@ var catalog_raw=[
  {
   "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
   "modifier_data": {
-   "name": "raspberry sour cream",
+   "name": "sweet corn",
    "price_money": {
     "amount": 0
    }
@@ -6271,7 +6271,7 @@ var catalog_raw=[
  {
   "id": "K7EIASHSOLKSYHJXBQL7AG22",
   "modifier_data": {
-   "name": "vanilla + peach TWIST",
+   "name": "vanilla + mango TWIST",
    "price_money": {
     "amount": 0
    }
@@ -6391,6 +6391,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "VAYDR6RFNONIEZ5XQFDJZHQ7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vanilla + mango TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "4ABVBOTLCZ6NMPS5SCW3QAJ4",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -6411,30 +6421,20 @@ var catalog_raw=[
      }
     },
     {
+     "id": "LKVGD4EEIEWO643HL35BEDEK",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "WNADR4CHF2IWAPBWR4YKKXTG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "sweet corn",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VAYDR6RFNONIEZ5XQFDJZHQ7",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + peach TWIST",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LKVGD4EEIEWO643HL35BEDEK",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + banana TWIST",
       "price_money": {
        "amount": 0
       }
@@ -6589,7 +6589,7 @@ var catalog_raw=[
  {
   "id": "JY6NIYOH43SEGGHPSURFL2LP",
   "modifier_data": {
-   "name": "tajin meringue (v)",
+   "name": "tajin meringue (v)(gf)",
    "price_money": {
     "amount": 75
    }
@@ -6598,7 +6598,7 @@ var catalog_raw=[
  {
   "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
   "modifier_data": {
-   "name": "lime fluid gel",
+   "name": "lime caramel (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6607,7 +6607,7 @@ var catalog_raw=[
  {
   "id": "J3Z4PLUU34QDCAA36N6FNCX4",
   "modifier_data": {
-   "name": "passion fruit caramel",
+   "name": "passion fruit caramel (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6616,7 +6616,7 @@ var catalog_raw=[
  {
   "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
   "modifier_data": {
-   "name": "hot fudge",
+   "name": "hot fudge (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6634,7 +6634,7 @@ var catalog_raw=[
  {
   "id": "AZNR646FEVK63TAXVCZ3CYWX",
   "modifier_data": {
-   "name": "orange blossom fluid gel",
+   "name": "orange blossom water (v) (gf)",
    "price_money": {
     "amount": 75
    }
