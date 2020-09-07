@@ -148,15 +148,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7D4NONK4RGSZS7ECL76ENLAS",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "JY6NIYOH43SEGGHPSURFL2LP",
      "modifier_data": {
       "name": "tajin meringue (v)(gf)",
@@ -6538,15 +6529,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "7D4NONK4RGSZS7ECL76ENLAS",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
