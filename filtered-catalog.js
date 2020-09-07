@@ -4124,7 +4124,7 @@ var catalog_raw=[
   "id": "4QNNVRAYDLWIPGOBU2I6H3KU",
   "type": "ITEM",
   "item_data": {
-   "name": "chocolate (2)",
+   "name": "chocolate squared",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
