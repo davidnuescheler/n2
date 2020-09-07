@@ -3879,7 +3879,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "strawberry milk",
+      "name": "vegan vanilla! (v)",
       "price_money": {
        "amount": 0
       }
@@ -3888,7 +3888,7 @@ var catalog_raw=[
     {
      "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
      "modifier_data": {
-      "name": "pineapple (v)",
+      "name": "rhubarb sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -3897,7 +3897,7 @@ var catalog_raw=[
     {
      "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
      "modifier_data": {
-      "name": "strawberry milk pineapple twist",
+      "name": "vegan vanilla + rhubarb twist",
       "price_money": {
        "amount": 0
       }
@@ -3906,7 +3906,7 @@ var catalog_raw=[
     {
      "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
      "modifier_data": {
-      "name": "mascarpone",
+      "name": "coffee",
       "price_money": {
        "amount": 0
       }
@@ -3915,7 +3915,7 @@ var catalog_raw=[
     {
      "id": "MREZZAWBX5CLFPLYRULORKKH",
      "modifier_data": {
-      "name": "oreo milk (v)",
+      "name": "caramel corn",
       "price_money": {
        "amount": 0
       }
@@ -3924,7 +3924,7 @@ var catalog_raw=[
     {
      "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
      "modifier_data": {
-      "name": "oreo milk mascarpone twist",
+      "name": "coffee + caramel corn twist",
       "price_money": {
        "amount": 0
       }
@@ -3936,7 +3936,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "strawberry milk",
+   "name": "vegan vanilla! (v)",
    "price_money": {
     "amount": 0
    }
@@ -3945,7 +3945,7 @@ var catalog_raw=[
  {
   "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
   "modifier_data": {
-   "name": "pineapple (v)",
+   "name": "rhubarb sorbet (v)",
    "price_money": {
     "amount": 0
    }
@@ -4045,7 +4045,7 @@ var catalog_raw=[
  {
   "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
   "modifier_data": {
-   "name": "strawberry milk pineapple twist",
+   "name": "vegan vanilla + rhubarb twist",
    "price_money": {
     "amount": 0
    }
@@ -4438,7 +4438,7 @@ var catalog_raw=[
  {
   "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
   "modifier_data": {
-   "name": "mascarpone",
+   "name": "coffee",
    "price_money": {
     "amount": 0
    }
@@ -6208,7 +6208,7 @@ var catalog_raw=[
  {
   "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
   "modifier_data": {
-   "name": "oreo milk mascarpone twist",
+   "name": "coffee + caramel corn twist",
    "price_money": {
     "amount": 0
    }
@@ -6217,7 +6217,7 @@ var catalog_raw=[
  {
   "id": "MREZZAWBX5CLFPLYRULORKKH",
   "modifier_data": {
-   "name": "oreo milk (v)",
+   "name": "caramel corn",
    "price_money": {
     "amount": 0
    }
