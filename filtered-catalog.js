@@ -4288,7 +4288,7 @@ var catalog_raw=[
   "id": "VJW7WWBPRNB27UKDG7BXZDFX",
   "type": "ITEM",
   "item_data": {
-   "name": "we love junk food (v)",
+   "name": "not fair",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -4297,22 +4297,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "6URG3PMIT6PAPH5D56TFSH44",
-     "item_variation_data": {
-      "item_id": "VJW7WWBPRNB27UKDG7BXZDFX",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "WRC7STVVW2SDVD4SJX3GQYHY",
      "item_variation_data": {
       "item_id": "VJW7WWBPRNB27UKDG7BXZDFX",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "6URG3PMIT6PAPH5D56TFSH44",
+     "item_variation_data": {
+      "item_id": "VJW7WWBPRNB27UKDG7BXZDFX",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
