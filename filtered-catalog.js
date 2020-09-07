@@ -4089,7 +4089,7 @@ var catalog_raw=[
   "id": "QXRQNGNLL3BLPI3LTEARMIFC",
   "type": "ITEM",
   "item_data": {
-   "name": "peach crisp (v)",
+   "name": "sweet & spicy",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -4124,7 +4124,7 @@ var catalog_raw=[
   "id": "4QNNVRAYDLWIPGOBU2I6H3KU",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream",
+   "name": "black out",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6653,11 +6653,33 @@ var catalog_raw=[
   "id": "G4H3J2WPAQC2V4LAKLR5FZWR",
   "type": "ITEM",
   "item_data": {
-   "name": "sweet & spicy",
+   "name": "something corny",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
      "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "3RLI57KFNCG3QA76JX5VSGAJ",
+     "item_variation_data": {
+      "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
+      "name": "half",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "FJDLTHUUJDOL5VX5FJAHVQCM",
+     "item_variation_data": {
+      "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
+      "name": "normal",
+      "price_money": {
+       "amount": 700
+      }
+     }
     }
    ]
   }
