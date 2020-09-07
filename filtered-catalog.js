@@ -42,7 +42,7 @@ var catalog_raw=[
     {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
-      "name": "cookie butter (v)",
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -51,7 +51,7 @@ var catalog_raw=[
     {
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
-      "name": "mallow fluff (gf)",
+      "name": "chocolate sprinkles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -60,7 +60,7 @@ var catalog_raw=[
     {
      "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
      "modifier_data": {
-      "name": "ritz bits",
+      "name": "malt balls (gf)",
       "price_money": {
        "amount": 75
       }
@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
-      "name": "tomato jam (v) (gv)",
+      "name": "salted caramel (gf)",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
      "modifier_data": {
-      "name": "brown butter crumble (gf)",
+      "name": "toasted meringue bits (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +87,7 @@ var catalog_raw=[
     {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
-      "name": "potato chip crumb (v)",
+      "name": "strawberry jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +96,7 @@ var catalog_raw=[
     {
      "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
      "modifier_data": {
-      "name": "oreo crumble (v)",
+      "name": "caramel corn (gf)",
       "price_money": {
        "amount": 75
       }
@@ -105,9 +105,18 @@ var catalog_raw=[
     {
      "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
      "modifier_data": {
-      "name": "sweet cream NORMAL DOTS",
+      "name": "butter popcorn cotton candy (gf)",
       "price_money": {
-       "amount": 300
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "CJIC4W737MHWERRR5INB7V4L",
+     "modifier_data": {
+      "name": "vegan vanilla NORMAL DOTS (v) (gf)",
+      "price_money": {
+       "amount": 150
       }
      }
     }
@@ -3846,7 +3855,7 @@ var catalog_raw=[
  {
   "id": "HNI5W3JCDMENH6WYMM4RLGCI",
   "modifier_data": {
-   "name": "mallow fluff (gf)",
+   "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -3864,7 +3873,7 @@ var catalog_raw=[
  {
   "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
   "modifier_data": {
-   "name": "cookie butter (v)",
+   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4216,7 +4225,7 @@ var catalog_raw=[
  {
   "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
   "modifier_data": {
-   "name": "ritz bits",
+   "name": "malt balls (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4225,7 +4234,7 @@ var catalog_raw=[
  {
   "id": "SYLKJ574KP7QONMEIUV7XZRH",
   "modifier_data": {
-   "name": "tomato jam (v) (gv)",
+   "name": "salted caramel (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4420,7 +4429,7 @@ var catalog_raw=[
  {
   "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
   "modifier_data": {
-   "name": "brown butter crumble (gf)",
+   "name": "toasted meringue bits (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4429,7 +4438,7 @@ var catalog_raw=[
  {
   "id": "62XEBWLYZELZ4SFORGKYKRZ4",
   "modifier_data": {
-   "name": "potato chip crumb (v)",
+   "name": "strawberry jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4612,7 +4621,7 @@ var catalog_raw=[
  {
   "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
   "modifier_data": {
-   "name": "oreo crumble (v)",
+   "name": "caramel corn (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6085,9 +6094,9 @@ var catalog_raw=[
  {
   "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
   "modifier_data": {
-   "name": "sweet cream NORMAL DOTS",
+   "name": "butter popcorn cotton candy (gf)",
    "price_money": {
-    "amount": 300
+    "amount": 75
    }
   }
  },
@@ -6628,6 +6637,15 @@ var catalog_raw=[
    "name": "pistachio kanufa",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "CJIC4W737MHWERRR5INB7V4L",
+  "modifier_data": {
+   "name": "vegan vanilla NORMAL DOTS (v) (gf)",
+   "price_money": {
+    "amount": 150
    }
   }
  }
