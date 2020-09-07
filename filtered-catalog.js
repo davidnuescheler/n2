@@ -4089,22 +4089,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
-     "item_variation_data": {
-      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "NAC4VMTQ5YJ2TW7LEUCXKASG",
      "item_variation_data": {
       "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
+     "item_variation_data": {
+      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
@@ -4124,16 +4124,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "NGJGV5Z47X7IGIQIGRTOEBNF",
-     "item_variation_data": {
-      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "5ESTD5H57KU26GQVWTAFVZRP",
      "item_variation_data": {
       "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
@@ -4142,39 +4132,14 @@ var catalog_raw=[
        "amount": 500
       }
      }
-    }
-   ]
-  }
- },
- {
-  "id": "XS7SGE326XBYV77NRAF6732R",
-  "type": "ITEM",
-  "item_data": {
-   "name": "lake trippin'",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
+    },
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "V75CU5FOPW6R7ORSNOMS46SJ",
+     "id": "NGJGV5Z47X7IGIQIGRTOEBNF",
      "item_variation_data": {
-      "item_id": "XS7SGE326XBYV77NRAF6732R",
+      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
       "name": "normal size",
       "price_money": {
        "amount": 700
-      }
-     }
-    },
-    {
-     "id": "HEQCFFPDEBM5PUJD7NVNYMNS",
-     "item_variation_data": {
-      "item_id": "XS7SGE326XBYV77NRAF6732R",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
       }
      }
     }
@@ -4288,7 +4253,7 @@ var catalog_raw=[
   "id": "JREYRBOPGVVZK6EJGQN4HZMD",
   "type": "ITEM",
   "item_data": {
-   "name": "farmer's market",
+   "name": "pie in the sky (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -4297,22 +4262,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "UCCGDWXMG6OX7U4S632YMTI5",
-     "item_variation_data": {
-      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "SGUUVI7L4WIWSUEJRRQW3MFO",
      "item_variation_data": {
       "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "UCCGDWXMG6OX7U4S632YMTI5",
+     "item_variation_data": {
+      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
@@ -4358,7 +4323,7 @@ var catalog_raw=[
   "id": "LU42JEYWOAQGA53XFT4HPVTZ",
   "type": "ITEM",
   "item_data": {
-   "name": "butter berry",
+   "name": "malted coffee",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -4367,22 +4332,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "XTIVHVK3Y52AOLMSJD532UJW",
-     "item_variation_data": {
-      "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "PE4PC2X376FTAAY7F5MJOCQ3",
      "item_variation_data": {
       "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "XTIVHVK3Y52AOLMSJD532UJW",
+     "item_variation_data": {
+      "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
@@ -6572,22 +6537,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "OE7CPVRO53H3EQQLNUQUAA7W",
-     "item_variation_data": {
-      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "6DTPHVOIBXPBQNRLYF6FXPI4",
      "item_variation_data": {
       "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "OE7CPVRO53H3EQQLNUQUAA7W",
+     "item_variation_data": {
+      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
