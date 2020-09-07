@@ -4115,7 +4115,7 @@ var catalog_raw=[
   "id": "4QNNVRAYDLWIPGOBU2I6H3KU",
   "type": "ITEM",
   "item_data": {
-   "name": "black out",
+   "name": "chocolate (2)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -4197,41 +4197,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 100
    }
-  }
- },
- {
-  "id": "KM2TCTW7LCTUGCAUXBYSPL5D",
-  "type": "ITEM",
-  "item_data": {
-   "name": "bee's knees",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "W5WI3ZPTHNMMCIXBRNWBZ53K"
-    }
-   ],
-   "variations": [
-    {
-     "id": "PNE3B6WPDP5MIH4ZNCBZDG4Z",
-     "item_variation_data": {
-      "item_id": "KM2TCTW7LCTUGCAUXBYSPL5D",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
-     "id": "FR5SS4W7KT3U4FRT3R72LXV2",
-     "item_variation_data": {
-      "item_id": "KM2TCTW7LCTUGCAUXBYSPL5D",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -6575,7 +6540,7 @@ var catalog_raw=[
      "id": "3RLI57KFNCG3QA76JX5VSGAJ",
      "item_variation_data": {
       "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
-      "name": "half",
+      "name": "half size",
       "price_money": {
        "amount": 500
       }
@@ -6585,7 +6550,7 @@ var catalog_raw=[
      "id": "FJDLTHUUJDOL5VX5FJAHVQCM",
      "item_variation_data": {
       "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
-      "name": "normal",
+      "name": "normal size",
       "price_money": {
        "amount": 700
       }
@@ -6610,7 +6575,7 @@ var catalog_raw=[
      "id": "OE7CPVRO53H3EQQLNUQUAA7W",
      "item_variation_data": {
       "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-      "name": "normal",
+      "name": "normal size",
       "price_money": {
        "amount": 700
       }
@@ -6620,7 +6585,7 @@ var catalog_raw=[
      "id": "6DTPHVOIBXPBQNRLYF6FXPI4",
      "item_variation_data": {
       "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-      "name": "half",
+      "name": "half size",
       "price_money": {
        "amount": 500
       }
