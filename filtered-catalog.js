@@ -6648,5 +6648,18 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "G4H3J2WPAQC2V4LAKLR5FZWR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "sweet & spicy",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ]
+  }
  }
 ]
