@@ -6155,50 +6155,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2OU56C35NA2AUPCIU5OCJDRE",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "mango (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VAYDR6RFNONIEZ5XQFDJZHQ7",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + mango TWIST",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "4ABVBOTLCZ6NMPS5SCW3QAJ4",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FTB3AXSW64YLEZKYQ5LULXI3",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "brownie batter",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LKVGD4EEIEWO643HL35BEDEK",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
