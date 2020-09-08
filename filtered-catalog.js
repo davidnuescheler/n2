@@ -3858,24 +3858,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
-     "modifier_data": {
-      "name": "rhubarb sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
-     "modifier_data": {
-      "name": "vegan vanilla + rhubarb twist",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
      "modifier_data": {
       "name": "coffee",
@@ -3909,15 +3891,6 @@ var catalog_raw=[
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
    "name": "vegan vanilla! (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
-  "modifier_data": {
-   "name": "rhubarb sorbet (v)",
    "price_money": {
     "amount": 0
    }
@@ -4009,15 +3982,6 @@ var catalog_raw=[
   "id": "RK6BJKAS3V753NS6YSDJV5PX",
   "modifier_data": {
    "name": "no dip",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
-  "modifier_data": {
-   "name": "vegan vanilla + rhubarb twist",
    "price_money": {
     "amount": 0
    }
