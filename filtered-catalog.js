@@ -2106,45 +2106,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FPGER3KRXCCAQHDM5DAXYAT2",
-     "modifier_data": {
-      "name": "mango (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "K7EIASHSOLKSYHJXBQL7AG22",
-     "modifier_data": {
-      "name": "vanilla + mango TWIST",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "2ODB3QSVELCV2PIOKOFMP3O5",
      "modifier_data": {
       "name": "milk chocolate",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UMJVQBV35FCSMQHTQRY3D6QU",
-     "modifier_data": {
-      "name": "brownie batter",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
-     "modifier_data": {
-      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3347,45 +3311,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "R42VX2AH6AO4PXF62VJHIZPN",
-     "modifier_data": {
-      "name": "mango (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "257BXO5TXJKTOAEJQMM3RPSG",
-     "modifier_data": {
-      "name": "vanilla + mango TWIST",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
      "modifier_data": {
       "name": "milk chocolate",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "CGAN2H32QKZ27B43FAOB6Z5O",
-     "modifier_data": {
-      "name": "brownie batter",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "NISM5NCVXD5UXFHSQOBCX5EL",
-     "modifier_data": {
-      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 300
       }
@@ -3407,15 +3335,6 @@ var catalog_raw=[
   "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
   "modifier_data": {
    "name": "milk chocolate",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "R42VX2AH6AO4PXF62VJHIZPN",
-  "modifier_data": {
-   "name": "mango (v)",
    "price_money": {
     "amount": 300
    }
@@ -3995,24 +3914,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CGAN2H32QKZ27B43FAOB6Z5O",
-  "modifier_data": {
-   "name": "brownie batter",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "FPGER3KRXCCAQHDM5DAXYAT2",
-  "modifier_data": {
-   "name": "mango (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "QXRQNGNLL3BLPI3LTEARMIFC",
   "type": "ITEM",
   "item_data": {
@@ -4108,15 +4009,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UMJVQBV35FCSMQHTQRY3D6QU",
-  "modifier_data": {
-   "name": "brownie batter",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "KQSKXASXRGBAAXUKURZ6KGFE",
   "type": "ITEM",
   "item_data": {
@@ -4164,24 +4056,6 @@ var catalog_raw=[
    "name": "salted caramel (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
-  "modifier_data": {
-   "name": "milk chocolate + brownie batter TWIST",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "NISM5NCVXD5UXFHSQOBCX5EL",
-  "modifier_data": {
-   "name": "milk chocolate + brownie batter TWIST",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -6169,27 +6043,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "257BXO5TXJKTOAEJQMM3RPSG",
-  "modifier_data": {
-   "name": "vanilla + mango TWIST",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
   "modifier_data": {
    "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "K7EIASHSOLKSYHJXBQL7AG22",
-  "modifier_data": {
-   "name": "vanilla + mango TWIST",
    "price_money": {
     "amount": 0
    }
