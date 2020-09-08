@@ -2106,6 +2106,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "SEAOEWQP6UAQGF7FV55DQEJY",
+     "modifier_data": {
+      "name": "mango",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
+     "modifier_data": {
+      "name": "vanilla + mango TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "2ODB3QSVELCV2PIOKOFMP3O5",
      "modifier_data": {
       "name": "milk chocolate",
@@ -3305,6 +3323,24 @@ var catalog_raw=[
      "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
      "modifier_data": {
       "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
+     "modifier_data": {
+      "name": "mango",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "32WAXIATL7IY3W3IPZMSJDWW",
+     "modifier_data": {
+      "name": "vanilla + mango TWIST",
       "price_money": {
        "amount": 300
       }
@@ -6155,6 +6191,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "R4LRAHNAWRL627VSKEO7AGL5",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "mango",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BXZWHKMKFUMP7IVCNAFNJRDU",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vanilla + mango TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "4ABVBOTLCZ6NMPS5SCW3QAJ4",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -6541,6 +6597,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
+  "modifier_data": {
+   "name": "mango",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "32WAXIATL7IY3W3IPZMSJDWW",
+  "modifier_data": {
+   "name": "vanilla + mango TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "SEAOEWQP6UAQGF7FV55DQEJY",
+  "modifier_data": {
+   "name": "mango",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
+  "modifier_data": {
+   "name": "vanilla + mango TWIST",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
