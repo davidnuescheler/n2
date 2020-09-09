@@ -3813,6 +3813,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
+     "modifier_data": {
+      "name": "rhubarb sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
+     "modifier_data": {
+      "name": "vegan vanilla + rhubarb TWIST (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
      "modifier_data": {
       "name": "coffee",
@@ -6640,6 +6658,24 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "WEMADEAMISTAKE"
+  }
+ },
+ {
+  "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
+  "modifier_data": {
+   "name": "rhubarb sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
+  "modifier_data": {
+   "name": "vegan vanilla + rhubarb TWIST (v)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
