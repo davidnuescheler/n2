@@ -6634,5 +6634,12 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "OE7CHNBUZGA3ZU5UV7AMZUPR",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "WEMADEAMISTAKE"
+  }
  }
 ]
