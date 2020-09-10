@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
-     "modifier_data": {
-      "name": "toasted meringue bits (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
       "name": "strawberry jam (v) (gf)",
@@ -4278,15 +4269,6 @@ var catalog_raw=[
    "name": "dark chocolate crunch",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
-  "modifier_data": {
-   "name": "toasted meringue bits (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
