@@ -863,7 +863,7 @@ function displayThanks(payment){
 
     var textElem=document.getElementById("text-link");
     var msg=`hi normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
-    var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
+    var smshref=`sms://+1${labels.store_phone.replace(/\D/g,'')}/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
     textElem.setAttribute("href", smshref);
 
     cart.clear();
@@ -1463,7 +1463,7 @@ function initCart() {
             <div class="thankyou order-ahead hidden">
                 <h3 class="warning">${labels.checkout_orderaheadthanks}</h3>
                 <p>
-                <a id="text-link" href="sms://+13852995418/">(385)299-5418</a>
+                <a id="text-link" href="sms://+1${labels.store_phone.replace(/\D/g,'')}/">${labels.store_phone}</a>
                 </p>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
