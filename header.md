@@ -8,6 +8,7 @@
 :close:
 
 - [:arrow: home](/)
-- [:arrow: store](/store.html)
-- [:arrow: lab](/lab.html)
-- [:arrow: pint club](/pint-club.html)
+- [:arrow: store](/store)
+- [:arrow: lab](/lab)
+- [:arrow: pint club](/pint-club)
+- [:arrow: catering](/catering)
