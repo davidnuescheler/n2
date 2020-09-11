@@ -1927,7 +1927,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     await fetchLabels();
     setLocation();
     setColors();
-    fixIcons();
+    //fixIcons();
     classify();
     hamburger();
     classifyAddToCartLinks();

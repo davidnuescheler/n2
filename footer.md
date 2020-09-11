@@ -1,5 +1,5 @@
 
-- [:instagram:](https://instagram.com/normal.club)
+- [:#instagram:](https://instagram.com/normal.club)
 
 ---
 id: cart
