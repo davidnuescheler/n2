@@ -49,15 +49,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
-     "modifier_data": {
-      "name": "malt balls (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -4081,15 +4072,6 @@ var catalog_raw=[
   "id": "OV2F2ZNGILOVXMD26R734MF7",
   "modifier_data": {
    "name": "chocolate sprinkles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
-  "modifier_data": {
-   "name": "malt balls (gf)",
    "price_money": {
     "amount": 75
    }
