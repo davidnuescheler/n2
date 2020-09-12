@@ -6797,5 +6797,64 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "OEILY3UKJOZ5JGOYS63JAK2R",
+  "type": "ITEM",
+  "item_data": {
+   "name": "exclusive pint",
+   "variations": [
+    {
+     "id": "EGYPJ5Q5TS63TNDAQ4FXD5NV",
+     "item_variation_data": {
+      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
+      "name": "coava coffee + praline",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "4Y3CTL3G34XVM6Q7FU3EN3FQ",
+     "item_variation_data": {
+      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
+      "name": "tangerine sorbet",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "WW6YERPTQLL6PBNCH6IK6RCM",
+     "item_variation_data": {
+      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
+      "name": "rosemary + choc ganache",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "UZHBSXXVXHZKXL6G2V3UUSQI",
+     "item_variation_data": {
+      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
+      "name": "orange blossoom",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "LWAJWYAB2MPVFAPLRKTJ5F2Z",
+     "item_variation_data": {
+      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
+      "name": "peach + balsamic",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
