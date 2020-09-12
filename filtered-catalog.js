@@ -74,15 +74,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
-     "modifier_data": {
-      "name": "butter popcorn cotton candy (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -5869,15 +5860,6 @@ var catalog_raw=[
    "name": "coffee + caramel corn TWIST",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
-  "modifier_data": {
-   "name": "butter popcorn cotton candy (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
