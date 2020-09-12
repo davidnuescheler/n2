@@ -671,7 +671,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "matcha (green tea) pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "EHRW7UKN63JML4QW2SL7CLVN",
@@ -711,7 +710,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "6D3TJUDP6LHFNMKDAJAV3CNF",
@@ -731,7 +729,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut sorbet pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "Y5WYZKLOHC572S33PL7C3F6U",
@@ -751,7 +748,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon cheesecake pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SI4CYNYMVPKZGCNJSSTXBDF5",
@@ -771,7 +767,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mango pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SF2QDKYBFYV2DK3Z5SOIPYKI",
@@ -811,7 +806,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ube (purple sweet potato) pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "72JABP3GH2WWATYC3YSIOTA5",
@@ -891,7 +885,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "dark chocolate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "WCLKUEZZXSHLGVQJ57YY6UEE",
@@ -911,7 +904,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blood orange pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "PB7DDU2C4YUOVCOCP4YFE56C",
@@ -971,7 +963,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal mint chip pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "3N2RTTFFKEOI2FDVHX2YWAVP",
@@ -991,7 +982,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "malted coffee pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZXI6RNKLTDEBE6P7DRQD5FP4",
@@ -1011,7 +1001,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "sweet corn + passionfruit pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "LL6SKFDENU6A6Y3TFPTTMJV7",
@@ -2436,7 +2425,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry lemonade pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "EJVY2A7HYVNXFVBZ5SOQJJWV",
@@ -2476,7 +2464,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pomegranate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "4CVEQMC77XQKMXZT4RNMOWOW",
@@ -2516,7 +2503,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "brown butter pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "P2EC5UJHM4HCV2OMQ6E2WGJO",
@@ -2536,7 +2522,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "rosemary + olive oil pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SFY4SMORSSOSL7KNDS3SO73I",
@@ -2556,7 +2541,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted date pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZJX3KR73SP3H77ZODO6VMMP5",
@@ -2576,7 +2560,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "molasses pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "IDDXPSYVOUV6SSQQRWP3OULE",
@@ -2596,7 +2579,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "watermelon sorbet pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "RKH5CPWQBSL6PDSHENZZT7CY",
@@ -2960,7 +2942,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "jacobsen sea salt pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "5VUO3IBX4YXS5H76NN2ARCCJ",
@@ -2980,7 +2961,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cinnamon toast crunch milk pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "CJHOAV5JM7XWNRIJN3HKBAO4",
@@ -3000,7 +2980,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "grapefruit sorbet pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "PXX5TYYGGFB7OYYM6QYL4UFS",
@@ -3040,7 +3019,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "BFMTOYNUTIMIJYA5MFLLL4II",
@@ -3060,7 +3038,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "smoked sea salt + caramel pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "JFPMHCYPAYIJJGQL3WBIA3KP",
@@ -3080,7 +3057,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon sorbet pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GSHBLSK6NRQTUIF26CB3QXJX",
@@ -3168,7 +3144,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "fruity pebble milk ice cream pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "UQEYRQ5UDIMVQHBKHY6IBAME",
@@ -3188,7 +3163,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "passionfruit sorbet pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "TXKMRBYIMPGIV4G5DMEHE3RG",
@@ -3208,7 +3182,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mini pint (5 oz)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "VISQUQUUTZQOSTBUNH6H33JY",
@@ -3564,7 +3537,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "nutella pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "3PVPTSXIVCALB7OZCFAXFGH5",
@@ -3900,7 +3872,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the beltex pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GNKYC6ROBSWBMQQE2DZMEDTS",
@@ -4302,7 +4273,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "custom composed pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "modifier_list_info": [
     {
      "modifier_list_id": "D2EIWOESD763B4GZHF6FYJ7A"
@@ -4651,7 +4621,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "choco taco pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "4VHCGTALVOONMSWCXKFFY2M4",
@@ -4671,7 +4640,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "snickerdoode pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "JFUNB6EYUIP2N7J2VFFBK2A6",
@@ -4691,7 +4659,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "butter berry pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "TXRA365DJNZRJXMM74GXTWSX",
@@ -4711,7 +4678,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "green apple pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "XG4TJ5PHPOK5BMLLAYF6Y3IA",
@@ -4731,7 +4697,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "fresh mint pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "RY3FNXRPU72S7C5FUWV666MR",
@@ -4751,7 +4716,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coffee pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GLXD32FZAX7YUVATRIGXSQLA",
@@ -4771,7 +4735,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cookie butter pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GHFLGBVHORS5S2K2TSAQHFCI",
@@ -5598,7 +5561,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "build your own pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "modifier_list_info": [
     {
      "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
@@ -6018,7 +5980,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese + gingersnap pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "E5QQCKBX7C7ZWYCXBBALEEUM",
@@ -6466,7 +6427,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cookie butter + cake exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "3WZCPOOPRECZDKUMHWLCGWKC",
@@ -6486,7 +6446,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blueberry abomination exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "5L7VNIYWU2PQXOC6F2KC3CR3",
@@ -6506,7 +6465,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "goat cheese + cherry exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "Q3PYHYTVYP6OERG2J3PNTBCK",
@@ -6526,7 +6484,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry balsamic exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "OIRD2UABNUT5MY4KQI2VJ2ID",
@@ -6566,7 +6523,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ube + yuzu exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "NNR47OHGOXKHWLBJUJOUABIH",
@@ -6640,6 +6596,206 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "2DAX5IRR4F2VEBSQFU2H52XF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "togo cooler",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "557BMPKU337AAUMK4KHLAODK",
+     "item_variation_data": {
+      "item_id": "2DAX5IRR4F2VEBSQFU2H52XF",
+      "name": "Regular",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal tshirt",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "XPMBBO2UMBUVMU2YS3RZF762",
+     "item_variation_data": {
+      "item_id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+      "name": "extra small",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "ICY2LSRJCK2LLOQZYFRRW77Z",
+     "item_variation_data": {
+      "item_id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+      "name": "small",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "G5N7DGUK6CNKNDVMTIPAHRE7",
+     "item_variation_data": {
+      "item_id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+      "name": "medium",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "IBAL5PX3RXSLOUA7MJ5D2KVG",
+     "item_variation_data": {
+      "item_id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+      "name": "large",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "ERAM66UIPJICMRTEM3VT6QOZ",
+     "item_variation_data": {
+      "item_id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
+      "name": "extra large",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TWT52CZR6SJ67NHMJVLWJZMG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal pink swearshirt",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "WAPA663IP5U3DYCKXJESQAWE",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "extra small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "SXGIYFXBFBU5O7TY6DASGNNG",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "WSSCO4XDPGYGNSJLQA2IPX4T",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "medium",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "2JTT2RELJACDVXDKNJCT2K2O",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "large",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "XP37V5YMUJT3RWL7TWKGMOJH",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "extra large",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "WJCKJUSABNGDOGANNOS27XHM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal black sweatshirt",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "BAC6HYFKOHDY4P5S7O5ALEVK",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "extra small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "7PMJRNYGB53ZLIO26HQ2X4CW",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "RPJON65NPJW3J3HXEYG2V43P",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "medium",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "3R37HTHJ2PQWVR2QACUL66ON",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "large",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "V6Q6IO5DPQ7VU4N4KP3ORMEO",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "extra large",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
   }
  }
 ]
