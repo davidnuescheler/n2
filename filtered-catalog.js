@@ -6781,56 +6781,16 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OEILY3UKJOZ5JGOYS63JAK2R",
+  "id": "G2OJCSOA2YQZXYAGGWLOSR3P",
   "type": "ITEM",
   "item_data": {
-   "name": "exclusive pint",
+   "name": "Jacobsen sea salt composed pint",
    "variations": [
     {
-     "id": "EGYPJ5Q5TS63TNDAQ4FXD5NV",
+     "id": "AWYUUSE2TMSB63NV3CPZDAHP",
      "item_variation_data": {
-      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
-      "name": "coava coffee + praline",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "4Y3CTL3G34XVM6Q7FU3EN3FQ",
-     "item_variation_data": {
-      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
-      "name": "tangerine sorbet",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "WW6YERPTQLL6PBNCH6IK6RCM",
-     "item_variation_data": {
-      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
-      "name": "rosemary + choc ganache",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "UZHBSXXVXHZKXL6G2V3UUSQI",
-     "item_variation_data": {
-      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
-      "name": "orange blossoom",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "LWAJWYAB2MPVFAPLRKTJ5F2Z",
-     "item_variation_data": {
-      "item_id": "OEILY3UKJOZ5JGOYS63JAK2R",
-      "name": "peach + balsamic",
+      "item_id": "G2OJCSOA2YQZXYAGGWLOSR3P",
+      "name": "Regular",
       "price_money": {
        "amount": 1200
       }
@@ -6840,15 +6800,54 @@ var catalog_raw=[
   }
  },
  {
-  "id": "G2OJCSOA2YQZXYAGGWLOSR3P",
+  "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
   "type": "ITEM",
   "item_data": {
-   "name": "Jacobsen sea salt",
+   "name": "peach leaf pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
-     "id": "AWYUUSE2TMSB63NV3CPZDAHP",
+     "id": "AR7KBSQ7E2GDYCQEW37DEZPU",
      "item_variation_data": {
-      "item_id": "G2OJCSOA2YQZXYAGGWLOSR3P",
+      "item_id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RNJJ2U7CMZNNBEKYCFWDNF43",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cocoa nib pint",
+   "variations": [
+    {
+     "id": "LB4PEDCHORF437RUEY2YGL67",
+     "item_variation_data": {
+      "item_id": "RNJJ2U7CMZNNBEKYCFWDNF43",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "bay leaf + grapefruit pint",
+   "variations": [
+    {
+     "id": "E2XNWPJEX77WYJ7PYR3MEVM4",
+     "item_variation_data": {
+      "item_id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
       "name": "Regular",
       "price_money": {
        "amount": 1200
