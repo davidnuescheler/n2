@@ -74,6 +74,24 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "54DOE4VPVFQ25T2V6GDGAXP6",
+     "modifier_data": {
+      "name": "malt balls (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "3UBOT6GLVPNOPJ3QWF754V7A",
+     "modifier_data": {
+      "name": "toasted \"meringue\" bits (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -6855,6 +6873,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "54DOE4VPVFQ25T2V6GDGAXP6",
+  "modifier_data": {
+   "name": "malt balls (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "3UBOT6GLVPNOPJ3QWF754V7A",
+  "modifier_data": {
+   "name": "toasted \"meringue\" bits (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
