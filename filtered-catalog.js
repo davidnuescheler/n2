@@ -6838,5 +6838,24 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "G2OJCSOA2YQZXYAGGWLOSR3P",
+  "type": "ITEM",
+  "item_data": {
+   "name": "Jacobsen sea salt",
+   "variations": [
+    {
+     "id": "AWYUUSE2TMSB63NV3CPZDAHP",
+     "item_variation_data": {
+      "item_id": "G2OJCSOA2YQZXYAGGWLOSR3P",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
