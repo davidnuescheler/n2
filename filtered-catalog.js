@@ -2113,6 +2113,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "GIKIINGOWPKKEGSPG4TQVXRB",
+     "modifier_data": {
+      "name": "brownie batter",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BHHRPD5QJZLB3ZJMC5VL5OZI",
+     "modifier_data": {
+      "name": "brownie batter + milk chocolate TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
      "modifier_data": {
       "name": "sweet corn",
@@ -6890,6 +6908,24 @@ var catalog_raw=[
    "name": "toasted \"meringue\" bits (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "GIKIINGOWPKKEGSPG4TQVXRB",
+  "modifier_data": {
+   "name": "brownie batter",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BHHRPD5QJZLB3ZJMC5VL5OZI",
+  "modifier_data": {
+   "name": "brownie batter + milk chocolate TWIST",
+   "price_money": {
+    "amount": 0
    }
   }
  }
