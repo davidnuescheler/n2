@@ -256,6 +256,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "524BWIAZZG5IRTQGLYNGND22",
+     "modifier_data": {
+      "name": "dark chocolate CRUNCH",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
      "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
      "modifier_data": {
       "name": "dulcey",
@@ -6182,6 +6191,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "4TPJECRFDDVVYOYC2RB76GPA",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "brownie batter",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5OFUN3NFWBZBO6UCYCVI3MYW",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "WNADR4CHF2IWAPBWR4YKKXTG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -6507,26 +6536,6 @@ var catalog_raw=[
      "id": "OIRD2UABNUT5MY4KQI2VJ2ID",
      "item_variation_data": {
       "item_id": "OGGCTR56SZV4KD75ZHBCH6RY",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "REGZ2KWK7JWBP3F2N2UYB74W",
-  "type": "ITEM",
-  "item_data": {
-   "name": "peanut milk + fudge exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "M2FRJVVQHZJVKIATEBYIRKZG",
-     "item_variation_data": {
-      "item_id": "REGZ2KWK7JWBP3F2N2UYB74W",
       "name": "Regular",
       "price_money": {
        "amount": 1200
@@ -6934,6 +6943,75 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "balabeYUM"
+  }
+ },
+ {
+  "id": "524BWIAZZG5IRTQGLYNGND22",
+  "modifier_data": {
+   "name": "dark chocolate CRUNCH",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "RO5AY5HPV3EAUJEGDQUL5XDJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pineapple sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "MBP47ZLUZ4UP3CLDBWUG2GPX",
+     "item_variation_data": {
+      "item_id": "RO5AY5HPV3EAUJEGDQUL5XDJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EUSIJTBGVJ25E4TCM77YYVE7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "oreo milk pint (v)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "KYIB243R6IVQJFLFNSA5D7QZ",
+     "item_variation_data": {
+      "item_id": "EUSIJTBGVJ25E4TCM77YYVE7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XJ7R2FQDTH5O4NCPVHM5ARNU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mascarpone + jam + evoo cake pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "IHAEAPLUOUFBGBY6QBQSZOUC",
+     "item_variation_data": {
+      "item_id": "XJ7R2FQDTH5O4NCPVHM5ARNU",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
