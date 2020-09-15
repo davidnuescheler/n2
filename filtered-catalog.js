@@ -1382,7 +1382,7 @@ var catalog_raw=[
      "id": "ZG2DXL7DDCGJYRRXUIHRUXMM",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "peach (v)",
+      "name": "mango (v)",
       "price_money": {
        "amount": 700
       }
@@ -1392,7 +1392,7 @@ var catalog_raw=[
      "id": "JO5VWZG6ELJLQBOYQUHX5KBH",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "vanilla + peach TWIST",
+      "name": "vanilla + mango TWIST",
       "price_money": {
        "amount": 700
       }
@@ -1412,7 +1412,7 @@ var catalog_raw=[
      "id": "MCGPMFDZZRNUBEXIKDL3UATN",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 700
       }
@@ -1422,7 +1422,7 @@ var catalog_raw=[
      "id": "ACBYB444WLU7LB4RUV6GN4AO",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "milk choc + banana TWIST",
+      "name": "milk choc + brownie batter TWIST",
       "price_money": {
        "amount": 700
       }
@@ -1432,7 +1432,7 @@ var catalog_raw=[
      "id": "KZW3Z6PNOL76IP5HJZPIRBE2",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "raspberry sour cream",
+      "name": "sweet corn",
       "price_money": {
        "amount": 700
       }
