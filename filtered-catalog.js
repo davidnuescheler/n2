@@ -159,7 +159,7 @@ var catalog_raw=[
     {
      "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
      "modifier_data": {
-      "name": "hot fudge (gf)",
+      "name": "fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6369,7 +6369,7 @@ var catalog_raw=[
  {
   "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
   "modifier_data": {
-   "name": "hot fudge (gf)",
+   "name": "fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
