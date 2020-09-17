@@ -4775,7 +4775,7 @@ var catalog_raw=[
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
-     "id": "DG3V2KCWXCTIM63PMI3KPZQT",
+     "id": "WD2AEQIQMCYLXOJELB74NE4Z",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
       "name": "salted vanilla bean",
@@ -4785,27 +4785,17 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z23IIULXLJXFUBU7ECWIQV6S",
+     "id": "OTYNMLK7OWG4ROLCHWXALAPI",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "peach sorbet",
+      "name": "mango (v)",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "KLN5CSEY5BYI3RRZHAN73SQS",
-     "item_variation_data": {
-      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "vanilla + peach TWIST",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "BNVTTXIX6JJWUC6IGIHZCUFQ",
+     "id": "LGTIS7CUU4CMYROTYSGPNGIC",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
       "name": "milk chocolate",
@@ -4815,30 +4805,40 @@ var catalog_raw=[
      }
     },
     {
-     "id": "I3S42KH2H6DAYIL3OWZIXETA",
+     "id": "MGOYBXBV3AWPCOHBUKC6CFA2",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "B5NCY7UMFBRKOIHIPGIL2ETG",
+     "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "chocolate + banana TWIST",
+      "name": "sweet corn",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "A4ERWWKC732EGOMGRUHMZODS",
+     "id": "FWRIIYC374KB6P6NV77ZJ7OB",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "raspberry sour cream",
+      "name": "salted vanilla bean & mango twist",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "UBS3K72F4GPJB25D5LJ642FA",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "milk chocolate & brownie batter twist",
       "price_money": {
        "amount": 500
       }
