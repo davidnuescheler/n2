@@ -6995,5 +6995,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "EBTN3K7M2MK7KVFY6SQFFUI2",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "AZIZA!"
+  }
  }
 ]
