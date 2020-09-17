@@ -1,14 +1,13 @@
 
-[:normal:](/)
+[:#normal:](/)
 
-:hamburger:
+:#hamburger:
 
 ---
 
-:close:
+:#close:
 
-- [:arrow: home](/)
-- [:arrow: store](/store)
-- [:arrow: lab](/lab)
-- [:arrow: pint club](/pint-club)
-- [:arrow: catering](/catering)
+- [:#arrow: home](/)
+- [:#arrow: store](/store.html)
+- [:#arrow: lab](/lab.html)
+- [:#arrow: pint club](/pint-club.html)

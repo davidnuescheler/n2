@@ -190,6 +190,22 @@ function fixIcons() {
     });
 }
 
+function decorateIcons() {
+
+    document.querySelectorAll('main a svg').forEach(($svg) => {
+        $svg.closest('a').classList.add('noborder');
+        });
+
+    $labcone=document.querySelector('.icon-lab-cone');
+    if ($labcone) {
+        var $div=document.createElement('div');
+        $div.id='labconepreview';
+        $labcone.parentNode.replaceChild($div, $labcone);
+        setTimeout(randomizeLabCone, 1000);
+    }
+
+}
+
 function cloneMenuSwiper() {
     var menu=document.querySelector("div.menu");
     var mobilemenu=menu.cloneNode(true);
@@ -1927,7 +1943,8 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     await fetchLabels();
     setLocation();
     setColors();
-    fixIcons();
+    //fixIcons();
+    decorateIcons();
     classify();
     hamburger();
     classifyAddToCartLinks();
