@@ -1440,6 +1440,46 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
+     "id": "OMIN44IKXHWBCFMWSTGAKM3X",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "BRASIL nathalia maria",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "WJGCBDH6JLCVWY4J3T7FO6EF",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA anbessa",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "BSZK4B7TMEKEH7COPHDXGA4X",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLOMBIA armando andrade",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "L7FLX42KNTOE6W6P2HZO43FL",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "INDONESIA cindaku",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
      "id": "HLD2QUCB2BHLAPV7ZSLXPYUK",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
