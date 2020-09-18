@@ -3378,6 +3378,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "RYDPYSH65U3ERG7TOTTAVLGW",
+     "modifier_data": {
+      "name": "brownie batter",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HS34L5ROZJ56M57V77UYL7ZE",
+     "modifier_data": {
+      "name": "chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
      "modifier_data": {
       "name": "sweet corn",
@@ -7031,6 +7049,24 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "AZIZA!"
+  }
+ },
+ {
+  "id": "RYDPYSH65U3ERG7TOTTAVLGW",
+  "modifier_data": {
+   "name": "brownie batter",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "HS34L5ROZJ56M57V77UYL7ZE",
+  "modifier_data": {
+   "name": "chocolate + brownie batter TWIST",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
