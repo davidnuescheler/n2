@@ -6231,16 +6231,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "WNADR4CHF2IWAPBWR4YKKXTG",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "sweet corn",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
