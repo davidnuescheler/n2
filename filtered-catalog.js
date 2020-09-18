@@ -4305,7 +4305,7 @@ var catalog_raw=[
   "id": "47GHWIWAG7XYC5THUPMTNEM6",
   "type": "ITEM",
   "item_data": {
-   "name": "raspberry key lime pie",
+   "name": "peach + blackberry slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
@@ -4417,7 +4417,7 @@ var catalog_raw=[
   "id": "BTSMOL5GNKOPJ76HQVVBWUFA",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream pie",
+   "name": "chocolate pecan + bourbon slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
