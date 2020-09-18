@@ -1478,26 +1478,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "HLD2QUCB2BHLAPV7ZSLXPYUK",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "6GMLXEBTZ7A3Q4LB76YKOBRM",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
@@ -6249,6 +6229,16 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "GZYBEQ42MY6XXM6RWNWM4VNB",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "sweet corn",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6925,7 +6915,7 @@ var catalog_raw=[
       "item_id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
       "name": "Regular",
       "price_money": {
-       "amount": 1200
+       "amount": 1000
       }
      }
     }
@@ -7067,6 +7057,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 300
    }
+  }
+ },
+ {
+  "id": "L4MROH2DSZ5LENGOLZOPC7KW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peach + balsamic pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "L2QZFZLUCVWGSMZ5EB7DN7U5",
+     "item_variation_data": {
+      "item_id": "L4MROH2DSZ5LENGOLZOPC7KW",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
