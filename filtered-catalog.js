@@ -40,15 +40,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -3804,15 +3795,6 @@ var catalog_raw=[
    "name": "dulcey",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
