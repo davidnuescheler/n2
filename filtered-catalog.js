@@ -173,15 +173,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "ZY7RWFRQUSJLRGACCREF6JGA",
-     "modifier_data": {
-      "name": "pistachio kanufa",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -6408,15 +6399,6 @@ var catalog_raw=[
   "id": "AZNR646FEVK63TAXVCZ3CYWX",
   "modifier_data": {
    "name": "orange blossom water (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "ZY7RWFRQUSJLRGACCREF6JGA",
-  "modifier_data": {
-   "name": "pistachio kanufa",
    "price_money": {
     "amount": 75
    }
