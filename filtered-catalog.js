@@ -173,6 +173,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "7W2GDAWQZUY5TAGEDWDN7724",
+     "modifier_data": {
+      "name": "pistachio kanafa",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -7058,6 +7067,15 @@ var catalog_raw=[
    "name": "pint of sweet corn ice cream",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7W2GDAWQZUY5TAGEDWDN7724",
+  "modifier_data": {
+   "name": "pistachio kanafa",
+   "price_money": {
+    "amount": 75
    }
   }
  }
