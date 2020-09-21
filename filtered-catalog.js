@@ -4868,34 +4868,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "GUZOTQHP5QMWZOI4TMER2MCR",
-  "type": "ITEM",
-  "item_data": {
-   "name": "normal x pizza nono",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    },
-    {
-     "modifier_list_id": "JIE2SU6X6G42LVGUY2EV7SBR"
-    }
-   ],
-   "variations": [
-    {
-     "id": "AZZZKPVETWY2XGC34ENZZVLW",
-     "item_variation_data": {
-      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "pizza + a pint",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "6FIUN6R47HWQU43NUNM7GSC4",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
