@@ -83,6 +83,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "DSXPCLH47QHLKQ644PWDHIKJ",
+     "modifier_data": {
+      "name": "vegan vanilla NORMAL dots! (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -7046,6 +7055,15 @@ var catalog_raw=[
   "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
   "modifier_data": {
    "name": "lime cotton candy (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "DSXPCLH47QHLKQ644PWDHIKJ",
+  "modifier_data": {
+   "name": "vegan vanilla NORMAL dots! (v) (gf)",
    "price_money": {
     "amount": 75
    }
