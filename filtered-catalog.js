@@ -4904,7 +4904,7 @@ var catalog_raw=[
     {
      "id": "JGGSV6RDRISO3DJMT3LPH5OY",
      "modifier_data": {
-      "name": "pint of peach ice cream (v)",
+      "name": "pint of mango ice cream (v)",
       "price_money": {
        "amount": 0
       }
@@ -4913,7 +4913,7 @@ var catalog_raw=[
     {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
-      "name": "pint of banana ice cream",
+      "name": "pint of milk chocolate ice cream",
       "price_money": {
        "amount": 0
       }
@@ -4922,7 +4922,16 @@ var catalog_raw=[
     {
      "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
      "modifier_data": {
-      "name": "pint of raspberry sour cream ice cream",
+      "name": "pint of brownie batter ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5DSEQTM3IGV2GF27FZFXSS3P",
+     "modifier_data": {
+      "name": "pint of sweet corn ice cream",
       "price_money": {
        "amount": 0
       }
@@ -4943,7 +4952,7 @@ var catalog_raw=[
  {
   "id": "JGGSV6RDRISO3DJMT3LPH5OY",
   "modifier_data": {
-   "name": "pint of peach ice cream (v)",
+   "name": "pint of mango ice cream (v)",
    "price_money": {
     "amount": 0
    }
@@ -4952,7 +4961,7 @@ var catalog_raw=[
  {
   "id": "USBOZXRIPLWABHWMGDSJG4HH",
   "modifier_data": {
-   "name": "pint of banana ice cream",
+   "name": "pint of milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
@@ -6053,7 +6062,7 @@ var catalog_raw=[
  {
   "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
   "modifier_data": {
-   "name": "pint of raspberry sour cream ice cream",
+   "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
    }
@@ -7041,6 +7050,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "5DSEQTM3IGV2GF27FZFXSS3P",
+  "modifier_data": {
+   "name": "pint of sweet corn ice cream",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
