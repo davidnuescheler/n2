@@ -4879,7 +4879,7 @@ var catalog_raw=[
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
       "name": "pizza + a pint",
       "price_money": {
-       "amount": 2000
+       "amount": 1000
       }
      }
     }
