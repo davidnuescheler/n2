@@ -1934,12 +1934,19 @@ function classifyAddToCartLinks() {
     })
 }
 
+function addLegacyDivClasses() {
+    document.querySelectorAll('main>div').forEach(($div) => {
+        $div.classList.add(($div.firstElementChild && $div.firstElementChild.tagName=='IMG')?'image':'default');
+    })
+}
+
 /* ----
 general setup
 --- */
 
 window.addEventListener('DOMContentLoaded', async (event) => {
     //resizeImages();
+    addLegacyDivClasses();
     await fetchLabels();
     setLocation();
     setColors();
