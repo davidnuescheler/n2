@@ -6822,7 +6822,7 @@ var catalog_raw=[
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
   "type": "ITEM",
   "item_data": {
-   "name": "mango (v)",
+   "name": "mango pint (v)",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
