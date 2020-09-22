@@ -6822,7 +6822,7 @@ var catalog_raw=[
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
   "type": "ITEM",
   "item_data": {
-   "name": "peach leaf pint",
+   "name": "mango (v)",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -6831,7 +6831,7 @@ var catalog_raw=[
       "item_id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
       "name": "Regular",
       "price_money": {
-       "amount": 1200
+       "amount": 1000
       }
      }
     }
@@ -7067,6 +7067,46 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "3V2FLWZR4ZVCUITUK7RFGI6L",
+  "type": "ITEM",
+  "item_data": {
+   "name": "sweet corn pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "356CQF3IW3FTNIXEERZKIDUF",
+     "item_variation_data": {
+      "item_id": "3V2FLWZR4ZVCUITUK7RFGI6L",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SMYQ5ZKLI577NVM32OP42YAD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "brownie batter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "I3YU3D76ODHUAH6CLMAPCDJY",
+     "item_variation_data": {
+      "item_id": "SMYQ5ZKLI577NVM32OP42YAD",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
