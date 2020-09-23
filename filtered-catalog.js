@@ -89,6 +89,24 @@ var catalog_raw=[
      "modifier_data": {
       "name": "vegan vanilla NORMAL dots! (v) (gf)",
       "price_money": {
+       "amount": 150
+      }
+     }
+    },
+    {
+     "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
+     "modifier_data": {
+      "name": "chocolate sprinkles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "L5UG3DMFNZU3HVR6CTUZVOW7",
+     "modifier_data": {
+      "name": "rainbow sprinkles (gf)",
+      "price_money": {
        "amount": 75
       }
      }
@@ -7074,7 +7092,7 @@ var catalog_raw=[
   "modifier_data": {
    "name": "vegan vanilla NORMAL dots! (v) (gf)",
    "price_money": {
-    "amount": 75
+    "amount": 150
    }
   }
  },
@@ -7120,6 +7138,24 @@ var catalog_raw=[
  },
  {
   "id": "LARTPUVZEJDRACWIPCRAZR3X",
+  "modifier_data": {
+   "name": "rainbow sprinkles (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
+  "modifier_data": {
+   "name": "chocolate sprinkles (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "L5UG3DMFNZU3HVR6CTUZVOW7",
   "modifier_data": {
    "name": "rainbow sprinkles (gf)",
    "price_money": {
