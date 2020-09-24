@@ -4836,7 +4836,7 @@ var catalog_raw=[
   "id": "A6XVEOGODBXK5BYFKQBXDBQ5",
   "type": "ITEM",
   "item_data": {
-   "name": "mad dough doughnuts",
+   "name": "mad dough doughnuts STORE",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
