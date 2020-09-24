@@ -40,15 +40,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -92,6 +83,33 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "DSXPCLH47QHLKQ644PWDHIKJ",
+     "modifier_data": {
+      "name": "vegan vanilla NORMAL dots! (v) (gf)",
+      "price_money": {
+       "amount": 150
+      }
+     }
+    },
+    {
+     "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
+     "modifier_data": {
+      "name": "chocolate sprinkles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "L5UG3DMFNZU3HVR6CTUZVOW7",
+     "modifier_data": {
+      "name": "rainbow sprinkles (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -124,6 +142,15 @@ var catalog_raw=[
      "id": "XV7A4V6HQP3KFBBOO5DJTHNK",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "LARTPUVZEJDRACWIPCRAZR3X",
+     "modifier_data": {
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -184,9 +211,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZY7RWFRQUSJLRGACCREF6JGA",
+     "id": "7W2GDAWQZUY5TAGEDWDN7724",
      "modifier_data": {
-      "name": "pistachio kanufa",
+      "name": "pistachio kanafa",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
+     "modifier_data": {
+      "name": "lime cotton candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -1440,20 +1476,40 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "HLD2QUCB2BHLAPV7ZSLXPYUK",
+     "id": "OMIN44IKXHWBCFMWSTGAKM3X",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
+      "name": "BRASIL nathalia maria",
       "price_money": {
        "amount": 1600
       }
      }
     },
     {
-     "id": "6GMLXEBTZ7A3Q4LB76YKOBRM",
+     "id": "WJGCBDH6JLCVWY4J3T7FO6EF",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
+      "name": "ETHIOPIA anbessa",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "BSZK4B7TMEKEH7COPHDXGA4X",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLOMBIA armando andrade",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "L7FLX42KNTOE6W6P2HZO43FL",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "INDONESIA cindaku",
       "price_money": {
        "amount": 1600
       }
@@ -3338,6 +3394,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "RYDPYSH65U3ERG7TOTTAVLGW",
+     "modifier_data": {
+      "name": "brownie batter",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HS34L5ROZJ56M57V77UYL7ZE",
+     "modifier_data": {
+      "name": "chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
      "modifier_data": {
       "name": "sweet corn",
@@ -3770,15 +3844,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "SVHE22U3CGBLX3O5ICNVCG5A",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -3998,16 +4063,6 @@ var catalog_raw=[
      "id": "5ESTD5H57KU26GQVWTAFVZRP",
      "item_variation_data": {
       "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "NGJGV5Z47X7IGIQIGRTOEBNF",
-     "item_variation_data": {
-      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
       "name": "normal size",
       "price_money": {
        "amount": 700
@@ -4171,9 +4226,9 @@ var catalog_raw=[
      "id": "XTIVHVK3Y52AOLMSJD532UJW",
      "item_variation_data": {
       "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
-      "name": "normal size",
+      "name": "half size",
       "price_money": {
-       "amount": 700
+       "amount": 500
       }
      }
     }
@@ -4265,7 +4320,7 @@ var catalog_raw=[
   "id": "47GHWIWAG7XYC5THUPMTNEM6",
   "type": "ITEM",
   "item_data": {
-   "name": "raspberry key lime pie",
+   "name": "peach + blackberry slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
@@ -4377,7 +4432,7 @@ var catalog_raw=[
   "id": "BTSMOL5GNKOPJ76HQVVBWUFA",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream pie",
+   "name": "chocolate pecan + bourbon slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
@@ -4771,11 +4826,11 @@ var catalog_raw=[
   "id": "A6XVEOGODBXK5BYFKQBXDBQ5",
   "type": "ITEM",
   "item_data": {
-   "name": "mad dough doughnuts",
+   "name": "mad dough doughnuts STORE",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
-     "id": "DG3V2KCWXCTIM63PMI3KPZQT",
+     "id": "WD2AEQIQMCYLXOJELB74NE4Z",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
       "name": "salted vanilla bean",
@@ -4785,27 +4840,27 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z23IIULXLJXFUBU7ECWIQV6S",
+     "id": "OTYNMLK7OWG4ROLCHWXALAPI",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "peach sorbet",
+      "name": "mango (v)",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "KLN5CSEY5BYI3RRZHAN73SQS",
+     "id": "FWRIIYC374KB6P6NV77ZJ7OB",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "vanilla + peach TWIST",
+      "name": "salted vanilla bean + mango TWIST",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "BNVTTXIX6JJWUC6IGIHZCUFQ",
+     "id": "LGTIS7CUU4CMYROTYSGPNGIC",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
       "name": "milk chocolate",
@@ -4815,60 +4870,32 @@ var catalog_raw=[
      }
     },
     {
-     "id": "I3S42KH2H6DAYIL3OWZIXETA",
+     "id": "MGOYBXBV3AWPCOHBUKC6CFA2",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "banana",
+      "name": "brownie batter",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "B5NCY7UMFBRKOIHIPGIL2ETG",
+     "id": "UBS3K72F4GPJB25D5LJ642FA",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "chocolate + banana TWIST",
+      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 500
       }
      }
     },
     {
-     "id": "A4ERWWKC732EGOMGRUHMZODS",
+     "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "raspberry sour cream",
+      "name": "sweet corn",
       "price_money": {
        "amount": 500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "GUZOTQHP5QMWZOI4TMER2MCR",
-  "type": "ITEM",
-  "item_data": {
-   "name": "normal x pizza nono",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    },
-    {
-     "modifier_list_id": "JIE2SU6X6G42LVGUY2EV7SBR"
-    }
-   ],
-   "variations": [
-    {
-     "id": "AZZZKPVETWY2XGC34ENZZVLW",
-     "item_variation_data": {
-      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "pizza + a pint",
-      "price_money": {
-       "amount": 2000
       }
      }
     }
@@ -4893,7 +4920,7 @@ var catalog_raw=[
     {
      "id": "JGGSV6RDRISO3DJMT3LPH5OY",
      "modifier_data": {
-      "name": "pint of peach ice cream (v)",
+      "name": "pint of mango ice cream (v)",
       "price_money": {
        "amount": 0
       }
@@ -4902,7 +4929,7 @@ var catalog_raw=[
     {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
-      "name": "pint of banana ice cream",
+      "name": "pint of milk chocolate ice cream",
       "price_money": {
        "amount": 0
       }
@@ -4911,7 +4938,16 @@ var catalog_raw=[
     {
      "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
      "modifier_data": {
-      "name": "pint of raspberry sour cream ice cream",
+      "name": "pint of brownie batter ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5DSEQTM3IGV2GF27FZFXSS3P",
+     "modifier_data": {
+      "name": "pint of sweet corn ice cream",
       "price_money": {
        "amount": 0
       }
@@ -4932,7 +4968,7 @@ var catalog_raw=[
  {
   "id": "JGGSV6RDRISO3DJMT3LPH5OY",
   "modifier_data": {
-   "name": "pint of peach ice cream (v)",
+   "name": "pint of mango ice cream (v)",
    "price_money": {
     "amount": 0
    }
@@ -4941,7 +4977,7 @@ var catalog_raw=[
  {
   "id": "USBOZXRIPLWABHWMGDSJG4HH",
   "modifier_data": {
-   "name": "pint of banana ice cream",
+   "name": "pint of milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
@@ -5915,15 +5951,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JBLFBYZZI7TOZUJTJSMU5POG",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "FKDUX64QREG6HESQGM5SZYU7",
      "modifier_data": {
       "name": "vegan (all veg!)",
@@ -6042,7 +6069,7 @@ var catalog_raw=[
  {
   "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
   "modifier_data": {
-   "name": "pint of raspberry sour cream ice cream",
+   "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
    }
@@ -6193,7 +6220,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WNADR4CHF2IWAPBWR4YKKXTG",
+     "id": "GZYBEQ42MY6XXM6RWNWM4VNB",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "sweet corn",
@@ -6255,15 +6282,6 @@ var catalog_raw=[
   "id": "4BAJVVTKB5B3NQKJWMSQGHWP",
   "modifier_data": {
    "name": "margherita",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "JBLFBYZZI7TOZUJTJSMU5POG",
-  "modifier_data": {
-   "name": "beehive",
    "price_money": {
     "amount": 0
    }
@@ -6388,15 +6406,6 @@ var catalog_raw=[
   "id": "AZNR646FEVK63TAXVCZ3CYWX",
   "modifier_data": {
    "name": "orange blossom water (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "ZY7RWFRQUSJLRGACCREF6JGA",
-  "modifier_data": {
-   "name": "pistachio kanufa",
    "price_money": {
     "amount": 75
    }
@@ -6830,7 +6839,7 @@ var catalog_raw=[
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
   "type": "ITEM",
   "item_data": {
-   "name": "peach leaf pint",
+   "name": "mango pint (v)",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -6839,7 +6848,7 @@ var catalog_raw=[
       "item_id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
       "name": "Regular",
       "price_money": {
-       "amount": 1200
+       "amount": 1000
       }
      }
     }
@@ -6877,7 +6886,7 @@ var catalog_raw=[
       "item_id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
       "name": "Regular",
       "price_money": {
-       "amount": 1200
+       "amount": 1000
       }
      }
     }
@@ -6990,6 +6999,224 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EBTN3K7M2MK7KVFY6SQFFUI2",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "AZIZA!"
+  }
+ },
+ {
+  "id": "RYDPYSH65U3ERG7TOTTAVLGW",
+  "modifier_data": {
+   "name": "brownie batter",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "HS34L5ROZJ56M57V77UYL7ZE",
+  "modifier_data": {
+   "name": "chocolate + brownie batter TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "L4MROH2DSZ5LENGOLZOPC7KW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peach + balsamic pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "L2QZFZLUCVWGSMZ5EB7DN7U5",
+     "item_variation_data": {
+      "item_id": "L4MROH2DSZ5LENGOLZOPC7KW",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5DSEQTM3IGV2GF27FZFXSS3P",
+  "modifier_data": {
+   "name": "pint of sweet corn ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7W2GDAWQZUY5TAGEDWDN7724",
+  "modifier_data": {
+   "name": "pistachio kanafa",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
+  "modifier_data": {
+   "name": "lime cotton candy (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "DSXPCLH47QHLKQ644PWDHIKJ",
+  "modifier_data": {
+   "name": "vegan vanilla NORMAL dots! (v) (gf)",
+   "price_money": {
+    "amount": 150
+   }
+  }
+ },
+ {
+  "id": "3V2FLWZR4ZVCUITUK7RFGI6L",
+  "type": "ITEM",
+  "item_data": {
+   "name": "sweet corn pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "356CQF3IW3FTNIXEERZKIDUF",
+     "item_variation_data": {
+      "item_id": "3V2FLWZR4ZVCUITUK7RFGI6L",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SMYQ5ZKLI577NVM32OP42YAD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "brownie batter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "I3YU3D76ODHUAH6CLMAPCDJY",
+     "item_variation_data": {
+      "item_id": "SMYQ5ZKLI577NVM32OP42YAD",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "LARTPUVZEJDRACWIPCRAZR3X",
+  "modifier_data": {
+   "name": "rainbow sprinkles (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
+  "modifier_data": {
+   "name": "chocolate sprinkles (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "L5UG3DMFNZU3HVR6CTUZVOW7",
+  "modifier_data": {
+   "name": "rainbow sprinkles (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "I7STSLUCU4B3KKYQL673MUZY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mad dough doughnuts LAB",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "QWAEEZCYJPP4II4Y45RJP3KJ",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "vegan vanilla!",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "KY7TFWTWQUZ4PY2BH6CYKASH",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "rhubarb sorbet (v)",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "25LQDAL2DLDS62AW7RO2KU3Y",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "rhubarb + vanilla TWIST (v)",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "UG3MFO5OHOZOIJUMICEVHIOO",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "coffee",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "75FDHWZ5IQO6O67SFUMVODRO",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "caramel corn",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "M5AIET5LPNAWK33VRF56SDFJ",
+     "item_variation_data": {
+      "item_id": "I7STSLUCU4B3KKYQL673MUZY",
+      "name": "coffee + caramel corn TWIST",
+      "price_money": {
+       "amount": 500
       }
      }
     }
