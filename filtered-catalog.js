@@ -1504,16 +1504,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "L7FLX42KNTOE6W6P2HZO43FL",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "INDONESIA cindaku",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
