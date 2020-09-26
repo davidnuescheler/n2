@@ -7222,5 +7222,33 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "J4PEHNIWDJBPKB2TRVLHF4OH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono X normal",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
+    },
+    {
+     "modifier_list_id": "JIE2SU6X6G42LVGUY2EV7SBR"
+    }
+   ],
+   "variations": [
+    {
+     "id": "6L27SV4ZBKHPHOQAL3FLSQZ5",
+     "item_variation_data": {
+      "item_id": "J4PEHNIWDJBPKB2TRVLHF4OH",
+      "name": "pizza + a pint",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
