@@ -157,6 +157,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
+     "modifier_data": {
+      "name": "chocolate sprinkles (v) (gf)",
+      "price_money": {
+       "amount": 7500
+      }
+     }
+    },
+    {
      "id": "JY6NIYOH43SEGGHPSURFL2LP",
      "modifier_data": {
       "name": "tajin meringue (v)(gf)",
@@ -7248,6 +7257,15 @@ var catalog_raw=[
    "name": "milk chocolate + brownie batter twist",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
+  "modifier_data": {
+   "name": "chocolate sprinkles (v) (gf)",
+   "price_money": {
+    "amount": 7500
    }
   }
  }
