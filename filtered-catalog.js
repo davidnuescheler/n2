@@ -1503,16 +1503,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "BSZK4B7TMEKEH7COPHDXGA4X",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLOMBIA armando andrade",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
