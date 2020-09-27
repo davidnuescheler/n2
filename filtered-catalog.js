@@ -2159,6 +2159,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "T55A2LC25HQMIO2MOUYRS6HF",
+     "modifier_data": {
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IDU6NDJYGXLDD6IFRXJPMMTW",
+     "modifier_data": {
+      "name": "milk chocolate + brownie batter TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
      "modifier_data": {
       "name": "sweet corn",
@@ -3360,6 +3378,24 @@ var catalog_raw=[
      "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
      "modifier_data": {
       "name": "sweet corn",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "3KX5AR6SRF5B55VFTBMXOM5R",
+     "modifier_data": {
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ACA5ANNUEVV4ADPZPREMUURL",
+     "modifier_data": {
+      "name": "milk chocolate + brownie batter twist",
       "price_money": {
        "amount": 300
       }
@@ -6136,10 +6172,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "CBMFTO7XBWHX7GIH4GCTDQV3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "4TPJECRFDDVVYOYC2RB76GPA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "brownie batter",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ZI2FCI2QERHBYVAILURXAFAJ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
@@ -7157,6 +7213,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "T55A2LC25HQMIO2MOUYRS6HF",
+  "modifier_data": {
+   "name": "milk chocolate",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IDU6NDJYGXLDD6IFRXJPMMTW",
+  "modifier_data": {
+   "name": "milk chocolate + brownie batter TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "3KX5AR6SRF5B55VFTBMXOM5R",
+  "modifier_data": {
+   "name": "milk chocolate",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ACA5ANNUEVV4ADPZPREMUURL",
+  "modifier_data": {
+   "name": "milk chocolate + brownie batter twist",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
