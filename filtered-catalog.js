@@ -3364,24 +3364,6 @@ var catalog_raw=[
        "amount": 300
       }
      }
-    },
-    {
-     "id": "3KX5AR6SRF5B55VFTBMXOM5R",
-     "modifier_data": {
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "ACA5ANNUEVV4ADPZPREMUURL",
-     "modifier_data": {
-      "name": "milk chocolate + brownie batter twist",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7166,24 +7148,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "3KX5AR6SRF5B55VFTBMXOM5R",
-  "modifier_data": {
-   "name": "milk chocolate",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "ACA5ANNUEVV4ADPZPREMUURL",
-  "modifier_data": {
-   "name": "milk chocolate + brownie batter twist",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
