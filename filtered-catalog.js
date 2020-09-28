@@ -684,13 +684,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "646FUHHQZZAT37STY7BDLCHE",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "free cone voucher"
-  }
- },
- {
   "id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
   "type": "CATEGORY",
   "category_data": {
@@ -6140,13 +6133,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "HJDBQZH5PCXFF3A6PI2VDBJR",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "belikejoe"
-  }
- },
- {
   "id": "ZTJSGORTRS227LWQU2M6TYXE",
   "type": "ITEM",
   "item_data": {
@@ -6825,13 +6811,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "DY7T4F3UKXPBWAUDVRGSGONS",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "balabeYUM"
   }
  },
  {
