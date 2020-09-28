@@ -10,7 +10,7 @@ var catalog_raw=[
   "id": "SA4VTU3B6BG67REI5ULSWM6W",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "lab topping",
+   "name": "LAB topping",
    "modifiers": [
     {
      "id": "JSLVN2D4WTDQVDM5M26FPD4V",
@@ -253,7 +253,7 @@ var catalog_raw=[
   "id": "EXX7SQAD5YC3XMG77RJUXJNV",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "dip",
+   "name": "STORE dip",
    "modifiers": [
     {
      "id": "RK6BJKAS3V753NS6YSDJV5PX",
@@ -3292,7 +3292,7 @@ var catalog_raw=[
   "id": "LPZTD3WMASMFYAJTC5YNFWP2",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "+ soft serve STORE",
+   "name": "STORE + soft serve",
    "modifiers": [
     {
      "id": "DAU35H5KFM55Z6QFODCQIDBK",
@@ -3346,7 +3346,7 @@ var catalog_raw=[
   "id": "XKJLMJRKJ6BRSJVJRD6UP4NV",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "taco dip",
+   "name": "custom taco dip",
    "modifiers": [
     {
      "id": "EPUTNMXXPP467JTJRW7FOCVX",
@@ -3613,7 +3613,7 @@ var catalog_raw=[
   "id": "TL73TNO3AQ25SL72KPU7OAGF",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "lab dip",
+   "name": "LAB dip",
    "modifiers": [
     {
      "id": "L45JPNW5GTRPNRU6I4VB2AWY",
@@ -3667,7 +3667,7 @@ var catalog_raw=[
   "id": "G6UENHHO3MBKOXDAAT2FW3WU",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "lab vessel",
+   "name": "LAB vessel",
    "modifiers": [
     {
      "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
@@ -3757,7 +3757,7 @@ var catalog_raw=[
   "id": "SVHE22U3CGBLX3O5ICNVCG5A",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "lab flavor",
+   "name": "LAB flavor",
    "modifiers": [
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
@@ -4156,51 +4156,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JEAVKSELLBC4LFKUJETJAXYV",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "size",
-   "modifiers": [
-    {
-     "id": "UCYEK5V3JEF73NSQOHWRI6TH",
-     "modifier_data": {
-      "name": "half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "PPZ7JKPWJZUACZCOBK5NGH2P",
-     "modifier_data": {
-      "name": "normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "UCYEK5V3JEF73NSQOHWRI6TH",
-  "modifier_data": {
-   "name": "half size",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "PPZ7JKPWJZUACZCOBK5NGH2P",
-  "modifier_data": {
-   "name": "normal size",
-   "price_money": {
-    "amount": 400
-   }
-  }
- },
- {
   "id": "AVCCZNFMX46OY3UXA3WC7HHQ",
   "modifier_data": {
    "name": "cup + cone on top!",
@@ -4266,11 +4221,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "custom composed pint",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "D2EIWOESD763B4GZHF6FYJ7A"
-    }
-   ],
    "variations": [
     {
      "id": "SJPWTZ3YS57PZJGHUTO5HHB2",
@@ -4283,69 +4233,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "D2EIWOESD763B4GZHF6FYJ7A",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "custom composed pint mixins",
-   "modifiers": [
-    {
-     "id": "EXLNHVCXSRUKYGWJLJ2HEE6G",
-     "modifier_data": {
-      "name": "this",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4LFRLB2VY6Z4CKK2VUWN4EJC",
-     "modifier_data": {
-      "name": "that",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MVC3E36PGNIEH5GS3P642T3B",
-     "modifier_data": {
-      "name": "and the other",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "EXLNHVCXSRUKYGWJLJ2HEE6G",
-  "modifier_data": {
-   "name": "this",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "4LFRLB2VY6Z4CKK2VUWN4EJC",
-  "modifier_data": {
-   "name": "that",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "MVC3E36PGNIEH5GS3P642T3B",
-  "modifier_data": {
-   "name": "and the other",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -4826,7 +4713,7 @@ var catalog_raw=[
   "id": "6FIUN6R47HWQU43NUNM7GSC4",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "+ pint of ice cream 1",
+   "name": "pizza pints",
    "modifiers": [
     {
      "id": "QGEDQDCUZZPOYC56UHLUBQN4",
@@ -5541,9 +5428,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
-    },
-    {
-     "modifier_list_id": "CM55OMW2IOOA46S3HBUECEYW"
     }
    ],
    "variations": [
@@ -5558,123 +5442,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "CM55OMW2IOOA46S3HBUECEYW",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "PINT pick up day",
-   "modifiers": [
-    {
-     "id": "VXOBLZ2QEHGD6KC2Z6EQW5U5",
-     "modifier_data": {
-      "name": "tues 8/18",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4S2BNJSHRS3N53G7CE4UBFVL",
-     "modifier_data": {
-      "name": "weds 8/19",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PPFB5FF5EOG3Z3SNJW4345JL",
-     "modifier_data": {
-      "name": "thurs 8/20",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CPG5ELOR43GUZO2OUMFCRPRG",
-     "modifier_data": {
-      "name": "fri 8/21",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "DDOBZ5ZG5ZOCWVUQCPOKXBNB",
-     "modifier_data": {
-      "name": "sat 8/22",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "HZXT4FLXYPBJTN77WYGONZG3",
-     "modifier_data": {
-      "name": "sun 8/23",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "VXOBLZ2QEHGD6KC2Z6EQW5U5",
-  "modifier_data": {
-   "name": "tues 8/18",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "4S2BNJSHRS3N53G7CE4UBFVL",
-  "modifier_data": {
-   "name": "weds 8/19",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "PPFB5FF5EOG3Z3SNJW4345JL",
-  "modifier_data": {
-   "name": "thurs 8/20",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CPG5ELOR43GUZO2OUMFCRPRG",
-  "modifier_data": {
-   "name": "fri 8/21",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "DDOBZ5ZG5ZOCWVUQCPOKXBNB",
-  "modifier_data": {
-   "name": "sat 8/22",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HZXT4FLXYPBJTN77WYGONZG3",
-  "modifier_data": {
-   "name": "sun 8/23",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -5715,7 +5482,7 @@ var catalog_raw=[
   "id": "4C64ILV5M4MXDKY3V2ETZGUT",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "+ soft serve LAB",
+   "name": "LAB + soft serve",
    "modifiers": [
     {
      "id": "6YINBTKO4XRD26AZKWOQWD2O",
@@ -5850,7 +5617,7 @@ var catalog_raw=[
   "id": "JIE2SU6X6G42LVGUY2EV7SBR",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "pizza option",
+   "name": "pizza nono",
    "modifiers": [
     {
      "id": "4BAJVVTKB5B3NQKJWMSQGHWP",
@@ -6014,51 +5781,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "W5WI3ZPTHNMMCIXBRNWBZ53K",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "cup only CC",
-   "modifiers": [
-    {
-     "id": "PJUDLDSSANUR4K7SP7TMFVLO",
-     "modifier_data": {
-      "name": "cup",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CXHLPBBJH53AM6OK6HO4YMHY",
-     "modifier_data": {
-      "name": "cup + cone on top!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "PJUDLDSSANUR4K7SP7TMFVLO",
-  "modifier_data": {
-   "name": "cup",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CXHLPBBJH53AM6OK6HO4YMHY",
-  "modifier_data": {
-   "name": "cup + cone on top!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "CVMOVN75J6NADSS7GEG4WMFW",
   "type": "ITEM",
   "item_data": {
@@ -6073,9 +5795,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
-    },
-    {
-     "modifier_list_id": "JEAVKSELLBC4LFKUJETJAXYV"
     }
    ],
    "variations": [
