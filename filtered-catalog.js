@@ -6828,5 +6828,180 @@ var catalog_raw=[
     "amount": 7500
    }
   }
+ },
+ {
+  "id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cherry garcia, but make it spooky",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "TRNAN3XKEDBGTCJNUR2TWNK6",
+     "item_variation_data": {
+      "item_id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "25GSND2OGZIJRFQMXTX7WMBM",
+     "item_variation_data": {
+      "item_id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ENF4M5HNVYKRF57ROHNCVSEI",
+  "type": "ITEM",
+  "item_data": {
+   "name": "friggin bats",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "FGOUWMTVKMNSL7F7ISBJQZGL",
+     "item_variation_data": {
+      "item_id": "ENF4M5HNVYKRF57ROHNCVSEI",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "QK234CYY4FKUD7MOE7FDUINP",
+     "item_variation_data": {
+      "item_id": "ENF4M5HNVYKRF57ROHNCVSEI",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "coco comb, but make it creepy",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "VT7D6SXCTHYDDAK53Y2BZWNM",
+     "item_variation_data": {
+      "item_id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "Q65BYHXB7ZWOQ2UVOFAIVLEA",
+     "item_variation_data": {
+      "item_id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "E3344GQTL3DXRR5UVVHNZIK4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "bloooood orange julius",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "VDDJPRKZJDQPKYAXMPSYBVXE",
+     "item_variation_data": {
+      "item_id": "E3344GQTL3DXRR5UVVHNZIK4",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "UURGFOUQDR7TUK7OY3YN4HOS",
+     "item_variation_data": {
+      "item_id": "E3344GQTL3DXRR5UVVHNZIK4",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZNZCC3MHAT5DMFLMEWYCZFA4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "omnom crunch",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GJDCPZHASEIXCX3L5JBOHNRF",
+     "item_variation_data": {
+      "item_id": "ZNZCC3MHAT5DMFLMEWYCZFA4",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "CDLXPZG6COLSCZU3PCWWNUH3",
+     "item_variation_data": {
+      "item_id": "ZNZCC3MHAT5DMFLMEWYCZFA4",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
