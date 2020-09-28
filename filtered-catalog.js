@@ -7003,5 +7003,145 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "UH2FHMCSKGJ4NEN7RKO2NZSS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "count chocula ah ah",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "LKMXNJX7E5CZICGQRPV73KAL",
+     "item_variation_data": {
+      "item_id": "UH2FHMCSKGJ4NEN7RKO2NZSS",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "OPRAS6IDC4OKVNWBG34PF54F",
+     "item_variation_data": {
+      "item_id": "UH2FHMCSKGJ4NEN7RKO2NZSS",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "OZACLK5YWDZJW6MWDQHTCTNC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "anybody want a peanut?",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "5BHWBTFLADTKM6SKBGMBTMXP",
+     "item_variation_data": {
+      "item_id": "OZACLK5YWDZJW6MWDQHTCTNC",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "W7HA6AUW2UESIMMRBENFKBSC",
+     "item_variation_data": {
+      "item_id": "OZACLK5YWDZJW6MWDQHTCTNC",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "trashberry™ reincarnate",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GBIV5MJ7UAME4UZSPZ57TJJ5",
+     "item_variation_data": {
+      "item_id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "RXECILNLZOQDEQK3OMNS5OTB",
+     "item_variation_data": {
+      "item_id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EOS24UWBA2KDHXAH2RHW2NS6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "candy bar cone",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "RUJYEBOEUBR3K6CTAKKG7OIV",
+     "item_variation_data": {
+      "item_id": "EOS24UWBA2KDHXAH2RHW2NS6",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "SJINSQMKG7IWBFEXJS3P3E4F",
+     "item_variation_data": {
+      "item_id": "EOS24UWBA2KDHXAH2RHW2NS6",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
