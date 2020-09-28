@@ -5804,6 +5804,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    },
+    {
+     "modifier_list_id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ"
     }
    ],
    "variations": [
@@ -5838,6 +5841,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ZT2LJX2OOSJLBZSGWOCXQRIG",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "4TPJECRFDDVVYOYC2RB76GPA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5852,6 +5865,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "sweet corn",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "22PUAH4LHX2QGSQAMCMPMC2K",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
@@ -7159,6 +7182,51 @@ var catalog_raw=[
    "name": "pistachio kunafa",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "cone size",
+   "modifiers": [
+    {
+     "id": "BXXV7SWWBXPULD3JNPTR63GL",
+     "modifier_data": {
+      "name": "half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "5L7FUOAWQLYRE55U44MBAEYU",
+     "modifier_data": {
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "BXXV7SWWBXPULD3JNPTR63GL",
+  "modifier_data": {
+   "name": "half size",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "5L7FUOAWQLYRE55U44MBAEYU",
+  "modifier_data": {
+   "name": "normal size",
+   "price_money": {
+    "amount": 400
    }
   }
  }
