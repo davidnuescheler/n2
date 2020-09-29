@@ -3948,7 +3948,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -3983,7 +3983,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -5939,7 +5939,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -5974,7 +5974,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -7241,6 +7241,105 @@ var catalog_raw=[
  },
  {
   "id": "Q52X3KSUMT2CBKA2JHXIBFJG",
+  "modifier_data": {
+   "name": "cup + TAIYAKI on top!",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "QCD4BITPMFVUTXUMAF3DEA35",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "STORE composed cone",
+   "modifiers": [
+    {
+     "id": "XI252QVKWMG5TN656WA26GA3",
+     "modifier_data": {
+      "name": "cup",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "I36XW5TUPOQXGSFQFKBWCYLN",
+     "modifier_data": {
+      "name": "cone",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "GSFHBTAMM3BZIWWQDOCTEYL7",
+     "modifier_data": {
+      "name": "cup + cone on top!",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "3TNBVK7EKDBUCW52KLZBGXHV",
+     "modifier_data": {
+      "name": "TAIYAKI cone",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HU5ZRPW3CYOPYOGKYLT7453U",
+     "modifier_data": {
+      "name": "cup + TAIYAKI on top!",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XI252QVKWMG5TN656WA26GA3",
+  "modifier_data": {
+   "name": "cup",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "I36XW5TUPOQXGSFQFKBWCYLN",
+  "modifier_data": {
+   "name": "cone",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "GSFHBTAMM3BZIWWQDOCTEYL7",
+  "modifier_data": {
+   "name": "cup + cone on top!",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "3TNBVK7EKDBUCW52KLZBGXHV",
+  "modifier_data": {
+   "name": "TAIYAKI cone",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "HU5ZRPW3CYOPYOGKYLT7453U",
   "modifier_data": {
    "name": "cup + TAIYAKI on top!",
    "price_money": {
