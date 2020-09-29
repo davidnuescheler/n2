@@ -325,7 +325,7 @@ var catalog_raw=[
   "id": "MR66BS3WFKZZ5QH4VRLZMNKC",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "cone/vessel",
+   "name": "STORE VESSEL",
    "modifiers": [
     {
      "id": "5P7O4MLKQOXVCZJXARDYUGBW",
@@ -351,6 +351,24 @@ var catalog_raw=[
       "name": "cup + cone on top!",
       "price_money": {
        "amount": 100
+      }
+     }
+    },
+    {
+     "id": "URNSVHIDZ5JBIIBK3X3HVXTZ",
+     "modifier_data": {
+      "name": "TAIYAKI cone",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "Q52X3KSUMT2CBKA2JHXIBFJG",
+     "modifier_data": {
+      "name": "cup + TAIYAKI on top!",
+      "price_money": {
+       "amount": 300
       }
      }
     }
@@ -7209,6 +7227,24 @@ var catalog_raw=[
    "name": "beehive",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "URNSVHIDZ5JBIIBK3X3HVXTZ",
+  "modifier_data": {
+   "name": "TAIYAKI cone",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "Q52X3KSUMT2CBKA2JHXIBFJG",
+  "modifier_data": {
+   "name": "cup + TAIYAKI on top!",
+   "price_money": {
+    "amount": 300
    }
   }
  }
