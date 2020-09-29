@@ -397,7 +397,7 @@ var catalog_raw=[
   "id": "2C6JVCDGCNAOQDEUPM4F6PNZ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "composed cone",
+   "name": "LAB composed cone",
    "modifiers": [
     {
      "id": "7VPNBADQMRBQUFDJGJFKB5S3",
