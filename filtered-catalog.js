@@ -4734,15 +4734,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JGGSV6RDRISO3DJMT3LPH5OY",
-     "modifier_data": {
-      "name": "pint of mango ice cream (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
       "name": "pint of milk chocolate ice cream",
@@ -4776,15 +4767,6 @@ var catalog_raw=[
   "id": "QGEDQDCUZZPOYC56UHLUBQN4",
   "modifier_data": {
    "name": "pint of salted vanilla bean ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "JGGSV6RDRISO3DJMT3LPH5OY",
-  "modifier_data": {
-   "name": "pint of mango ice cream (v)",
    "price_money": {
     "amount": 0
    }
