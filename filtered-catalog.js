@@ -161,7 +161,7 @@ var catalog_raw=[
      "modifier_data": {
       "name": "chocolate sprinkles (v) (gf)",
       "price_money": {
-       "amount": 7500
+       "amount": 75
       }
      }
     },
@@ -6848,7 +6848,7 @@ var catalog_raw=[
   "modifier_data": {
    "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
-    "amount": 7500
+    "amount": 75
    }
   }
  },
