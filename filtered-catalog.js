@@ -353,24 +353,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "URNSVHIDZ5JBIIBK3X3HVXTZ",
-     "modifier_data": {
-      "name": "TAIYAKI cone",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "Q52X3KSUMT2CBKA2JHXIBFJG",
-     "modifier_data": {
-      "name": "cup + TAIYAKI on top!",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -7231,24 +7213,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "URNSVHIDZ5JBIIBK3X3HVXTZ",
-  "modifier_data": {
-   "name": "TAIYAKI cone",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "Q52X3KSUMT2CBKA2JHXIBFJG",
-  "modifier_data": {
-   "name": "cup + TAIYAKI on top!",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "QCD4BITPMFVUTXUMAF3DEA35",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -7280,24 +7244,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "3TNBVK7EKDBUCW52KLZBGXHV",
-     "modifier_data": {
-      "name": "TAIYAKI cone",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "HU5ZRPW3CYOPYOGKYLT7453U",
-     "modifier_data": {
-      "name": "cup + TAIYAKI on top!",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -7326,24 +7272,6 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "3TNBVK7EKDBUCW52KLZBGXHV",
-  "modifier_data": {
-   "name": "TAIYAKI cone",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "HU5ZRPW3CYOPYOGKYLT7453U",
-  "modifier_data": {
-   "name": "cup + TAIYAKI on top!",
-   "price_money": {
-    "amount": 300
    }
   }
  }
