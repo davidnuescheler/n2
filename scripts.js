@@ -1417,7 +1417,8 @@ function toggleCartDisplay() {
 async function fetchLabels() {
     if (!window.labels) {
         var resp=await fetch('/labels.json');
-        var json=await resp.json();
+        let json=await resp.json();
+        if (json.data) json=json.data;
         window.labels={};
         json.forEach((e) => {
             window.labels[e.key]=e.text;
