@@ -4755,15 +4755,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
-     "modifier_data": {
-      "name": "pint of brownie batter ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "5DSEQTM3IGV2GF27FZFXSS3P",
      "modifier_data": {
       "name": "pint of sweet corn ice cream",
@@ -5760,15 +5751,6 @@ var catalog_raw=[
   "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
   "modifier_data": {
    "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "TGJ7XVD7OHN2BF7XAWWODBCQ",
-  "modifier_data": {
-   "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
    }
