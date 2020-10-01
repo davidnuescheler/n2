@@ -4742,6 +4742,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "IJAWNFUWIVDXHEZTYJAL3LVN",
+     "modifier_data": {
+      "name": "pint of mango sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "QQWP5YJAAYROMT2QHJ436LKA",
+     "modifier_data": {
+      "name": "pint of brownie batter ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -7246,6 +7264,24 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "IJAWNFUWIVDXHEZTYJAL3LVN",
+  "modifier_data": {
+   "name": "pint of mango sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "QQWP5YJAAYROMT2QHJ436LKA",
+  "modifier_data": {
+   "name": "pint of brownie batter ice cream",
+   "price_money": {
+    "amount": 0
    }
   }
  }
