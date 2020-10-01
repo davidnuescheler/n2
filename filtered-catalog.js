@@ -1460,26 +1460,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "OMIN44IKXHWBCFMWSTGAKM3X",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "BRASIL nathalia maria",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "WJGCBDH6JLCVWY4J3T7FO6EF",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA anbessa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "CC22D4YDFLQRTSRDTED3J5QU",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
