@@ -5637,15 +5637,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "FKDUX64QREG6HESQGM5SZYU7",
-     "modifier_data": {
-      "name": "vegan (all veg!)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -5758,15 +5749,6 @@ var catalog_raw=[
   "id": "7YEXAL3D4O45GSFUWVGMLPYS",
   "modifier_data": {
    "name": "pepperoni",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "FKDUX64QREG6HESQGM5SZYU7",
-  "modifier_data": {
-   "name": "vegan (all veg!)",
    "price_money": {
     "amount": 0
    }
