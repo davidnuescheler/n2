@@ -202,15 +202,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "AZNR646FEVK63TAXVCZ3CYWX",
-     "modifier_data": {
-      "name": "orange blossom water (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
      "modifier_data": {
       "name": "lime cotton candy (v) (gf)",
@@ -6006,15 +5997,6 @@ var catalog_raw=[
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
    "name": "brownie bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "AZNR646FEVK63TAXVCZ3CYWX",
-  "modifier_data": {
-   "name": "orange blossom water (v) (gf)",
    "price_money": {
     "amount": 75
    }
