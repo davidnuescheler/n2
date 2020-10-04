@@ -7212,5 +7212,65 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "3KX66OXM3RM7T73OMOBUZNF4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana cream pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "APH2BOTHRKKGG23ZLV7CSV64",
+     "item_variation_data": {
+      "item_id": "3KX66OXM3RM7T73OMOBUZNF4",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "IBKRUHVB7LBLIM3WMECN3NNK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "tangerine julius sorbet",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "PISKYTNOOIAFS5ZQZV3YTIIX",
+     "item_variation_data": {
+      "item_id": "IBKRUHVB7LBLIM3WMECN3NNK",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "JCXRVTIFTZQTBATTFKACAUFD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "coava coffee exclusive pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "JGYYAWE3OUIOPFR4SC3XQDMK",
+     "item_variation_data": {
+      "item_id": "JCXRVTIFTZQTBATTFKACAUFD",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
