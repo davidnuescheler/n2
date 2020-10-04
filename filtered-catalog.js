@@ -4724,15 +4724,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "QQWP5YJAAYROMT2QHJ436LKA",
-     "modifier_data": {
-      "name": "pint of brownie batter ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7163,15 +7154,6 @@ var catalog_raw=[
   "id": "IJAWNFUWIVDXHEZTYJAL3LVN",
   "modifier_data": {
    "name": "pint of mango sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "QQWP5YJAAYROMT2QHJ436LKA",
-  "modifier_data": {
-   "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
    }
