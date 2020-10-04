@@ -1450,7 +1450,8 @@ function addConfigToCart(e) {
 }
 
 // toggles non-empty cart
-function toggleCartDisplay() {  
+function toggleCartDisplay() { 
+    updateCart(); 
     var cartEl=document.getElementById("cart");
     // if $cartEl's classlist DOES NOT INCLUDE "full"
     if (cartEl.classList.toggle("full")) {
