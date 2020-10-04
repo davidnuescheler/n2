@@ -7272,5 +7272,45 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "LDEBYAJBITU7UPTEKMUOIMVQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "all about orange pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "PBKVBZOUOMDUN6MJZY6WODPE",
+     "item_variation_data": {
+      "item_id": "LDEBYAJBITU7UPTEKMUOIMVQ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CRWRNDQPT6O5ZXFRTE5PSVFY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "rosemary + chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "N5XBUU5ICULUS7KLSXKRP533",
+     "item_variation_data": {
+      "item_id": "CRWRNDQPT6O5ZXFRTE5PSVFY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
