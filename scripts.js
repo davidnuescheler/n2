@@ -671,6 +671,9 @@ function getConeBuilderHTML(item, callout) {
     }
 
 function getConfigHTML(item, callout) {
+    console.log(`\ngetConfigHTML is running`)
+    console.log(`getConfigHTML -> item`, item);
+    console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
     let html='';
     var pickupVars=isFixedPickup(item);
     var image="";
@@ -1157,35 +1160,35 @@ async function checkCart() {
     
     // select ONLY items struckthrough from google doc
     let delArr = [...$cartCheck.getElementsByTagName("DEL")];
+    let delItemIds = []; 
     
-    // get links out struckthrough elements
-    const delEls = delArr.map(e => { 
-        if (e.firstElementChild && e.firstElementChild.tagName === "A") {
-            return e.firstElementChild.getAttribute("href"); 
+    delArr.forEach(el => {
+        // check del elements for links
+        if (el.firstElementChild && el.firstElementChild.tagName === "A") {
+            let url = el.firstElementChild.getAttribute("href");
+            // retain only item ids from end of url
+            let itemId = url.split('/').slice(-1)[0];
+            delItemIds.push(itemId); 
         }
     })
-    // remove undefined values (such as images, svgs)
-    const delLinks = delEls.filter(e => {
-        return e !== undefined;
-    })
-    // retain only item ids
-    const delIds = delLinks.map(link => {
-        return link.split('/').slice(-1)[0];
-    });
-
+    
+    let oosLIs = []; // container for out-of-stock line items
 
     // compare line item variation ids from cart to deleted item ids
     cart.line_items.forEach(li => {
+        // console.log(`checkCart -> li`, li);
         const variation = catalog.byId[li.variation];
         const itemId = catalog.byId[variation.item_variation_data.item_id].id;
 
-        if (delIds.includes(itemId)) {
-            console.log(`this item is OUT OF STOCK`);
-        } else {
-            console.log(`this item is IN STOCK`);
-        }
-
-    })
+        if (delItemIds.includes(itemId)) {
+            // console.log(`this item is OUT OF STOCK`);
+            oosLIs.push(li);
+            li.quantity = 'OUT OF STOCK'
+        } 
+        
+    });
+    
+    return oosLIs;
 
     /* OLD */
 
@@ -1303,25 +1306,27 @@ async function submitOrder() {
     orderEl.classList.remove("hidden");
     orderEl.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
 
-    checkCart();
-    // var nomore=await checkCart();
+    var nomore = await checkCart();
+    console.log(`submitOrder -> nomore`, nomore);
 
-    // if (nomore.length>0) {
-    //     var sorry="we are so sorry we just ran out of "
-    //     nomore.forEach((li, i) => {
-    //         var v=catalog.byId[li.variation];
-    //         var item=catalog.byId[v.item_variation_data.item_id];
-    //             sorry+=(i?", ":"")+item.item_data.name+" : "+v.item_variation_data.name;
-    //         cart.remove(li.fp);
-    //     })
-    //     sorry+=". we will refresh the store so you can look for alternatives. so sorry.";
-    //     alert(sorry);
-    //     window.location.reload();
-    //     return;
-    // }
+    if (nomore.length>0) {
+        var sorry="we are so sorry we just ran out of "
+        nomore.forEach((li, i) => {
+        console.log(`submitOrder -> li`, li);
+            var v=catalog.byId[li.variation];
+            var item=catalog.byId[v.item_variation_data.item_id];
+                sorry+=(i?", ":"")+item.item_data.name+" : "+v.item_variation_data.name;
+            cart.remove(li.fp);
+        })
+        sorry+=". we will refresh the store so you can look for alternatives. so sorry.";
+        alert(sorry);
+        window.location.reload();
+        return;
+    }
     
     orderParams.line_items=[];
     cart.line_items.forEach((li) => { 
+    console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
         var line_item={
@@ -1445,8 +1450,7 @@ function addConfigToCart(e) {
 }
 
 // toggles non-empty cart
-function toggleCartDisplay() {    
-    checkCart();
+function toggleCartDisplay() {  
     var cartEl=document.getElementById("cart");
     // if $cartEl's classlist DOES NOT INCLUDE "full"
     if (cartEl.classList.toggle("full")) {
@@ -1610,13 +1614,15 @@ function minus (el) {
     updateCart();
 }
 
-function updateCart() {
-    console.log(`updateCart running`);
+async function updateCart() {
     const labels=window.labels;
+
+    var nomore = await checkCart();
 
     var cartEl=document.getElementById("cart");
 
     var count=cart.totalItems();
+
     if (count>0) {
         cartEl.classList.remove("hidden");
     } else {
@@ -1628,26 +1634,78 @@ function updateCart() {
     summaryEl.innerHTML=`${count} item${count==1?"":"s"} in your cart ($${formatMoney(cart.totalAmount())}) <button onclick="toggleCartDisplay()">check out</button>`;
     
     var lineitemsEl=cartEl.querySelector(".lineitems");
+    let oosMessageDiv = document.createElement("div");
+    oosMessageDiv.className = "line item";
+    let oosMessage = document.createElement("div");
+    oosMessage.setAttribute("id", "oos");
+    oosMessage.className = "desc oos";
+
+    // placeholders for ALL out of stock items
+    var oosItems = []; 
+    var oosItemStr = `oh no, we're out of `;
+
     var html=``;
+    
     cart.line_items.forEach((li) => {
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
-        if (i.item_data.name == 'lab cone') cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
+        if (i.item_data.name == 'lab cone' && li.quantity > 0) cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        html+=`<div class="line item" data-id="${li.fp}">
+        
+        if (li.quantity > 0) {
+            html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
             ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
             <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
             </div>`;
+        } else if (li.quantity === "OUT OF STOCK") {
+            let oosItem;
+            if (i.item_data.name == "soft serve") {
+                oosItem = `${v.item_variation_data.name} ${i.item_data.name}`;
+                oosItems.push(oosItem);
+            } else {
+                oosItem = `${i.item_data.name}s`;
+                oosItems.push(oosItem);
+            }
+        }
+        
     })
+
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
-
+    
     lineitemsEl.innerHTML=html;
-    // console.log(JSON.stringify(cart.line_items));
 
+    // build oos item message, if items in cart are out of stock
+    if (oosItems.length) {
+      switch (oosItems.length) {
+        case 0:
+          break;
+        case 1:
+          oosItemStr += `${oosItems[0]} right now`;
+          break;
+        case 2:
+          oosItemStr += `${oosItems[0]} and ${oosItems[1]} right now`;
+          break;
+        default:
+          for (let i = 0; i < oosItems.length - 1; i++) {
+            oosItemStr += `${oosItems[i]}, `;
+          }
+          oosItemStr += `and ${oosItems[oosItems.length - 1]} right now`;
+          break;
+      }
+
+      oosMessage.innerHTML += `<div id="oos-close" onclick="removeOOS()"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close"><use href="/icons.svg#close"></use></svg>`;
+      oosMessage.innerHTML += oosItemStr;
+      oosMessage.innerHTML += `<br />we've removed them from your cart`;
+      oosMessageDiv.append(oosMessage);
+      lineitemsEl.prepend(oosMessageDiv);
+    }
+
+    // console.log(JSON.stringify(cart.line_items));
+    
     var checkoutItemsEl=cartEl.querySelector(".checkoutitems");
     html='';
 
@@ -1669,26 +1727,40 @@ function updateCart() {
 
 }
 
+// remove oos message from screen and oos items from cart
+function removeOOS() {
+    let OOSEl = document.getElementById("oos");
+    OOSEl.parentNode.remove();
+    cart.line_items.forEach((li) => {
+        if (li.quantity === "OUT OF STOCK") {
+            // remove item from cart
+            cart.remove(li.fp);
+        }
+    })
+    // update cart in local storage
+    cart.store();
+}
+
 function findCallout($parent) {
-    console.log(`findCallout is running`);
-    console.log(`  findCallout -> $parent`, $parent);
+    // console.log(`findCallout is running`);
+    // console.log(`  findCallout -> $parent`, $parent);
     var callout="";
     var $e=$parent.nextSibling;
-    console.log(`    findCallout -> $e`, $e);
-    console.log(`      findCallout -> $e.tagName`, $e.tagName);
-    console.log(`      findCallout -> $parent.tagName`, $parent.tagName);
+    // console.log(`    findCallout -> $e`, $e);
+    // console.log(`      findCallout -> $e.tagName`, $e.tagName);
+    // console.log(`      findCallout -> $parent.tagName`, $parent.tagName);
     while ($e && $e.tagName != $parent.tagName) {
         if ($e.tagName=="P" && $e.textContent.indexOf("*")==0) {
-            console.log(`        findCallout -> $e.tagName`, $e.tagName);
-            console.log(`        findCallout -> $e.textContent`, $e.textContent);
+            // console.log(`        findCallout -> $e.tagName`, $e.tagName);
+            // console.log(`        findCallout -> $e.textContent`, $e.textContent);
             callout+=`<p>${$e.textContent}</p>`;        
-            console.log(`          findCallout -> callout`, callout);
+            // console.log(`          findCallout -> callout`, callout);
         }
-        // console.log($e.tagName +":"+$e.textContent)
-        console.log(`            findCallout -> $e.nextSibling`, $e.nextSibling);
+        console.log($e.tagName +":"+$e.textContent)
+        // console.log(`            findCallout -> $e.nextSibling`, $e.nextSibling);
         $e=$e.nextSibling;
     }
-    console.log(`\nfindCallout -> callout`, callout);
+    // console.log(`\nfindCallout -> callout`, callout);
     return callout;
 }
 
@@ -1704,12 +1776,9 @@ function toggleCart(e) {
 }
 
 function addToCart(e) {
-    console.log(`addToCart -> e`, e);
     var id=e.getAttribute("data-id");
-    console.log(`  addToCart -> id`, id);
     if (id) {
         var obj=catalog.byId[id]
-        console.log(`    addToCart -> obj`, obj);
         if (obj.type=="ITEM") {
             if (obj.item_data.modifier_list_info || (obj.item_data.variations.length>1)) {
                 var callout=findCallout(e.parentNode);
@@ -1849,12 +1918,8 @@ var cart={
         cart.store();
     },
     add: (variation, mods) => {
-        console.log(`\ncart.add is running`);
-        console.log(`  cart.add => variation`, variation);
-        console.log(`  cart.add => mods`, mods);
         if (!mods) mods=[];
         var li=cart.find(variation, mods);
-        console.log(`    cart.add => li`, li);
         if (li) {
             li.quantity++;
         } else {
@@ -1879,13 +1944,19 @@ var cart={
     },
     totalAmount: () => {
         var total=0;
-        cart.line_items.forEach((li)=>{ total+=li.price*li.quantity
+        cart.line_items.forEach((li)=>{ 
+            if (li.quantity > 0) {
+                total+=li.price*li.quantity
+            }
         })
         return (total);
     },
     totalItems: () => {
         var total=0;
-        cart.line_items.forEach((li)=>{ total+=li.quantity
+        cart.line_items.forEach((li)=>{ 
+            if (li.quantity > 0) {
+                total+=li.quantity
+            }
         })
         return (total);
     },
