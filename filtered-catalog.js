@@ -157,15 +157,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6JJ7M2FZZVG45PRMQ3BEKUUK",
-     "modifier_data": {
-      "name": "pistachio kunafa",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
      "modifier_data": {
       "name": "lime caramel (v) (gf)",
@@ -7094,15 +7085,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "6JJ7M2FZZVG45PRMQ3BEKUUK",
-  "modifier_data": {
-   "name": "pistachio kunafa",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
