@@ -191,15 +191,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
-     "modifier_data": {
-      "name": "lime cotton candy (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -6595,15 +6586,6 @@ var catalog_raw=[
    "name": "pint of sweet corn ice cream",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "5XVRRTNKPY5UKFEZWNEJ2TV5",
-  "modifier_data": {
-   "name": "lime cotton candy (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
