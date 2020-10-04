@@ -1496,8 +1496,8 @@ async function fetchLabels() {
     if (!window.labels) {
         // fetch labels google sheet from google drive
         var resp=await fetch('/labels.json');
-        // return data from google sheet as array of objects
-        var json=await resp.json();
+        let json=await resp.json();
+        if (json.data) json=json.data;
         window.labels={};
         // store array of objs from google sheet to object of key/text pairs
         json.forEach((e) => {
