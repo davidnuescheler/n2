@@ -585,6 +585,27 @@ code {
     flex-grow: 1;
     align-self: center;
 }
+#cart .line .desc.oos {
+    position: relative;
+    padding: 8px 32px;
+    background: var(--warning-color);
+    color: var(--text-color);
+    text-align: center;
+}
+#cart .line .desc.oos #oos-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+#cart .line .desc.oos #oos-close:hover {
+    filter: hue-rotate(30deg);
+    transform: translateY(1px);
+    cursor: pointer;
+}
+
 #cart .line.total .desc {
     text-align: right;
     padding-right: 10px;
