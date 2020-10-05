@@ -5735,7 +5735,7 @@ var catalog_raw=[
      "id": "R4LRAHNAWRL627VSKEO7AGL5",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "mango",
+      "name": "black sesame",
       "price_money": {
        "amount": 0
       }
@@ -5745,7 +5745,7 @@ var catalog_raw=[
      "id": "BXZWHKMKFUMP7IVCNAFNJRDU",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + mango TWIST",
+      "name": "vanilla + black sesame TWIST",
       "price_money": {
        "amount": 0
       }
@@ -5765,7 +5765,7 @@ var catalog_raw=[
      "id": "4TPJECRFDDVVYOYC2RB76GPA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "brownie batter",
+      "name": "montmorency cherry",
       "price_money": {
        "amount": 0
       }
@@ -5775,7 +5775,37 @@ var catalog_raw=[
      "id": "22PUAH4LHX2QGSQAMCMPMC2K",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate + brownie batter TWIST",
+      "name": "milk chocolate + cherry TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GZRCPWCBSWIVE3NIM5VBVGH6",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blood orange (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PRC6TNRIQCETAYLF4BR56MDK",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "coconut (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2MW6RZWD27E4B7VP3TB7CCKO",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blood orange + coconut TWIST (v)",
       "price_money": {
        "amount": 0
       }
