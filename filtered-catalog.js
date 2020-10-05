@@ -731,6 +731,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "Y5WYZKLOHC572S33PL7C3F6U",
@@ -906,6 +907,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blood orange pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "PB7DDU2C4YUOVCOCP4YFE56C",
@@ -2034,46 +2036,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "MYSMEKFVIIRLSUOVNO6M2LZF",
-  "type": "ITEM",
-  "item_data": {
-   "name": "normal tote",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "KHUKTKUUTKETPKMYHBTBDWXF",
-     "item_variation_data": {
-      "item_id": "MYSMEKFVIIRLSUOVNO6M2LZF",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-  "type": "ITEM",
-  "item_data": {
-   "name": "feel NORMAL® yet tie dye tee",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "LDW4FEKBUV43TM5ILEHZJWRE",
-     "item_variation_data": {
-      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "large",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "RYNRMVD5XK4FLVZA3UB3QSZC",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -2506,6 +2468,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "brown butter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "P2EC5UJHM4HCV2OMQ6E2WGJO",
@@ -2755,7 +2718,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "delivery charge",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "GJIGZ7L32RO2T4YBRP6RBIYB",
@@ -2960,25 +2923,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "SFTYXDDWEPADCVGVHKU47BUF",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cinnamon toast crunch milk pint",
-   "variations": [
-    {
-     "id": "CJHOAV5JM7XWNRIJN3HKBAO4",
-     "item_variation_data": {
-      "item_id": "SFTYXDDWEPADCVGVHKU47BUF",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "BWKSSIIEHSYMWQBEVOYYII5X",
   "type": "ITEM",
   "item_data": {
@@ -3022,6 +2966,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "BFMTOYNUTIMIJYA5MFLLL4II",
@@ -3072,74 +3017,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "NORMAL® gift card",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "WJKP4HUD3KUT6EEBFG6XUKEB",
-     "item_variation_data": {
-      "item_id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-      "name": "$10.00",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "SEBNE7MNSFP53WAUX2WW3H4M",
-     "item_variation_data": {
-      "item_id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-      "name": "$15",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
-     "id": "W6KAQWG6NSSB4GV7GGQUJBAR",
-     "item_variation_data": {
-      "item_id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-      "name": "$25",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
-     "id": "ELBMO5VZ5SXKBB3TYHXQK2BP",
-     "item_variation_data": {
-      "item_id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-      "name": "$50",
-      "price_money": {
-       "amount": 5000
-      }
-     }
-    },
-    {
-     "id": "S6H43O2K4JWUTLNUOQUAXXHT",
-     "item_variation_data": {
-      "item_id": "LLK7YXFH5UJAL3MM2LSAJYN2",
-      "name": "$100",
-      "price_money": {
-       "amount": 10000
-      }
-     }
-    }
-   ]
-  },
-  "image_id": "N5OIABGGD2L6IGPX73PGMSZN"
- },
- {
-  "id": "N5OIABGGD2L6IGPX73PGMSZN",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/65f3ce8642d13a29eb27eec447b23719d4de0717/original.jpeg"
   }
  },
  {
@@ -3897,76 +3774,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QXRQNGNLL3BLPI3LTEARMIFC",
-  "type": "ITEM",
-  "item_data": {
-   "name": "sweet & spicy",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "NAC4VMTQ5YJ2TW7LEUCXKASG",
-     "item_variation_data": {
-      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
-     "item_variation_data": {
-      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "4QNNVRAYDLWIPGOBU2I6H3KU",
-  "type": "ITEM",
-  "item_data": {
-   "name": "chocolate squared",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "5ESTD5H57KU26GQVWTAFVZRP",
-     "item_variation_data": {
-      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "NGJGV5Z47X7IGIQIGRTOEBNF",
-     "item_variation_data": {
-      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "ZCXGP3RXDQMIM5FFHYDSYFFF",
   "modifier_data": {
    "name": "no toppings",
@@ -3992,141 +3799,12 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KQSKXASXRGBAAXUKURZ6KGFE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "blueberry sour cream slice",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
-   "variations": [
-    {
-     "id": "S4NJK25MUK6BR725TDSSQADH",
-     "item_variation_data": {
-      "item_id": "KQSKXASXRGBAAXUKURZ6KGFE",
-      "name": "Regular",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "SYLKJ574KP7QONMEIUV7XZRH",
   "modifier_data": {
    "name": "salted caramel (gf)",
    "price_money": {
     "amount": 75
    }
-  }
- },
- {
-  "id": "JREYRBOPGVVZK6EJGQN4HZMD",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pie in the sky (v)",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "SGUUVI7L4WIWSUEJRRQW3MFO",
-     "item_variation_data": {
-      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "UCCGDWXMG6OX7U4S632YMTI5",
-     "item_variation_data": {
-      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "VJW7WWBPRNB27UKDG7BXZDFX",
-  "type": "ITEM",
-  "item_data": {
-   "name": "not fair",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "WRC7STVVW2SDVD4SJX3GQYHY",
-     "item_variation_data": {
-      "item_id": "VJW7WWBPRNB27UKDG7BXZDFX",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "6URG3PMIT6PAPH5D56TFSH44",
-     "item_variation_data": {
-      "item_id": "VJW7WWBPRNB27UKDG7BXZDFX",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "LU42JEYWOAQGA53XFT4HPVTZ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "malted coffee",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "PE4PC2X376FTAAY7F5MJOCQ3",
-     "item_variation_data": {
-      "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "XTIVHVK3Y52AOLMSJD532UJW",
-     "item_variation_data": {
-      "item_id": "LU42JEYWOAQGA53XFT4HPVTZ",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -4475,6 +4153,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "choco taco pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "4VHCGTALVOONMSWCXKFFY2M4",
@@ -4513,6 +4192,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "butter berry pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "TXRA365DJNZRJXMM74GXTWSX",
@@ -4570,6 +4250,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coffee pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GLXD32FZAX7YUVATRIGXSQLA",
@@ -4589,6 +4270,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cookie butter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GHFLGBVHORS5S2K2TSAQHFCI",
@@ -5374,37 +5056,11 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5UPOMZS4V5Y3RVN6AYRGGJGJ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "build your own pint",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
-    },
-    {
-     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
-    }
-   ],
-   "variations": [
-    {
-     "id": "VKDF5KS3TO2L7QIMTLT65BUC",
-     "item_variation_data": {
-      "item_id": "5UPOMZS4V5Y3RVN6AYRGGJGJ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "QWAM7VPFOKHQZMSQMKVUY5IK",
   "type": "ITEM",
   "item_data": {
    "name": "coava cold brew LAB",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "4C64ILV5M4MXDKY3V2ETZGUT"
@@ -5641,6 +5297,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese + gingersnap pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "E5QQCKBX7C7ZWYCXBBALEEUM",
@@ -5854,76 +5511,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "G4H3J2WPAQC2V4LAKLR5FZWR",
-  "type": "ITEM",
-  "item_data": {
-   "name": "something corny",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "3RLI57KFNCG3QA76JX5VSGAJ",
-     "item_variation_data": {
-      "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "FJDLTHUUJDOL5VX5FJAHVQCM",
-     "item_variation_data": {
-      "item_id": "G4H3J2WPAQC2V4LAKLR5FZWR",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-  "type": "ITEM",
-  "item_data": {
-   "name": "aziza",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "6DTPHVOIBXPBQNRLYF6FXPI4",
-     "item_variation_data": {
-      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "OE7CPVRO53H3EQQLNUQUAA7W",
-     "item_variation_data": {
-      "item_id": "XDBNDZW2GYOYDDZOFIKLYKAV",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "JY6NIYOH43SEGGHPSURFL2LP",
   "modifier_data": {
    "name": "tajin meringue (v)(gf)",
@@ -6011,44 +5598,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "OQSI5B3DZXGXJXW6LGTFTDHS",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cookie butter + cake exclusive pint",
-   "variations": [
-    {
-     "id": "3WZCPOOPRECZDKUMHWLCGWKC",
-     "item_variation_data": {
-      "item_id": "OQSI5B3DZXGXJXW6LGTFTDHS",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "VOOED3JUF2MJ3WHHPRZYSBZJ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "blueberry abomination exclusive pint",
-   "variations": [
-    {
-     "id": "5L7VNIYWU2PQXOC6F2KC3CR3",
-     "item_variation_data": {
-      "item_id": "VOOED3JUF2MJ3WHHPRZYSBZJ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
       }
      }
     }
@@ -6417,6 +5966,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cocoa nib pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "LB4PEDCHORF437RUEY2YGL67",
@@ -6425,25 +5975,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "bay leaf + grapefruit pint",
-   "variations": [
-    {
-     "id": "E2XNWPJEX77WYJ7PYR3MEVM4",
-     "item_variation_data": {
-      "item_id": "PM3EEJSI3BWXHM7U6C7ZNAT2",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
       }
      }
     }
@@ -6517,26 +6048,6 @@ var catalog_raw=[
      "id": "KYIB243R6IVQJFLFNSA5D7QZ",
      "item_variation_data": {
       "item_id": "EUSIJTBGVJ25E4TCM77YYVE7",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "XJ7R2FQDTH5O4NCPVHM5ARNU",
-  "type": "ITEM",
-  "item_data": {
-   "name": "mascarpone + jam + evoo cake pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "IHAEAPLUOUFBGBY6QBQSZOUC",
-     "item_variation_data": {
-      "item_id": "XJ7R2FQDTH5O4NCPVHM5ARNU",
       "name": "Regular",
       "price_money": {
        "amount": 1000
