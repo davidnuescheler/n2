@@ -5187,30 +5187,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "GQS5FF4VZIR4A2A5H57WHV4D",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "R4LRAHNAWRL627VSKEO7AGL5",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "black sesame",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BXZWHKMKFUMP7IVCNAFNJRDU",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + black sesame TWIST",
       "price_money": {
        "amount": 0
       }
