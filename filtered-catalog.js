@@ -2045,27 +2045,9 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SEAOEWQP6UAQGF7FV55DQEJY",
      "modifier_data": {
       "name": "black sesame (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
-     "modifier_data": {
-      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3006,27 +2988,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
      "modifier_data": {
       "name": "black sesame (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "32WAXIATL7IY3W3IPZMSJDWW",
-     "modifier_data": {
-      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5193,24 +5157,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "7YEXAL3D4O45GSFUWVGMLPYS",
   "modifier_data": {
    "name": "pepperoni",
@@ -5457,27 +5403,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "32WAXIATL7IY3W3IPZMSJDWW",
-  "modifier_data": {
-   "name": "vanilla + black sesame TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "SEAOEWQP6UAQGF7FV55DQEJY",
   "modifier_data": {
    "name": "black sesame (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
-  "modifier_data": {
-   "name": "vanilla + black sesame TWIST (gf)",
    "price_money": {
     "amount": 0
    }
