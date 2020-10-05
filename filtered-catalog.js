@@ -3535,7 +3535,7 @@ var catalog_raw=[
     {
      "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
      "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWSIT (v) (gf)",
+      "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5177,7 +5177,7 @@ var catalog_raw=[
  {
   "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
   "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWSIT (v) (gf)",
+   "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
