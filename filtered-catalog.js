@@ -130,6 +130,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
+     "modifier_data": {
+      "name": "baby bat sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "JY6NIYOH43SEGGHPSURFL2LP",
+     "modifier_data": {
+      "name": "baby bone sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa krispies (v) (gf)",
@@ -148,27 +166,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
-     "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "JY6NIYOH43SEGGHPSURFL2LP",
-     "modifier_data": {
-      "name": "tajin meringue (v)(gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
      "modifier_data": {
-      "name": "lime caramel (v) (gf)",
+      "name": "cotton candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -177,7 +177,7 @@ var catalog_raw=[
     {
      "id": "J3Z4PLUU34QDCAA36N6FNCX4",
      "modifier_data": {
-      "name": "passion fruit caramel (gf)",
+      "name": "spooky salted caramel (gf)",
       "price_money": {
        "amount": 75
       }
@@ -186,7 +186,7 @@ var catalog_raw=[
     {
      "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
      "modifier_data": {
-      "name": "fudge sauce (gf)",
+      "name": "honeycomb candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -195,7 +195,16 @@ var catalog_raw=[
     {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
-      "name": "brownie bits",
+      "name": "the blood of oranges (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
+     "modifier_data": {
+      "name": "OMNOM black N burnt crunch",
       "price_money": {
        "amount": 75
       }
@@ -2038,7 +2047,7 @@ var catalog_raw=[
     {
      "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
      "modifier_data": {
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2047,7 +2056,7 @@ var catalog_raw=[
     {
      "id": "SEAOEWQP6UAQGF7FV55DQEJY",
      "modifier_data": {
-      "name": "mango",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2056,7 +2065,7 @@ var catalog_raw=[
     {
      "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
      "modifier_data": {
-      "name": "vanilla + mango TWIST",
+      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2065,7 +2074,7 @@ var catalog_raw=[
     {
      "id": "GIKIINGOWPKKEGSPG4TQVXRB",
      "modifier_data": {
-      "name": "brownie batter",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2074,7 +2083,43 @@ var catalog_raw=[
     {
      "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
      "modifier_data": {
-      "name": "sweet corn",
+      "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YMYOEJYSQVYI4C4G75H4376X",
+     "modifier_data": {
+      "name": "milk chocolate + cherry TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "55RLPHUM4436C45O7GC4K66K",
+     "modifier_data": {
+      "name": "coconut sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NFBWB7NRRENR2YARYKCFCVAQ",
+     "modifier_data": {
+      "name": "blood orange + coconut TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2963,7 +3008,7 @@ var catalog_raw=[
     {
      "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
      "modifier_data": {
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2972,7 +3017,7 @@ var catalog_raw=[
     {
      "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
      "modifier_data": {
-      "name": "mango",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2981,7 +3026,7 @@ var catalog_raw=[
     {
      "id": "32WAXIATL7IY3W3IPZMSJDWW",
      "modifier_data": {
-      "name": "vanilla + mango TWIST",
+      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2990,7 +3035,52 @@ var catalog_raw=[
     {
      "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
      "modifier_data": {
-      "name": "sweet corn",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "Z7NPS63BEVS4G4M4AHHZBL2B",
+     "modifier_data": {
+      "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HPOYW3VKKKFFOX2YZXRZR52F",
+     "modifier_data": {
+      "name": "milk chocolate + cherry TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4JJX7WCUFWIXXBU3CNASGDHK",
+     "modifier_data": {
+      "name": "coconut sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
+     "modifier_data": {
+      "name": "blood orange + coconut sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5058,7 +5148,7 @@ var catalog_raw=[
  {
   "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
   "modifier_data": {
-   "name": "sweet corn",
+   "name": "montmorency cherry (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5105,7 +5195,7 @@ var catalog_raw=[
  {
   "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
   "modifier_data": {
-   "name": "salted vanilla bean",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5114,7 +5204,7 @@ var catalog_raw=[
  {
   "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
   "modifier_data": {
-   "name": "salted vanilla bean",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5266,7 +5356,7 @@ var catalog_raw=[
  {
   "id": "JY6NIYOH43SEGGHPSURFL2LP",
   "modifier_data": {
-   "name": "tajin meringue (v)(gf)",
+   "name": "baby bone sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5275,7 +5365,7 @@ var catalog_raw=[
  {
   "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
   "modifier_data": {
-   "name": "lime caramel (v) (gf)",
+   "name": "cotton candy (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5284,7 +5374,7 @@ var catalog_raw=[
  {
   "id": "J3Z4PLUU34QDCAA36N6FNCX4",
   "modifier_data": {
-   "name": "passion fruit caramel (gf)",
+   "name": "spooky salted caramel (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5293,7 +5383,7 @@ var catalog_raw=[
  {
   "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
   "modifier_data": {
-   "name": "fudge sauce (gf)",
+   "name": "honeycomb candy (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5302,7 +5392,7 @@ var catalog_raw=[
  {
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
-   "name": "brownie bits",
+   "name": "the blood of oranges (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5311,7 +5401,7 @@ var catalog_raw=[
  {
   "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
   "modifier_data": {
-   "name": "sweet corn",
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5360,7 +5450,7 @@ var catalog_raw=[
  {
   "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
   "modifier_data": {
-   "name": "mango",
+   "name": "black sesame (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5369,7 +5459,7 @@ var catalog_raw=[
  {
   "id": "32WAXIATL7IY3W3IPZMSJDWW",
   "modifier_data": {
-   "name": "vanilla + mango TWIST",
+   "name": "vanilla + black sesame TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5378,7 +5468,7 @@ var catalog_raw=[
  {
   "id": "SEAOEWQP6UAQGF7FV55DQEJY",
   "modifier_data": {
-   "name": "mango",
+   "name": "black sesame (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5387,7 +5477,7 @@ var catalog_raw=[
  {
   "id": "TGUTHNOWU5ENBKOEZDRJYWRK",
   "modifier_data": {
-   "name": "vanilla + mango TWIST",
+   "name": "vanilla + black sesame TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5679,7 +5769,7 @@ var catalog_raw=[
  {
   "id": "GIKIINGOWPKKEGSPG4TQVXRB",
   "modifier_data": {
-   "name": "brownie batter",
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5929,7 +6019,7 @@ var catalog_raw=[
  {
   "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
   "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
+   "name": "baby bat sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6471,6 +6561,96 @@ var catalog_raw=[
   "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
   "modifier_data": {
    "name": "heath and crunch bar crumb",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "Z7NPS63BEVS4G4M4AHHZBL2B",
+  "modifier_data": {
+   "name": "montmorency cherry (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "HPOYW3VKKKFFOX2YZXRZR52F",
+  "modifier_data": {
+   "name": "milk chocolate + cherry TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
+  "modifier_data": {
+   "name": "blood orange sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "4JJX7WCUFWIXXBU3CNASGDHK",
+  "modifier_data": {
+   "name": "coconut sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
+  "modifier_data": {
+   "name": "blood orange + coconut sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "YMYOEJYSQVYI4C4G75H4376X",
+  "modifier_data": {
+   "name": "milk chocolate + cherry TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
+  "modifier_data": {
+   "name": "blood orange sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "55RLPHUM4436C45O7GC4K66K",
+  "modifier_data": {
+   "name": "coconut sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NFBWB7NRRENR2YARYKCFCVAQ",
+  "modifier_data": {
+   "name": "blood orange + coconut TWIST (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
+  "modifier_data": {
+   "name": "OMNOM black N burnt crunch",
    "price_money": {
     "amount": 75
    }
