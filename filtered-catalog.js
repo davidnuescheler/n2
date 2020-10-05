@@ -22,6 +22,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
+     "modifier_data": {
+      "name": "baby bat sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "SYLKJ574KP7QONMEIUV7XZRH",
+     "modifier_data": {
+      "name": "baby bone sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -40,18 +58,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SYLKJ574KP7QONMEIUV7XZRH",
-     "modifier_data": {
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
-      "name": "strawberry jam (v) (gf)",
+      "name": "peanut toffee (gf)",
       "price_money": {
        "amount": 75
       }
@@ -60,7 +69,7 @@ var catalog_raw=[
     {
      "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
      "modifier_data": {
-      "name": "caramel corn (gf)",
+      "name": "fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -69,7 +78,7 @@ var catalog_raw=[
     {
      "id": "54DOE4VPVFQ25T2V6GDGAXP6",
      "modifier_data": {
-      "name": "malt balls (gf)",
+      "name": "count chocula",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +87,16 @@ var catalog_raw=[
     {
      "id": "3UBOT6GLVPNOPJ3QWF754V7A",
      "modifier_data": {
-      "name": "toasted \"meringue\" bits (v) (gf)",
+      "name": "berry \"blood\" (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
+     "modifier_data": {
+      "name": "heath and crunch bar crumb",
       "price_money": {
        "amount": 75
       }
@@ -87,18 +105,9 @@ var catalog_raw=[
     {
      "id": "DSXPCLH47QHLKQ644PWDHIKJ",
      "modifier_data": {
-      "name": "vegan vanilla NORMAL dots! (v) (gf)",
+      "name": "coconut ash NORMAL dots! (v) (gf)",
       "price_money": {
        "amount": 150
-      }
-     }
-    },
-    {
-     "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
-     "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
-      "price_money": {
-       "amount": 75
       }
      }
     }
@@ -3391,7 +3400,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "vegan vanilla! (v)",
+      "name": "butterfinger milk",
       "price_money": {
        "amount": 0
       }
@@ -3400,7 +3409,7 @@ var catalog_raw=[
     {
      "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
      "modifier_data": {
-      "name": "rhubarb sorbet (v)",
+      "name": "cream cheese (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3409,7 +3418,7 @@ var catalog_raw=[
     {
      "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
      "modifier_data": {
-      "name": "vegan vanilla + rhubarb TWIST (v)",
+      "name": "cream cheese + butterfinger milk TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3418,7 +3427,7 @@ var catalog_raw=[
     {
      "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
      "modifier_data": {
-      "name": "coffee",
+      "name": "cocoa pebble milk (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3427,7 +3436,7 @@ var catalog_raw=[
     {
      "id": "MREZZAWBX5CLFPLYRULORKKH",
      "modifier_data": {
-      "name": "caramel corn",
+      "name": "many berry sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3436,7 +3445,7 @@ var catalog_raw=[
     {
      "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
      "modifier_data": {
-      "name": "coffee + caramel corn twist",
+      "name": "cocoa pebble milk + many berry TWSIT (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3448,7 +3457,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "vegan vanilla! (v)",
+   "name": "butterfinger milk",
    "price_money": {
     "amount": 0
    }
@@ -3580,7 +3589,7 @@ var catalog_raw=[
  {
   "id": "SYLKJ574KP7QONMEIUV7XZRH",
   "modifier_data": {
-   "name": "salted caramel (gf)",
+   "name": "baby bone sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -3607,7 +3616,7 @@ var catalog_raw=[
  {
   "id": "62XEBWLYZELZ4SFORGKYKRZ4",
   "modifier_data": {
-   "name": "strawberry jam (v) (gf)",
+   "name": "peanut toffee (gf)",
    "price_money": {
     "amount": 75
    }
@@ -3616,7 +3625,7 @@ var catalog_raw=[
  {
   "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
   "modifier_data": {
-   "name": "coffee",
+   "name": "cocoa pebble milk (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -3702,7 +3711,7 @@ var catalog_raw=[
  {
   "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
   "modifier_data": {
-   "name": "caramel corn (gf)",
+   "name": "fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4871,7 +4880,7 @@ var catalog_raw=[
     {
      "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
      "modifier_data": {
-      "name": "vegan vanilla! (v)",
+      "name": "butterfinger milk",
       "price_money": {
        "amount": 300
       }
@@ -4880,7 +4889,7 @@ var catalog_raw=[
     {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
-      "name": "rhubarb sorbet  (v)",
+      "name": "cream cheese (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4889,7 +4898,7 @@ var catalog_raw=[
     {
      "id": "UM4WAEHGILERHWPNYJNGIPHV",
      "modifier_data": {
-      "name": "vegan vanilla + rhubarb TWIST (v)",
+      "name": "cream cheese + butterfinger milk TWIST",
       "price_money": {
        "amount": 300
       }
@@ -4898,7 +4907,7 @@ var catalog_raw=[
     {
      "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
      "modifier_data": {
-      "name": "coffee",
+      "name": "cocoa pebble milk (v)",
       "price_money": {
        "amount": 300
       }
@@ -4907,7 +4916,7 @@ var catalog_raw=[
     {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
-      "name": "caramel corn",
+      "name": "many berry sorbet (v)",
       "price_money": {
        "amount": 300
       }
@@ -4916,7 +4925,7 @@ var catalog_raw=[
     {
      "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
      "modifier_data": {
-      "name": "coffee + caramel corn TWIST",
+      "name": "cocoa pebble milk + many berry TWIST (v)",
       "price_money": {
        "amount": 300
       }
@@ -4937,7 +4946,7 @@ var catalog_raw=[
  {
   "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
   "modifier_data": {
-   "name": "vegan vanilla! (v)",
+   "name": "butterfinger milk",
    "price_money": {
     "amount": 300
    }
@@ -4946,7 +4955,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "rhubarb sorbet  (v)",
+   "name": "cream cheese (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4955,7 +4964,7 @@ var catalog_raw=[
  {
   "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
   "modifier_data": {
-   "name": "coffee",
+   "name": "cocoa pebble milk (v)",
    "price_money": {
     "amount": 300
    }
@@ -4964,7 +4973,7 @@ var catalog_raw=[
  {
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
-   "name": "caramel corn",
+   "name": "many berry sorbet (v)",
    "price_money": {
     "amount": 300
    }
@@ -4973,7 +4982,7 @@ var catalog_raw=[
  {
   "id": "UM4WAEHGILERHWPNYJNGIPHV",
   "modifier_data": {
-   "name": "vegan vanilla + rhubarb TWIST (v)",
+   "name": "cream cheese + butterfinger milk TWIST",
    "price_money": {
     "amount": 300
    }
@@ -4982,7 +4991,7 @@ var catalog_raw=[
  {
   "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
   "modifier_data": {
-   "name": "coffee + caramel corn TWIST",
+   "name": "cocoa pebble milk + many berry TWIST (v)",
    "price_money": {
     "amount": 300
    }
@@ -5078,7 +5087,7 @@ var catalog_raw=[
  {
   "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
   "modifier_data": {
-   "name": "coffee + caramel corn twist",
+   "name": "cocoa pebble milk + many berry TWSIT (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5087,7 +5096,7 @@ var catalog_raw=[
  {
   "id": "MREZZAWBX5CLFPLYRULORKKH",
   "modifier_data": {
-   "name": "caramel corn",
+   "name": "many berry sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5394,7 +5403,7 @@ var catalog_raw=[
  {
   "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
   "modifier_data": {
-   "name": "rhubarb sorbet (v)",
+   "name": "cream cheese (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5403,7 +5412,7 @@ var catalog_raw=[
  {
   "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
   "modifier_data": {
-   "name": "vegan vanilla + rhubarb TWIST (v)",
+   "name": "cream cheese + butterfinger milk TWIST",
    "price_money": {
     "amount": 0
    }
@@ -5652,7 +5661,7 @@ var catalog_raw=[
  {
   "id": "54DOE4VPVFQ25T2V6GDGAXP6",
   "modifier_data": {
-   "name": "malt balls (gf)",
+   "name": "count chocula",
    "price_money": {
     "amount": 75
    }
@@ -5661,7 +5670,7 @@ var catalog_raw=[
  {
   "id": "3UBOT6GLVPNOPJ3QWF754V7A",
   "modifier_data": {
-   "name": "toasted \"meringue\" bits (v) (gf)",
+   "name": "berry \"blood\" (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5764,7 +5773,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "vegan vanilla NORMAL dots! (v) (gf)",
+   "name": "coconut ash NORMAL dots! (v) (gf)",
    "price_money": {
     "amount": 150
    }
@@ -5813,7 +5822,7 @@ var catalog_raw=[
  {
   "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
   "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
+   "name": "baby bat sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6456,6 +6465,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
+  "modifier_data": {
+   "name": "heath and crunch bar crumb",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
