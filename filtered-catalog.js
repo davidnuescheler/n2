@@ -2988,9 +2988,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "XDEW7VCWBF5235A2W3FALQJF",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
      "modifier_data": {
       "name": "black sesame (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KTUHIM74TDMZGVAJECCOBAPH",
+     "modifier_data": {
+      "name": "vanilla + black sesame",
       "price_money": {
        "amount": 300
       }
@@ -5151,10 +5169,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "LP6YPIV3T4E7CYW5XJVBL6PA",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "R4LRAHNAWRL627VSKEO7AGL5",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "black sesame",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "KPLTOU25AW3LQJMMIDGKXQW2",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vanilla + black sesame TWIST",
       "price_money": {
        "amount": 0
       }
@@ -6561,6 +6599,24 @@ var catalog_raw=[
    "name": "cocoa pebble milk + many berry TWIST",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "XDEW7VCWBF5235A2W3FALQJF",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "KTUHIM74TDMZGVAJECCOBAPH",
+  "modifier_data": {
+   "name": "vanilla + black sesame",
+   "price_money": {
+    "amount": 300
    }
   }
  }
