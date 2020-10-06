@@ -2045,9 +2045,27 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
+     "id": "6W6LBBRVTUSYDRKWFRKCGWOG",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SEAOEWQP6UAQGF7FV55DQEJY",
      "modifier_data": {
       "name": "black sesame (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
+     "modifier_data": {
+      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2990,7 +3008,7 @@ var catalog_raw=[
     {
      "id": "XDEW7VCWBF5235A2W3FALQJF",
      "modifier_data": {
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3008,7 +3026,7 @@ var catalog_raw=[
     {
      "id": "KTUHIM74TDMZGVAJECCOBAPH",
      "modifier_data": {
-      "name": "vanilla + black sesame",
+      "name": "vanilla + black sesame (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5172,7 +5190,7 @@ var catalog_raw=[
      "id": "LP6YPIV3T4E7CYW5XJVBL6PA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5182,7 +5200,7 @@ var catalog_raw=[
      "id": "R4LRAHNAWRL627VSKEO7AGL5",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "black sesame",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5192,7 +5210,7 @@ var catalog_raw=[
      "id": "KPLTOU25AW3LQJMMIDGKXQW2",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + black sesame TWIST",
+      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5202,7 +5220,7 @@ var catalog_raw=[
      "id": "ZT2LJX2OOSJLBZSGWOCXQRIG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5212,7 +5230,7 @@ var catalog_raw=[
      "id": "4TPJECRFDDVVYOYC2RB76GPA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "montmorency cherry",
+      "name": "montmorency cherry (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5222,7 +5240,7 @@ var catalog_raw=[
      "id": "22PUAH4LHX2QGSQAMCMPMC2K",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate + cherry TWIST",
+      "name": "milk chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5232,7 +5250,7 @@ var catalog_raw=[
      "id": "GZRCPWCBSWIVE3NIM5VBVGH6",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "blood orange (v)",
+      "name": "blood orange (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5242,7 +5260,7 @@ var catalog_raw=[
      "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "coconut (v)",
+      "name": "coconut (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5252,7 +5270,7 @@ var catalog_raw=[
      "id": "2MW6RZWD27E4B7VP3TB7CCKO",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "blood orange + coconut TWIST (v)",
+      "name": "blood orange + coconut TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6605,7 +6623,7 @@ var catalog_raw=[
  {
   "id": "XDEW7VCWBF5235A2W3FALQJF",
   "modifier_data": {
-   "name": "salted vanilla bean",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6614,9 +6632,27 @@ var catalog_raw=[
  {
   "id": "KTUHIM74TDMZGVAJECCOBAPH",
   "modifier_data": {
-   "name": "vanilla + black sesame",
+   "name": "vanilla + black sesame (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "6W6LBBRVTUSYDRKWFRKCGWOG",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
+  "modifier_data": {
+   "name": "vanilla + black sesame TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
