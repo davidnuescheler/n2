@@ -4932,9 +4932,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BAUZ64I22FTOE4GDU6XC5H54",
+     "modifier_data": {
+      "name": "cocoa pebble milk",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
       "name": "many berry sorbet (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
+     "modifier_data": {
+      "name": "cocoa pebble milk + many berry TWIST",
       "price_money": {
        "amount": 300
       }
@@ -6489,6 +6507,24 @@ var catalog_raw=[
    "name": "OMNOM black N burnt crunch",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "BAUZ64I22FTOE4GDU6XC5H54",
+  "modifier_data": {
+   "name": "cocoa pebble milk",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
+  "modifier_data": {
+   "name": "cocoa pebble milk + many berry TWIST",
+   "price_money": {
+    "amount": 300
    }
   }
  }
