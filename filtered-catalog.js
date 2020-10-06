@@ -3479,27 +3479,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
-     "modifier_data": {
-      "name": "cocoa pebble milk (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "MREZZAWBX5CLFPLYRULORKKH",
      "modifier_data": {
       "name": "many berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
-     "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3673,15 +3655,6 @@ var catalog_raw=[
    "name": "peanut toffee (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "X32SGEKTJMBQ5Q7GCL6PZNVI",
-  "modifier_data": {
-   "name": "cocoa pebble milk (v) (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
@@ -4959,27 +4932,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
-     "modifier_data": {
-      "name": "cocoa pebble milk (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
       "name": "many berry sorbet (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
-     "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWIST (v)",
       "price_money": {
        "amount": 300
       }
@@ -5016,15 +4971,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
-  "modifier_data": {
-   "name": "cocoa pebble milk (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
    "name": "many berry sorbet (v)",
@@ -5037,15 +4983,6 @@ var catalog_raw=[
   "id": "UM4WAEHGILERHWPNYJNGIPHV",
   "modifier_data": {
    "name": "cream cheese + butterfinger milk TWIST",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
-  "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWIST (v)",
    "price_money": {
     "amount": 300
    }
@@ -5136,15 +5073,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
-  "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
