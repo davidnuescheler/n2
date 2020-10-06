@@ -4259,6 +4259,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "3IOYFI5ZQWCQAJNL7T2IFVFO",
+     "modifier_data": {
+      "name": "pint of brownie batter ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6651,6 +6660,15 @@ var catalog_raw=[
   "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
   "modifier_data": {
    "name": "vanilla + black sesame TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "3IOYFI5ZQWCQAJNL7T2IFVFO",
+  "modifier_data": {
+   "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
    }
