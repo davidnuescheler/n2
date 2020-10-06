@@ -1358,30 +1358,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "FQZK5XTRQ6DOHCH7AEKAIZID",
-     "item_variation_data": {
-      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "ZG2DXL7DDCGJYRRXUIHRUXMM",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "mango (v)",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
-     "id": "JO5VWZG6ELJLQBOYQUHX5KBH",
-     "item_variation_data": {
-      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "vanilla + mango TWIST",
+      "name": "black sesame",
       "price_money": {
        "amount": 700
       }
@@ -1401,7 +1381,7 @@ var catalog_raw=[
      "id": "MCGPMFDZZRNUBEXIKDL3UATN",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "brownie batter",
+      "name": "montmorency cherry",
       "price_money": {
        "amount": 700
       }
@@ -1411,7 +1391,7 @@ var catalog_raw=[
      "id": "ACBYB444WLU7LB4RUV6GN4AO",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "milk choc + brownie batter TWIST",
+      "name": "milk choc + cherry TWIST",
       "price_money": {
        "amount": 700
       }
@@ -1421,7 +1401,27 @@ var catalog_raw=[
      "id": "KZW3Z6PNOL76IP5HJZPIRBE2",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "sweet corn",
+      "name": "coconut (v)",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "WEI6WPDLW4YH3IP55DIT7ZSY",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "blood orange (v)",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "NJLGQTWYBMXULUUTKM37UKXK",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "coconut + blood orange twist (v)",
       "price_money": {
        "amount": 700
       }
