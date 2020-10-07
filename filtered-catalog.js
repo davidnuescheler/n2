@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
-     "modifier_data": {
-      "name": "fudge sauce (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "54DOE4VPVFQ25T2V6GDGAXP6",
      "modifier_data": {
       "name": "count chocula",
@@ -3786,15 +3777,6 @@ var catalog_raw=[
    "name": "dark chocolate",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
-  "modifier_data": {
-   "name": "fudge sauce (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
