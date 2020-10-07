@@ -4896,7 +4896,7 @@ var catalog_raw=[
   "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "tacosYUM"
+   "name": "corndogYUM"
   }
  },
  {
