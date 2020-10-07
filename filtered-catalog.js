@@ -3353,15 +3353,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XXNGLPZPAKUGXP67AFCJ462T",
-     "modifier_data": {
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
      "modifier_data": {
       "name": "dulcey",
@@ -3764,15 +3755,6 @@ var catalog_raw=[
  },
  {
   "id": "V7UMYKA7BZFIZ5MOKZSIJIZI",
-  "modifier_data": {
-   "name": "dark chocolate",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
-  "id": "XXNGLPZPAKUGXP67AFCJ462T",
   "modifier_data": {
    "name": "dark chocolate",
    "price_money": {
