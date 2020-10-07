@@ -85,6 +85,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "WQFKEJFKIHIESMNUORMAE33V",
+     "modifier_data": {
+      "name": "fudge sauce",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
      "modifier_data": {
       "name": "heath and crunch bar crumb",
@@ -3340,6 +3349,15 @@ var catalog_raw=[
       "name": "no dip",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2ZYNEF3QG4WBWJV2XGFFB5TM",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
       }
      }
     },
@@ -6635,6 +6653,24 @@ var catalog_raw=[
    "name": "pint of brownie batter ice cream",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2ZYNEF3QG4WBWJV2XGFFB5TM",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "WQFKEJFKIHIESMNUORMAE33V",
+  "modifier_data": {
+   "name": "fudge sauce",
+   "price_money": {
+    "amount": 75
    }
   }
  }
