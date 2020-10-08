@@ -4191,7 +4191,7 @@ var catalog_raw=[
      "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "coconut sorbet (v)",
+      "name": "coconut sorbet",
       "price_money": {
        "amount": 500
       }
@@ -4201,7 +4201,7 @@ var catalog_raw=[
      "id": "OYQ5Q5HVAP27QZGQHBFAEAOT",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "blood orange sorbet (v)",
+      "name": "blood orange sorbet",
       "price_money": {
        "amount": 500
       }
@@ -4211,7 +4211,7 @@ var catalog_raw=[
      "id": "KUYLMZQ54YK77YP57XCGZMGZ",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "coconut + blood orange TWIST (v)",
+      "name": "coconut + blood orange TWIST",
       "price_money": {
        "amount": 500
       }
