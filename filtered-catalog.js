@@ -4141,7 +4141,7 @@ var catalog_raw=[
      "id": "OTYNMLK7OWG4ROLCHWXALAPI",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "mango (v)",
+      "name": "black sesame",
       "price_money": {
        "amount": 500
       }
@@ -4151,7 +4151,7 @@ var catalog_raw=[
      "id": "FWRIIYC374KB6P6NV77ZJ7OB",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "salted vanilla bean + mango TWIST",
+      "name": "vanilla + black sesame TWIST",
       "price_money": {
        "amount": 500
       }
@@ -4171,7 +4171,7 @@ var catalog_raw=[
      "id": "MGOYBXBV3AWPCOHBUKC6CFA2",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "brownie batter",
+      "name": "montmorency cherry",
       "price_money": {
        "amount": 500
       }
@@ -4181,7 +4181,7 @@ var catalog_raw=[
      "id": "UBS3K72F4GPJB25D5LJ642FA",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "milk chocolate + brownie batter TWIST",
+      "name": "chocolate + cherry TWIST",
       "price_money": {
        "amount": 500
       }
@@ -4191,7 +4191,27 @@ var catalog_raw=[
      "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "sweet corn",
+      "name": "coconut sorbet (v)",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "OYQ5Q5HVAP27QZGQHBFAEAOT",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "blood orange sorbet (v)",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "KUYLMZQ54YK77YP57XCGZMGZ",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "coconut + blood orange TWIST (v)",
       "price_money": {
        "amount": 500
       }
