@@ -3517,7 +3517,7 @@ var catalog_raw=[
     {
      "id": "WRO3AWCZ7S4KLJYPAZVWMI3A",
      "modifier_data": {
-      "name": "cocoa pebble milk",
+      "name": "cocoa pebble milk (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3535,7 +3535,7 @@ var catalog_raw=[
     {
      "id": "SG4ZWI4OOBUBGZQ735HCQJSJ",
      "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWIST",
+      "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6634,7 +6634,7 @@ var catalog_raw=[
  {
   "id": "WRO3AWCZ7S4KLJYPAZVWMI3A",
   "modifier_data": {
-   "name": "cocoa pebble milk",
+   "name": "cocoa pebble milk (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6643,7 +6643,7 @@ var catalog_raw=[
  {
   "id": "SG4ZWI4OOBUBGZQ735HCQJSJ",
   "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWIST",
+   "name": "cocoa pebble milk + many berry TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
