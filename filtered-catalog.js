@@ -4261,15 +4261,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "3IOYFI5ZQWCQAJNL7T2IFVFO",
-     "modifier_data": {
-      "name": "pint of brownie batter ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -5081,6 +5072,33 @@ var catalog_raw=[
      "id": "7YEXAL3D4O45GSFUWVGMLPYS",
      "modifier_data": {
       "name": "pepperoni",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7DOOACJDTGJ2P4JFVAP7CT6M",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
+     "modifier_data": {
+      "name": "margheria",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
+     "modifier_data": {
+      "name": "vegan!",
       "price_money": {
        "amount": 0
       }
@@ -6668,15 +6686,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "3IOYFI5ZQWCQAJNL7T2IFVFO",
-  "modifier_data": {
-   "name": "pint of brownie batter ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "2ZYNEF3QG4WBWJV2XGFFB5TM",
   "modifier_data": {
    "name": "dark chocolate",
@@ -6691,6 +6700,33 @@ var catalog_raw=[
    "name": "fudge sauce",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "7DOOACJDTGJ2P4JFVAP7CT6M",
+  "modifier_data": {
+   "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
+  "modifier_data": {
+   "name": "margheria",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
+  "modifier_data": {
+   "name": "vegan!",
+   "price_money": {
+    "amount": 0
    }
   }
  }
