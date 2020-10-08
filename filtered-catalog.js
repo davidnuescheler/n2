@@ -5868,7 +5868,7 @@ var catalog_raw=[
      "id": "QWAEEZCYJPP4II4Y45RJP3KJ",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "vegan vanilla!",
+      "name": "butterfinger mlk",
       "price_money": {
        "amount": 500
       }
@@ -5878,7 +5878,7 @@ var catalog_raw=[
      "id": "KY7TFWTWQUZ4PY2BH6CYKASH",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "rhubarb sorbet (v)",
+      "name": "cream cheese",
       "price_money": {
        "amount": 500
       }
@@ -5888,7 +5888,7 @@ var catalog_raw=[
      "id": "25LQDAL2DLDS62AW7RO2KU3Y",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "rhubarb + vanilla TWIST (v)",
+      "name": "butterfinger milk + cream cheese TWIST",
       "price_money": {
        "amount": 500
       }
@@ -5898,7 +5898,7 @@ var catalog_raw=[
      "id": "UG3MFO5OHOZOIJUMICEVHIOO",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "coffee",
+      "name": "cocoa pebble milk",
       "price_money": {
        "amount": 500
       }
@@ -5908,7 +5908,7 @@ var catalog_raw=[
      "id": "75FDHWZ5IQO6O67SFUMVODRO",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "caramel corn",
+      "name": "many berry sorbet",
       "price_money": {
        "amount": 500
       }
@@ -5918,7 +5918,7 @@ var catalog_raw=[
      "id": "M5AIET5LPNAWK33VRF56SDFJ",
      "item_variation_data": {
       "item_id": "I7STSLUCU4B3KKYQL673MUZY",
-      "name": "coffee + caramel corn TWIST",
+      "name": "cocoa pebble milk + many berry sorbet  TWIST",
       "price_money": {
        "amount": 500
       }
