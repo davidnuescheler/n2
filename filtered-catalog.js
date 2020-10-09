@@ -31,15 +31,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SYLKJ574KP7QONMEIUV7XZRH",
-     "modifier_data": {
-      "name": "baby bone sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -3664,15 +3655,6 @@ var catalog_raw=[
   "type": "CATEGORY",
   "category_data": {
    "name": "pies the limit"
-  }
- },
- {
-  "id": "SYLKJ574KP7QONMEIUV7XZRH",
-  "modifier_data": {
-   "name": "baby bone sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
