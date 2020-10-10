@@ -2996,27 +2996,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "Z7NPS63BEVS4G4M4AHHZBL2B",
      "modifier_data": {
       "name": "montmorency cherry (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "HPOYW3VKKKFFOX2YZXRZR52F",
-     "modifier_data": {
-      "name": "milk chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5200,16 +5182,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZT2LJX2OOSJLBZSGWOCXQRIG",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "W3POKGMTIVBM57BI2SM6ILHW",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5244,16 +5216,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "blood orange + coconut TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7GZFGWQLUWCAWULCJAKIUMLJ",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5324,15 +5286,6 @@ var catalog_raw=[
    "name": "the blood of oranges (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "2VCUWXSLDZF2AN7ZYU3HUWAT",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -6481,15 +6434,6 @@ var catalog_raw=[
   "id": "Z7NPS63BEVS4G4M4AHHZBL2B",
   "modifier_data": {
    "name": "montmorency cherry (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "HPOYW3VKKKFFOX2YZXRZR52F",
-  "modifier_data": {
-   "name": "milk chocolate + cherry TWIST (gf)",
    "price_money": {
     "amount": 300
    }
