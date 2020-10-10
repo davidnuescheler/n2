@@ -4217,15 +4217,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UVFM3HAY7XRNIPPTLKQDMEET",
-     "modifier_data": {
-      "name": "pint of montmorency cherry ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "3B4NS2EAN3MPN6RGD6SQU33H",
      "modifier_data": {
       "name": "pint of black sesame ice cream",
@@ -6679,15 +6670,6 @@ var catalog_raw=[
   "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
   "modifier_data": {
    "name": "vegan!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "UVFM3HAY7XRNIPPTLKQDMEET",
-  "modifier_data": {
-   "name": "pint of montmorency cherry ice cream",
    "price_money": {
     "amount": 0
    }
