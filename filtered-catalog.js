@@ -2062,24 +2062,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
-     "modifier_data": {
-      "name": "montmorency cherry (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YMYOEJYSQVYI4C4G75H4376X",
-     "modifier_data": {
-      "name": "milk chocolate + cherry TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "blood orange sorbet (v) (gf)",
@@ -5138,15 +5120,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
-  "modifier_data": {
-   "name": "montmorency cherry (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "3D2X763NAIJIJHYXA2TCL5KF",
   "type": "ITEM",
   "item_data": {
@@ -5240,26 +5213,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4TPJECRFDDVVYOYC2RB76GPA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "montmorency cherry (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "22PUAH4LHX2QGSQAMCMPMC2K",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6555,15 +6508,6 @@ var catalog_raw=[
    "name": "blood orange + coconut sorbet (v) (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "YMYOEJYSQVYI4C4G75H4376X",
-  "modifier_data": {
-   "name": "milk chocolate + cherry TWIST (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
