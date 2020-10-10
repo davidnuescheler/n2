@@ -5219,6 +5219,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "W3POKGMTIVBM57BI2SM6ILHW",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "GZRCPWCBSWIVE3NIM5VBVGH6",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5243,6 +5253,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "blood orange + coconut TWIST (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7GZFGWQLUWCAWULCJAKIUMLJ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
