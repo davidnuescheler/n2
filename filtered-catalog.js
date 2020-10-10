@@ -6683,5 +6683,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "FTNONSYQM5WLLCDR7WYCJSLO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mt tam pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "YTD7UAMINVPHGOKYLQIE4KPB",
+     "item_variation_data": {
+      "item_id": "FTNONSYQM5WLLCDR7WYCJSLO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
