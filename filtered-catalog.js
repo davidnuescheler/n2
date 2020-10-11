@@ -4188,24 +4188,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "IJAWNFUWIVDXHEZTYJAL3LVN",
-     "modifier_data": {
-      "name": "pint of blood orange sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3B4NS2EAN3MPN6RGD6SQU33H",
-     "modifier_data": {
-      "name": "pint of black sesame ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -5182,10 +5164,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "T65X3UYOC4RABY3BHKIPXZ3I",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "W3POKGMTIVBM57BI2SM6ILHW",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "66DJTGM55BSXAME46BWPGLOF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + cherry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6313,15 +6315,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "IJAWNFUWIVDXHEZTYJAL3LVN",
-  "modifier_data": {
-   "name": "pint of blood orange sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "3KX66OXM3RM7T73OMOBUZNF4",
   "type": "ITEM",
   "item_data": {
@@ -6614,15 +6607,6 @@ var catalog_raw=[
   "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
   "modifier_data": {
    "name": "vegan!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3B4NS2EAN3MPN6RGD6SQU33H",
-  "modifier_data": {
-   "name": "pint of black sesame ice cream",
    "price_money": {
     "amount": 0
    }
