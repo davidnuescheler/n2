@@ -22,15 +22,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
-     "modifier_data": {
-      "name": "baby bat sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -5781,15 +5772,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "GOBWGURWI26MGP3JZ46ZBJ6B",
-  "modifier_data": {
-   "name": "baby bat sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
