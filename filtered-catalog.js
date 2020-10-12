@@ -5042,7 +5042,7 @@ var catalog_raw=[
     {
      "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
      "modifier_data": {
-      "name": "margheria",
+      "name": "margherita",
       "price_money": {
        "amount": 0
       }
@@ -6605,7 +6605,7 @@ var catalog_raw=[
  {
   "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
   "modifier_data": {
-   "name": "margheria",
+   "name": "margherita",
    "price_money": {
     "amount": 0
    }
