@@ -4162,15 +4162,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5DSEQTM3IGV2GF27FZFXSS3P",
-     "modifier_data": {
-      "name": "pint of coconut sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "5EPJZRYAULYBXMRVNOOZYSEK",
      "modifier_data": {
       "name": "pint of blood orange sorbet (v)",
@@ -5717,15 +5708,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5DSEQTM3IGV2GF27FZFXSS3P",
-  "modifier_data": {
-   "name": "pint of coconut sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
    "name": "coconut ash NORMAL dots! (v) (gf)",
@@ -6618,6 +6600,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "6RXWDXJTVKRGKBKWJZN3M77K",
+  "type": "ITEM",
+  "item_data": {
+   "name": "rhubarb pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ZKVIZY2ALQN4SUYEDDVXOSQD",
+     "item_variation_data": {
+      "item_id": "6RXWDXJTVKRGKBKWJZN3M77K",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
