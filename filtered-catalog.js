@@ -5191,40 +5191,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KPLTOU25AW3LQJMMIDGKXQW2",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + black sesame TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "T65X3UYOC4RABY3BHKIPXZ3I",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "W3POKGMTIVBM57BI2SM6ILHW",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "montmorency cherry (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "66DJTGM55BSXAME46BWPGLOF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "chocolate + cherry TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "KPLTOU25AW3LQJMMIDGKXQW2",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vanilla + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
