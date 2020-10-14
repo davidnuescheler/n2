@@ -5040,15 +5040,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
      "modifier_data": {
       "name": "vegan!",
@@ -6597,15 +6588,6 @@ var catalog_raw=[
   "id": "7DOOACJDTGJ2P4JFVAP7CT6M",
   "modifier_data": {
    "name": "beehive",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "Z3XDSIFGCTJFFDVMA2LDPW2A",
-  "modifier_data": {
-   "name": "margherita",
    "price_money": {
     "amount": 0
    }
