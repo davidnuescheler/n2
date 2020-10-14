@@ -4851,7 +4851,7 @@ var catalog_raw=[
   "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "corndogYUM"
+   "name": "balabeYUM"
   }
  },
  {
@@ -5358,13 +5358,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OE7CHNBUZGA3ZU5UV7AMZUPR",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "WEMADEAMISTAKE"
-  }
- },
- {
   "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
   "modifier_data": {
    "name": "cream cheese (gf)",
@@ -5696,13 +5689,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "EBTN3K7M2MK7KVFY6SQFFUI2",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "AZIZA!"
   }
  },
  {
