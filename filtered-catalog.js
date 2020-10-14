@@ -112,15 +112,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
-     "modifier_data": {
-      "name": "baby bat sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "JY6NIYOH43SEGGHPSURFL2LP",
      "modifier_data": {
       "name": "baby bone sprinks (gf)",
@@ -5879,15 +5870,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "IZX2RGB7ZLQLLBSKXGXVOO62",
-  "modifier_data": {
-   "name": "baby bat sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
