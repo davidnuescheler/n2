@@ -1428,6 +1428,26 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "BA5OC3MAII7RTSQPA7YJYSPU",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "KENYA mr. david mburu",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "LZOYMXPRS4L7NM37RZMMDARK",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLUMBIA robinson figueroa",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
