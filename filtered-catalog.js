@@ -4200,15 +4200,6 @@ var catalog_raw=[
    "name": "pizza pints",
    "modifiers": [
     {
-     "id": "QGEDQDCUZZPOYC56UHLUBQN4",
-     "modifier_data": {
-      "name": "pint of salted vanilla bean ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
       "name": "pint of milk chocolate ice cream",
@@ -4236,15 +4227,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "QGEDQDCUZZPOYC56UHLUBQN4",
-  "modifier_data": {
-   "name": "pint of salted vanilla bean ice cream",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -5045,15 +5027,6 @@ var catalog_raw=[
      "id": "7YEXAL3D4O45GSFUWVGMLPYS",
      "modifier_data": {
       "name": "pepperoni",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7DOOACJDTGJ2P4JFVAP7CT6M",
-     "modifier_data": {
-      "name": "beehive",
       "price_money": {
        "amount": 0
       }
@@ -6558,15 +6531,6 @@ var catalog_raw=[
    "name": "fudge sauce",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "7DOOACJDTGJ2P4JFVAP7CT6M",
-  "modifier_data": {
-   "name": "beehive",
-   "price_money": {
-    "amount": 0
    }
   }
  },
