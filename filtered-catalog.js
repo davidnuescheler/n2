@@ -22,6 +22,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "NLBFSDZJPKZRONVGRD6GILX5",
+     "modifier_data": {
+      "name": "baby bone sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -6641,6 +6650,15 @@ var catalog_raw=[
    "name": "cherry + chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NLBFSDZJPKZRONVGRD6GILX5",
+  "modifier_data": {
+   "name": "baby bone sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
