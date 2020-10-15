@@ -5119,16 +5119,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "66DJTGM55BSXAME46BWPGLOF",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + cherry TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "KPLTOU25AW3LQJMMIDGKXQW2",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
