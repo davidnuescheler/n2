@@ -4077,36 +4077,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LGTIS7CUU4CMYROTYSGPNGIC",
-     "item_variation_data": {
-      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "MGOYBXBV3AWPCOHBUKC6CFA2",
-     "item_variation_data": {
-      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "montmorency cherry",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "UBS3K72F4GPJB25D5LJ642FA",
-     "item_variation_data": {
-      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "chocolate + cherry TWIST",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
      "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
