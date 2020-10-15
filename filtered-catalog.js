@@ -4225,6 +4225,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "TCRY3GJRW4RUN2JNVK2R63KY",
+     "modifier_data": {
+      "name": "pint of salted vanilla bean ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6623,6 +6632,15 @@ var catalog_raw=[
    "name": "baby bone sprinks (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "TCRY3GJRW4RUN2JNVK2R63KY",
+  "modifier_data": {
+   "name": "pint of salted vanilla bean ice cream",
+   "price_money": {
+    "amount": 0
    }
   }
  }
