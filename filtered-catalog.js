@@ -2079,6 +2079,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
+     "modifier_data": {
+      "name": "cherry ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
+     "modifier_data": {
+      "name": "milk chocolate ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
+     "modifier_data": {
+      "name": "cherry + milk chocolate TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6473,6 +6500,33 @@ var catalog_raw=[
   "id": "TCRY3GJRW4RUN2JNVK2R63KY",
   "modifier_data": {
    "name": "pint of salted vanilla bean ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
+  "modifier_data": {
+   "name": "cherry ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
+  "modifier_data": {
+   "name": "milk chocolate ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
+  "modifier_data": {
+   "name": "cherry + milk chocolate TWIST",
    "price_money": {
     "amount": 0
    }
