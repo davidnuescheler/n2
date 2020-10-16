@@ -1620,12 +1620,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -6558,6 +6552,34 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
+  "type": "ITEM",
+  "item_data": {
+   "name": "oooooh bae tea latte",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
+    },
+    {
+     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+    }
+   ],
+   "variations": [
+    {
+     "id": "FSKVYLYPOCTWEI2QBAP32UEJ",
+     "item_variation_data": {
+      "item_id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
       }
      }
     }
