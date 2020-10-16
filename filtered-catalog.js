@@ -1862,7 +1862,7 @@ var catalog_raw=[
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+     "modifier_list_id": "DGSJMNUMCUXDDOXLUPGH2IRK"
     }
    ],
    "variations": [
@@ -5164,6 +5164,36 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "GDCJDQA6ZKGKMI5BH4PIN25H",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DLGMQSU53ZF2JUJOHK4XFYFS",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6S5BTXRLTY3TRFHF6TSH6Z3Z",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cherry + chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6576,7 +6606,7 @@ var catalog_raw=[
      "id": "TEUEGET2T2O3MAM4WFEF23ZK",
      "item_variation_data": {
       "item_id": "3LXIFJ5XWDVR3JTESG3UK3JO",
-      "name": "Regular",
+      "name": "1 shot",
       "price_money": {
        "amount": 600
       }
@@ -6604,7 +6634,7 @@ var catalog_raw=[
      "id": "FSKVYLYPOCTWEI2QBAP32UEJ",
      "item_variation_data": {
       "item_id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
-      "name": "Regular",
+      "name": "12 oz",
       "price_money": {
        "amount": 500
       }
@@ -6637,6 +6667,69 @@ var catalog_raw=[
    "name": "cherry + chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DGSJMNUMCUXDDOXLUPGH2IRK",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "temperature (+kids)",
+   "modifiers": [
+    {
+     "id": "K3WSIMSHUNDZCUMLAHNHELYR",
+     "modifier_data": {
+      "name": "hot",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LF2Z76IGSFZB3TCVBLUZFGA6",
+     "modifier_data": {
+      "name": "iced",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RIH5N3SG34VD4OI3FFZIG4DC",
+     "modifier_data": {
+      "name": "kid's temp!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "K3WSIMSHUNDZCUMLAHNHELYR",
+  "modifier_data": {
+   "name": "hot",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LF2Z76IGSFZB3TCVBLUZFGA6",
+  "modifier_data": {
+   "name": "iced",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "RIH5N3SG34VD4OI3FFZIG4DC",
+  "modifier_data": {
+   "name": "kid's temp!",
+   "price_money": {
+    "amount": 0
    }
   }
  }
