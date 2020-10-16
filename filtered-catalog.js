@@ -1865,13 +1865,10 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
+     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
     }
    ],
    "variations": [
@@ -1879,9 +1876,19 @@ var catalog_raw=[
      "id": "P76265OSOV57AG7HLWIPHQ53",
      "item_variation_data": {
       "item_id": "UKMUG4DUHGP6I2T4RIMDCO5E",
-      "name": "Regular",
+      "name": "8 oz",
       "price_money": {
        "amount": 400
+      }
+     }
+    },
+    {
+     "id": "2E72KBNVFSZ4TYOU5626CTAE",
+     "item_variation_data": {
+      "item_id": "UKMUG4DUHGP6I2T4RIMDCO5E",
+      "name": "12 oz",
+      "price_money": {
+       "amount": 500
       }
      }
     }
@@ -6530,6 +6537,31 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "3LXIFJ5XWDVR3JTESG3UK3JO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "affogato",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    }
+   ],
+   "variations": [
+    {
+     "id": "TEUEGET2T2O3MAM4WFEF23ZK",
+     "item_variation_data": {
+      "item_id": "3LXIFJ5XWDVR3JTESG3UK3JO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
   }
  }
 ]
