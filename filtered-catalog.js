@@ -2084,7 +2084,7 @@ var catalog_raw=[
     {
      "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
      "modifier_data": {
-      "name": "cherry ice cream (gf)",
+      "name": "montmorency cherry (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2093,7 +2093,7 @@ var catalog_raw=[
     {
      "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
      "modifier_data": {
-      "name": "milk chocolate ice cream (gf)",
+      "name": "milk chocolate gf)",
       "price_money": {
        "amount": 0
       }
@@ -2102,7 +2102,7 @@ var catalog_raw=[
     {
      "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
      "modifier_data": {
-      "name": "cherry + milk chocolate TWIST (gf)",
+      "name": "cherry +  chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3037,6 +3037,33 @@ var catalog_raw=[
      "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
      "modifier_data": {
       "name": "blood orange + coconut sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UEQGD3FLXKZRABV336ZIETBX",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "M3CL2DJXDM2GH44BHDUA47VF",
+     "modifier_data": {
+      "name": "montmorency cherry (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "44FJUMKODZU5IJ7TZOR3DUCW",
+     "modifier_data": {
+      "name": "cherry + chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6509,7 +6536,7 @@ var catalog_raw=[
  {
   "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
   "modifier_data": {
-   "name": "cherry ice cream (gf)",
+   "name": "montmorency cherry (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6518,7 +6545,7 @@ var catalog_raw=[
  {
   "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
   "modifier_data": {
-   "name": "milk chocolate ice cream (gf)",
+   "name": "milk chocolate gf)",
    "price_money": {
     "amount": 0
    }
@@ -6527,7 +6554,7 @@ var catalog_raw=[
  {
   "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
   "modifier_data": {
-   "name": "cherry + milk chocolate TWIST (gf)",
+   "name": "cherry +  chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6584,6 +6611,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "UEQGD3FLXKZRABV336ZIETBX",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "M3CL2DJXDM2GH44BHDUA47VF",
+  "modifier_data": {
+   "name": "montmorency cherry (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "44FJUMKODZU5IJ7TZOR3DUCW",
+  "modifier_data": {
+   "name": "cherry + chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
