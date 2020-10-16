@@ -4949,15 +4949,6 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "7YEXAL3D4O45GSFUWVGMLPYS",
-     "modifier_data": {
-      "name": "pepperoni",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
      "modifier_data": {
       "name": "vegan!",
@@ -5033,15 +5024,6 @@ var catalog_raw=[
   "id": "MREZZAWBX5CLFPLYRULORKKH",
   "modifier_data": {
    "name": "many berry sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7YEXAL3D4O45GSFUWVGMLPYS",
-  "modifier_data": {
-   "name": "pepperoni",
    "price_money": {
     "amount": 0
    }
