@@ -5032,15 +5032,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
-     "modifier_data": {
-      "name": "vegan!",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -6525,15 +6516,6 @@ var catalog_raw=[
    "name": "fudge sauce",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "5KG3AEYOFCPIPK7V3BKIIVBS",
-  "modifier_data": {
-   "name": "vegan!",
-   "price_money": {
-    "amount": 0
    }
   }
  },
