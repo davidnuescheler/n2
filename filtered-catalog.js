@@ -1631,7 +1631,7 @@ var catalog_raw=[
      "id": "UEENICGPAILJCQ443MRA3KQH",
      "item_variation_data": {
       "item_id": "AZVSCFLGYUQNEVIMXSQCYDDI",
-      "name": "Regular",
+      "name": "12 oz",
       "price_money": {
        "amount": 500
       }
@@ -1863,6 +1863,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "DGSJMNUMCUXDDOXLUPGH2IRK"
+    },
+    {
+     "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
     }
    ],
    "variations": [
@@ -6606,7 +6609,7 @@ var catalog_raw=[
      "id": "TEUEGET2T2O3MAM4WFEF23ZK",
      "item_variation_data": {
       "item_id": "3LXIFJ5XWDVR3JTESG3UK3JO",
-      "name": "1 shot",
+      "name": "1 shot espresso",
       "price_money": {
        "amount": 600
       }
@@ -6728,6 +6731,69 @@ var catalog_raw=[
   "id": "RIH5N3SG34VD4OI3FFZIG4DC",
   "modifier_data": {
    "name": "kid's temp!",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "L5EF7UVE5SIC77BQIWYHSO4O",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "hot chocolate topping",
+   "modifiers": [
+    {
+     "id": "ZQRJIRFYD4ZDHXUE5WMRTIFH",
+     "modifier_data": {
+      "name": "toasted mallow fluff (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
+     "modifier_data": {
+      "name": "whipped coconut cream (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
+     "modifier_data": {
+      "name": "plain pls!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZQRJIRFYD4ZDHXUE5WMRTIFH",
+  "modifier_data": {
+   "name": "toasted mallow fluff (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
+  "modifier_data": {
+   "name": "whipped coconut cream (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
+  "modifier_data": {
+   "name": "plain pls!",
    "price_money": {
     "amount": 0
    }
