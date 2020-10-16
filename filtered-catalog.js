@@ -2083,7 +2083,7 @@ var catalog_raw=[
     {
      "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
      "modifier_data": {
-      "name": "cherry ice cream",
+      "name": "cherry ice cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2092,7 +2092,7 @@ var catalog_raw=[
     {
      "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
      "modifier_data": {
-      "name": "milk chocolate ice cream",
+      "name": "milk chocolate ice cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2101,7 +2101,7 @@ var catalog_raw=[
     {
      "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
      "modifier_data": {
-      "name": "cherry + milk chocolate TWIST",
+      "name": "cherry + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6508,7 +6508,7 @@ var catalog_raw=[
  {
   "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
   "modifier_data": {
-   "name": "cherry ice cream",
+   "name": "cherry ice cream (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6517,7 +6517,7 @@ var catalog_raw=[
  {
   "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
   "modifier_data": {
-   "name": "milk chocolate ice cream",
+   "name": "milk chocolate ice cream (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6526,7 +6526,7 @@ var catalog_raw=[
  {
   "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
   "modifier_data": {
-   "name": "cherry + milk chocolate TWIST",
+   "name": "cherry + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
    }
