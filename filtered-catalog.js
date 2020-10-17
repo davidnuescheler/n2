@@ -4183,15 +4183,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5EPJZRYAULYBXMRVNOOZYSEK",
-     "modifier_data": {
-      "name": "pint of blood orange sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6W5D46NXEPO4XZVPGV4WYWNN",
      "modifier_data": {
       "name": "pint of black sesame ice cream",
@@ -6516,15 +6507,6 @@ var catalog_raw=[
    "name": "fudge sauce",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "5EPJZRYAULYBXMRVNOOZYSEK",
-  "modifier_data": {
-   "name": "pint of blood orange sorbet (v)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
