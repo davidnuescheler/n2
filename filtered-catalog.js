@@ -6816,5 +6816,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "7SYSY423NJGULACWPJ5XF62W",
+  "type": "ITEM",
+  "item_data": {
+   "name": "burnt honey pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "4BOP7AYZKCXYOD2FV3FOU5OT",
+     "item_variation_data": {
+      "item_id": "7SYSY423NJGULACWPJ5XF62W",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
