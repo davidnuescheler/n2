@@ -6836,5 +6836,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "FS2PR7FYOFP4I6QE7RHM2WEG",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "shopinutah"
+  }
  }
 ]
