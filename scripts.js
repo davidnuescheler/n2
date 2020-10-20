@@ -765,15 +765,15 @@ function scrollSelection(ev) {
 }
 
 function configItem(item, callout) {
-    console.log(`\nconfigItem is running`);
-    console.log(`  configItem -> item`, item);
-    console.log(`  configItem -> callout`, callout);
+    // console.log(`\nconfigItem is running`);
+    // console.log(`  configItem -> item`, item);
+    // console.log(`  configItem -> callout`, callout);
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html='';
     var name=item.item_data.name;
-    console.log(`    configItem -> name`, name);
+    // console.log(`    configItem -> name`, name);
     if (name == "lab cone") {
         html=getConeBuilderHTML(item, callout);
         config.classList.add('cone-builder');
@@ -1150,27 +1150,12 @@ function checkDiscount(e) {
 }
 
 async function checkCart() {
-    let fetchURL = `${storeLocation}.html`;
+    const fetchURL = `/${storeLocation}`;
     const resp = await fetch(fetchURL, { cache: 'reload', mode: 'no-cors' });
     const html = await resp.text();
 
-    let $cartCheck = document.createElement('div');
-    $cartCheck.id = "cart-check";
+    const $cartCheck = document.createElement('div');
     $cartCheck.innerHTML = html;
-    
-    // select ONLY items struckthrough from google doc
-    let delArr = [...$cartCheck.getElementsByTagName("DEL")];
-    let delItemIds = []; 
-    
-    delArr.forEach(el => {
-        // check del elements for links
-        if (el.firstElementChild && el.firstElementChild.tagName === "A") {
-            let url = el.firstElementChild.getAttribute("href");
-            // retain only item ids from end of url
-            let itemId = url.split('/').slice(-1)[0];
-            delItemIds.push(itemId); 
-        }
-    })
     
     let oosLIs = []; // container for out-of-stock line items
 
@@ -1180,68 +1165,15 @@ async function checkCart() {
         const variation = catalog.byId[li.variation];
         const itemId = catalog.byId[variation.item_variation_data.item_id].id;
 
-        if (delItemIds.includes(itemId)) {
+        // if (delItemIds.includes(itemId)) {
+        if ($cartCheck.querySelector(`del a[href*="${itemId}"]`)) {
             // console.log(`this item is OUT OF STOCK`);
             oosLIs.push(li);
             li.quantity = 'OUT OF STOCK'
         } 
         
     });
-    
     return oosLIs;
-
-    /* OLD */
-
-    // var nomore=[];
-    // // console.log("checking cart");
-    // var menuurl='/store.plain.html';
-    // if (storeLocation=='lab') {
-    //     return (nomore);
-    // }
-    // var resp = await fetch(menuurl);
-    // var html = await resp.text(); 
-   
-    // // console.log(html);
-    // $cartCheck=document.createElement('div');
-    // $cartCheck.id = "cart-check";
-    // $cartCheck.innerHTML = html;
-
-    // $menu=$cartCheck.querySelector("#store-menu").parentNode;
-
-    // cart.line_items.forEach((e) => {
-    //     var variation=catalog.byId[e.variation];
-    //     var item=catalog.byId[variation.item_variation_data.item_id];
-
-    //     //check for variation name
-    //     var deleted=false;
-    //     var name=variation.item_variation_data.name;
-    //     name=stripName(name);
-
-    //     // check for h3 variation name
-
-    //     $menu.querySelectorAll("h3 del").forEach((e) => {
-    //         var hname=stripName(e.innerHTML);
-    //         if (name == hname) {
-    //             deleted=true;
-    //         }
-    //     })
-
-    //     //check for h3/h2 item name
-
-    //     var iname=item.item_data.name;
-    //     iname=stripName(iname);
-
-    //     $menu.querySelectorAll("h3 del, h2 del").forEach((e) => {
-    //         var hname=stripName(e.innerHTML);
-    //         if (iname == hname) {
-    //             deleted=true;
-    //         }
-    //     })
-
-    //     if (deleted) nomore.push(e); 
-    // })
-        
-    // return nomore;
 }
 
 function displayStoreAlert() {
@@ -1262,7 +1194,8 @@ function displayStoreAlert() {
 }
 
 async function submitOrder() {
-    console.log(`submitOrder running`);
+    // console.log(`submitOrder running`);
+    removeOOS();
     var alertEl=document.getElementById("alert").remove();
     var cartEl=document.getElementById("cart");
 
@@ -1279,7 +1212,7 @@ async function submitOrder() {
     orderParams.reference_id=generateId();
     orderParams.discount_name=document.getElementById("discount").value;
     orderParams.discount=document.getElementById("discount").getAttribute("data-id");
-    console.log(`  submitOrder -> orderParams`, orderParams);
+    // console.log(`  submitOrder -> orderParams`, orderParams);
 
     if (cart.itemCount==0) return;
     if (orderParams.display_name=="") {
@@ -1450,16 +1383,20 @@ function addConfigToCart(e) {
 }
 
 // toggles non-empty cart
-function toggleCartDisplay() { 
-    updateCart(); 
+async function toggleCartDisplay() { 
     var cartEl=document.getElementById("cart");
     // if $cartEl's classlist DOES NOT INCLUDE "full"
     if (cartEl.classList.toggle("full")) {
         document.body.classList.add("noscroll");
+        cartEl.querySelector(".summary").innerHTML = 
+            `<p class="dotdotdot">building your cart<span>.</span><span>.</span><span>.</span><p>`;
+        let outOfStock = await checkCart();
+        updateCart(); 
         cartEl.querySelector(".summary").classList.add("hidden");
         cartEl.querySelector(".details").classList.remove("hidden");
-    // if $cartEl's classlist INCLUDES "full"
+        // if $cartEl's classlist INCLUDES "full"
     } else {
+        updateCart(); 
         document.body.classList.remove("noscroll");
         cartEl.querySelector(".summary").classList.remove("hidden");
         cartEl.querySelector(".details").classList.add("hidden");
@@ -1618,7 +1555,7 @@ function minus (el) {
 async function updateCart() {
     const labels=window.labels;
 
-    var nomore = await checkCart();
+    // var nomore = await checkCart();
 
     var cartEl=document.getElementById("cart");
 
@@ -1757,7 +1694,7 @@ function findCallout($parent) {
             callout+=`<p>${$e.textContent}</p>`;        
             // console.log(`          findCallout -> callout`, callout);
         }
-        console.log($e.tagName +":"+$e.textContent)
+        // console.log($e.tagName +":"+$e.textContent)
         // console.log(`            findCallout -> $e.nextSibling`, $e.nextSibling);
         $e=$e.nextSibling;
     }
