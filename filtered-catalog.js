@@ -4219,6 +4219,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "YC6OOZI32AFNUALLXRRTDYWF",
+     "modifier_data": {
+      "name": "pint of coconut sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6902,6 +6911,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "YC6OOZI32AFNUALLXRRTDYWF",
+  "modifier_data": {
+   "name": "pint of coconut sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
