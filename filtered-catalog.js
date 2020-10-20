@@ -6843,5 +6843,45 @@ var catalog_raw=[
   "discount_data": {
    "name": "shopinutah"
   }
+ },
+ {
+  "id": "FSY4G4DO6NFBV2VMLP7PD6I6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "molasses + brownie pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "FNDFNX47QMUA2LTL3CVALHNQ",
+     "item_variation_data": {
+      "item_id": "FSY4G4DO6NFBV2VMLP7PD6I6",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan vanilla + chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "4Y3P2VMPRFVLR6G52U46HKCQ",
+     "item_variation_data": {
+      "item_id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
