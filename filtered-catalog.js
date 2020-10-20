@@ -1340,10 +1340,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "K4EED7MFMPZU347ZDQ5AMIHK",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "salted vanilla bean soft serve",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
      "id": "ZG2DXL7DDCGJYRRXUIHRUXMM",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "black sesame",
+      "name": "black sesame soft serve",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "7S6RK7GTIAWWKIWW2CXFJN5U",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "vanilla + black sesame TWIST",
       "price_money": {
        "amount": 700
       }
@@ -1353,7 +1373,7 @@ var catalog_raw=[
      "id": "QJDF2BJRRQM5TJE2V35LBJ5Q",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "milk chocolate",
+      "name": "milk chocolate soft serve",
       "price_money": {
        "amount": 700
       }
@@ -1363,7 +1383,7 @@ var catalog_raw=[
      "id": "MCGPMFDZZRNUBEXIKDL3UATN",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "montmorency cherry",
+      "name": "montmorency cherry soft serve",
       "price_money": {
        "amount": 700
       }
@@ -1383,7 +1403,7 @@ var catalog_raw=[
      "id": "KZW3Z6PNOL76IP5HJZPIRBE2",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "coconut (v)",
+      "name": "coconut soft serve (v)",
       "price_money": {
        "amount": 700
       }
@@ -1393,7 +1413,7 @@ var catalog_raw=[
      "id": "WEI6WPDLW4YH3IP55DIT7ZSY",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "blood orange (v)",
+      "name": "blood orange soft serve (v)",
       "price_money": {
        "amount": 700
       }
@@ -1403,7 +1423,7 @@ var catalog_raw=[
      "id": "NJLGQTWYBMXULUUTKM37UKXK",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "coconut + blood orange twist (v)",
+      "name": "coconut + blood orange TWIST (v)",
       "price_money": {
        "amount": 700
       }
