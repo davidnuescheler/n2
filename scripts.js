@@ -1668,7 +1668,7 @@ async function updateCart() {
 // remove oos message from screen and oos items from cart
 function removeOOS() {
     let OOSEl = document.getElementById("oos");
-    if (OOSEL) {
+    if (OOSEl) {
         OOSEl.parentNode.remove();
         cart.line_items.forEach((li) => {
             if (li.quantity === "OUT OF STOCK") {
