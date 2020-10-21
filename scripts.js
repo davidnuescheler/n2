@@ -1668,13 +1668,15 @@ async function updateCart() {
 // remove oos message from screen and oos items from cart
 function removeOOS() {
     let OOSEl = document.getElementById("oos");
-    OOSEl.parentNode.remove();
-    cart.line_items.forEach((li) => {
-        if (li.quantity === "OUT OF STOCK") {
-            // remove item from cart
-            cart.remove(li.fp);
-        }
-    })
+    if (OOSEL) {
+        OOSEl.parentNode.remove();
+        cart.line_items.forEach((li) => {
+            if (li.quantity === "OUT OF STOCK") {
+                // remove item from cart
+                cart.remove(li.fp);
+            }
+        })
+    }
     // update cart in local storage
     cart.store();
 }
