@@ -89,14 +89,16 @@ general purpose helix pages / display scripts
 })();
 
 function classify() {
-    document.querySelectorAll("main h1").forEach((e) => {
-        var label=stripName(e.textContent);
-        e.parentElement.classList.add(label);
-    })
-    document.querySelectorAll("div.image").forEach((e, i) => {
-        e.classList.add(i%2?"right":"left");
-    })
-    document.querySelector("main").classList.add("appear");
+  // add inner text of h1 as a class on each h1
+  document.querySelectorAll("main h1").forEach((e) => {
+    var label = stripName(e.textContent);
+    e.parentElement.classList.add(label);
+  });
+  // position sidebar images (odd on left, even on right)
+  document.querySelectorAll("div.image").forEach((e, i) => {
+    e.classList.add(i % 2 ? "right" : "left");
+  });
+  document.querySelector("main").classList.add("appear");
 }
 function wrapMenus() {
     hWrap(document.querySelector("main div.menu"),5);
@@ -190,20 +192,19 @@ function fixIcons() {
     });
 }
 
-function decorateIcons() {
-
+function decorateIcons() { 
     document.querySelectorAll('main a svg').forEach(($svg) => {
         $svg.closest('a').classList.add('noborder');
-        });
-
+    });
     $labcone=document.querySelector('.icon-lab-cone');
+    // if `.icon-lab-cone` exists in google doc (svg of :#lab-cone:)
     if ($labcone) {
         var $div=document.createElement('div');
         $div.id='labconepreview';
+        // replace :#lab-cone: svg with new `div#labconepreview`
         $labcone.parentNode.replaceChild($div, $labcone);
         setTimeout(randomizeLabCone, 1000);
     }
-
 }
 
 function cloneMenuSwiper() {
@@ -240,10 +241,10 @@ function bindInputs(inputs) {
 function updateMenuDisplay() {
     var vw=window.innerWidth;
     var p=(vw-375)/375;
-    console.log(`p: ${p}`);
+    // console.log(`p: ${p}`);
     p=Math.max(p,0);
     p=Math.min(p,1);
-    console.log(`p: ${p}`);
+    // console.log(`p: ${p}`);
     var pink=[252,216,199];
     var blue=[0,1,253];
     var r=pink[0]*(1-p)+blue[0]*(p);
@@ -261,7 +262,7 @@ function isAndroid() {
         os="android";
     }
 
-    console.log(os);
+    // console.log(os);
     return (os=="android");
 
 }
@@ -276,14 +277,11 @@ function resizeImages() {
 }
 
 
-function fixSmsUrls() {
-
+function fixSmsUrls() {    
     document.querySelectorAll("main a").forEach((e) => {
         var href=e.getAttribute("href");
-        console.log(href);
         if (href && href.indexOf("https://sms.com")==0) {
             var smshref="sms:/"+href.substr(15);
-
             if (isAndroid()) {
                 var s=smshref.split("&body");
                 smshref=s[0]+"?body"+s[1];
@@ -296,15 +294,20 @@ function fixSmsUrls() {
 
 function setColors() {
     let root = document.documentElement;
+    // select all code elements on page 
+      // (these are in red blocks in the google doc)
     document.querySelectorAll('code').forEach(($code) => {
         $code.innerText.split('\n').forEach((line)=>{
             var splits=line.split(':');
-            if (splits[1]) 
+            if (splits[1]) {
                 if (splits[0].startsWith('--')) {
+                    // set property on document's CSSStyleDeclaration
                     root.style.setProperty(splits[0].trim(), splits[1].trim());
                 } else if (splits[0].trim() == 'class') {
+                    // add class to code element's parent's parent
                     $code.parentNode.parentNode.classList.add(splits[1].trim());
                 }
+            }
         })    
     })
 }
@@ -317,10 +320,11 @@ function highlightNav() {
     })
 }
 
+// set store location based on URL
 function setLocation() {
     if (window.location.pathname.indexOf('/lab')==0) {
         storeLocation='lab';
-    } else {
+    } else { // default is 'store'
         storeLocation='store';
     }
 }
@@ -348,7 +352,7 @@ function getCookie(cname) {
     return "";
 }
 
-function generateId () {
+function generateId() {
     var id="";
     var chars="123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (var i=0;i<4;i++) {
@@ -364,38 +368,39 @@ pim and catalog management handling
 
 
 function indexCatalog() {
-    catalog={
-        byId: {},
-        items: [],
-        categories: [],
-        discounts: {}
-};
-    catalog_raw.forEach((e) => {
-        
-        if (!catalog.byId[e.id]) catalog.byId[e.id]=e;
+  catalog = {
+    byId: {},
+    items: [],
+    categories: [],
+    discounts: {},
+  };
+  catalog_raw.forEach((e) => {
+    if (!catalog.byId[e.id]) catalog.byId[e.id] = e;
 
-        if (e.type=="ITEM") {
-            catalog.items.push(e);
-            if (e.item_data.variations) e.item_data.variations.forEach((v) => {
-                catalog.byId[v.id]=v;
-            })
-        }
-        if (e.type=="MODIFIER_LIST") {
-            if (e.modifier_list_data.modifiers) e.modifier_list_data.modifiers.forEach((m) => {
-                m.modifier_data.modifier_list_id=e.id;
-                console.log(m.modifier_data.modifier_list_id);
-                catalog.byId[m.id]=m;
-            })
-        }
-        if (e.type=="DISCOUNT") {
-            if (e.discount_data.name) {
-                catalog.discounts[e.discount_data.name.toLowerCase()]={ id: e.id };
-            }
-        }
-        if (e.type=="CATEGORY") {
-            catalog.categories.push(e);
-        }
-    })
+    if (e.type == "ITEM") {
+      catalog.items.push(e);
+      if (e.item_data.variations)
+        e.item_data.variations.forEach((v) => {
+          catalog.byId[v.id] = v;
+        });
+    }
+    if (e.type == "MODIFIER_LIST") {
+      if (e.modifier_list_data.modifiers)
+        e.modifier_list_data.modifiers.forEach((m) => {
+          m.modifier_data.modifier_list_id = e.id;
+          // console.log(m.modifier_data.modifier_list_id);
+          catalog.byId[m.id] = m;
+        });
+    }
+    if (e.type == "DISCOUNT") {
+      if (e.discount_data.name) {
+        catalog.discounts[e.discount_data.name.toLowerCase()] = { id: e.id };
+      }
+    }
+    if (e.type == "CATEGORY") {
+      catalog.categories.push(e);
+    }
+  });
 } 
 
 /* ------
@@ -481,6 +486,7 @@ function coneBuilderSelect($sel) {
 function randomizeLabCone() {
     var $labcone=document.getElementById('labconepreview');
     if ($labcone) {
+        // target "build your soft serve" button
         var $a=document.querySelector('a.labcone');
         var itemid=$a.getAttribute('data-id');
         var mods=createRandomConfig(itemid);
@@ -490,17 +496,26 @@ function randomizeLabCone() {
 }
 
 function createRandomConfig(itemid) {
+    // get item out of catalog using id from "build your soft serve" button
     var item=catalog.byId[itemid];
+    // console.log(`createRandomConfig -> item`, item);
     var config=[];
+    // console.log(`  createRandomConfig -> item.item_data.modifier_list_info`, item.item_data.modifier_list_info);
+    // loop through modifer_list_info on id from "build your soft serve" button
     item.item_data.modifier_list_info.forEach((ml) => {
         var mods=catalog.byId[ml.modifier_list_id].modifier_list_data.modifiers;
+        // console.log(`    createRandomConfig -> mods`, mods);
         var mlname=catalog.byId[ml.modifier_list_id].modifier_list_data.name;
+        // console.log(`    createRandomConfig -> mlname`, mlname);
         if (mlname.includes('vessel')) {
             config.push(mods[0].id);
+            // console.log(`      createRandomConfig -> mods[0].id`, mods[0].id);
         } else {
             config.push(mods[Math.floor(Math.random()*mods.length)].id);
         }
     })
+    // console.log(`        createRandomConfig -> config`, config);
+    // array of four square item ids
     return (config);
 }
 
@@ -656,6 +671,9 @@ function getConeBuilderHTML(item, callout) {
     }
 
 function getConfigHTML(item, callout) {
+    console.log(`\ngetConfigHTML is running`)
+    console.log(`getConfigHTML -> item`, item);
+    console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
     let html='';
     var pickupVars=isFixedPickup(item);
     var image="";
@@ -747,11 +765,15 @@ function scrollSelection(ev) {
 }
 
 function configItem(item, callout) {
+    // console.log(`\nconfigItem is running`);
+    // console.log(`  configItem -> item`, item);
+    // console.log(`  configItem -> callout`, callout);
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html='';
     var name=item.item_data.name;
+    // console.log(`    configItem -> name`, name);
     if (name == "lab cone") {
         html=getConeBuilderHTML(item, callout);
         config.classList.add('cone-builder');
@@ -800,11 +822,16 @@ function formatTime(date) {
     return strTime;
 }
 function toNumbersArray(str) {
+    // format string from labels to array
     return (str.split(',').map(e => +e.trim()));
 }
 function getOpeningHoursConfig() {
+    // TODO: see if setPickupTimes/setPickupDates can be consolidated 
+    // (this func currently runs twice)
+    // get opening and closing hours out of labels.json
     var opening=window.labels[storeLocation+'_openinghours'];
     var closing=window.labels[storeLocation+'_closinghours']
+    // update storeLocations obj with opening/closing hours from labels.json
     if (opening) {
         storeLocations[storeLocation].openingHours.opening=toNumbersArray(opening);
     }
@@ -830,7 +857,7 @@ function setPickupTimes () {
     closingTime.setHours(conf.closing[closingTime.getDay()]);
     
     var startTime;
-    
+    // if same day AND after opening time
     if (today == date && (now.getTime()>openingTime)) {
         startTime=new Date(now.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime()+(10*60000-startTime.getTime()%(10*60000)));
@@ -842,8 +869,7 @@ function setPickupTimes () {
         time=new Date(startTime.getTime());
         timeSelect.innerHTML="";
     }
-
-
+    // add pickup time option for every ten minutes from now until closing
     while (time<=closingTime) {
         var option = document.createElement("option");
         option.text = formatTime(time);
@@ -895,7 +921,6 @@ function getTip() {
 
 
 function setPickupDates () {
-
     //var now=new Date("2020-04-15T22:51:00-07:00");
     var now=new Date();
     var i=0;
@@ -906,8 +931,10 @@ function setPickupDates () {
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
     var dateSelect=document.getElementById("pickup-date");
-    var closedForToday=false;
-
+    // TODO: check if closedForToday can/should come off of labels.json
+    var closedForToday=false; 
+    // if current storeLocation offers "order ahead"
+      // lab doesn't, store does
     if (storeLocations[storeLocation].orderAhead) {
 
         while (i<storeLocations[storeLocation].orderAhead) {
@@ -1012,7 +1039,7 @@ function initPaymentForm() {
                     submittingPayment=false;
                     return;
                 }
-                   console.log(`The generated nonce is:\n${nonce}`);
+                //    console.log(`The generated nonce is:\n${nonce}`);
       
                    var tipAmount=getTip();
       
@@ -1035,7 +1062,7 @@ function initPaymentForm() {
                       return response.text();
                     })
                     .then(data => {
-                      console.log(data);
+                    //   console.log(data);
                       var obj=JSON.parse(data);
                       if (typeof obj.errors != "undefined") {
                           var message='Payment failed to complete!\nCheck browser developer console for more details';
@@ -1082,6 +1109,7 @@ function onGetCardNonce(event) {
   }
 
 storeLocation="";
+// TODO: find out why opening and closing hours are nested in "openingHours" obj
 storeLocations={
     store: { 
         endpoint: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
@@ -1092,7 +1120,7 @@ storeLocations={
             prepTime: 0
         },
         orderAhead: 10,
-        link: "/",
+        link: "/", // TODO: should this be "/store.html"?
         address: "169 E 900 S in SLC"
     },
     lab: {
@@ -1122,62 +1150,36 @@ function checkDiscount(e) {
 }
 
 async function checkCart() {
+    const fetchURL = `/${storeLocation}`;
+    const resp = await fetch(fetchURL, { cache: 'reload', mode: 'no-cors' });
+    const html = await resp.text();
 
-    var nomore=[];
-    console.log("checking cart");
-    var menuurl='/store.plain.html';
-    if (storeLocation=='lab') {
-        return (nomore);
-    }
-    var resp = await fetch(menuurl);
-    var html = await resp.text(); 
-   
-    //console.log(html);
-    $cartCheck=document.createElement('div');
-    $cartCheck.id = "cart-check";
+    const $cartCheck = document.createElement('div');
     $cartCheck.innerHTML = html;
+    
+    let oosLIs = []; // container for out-of-stock line items
 
-    $menu=$cartCheck.querySelector("#store-menu").parentNode;
+    // compare line item variation ids from cart to deleted item ids
+    cart.line_items.forEach(li => {
+        // console.log(`checkCart -> li`, li);
+        const variation = catalog.byId[li.variation];
+        const itemId = catalog.byId[variation.item_variation_data.item_id].id;
 
-    cart.line_items.forEach((e) => {
-        var variation=catalog.byId[e.variation];
-        var item=catalog.byId[variation.item_variation_data.item_id];
-
-        //check for variation name
-        var deleted=false;
-        var name=variation.item_variation_data.name;
-        name=stripName(name);
-
-        // check for h3 variation name
-
-        $menu.querySelectorAll("h3 del").forEach((e) => {
-            var hname=stripName(e.innerHTML);
-            if (name == hname) {
-                deleted=true;
-            }
-        })
-
-        //check for h3/h2 item name
-
-        var iname=item.item_data.name;
-        iname=stripName(iname);
-
-        $menu.querySelectorAll("h3 del, h2 del").forEach((e) => {
-            var hname=stripName(e.innerHTML);
-            if (iname == hname) {
-                deleted=true;
-            }
-        })
-
-        if (deleted) nomore.push(e); 
-    })
+        // if (delItemIds.includes(itemId)) {
+        if ($cartCheck.querySelector(`del a[href*="${itemId}"]`)) {
+            // console.log(`this item is OUT OF STOCK`);
+            oosLIs.push(li);
+            li.quantity = 'OUT OF STOCK'
+        } 
         
-    return nomore;
+    });
+    return oosLIs;
 }
 
 function displayStoreAlert() {
+    // verify store selection
     var other=(storeLocation=='lab')?'store':'lab';
-    console.log(other);
+    // TODO: fix otherLink below (not working for store)
     var otherLink=storeLocations[other].link;
     var storealert=document.createElement('div');
     labels=window.labels;
@@ -1192,6 +1194,8 @@ function displayStoreAlert() {
 }
 
 async function submitOrder() {
+    // console.log(`submitOrder running`);
+    removeOOS();
     var alertEl=document.getElementById("alert").remove();
     var cartEl=document.getElementById("cart");
 
@@ -1208,6 +1212,7 @@ async function submitOrder() {
     orderParams.reference_id=generateId();
     orderParams.discount_name=document.getElementById("discount").value;
     orderParams.discount=document.getElementById("discount").getAttribute("data-id");
+    // console.log(`  submitOrder -> orderParams`, orderParams);
 
     if (cart.itemCount==0) return;
     if (orderParams.display_name=="") {
@@ -1233,11 +1238,14 @@ async function submitOrder() {
     var orderEl=cartEl.querySelector(".order");
     orderEl.classList.remove("hidden");
     orderEl.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
-    var nomore=await checkCart();
+
+    var nomore = await checkCart();
+    console.log(`submitOrder -> nomore`, nomore);
 
     if (nomore.length>0) {
         var sorry="we are so sorry we just ran out of "
         nomore.forEach((li, i) => {
+        console.log(`submitOrder -> li`, li);
             var v=catalog.byId[li.variation];
             var item=catalog.byId[v.item_variation_data.item_id];
                 sorry+=(i?", ":"")+item.item_data.name+" : "+v.item_variation_data.name;
@@ -1251,6 +1259,7 @@ async function submitOrder() {
     
     orderParams.line_items=[];
     cart.line_items.forEach((li) => { 
+    console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
         var line_item={
@@ -1263,7 +1272,7 @@ async function submitOrder() {
         orderParams.line_items.push(line_item);       
     });
 
-    console.log ("order: "+JSON.stringify(orderParams));
+    // console.log ("order: "+JSON.stringify(orderParams));
 
     var qs="";
     for (var a in orderParams) {
@@ -1275,7 +1284,7 @@ async function submitOrder() {
         qs+="&";
     }
 
-    console.log ("order qs: "+qs);
+    // console.log ("order qs: "+qs);
 
     fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
         method: 'GET',
@@ -1293,7 +1302,7 @@ async function submitOrder() {
         return response.text();
       })
       .then(data => {
-        console.log(data);
+        // console.log(data);
         var obj=JSON.parse(data);
         if (typeof obj.order != "undefined") {
             displayOrder(obj.order);
@@ -1373,14 +1382,21 @@ function addConfigToCart(e) {
     updateCart();
 }
 
-function toggleCartDisplay() {
-    
+// toggles non-empty cart
+async function toggleCartDisplay() { 
     var cartEl=document.getElementById("cart");
+    // if $cartEl's classlist DOES NOT INCLUDE "full"
     if (cartEl.classList.toggle("full")) {
         document.body.classList.add("noscroll");
+        cartEl.querySelector(".summary").innerHTML = 
+            `<p class="dotdotdot">building your cart<span>.</span><span>.</span><span>.</span><p>`;
+        let outOfStock = await checkCart();
+        updateCart(); 
         cartEl.querySelector(".summary").classList.add("hidden");
         cartEl.querySelector(".details").classList.remove("hidden");
+        // if $cartEl's classlist INCLUDES "full"
     } else {
+        updateCart(); 
         document.body.classList.remove("noscroll");
         cartEl.querySelector(".summary").classList.remove("hidden");
         cartEl.querySelector(".details").classList.add("hidden");
@@ -1416,13 +1432,15 @@ function toggleCartDisplay() {
 
 async function fetchLabels() {
     if (!window.labels) {
+        // fetch labels google sheet from google drive
         var resp=await fetch('/labels.json');
         let json=await resp.json();
         if (json.data) json=json.data;
         window.labels={};
+        // store array of objs from google sheet to object of key/text pairs
         json.forEach((e) => {
             window.labels[e.key]=e.text;
-            console.log(e.text);
+            // console.log(e.text);
         })   
     }
     return (window.labels);
@@ -1431,7 +1449,6 @@ async function fetchLabels() {
 function initCart() {
     var cartEl=document.getElementById("cart");
     var labels=window.labels;
-
     var html=`<div class="summary">items in your cart ($) <button onclick="toggleCartDisplay()">check out</button></div>`;
     html+=`<div class="details hidden">
             <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
@@ -1502,13 +1519,13 @@ function initCart() {
     if (name) {
         setCookie('name','',-10);
         localStorage.setItem('name',name);
-        console.log('migrating name to ls')
+        // console.log('migrating name to ls')
     }
 
     if (cell) {
         setCookie('cell','',-10);
         localStorage.setItem('cell',cell);
-        console.log('migrating cell to ls')
+        // console.log('migrating cell to ls')
     }
 
     
@@ -1535,12 +1552,15 @@ function minus (el) {
     updateCart();
 }
 
-function updateCart() {
+async function updateCart() {
     const labels=window.labels;
+
+    // var nomore = await checkCart();
 
     var cartEl=document.getElementById("cart");
 
     var count=cart.totalItems();
+
     if (count>0) {
         cartEl.classList.remove("hidden");
     } else {
@@ -1552,26 +1572,78 @@ function updateCart() {
     summaryEl.innerHTML=`${count} item${count==1?"":"s"} in your cart ($${formatMoney(cart.totalAmount())}) <button onclick="toggleCartDisplay()">check out</button>`;
     
     var lineitemsEl=cartEl.querySelector(".lineitems");
+    let oosMessageDiv = document.createElement("div");
+    oosMessageDiv.className = "line item";
+    let oosMessage = document.createElement("div");
+    oosMessage.setAttribute("id", "oos");
+    oosMessage.className = "desc oos";
+
+    // placeholders for ALL out of stock items
+    var oosItems = []; 
+    var oosItemStr = `oh no, we're out of `;
+
     var html=``;
+    
     cart.line_items.forEach((li) => {
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
-        if (i.item_data.name == 'lab cone') cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
+        if (i.item_data.name == 'lab cone' && li.quantity > 0) cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        html+=`<div class="line item" data-id="${li.fp}">
+        
+        if (li.quantity > 0) {
+            html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
             ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
             <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
             </div>`;
+        } else if (li.quantity === "OUT OF STOCK") {
+            let oosItem;
+            if (i.item_data.name == "soft serve") {
+                oosItem = `${v.item_variation_data.name} ${i.item_data.name}`;
+                oosItems.push(oosItem);
+            } else {
+                oosItem = `${i.item_data.name}s`;
+                oosItems.push(oosItem);
+            }
+        }
+        
     })
+
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
-
+    
     lineitemsEl.innerHTML=html;
-    console.log(JSON.stringify(cart.line_items));
 
+    // build oos item message, if items in cart are out of stock
+    if (oosItems.length) {
+      switch (oosItems.length) {
+        case 0:
+          break;
+        case 1:
+          oosItemStr += `${oosItems[0]} right now`;
+          break;
+        case 2:
+          oosItemStr += `${oosItems[0]} and ${oosItems[1]} right now`;
+          break;
+        default:
+          for (let i = 0; i < oosItems.length - 1; i++) {
+            oosItemStr += `${oosItems[i]}, `;
+          }
+          oosItemStr += `and ${oosItems[oosItems.length - 1]} right now`;
+          break;
+      }
+
+      oosMessage.innerHTML += `<div id="oos-close" onclick="removeOOS()"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close"><use href="/icons.svg#close"></use></svg>`;
+      oosMessage.innerHTML += oosItemStr;
+      oosMessage.innerHTML += `<br />we've removed them from your cart`;
+      oosMessageDiv.append(oosMessage);
+      lineitemsEl.prepend(oosMessageDiv);
+    }
+
+    // console.log(JSON.stringify(cart.line_items));
+    
     var checkoutItemsEl=cartEl.querySelector(".checkoutitems");
     html='';
 
@@ -1593,16 +1665,40 @@ function updateCart() {
 
 }
 
+// remove oos message from screen and oos items from cart
+function removeOOS() {
+    let OOSEl = document.getElementById("oos");
+    OOSEl.parentNode.remove();
+    cart.line_items.forEach((li) => {
+        if (li.quantity === "OUT OF STOCK") {
+            // remove item from cart
+            cart.remove(li.fp);
+        }
+    })
+    // update cart in local storage
+    cart.store();
+}
+
 function findCallout($parent) {
+    // console.log(`findCallout is running`);
+    // console.log(`  findCallout -> $parent`, $parent);
     var callout="";
     var $e=$parent.nextSibling;
+    // console.log(`    findCallout -> $e`, $e);
+    // console.log(`      findCallout -> $e.tagName`, $e.tagName);
+    // console.log(`      findCallout -> $parent.tagName`, $parent.tagName);
     while ($e && $e.tagName != $parent.tagName) {
         if ($e.tagName=="P" && $e.textContent.indexOf("*")==0) {
+            // console.log(`        findCallout -> $e.tagName`, $e.tagName);
+            // console.log(`        findCallout -> $e.textContent`, $e.textContent);
             callout+=`<p>${$e.textContent}</p>`;        
+            // console.log(`          findCallout -> callout`, callout);
         }
-        console.log($e.tagName +":"+$e.textContent)
+        // console.log($e.tagName +":"+$e.textContent)
+        // console.log(`            findCallout -> $e.nextSibling`, $e.nextSibling);
         $e=$e.nextSibling;
     }
+    // console.log(`\nfindCallout -> callout`, callout);
     return callout;
 }
 
@@ -1619,11 +1715,9 @@ function toggleCart(e) {
 
 function addToCart(e) {
     var id=e.getAttribute("data-id");
-    console.log(id);
     if (id) {
         var obj=catalog.byId[id]
         if (obj.type=="ITEM") {
-            console.log(obj)
             if (obj.item_data.modifier_list_info || (obj.item_data.variations.length>1)) {
                 var callout=findCallout(e.parentNode);
                 configItem(obj, callout);    
@@ -1643,6 +1737,7 @@ function formatMoney(num) {
 }
 
 function stripName(name) {
+    // remove dietary markers (v), (gf) and price from item name
     name=name.split('(')[0];
     name=name.split('$')[0];
     return (name.toLowerCase().replace(/[^0-9a-z]/gi, ''))
@@ -1684,7 +1779,7 @@ function makeShoppable() {
             name=name.trim();
             var item=itemByName(name);
             if (item) {
-                console.log(`item: ${item.item_data.name} : ${item.id}`);
+                // console.log(`item: ${item.item_data.name} : ${item.id}`);
                 if (item.item_data.modifier_list_info) {
                     var button=addToCartButton.cloneNode(true);
                     button.setAttribute("data-id", item.id);
@@ -1692,14 +1787,14 @@ function makeShoppable() {
                     var mods=item.item_data.modifier_list_info;
                     mods.forEach((e) => {
                         var mod=catalog.byId[e.modifier_list_id];
-                        console.log(`mod: ${mod.modifier_list_data.name} : ${mod.id}`);
+                        // console.log(`mod: ${mod.modifier_list_data.name} : ${mod.id}`);
                     });
                     currentItem={};            
                 } else {
                     currentItem=item;
                 }
             } else {
-                console.log(`item: ${name} not found`);
+                // console.log(`item: ${name} not found`);
                 currentItem={};            
             }    
         }
@@ -1710,12 +1805,12 @@ function makeShoppable() {
                 name=name.trim();
                 var variation=variationByName(currentItem, name); 
                 if (variation) {
-                    console.log(`variation: ${variation.item_variation_data.name} : ${variation.id}`);
+                    // console.log(`variation: ${variation.item_variation_data.name} : ${variation.id}`);
                     var button=addToCartButton.cloneNode(true);
                     button.setAttribute("data-id", variation.id);
                     e.appendChild(button);                    
                 } else {
-                    console.log(`variation: ${name} not found`);
+                    // console.log(`variation: ${name} not found`);
                 }
    
             } else {
@@ -1723,7 +1818,7 @@ function makeShoppable() {
                 name=name.trim();
                 var item=itemByName(name);
                 if (item) {
-                    console.log(`item: ${item.item_data.name} : ${item.id}`);
+                    // console.log(`item: ${item.item_data.name} : ${item.id}`);
                     var button=addToCartButton.cloneNode(true);
                     if (item.item_data.variations.length>1) {
                         button.setAttribute("data-id", item.id);
@@ -1787,13 +1882,19 @@ var cart={
     },
     totalAmount: () => {
         var total=0;
-        cart.line_items.forEach((li)=>{ total+=li.price*li.quantity
+        cart.line_items.forEach((li)=>{ 
+            if (li.quantity > 0) {
+                total+=li.price*li.quantity
+            }
         })
         return (total);
     },
     totalItems: () => {
         var total=0;
-        cart.line_items.forEach((li)=>{ total+=li.quantity
+        cart.line_items.forEach((li)=>{ 
+            if (li.quantity > 0) {
+                total+=li.quantity
+            }
         })
         return (total);
     },
@@ -1873,7 +1974,7 @@ function signup() {
             qs+="&";
         }
     
-        console.log ("customer qs: "+qs);
+        // console.log ("customer qs: "+qs);
     
         fetch(customerEndpoint+'?'+qs, {
             method: 'GET',
@@ -1891,7 +1992,7 @@ function signup() {
             return response.text();
         })
         .then(data => {
-            console.log(data);
+            // console.log(data);
             var obj=JSON.parse(data);
             if (typeof obj.customer != "undefined") {
                 $signup.innerHTML=`<div class="form-wrapper"><p>welcome ${params.name.split(' ')[0].toLowerCase()},<br>
@@ -1905,20 +2006,21 @@ function signup() {
         });          
     
     } catch (e) {
-        console.log ("validation failed");
+        // console.log ("validation failed");
     }
 }
 
 
 function hamburger() {
+    // open menu on hamburger icon click
     document.querySelector("header .icon-hamburger").addEventListener("click", (e) => {
         document.querySelector("header div:nth-of-type(2)").classList.add("menu-open");       
     })
-    
+    // hide menu on close icon
     document.querySelector("header .icon-close").addEventListener("click", (e) => {
         document.querySelector("header div:nth-of-type(2)").classList.remove("menu-open");       
     })
-
+    // expand menu to full width on header nav item click
     document.querySelectorAll("header li a").forEach((li) => {
         li.addEventListener("click", (e) => {
             document.querySelector("header div:nth-of-type(2)").classList.add("clicked");
@@ -1928,6 +2030,7 @@ function hamburger() {
 }
 
 function classifyAddToCartLinks() {
+    // buttonize 'add to cart' links
     document.querySelectorAll('a').forEach(($a) => {
         if ($a.innerHTML.toLowerCase().trim() == 'add to cart') {
             $a.classList.add('add-to-cart');
@@ -1936,7 +2039,9 @@ function classifyAddToCartLinks() {
 }
 
 function addLegacyDivClasses() {
+    // select all divs in main element
     document.querySelectorAll('main>div').forEach(($div) => {
+        // add class 'image' to images, 'default' to others
         $div.classList.add(($div.firstElementChild && $div.firstElementChild.tagName=='IMG')?'image':'default');
     })
 }
@@ -1967,7 +2072,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
 
 window.onload = function() {  
     scrani.onload();
-  }
+}
   
 //window.onresize=updateMenuDisplay;
   

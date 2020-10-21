@@ -535,6 +535,32 @@ code {
     margin-top: 20px;
 }
 
+.dotdotdot span {
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+
+.dotdotdot span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.dotdotdot span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 #cart {
     position: fixed;
     bottom: 0;
@@ -585,6 +611,27 @@ code {
     flex-grow: 1;
     align-self: center;
 }
+#cart .line .desc.oos {
+    position: relative;
+    padding: 8px 32px;
+    background: var(--warning-color);
+    color: var(--text-color);
+    text-align: center;
+}
+#cart .line .desc.oos #oos-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+#cart .line .desc.oos #oos-close:hover {
+    filter: hue-rotate(30deg);
+    transform: translateY(1px);
+    cursor: pointer;
+}
+
 #cart .line.total .desc {
     text-align: right;
     padding-right: 10px;
