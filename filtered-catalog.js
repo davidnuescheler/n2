@@ -634,13 +634,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WYHA7ZHXMSLZMOZDCN7YMN35",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "female-foodie"
-  }
- },
- {
   "id": "PKEG4TNRCFT564ZAESAO2VBB",
   "type": "DISCOUNT",
   "discount_data": {
@@ -4859,13 +4852,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "balabeYUM"
   }
  },
  {
