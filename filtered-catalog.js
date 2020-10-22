@@ -22,15 +22,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NLBFSDZJPKZRONVGRD6GILX5",
-     "modifier_data": {
-      "name": "baby bone sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -99,6 +90,15 @@ var catalog_raw=[
       "name": "coconut ash NORMAL dots! (v) (gf)",
       "price_money": {
        "amount": 150
+      }
+     }
+    },
+    {
+     "id": "OMODOWND27XPK3UQFPSZ34X7",
+     "modifier_data": {
+      "name": "baby bat sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
       }
      }
     }
@@ -6555,15 +6555,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NLBFSDZJPKZRONVGRD6GILX5",
-  "modifier_data": {
-   "name": "baby bone sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "TCRY3GJRW4RUN2JNVK2R63KY",
   "modifier_data": {
    "name": "pint of salted vanilla bean ice cream",
@@ -6906,6 +6897,55 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "OMODOWND27XPK3UQFPSZ34X7",
+  "modifier_data": {
+   "name": "baby bat sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "AQVPAXOZWPGJHQNW7EQUJX42",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate custard pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "N74ACF5M3E77B5E6KND4SI2Y",
+     "item_variation_data": {
+      "item_id": "AQVPAXOZWPGJHQNW7EQUJX42",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "7IS2JN52OJDVSTHUSJT7RZDR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vanilla custard composed pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "S3C2XXEA3DWELADZM5KTHS4O",
+     "item_variation_data": {
+      "item_id": "7IS2JN52OJDVSTHUSJT7RZDR",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
