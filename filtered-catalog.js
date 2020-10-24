@@ -3512,6 +3512,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
+     "modifier_data": {
+      "name": "many berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VKKVI4KWBJLV5FDC2WVFRH37",
+     "modifier_data": {
+      "name": "cocoa pebble milk (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
+     "modifier_data": {
+      "name": "cocoa pebble milk + many berry TWIST (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6892,6 +6919,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
+  "modifier_data": {
+   "name": "many berry sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "VKKVI4KWBJLV5FDC2WVFRH37",
+  "modifier_data": {
+   "name": "cocoa pebble milk (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
+  "modifier_data": {
+   "name": "cocoa pebble milk + many berry TWIST (v)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
