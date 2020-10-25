@@ -1451,16 +1451,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "LZOYMXPRS4L7NM37RZMMDARK",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
@@ -4196,15 +4186,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6W5D46NXEPO4XZVPGV4WYWNN",
-     "modifier_data": {
-      "name": "pint of black sesame ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "TCRY3GJRW4RUN2JNVK2R63KY",
      "modifier_data": {
       "name": "pint of salted vanilla bean ice cream",
@@ -6495,15 +6476,6 @@ var catalog_raw=[
    "name": "fudge sauce",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "6W5D46NXEPO4XZVPGV4WYWNN",
-  "modifier_data": {
-   "name": "pint of black sesame ice cream",
-   "price_money": {
-    "amount": 0
    }
   }
  },
