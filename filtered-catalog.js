@@ -6948,5 +6948,12 @@ var catalog_raw=[
   "discount_data": {
    "name": "SHOPINUTAHDRINKS"
   }
+ },
+ {
+  "id": "N7AB3BYFSHD3JJ5TCHW2XW72",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "girlsontherun"
+  }
  }
 ]
