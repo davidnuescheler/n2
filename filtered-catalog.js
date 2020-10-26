@@ -6906,5 +6906,40 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "NENM5AI4WNH7ZWPNR727AEWT",
+  "type": "ITEM",
+  "item_data": {
+   "name": "STORE root beer float",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    }
+   ],
+   "variations": [
+    {
+     "id": "4PTH7F4SVRQDVAYSDALHIMME",
+     "item_variation_data": {
+      "item_id": "NENM5AI4WNH7ZWPNR727AEWT",
+      "name": "12 oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "IQVOLZSDALZ5HMHKU6C2PRHM",
+     "item_variation_data": {
+      "item_id": "NENM5AI4WNH7ZWPNR727AEWT",
+      "name": "16 oz",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
