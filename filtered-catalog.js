@@ -1983,8 +1983,13 @@ var catalog_raw=[
   "id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
   "type": "ITEM",
   "item_data": {
-   "name": "normal root beer float",
+   "name": "LAB root beer float",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "SVHE22U3CGBLX3O5ICNVCG5A"
+    }
+   ],
    "variations": [
     {
      "id": "PFEUQWCHDIPLLVUVIIRZADPR",
