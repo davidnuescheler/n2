@@ -560,15 +560,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "XIVDEJU3BRP4UPSO7VX5X7PL",
-     "modifier_data": {
-      "name": "oat milk",
-      "price_money": {
-       "amount": 100
-      }
-     }
     }
    ]
   }
@@ -579,15 +570,6 @@ var catalog_raw=[
    "name": "whole milk",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "XIVDEJU3BRP4UPSO7VX5X7PL",
-  "modifier_data": {
-   "name": "oat milk",
-   "price_money": {
-    "amount": 100
    }
   }
  },
