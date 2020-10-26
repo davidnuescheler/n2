@@ -738,9 +738,13 @@ code {
     margin-bottom: 3px;
 }
 
+#cart .pickup-time nobr {
+    display: flex;
+}
+
 #cart .pickup-time select {
-    width: 50%;
-    display: inline-block;
+    margin: 0;
+    max-width: 100%;
 }
 
 .hidden {
