@@ -836,18 +836,28 @@ function toNumbersArray(str) {
     return (str.split(',').map(e => +e.trim()));
 }
 function getOpeningHoursConfig() {
+    // console.log(`\ngetOpeningHoursConfig is running`);
     // TODO: see if setPickupTimes/setPickupDates can be consolidated 
     // (this func currently runs twice)
     // get opening and closing hours out of labels.json
     var opening=window.labels[storeLocation+'_openinghours'];
     var closing=window.labels[storeLocation+'_closinghours']
+    
+    // console.log(`  getOpeningHoursConfig -> opening`, opening);
+    // console.log(`  getOpeningHoursConfig -> closing`, closing);
+    
+    // console.log(`  \ngetOpeningHoursConfig -> storeLocations`, storeLocations);
+    // console.log(`    getOpeningHoursConfig -> storeLocation`, storeLocation);
+    // console.log(`      getOpeningHoursConfig -> storeLocations[storeLocation]`, storeLocations[storeLocation]);
+    
     // update storeLocations obj with opening/closing hours from labels.json
     if (opening) {
-        storeLocations[storeLocation].openingHours.opening=toNumbersArray(opening);
+        storeLocations[storeLocation].openingHours.opening = toNumbersArray(opening);
     }
     if (closing) {
-        storeLocations[storeLocation].openingHours.closing=toNumbersArray(closing);
+        storeLocations[storeLocation].openingHours.closing = toNumbersArray(closing);
     }
+    // console.log(`        getOpeningHoursConfig -> storeLocations[storeLocation].openingHours`, storeLocations[storeLocation].openingHours);
     return storeLocations[storeLocation].openingHours;
 }
 
@@ -932,42 +942,77 @@ function getTip() {
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
-    var now=new Date();
-    var i=0;
+    var now = new Date();
+    var i = 0;
 
-    var day=now;
-    var conf=getOpeningHoursConfig();
+    var day = now;
+    // console.log(`  setPickupDates -> day`, day);
+    var conf = getOpeningHoursConfig();
+    // console.log(`  setPickupDates -> conf`, conf);
 
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-    var dateSelect=document.getElementById("pickup-date");
+    var dateSelect = document.getElementById("pickup-date");
     // TODO: check if closedForToday can/should come off of labels.json
-    var closedForToday=false; 
+    var closedForToday = false; 
     // if current storeLocation offers "order ahead"
-      // lab doesn't, store does
+      // lab doesn't, store and delivery do
     if (storeLocations[storeLocation].orderAhead) {
 
-        while (i<storeLocations[storeLocation].orderAhead) {
-            if (i==0) {
-                /* check if we are past cutoff for today */
-                var closingDate=new Date();
-                closingDate.setHours(conf.closing[day.getDay()],0,0,0);
-                if (now>closingDate-conf.lastOrderFromClose*60000) {
-                    day.setDate(day.getDate()+1);
-                    document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+        if (storeLocation === "delivery") {
+            // delivery 
+            const pickupTimeSelect = document.getElementById("pickup-time");
+            pickupTimeSelect.remove();
+            // console.log(`966 setPickupDates -> storeLocation === "delivery"`, storeLocation === "delivery");
+            while (i < storeLocations[storeLocation].orderAhead) {
+                let option = document.createElement("option");
+                // console.log(`\nsetPickupDates -> day`, day);
+                if (day.toString().includes("Sat")) {
+                    // if today is saturday, allow delivery today!
+                    option.text = 'today';
+                    option.value = day.getFullYear() + "/" + ( day.getMonth()+1 ) + "/" + day.getDate();
+                    dateSelect.add(option);
+                } else {
+                    // find the next saturday
+                    for (let j = 1; j < 7; j++) {
+                        let nextDay = new Date(day);
+                        nextDay.setDate(nextDay.getDate() + j)
+                        // console.log(`  setPickupDates -> nextDay`, nextDay);
+                        if (nextDay.toString().includes("Sat")) {
+                            day.setDate(nextDay.getDate() + 1);
+                            option.text = weekdays[nextDay.getDay()] + ", " + months[nextDay.getMonth()] + " " + nextDay.getDate();
+                            option.value = nextDay.getFullYear() + "/" + ( nextDay.getMonth()+1 ) + "/" + nextDay.getDate();
+                            dateSelect.add(option);
+                        }
+                    }
                 }
+                i++;
             }
-            if(conf.opening[day.getDay()]) {
-                var option = document.createElement("option");
-                option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
-                option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
-                dateSelect.add(option);
+        } else {
+            // not delivery
+            while (i<storeLocations[storeLocation].orderAhead) {
+                if (i==0) {
+                    /* check if we are past cutoff for today */
+                    var closingDate=new Date();
+                    closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+                    if (now > closingDate-conf.lastOrderFromClose*60000) {
+                        day.setDate(day.getDate()+1);
+                        document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+                    }
+                }
+                if (conf.opening[day.getDay()]) {
+                    var option = document.createElement("option");
+                    option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+                    option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+                    dateSelect.add(option);
+                }
+    
+                day.setDate(day.getDate()+1);
+                i++;
             }
-
-            day.setDate(day.getDate()+1);
-            i++;
+            setPickupTimes();
         }
-        setPickupTimes();
+
     } else {
         var closingDate=new Date();
         var openingDate=new Date();
@@ -1142,19 +1187,19 @@ storeLocations={
             prepTime: 0
         },    
         link: "/lab",
-        address: "inside the east entrance of trolley square, 602 700 E in SLC, UTC"
+        address: "inside the east entrance of trolley square, 602 700 E in SLC, UT"
     },
     // TODO: flesh out delivery location obj
     delivery: {
         // endpoint: "", // TODO: ask david for access to store & lab
         // locationId: "", // TODO: setup in square?
-        // openingHours: {
-        //     // opening: [],
-        //     // closing: [],
-        //     // lastOrderFromClose: 0,
-        //     // prepTime: 0
-        // },
-        // orderAhead: null,
+        openingHours: {
+            opening: [0, 0, 0, 0, 0, 0, 0],
+            closing: [24, 24, 24, 24, 24, 24, 24],
+            // lastOrderFromClose: 0,
+            // prepTime: 0
+        },
+        orderAhead: 2, // allow delivery up to two weeks in advance
         link: "/delivery",
         // address: null
     }
@@ -1413,7 +1458,7 @@ async function toggleCartDisplay() {
     if (cartEl.classList.toggle("full")) {
         document.body.classList.add("noscroll");
         cartEl.querySelector(".summary").innerHTML = 
-            `<p class="dotdotdot">building your cart<span>.</span><span>.</span><span>.</span><p>`;
+            `<p class="dotdotdot">${window.labels.checkout_checkstock}<span>.</span><span>.</span><span>.</span><p>`;
         let outOfStock = await checkCart();
         updateCart(); 
         cartEl.querySelector(".summary").classList.add("hidden");
@@ -1432,6 +1477,7 @@ async function toggleCartDisplay() {
     cartEl.querySelector(".payment").classList.add("hidden");
     cartEl.querySelector(".thankyou.callyourname").classList.add("hidden");
     cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
+
     setPickupDates();
 
     var hidePickup=true;
@@ -1483,7 +1529,7 @@ function initCart() {
                 <input id="cell" type="text" placeholder="cell phone">
                 <div class="pickup-time"> 
                     <nobr>
-                        <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
+                        <select id="pickup-date" ${storeLocation === "delivery" ? "" : 'onchange="setPickupTimes()"'}></select><select id="pickup-time"></select>
                     </nobr>
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
@@ -1862,6 +1908,7 @@ function makeShoppable() {
     const squareprefix='https://squareup.com/dashboard/items/library/';
 
     document.querySelectorAll("main a").forEach(($a) => {
+    // console.log(`makeShoppable -> $a`, $a);
         var href=$a.getAttribute('href');
         if (href.indexOf(squareprefix)==0) {
             var itemid=href.substr(squareprefix.length);
