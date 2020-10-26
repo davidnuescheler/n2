@@ -322,11 +322,21 @@ function highlightNav() {
 
 // set store location based on URL
 function setLocation() {
-    if (window.location.pathname.indexOf('/lab')==0) {
-        storeLocation='lab';
-    } else { // default is 'store'
-        storeLocation='store';
+    // console.log(`setLocation -> window.location.pathname`, window.location.pathname);
+    switch (window.location.pathname) {
+        case "/delivery":
+        case "/delivery2": // testing delivery
+            storeLocation = 'delivery';
+            break;
+        case "/lab":
+        case "/lab2": // testing lab
+            storeLocation = 'lab';
+            break;
+        default:
+            storeLocation = 'store'
+            break;
     }
+    // console.log(`  setLocation -> storeLocation`, storeLocation);
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -671,9 +681,9 @@ function getConeBuilderHTML(item, callout) {
     }
 
 function getConfigHTML(item, callout) {
-    console.log(`\ngetConfigHTML is running`)
-    console.log(`getConfigHTML -> item`, item);
-    console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
+    // console.log(`\ngetConfigHTML is running`)
+    // console.log(`getConfigHTML -> item`, item);
+    // console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
     let html='';
     var pickupVars=isFixedPickup(item);
     var image="";
@@ -1120,7 +1130,7 @@ storeLocations={
             prepTime: 0
         },
         orderAhead: 10,
-        link: "/", // TODO: should this be "/store.html"?
+        link: "/store", 
         address: "169 E 900 S in SLC"
     },
     lab: {
@@ -1131,8 +1141,22 @@ storeLocations={
             lastOrderFromClose: 0,
             prepTime: 0
         },    
-        link: "/lab.html",
+        link: "/lab",
         address: "inside the east entrance of trolley square, 602 700 E in SLC, UTC"
+    },
+    // TODO: flesh out delivery location obj
+    delivery: {
+        // endpoint: "", // TODO: ask david for access to store & lab
+        // locationId: "", // TODO: setup in square?
+        // openingHours: {
+        //     // opening: [],
+        //     // closing: [],
+        //     // lastOrderFromClose: 0,
+        //     // prepTime: 0
+        // },
+        // orderAhead: null,
+        link: "/delivery",
+        // address: null
     }
 }
 
@@ -1668,7 +1692,7 @@ async function updateCart() {
 // remove oos message from screen and oos items from cart
 function removeOOS() {
     let OOSEl = document.getElementById("oos");
-    if (OOSEL) {
+    if (OOSEl) {
         OOSEl.parentNode.remove();
         cart.line_items.forEach((li) => {
             if (li.quantity === "OUT OF STOCK") {
