@@ -301,6 +301,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BCSUPPNNEGCDXHLE46XGXIZB",
+     "modifier_data": {
+      "name": "taiyaki",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "7YYNQDNB6VWIHYWOCPGFIFAV",
+     "modifier_data": {
+      "name": "cup + taiyaki on top!",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "ATTR4UD6EKWOWDXL2JPCPWAE",
      "modifier_data": {
       "name": "cone",
@@ -6175,6 +6193,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "47LIG7XTWHMJURGMI5MWRUC6",
+     "modifier_data": {
+      "name": "taiyaki",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "SNPR5ROYWHARVHCED4PI3W4K",
+     "modifier_data": {
+      "name": "cup + taiyaki on top!",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "I36XW5TUPOQXGSFQFKBWCYLN",
      "modifier_data": {
       "name": "cone",
@@ -6954,6 +6990,42 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "girlsontherun"
+  }
+ },
+ {
+  "id": "47LIG7XTWHMJURGMI5MWRUC6",
+  "modifier_data": {
+   "name": "taiyaki",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "SNPR5ROYWHARVHCED4PI3W4K",
+  "modifier_data": {
+   "name": "cup + taiyaki on top!",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "BCSUPPNNEGCDXHLE46XGXIZB",
+  "modifier_data": {
+   "name": "taiyaki",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "7YYNQDNB6VWIHYWOCPGFIFAV",
+  "modifier_data": {
+   "name": "cup + taiyaki on top!",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
