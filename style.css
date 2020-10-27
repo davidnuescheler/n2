@@ -747,6 +747,10 @@ code {
     max-width: 100%;
 }
 
+#cart .delivery-address nobr {
+    display: flex;
+}
+
 .hidden {
     display: none;
 }

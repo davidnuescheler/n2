@@ -1037,6 +1037,21 @@ function setPickupDates () {
     }
 }
 
+function setDeliveryZipCodes() {
+    const zipArr = toNumbersArray(window.labels.delivery_zipcodes);
+    console.log(`setDeliveryZipCodes -> zipArr`, zipArr);
+
+    const $zipSelect = document.getElementById("delivery-zip");
+
+    zipArr.forEach((zip) => {
+        console.log(`  setDeliveryZipCodes -> zip`, zip);    
+        let option = document.createElement("option");
+        option.text = zip;
+        option.value = zip;
+        $zipSelect.add(option);
+    })
+}
+
 var paymentForm;
 
 function initPaymentForm() {
@@ -1247,18 +1262,17 @@ async function checkCart() {
 
 function displayStoreAlert() {
     // verify store selection
-    var other=(storeLocation=='lab')?'store':'lab';
+    var other = (storeLocation == 'lab') ? 'store' : 'lab';
     // TODO: fix otherLink below (not working for store)
-    var otherLink=storeLocations[other].link;
-    var storealert=document.createElement('div');
-    labels=window.labels;
-    storealert.id="alert";
-    storealert.innerHTML=`<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
+    var otherLink = storeLocations[other].link;
+    var storealert = document.createElement('div');
+    labels = window.labels;
+    storealert.id = "alert";
+    storealert.innerHTML = `<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
     <svg><use href="/icons.svg#${storeLocation}"></use></svg>
     <p>${labels[storeLocation+'_ourlocationis']}</p>
     <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
-    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>
-    `
+    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>`
     document.querySelector('footer').appendChild(storealert);
 }
 
@@ -1470,6 +1484,10 @@ async function toggleCartDisplay() {
         cartEl.querySelector(".summary").classList.remove("hidden");
         cartEl.querySelector(".details").classList.add("hidden");
     }
+    // show delivery address for delivery orders
+    if (storeLocation === "delivery") { 
+        cartEl.querySelector(".delivery-address").classList.remove("hidden") 
+    }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
     cartEl.querySelector(".info").classList.remove("hidden");
@@ -1479,6 +1497,7 @@ async function toggleCartDisplay() {
     cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
 
     setPickupDates();
+    setDeliveryZipCodes();
 
     var hidePickup=true;
 
@@ -1527,9 +1546,20 @@ function initCart() {
             <div class="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
+                <div class="delivery-address hidden"> 
+                    <input id="delivery-address" type="text" placeholder="your address">
+                    <nobr>
+                        <input id="delivery-city" type="text" value="salt lake city" readonly>
+                        <input id="delivery-state" type="text" value="utah" readonly>
+                        <select id="delivery-zip">
+                            <option value="" disabled selected hidden>zip code</option>
+                        </select>
+                    </nobr>
+                </div>
                 <div class="pickup-time"> 
                     <nobr>
-                        <select id="pickup-date" ${storeLocation === "delivery" ? "" : 'onchange="setPickupTimes()"'}></select><select id="pickup-time"></select>
+                        <select id="pickup-date" ${storeLocation === "delivery" ? "" : 'onchange="setPickupTimes()"'}></select>
+                        <select id="pickup-time"></select>
                     </nobr>
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
