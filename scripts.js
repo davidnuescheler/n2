@@ -961,8 +961,12 @@ function setPickupDates () {
 
         if (storeLocation === "delivery") {
             // delivery 
-            const pickupTimeSelect = document.getElementById("pickup-time");
-            pickupTimeSelect.remove();
+            let $pickupTimeEl = document.getElementById("pickup-time");
+            $pickupTimeEl.classList.add("hidden");
+            $pickupTimeEl.value = "n/a";
+
+            // if (pickupTimeSelect) { pickupTimeSelect.remove(); }
+
             // console.log(`966 setPickupDates -> storeLocation === "delivery"`, storeLocation === "delivery");
             while (i < storeLocations[storeLocation].orderAhead) {
                 let option = document.createElement("option");
@@ -1038,18 +1042,22 @@ function setPickupDates () {
 }
 
 function setDeliveryZipCodes() {
-    const zipArr = toNumbersArray(window.labels.delivery_zipcodes);
-    console.log(`setDeliveryZipCodes -> zipArr`, zipArr);
-
+    const zipArr = toNumbersArray(window.labels.delivery_zipcodes).sort();
     const $zipSelect = document.getElementById("delivery-zip");
 
     zipArr.forEach((zip) => {
-        console.log(`  setDeliveryZipCodes -> zip`, zip);    
         let option = document.createElement("option");
         option.text = zip;
         option.value = zip;
         $zipSelect.add(option);
-    })
+    });
+}
+
+function setZipColor() {
+    const $zipSelect = document.getElementById("delivery-zip");
+    if ($zipSelect.value !== "") {
+        $zipSelect.style.color = "var(--text-color)";
+    }
 }
 
 var paymentForm;
@@ -1261,19 +1269,42 @@ async function checkCart() {
 }
 
 function displayStoreAlert() {
-    // verify store selection
-    var other = (storeLocation == 'lab') ? 'store' : 'lab';
-    // TODO: fix otherLink below (not working for store)
-    var otherLink = storeLocations[other].link;
-    var storealert = document.createElement('div');
+    
     labels = window.labels;
-    storealert.id = "alert";
-    storealert.innerHTML = `<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
-    <svg><use href="/icons.svg#${storeLocation}"></use></svg>
-    <p>${labels[storeLocation+'_ourlocationis']}</p>
-    <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
-    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>`
-    document.querySelector('footer').appendChild(storealert);
+    
+    var $storealert = document.createElement('div');
+    $storealert.id = "alert";
+    $storealert.innerHTML = `<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>`
+
+    if (storeLocation !== "delivery") {
+
+        // verify store selection
+        var other = (storeLocation == 'lab') ? 'store' : 'lab';
+        // TODO: fix otherLink below (not working for store)
+        var otherLink = storeLocations[other].link;
+
+        $storealert.innerHTML += `<svg><use href="/icons.svg#${storeLocation}"></use></svg>
+        <p>${labels[storeLocation+'_ourlocationis']}</p>
+        <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+        <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>`
+
+    } else {
+        // SAVE: if delivery is going to be added to store/lab...
+        /* const locations = ['store', 'lab', 'delivery'];
+        const otherLocations = locations.filter((location) => { 
+            return location !== storeLocation 
+        }); */
+
+        let otherLinks = `<p><a href="${storeLocations['store'].link}">${labels['lab_ohno']}</a></p>
+        <p><a href="${storeLocations['lab'].link}">${labels['store_ohno']}</a></p>`;
+
+        $storealert.innerHTML 
+            += `<p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+            ${otherLinks}`;
+
+    }
+
+    document.querySelector('footer').appendChild($storealert);
 }
 
 async function submitOrder() {
@@ -1284,12 +1315,29 @@ async function submitOrder() {
 
     var orderParams={};
     var now=false;
-    orderParams.pickup_at=document.getElementById("pickup-time").value;
+    orderParams.pickup_at=document.getElementById("pickup-time").value || "delivery";
     if (orderParams.pickup_at=="now") {
         now=true;
         orderParams.pickup_at=new Date().toISOString();
         orderParams.now="yes";
-    } 
+    } else if (orderParams.pickup_at === "delivery") {
+        delete orderParams.pickup_at; // remove pickup from delivery orders
+        orderParams.delivery_date = document.getElementById("pickup-date").value;
+
+        const deliveryAddress = document.getElementById("delivery-address").value;
+        const deliveryCity = document.getElementById("delivery-city").value; 
+        const deliveryState = document.getElementById("delivery-state").value; 
+        const deliveryZip = document.getElementById("delivery-zip").value;
+        const deliveryFullAddress = [deliveryAddress, deliveryCity, deliveryState, deliveryZip];
+
+        // if the address is missing any piece
+        if (deliveryFullAddress.includes("")) {
+            document.getElementById("delivery-address").focus();
+            return;
+        }
+
+        orderParams.delivery_address = deliveryFullAddress.join(', ');
+    }
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
@@ -1486,7 +1534,7 @@ async function toggleCartDisplay() {
     }
     // show delivery address for delivery orders
     if (storeLocation === "delivery") { 
-        cartEl.querySelector(".delivery-address").classList.remove("hidden") 
+        cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
@@ -1551,8 +1599,8 @@ function initCart() {
                     <nobr>
                         <input id="delivery-city" type="text" value="salt lake city" readonly>
                         <input id="delivery-state" type="text" value="utah" readonly>
-                        <select id="delivery-zip">
-                            <option value="" disabled selected hidden>zip code</option>
+                        <select id="delivery-zip" onchange="setZipColor()">
+                            <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
                         </select>
                     </nobr>
                 </div>
@@ -1564,13 +1612,16 @@ function initCart() {
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
-                <button onclick="displayStoreAlert()">order</button>
+                <div class="warning hidden minorder">
+                    <p>${labels.checkout_minorder}</p>
+                </div>
+                <button id="orderBtn" onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>${labels.checkout_toolate}</p>
+                <p>${labels.checkout_toolate}</p>
             </div>
             <div class="warning hidden tooearly">
-            <p>${labels.checkout_tooearly}</p> 
+                <p>${labels.checkout_tooearly}</p> 
             </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
@@ -1652,10 +1703,8 @@ function minus (el) {
     updateCart();
 }
 
-async function updateCart() {
+function updateCart() {
     const labels=window.labels;
-
-    // var nomore = await checkCart();
 
     var cartEl=document.getElementById("cart");
 
@@ -1666,6 +1715,19 @@ async function updateCart() {
     } else {
         cartEl.classList.add("hidden");
         document.body.classList.remove("noscroll");
+    }
+
+    // check delivery cart
+    if (storeLocation === "delivery") {
+        if (cart.totalAmount() < 4000) { // minimum order $40
+            cartEl.querySelector(".minorder").classList.remove("hidden");
+            cartEl.querySelector("#orderBtn").disabled = true;
+            cartEl.querySelector("#orderBtn").classList.add("hidden");
+        } else {
+            cartEl.querySelector(".minorder").classList.add("hidden");
+            cartEl.querySelector("#orderBtn").disabled = false;
+            cartEl.querySelector("#orderBtn").classList.remove("hidden");
+        };
     }
 
     var summaryEl=cartEl.querySelector(".summary");
@@ -1741,8 +1803,6 @@ async function updateCart() {
       oosMessageDiv.append(oosMessage);
       lineitemsEl.prepend(oosMessageDiv);
     }
-
-    // console.log(JSON.stringify(cart.line_items));
     
     var checkoutItemsEl=cartEl.querySelector(".checkoutitems");
     html='';
@@ -1761,6 +1821,7 @@ async function updateCart() {
             });    
         }
     }
+
     checkoutItemsEl.innerHTML=html;
 
 }
@@ -1981,7 +2042,6 @@ var cart={
         var index=cart.line_items.findIndex((li) => fp == li.fp);
         cart.line_items[index].quantity=q;
         cart.store();
-
     },
     totalAmount: () => {
         var total=0;
