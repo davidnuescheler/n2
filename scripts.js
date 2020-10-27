@@ -1215,7 +1215,7 @@ storeLocations={
     // TODO: flesh out delivery location obj
     delivery: {
         // endpoint: "", // TODO: ask david for access to store & lab
-        // locationId: "", // TODO: setup in square?
+        locationId: "WPBKJEG0HRQ9F",
         openingHours: {
             opening: [0, 0, 0, 0, 0, 0, 0],
             closing: [24, 24, 24, 24, 24, 24, 24],
