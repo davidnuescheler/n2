@@ -7027,5 +7027,12 @@ var catalog_raw=[
     "amount": 300
    }
   }
+ },
+ {
+  "id": "KANRTE2HSRFQ54ZX2RM46I5S",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "giftcardonlinepurchase"
+  }
  }
 ]
