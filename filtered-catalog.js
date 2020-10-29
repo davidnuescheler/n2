@@ -1415,26 +1415,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "HZKWCJY3CMC4SVRGSDGJSW4P",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COSTA RICA luzma trujillo",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "BA5OC3MAII7RTSQPA7YJYSPU",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "KENYA mr. david mburu",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "66JOFCGM42MGTFS2QDQEZVEO",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
