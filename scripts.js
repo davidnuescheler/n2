@@ -1074,6 +1074,7 @@ function initPaymentForm() {
             autoBuild: false,
             // Customize the CSS for SqPaymentForm iframe elements
             inputStyles: [{
+                fontFamily: 'inherit',
                 fontSize: '16px',
                 lineHeight: '24px',
                 padding: '16px',
@@ -1213,7 +1214,7 @@ storeLocations={
     },
     // TODO: flesh out delivery location obj
     delivery: {
-        // endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
+        endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
         locationId: "WPBKJEG0HRQ9F",
         openingHours: {
             opening: [0, 0, 0, 0, 0, 0, 0],
@@ -1321,27 +1322,31 @@ async function submitOrder() {
         orderParams.now="yes";
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
-        orderParams.delivery_date = document.getElementById("pickup-date").value;
+        
+        const deliveryDate = document.getElementById("pickup-date").value;
+        orderParams.deliver_at = new Date(deliveryDate).toISOString();
 
         const deliveryAddress = document.getElementById("delivery-address").value;
         const deliveryCity = document.getElementById("delivery-city").value; 
         const deliveryState = document.getElementById("delivery-state").value; 
         const deliveryZip = document.getElementById("delivery-zip").value;
         const deliveryFullAddress = [deliveryAddress, deliveryCity, deliveryState, deliveryZip];
-
         // if the address is missing any piece
         if (deliveryFullAddress.includes("")) {
             document.getElementById("delivery-address").focus();
             return;
         }
-
-        orderParams.delivery_address = deliveryFullAddress.join(', ');
+        orderParams.address = deliveryAddress;
+        orderParams.city = deliveryCity;
+        orderParams.state = deliveryState;
+        orderParams.zip = deliveryZip;
     }
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
     orderParams.discount_name=document.getElementById("discount").value;
     orderParams.discount=document.getElementById("discount").getAttribute("data-id");
+
     // console.log(`  submitOrder -> orderParams`, orderParams);
 
     if (cart.itemCount==0) return;
@@ -1361,6 +1366,7 @@ async function submitOrder() {
 
     localStorage.setItem("name",orderParams.display_name);
     localStorage.setItem("cell",orderParams.cell);
+    localStorage.setItem("address",orderParams.address);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
     cartEl.querySelector(".checkoutitems").classList.add("hidden");
@@ -1370,12 +1376,12 @@ async function submitOrder() {
     orderEl.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
 
     var nomore = await checkCart();
-    console.log(`submitOrder -> nomore`, nomore);
+    // console.log(`submitOrder -> nomore`, nomore);
 
     if (nomore.length>0) {
         var sorry="we are so sorry we just ran out of "
         nomore.forEach((li, i) => {
-        console.log(`submitOrder -> li`, li);
+        // console.log(`submitOrder -> li`, li);
             var v=catalog.byId[li.variation];
             var item=catalog.byId[v.item_variation_data.item_id];
                 sorry+=(i?", ":"")+item.item_data.name+" : "+v.item_variation_data.name;
@@ -1389,7 +1395,7 @@ async function submitOrder() {
     
     orderParams.line_items=[];
     cart.line_items.forEach((li) => { 
-    console.log(`submitOrder -> li`, li);
+        // console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
         var line_item={
@@ -1406,6 +1412,7 @@ async function submitOrder() {
 
     var qs="";
     for (var a in orderParams) {
+        console.log(`submitOrder -> a`, a);
         if (a=="line_items") {
             qs+=a+"="+encodeURIComponent(JSON.stringify(orderParams[a]));
         } else {
@@ -1415,34 +1422,41 @@ async function submitOrder() {
     }
 
     // console.log ("order qs: "+qs);
+    console.log(`\nsubmitOrder -> storeLocations[storeLocation].endpoint`, storeLocations[storeLocation].endpoint);
+    console.log(`submitOrder -> storeLocations[storeLocation].endpoint + "?" + qs`, storeLocations[storeLocation].endpoint + "?" + qs);
 
-    fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
-        method: 'GET',
-        headers: {
-          'Accept': 'application/json',
-        }
-      })
-      .catch(err => {
-        alert('Network error: ' + err);
-      })
-      .then(response => {
+    fetch(storeLocations[storeLocation].endpoint + "?" + qs, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    })
+    .catch((err) => {
+        alert("Network error: " + err);
+    })
+    .then((response) => {
+        console.log(`\n  submitOrder -> response`, response);
+        console.log(`\n  submitOrder -> response.url`, response.url);
         if (!response.ok) {
-          return response.text().then(errorInfo => Promise.reject(errorInfo));
+          return response.text().then((errorInfo) => Promise.reject(errorInfo));
         }
+        // console.log(`  submitOrder -> response.text()`, response.text());
         return response.text();
-      })
-      .then(data => {
-        // console.log(data);
-        var obj=JSON.parse(data);
+    })
+    .then((data) => {
+        console.log(`\n    submitOrder -> data`);
+        console.log(data);
+        var obj = JSON.parse(data);
+        console.log(`    submitOrder -> obj`, obj);
         if (typeof obj.order != "undefined") {
-            displayOrder(obj.order);
+          displayOrder(obj.order);
         } else {
-            alert('Order Submission failed. Sorry.');
+          alert("order submission failed. sorry.");
         }
-      })
-      .catch(err => {
+    })
+    .catch((err) => {
         console.error(err);
-      });          
+    });       
 }
 
 function displayOrder(o) {
@@ -1544,7 +1558,11 @@ async function toggleCartDisplay() {
     cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
 
     setPickupDates();
-    setDeliveryZipCodes();
+    
+    const zipOptionsLength = document.getElementById("delivery-zip").options.length;
+    if (zipOptionsLength <= 1) {
+        setDeliveryZipCodes();
+    }
 
     var hidePickup=true;
 
