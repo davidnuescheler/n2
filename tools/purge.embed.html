@@ -17,7 +17,8 @@
 
 async function purge() {
         const $as=Array.from(document.querySelectorAll('.purge-section a'));
-        for (let i=0; i<$as.length; i++) {
+        try {
+            for (let i=0; i<$as.length; i++) {
             const $a=$as[i];
             const urlString=$a.getAttribute('href');
             const url=new URL(urlString);
@@ -28,8 +29,7 @@ async function purge() {
                 if (!path.includes('.')) path+='.html';
                 const status=await sendPurge(path+url.search);
                 if (status[0].status!="ok") {
-                    alert('things are not good right now\n...cowardly refusing to purge.')
-                    break;
+                    throw ("Status not ok")
                     }
             } else {
                 const resp=await fetch(urlString);
@@ -38,6 +38,12 @@ async function purge() {
             }
             $a.classList.remove('working');            
             $a.classList.add('done');            
+        } 
+
+        }
+        catch (e) {
+            alert (`something's not looking good right now\ncowardly refusing to purge.`)
+            console.log(e.message?e.message:e);    
         }
     }
 </script>
