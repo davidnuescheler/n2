@@ -966,9 +966,8 @@ function setPickupDates () {
             $pickupTimeEl.value = "n/a";
 
             // if (pickupTimeSelect) { pickupTimeSelect.remove(); }
-
             // console.log(`966 setPickupDates -> storeLocation === "delivery"`, storeLocation === "delivery");
-            while (i < storeLocations[storeLocation].orderAhead) {
+            while (i < window.labels.delivery_orderahead) {
                 let option = document.createElement("option");
                 // console.log(`\nsetPickupDates -> day`, day);
                 if (day.toString().includes("Sat")) {
@@ -1214,7 +1213,7 @@ storeLocations={
     },
     // TODO: flesh out delivery location obj
     delivery: {
-        // endpoint: "", // TODO: ask david for access to store & lab
+        // endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
         locationId: "WPBKJEG0HRQ9F",
         openingHours: {
             opening: [0, 0, 0, 0, 0, 0, 0],
@@ -1613,7 +1612,7 @@ function initCart() {
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <div class="warning hidden minorder">
-                    <p>${labels.checkout_minorder}</p>
+                    <p>${labels.checkout_minorder}${labels.delivery_minorder}.</p>
                 </div>
                 <button id="orderBtn" onclick="displayStoreAlert()">order</button>
             </div>
@@ -1719,7 +1718,9 @@ function updateCart() {
 
     // check delivery cart
     if (storeLocation === "delivery") {
-        if (cart.totalAmount() < 4000) { // minimum order $40
+        // convert dollar amount from google sheet to cents for comparison 
+        const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+        if (cart.totalAmount() < minOrder) { 
             cartEl.querySelector(".minorder").classList.remove("hidden");
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
