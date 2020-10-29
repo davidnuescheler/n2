@@ -26,7 +26,11 @@ async function purge() {
                 let path=url.pathname;
                 if (path.endsWith('/')) path+='index';
                 if (!path.includes('.')) path+='.html';
-                sendPurge(path+url.search);
+                const status=await sendPurge(path+url.search);
+                if (status[0].status!="ok") {
+                    alert('things are not good right now\n...cowardly refusing to purge.')
+                    break;
+                    }
             } else {
                 const resp=await fetch(urlString);
                 const json=await resp.json();
