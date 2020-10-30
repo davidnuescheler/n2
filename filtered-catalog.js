@@ -6972,5 +6972,25 @@ var catalog_raw=[
   "discount_data": {
    "name": "giftcardonlinepurchase"
   }
+ },
+ {
+  "id": "SFSWEF3Z324CXSDKQBWJFPSU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "witch hat",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "NBJ5JJI2RXJ43LUUECIAHABP",
+     "item_variation_data": {
+      "item_id": "SFSWEF3Z324CXSDKQBWJFPSU",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
