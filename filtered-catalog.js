@@ -4991,15 +4991,6 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "ZQK5SVY4R63RINBV4KY6ECIE",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "J5YMHORANXH3GLKVVHQSC7JM",
      "modifier_data": {
       "name": "beehive",
@@ -6733,15 +6724,6 @@ var catalog_raw=[
   "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
   "modifier_data": {
    "name": "plain pls!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "ZQK5SVY4R63RINBV4KY6ECIE",
-  "modifier_data": {
-   "name": "margherita",
    "price_money": {
     "amount": 0
    }
