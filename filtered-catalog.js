@@ -7035,5 +7035,105 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "YWKLSVY6ZHHPUAMIQDBYNBI2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "roasted white chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "SNZ54LFT4LDUWQKBNA3FA7M4",
+     "item_variation_data": {
+      "item_id": "YWKLSVY6ZHHPUAMIQDBYNBI2",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "AEG37F67J2B7A6RUUDMZE56A",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan vanilla + rhubarb twist pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "KBB3UDWTIA72HJN52XMH4HUX",
+     "item_variation_data": {
+      "item_id": "AEG37F67J2B7A6RUUDMZE56A",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "HBJELLOLFKTESZKKRD4RGCPS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan vanilla + fudge pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "AHJMZ7DYUOQKUNXKOR7PBTN6",
+     "item_variation_data": {
+      "item_id": "HBJELLOLFKTESZKKRD4RGCPS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "QFRMYP62WJN2CSZLCFFK7PZY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "montmorency cherry pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "HFROGIWZ7AWQ4SVTBNKUHVV6",
+     "item_variation_data": {
+      "item_id": "QFRMYP62WJN2CSZLCFFK7PZY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RQ5WW6JSRWOFILEGGMRJY7DL",
+  "type": "ITEM",
+  "item_data": {
+   "name": "black sesame pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ZUYII4RXNIZ7CVNBLR5XDW4L",
+     "item_variation_data": {
+      "item_id": "RQ5WW6JSRWOFILEGGMRJY7DL",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
