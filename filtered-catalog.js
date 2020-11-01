@@ -725,7 +725,8 @@ var catalog_raw=[
   "id": "OIKSXB2D3WXTKOJSBA5K7GWB",
   "type": "ITEM",
   "item_data": {
-   "name": "mango pint",
+   "name": "mango + coconut rice pint (v)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SF2QDKYBFYV2DK3Z5SOIPYKI",
@@ -733,7 +734,7 @@ var catalog_raw=[
       "item_id": "OIKSXB2D3WXTKOJSBA5K7GWB",
       "name": "Regular",
       "price_money": {
-       "amount": 1000
+       "amount": 1200
       }
      }
     }
@@ -6969,6 +6970,66 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "QJDMR6WGJEUEFWPT2WFCNDXY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pineapple upside down pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "VNH2VGITF6EL6YXFJYWJ5SAC",
+     "item_variation_data": {
+      "item_id": "QJDMR6WGJEUEFWPT2WFCNDXY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VTWLKSBP3Y7VETEZI3S3VCIY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ritz + grape pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "MPMDKLFTWTEUJIDMUZ6XKAVQ",
+     "item_variation_data": {
+      "item_id": "VTWLKSBP3Y7VETEZI3S3VCIY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "N4AA3ODPXUPSWERGTDZ2VUF7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "rhubarb crisp pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "QW3BOWCP4CX3A5GOBRNCNXA2",
+     "item_variation_data": {
+      "item_id": "N4AA3ODPXUPSWERGTDZ2VUF7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
       }
      }
     }
