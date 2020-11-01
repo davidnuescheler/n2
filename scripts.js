@@ -905,26 +905,40 @@ function displayThanks(payment){
     var $receipt;
 
     cartEl.querySelector(".payment").classList.add("hidden");
-    if (storeLocations[storeLocation].orderAhead) {
+
+    if (storeLocation === "store") {
         var $thankyou=cartEl.querySelector(".thankyou.order-ahead");
         $thankyou.classList.remove("hidden");
         $receipt=$thankyou.querySelector('.receipt-link');
-    } else {
+    } else if (storeLocation === "lab") {
         var $thankyou=cartEl.querySelector(".thankyou.callyourname");
         $thankyou.classList.remove("hidden");
+        $receipt=$thankyou.querySelector('.receipt-link');
+    } else if (storeLocation === "delivery") {
+        var $thankyou=cartEl.querySelector(".thankyou.deliverydate-confirm");
+
+        var $warning = $thankyou.querySelector(".warning");
+        var deliveryDate = new Date(order.fulfillments[0].shipment_details.expected_shipped_at);
+        var deliveryDateFormat = deliveryDate.toDateString().substring(0,10).toLowerCase();
+        $warning.innerText += ` ${deliveryDateFormat} :)`
+        $thankyou.classList.remove("hidden");
+
         $receipt=$thankyou.querySelector('.receipt-link');
     }
 
     var receiptLink="/receipt"
 
     if (payment) {
-            receiptLink=payment.receipt_url;
+        receiptLink=payment.receipt_url;
     }
 
     $receipt.setAttribute("href", receiptLink);
 
+    var recipient = order.fulfillments[0].pickup_details ? 
+    order.fulfillments[0].pickup_details.recipient.display_name : order.fulfillments[0].shipment_details.recipient.display_name;
+
     var textElem=document.getElementById("text-link");
-    var msg=`hi normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
+    var msg=`hi normal, this is ${recipient}, picking up my order in a (describe car)`;
     var smshref=`sms://+1${labels.store_phone.replace(/\D/g,'')}/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
     textElem.setAttribute("href", smshref);
 
@@ -938,7 +952,6 @@ function getTip() {
     var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
     return (tipAmount);
 }
-
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
@@ -965,12 +978,10 @@ function setPickupDates () {
             $pickupTimeEl.classList.add("hidden");
             $pickupTimeEl.value = "n/a";
 
-            // if (pickupTimeSelect) { pickupTimeSelect.remove(); }
-            // console.log(`966 setPickupDates -> storeLocation === "delivery"`, storeLocation === "delivery");
             while (i < window.labels.delivery_orderahead) {
                 let option = document.createElement("option");
-                // console.log(`\nsetPickupDates -> day`, day);
-                if (day.toString().includes("Sat")) {
+
+                if (day.toString().includes("Sat") && i == 0) {
                     // if today is saturday, allow delivery today!
                     option.text = 'today';
                     option.value = day.getFullYear() + "/" + ( day.getMonth()+1 ) + "/" + day.getDate();
@@ -980,7 +991,6 @@ function setPickupDates () {
                     for (let j = 1; j < 7; j++) {
                         let nextDay = new Date(day);
                         nextDay.setDate(nextDay.getDate() + j)
-                        // console.log(`  setPickupDates -> nextDay`, nextDay);
                         if (nextDay.toString().includes("Sat")) {
                             day.setDate(nextDay.getDate() + 1);
                             option.text = weekdays[nextDay.getDay()] + ", " + months[nextDay.getMonth()] + " " + nextDay.getDate();
@@ -1074,7 +1084,7 @@ function initPaymentForm() {
             autoBuild: false,
             // Customize the CSS for SqPaymentForm iframe elements
             inputStyles: [{
-                fontFamily: 'inherit',
+                fontFamily: 'Roboto Condensed, sans-serif',
                 fontSize: '16px',
                 lineHeight: '24px',
                 padding: '16px',
@@ -1212,7 +1222,6 @@ storeLocations={
         link: "/lab",
         address: "inside the east entrance of trolley square, 602 700 E in SLC, UT"
     },
-    // TODO: flesh out delivery location obj
     delivery: {
         endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
         locationId: "WPBKJEG0HRQ9F",
@@ -1556,10 +1565,12 @@ async function toggleCartDisplay() {
     cartEl.querySelector(".payment").classList.add("hidden");
     cartEl.querySelector(".thankyou.callyourname").classList.add("hidden");
     cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
+    cartEl.querySelector(".thankyou.deliverydate-confirm").classList.add("hidden");
 
     setPickupDates();
     
     const zipOptionsLength = document.getElementById("delivery-zip").options.length;
+    
     if (zipOptionsLength <= 1) {
         setDeliveryZipCodes();
     }
@@ -1673,6 +1684,12 @@ function initCart() {
             </div>
             <div class="thankyou callyourname hidden">
                 <h3 class="warning">${labels.checkout_pickupnowthanks}</h3>
+                <p>
+                <a class="receipt-link" target="_new" href="">show receipt</a>
+                </p>
+            </div>
+            <div class="thankyou deliverydate-confirm hidden">
+                <h3 class="warning">${labels.checkout_deliverythanks}</h3>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
