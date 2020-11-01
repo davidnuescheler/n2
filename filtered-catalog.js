@@ -6938,7 +6938,7 @@ var catalog_raw=[
   "id": "ZZQL27DYENVAXH2V3FXXHZKA",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "SHOPINUTAHDRINKS"
+   "name": "shopinutahdrinks"
   }
  },
  {
