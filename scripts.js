@@ -1084,7 +1084,7 @@ function initPaymentForm() {
             autoBuild: false,
             // Customize the CSS for SqPaymentForm iframe elements
             inputStyles: [{
-                fontFamily: 'Roboto Condensed, sans-serif',
+                fontFamily: 'sans-serif',
                 fontSize: '16px',
                 lineHeight: '24px',
                 padding: '16px',
@@ -1317,7 +1317,7 @@ function displayStoreAlert() {
 }
 
 async function submitOrder() {
-    // console.log(`submitOrder running`);
+    console.log(`submitOrder running`);
     removeOOS();
     var alertEl=document.getElementById("alert").remove();
     var cartEl=document.getElementById("cart");
@@ -1331,6 +1331,8 @@ async function submitOrder() {
         orderParams.now="yes";
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
+
+        cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
         
         const deliveryDate = document.getElementById("pickup-date").value;
         orderParams.deliver_at = new Date(deliveryDate).toISOString();
@@ -1421,7 +1423,6 @@ async function submitOrder() {
 
     var qs="";
     for (var a in orderParams) {
-        console.log(`submitOrder -> a`, a);
         if (a=="line_items") {
             qs+=a+"="+encodeURIComponent(JSON.stringify(orderParams[a]));
         } else {
@@ -1431,8 +1432,6 @@ async function submitOrder() {
     }
 
     // console.log ("order qs: "+qs);
-    console.log(`\nsubmitOrder -> storeLocations[storeLocation].endpoint`, storeLocations[storeLocation].endpoint);
-    console.log(`submitOrder -> storeLocations[storeLocation].endpoint + "?" + qs`, storeLocations[storeLocation].endpoint + "?" + qs);
 
     fetch(storeLocations[storeLocation].endpoint + "?" + qs, {
       method: "GET",
@@ -1472,6 +1471,10 @@ function displayOrder(o) {
     order=o;
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
+        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") {
+            console.log(`displayOrder -> li`, li);
+
+        }
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
             li.modifiers.forEach((mod) => {
@@ -1922,10 +1925,12 @@ function addToCart(e) {
                 configItem(obj, callout);    
             } else {
                 cart.add(obj.item_data.variations[0].id);
+                console.log(`addToCart -> obj.item_data.variations[0].id`, obj.item_data.variations[0].id);
                 updateCart();    
             }
         } else {
             cart.add(obj.id);
+            console.log(`addToCart -> obj.id`, obj.id);
             updateCart();
         }
     }
