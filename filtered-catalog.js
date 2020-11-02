@@ -42,7 +42,7 @@ var catalog_raw=[
     {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
-      "name": "rainbow sprinks (gf)",
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -51,7 +51,7 @@ var catalog_raw=[
     {
      "id": "54DOE4VPVFQ25T2V6GDGAXP6",
      "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
+      "name": "chocolate sprinkles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +87,7 @@ var catalog_raw=[
     {
      "id": "OMODOWND27XPK3UQFPSZ34X7",
      "modifier_data": {
-      "name": "chocolate chip cookie dough",
+      "name": "cookie dough bits",
       "price_money": {
        "amount": 75
       }
@@ -3799,7 +3799,7 @@ var catalog_raw=[
  {
   "id": "62XEBWLYZELZ4SFORGKYKRZ4",
   "modifier_data": {
-   "name": "rainbow sprinks (gf)",
+   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5715,7 +5715,7 @@ var catalog_raw=[
  {
   "id": "54DOE4VPVFQ25T2V6GDGAXP6",
   "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
+   "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6963,7 +6963,7 @@ var catalog_raw=[
  {
   "id": "OMODOWND27XPK3UQFPSZ34X7",
   "modifier_data": {
-   "name": "chocolate chip cookie dough",
+   "name": "cookie dough bits",
    "price_money": {
     "amount": 75
    }
