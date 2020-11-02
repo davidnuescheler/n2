@@ -42,7 +42,7 @@ var catalog_raw=[
     {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
-      "name": "peanut toffee (gf)",
+      "name": "rainbow sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -51,7 +51,7 @@ var catalog_raw=[
     {
      "id": "54DOE4VPVFQ25T2V6GDGAXP6",
      "modifier_data": {
-      "name": "count chocula",
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -60,7 +60,7 @@ var catalog_raw=[
     {
      "id": "WQFKEJFKIHIESMNUORMAE33V",
      "modifier_data": {
-      "name": "fudge sauce",
+      "name": "lavender ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
      "modifier_data": {
-      "name": "heath and crunch bar crumb",
+      "name": "bergamot cotton candy (v)(gf)",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "DSXPCLH47QHLKQ644PWDHIKJ",
      "modifier_data": {
-      "name": "coconut ash NORMAL dots! (v) (gf)",
+      "name": "passion fruit NORMAL dots! (v) (gf)",
       "price_money": {
        "amount": 150
       }
@@ -87,7 +87,52 @@ var catalog_raw=[
     {
      "id": "OMODOWND27XPK3UQFPSZ34X7",
      "modifier_data": {
-      "name": "baby bat sprinks (v) (gf)",
+      "name": "chocolate chip cookie dough",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
+     "modifier_data": {
+      "name": "cookie butter (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "MSCCGZPDMED35KXS26XZKBMH",
+     "modifier_data": {
+      "name": "chocolate shortbread crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "76YYUC5BJ7AHK5SGDXGO4X6L",
+     "modifier_data": {
+      "name": "coffee ganache (v)(gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "DXT3HMOZHHE366QHHE2QQQLW",
+     "modifier_data": {
+      "name": "streusel crumble (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
+     "modifier_data": {
+      "name": "coconut jam (v)(gf)",
       "price_money": {
        "amount": 75
       }
@@ -3682,7 +3727,7 @@ var catalog_raw=[
  {
   "id": "62XEBWLYZELZ4SFORGKYKRZ4",
   "modifier_data": {
-   "name": "peanut toffee (gf)",
+   "name": "rainbow sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5598,7 +5643,7 @@ var catalog_raw=[
  {
   "id": "54DOE4VPVFQ25T2V6GDGAXP6",
   "modifier_data": {
-   "name": "count chocula",
+   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5676,7 +5721,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "coconut ash NORMAL dots! (v) (gf)",
+   "name": "passion fruit NORMAL dots! (v) (gf)",
    "price_money": {
     "amount": 150
    }
@@ -6346,7 +6391,7 @@ var catalog_raw=[
  {
   "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
   "modifier_data": {
-   "name": "heath and crunch bar crumb",
+   "name": "bergamot cotton candy (v)(gf)",
    "price_money": {
     "amount": 75
    }
@@ -6481,7 +6526,7 @@ var catalog_raw=[
  {
   "id": "WQFKEJFKIHIESMNUORMAE33V",
   "modifier_data": {
-   "name": "fudge sauce",
+   "name": "lavender ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6846,7 +6891,7 @@ var catalog_raw=[
  {
   "id": "OMODOWND27XPK3UQFPSZ34X7",
   "modifier_data": {
-   "name": "baby bat sprinks (v) (gf)",
+   "name": "chocolate chip cookie dough",
    "price_money": {
     "amount": 75
    }
@@ -7595,6 +7640,51 @@ var catalog_raw=[
    "name": "make it a mocha!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
+  "modifier_data": {
+   "name": "cookie butter (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MSCCGZPDMED35KXS26XZKBMH",
+  "modifier_data": {
+   "name": "chocolate shortbread crumb",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "76YYUC5BJ7AHK5SGDXGO4X6L",
+  "modifier_data": {
+   "name": "coffee ganache (v)(gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "DXT3HMOZHHE366QHHE2QQQLW",
+  "modifier_data": {
+   "name": "streusel crumble (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
+  "modifier_data": {
+   "name": "coconut jam (v)(gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
