@@ -1554,9 +1554,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1568,7 +1565,17 @@ var catalog_raw=[
      "id": "VRMVUR7BLGNIBTECJZGOJFKO",
      "item_variation_data": {
       "item_id": "53PEQKVSZQFR372XWFDFOX37",
-      "name": "Regular",
+      "name": "8 oz",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "YTS3MFIWQRJZLHHWVIA7KU73",
+     "item_variation_data": {
+      "item_id": "53PEQKVSZQFR372XWFDFOX37",
+      "name": "12 oz",
       "price_money": {
        "amount": 300
       }
