@@ -7469,5 +7469,33 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "DJ4IW3GCGZY3WZXWCZ4VKP4L",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal london fog",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
+    },
+    {
+     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+    }
+   ],
+   "variations": [
+    {
+     "id": "WP53ISK2B6DYFN7IANOYADYA",
+     "item_variation_data": {
+      "item_id": "DJ4IW3GCGZY3WZXWCZ4VKP4L",
+      "name": "12 oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
