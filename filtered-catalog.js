@@ -157,18 +157,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JY6NIYOH43SEGGHPSURFL2LP",
-     "modifier_data": {
-      "name": "baby bone sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
-      "name": "cocoa krispies (v) (gf)",
+      "name": "cocoa pebbles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -184,9 +175,18 @@ var catalog_raw=[
      }
     },
     {
+     "id": "JY6NIYOH43SEGGHPSURFL2LP",
+     "modifier_data": {
+      "name": "rainbow sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
      "modifier_data": {
-      "name": "cotton candy (v) (gf)",
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -195,7 +195,7 @@ var catalog_raw=[
     {
      "id": "J3Z4PLUU34QDCAA36N6FNCX4",
      "modifier_data": {
-      "name": "spooky salted caramel (gf)",
+      "name": "pandan mallow fluff (gf)",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +204,7 @@ var catalog_raw=[
     {
      "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
      "modifier_data": {
-      "name": "honeycomb candy (v) (gf)",
+      "name": "toasted meringue bits (gf)",
       "price_money": {
        "amount": 75
       }
@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
-      "name": "the blood of oranges (v) (gf)",
+      "name": "ube cake",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +222,79 @@ var catalog_raw=[
     {
      "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
      "modifier_data": {
-      "name": "OMNOM black N burnt crunch",
+      "name": "berry compote (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
+     "modifier_data": {
+      "name": "brown sugar oat crumble (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
+     "modifier_data": {
+      "name": "gingersnap cookie bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
+     "modifier_data": {
+      "name": "cream cheese frosting (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "OCSZP3UP46J3TQNDST27XJSI",
+     "modifier_data": {
+      "name": "gingerbread person",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
+     "modifier_data": {
+      "name": "SMOL-lows (house-made baby mallows) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
+     "modifier_data": {
+      "name": "peppermint candy crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "Z3AAIBRI772VWXK3CADEZSMU",
+     "modifier_data": {
+      "name": "strawberry cotton candy",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "62NPDWQFYWUSVSQ426GQVQH5",
+     "modifier_data": {
+      "name": "butter cake",
       "price_money": {
        "amount": 75
       }
@@ -243,7 +315,7 @@ var catalog_raw=[
  {
   "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
   "modifier_data": {
-   "name": "cocoa krispies (v) (gf)",
+   "name": "cocoa pebbles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5282,7 +5354,7 @@ var catalog_raw=[
  {
   "id": "JY6NIYOH43SEGGHPSURFL2LP",
   "modifier_data": {
-   "name": "baby bone sprinks (gf)",
+   "name": "rainbow sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5291,7 +5363,7 @@ var catalog_raw=[
  {
   "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
   "modifier_data": {
-   "name": "cotton candy (v) (gf)",
+   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5300,7 +5372,7 @@ var catalog_raw=[
  {
   "id": "J3Z4PLUU34QDCAA36N6FNCX4",
   "modifier_data": {
-   "name": "spooky salted caramel (gf)",
+   "name": "pandan mallow fluff (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5309,7 +5381,7 @@ var catalog_raw=[
  {
   "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
   "modifier_data": {
-   "name": "honeycomb candy (v) (gf)",
+   "name": "toasted meringue bits (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5318,7 +5390,7 @@ var catalog_raw=[
  {
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
-   "name": "the blood of oranges (v) (gf)",
+   "name": "ube cake",
    "price_money": {
     "amount": 75
    }
@@ -6454,7 +6526,7 @@ var catalog_raw=[
  {
   "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
   "modifier_data": {
-   "name": "OMNOM black N burnt crunch",
+   "name": "berry compote (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7683,6 +7755,78 @@ var catalog_raw=[
   "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
   "modifier_data": {
    "name": "coconut jam (v)(gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
+  "modifier_data": {
+   "name": "brown sugar oat crumble (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
+  "modifier_data": {
+   "name": "gingersnap cookie bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
+  "modifier_data": {
+   "name": "cream cheese frosting (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OCSZP3UP46J3TQNDST27XJSI",
+  "modifier_data": {
+   "name": "gingerbread person",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
+  "modifier_data": {
+   "name": "SMOL-lows (house-made baby mallows) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
+  "modifier_data": {
+   "name": "peppermint candy crumb",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "Z3AAIBRI772VWXK3CADEZSMU",
+  "modifier_data": {
+   "name": "strawberry cotton candy",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "62NPDWQFYWUSVSQ426GQVQH5",
+  "modifier_data": {
+   "name": "butter cake",
    "price_money": {
     "amount": 75
    }
