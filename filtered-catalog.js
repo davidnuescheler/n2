@@ -2041,7 +2041,7 @@ var catalog_raw=[
     {
      "id": "SEAOEWQP6UAQGF7FV55DQEJY",
      "modifier_data": {
-      "name": "black sesame (gf)",
+      "name": "ube (purple sweet potato) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2050,43 +2050,7 @@ var catalog_raw=[
     {
      "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
      "modifier_data": {
-      "name": "vanilla + black sesame TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
-     "modifier_data": {
-      "name": "blood orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "55RLPHUM4436C45O7GC4K66K",
-     "modifier_data": {
-      "name": "coconut sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "NFBWB7NRRENR2YARYKCFCVAQ",
-     "modifier_data": {
-      "name": "blood orange + coconut TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
-     "modifier_data": {
-      "name": "montmorency cherry (gf)",
+      "name": "vanilla + ube TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2102,9 +2066,45 @@ var catalog_raw=[
      }
     },
     {
+     "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
+     "modifier_data": {
+      "name": "molasses (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
      "modifier_data": {
-      "name": "cherry +  chocolate TWIST (gf)",
+      "name": "chocolate + molasses TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
+     "modifier_data": {
+      "name": "oatmeal cookie (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "55RLPHUM4436C45O7GC4K66K",
+     "modifier_data": {
+      "name": "cranberry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NFBWB7NRRENR2YARYKCFCVAQ",
+     "modifier_data": {
+      "name": "oatmeal cookie + cranberry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5331,7 +5331,7 @@ var catalog_raw=[
  {
   "id": "SEAOEWQP6UAQGF7FV55DQEJY",
   "modifier_data": {
-   "name": "black sesame (gf)",
+   "name": "ube (purple sweet potato) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6382,7 +6382,7 @@ var catalog_raw=[
  {
   "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
   "modifier_data": {
-   "name": "blood orange sorbet (v) (gf)",
+   "name": "oatmeal cookie (v)",
    "price_money": {
     "amount": 0
    }
@@ -6391,7 +6391,7 @@ var catalog_raw=[
  {
   "id": "55RLPHUM4436C45O7GC4K66K",
   "modifier_data": {
-   "name": "coconut sorbet (v) (gf)",
+   "name": "cranberry sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6400,7 +6400,7 @@ var catalog_raw=[
  {
   "id": "NFBWB7NRRENR2YARYKCFCVAQ",
   "modifier_data": {
-   "name": "blood orange + coconut TWIST (v) (gf)",
+   "name": "oatmeal cookie + cranberry TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6463,7 +6463,7 @@ var catalog_raw=[
  {
   "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
   "modifier_data": {
-   "name": "vanilla + black sesame TWIST (gf)",
+   "name": "vanilla + ube TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6519,7 +6519,7 @@ var catalog_raw=[
  {
   "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
   "modifier_data": {
-   "name": "montmorency cherry (gf)",
+   "name": "molasses (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6537,7 +6537,7 @@ var catalog_raw=[
  {
   "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
   "modifier_data": {
-   "name": "cherry +  chocolate TWIST (gf)",
+   "name": "chocolate + molasses TWIST (gf)",
    "price_money": {
     "amount": 0
    }
