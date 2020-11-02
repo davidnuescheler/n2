@@ -996,7 +996,7 @@ select:disabled:hover, select[aria-disabled=true] {
 }
 
 .ordering {
-	        animation: rotate-center 1s ease-in-out infinite alternate both;
+	animation: rotate-center 1s ease-in-out infinite alternate both;
 }
 
 #form-container button {
