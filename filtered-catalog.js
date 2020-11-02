@@ -3002,7 +3002,7 @@ var catalog_raw=[
     {
      "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
      "modifier_data": {
-      "name": "black sesame (gf)",
+      "name": "ube (purple sweet potato) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3011,34 +3011,7 @@ var catalog_raw=[
     {
      "id": "KTUHIM74TDMZGVAJECCOBAPH",
      "modifier_data": {
-      "name": "vanilla + black sesame (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
-     "modifier_data": {
-      "name": "blood orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "4JJX7WCUFWIXXBU3CNASGDHK",
-     "modifier_data": {
-      "name": "coconut sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
-     "modifier_data": {
-      "name": "blood orange + coconut sorbet (v) (gf)",
+      "name": "vanilla + ube TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3056,7 +3029,7 @@ var catalog_raw=[
     {
      "id": "M3CL2DJXDM2GH44BHDUA47VF",
      "modifier_data": {
-      "name": "montmorency cherry (gf)",
+      "name": "molasses (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3065,7 +3038,34 @@ var catalog_raw=[
     {
      "id": "44FJUMKODZU5IJ7TZOR3DUCW",
      "modifier_data": {
-      "name": "cherry + chocolate TWIST (gf)",
+      "name": "chocolate + molasses TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
+     "modifier_data": {
+      "name": "oatmeal cookie (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4JJX7WCUFWIXXBU3CNASGDHK",
+     "modifier_data": {
+      "name": "cranberry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
+     "modifier_data": {
+      "name": "oatmeal cookie + cranberry TWSIT (v)",
       "price_money": {
        "amount": 300
       }
@@ -3475,7 +3475,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "butterfinger milk",
+      "name": "earl grey tea (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3484,7 +3484,7 @@ var catalog_raw=[
     {
      "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
      "modifier_data": {
-      "name": "cream cheese (gf)",
+      "name": "apple cider sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3493,7 +3493,7 @@ var catalog_raw=[
     {
      "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
      "modifier_data": {
-      "name": "cream cheese + butterfinger milk TWIST",
+      "name": "earl grey + apple cider TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3502,7 +3502,7 @@ var catalog_raw=[
     {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
-      "name": "many berry sorbet (v) (gf)",
+      "name": "sweet cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3511,7 +3511,7 @@ var catalog_raw=[
     {
      "id": "VKKVI4KWBJLV5FDC2WVFRH37",
      "modifier_data": {
-      "name": "cocoa pebble milk (v)",
+      "name": "pumpkin spice (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3520,7 +3520,7 @@ var catalog_raw=[
     {
      "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
      "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWIST (v)",
+      "name": "sweet cream + pumpkin spice TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3532,7 +3532,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "butterfinger milk",
+   "name": "earl grey tea (gf)",
    "price_money": {
     "amount": 0
    }
@@ -4117,7 +4117,7 @@ var catalog_raw=[
      "id": "OTYNMLK7OWG4ROLCHWXALAPI",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "black sesame",
+      "name": "ube (purple sweet potato)",
       "price_money": {
        "amount": 500
       }
@@ -4127,7 +4127,7 @@ var catalog_raw=[
      "id": "FWRIIYC374KB6P6NV77ZJ7OB",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "vanilla + black sesame TWIST",
+      "name": "vanilla + ube TWIST",
       "price_money": {
        "amount": 500
       }
@@ -4137,7 +4137,7 @@ var catalog_raw=[
      "id": "NCYJ3IPMDVZEAQ6ZS3A5JAKN",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "coconut sorbet",
+      "name": "milk chocolate",
       "price_money": {
        "amount": 500
       }
@@ -4147,7 +4147,7 @@ var catalog_raw=[
      "id": "OYQ5Q5HVAP27QZGQHBFAEAOT",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "blood orange sorbet",
+      "name": "molasses",
       "price_money": {
        "amount": 500
       }
@@ -4157,7 +4157,37 @@ var catalog_raw=[
      "id": "KUYLMZQ54YK77YP57XCGZMGZ",
      "item_variation_data": {
       "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
-      "name": "coconut + blood orange TWIST",
+      "name": "milk chocolate + molasses TWIST",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "A26NBWJSFJUURA7LCI2QUMNW",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "oatmeal cookie",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "BL3CUHEJXKQB22RA2TYA72B3",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "cranberry sorbet",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "C3TZEFBE3ENABYMNPEIWVVAR",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "oatmeal cookie + cranberry twist",
       "price_money": {
        "amount": 500
       }
@@ -4884,7 +4914,7 @@ var catalog_raw=[
     {
      "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
      "modifier_data": {
-      "name": "butterfinger milk",
+      "name": "earl grey tea (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4893,7 +4923,7 @@ var catalog_raw=[
     {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
-      "name": "cream cheese (gf)",
+      "name": "apple cider sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4902,7 +4932,7 @@ var catalog_raw=[
     {
      "id": "UM4WAEHGILERHWPNYJNGIPHV",
      "modifier_data": {
-      "name": "cream cheese + butterfinger milk TWIST",
+      "name": "earl grey + apple cider TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4911,7 +4941,7 @@ var catalog_raw=[
     {
      "id": "BAUZ64I22FTOE4GDU6XC5H54",
      "modifier_data": {
-      "name": "cocoa pebble milk",
+      "name": "sweet cream (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4920,7 +4950,7 @@ var catalog_raw=[
     {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
-      "name": "many berry sorbet (v)",
+      "name": "pumpkin spice (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4929,7 +4959,7 @@ var catalog_raw=[
     {
      "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
      "modifier_data": {
-      "name": "cocoa pebble milk + many berry TWIST",
+      "name": "sweet cream + pumpkin spice TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4950,7 +4980,7 @@ var catalog_raw=[
  {
   "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
   "modifier_data": {
-   "name": "butterfinger milk",
+   "name": "earl grey tea (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4959,7 +4989,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "cream cheese (gf)",
+   "name": "apple cider sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4968,7 +4998,7 @@ var catalog_raw=[
  {
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
-   "name": "many berry sorbet (v)",
+   "name": "pumpkin spice (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4977,7 +5007,7 @@ var catalog_raw=[
  {
   "id": "UM4WAEHGILERHWPNYJNGIPHV",
   "modifier_data": {
-   "name": "cream cheese + butterfinger milk TWIST",
+   "name": "earl grey + apple cider TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5292,7 +5322,7 @@ var catalog_raw=[
  {
   "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
   "modifier_data": {
-   "name": "black sesame (gf)",
+   "name": "ube (purple sweet potato) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5310,7 +5340,7 @@ var catalog_raw=[
  {
   "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
   "modifier_data": {
-   "name": "cream cheese (gf)",
+   "name": "apple cider sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5319,7 +5349,7 @@ var catalog_raw=[
  {
   "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
   "modifier_data": {
-   "name": "cream cheese + butterfinger milk TWIST",
+   "name": "earl grey + apple cider TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6325,7 +6355,7 @@ var catalog_raw=[
  {
   "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
   "modifier_data": {
-   "name": "blood orange sorbet (v) (gf)",
+   "name": "oatmeal cookie (v)",
    "price_money": {
     "amount": 300
    }
@@ -6334,7 +6364,7 @@ var catalog_raw=[
  {
   "id": "4JJX7WCUFWIXXBU3CNASGDHK",
   "modifier_data": {
-   "name": "coconut sorbet (v) (gf)",
+   "name": "cranberry sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6343,7 +6373,7 @@ var catalog_raw=[
  {
   "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
   "modifier_data": {
-   "name": "blood orange + coconut sorbet (v) (gf)",
+   "name": "oatmeal cookie + cranberry TWSIT (v)",
    "price_money": {
     "amount": 300
    }
@@ -6388,7 +6418,7 @@ var catalog_raw=[
  {
   "id": "BAUZ64I22FTOE4GDU6XC5H54",
   "modifier_data": {
-   "name": "cocoa pebble milk",
+   "name": "sweet cream (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6397,7 +6427,7 @@ var catalog_raw=[
  {
   "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
   "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWIST",
+   "name": "sweet cream + pumpkin spice TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6415,7 +6445,7 @@ var catalog_raw=[
  {
   "id": "KTUHIM74TDMZGVAJECCOBAPH",
   "modifier_data": {
-   "name": "vanilla + black sesame (gf)",
+   "name": "vanilla + ube TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6578,7 +6608,7 @@ var catalog_raw=[
  {
   "id": "M3CL2DJXDM2GH44BHDUA47VF",
   "modifier_data": {
-   "name": "montmorency cherry (gf)",
+   "name": "molasses (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6587,7 +6617,7 @@ var catalog_raw=[
  {
   "id": "44FJUMKODZU5IJ7TZOR3DUCW",
   "modifier_data": {
-   "name": "cherry + chocolate TWIST (gf)",
+   "name": "chocolate + molasses TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6865,7 +6895,7 @@ var catalog_raw=[
  {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
-   "name": "many berry sorbet (v) (gf)",
+   "name": "sweet cream (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6874,7 +6904,7 @@ var catalog_raw=[
  {
   "id": "VKKVI4KWBJLV5FDC2WVFRH37",
   "modifier_data": {
-   "name": "cocoa pebble milk (v)",
+   "name": "pumpkin spice (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6883,7 +6913,7 @@ var catalog_raw=[
  {
   "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
   "modifier_data": {
-   "name": "cocoa pebble milk + many berry TWIST (v)",
+   "name": "sweet cream + pumpkin spice TWIST (gf)",
    "price_money": {
     "amount": 0
    }
