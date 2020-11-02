@@ -5104,26 +5104,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4X2CPWWAEFSW5ROJV2L6UCHA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "black sesame (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ALMQIGPP5OT34PQ37MD65XBF",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + black sesame TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "GZRCPWCBSWIVE3NIM5VBVGH6",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
