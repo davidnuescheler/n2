@@ -1554,10 +1554,7 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
-    },
-    {
-     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+     "modifier_list_id": "F3S2BQ2DYFPULICIMYXXQ5TH"
     }
    ],
    "variations": [
@@ -1595,9 +1592,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     }
    ],
@@ -1606,7 +1600,7 @@ var catalog_raw=[
      "id": "K5ZXOE4GUMHDPT7CYZHZDTFJ",
      "item_variation_data": {
       "item_id": "BZ24CB4SZKY4XN2A4XDUQGIB",
-      "name": "Regular",
+      "name": "8 oz",
       "price_money": {
        "amount": 400
       }
@@ -1913,6 +1907,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+    },
+    {
+     "modifier_list_id": "YFCEEKJDIK2VGMCJIN5D45NL"
     }
    ],
    "variations": [
@@ -1920,7 +1917,7 @@ var catalog_raw=[
      "id": "QOJTVLB3DWY3N4AXV3FU2RBF",
      "item_variation_data": {
       "item_id": "XFIQI3TZLLNSL4O67S67RQIK",
-      "name": "Regular",
+      "name": "12 oz",
       "price_money": {
        "amount": 500
       }
@@ -7503,6 +7500,78 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "F3S2BQ2DYFPULICIMYXXQ5TH",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "americano milk mod",
+   "modifiers": [
+    {
+     "id": "CIFOPJLFVE2DIG3NJARAV4LF",
+     "modifier_data": {
+      "name": "whole milk",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "QNULXT72YTEUEYSZZ2ANLUMT",
+     "modifier_data": {
+      "name": "oat milk",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CIFOPJLFVE2DIG3NJARAV4LF",
+  "modifier_data": {
+   "name": "whole milk",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "QNULXT72YTEUEYSZZ2ANLUMT",
+  "modifier_data": {
+   "name": "oat milk",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "YFCEEKJDIK2VGMCJIN5D45NL",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "make it a mocha",
+   "modifiers": [
+    {
+     "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
+     "modifier_data": {
+      "name": "make it a mocha!",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
+  "modifier_data": {
+   "name": "make it a mocha!",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
