@@ -58,15 +58,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3UBOT6GLVPNOPJ3QWF754V7A",
-     "modifier_data": {
-      "name": "berry \"blood\" (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "WQFKEJFKIHIESMNUORMAE33V",
      "modifier_data": {
       "name": "fudge sauce",
@@ -5580,15 +5571,6 @@ var catalog_raw=[
   "id": "54DOE4VPVFQ25T2V6GDGAXP6",
   "modifier_data": {
    "name": "count chocula",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "3UBOT6GLVPNOPJ3QWF754V7A",
-  "modifier_data": {
-   "name": "berry \"blood\" (v) (gf)",
    "price_money": {
     "amount": 75
    }
