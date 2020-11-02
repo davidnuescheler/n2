@@ -634,6 +634,15 @@ var catalog_raw=[
    "name": "+ espresso",
    "modifiers": [
     {
+     "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
+     "modifier_data": {
+      "name": "keep it normal :)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "YDQQW7GBU2OEHPKWCIZLRVPQ",
      "modifier_data": {
       "name": "+ a shot",
@@ -1640,9 +1649,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1671,7 +1677,7 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "F3S2BQ2DYFPULICIMYXXQ5TH"
+     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     }
    ],
    "variations": [
@@ -7695,6 +7701,15 @@ var catalog_raw=[
    "name": "make it a mocha",
    "modifiers": [
     {
+     "id": "NLKKOTH4LYIU37MFWQP5WWMP",
+     "modifier_data": {
+      "name": "keep it normal :)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
      "modifier_data": {
       "name": "make it a mocha!",
@@ -7829,6 +7844,24 @@ var catalog_raw=[
    "name": "butter cake",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "NLKKOTH4LYIU37MFWQP5WWMP",
+  "modifier_data": {
+   "name": "keep it normal :)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
+  "modifier_data": {
+   "name": "keep it normal :)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
