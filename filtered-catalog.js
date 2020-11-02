@@ -4351,6 +4351,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "HKS3OQWPPHG4AHDCRB65ZISF",
+     "modifier_data": {
+      "name": "pint of blood orange sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "B4DKA3OL2WLZKU3LWPHICRGE",
+     "modifier_data": {
+      "name": "pint of black sesame ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "COXO4UVA47DNLFHPIRIVGG6Q",
+     "modifier_data": {
+      "name": "pint of montmorency cherry",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -7860,6 +7887,33 @@ var catalog_raw=[
   "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
   "modifier_data": {
    "name": "keep it normal :)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HKS3OQWPPHG4AHDCRB65ZISF",
+  "modifier_data": {
+   "name": "pint of blood orange sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "B4DKA3OL2WLZKU3LWPHICRGE",
+  "modifier_data": {
+   "name": "pint of black sesame ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "COXO4UVA47DNLFHPIRIVGG6Q",
+  "modifier_data": {
+   "name": "pint of montmorency cherry",
    "price_money": {
     "amount": 0
    }
