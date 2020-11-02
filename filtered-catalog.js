@@ -7154,5 +7154,40 @@ var catalog_raw=[
     "amount": 100
    }
   }
+ },
+ {
+  "id": "W7JHNNMUBUFA7J3J7MAMRVOX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "u say sweet pot, we say ube",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
+    }
+   ],
+   "variations": [
+    {
+     "id": "FRB5Y46EWAAK33YTFRBHTLDV",
+     "item_variation_data": {
+      "item_id": "W7JHNNMUBUFA7J3J7MAMRVOX",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "TRFBJ6LJU6XAFKCQQUHY64AY",
+     "item_variation_data": {
+      "item_id": "W7JHNNMUBUFA7J3J7MAMRVOX",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
