@@ -1332,7 +1332,7 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
 
-        cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
+        // cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
         
         const deliveryDate = document.getElementById("pickup-date").value;
         orderParams.deliver_at = new Date(deliveryDate).toISOString();
@@ -1473,7 +1473,6 @@ function displayOrder(o) {
     order.line_items.forEach((li) => {
         if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") {
             console.log(`displayOrder -> li`, li);
-
         }
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
@@ -1925,12 +1924,10 @@ function addToCart(e) {
                 configItem(obj, callout);    
             } else {
                 cart.add(obj.item_data.variations[0].id);
-                console.log(`addToCart -> obj.item_data.variations[0].id`, obj.item_data.variations[0].id);
                 updateCart();    
             }
         } else {
             cart.add(obj.id);
-            console.log(`addToCart -> obj.id`, obj.id);
             updateCart();
         }
     }
