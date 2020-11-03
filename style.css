@@ -216,20 +216,23 @@ main .menu .lab div.flavors>div {
     height: auto;
 }
 
-main div.election-modal {
+section.election-modal {
     position: fixed;
     top: 50px;
     left: 50%;
     width: 66%;
     padding: 33px;
     background: var(--warning-color);
+    font-size: 1.2em;
+    text-align: center;
     z-index: 6;
     transform: rotate(-1deg) translateX(-50%);
 }
 
 #modal-close {
     text-align: right;
-    font-size: 24px;
+    height: 24px;
+    font-size: 2px;
     transition: 0.2s;
 }
 

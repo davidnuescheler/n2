@@ -2052,13 +2052,13 @@ function electionDay() {
     const pagesToPopup = ["/", "/store", "/store.html", "/lab", "/lab.html"];
 
     if (pagesToPopup.includes(window.location.pathname)) {
-        let modal = document.createElement("div");
+        let modal = document.createElement("section");
         modal.classList.add("election-modal");
-        modal.innerHTML = `<div id="modal-close" onclick="removeElectionModal()"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close"><use href="/icons.svg#close"></use></svg></div>
+        modal.innerHTML = `<div id="modal-close" onclick="removeElectionModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon icon-close"><use href="/icons.svg#close"></use></svg></div>
         <p>don't forget that both locations will be CLOSED today &ndash; bc election day should be a national holiday, LBH.</p>
         <p>but we'll be here, with open arms (from 6 ft away) wednesday morning!</p>
         <p>GO VOTE! we love you.</p>`
-        document.querySelector("header").prepend(modal);
+        document.querySelector("body").prepend(modal);
     }
 
 }
