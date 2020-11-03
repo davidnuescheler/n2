@@ -5170,15 +5170,6 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "J5YMHORANXH3GLKVVHQSC7JM",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "MK6BPVCRKYYS4KNFKR2OJMKE",
      "modifier_data": {
       "name": "pepperoni",
@@ -6894,15 +6885,6 @@ var catalog_raw=[
   "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
   "modifier_data": {
    "name": "plain pls!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "J5YMHORANXH3GLKVVHQSC7JM",
-  "modifier_data": {
-   "name": "beehive",
    "price_money": {
     "amount": 0
    }
