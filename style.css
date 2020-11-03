@@ -224,7 +224,7 @@ main div.election-modal {
     padding: 33px;
     background: var(--warning-color);
     z-index: 6;
-    transform: rotate(-1deg) translateX(-50%);
+    transform: rotate(-1deg) translateX(-50%) translateY(0px);
 }
 
 #modal-close {
