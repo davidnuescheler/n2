@@ -2049,7 +2049,7 @@ function addLegacyDivClasses() {
 }
 
 function electionDay() {
-    const pagesToPopup = ["/", "/store", "/lab"];
+    const pagesToPopup = ["/", "/store", "/store.html", "/lab", "/lab.html"];
 
     if (pagesToPopup.includes(window.location.pathname)) {
         let modal = document.createElement("div");
