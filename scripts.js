@@ -2049,9 +2049,11 @@ function addLegacyDivClasses() {
 }
 
 function electionDay() {
+    const today = new Date().toDateString();
+    const electionDay = "Tue Nov 03 2020";
     const pagesToPopup = ["/", "/store", "/store.html", "/lab", "/lab.html"];
-
-    if (pagesToPopup.includes(window.location.pathname)) {
+    // only appear on select pages ON election day
+    if (pagesToPopup.includes(window.location.pathname) && today === electionDay) {
         let modal = document.createElement("section");
         modal.classList.add("election-modal");
         modal.innerHTML = `<div id="modal-close" onclick="removeElectionModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon icon-close"><use href="/icons.svg#close"></use></svg></div>
