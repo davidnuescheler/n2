@@ -2058,7 +2058,7 @@ function electionDay() {
         <p>don't forget that both locations will be CLOSED today &ndash; bc election day should be a national holiday, LBH.</p>
         <p>but we'll be here, with open arms (from 6 ft away) wednesday morning!</p>
         <p>GO VOTE! we love you.</p>`
-        document.querySelector("main").prepend(modal);
+        document.querySelector("header").prepend(modal);
     }
 
 }
