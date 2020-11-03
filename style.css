@@ -216,6 +216,29 @@ main .menu .lab div.flavors>div {
     height: auto;
 }
 
+main div.election-modal {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    width: 66%;
+    padding: 33px;
+    background: var(--warning-color);
+    z-index: 6;
+    transform: rotate(-1deg) translateX(-50%);
+}
+
+#modal-close {
+    text-align: right;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+#modal-close:hover {
+    filter: hue-rotate(30deg);
+    transform: translateY(1px);
+    cursor: pointer;
+}
+
 main .menu .lab div.flavors h4 {
     /* font-size:40px;
     line-height: 40px;
