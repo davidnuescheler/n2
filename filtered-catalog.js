@@ -7900,5 +7900,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "EJDV3FYZEHV7OLW3DEG5QR2O",
+  "type": "ITEM",
+  "item_data": {
+   "name": "butterfinger milk pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "X33Y7HIYKXQQBSZ2PLQWDBO7",
+     "item_variation_data": {
+      "item_id": "EJDV3FYZEHV7OLW3DEG5QR2O",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
