@@ -3797,7 +3797,7 @@ var catalog_raw=[
   "id": "47GHWIWAG7XYC5THUPMTNEM6",
   "type": "ITEM",
   "item_data": {
-   "name": "salted caramel apple slice",
+   "name": "sweet potato pie slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
@@ -3822,7 +3822,7 @@ var catalog_raw=[
   "id": "BTSMOL5GNKOPJ76HQVVBWUFA",
   "type": "ITEM",
   "item_data": {
-   "name": "peanut butter mousse slice",
+   "name": "triple berry pie slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
