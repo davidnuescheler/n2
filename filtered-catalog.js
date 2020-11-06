@@ -5436,7 +5436,7 @@ var catalog_raw=[
   "id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
   "type": "ITEM",
   "item_data": {
-   "name": "normal tshirt",
+   "name": "normal t-shirt - black",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
@@ -5496,7 +5496,7 @@ var catalog_raw=[
   "id": "TWT52CZR6SJ67NHMJVLWJZMG",
   "type": "ITEM",
   "item_data": {
-   "name": "normal pink swearshirt",
+   "name": "normal® sweatshirt - peach",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
@@ -5556,7 +5556,7 @@ var catalog_raw=[
   "id": "WJCKJUSABNGDOGANNOS27XHM",
   "type": "ITEM",
   "item_data": {
-   "name": "normal black sweatshirt",
+   "name": "normal® sweatshirt - black",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
