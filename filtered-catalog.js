@@ -2180,27 +2180,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
-     "modifier_data": {
-      "name": "milk chocolate gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
      "modifier_data": {
       "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6661,24 +6643,6 @@ var catalog_raw=[
   "id": "CPGXFE5O3EM3VSJSPA6IR2H4",
   "modifier_data": {
    "name": "molasses (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "X6SYG7GYEPOGNKUZCOMAUZDF",
-  "modifier_data": {
-   "name": "milk chocolate gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "AB3YMRUNACSJ3YZAVXTOLKRQ",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
    "price_money": {
     "amount": 0
    }
