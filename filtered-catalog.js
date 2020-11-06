@@ -8097,5 +8097,25 @@ var catalog_raw=[
     "amount": 300
    }
   }
+ },
+ {
+  "id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cream cheese + brownie bit pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "MWZXZXF2LMZ6A5FAAMC3XABN",
+     "item_variation_data": {
+      "item_id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
