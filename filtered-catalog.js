@@ -4299,15 +4299,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TCRY3GJRW4RUN2JNVK2R63KY",
-     "modifier_data": {
-      "name": "pint of salted vanilla bean ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YC6OOZI32AFNUALLXRRTDYWF",
      "modifier_data": {
       "name": "pint of coconut sorbet (v)",
@@ -6590,15 +6581,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "TCRY3GJRW4RUN2JNVK2R63KY",
-  "modifier_data": {
-   "name": "pint of salted vanilla bean ice cream",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
