@@ -5239,6 +5239,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "TU6LRU6UCT5LY7W4QGCY37KI",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "molasses (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -7973,6 +7983,83 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "EEBPEBYIB56RJGFFLSSHO7SV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lactaid",
+   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
+   "variations": [
+    {
+     "id": "O7VU47RP2DIC5VKAPQHWOEUI",
+     "item_variation_data": {
+      "item_id": "EEBPEBYIB56RJGFFLSSHO7SV",
+      "name": "one lactaid pill",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VXNNJLWYPTLXYR3G6Q37AFXG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® giftcard",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "PZGZ4JB24ARAX3ONTDRBTAGH",
+     "item_variation_data": {
+      "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
+      "name": "$10",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "LAWQDWWK6H6H7S7DMK5KSWIA",
+     "item_variation_data": {
+      "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
+      "name": "$25",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "EPHUQYE37GY75XR5BIL5N46Z",
+     "item_variation_data": {
+      "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
+      "name": "$50",
+      "price_money": {
+       "amount": 5000
+      }
+     }
+    },
+    {
+     "id": "P5BLMEQQ3RM7NMXZSMLOQ4NA",
+     "item_variation_data": {
+      "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
+      "name": "$100",
+      "price_money": {
+       "amount": 10000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VVQNCVMZOAK3K4LK4CEOP7ZZ",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "GCbogoSHOPINUTAH"
   }
  }
 ]
