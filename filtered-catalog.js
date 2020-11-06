@@ -2180,6 +2180,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "F2CK6PAQXSZL75ELP6V7QT7S",
+     "modifier_data": {
+      "name": "molasses",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "oatmeal cookie (v)",
@@ -3108,6 +3117,15 @@ var catalog_raw=[
      "id": "KTUHIM74TDMZGVAJECCOBAPH",
      "modifier_data": {
       "name": "vanilla + ube TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "3OSEA2MTBSDHSANE4YP7OSU4",
+     "modifier_data": {
+      "name": "molasses",
       "price_money": {
        "amount": 300
       }
@@ -8016,7 +8034,7 @@ var catalog_raw=[
      "id": "PZGZ4JB24ARAX3ONTDRBTAGH",
      "item_variation_data": {
       "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
-      "name": "$10",
+      "name": "$10 gift card",
       "price_money": {
        "amount": 1000
       }
@@ -8026,7 +8044,7 @@ var catalog_raw=[
      "id": "LAWQDWWK6H6H7S7DMK5KSWIA",
      "item_variation_data": {
       "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
-      "name": "$25",
+      "name": "$25 gift card",
       "price_money": {
        "amount": 2500
       }
@@ -8036,7 +8054,7 @@ var catalog_raw=[
      "id": "EPHUQYE37GY75XR5BIL5N46Z",
      "item_variation_data": {
       "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
-      "name": "$50",
+      "name": "$50 gift card",
       "price_money": {
        "amount": 5000
       }
@@ -8046,7 +8064,7 @@ var catalog_raw=[
      "id": "P5BLMEQQ3RM7NMXZSMLOQ4NA",
      "item_variation_data": {
       "item_id": "VXNNJLWYPTLXYR3G6Q37AFXG",
-      "name": "$100",
+      "name": "$100 gift card",
       "price_money": {
        "amount": 10000
       }
@@ -8060,6 +8078,24 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "GCbogoSHOPINUTAH"
+  }
+ },
+ {
+  "id": "F2CK6PAQXSZL75ELP6V7QT7S",
+  "modifier_data": {
+   "name": "molasses",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "3OSEA2MTBSDHSANE4YP7OSU4",
+  "modifier_data": {
+   "name": "molasses",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
