@@ -5536,40 +5536,10 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "WAPA663IP5U3DYCKXJESQAWE",
-     "item_variation_data": {
-      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
-      "name": "extra small",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "SXGIYFXBFBU5O7TY6DASGNNG",
-     "item_variation_data": {
-      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
-      "name": "small",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
      "id": "WSSCO4XDPGYGNSJLQA2IPX4T",
      "item_variation_data": {
       "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
       "name": "medium",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "2JTT2RELJACDVXDKNJCT2K2O",
-     "item_variation_data": {
-      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
-      "name": "large",
       "price_money": {
        "amount": 4000
       }
@@ -5595,16 +5565,6 @@ var catalog_raw=[
    "name": "normal® sweatshirt - black",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
-    {
-     "id": "BAC6HYFKOHDY4P5S7O5ALEVK",
-     "item_variation_data": {
-      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
-      "name": "extra small",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
     {
      "id": "7PMJRNYGB53ZLIO26HQ2X4CW",
      "item_variation_data": {
@@ -8070,13 +8030,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "VVQNCVMZOAK3K4LK4CEOP7ZZ",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "GCbogoSHOPINUTAH"
   }
  },
  {
