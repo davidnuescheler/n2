@@ -5115,9 +5115,36 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
+     "id": "6NQZIV7KHA5JLJDBF44L4IZA",
+     "modifier_data": {
+      "name": "margherita",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "MK6BPVCRKYYS4KNFKR2OJMKE",
      "modifier_data": {
       "name": "pepperoni",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NPTIVEEWS3T7FIGTUZPWHFRI",
+     "modifier_data": {
+      "name": "vegan",
       "price_money": {
        "amount": 0
       }
@@ -8088,6 +8115,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
+  "modifier_data": {
+   "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "6NQZIV7KHA5JLJDBF44L4IZA",
+  "modifier_data": {
+   "name": "margherita",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NPTIVEEWS3T7FIGTUZPWHFRI",
+  "modifier_data": {
+   "name": "vegan",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
