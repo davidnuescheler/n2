@@ -7949,5 +7949,30 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "PMJYZTBRSWIMEBQM3DETPW3N",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pie party x normal",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "QRABM5M2A2FJSSH5VMVDR3YS"
+    }
+   ],
+   "variations": [
+    {
+     "id": "NTGOEM2MAVCFFWIOGV3HGQQC",
+     "item_variation_data": {
+      "item_id": "PMJYZTBRSWIMEBQM3DETPW3N",
+      "name": "pie party x normal",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
