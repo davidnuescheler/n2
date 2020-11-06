@@ -5275,10 +5275,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UXY4U4ZACP3BXOWBSPU4HQY4",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "GZRCPWCBSWIVE3NIM5VBVGH6",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "molasses (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "L6Z5OQD6G7UU4VPCFNFCKYCQ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
        "amount": 0
       }
