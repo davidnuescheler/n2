@@ -1550,16 +1550,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "DCX6XYDBTC6DANWNJGIBDI2P",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "MEXICO los naranjos",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
