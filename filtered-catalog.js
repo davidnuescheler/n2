@@ -4261,15 +4261,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YC6OOZI32AFNUALLXRRTDYWF",
-     "modifier_data": {
-      "name": "pint of coconut sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "HKS3OQWPPHG4AHDCRB65ZISF",
      "modifier_data": {
       "name": "pint of blood orange sorbet (v)",
@@ -6785,15 +6776,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "YC6OOZI32AFNUALLXRRTDYWF",
-  "modifier_data": {
-   "name": "pint of coconut sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
