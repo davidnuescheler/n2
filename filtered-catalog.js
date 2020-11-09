@@ -670,15 +670,6 @@ var catalog_raw=[
    "name": "milk option",
    "modifiers": [
     {
-     "id": "I2BPZMTJ7KVRYZORLIPFRNDK",
-     "modifier_data": {
-      "name": "whole milk",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "4UCRG6VTSILPY5VNHIHILZIC",
      "modifier_data": {
       "name": "oat milk",
@@ -688,15 +679,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "I2BPZMTJ7KVRYZORLIPFRNDK",
-  "modifier_data": {
-   "name": "whole milk",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -8085,6 +8067,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "4MKWQBIN5W6PYWD6GKAAXYZF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cocoa pebbles bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "GFTG3FK7JSRPHREGFXHIV4LM",
+     "item_variation_data": {
+      "item_id": "4MKWQBIN5W6PYWD6GKAAXYZF",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
   }
  }
 ]
