@@ -1476,10 +1476,8 @@ function displayOrder(o) {
     order=o;
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
-        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") {
-            console.log(`displayOrder -> li`, li);
-            return;
-        }
+        // print shipping line item differently
+        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") { return; }
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
             li.modifiers.forEach((mod) => {
@@ -1492,6 +1490,14 @@ function displayOrder(o) {
     }
     html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
     html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
+    
+    // if cart includes delivery fee...
+    if (cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
+        var shipping = order.line_items.filter(item => item.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC")[0];
+        console.log(shipping);
+        html+=`<div class="line shipping"><span class="desc">${shipping.name} (${shipping.variation_name})</span><span class="amount">$${formatMoney(shipping.base_price_money.amount*shipping.quantity)}</span></div>`
+    }
+
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
@@ -1791,14 +1797,15 @@ function updateCart() {
     var html=``;
     
     cart.line_items.forEach((li) => {
+        // console.log(`updateCart -> li`, li);
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
         if (i.item_data.name == 'lab cone' && li.quantity > 0) cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        
-        if (li.quantity > 0) {
+        // don't display shipping here
+        if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
             html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
@@ -2099,7 +2106,8 @@ var cart={
     totalItems: () => {
         var total=0;
         cart.line_items.forEach((li)=>{ 
-            if (li.quantity > 0) {
+            // don't count out-of-stock or shipping
+            if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
                 total+=li.quantity
             }
         })
