@@ -50,7 +50,7 @@ main svg + svg {
     margin-left: -0.3em;
 }
 
-main svg.icon-store, main svg.icon-lab {
+main svg.icon-store, main svg.icon-lab, main svg.icon-delivery, main svg.icon-pint-club {
     height: 120px;
     width: 200px;
     stroke-width: 0;
