@@ -1283,6 +1283,7 @@ function displayStoreAlert() {
     var $storealert = document.createElement('div');
     $storealert.id = "alert";
     $storealert.innerHTML = `<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>`
+    $storealert.innerHTML += `<svg><use href="/icons.svg#${storeLocation}"></use></svg>`
 
     if (storeLocation !== "delivery") {
 
@@ -1290,9 +1291,8 @@ function displayStoreAlert() {
         var other = (storeLocation == 'lab') ? 'store' : 'lab';
         // TODO: fix otherLink below (not working for store)
         var otherLink = storeLocations[other].link;
-
-        $storealert.innerHTML += `<svg><use href="/icons.svg#${storeLocation}"></use></svg>
-        <p>${labels[storeLocation+'_ourlocationis']}</p>
+        
+        $storealert.innerHTML += `<p>${labels[storeLocation+'_ourlocationis']}</p>
         <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
         <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>`
 
