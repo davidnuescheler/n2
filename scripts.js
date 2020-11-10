@@ -959,9 +959,7 @@ function setPickupDates () {
     var i = 0;
 
     var day = now;
-    // console.log(`  setPickupDates -> day`, day);
     var conf = getOpeningHoursConfig();
-    // console.log(`  setPickupDates -> conf`, conf);
 
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
@@ -977,27 +975,28 @@ function setPickupDates () {
             let $pickupTimeEl = document.getElementById("pickup-time");
             $pickupTimeEl.classList.add("hidden");
             $pickupTimeEl.value = "n/a";
-
+            
             while (i < window.labels.delivery_orderahead) {
+                let deliveryDate = day;
+                let deliveryMS = Date.parse(deliveryDate);
+                // deadline for delivery order is friday @ 5:00pm
+                let deadline = deliveryDate.setHours(17, 0, 0, 0); 
                 let option = document.createElement("option");
 
-                if (day.toString().includes("Sat") && i == 0) {
-                    // if today is saturday, allow delivery today!
-                    option.text = 'today';
-                    option.value = day.getFullYear() + "/" + ( day.getMonth()+1 ) + "/" + day.getDate();
+                if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
+                    deliveryDate.setHours(17, 0, 0, 0);
+                    option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
+                    option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
                     dateSelect.add(option);
+                    deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
                 } else {
-                    // find the next saturday
-                    for (let j = 1; j < 7; j++) {
-                        let nextDay = new Date(day);
-                        nextDay.setDate(nextDay.getDate() + j)
-                        if (nextDay.toString().includes("Sat")) {
-                            day.setDate(nextDay.getDate() + 1);
-                            option.text = weekdays[nextDay.getDay()] + ", " + months[nextDay.getMonth()] + " " + nextDay.getDate();
-                            option.value = nextDay.getFullYear() + "/" + ( nextDay.getMonth()+1 ) + "/" + nextDay.getDate();
-                            dateSelect.add(option);
-                        }
-                    }
+                    // 5 = saturday, below
+                    let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
+                    let sat = new Date(deliveryDate.setDate(dt))
+                    option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
+                    option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
+                    dateSelect.add(option);
+                    deliveryDate.setDate(new Date(sat).getDate() + 1);
                 }
                 i++;
             }
