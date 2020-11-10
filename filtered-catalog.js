@@ -7160,6 +7160,11 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "shipping + handling",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
+    }
+   ],
    "variations": [
     {
      "id": "GTMQCMXMAHX4X6NFKDX5AYQC",
