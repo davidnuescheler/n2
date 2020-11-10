@@ -56,6 +56,50 @@ main svg.icon-store, main svg.icon-lab, main svg.icon-delivery, main svg.icon-pi
     stroke-width: 0;
 }
 
+table, thead, tbody, tfoot, tr, th, td {
+    padding: 0;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-color: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+}
+
+table thead tr p strong, table tbody tr p strong {
+    font-size: 18px;
+}
+
+main table, main table thead tr, main table tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: -10px;
+    /* border: 2px solid gold; */
+    font-weight: normal;
+}
+
+main table thead, main table tbody {
+    width: 100%;
+}
+
+main table thead tr, main table tbody tr {
+    /* border: 2px solid green; */
+    margin: 0px;
+    width: 100%;
+}
+
+main table thead tr th, main table tbody tr td {
+    /* border: 2px solid red; */
+    margin: 10px;
+    flex: 1 0 calc(50% - 20px);
+}
+
+@media only screen and (max-width: 600px) {
+    main table thead tr th, main table tbody tr td {
+        min-width: 100%;
+    }
+}
 
 main h1 {
     font-size: 34px;
