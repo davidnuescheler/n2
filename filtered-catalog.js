@@ -7167,7 +7167,7 @@ var catalog_raw=[
       "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
       "name": "included",
       "price_money": {
-       "amount": 100
+       "amount": 0
       }
      }
     }
