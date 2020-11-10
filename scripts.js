@@ -2048,30 +2048,6 @@ function addLegacyDivClasses() {
     })
 }
 
-function electionDay() {
-    const today = new Date().toDateString();
-    const electionDay = "Tue Nov 03 2020";
-    const pagesToPopup = ["/", "/store", "/store.html", "/lab", "/lab.html"];
-    // only appear on select pages ON election day
-    if (pagesToPopup.includes(window.location.pathname) && today === electionDay) {
-        let modal = document.createElement("section");
-        modal.classList.add("election-modal");
-        modal.innerHTML = `<div id="modal-close" onclick="removeElectionModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon icon-close"><use href="/icons.svg#close"></use></svg></div>
-        <p>don't forget that both locations will be CLOSED today &ndash; bc election day should be a national holiday, LBH.</p>
-        <p>but we'll be here, with open arms (from 6 ft away) wednesday morning!</p>
-        <p>GO VOTE! we love you.</p>`
-        document.querySelector("body").prepend(modal);
-    }
-
-}
-
-function removeElectionModal() {
-    const modal = document.querySelector(".election-modal");
-    if (modal) {
-        modal.remove();
-    }
-}
-
 /* ----
 general setup
 --- */
@@ -2094,7 +2070,6 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     insertSignupForm();
     cart.load();
     updateCart();
-    electionDay();
 });
 
 window.onload = function() {  
