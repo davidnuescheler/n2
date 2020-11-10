@@ -1317,7 +1317,7 @@ function displayStoreAlert() {
 }
 
 async function submitOrder() {
-    console.log(`submitOrder running`);
+    // console.log(`submitOrder running`);
     removeOOS();
     var alertEl=document.getElementById("alert").remove();
     var cartEl=document.getElementById("cart");
@@ -1332,8 +1332,13 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
 
-        // cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
+        console.log(cart.line_items);
         
+        // auto-add shipping to delivery orders
+        if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
+            cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
+        }
+
         const deliveryDate = document.getElementById("pickup-date").value;
         orderParams.deliver_at = new Date(deliveryDate).toISOString();
 
@@ -1443,8 +1448,8 @@ async function submitOrder() {
         alert("Network error: " + err);
     })
     .then((response) => {
-        console.log(`\n  submitOrder -> response`, response);
-        console.log(`\n  submitOrder -> response.url`, response.url);
+        // console.log(`\n  submitOrder -> response`, response);
+        // console.log(`\n  submitOrder -> response.url`, response.url);
         if (!response.ok) {
           return response.text().then((errorInfo) => Promise.reject(errorInfo));
         }
@@ -1452,10 +1457,10 @@ async function submitOrder() {
         return response.text();
     })
     .then((data) => {
-        console.log(`\n    submitOrder -> data`);
-        console.log(data);
+        // console.log(`\n    submitOrder -> data`);
+        // console.log(data);
         var obj = JSON.parse(data);
-        console.log(`    submitOrder -> obj`, obj);
+        // console.log(`    submitOrder -> obj`, obj);
         if (typeof obj.order != "undefined") {
           displayOrder(obj.order);
         } else {
@@ -1473,6 +1478,7 @@ function displayOrder(o) {
     order.line_items.forEach((li) => {
         if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") {
             console.log(`displayOrder -> li`, li);
+            return;
         }
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
