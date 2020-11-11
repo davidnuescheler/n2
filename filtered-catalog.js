@@ -2151,15 +2151,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "F2CK6PAQXSZL75ELP6V7QT7S",
-     "modifier_data": {
-      "name": "molasses",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6ABUI4HMD7QPW3636DZWXMU7",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -3103,29 +3094,11 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3OSEA2MTBSDHSANE4YP7OSU4",
-     "modifier_data": {
-      "name": "molasses",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JFBSVVCL6KRB6MC3TQW253K4",
      "modifier_data": {
       "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 300
-      }
-     }
-    },
-    {
-     "id": "WGBULLYAOPYNAHCQ5YOMQ5DJ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
-      "price_money": {
-       "amount": 0
       }
      }
     },
@@ -8019,24 +7992,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "F2CK6PAQXSZL75ELP6V7QT7S",
-  "modifier_data": {
-   "name": "molasses",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3OSEA2MTBSDHSANE4YP7OSU4",
-  "modifier_data": {
-   "name": "molasses",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
   "type": "ITEM",
   "item_data": {
@@ -8127,15 +8082,6 @@ var catalog_raw=[
    "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "WGBULLYAOPYNAHCQ5YOMQ5DJ",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
