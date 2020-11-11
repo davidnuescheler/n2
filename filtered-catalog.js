@@ -2169,15 +2169,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "P22WIMOC32LTLH7QP23SKKZZ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "oatmeal cookie (v)",
@@ -3116,7 +3107,7 @@ var catalog_raw=[
      "modifier_data": {
       "name": "molasses",
       "price_money": {
-       "amount": 300
+       "amount": 0
       }
      }
     },
@@ -3134,7 +3125,7 @@ var catalog_raw=[
      "modifier_data": {
       "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
-       "amount": 300
+       "amount": 0
       }
      }
     },
@@ -4315,18 +4306,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "B4DKA3OL2WLZKU3LWPHICRGE",
+     "id": "COXO4UVA47DNLFHPIRIVGG6Q",
      "modifier_data": {
-      "name": "pint of black sesame ice cream",
+      "name": "pint of montmorency cherry",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "COXO4UVA47DNLFHPIRIVGG6Q",
+     "id": "5ZJDDE7WIEQUNKUGQ4DY4EKP",
      "modifier_data": {
-      "name": "pint of montmorency cherry",
+      "name": "pint of coconut sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -5277,26 +5268,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "TU6LRU6UCT5LY7W4QGCY37KI",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "V3EMF7SYLO3L6GJDMYB3EU52",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -7757,15 +7728,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "B4DKA3OL2WLZKU3LWPHICRGE",
-  "modifier_data": {
-   "name": "pint of black sesame ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "COXO4UVA47DNLFHPIRIVGG6Q",
   "modifier_data": {
    "name": "pint of montmorency cherry",
@@ -8070,7 +8032,7 @@ var catalog_raw=[
   "modifier_data": {
    "name": "molasses",
    "price_money": {
-    "amount": 300
+    "amount": 0
    }
   }
  },
@@ -8160,15 +8122,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "P22WIMOC32LTLH7QP23SKKZZ",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "JFBSVVCL6KRB6MC3TQW253K4",
   "modifier_data": {
    "name": "milk chocolate (gf)",
@@ -8182,7 +8135,16 @@ var catalog_raw=[
   "modifier_data": {
    "name": "chocolate + molasses TWIST (gf)",
    "price_money": {
-    "amount": 300
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5ZJDDE7WIEQUNKUGQ4DY4EKP",
+  "modifier_data": {
+   "name": "pint of coconut sorbet (v)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
