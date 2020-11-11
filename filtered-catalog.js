@@ -3094,11 +3094,29 @@ var catalog_raw=[
      }
     },
     {
+     "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
+     "modifier_data": {
+      "name": "molasses (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "JFBSVVCL6KRB6MC3TQW253K4",
      "modifier_data": {
       "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 300
+      }
+     }
+    },
+    {
+     "id": "YMAO3YBE4M4IEWYTTQLTSSVA",
+     "modifier_data": {
+      "name": "molasses + chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
       }
      }
     },
@@ -5237,6 +5255,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "B63ISALUIENV5X7OK4UI4MFR",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "molasses (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "OCQPFJF77HW426S3B6M5VI6P",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5271,6 +5299,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "oatmeal cookie + cranberry TWIST (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "G4HWAS7GBQD4GLH4TQY3OLHF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "molasses + chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8089,6 +8127,24 @@ var catalog_raw=[
   "id": "5ZJDDE7WIEQUNKUGQ4DY4EKP",
   "modifier_data": {
    "name": "pint of coconut sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
+  "modifier_data": {
+   "name": "molasses (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "YMAO3YBE4M4IEWYTTQLTSSVA",
+  "modifier_data": {
+   "name": "molasses + chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
    }
