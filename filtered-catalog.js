@@ -4312,15 +4312,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3BSZCWPFD5RVDJ4DDUFRME4I",
-     "modifier_data": {
-      "name": "pint of salted vanilla bean 0",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
      "modifier_data": {
       "name": "pint of ube ice cream",
@@ -8178,15 +8169,6 @@ var catalog_raw=[
   "id": "YMAO3YBE4M4IEWYTTQLTSSVA",
   "modifier_data": {
    "name": "molasses + chocolate TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3BSZCWPFD5RVDJ4DDUFRME4I",
-  "modifier_data": {
-   "name": "pint of salted vanilla bean 0",
    "price_money": {
     "amount": 0
    }
