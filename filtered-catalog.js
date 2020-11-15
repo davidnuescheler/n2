@@ -4303,15 +4303,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5ZJDDE7WIEQUNKUGQ4DY4EKP",
-     "modifier_data": {
-      "name": "pint of coconut sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
      "modifier_data": {
       "name": "pint of ube ice cream",
@@ -4333,6 +4324,15 @@ var catalog_raw=[
      "id": "YBXWBW5Z7KWUO42TEPTOYQGV",
      "modifier_data": {
       "name": "pint of oatmeal cookie ice cream (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
+     "modifier_data": {
+      "name": "pint of molasses ice cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8130,15 +8130,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5ZJDDE7WIEQUNKUGQ4DY4EKP",
-  "modifier_data": {
-   "name": "pint of coconut sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
   "modifier_data": {
    "name": "molasses (gf)",
@@ -8178,6 +8169,15 @@ var catalog_raw=[
   "id": "YBXWBW5Z7KWUO42TEPTOYQGV",
   "modifier_data": {
    "name": "pint of oatmeal cookie ice cream (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
+  "modifier_data": {
+   "name": "pint of molasses ice cream (gf)",
    "price_money": {
     "amount": 0
    }
