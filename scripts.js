@@ -2260,6 +2260,43 @@ function addLegacyDivClasses() {
     })
 }
 
+function buildIndexGrid() {
+    console.log(`\nbuildIndexGrid running`);
+    const indexPaths = [ "/", "/index", "/index.html", "/index2", "/index2.html"];
+
+    if (indexPaths.includes(window.location.pathname)) {
+        const $main = document.querySelector(".welcometonormal");
+        const $mainChildren = $main.children;
+        const mainChildrenArr = [ ...$mainChildren ]
+        const $flexContainer = document.createElement("div");
+        $flexContainer.classList.add("index-container");
+        let tempObj = [];
+        let flexItems = []; 
+
+        mainChildrenArr.forEach((child) => {
+            if (child.nodeName === "H3") {
+                tempObj = [];
+                tempObj.push(child);
+                flexItems.push(tempObj);
+            } else if (child.nodeName !== "H1") {
+                tempObj.push(child)
+            }
+        })
+        flexItems.forEach((item) => {
+            const heading = item[0].id;
+            console.log(`buildIndexGrid -> heading`, heading);
+            const $flexItem = document.createElement("div");
+            $flexItem.classList.add("index-item");
+            $flexItem.classList.add(heading);
+            for (let i = 0; i < item.length; i++) {
+                $flexItem.append(item[i]);
+            }
+            $flexContainer.append($flexItem);
+        })
+        $main.append($flexContainer);        
+    }
+}
+
 /* ----
 general setup
 --- */
@@ -2273,6 +2310,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     //fixIcons();
     decorateIcons();
     classify();
+    buildIndexGrid();
     hamburger();
     classifyAddToCartLinks();
     //wrapMenus();
