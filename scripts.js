@@ -2048,6 +2048,16 @@ function addLegacyDivClasses() {
     })
 }
 
+function tempSqigFix() {
+    const h3s = document.querySelectorAll("h3");
+    h3s.forEach((h3) => {
+        if (h3.textContent.includes("~")) {
+            const fixedHTML = h3.innerHTML.replace(/~/g, "");
+            h3.innerHTML = fixedHTML;
+        }
+    })
+}
+
 /* ----
 general setup
 --- */
@@ -2063,6 +2073,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     classify();
     hamburger();
     classifyAddToCartLinks();
+    tempSqigFix();
     //wrapMenus();
     //cloneMenuSwiper();
     fixSmsUrls();
