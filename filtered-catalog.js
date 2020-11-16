@@ -1533,6 +1533,16 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
+     "id": "REBA3U5OITW65ER73OHF2ZBO",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "select your varietal!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
