@@ -5244,6 +5244,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "MMGQPGU64Q47SEPW3LBBGOLZ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "B63ISALUIENV5X7OK4UI4MFR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
