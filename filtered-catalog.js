@@ -5139,15 +5139,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "NPTIVEEWS3T7FIGTUZPWHFRI",
      "modifier_data": {
       "name": "vegan",
@@ -8054,15 +8045,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
-  "modifier_data": {
-   "name": "beehive",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
