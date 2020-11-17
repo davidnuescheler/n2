@@ -85,15 +85,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OMODOWND27XPK3UQFPSZ34X7",
-     "modifier_data": {
-      "name": "cookie dough bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
      "modifier_data": {
       "name": "cookie butter (v)",
@@ -6848,15 +6839,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "OMODOWND27XPK3UQFPSZ34X7",
-  "modifier_data": {
-   "name": "cookie dough bits",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
