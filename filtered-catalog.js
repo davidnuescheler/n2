@@ -8110,5 +8110,65 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "WCBLY6722WASGYVBXJ7MOR34",
+  "type": "ITEM",
+  "item_data": {
+   "name": "store flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "Q72IHSLV6JYB5GZZEBOZRZYQ",
+     "item_variation_data": {
+      "item_id": "WCBLY6722WASGYVBXJ7MOR34",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XJUZ3DHNPFFFEDDOP7A6H4OX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lab flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "KMLMEEOXWKW53VUE7LFKV7X3",
+     "item_variation_data": {
+      "item_id": "XJUZ3DHNPFFFEDDOP7A6H4OX",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RUILOWLSA2CIWQB2WYKUK4KM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "full flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "OOLVXVUME433FX6DZHMIK7EG",
+     "item_variation_data": {
+      "item_id": "RUILOWLSA2CIWQB2WYKUK4KM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3800
+      }
+     }
+    }
+   ]
+  }
  }
 ]
