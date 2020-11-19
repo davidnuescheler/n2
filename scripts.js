@@ -917,10 +917,6 @@ function displayThanks(payment){
     } else if (storeLocation === "delivery") {
         var $thankyou=cartEl.querySelector(".thankyou.deliverydate-confirm");
 
-        var $warning = $thankyou.querySelector(".warning");
-        var deliveryDate = new Date(order.fulfillments[0].shipment_details.expected_shipped_at);
-        var deliveryDateFormat = deliveryDate.toDateString().substring(0,10).toLowerCase();
-        $warning.innerText += ` ${deliveryDateFormat} :)`
         $thankyou.classList.remove("hidden");
 
         $receipt=$thankyou.querySelector('.receipt-link');
@@ -952,6 +948,69 @@ function getTip() {
     var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
     return (tipAmount);
 }
+
+// function setDeliveryDates() {
+
+//     const now = new Date();
+//     console.log(`setDeliveryDates -> now`, now);
+
+//     const dayOfWeek = {
+//         mon: 0, tue: 1, wed: 2, thu: 3, fri: 4, sat: 5, sun: 6
+//     }
+
+//     let deliveryDates = window.labels.delivery_dates;
+//     if (deliveryDates.includes(",")) {
+//         deliveryDates = deliveryDates.split(", ");
+//     } else {
+//         deliveryDates = [ deliveryDates ];
+//     }
+    
+//     const orderAheadOptions = window.labels.delivery_orderahead;
+//     // console.log(`setDeliveryDates -> orderAheadOptions`, orderAheadOptions);
+    
+//     let deliveryDeadline = new Date(window.labels.delivery_deadline);
+//     // if date from labels in invalid, replace with HARD CODED date below...
+//     // TODO: better validate date entry out of google sheet...
+//     if (!deliveryDeadline instanceof Date || isNaN(deliveryDeadline)) {
+//         deliveryDeadline = new Date("November 24, 2020 17:00:00");
+//     }
+
+//     // check if delivery is still open
+//     if (now < deliveryDeadline) {
+//         let startDate = now;
+//         const dayNum = dayOfWeek[startDate.toString().substring(0,3).toLowerCase()];
+//         let count = 0;
+        
+//         while (count < orderAheadOptions) {
+//             // find next delivery date
+//             for (date of deliveryDates) {
+
+//                 let nextWeek = 0;
+//                 // if before today, set to next week...
+//                 if (dayNum >= dayOfWeek[date]) {
+//                     nextWeek = 7;
+//                 }
+//                 // console.log(`      setDeliveryDates -> nextWeek`, nextWeek);
+
+//                 let dt = startDate.getDate() - (startDate.getDay() - 1) + dayOfWeek[date] + nextWeek; 
+//                 let nextDt = new Date(startDate.setDate(dt));
+                
+//                 //console.log(`        setDeliveryDates -> today!`, new Date());
+//                 console.log(`        setDeliveryDates -> nextDt`, nextDt);
+                
+//                 count++;
+//                 console.log(`setDeliveryDates -> startDate`, startDate);
+//             }
+//             // add dates for next week
+//             startDate.setDate(startDate.getDate() + 7);
+            
+//         }
+
+//     }
+
+   
+
+// }
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
@@ -1307,7 +1366,8 @@ function displayStoreAlert() {
         <p><a href="${storeLocations['lab'].link}">${labels['store_ohno']}</a></p>`;
 
         $storealert.innerHTML 
-            += `<p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+            += `<p>${labels[storeLocation+'_ourdeliverywindowis']}</p>
+            <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
             ${otherLinks}`;
 
     }
@@ -1331,7 +1391,7 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
 
-        console.log(cart.line_items);
+        //console.log(cart.line_items);
         
         // auto-add shipping to delivery orders
         if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
@@ -1493,7 +1553,7 @@ function displayOrder(o) {
     // if cart includes delivery fee...
     if (cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
         var shipping = order.line_items.filter(item => item.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC")[0];
-        console.log(shipping);
+        // console.log(shipping);
         html+=`<div class="line shipping"><span class="desc">${shipping.name} (${shipping.variation_name})</span><span class="amount">$${formatMoney(shipping.base_price_money.amount*shipping.quantity)}</span></div>`
     }
 
@@ -2261,7 +2321,7 @@ function addLegacyDivClasses() {
 }
 
 function buildIndexGrid() {
-    console.log(`\nbuildIndexGrid running`);
+    // console.log(`\nbuildIndexGrid running`);
     const indexPaths = [ "/", "/index", "/index.html", "/index2", "/index2.html"];
 
     if (indexPaths.includes(window.location.pathname)) {
@@ -2284,7 +2344,7 @@ function buildIndexGrid() {
         })
         flexItems.forEach((item) => {
             const heading = item[0].id;
-            console.log(`buildIndexGrid -> heading`, heading);
+            //console.log(`buildIndexGrid -> heading`, heading);
             const $flexItem = document.createElement("div");
             $flexItem.classList.add("index-item");
             $flexItem.classList.add(heading);
@@ -2321,6 +2381,8 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     insertSignupForm();
     cart.load();
     updateCart();
+
+    //setDeliveryDates()
 });
 
 window.onload = function() {  
