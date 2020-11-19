@@ -85,15 +85,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OMODOWND27XPK3UQFPSZ34X7",
-     "modifier_data": {
-      "name": "cookie dough bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
      "modifier_data": {
       "name": "cookie butter (v)",
@@ -1533,10 +1524,20 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "66JOFCGM42MGTFS2QDQEZVEO",
+     "id": "REBA3U5OITW65ER73OHF2ZBO",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COSTA RICA rio jorco",
+      "name": "select your varietal!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA meaza",
       "price_money": {
        "amount": 1600
       }
@@ -1619,9 +1620,6 @@ var catalog_raw=[
    "name": "espresso",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
-    },
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     }
@@ -2151,27 +2149,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "F2CK6PAQXSZL75ELP6V7QT7S",
+     "id": "QV2NYXATA4CBFL5GP7IHACBT",
      "modifier_data": {
-      "name": "molasses",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "6ABUI4HMD7QPW3636DZWXMU7",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "P22WIMOC32LTLH7QP23SKKZZ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
+      "name": "molasses (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3112,27 +3092,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3OSEA2MTBSDHSANE4YP7OSU4",
+     "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
      "modifier_data": {
-      "name": "molasses",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JFBSVVCL6KRB6MC3TQW253K4",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "WGBULLYAOPYNAHCQ5YOMQ5DJ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
+      "name": "molasses (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4315,18 +4277,45 @@ var catalog_raw=[
      }
     },
     {
-     "id": "B4DKA3OL2WLZKU3LWPHICRGE",
+     "id": "COXO4UVA47DNLFHPIRIVGG6Q",
      "modifier_data": {
-      "name": "pint of black sesame ice cream",
+      "name": "pint of montmorency cherry",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "COXO4UVA47DNLFHPIRIVGG6Q",
+     "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
      "modifier_data": {
-      "name": "pint of montmorency cherry",
+      "name": "pint of ube ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "P5F5AT4O6CXOZL7RSIIYTF76",
+     "modifier_data": {
+      "name": "pint of cranberry sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YBXWBW5Z7KWUO42TEPTOYQGV",
+     "modifier_data": {
+      "name": "pint of oatmeal cookie ice cream (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
+     "modifier_data": {
+      "name": "pint of molasses ice cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5123,27 +5112,9 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "6NQZIV7KHA5JLJDBF44L4IZA",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "MK6BPVCRKYYS4KNFKR2OJMKE",
      "modifier_data": {
       "name": "pepperoni",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
-     "modifier_data": {
-      "name": "beehive",
       "price_money": {
        "amount": 0
       }
@@ -5273,7 +5244,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OCQPFJF77HW426S3B6M5VI6P",
+     "id": "MMGQPGU64Q47SEPW3LBBGOLZ",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
@@ -5283,20 +5254,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TU6LRU6UCT5LY7W4QGCY37KI",
+     "id": "B63ISALUIENV5X7OK4UI4MFR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "V3EMF7SYLO3L6GJDMYB3EU52",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6844,15 +6805,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OMODOWND27XPK3UQFPSZ34X7",
-  "modifier_data": {
-   "name": "cookie dough bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "AQVPAXOZWPGJHQNW7EQUJX42",
   "type": "ITEM",
   "item_data": {
@@ -7160,6 +7112,11 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "shipping + handling",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
+    }
+   ],
    "variations": [
     {
      "id": "GTMQCMXMAHX4X6NFKDX5AYQC",
@@ -7752,15 +7709,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "B4DKA3OL2WLZKU3LWPHICRGE",
-  "modifier_data": {
-   "name": "pint of black sesame ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "COXO4UVA47DNLFHPIRIVGG6Q",
   "modifier_data": {
    "name": "pint of montmorency cherry",
@@ -8052,24 +8000,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "F2CK6PAQXSZL75ELP6V7QT7S",
-  "modifier_data": {
-   "name": "molasses",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3OSEA2MTBSDHSANE4YP7OSU4",
-  "modifier_data": {
-   "name": "molasses",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
   "type": "ITEM",
   "item_data": {
@@ -8087,24 +8017,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "VOLPMEVSU4BTA2GTV2EAEBMD",
-  "modifier_data": {
-   "name": "beehive",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "6NQZIV7KHA5JLJDBF44L4IZA",
-  "modifier_data": {
-   "name": "margherita",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -8146,39 +8058,117 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6ABUI4HMD7QPW3636DZWXMU7",
+  "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
   "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "P22WIMOC32LTLH7QP23SKKZZ",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "JFBSVVCL6KRB6MC3TQW253K4",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
+   "name": "molasses (gf)",
    "price_money": {
     "amount": 300
    }
   }
  },
  {
-  "id": "WGBULLYAOPYNAHCQ5YOMQ5DJ",
+  "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
   "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
+   "name": "pint of ube ice cream",
    "price_money": {
-    "amount": 300
+    "amount": 0
    }
+  }
+ },
+ {
+  "id": "P5F5AT4O6CXOZL7RSIIYTF76",
+  "modifier_data": {
+   "name": "pint of cranberry sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YBXWBW5Z7KWUO42TEPTOYQGV",
+  "modifier_data": {
+   "name": "pint of oatmeal cookie ice cream (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
+  "modifier_data": {
+   "name": "pint of molasses ice cream (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "QV2NYXATA4CBFL5GP7IHACBT",
+  "modifier_data": {
+   "name": "molasses (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WCBLY6722WASGYVBXJ7MOR34",
+  "type": "ITEM",
+  "item_data": {
+   "name": "store flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "Q72IHSLV6JYB5GZZEBOZRZYQ",
+     "item_variation_data": {
+      "item_id": "WCBLY6722WASGYVBXJ7MOR34",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XJUZ3DHNPFFFEDDOP7A6H4OX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lab flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "KMLMEEOXWKW53VUE7LFKV7X3",
+     "item_variation_data": {
+      "item_id": "XJUZ3DHNPFFFEDDOP7A6H4OX",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RUILOWLSA2CIWQB2WYKUK4KM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "full flavor flight",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "OOLVXVUME433FX6DZHMIK7EG",
+     "item_variation_data": {
+      "item_id": "RUILOWLSA2CIWQB2WYKUK4KM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3800
+      }
+     }
+    }
+   ]
   }
  }
 ]

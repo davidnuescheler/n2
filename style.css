@@ -490,6 +490,11 @@ main a {
     padding: 5px 20px;
     border: solid 2px currentColor;
     border-radius: 20px;
+    white-space: nowrap;
+}
+
+main a:not(.add-to-cart):not(.item) {
+    line-height: 300%;
 }
 
 main ol, main ul {
