@@ -2261,7 +2261,7 @@ function addLegacyDivClasses() {
 }
 
 function buildIndexGrid() {
-    console.log(`\nbuildIndexGrid running`);
+    //console.log(`\nbuildIndexGrid running`);
     const indexPaths = [ "/", "/index", "/index.html", "/index2", "/index2.html"];
 
     if (indexPaths.includes(window.location.pathname)) {
