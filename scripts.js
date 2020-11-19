@@ -2295,14 +2295,6 @@ function buildIndexGrid() {
         })
         $main.append($flexContainer);        
     }
-function tempSqigFix() {
-    const h3s = document.querySelectorAll("h3");
-    h3s.forEach((h3) => {
-        if (h3.textContent.includes("~")) {
-            const fixedHTML = h3.innerHTML.replace(/~/g, "");
-            h3.innerHTML = fixedHTML;
-        }
-    })
 }
 
 /* ----
@@ -2321,7 +2313,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     buildIndexGrid();
     hamburger();
     classifyAddToCartLinks();
-    tempSqigFix();
+    // tempSqigFix();
     //wrapMenus();
     //cloneMenuSwiper();
     fixSmsUrls();
@@ -2336,4 +2328,3 @@ window.onload = function() {
 }
   
 //window.onresize=updateMenuDisplay;
-  
