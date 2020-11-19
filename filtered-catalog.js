@@ -3430,15 +3430,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
-     "modifier_data": {
-      "name": "dulcey",
-      "price_money": {
-       "amount": 100
-      }
-     }
     }
    ]
   }
@@ -3530,15 +3521,6 @@ var catalog_raw=[
    "name": "cocoa pebbles (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
-  "modifier_data": {
-   "name": "dulcey",
-   "price_money": {
-    "amount": 100
    }
   }
  },
