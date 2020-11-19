@@ -1524,20 +1524,40 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "REBA3U5OITW65ER73OHF2ZBO",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "select your varietal!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "ETHIOPIA meaza",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "EJSWHFOW55CX7EYSENXAKVOU",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "KENYA mr. david mburu",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "6SXTV3SBB2ZN37JRFERP5XL2",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "NICARAGUA bella aurora",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "EXSYWK42GHQENHXOB7QT5MGZ",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "GUATAMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
