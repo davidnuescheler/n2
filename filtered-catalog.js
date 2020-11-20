@@ -3439,6 +3439,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "O4TW7D7YPAQN4PABEHMA65EM",
+     "modifier_data": {
+      "name": "dulcey",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -8188,6 +8197,15 @@ var catalog_raw=[
    "name": "cookie dough bits",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "O4TW7D7YPAQN4PABEHMA65EM",
+  "modifier_data": {
+   "name": "dulcey",
+   "price_money": {
+    "amount": 100
    }
   }
  }
