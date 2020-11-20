@@ -128,6 +128,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "J3WQBSME36YHSAT7LAI72KUL",
+     "modifier_data": {
+      "name": "cookie dough bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8171,6 +8180,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "J3WQBSME36YHSAT7LAI72KUL",
+  "modifier_data": {
+   "name": "cookie dough bits",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
