@@ -4315,15 +4315,6 @@ var catalog_raw=[
    "name": "pizza pints",
    "modifiers": [
     {
-     "id": "USBOZXRIPLWABHWMGDSJG4HH",
-     "modifier_data": {
-      "name": "pint of milk chocolate ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "HKS3OQWPPHG4AHDCRB65ZISF",
      "modifier_data": {
       "name": "pint of blood orange sorbet (v)",
@@ -4378,15 +4369,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "USBOZXRIPLWABHWMGDSJG4HH",
-  "modifier_data": {
-   "name": "pint of milk chocolate ice cream",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
