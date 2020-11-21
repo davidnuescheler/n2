@@ -8,7 +8,8 @@
 :#close:
 
 - [:#arrow: home](/)
-- [:#arrow: store](/store.html)
-- [:#arrow: lab](/lab.html)
-- [:#arrow: pint club](/pint-club.html)
-- [:#arrow: catering](/catering.html)
+- [:#arrow: store](/store)
+- [:#arrow: lab](/lab)
+- [:#arrow: delivery](/delivery)
+- [:#arrow: pint club](/pint-club)
+- [:#arrow: catering](/catering)
