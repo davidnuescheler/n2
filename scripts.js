@@ -322,11 +322,21 @@ function highlightNav() {
 
 // set store location based on URL
 function setLocation() {
-    if (window.location.pathname.indexOf('/lab')==0) {
-        storeLocation='lab';
-    } else { // default is 'store'
-        storeLocation='store';
+    // console.log(`setLocation -> window.location.pathname`, window.location.pathname);
+    switch (window.location.pathname) {
+        case "/delivery":
+        case "/delivery2": // testing delivery
+            storeLocation = 'delivery';
+            break;
+        case "/lab":
+        case "/lab2": // testing lab
+            storeLocation = 'lab';
+            break;
+        default:
+            storeLocation = 'store'
+            break;
     }
+    // console.log(`  setLocation -> storeLocation`, storeLocation);
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -671,9 +681,9 @@ function getConeBuilderHTML(item, callout) {
     }
 
 function getConfigHTML(item, callout) {
-    console.log(`\ngetConfigHTML is running`)
-    console.log(`getConfigHTML -> item`, item);
-    console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
+    // console.log(`\ngetConfigHTML is running`)
+    // console.log(`getConfigHTML -> item`, item);
+    // console.log(`getConfigHTML -> item.item_data.variations`, item.item_data.variations);
     let html='';
     var pickupVars=isFixedPickup(item);
     var image="";
@@ -826,18 +836,28 @@ function toNumbersArray(str) {
     return (str.split(',').map(e => +e.trim()));
 }
 function getOpeningHoursConfig() {
+    // console.log(`\ngetOpeningHoursConfig is running`);
     // TODO: see if setPickupTimes/setPickupDates can be consolidated 
     // (this func currently runs twice)
     // get opening and closing hours out of labels.json
     var opening=window.labels[storeLocation+'_openinghours'];
     var closing=window.labels[storeLocation+'_closinghours']
+    
+    // console.log(`  getOpeningHoursConfig -> opening`, opening);
+    // console.log(`  getOpeningHoursConfig -> closing`, closing);
+    
+    // console.log(`  \ngetOpeningHoursConfig -> storeLocations`, storeLocations);
+    // console.log(`    getOpeningHoursConfig -> storeLocation`, storeLocation);
+    // console.log(`      getOpeningHoursConfig -> storeLocations[storeLocation]`, storeLocations[storeLocation]);
+    
     // update storeLocations obj with opening/closing hours from labels.json
     if (opening) {
-        storeLocations[storeLocation].openingHours.opening=toNumbersArray(opening);
+        storeLocations[storeLocation].openingHours.opening = toNumbersArray(opening);
     }
     if (closing) {
-        storeLocations[storeLocation].openingHours.closing=toNumbersArray(closing);
+        storeLocations[storeLocation].openingHours.closing = toNumbersArray(closing);
     }
+    // console.log(`        getOpeningHoursConfig -> storeLocations[storeLocation].openingHours`, storeLocations[storeLocation].openingHours);
     return storeLocations[storeLocation].openingHours;
 }
 
@@ -885,26 +905,36 @@ function displayThanks(payment){
     var $receipt;
 
     cartEl.querySelector(".payment").classList.add("hidden");
-    if (storeLocations[storeLocation].orderAhead) {
+
+    if (storeLocation === "store") {
         var $thankyou=cartEl.querySelector(".thankyou.order-ahead");
         $thankyou.classList.remove("hidden");
         $receipt=$thankyou.querySelector('.receipt-link');
-    } else {
+    } else if (storeLocation === "lab") {
         var $thankyou=cartEl.querySelector(".thankyou.callyourname");
         $thankyou.classList.remove("hidden");
+        $receipt=$thankyou.querySelector('.receipt-link');
+    } else if (storeLocation === "delivery") {
+        var $thankyou=cartEl.querySelector(".thankyou.deliverydate-confirm");
+
+        $thankyou.classList.remove("hidden");
+
         $receipt=$thankyou.querySelector('.receipt-link');
     }
 
     var receiptLink="/receipt"
 
     if (payment) {
-            receiptLink=payment.receipt_url;
+        receiptLink=payment.receipt_url;
     }
 
     $receipt.setAttribute("href", receiptLink);
 
+    var recipient = order.fulfillments[0].pickup_details ? 
+    order.fulfillments[0].pickup_details.recipient.display_name : order.fulfillments[0].shipment_details.recipient.display_name;
+
     var textElem=document.getElementById("text-link");
-    var msg=`hi normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
+    var msg=`hi normal, this is ${recipient}, picking up my order in a (describe car)`;
     var smshref=`sms://+1${labels.store_phone.replace(/\D/g,'')}/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
     textElem.setAttribute("href", smshref);
 
@@ -919,45 +949,156 @@ function getTip() {
     return (tipAmount);
 }
 
+// function setDeliveryDates() {
+
+//     const now = new Date();
+//     console.log(`setDeliveryDates -> now`, now);
+
+//     const dayOfWeek = {
+//         mon: 0, tue: 1, wed: 2, thu: 3, fri: 4, sat: 5, sun: 6
+//     }
+
+//     let deliveryDates = window.labels.delivery_dates;
+//     if (deliveryDates.includes(",")) {
+//         deliveryDates = deliveryDates.split(", ");
+//     } else {
+//         deliveryDates = [ deliveryDates ];
+//     }
+    
+//     const orderAheadOptions = window.labels.delivery_orderahead;
+//     // console.log(`setDeliveryDates -> orderAheadOptions`, orderAheadOptions);
+    
+//     let deliveryDeadline = new Date(window.labels.delivery_deadline);
+//     // if date from labels in invalid, replace with HARD CODED date below...
+//     // TODO: better validate date entry out of google sheet...
+//     if (!deliveryDeadline instanceof Date || isNaN(deliveryDeadline)) {
+//         deliveryDeadline = new Date("November 24, 2020 17:00:00");
+//     }
+
+//     // check if delivery is still open
+//     if (now < deliveryDeadline) {
+//         let startDate = now;
+//         const dayNum = dayOfWeek[startDate.toString().substring(0,3).toLowerCase()];
+//         let count = 0;
+        
+//         while (count < orderAheadOptions) {
+//             // find next delivery date
+//             for (date of deliveryDates) {
+
+//                 let nextWeek = 0;
+//                 // if before today, set to next week...
+//                 if (dayNum >= dayOfWeek[date]) {
+//                     nextWeek = 7;
+//                 }
+//                 // console.log(`      setDeliveryDates -> nextWeek`, nextWeek);
+
+//                 let dt = startDate.getDate() - (startDate.getDay() - 1) + dayOfWeek[date] + nextWeek; 
+//                 let nextDt = new Date(startDate.setDate(dt));
+                
+//                 //console.log(`        setDeliveryDates -> today!`, new Date());
+//                 console.log(`        setDeliveryDates -> nextDt`, nextDt);
+                
+//                 count++;
+//                 console.log(`setDeliveryDates -> startDate`, startDate);
+//             }
+//             // add dates for next week
+//             startDate.setDate(startDate.getDate() + 7);
+            
+//         }
+
+//     }
+
+   
+
+// }
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
-    var now=new Date();
-    var i=0;
+    var now = new Date();
+    var i = 0;
 
-    var day=now;
-    var conf=getOpeningHoursConfig();
+    var day = now;
+    var conf = getOpeningHoursConfig();
 
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-    var dateSelect=document.getElementById("pickup-date");
+    var dateSelect = document.getElementById("pickup-date");
+    const deliveryOptionsLength = document.getElementById("pickup-date").options.length;
+
     // TODO: check if closedForToday can/should come off of labels.json
-    var closedForToday=false; 
+    var closedForToday = false; 
     // if current storeLocation offers "order ahead"
-      // lab doesn't, store does
+      // lab doesn't, store and delivery do
     if (storeLocations[storeLocation].orderAhead) {
 
-        while (i<storeLocations[storeLocation].orderAhead) {
-            if (i==0) {
-                /* check if we are past cutoff for today */
-                var closingDate=new Date();
-                closingDate.setHours(conf.closing[day.getDay()],0,0,0);
-                if (now>closingDate-conf.lastOrderFromClose*60000) {
-                    day.setDate(day.getDate()+1);
-                    document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
-                }
-            }
-            if(conf.opening[day.getDay()]) {
-                var option = document.createElement("option");
-                option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
-                option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
-                dateSelect.add(option);
-            }
+        if (storeLocation === "delivery" && deliveryOptionsLength <= 1) {
 
-            day.setDate(day.getDate()+1);
-            i++;
+            // delivery 
+            let $pickupTimeEl = document.getElementById("pickup-time");
+            $pickupTimeEl.classList.add("hidden");
+            $pickupTimeEl.value = "n/a";
+
+            //setup for thanksgiving delivery
+            var wed = document.createElement("option");
+            wed.text = "wed, nov 25";
+            wed.value = "2020/11/25";
+
+            var thu = document.createElement("option");
+            thu.text = "thu, nov 26";
+            thu.value = "2020/11/26";
+
+            dateSelect.add(wed);
+            dateSelect.add(thu);
+            
+            // while (i < window.labels.delivery_orderahead) {
+            //     let deliveryDate = day;
+            //     let deliveryMS = Date.parse(deliveryDate);
+            //     // deadline for delivery order is friday @ 5:00pm
+            //     let deadline = deliveryDate.setHours(17, 0, 0, 0); 
+            //     let option = document.createElement("option");
+
+            //     if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
+            //         deliveryDate.setHours(17, 0, 0, 0);
+            //         option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
+            //         option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
+            //         dateSelect.add(option);
+            //         deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
+            //     } else {
+            //         // 5 = saturday, below
+            //         let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
+            //         let sat = new Date(deliveryDate.setDate(dt))
+            //         option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
+            //         option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
+            //         dateSelect.add(option);
+            //         deliveryDate.setDate(new Date(sat).getDate() + 1);
+            //     }
+            //     i++;
+            // }
+        } else {
+            // not delivery
+            while (i<storeLocations[storeLocation].orderAhead) {
+                if (i==0) {
+                    /* check if we are past cutoff for today */
+                    var closingDate=new Date();
+                    closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+                    if (now > closingDate-conf.lastOrderFromClose*60000) {
+                        day.setDate(day.getDate()+1);
+                        document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+                    }
+                }
+                if (conf.opening[day.getDay()]) {
+                    var option = document.createElement("option");
+                    option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+                    option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+                    dateSelect.add(option);
+                }
+    
+                day.setDate(day.getDate()+1);
+                i++;
+            }
+            setPickupTimes();
         }
-        setPickupTimes();
+
     } else {
         var closingDate=new Date();
         var openingDate=new Date();
@@ -982,6 +1123,25 @@ function setPickupDates () {
     }
 }
 
+function setDeliveryZipCodes() {
+    const zipArr = toNumbersArray(window.labels.delivery_zipcodes).sort();
+    const $zipSelect = document.getElementById("delivery-zip");
+
+    zipArr.forEach((zip) => {
+        let option = document.createElement("option");
+        option.text = zip;
+        option.value = zip;
+        $zipSelect.add(option);
+    });
+}
+
+function setZipColor() {
+    const $zipSelect = document.getElementById("delivery-zip");
+    if ($zipSelect.value !== "") {
+        $zipSelect.style.color = "var(--text-color)";
+    }
+}
+
 var paymentForm;
 
 function initPaymentForm() {
@@ -997,6 +1157,7 @@ function initPaymentForm() {
             autoBuild: false,
             // Customize the CSS for SqPaymentForm iframe elements
             inputStyles: [{
+                fontFamily: 'sans-serif',
                 fontSize: '16px',
                 lineHeight: '24px',
                 padding: '16px',
@@ -1120,7 +1281,7 @@ storeLocations={
             prepTime: 0
         },
         orderAhead: 10,
-        link: "/", // TODO: should this be "/store.html"?
+        link: "/store", 
         address: "169 E 900 S in SLC"
     },
     lab: {
@@ -1131,8 +1292,21 @@ storeLocations={
             lastOrderFromClose: 0,
             prepTime: 0
         },    
-        link: "/lab.html",
-        address: "inside the east entrance of trolley square, 602 700 E in SLC, UTC"
+        link: "/lab",
+        address: "inside the east entrance of trolley square, 602 700 E in SLC, UT"
+    },
+    delivery: {
+        endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
+        locationId: "WPBKJEG0HRQ9F",
+        openingHours: {
+            opening: [0, 0, 0, 0, 0, 0, 0],
+            closing: [24, 24, 24, 24, 24, 24, 24],
+            // lastOrderFromClose: 0,
+            // prepTime: 0
+        },
+        orderAhead: 2, // allow delivery up to two weeks in advance
+        link: "/delivery",
+        // address: null
     }
 }
 
@@ -1177,20 +1351,43 @@ async function checkCart() {
 }
 
 function displayStoreAlert() {
-    // verify store selection
-    var other=(storeLocation=='lab')?'store':'lab';
-    // TODO: fix otherLink below (not working for store)
-    var otherLink=storeLocations[other].link;
-    var storealert=document.createElement('div');
-    labels=window.labels;
-    storealert.id="alert";
-    storealert.innerHTML=`<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
-    <svg><use href="/icons.svg#${storeLocation}"></use></svg>
-    <p>${labels[storeLocation+'_ourlocationis']}</p>
-    <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
-    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>
-    `
-    document.querySelector('footer').appendChild(storealert);
+    
+    labels = window.labels;
+    
+    var $storealert = document.createElement('div');
+    $storealert.id = "alert";
+    $storealert.innerHTML = `<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>`
+    $storealert.innerHTML += `<svg><use href="/icons.svg#${storeLocation}"></use></svg>`
+
+    if (storeLocation !== "delivery") {
+
+        // verify store selection
+        var other = (storeLocation == 'lab') ? 'store' : 'lab';
+        // TODO: fix otherLink below (not working for store)
+        var otherLink = storeLocations[other].link;
+        
+        $storealert.innerHTML += `<p>${labels[storeLocation+'_ourlocationis']}</p>
+        <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+        <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>`
+
+    } else {
+        // SAVE: if delivery is going to be added to store/lab...
+        /* const locations = ['store', 'lab', 'delivery'];
+        const otherLocations = locations.filter((location) => { 
+            return location !== storeLocation 
+        }); */
+
+        let otherLinks = `<p><a href="${storeLocations['store'].link}">${labels['lab_ohno']}</a></p>
+        <p><a href="${storeLocations['lab'].link}">${labels['store_ohno']}</a></p>`;
+
+        $storealert.innerHTML 
+            += `<p>${labels[storeLocation+'_ourdeliverywindowis']}</p>
+            <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+            ${otherLinks}`;
+
+    }
+
+    document.querySelector('footer').appendChild($storealert);
 }
 
 async function submitOrder() {
@@ -1201,17 +1398,45 @@ async function submitOrder() {
 
     var orderParams={};
     var now=false;
-    orderParams.pickup_at=document.getElementById("pickup-time").value;
+    orderParams.pickup_at=document.getElementById("pickup-time").value || "delivery";
     if (orderParams.pickup_at=="now") {
         now=true;
         orderParams.pickup_at=new Date().toISOString();
         orderParams.now="yes";
-    } 
+    } else if (orderParams.pickup_at === "delivery") {
+        delete orderParams.pickup_at; // remove pickup from delivery orders
+
+        //console.log(cart.line_items);
+        
+        // auto-add shipping to delivery orders
+        if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
+            cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
+        }
+
+        const deliveryDate = document.getElementById("pickup-date").value;
+        orderParams.deliver_at = new Date(deliveryDate).toISOString();
+
+        const deliveryAddress = document.getElementById("delivery-address").value;
+        const deliveryCity = document.getElementById("delivery-city").value; 
+        const deliveryState = document.getElementById("delivery-state").value; 
+        const deliveryZip = document.getElementById("delivery-zip").value;
+        const deliveryFullAddress = [deliveryAddress, deliveryCity, deliveryState, deliveryZip];
+        // if the address is missing any piece
+        if (deliveryFullAddress.includes("")) {
+            document.getElementById("delivery-address").focus();
+            return;
+        }
+        orderParams.address = deliveryAddress;
+        orderParams.city = deliveryCity;
+        orderParams.state = deliveryState;
+        orderParams.zip = deliveryZip;
+    }
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
     orderParams.discount_name=document.getElementById("discount").value;
     orderParams.discount=document.getElementById("discount").getAttribute("data-id");
+
     // console.log(`  submitOrder -> orderParams`, orderParams);
 
     if (cart.itemCount==0) return;
@@ -1231,6 +1456,7 @@ async function submitOrder() {
 
     localStorage.setItem("name",orderParams.display_name);
     localStorage.setItem("cell",orderParams.cell);
+    localStorage.setItem("address",orderParams.address);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
     cartEl.querySelector(".checkoutitems").classList.add("hidden");
@@ -1240,12 +1466,12 @@ async function submitOrder() {
     orderEl.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
 
     var nomore = await checkCart();
-    console.log(`submitOrder -> nomore`, nomore);
+    // console.log(`submitOrder -> nomore`, nomore);
 
     if (nomore.length>0) {
         var sorry="we are so sorry we just ran out of "
         nomore.forEach((li, i) => {
-        console.log(`submitOrder -> li`, li);
+        // console.log(`submitOrder -> li`, li);
             var v=catalog.byId[li.variation];
             var item=catalog.byId[v.item_variation_data.item_id];
                 sorry+=(i?", ":"")+item.item_data.name+" : "+v.item_variation_data.name;
@@ -1259,7 +1485,7 @@ async function submitOrder() {
     
     orderParams.line_items=[];
     cart.line_items.forEach((li) => { 
-    console.log(`submitOrder -> li`, li);
+        // console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
         var line_item={
@@ -1286,39 +1512,46 @@ async function submitOrder() {
 
     // console.log ("order qs: "+qs);
 
-    fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
-        method: 'GET',
-        headers: {
-          'Accept': 'application/json',
-        }
-      })
-      .catch(err => {
-        alert('Network error: ' + err);
-      })
-      .then(response => {
+    fetch(storeLocations[storeLocation].endpoint + "?" + qs, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    })
+    .catch((err) => {
+        alert("Network error: " + err);
+    })
+    .then((response) => {
+        // console.log(`\n  submitOrder -> response`, response);
+        // console.log(`\n  submitOrder -> response.url`, response.url);
         if (!response.ok) {
-          return response.text().then(errorInfo => Promise.reject(errorInfo));
+          return response.text().then((errorInfo) => Promise.reject(errorInfo));
         }
+        // console.log(`  submitOrder -> response.text()`, response.text());
         return response.text();
-      })
-      .then(data => {
+    })
+    .then((data) => {
+        // console.log(`\n    submitOrder -> data`);
         // console.log(data);
-        var obj=JSON.parse(data);
+        var obj = JSON.parse(data);
+        // console.log(`    submitOrder -> obj`, obj);
         if (typeof obj.order != "undefined") {
-            displayOrder(obj.order);
+          displayOrder(obj.order);
         } else {
-            alert('Order Submission failed. Sorry.');
+          alert("order submission failed. sorry.");
         }
-      })
-      .catch(err => {
+    })
+    .catch((err) => {
         console.error(err);
-      });          
+    });       
 }
 
 function displayOrder(o) {
     order=o;
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
+        // print shipping line item differently
+        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") { return; }
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
             li.modifiers.forEach((mod) => {
@@ -1331,6 +1564,14 @@ function displayOrder(o) {
     }
     html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
     html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
+    
+    // if cart includes delivery fee...
+    if (cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
+        var shipping = order.line_items.filter(item => item.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC")[0];
+        // console.log(shipping);
+        html+=`<div class="line shipping"><span class="desc">${shipping.name} (${shipping.variation_name})</span><span class="amount">$${formatMoney(shipping.base_price_money.amount*shipping.quantity)}</span></div>`
+    }
+
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
@@ -1389,7 +1630,7 @@ async function toggleCartDisplay() {
     if (cartEl.classList.toggle("full")) {
         document.body.classList.add("noscroll");
         cartEl.querySelector(".summary").innerHTML = 
-            `<p class="dotdotdot">building your cart<span>.</span><span>.</span><span>.</span><p>`;
+            `<p class="dotdotdot">${window.labels.checkout_checkstock}<span>.</span><span>.</span><span>.</span><p>`;
         let outOfStock = await checkCart();
         updateCart(); 
         cartEl.querySelector(".summary").classList.add("hidden");
@@ -1401,6 +1642,10 @@ async function toggleCartDisplay() {
         cartEl.querySelector(".summary").classList.remove("hidden");
         cartEl.querySelector(".details").classList.add("hidden");
     }
+    // show delivery address for delivery orders
+    if (storeLocation === "delivery") { 
+        cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
+    }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
     cartEl.querySelector(".info").classList.remove("hidden");
@@ -1408,7 +1653,15 @@ async function toggleCartDisplay() {
     cartEl.querySelector(".payment").classList.add("hidden");
     cartEl.querySelector(".thankyou.callyourname").classList.add("hidden");
     cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
+    cartEl.querySelector(".thankyou.deliverydate-confirm").classList.add("hidden");
+
     setPickupDates();
+    
+    const zipOptionsLength = document.getElementById("delivery-zip").options.length;
+    
+    if (zipOptionsLength <= 1) {
+        setDeliveryZipCodes();
+    }
 
     var hidePickup=true;
 
@@ -1457,20 +1710,34 @@ function initCart() {
             <div class="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
+                <div class="delivery-address hidden"> 
+                    <input id="delivery-address" type="text" placeholder="your address">
+                    <nobr>
+                        <input id="delivery-city" type="text" value="salt lake city" readonly>
+                        <input id="delivery-state" type="text" value="utah" readonly>
+                        <select id="delivery-zip" onchange="setZipColor()">
+                            <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
+                        </select>
+                    </nobr>
+                </div>
                 <div class="pickup-time"> 
                     <nobr>
-                        <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
+                        <select id="pickup-date" ${storeLocation === "delivery" ? "" : 'onchange="setPickupTimes()"'}></select>
+                        <select id="pickup-time"></select>
                     </nobr>
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
-                <button onclick="displayStoreAlert()">order</button>
+                <div class="warning hidden minorder">
+                    <p>${labels.checkout_minorder}${labels.delivery_minorder}.</p>
+                </div>
+                <button id="orderBtn" onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>${labels.checkout_toolate}</p>
+                <p>${labels.checkout_toolate}</p>
             </div>
             <div class="warning hidden tooearly">
-            <p>${labels.checkout_tooearly}</p> 
+                <p>${labels.checkout_tooearly}</p> 
             </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
@@ -1505,6 +1772,12 @@ function initCart() {
             </div>
             <div class="thankyou callyourname hidden">
                 <h3 class="warning">${labels.checkout_pickupnowthanks}</h3>
+                <p>
+                <a class="receipt-link" target="_new" href="">show receipt</a>
+                </p>
+            </div>
+            <div class="thankyou deliverydate-confirm hidden">
+                <h3 class="warning">${labels.checkout_deliverythanks}</h3>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
@@ -1552,10 +1825,8 @@ function minus (el) {
     updateCart();
 }
 
-async function updateCart() {
+function updateCart() {
     const labels=window.labels;
-
-    // var nomore = await checkCart();
 
     var cartEl=document.getElementById("cart");
 
@@ -1566,6 +1837,21 @@ async function updateCart() {
     } else {
         cartEl.classList.add("hidden");
         document.body.classList.remove("noscroll");
+    }
+
+    // check delivery cart
+    if (storeLocation === "delivery") {
+        // convert dollar amount from google sheet to cents for comparison 
+        const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+        if (cart.totalAmount() < minOrder) { 
+            cartEl.querySelector(".minorder").classList.remove("hidden");
+            cartEl.querySelector("#orderBtn").disabled = true;
+            cartEl.querySelector("#orderBtn").classList.add("hidden");
+        } else {
+            cartEl.querySelector(".minorder").classList.add("hidden");
+            cartEl.querySelector("#orderBtn").disabled = false;
+            cartEl.querySelector("#orderBtn").classList.remove("hidden");
+        };
     }
 
     var summaryEl=cartEl.querySelector(".summary");
@@ -1585,14 +1871,15 @@ async function updateCart() {
     var html=``;
     
     cart.line_items.forEach((li) => {
+        // console.log(`updateCart -> li`, li);
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
         if (i.item_data.name == 'lab cone' && li.quantity > 0) cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        
-        if (li.quantity > 0) {
+        // don't display shipping here
+        if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
             html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
@@ -1641,8 +1928,6 @@ async function updateCart() {
       oosMessageDiv.append(oosMessage);
       lineitemsEl.prepend(oosMessageDiv);
     }
-
-    // console.log(JSON.stringify(cart.line_items));
     
     var checkoutItemsEl=cartEl.querySelector(".checkoutitems");
     html='';
@@ -1661,6 +1946,7 @@ async function updateCart() {
             });    
         }
     }
+
     checkoutItemsEl.innerHTML=html;
 
 }
@@ -1838,6 +2124,7 @@ function makeShoppable() {
     const squareprefix='https://squareup.com/dashboard/items/library/';
 
     document.querySelectorAll("main a").forEach(($a) => {
+    // console.log(`makeShoppable -> $a`, $a);
         var href=$a.getAttribute('href');
         if (href.indexOf(squareprefix)==0) {
             var itemid=href.substr(squareprefix.length);
@@ -1880,7 +2167,6 @@ var cart={
         var index=cart.line_items.findIndex((li) => fp == li.fp);
         cart.line_items[index].quantity=q;
         cart.store();
-
     },
     totalAmount: () => {
         var total=0;
@@ -1894,7 +2180,8 @@ var cart={
     totalItems: () => {
         var total=0;
         cart.line_items.forEach((li)=>{ 
-            if (li.quantity > 0) {
+            // don't count out-of-stock or shipping
+            if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
                 total+=li.quantity
             }
         })
@@ -2048,14 +2335,41 @@ function addLegacyDivClasses() {
     })
 }
 
-function tempSqigFix() {
-    const h3s = document.querySelectorAll("h3");
-    h3s.forEach((h3) => {
-        if (h3.textContent.includes("~")) {
-            const fixedHTML = h3.innerHTML.replace(/~/g, "");
-            h3.innerHTML = fixedHTML;
-        }
-    })
+function buildIndexGrid() {
+    // console.log(`\nbuildIndexGrid running`);
+    const indexPaths = [ "/", "/index", "/index.html", "/index2", "/index2.html"];
+
+    if (indexPaths.includes(window.location.pathname)) {
+        const $main = document.querySelector(".welcometonormal");
+        const $mainChildren = $main.children;
+        const mainChildrenArr = [ ...$mainChildren ]
+        const $flexContainer = document.createElement("div");
+        $flexContainer.classList.add("index-container");
+        let tempObj = [];
+        let flexItems = []; 
+
+        mainChildrenArr.forEach((child) => {
+            if (child.nodeName === "H3") {
+                tempObj = [];
+                tempObj.push(child);
+                flexItems.push(tempObj);
+            } else if (child.nodeName !== "H1") {
+                tempObj.push(child)
+            }
+        })
+        flexItems.forEach((item) => {
+            const heading = item[0].id;
+            //console.log(`buildIndexGrid -> heading`, heading);
+            const $flexItem = document.createElement("div");
+            $flexItem.classList.add("index-item");
+            $flexItem.classList.add(heading);
+            for (let i = 0; i < item.length; i++) {
+                $flexItem.append(item[i]);
+            }
+            $flexContainer.append($flexItem);
+        })
+        $main.append($flexContainer);        
+    }
 }
 
 /* ----
@@ -2071,9 +2385,10 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     //fixIcons();
     decorateIcons();
     classify();
+    buildIndexGrid();
     hamburger();
     classifyAddToCartLinks();
-    tempSqigFix();
+    // tempSqigFix();
     //wrapMenus();
     //cloneMenuSwiper();
     fixSmsUrls();
@@ -2081,6 +2396,8 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     insertSignupForm();
     cart.load();
     updateCart();
+
+    //setDeliveryDates()
 });
 
 window.onload = function() {  
@@ -2088,4 +2405,3 @@ window.onload = function() {
 }
   
 //window.onresize=updateMenuDisplay;
-  

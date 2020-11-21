@@ -56,6 +56,30 @@ main svg.icon-store, main svg.icon-lab {
     stroke-width: 0;
 }
 
+main svg.icon-delivery, main svg.icon-pint-club {
+    height: 160px;
+    width: 200px;
+    stroke-width: 0;
+}
+
+div.index-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.index-item {
+    box-sizing: border-box;
+    width: calc(50% - 20px);
+    min-width: 200px !important;
+    margin: 0 auto;
+}
+
+div.index-item a.noborder {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
 
 main h1 {
     font-size: 34px;
@@ -731,6 +755,13 @@ code {
     font-size: 25px;
     margin: 30px;
 }
+
+#cart .info button:disabled {
+    margin-top: 0;
+    background-color: var(--text-color);
+    cursor: not-allowed;
+}
+
 #cart>div>div+div {
     margin-top: 40px;
 }
@@ -763,15 +794,27 @@ code {
     border: 2px solid var(--background-highlight-color);
 }
 
-
 #cart .pickup-time {
     margin-top: 4px;
     margin-bottom: 3px;
 }
 
+#cart .pickup-time nobr,
+#cart .delivery-address nobr {
+    display: flex;
+}
+
+#cart .delivery-address #delivery-state {
+    flex-shrink: 1.25;
+}
+
 #cart .pickup-time select {
-    width: 50%;
-    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+}
+
+#cart .delivery-address #delivery-zip {
+    color: gray;
 }
 
 .hidden {
@@ -1008,7 +1051,7 @@ select:disabled:hover, select[aria-disabled=true] {
 }
 
 .ordering {
-	        animation: rotate-center 1s ease-in-out infinite alternate both;
+	animation: rotate-center 1s ease-in-out infinite alternate both;
 }
 
 #form-container button {
@@ -1087,29 +1130,29 @@ select:disabled:hover, select[aria-disabled=true] {
     letter-spacing: 0;
     text-align: center;
     -webkit-transition: background .2s ease-in-out;
-        -moz-transition: background .2s ease-in-out;
+       -moz-transition: background .2s ease-in-out;
         -ms-transition: background .2s ease-in-out;
             transition: background .2s ease-in-out;
     }
 
 #form-container .button-credit-card:hover {
-        background-color: var(--background-highlight-color);
-    }
+    background-color: var(--background-highlight-color);
+}
 
-    #sq-apple-pay {
-        width: 100%;
-        height: 48px;
-        padding: 0;
-        margin: 24px 0 16px 0;
-        background-image: -webkit-named-image(apple-pay-logo-white);
-        background-color: black;
-        background-size: 100% 60%;
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        border-radius: 4px;
-        cursor: pointer;
-        display: none;
-      }
+#sq-apple-pay {
+    width: 100%;
+    height: 48px;
+    padding: 0;
+    margin: 24px 0 16px 0;
+    background-image: -webkit-named-image(apple-pay-logo-white);
+    background-color: black;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
 
 #alert {
     position: fixed;
@@ -1139,11 +1182,14 @@ select:disabled:hover, select[aria-disabled=true] {
     padding: 10px 20px;
 }
 
+#alert > p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
 #alert svg {
     height: 200px;
     width: 200px;
 }
-
 
 @keyframes rotate-center {
     0% {
