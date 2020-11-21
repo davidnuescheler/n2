@@ -326,10 +326,14 @@ function setLocation() {
     switch (window.location.pathname) {
         case "/delivery":
         case "/delivery2": // testing delivery
+        case "/delivery.html": 
+        case "/delivery2.html": // testing delivery
             storeLocation = 'delivery';
             break;
         case "/lab":
         case "/lab2": // testing lab
+        case "/lab.html":
+        case "/lab2.html": // testing lab
             storeLocation = 'lab';
             break;
         default:
