@@ -5112,15 +5112,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "NPTIVEEWS3T7FIGTUZPWHFRI",
-     "modifier_data": {
-      "name": "vegan",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -8001,15 +7992,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "NPTIVEEWS3T7FIGTUZPWHFRI",
-  "modifier_data": {
-   "name": "vegan",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
