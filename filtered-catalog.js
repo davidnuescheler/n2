@@ -2142,27 +2142,9 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "6W6LBBRVTUSYDRKWFRKCGWOG",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SEAOEWQP6UAQGF7FV55DQEJY",
      "modifier_data": {
       "name": "ube (purple sweet potato) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
-     "modifier_data": {
-      "name": "vanilla + ube TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3103,27 +3085,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XDEW7VCWBF5235A2W3FALQJF",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
      "modifier_data": {
       "name": "ube (purple sweet potato) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "KTUHIM74TDMZGVAJECCOBAPH",
-     "modifier_data": {
-      "name": "vanilla + ube TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6492,42 +6456,6 @@ var catalog_raw=[
    "name": "sweet cream + pumpkin spice TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "XDEW7VCWBF5235A2W3FALQJF",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "KTUHIM74TDMZGVAJECCOBAPH",
-  "modifier_data": {
-   "name": "vanilla + ube TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "6W6LBBRVTUSYDRKWFRKCGWOG",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7ZJJHW7ZHYLPU5FOXJB47JPW",
-  "modifier_data": {
-   "name": "vanilla + ube TWIST (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
