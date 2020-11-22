@@ -3148,24 +3148,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "55DFHCORB633B2BOFIYDF2XD",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "Q3HZNHRB5R6NMEXANM3BXWWN",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
       "name": "oatmeal cookie (v)",
@@ -8224,24 +8206,6 @@ var catalog_raw=[
    "name": "dulcey",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "55DFHCORB633B2BOFIYDF2XD",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "Q3HZNHRB5R6NMEXANM3BXWWN",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
