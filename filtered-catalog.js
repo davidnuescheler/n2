@@ -2203,6 +2203,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HBA2CSQZHE6U6JY3XGP7QQ6T",
+     "modifier_data": {
+      "name": "ube + salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -5265,6 +5283,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "E5BWUGIDKT2BEASPZGWRX4IM",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "X64O6YEYIGQXQYQ6BUULSWT4",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + ube",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -8185,6 +8223,24 @@ var catalog_raw=[
    "name": "salted vanilla bean",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HBA2CSQZHE6U6JY3XGP7QQ6T",
+  "modifier_data": {
+   "name": "ube + salted vanilla bean",
+   "price_money": {
+    "amount": 0
    }
   }
  }
