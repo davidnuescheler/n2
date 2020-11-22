@@ -8134,5 +8134,40 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "JWCUOV36MAMO3X3VRC4SUJ4W",
+  "type": "ITEM",
+  "item_data": {
+   "name": "bday cake",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
+    }
+   ],
+   "variations": [
+    {
+     "id": "FEHCA5OVG7W2ZY7MLLUVLSUL",
+     "item_variation_data": {
+      "item_id": "JWCUOV36MAMO3X3VRC4SUJ4W",
+      "name": "normal",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "SKBHW4KASOPNEDUUZJQGV7UW",
+     "item_variation_data": {
+      "item_id": "JWCUOV36MAMO3X3VRC4SUJ4W",
+      "name": "half",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
