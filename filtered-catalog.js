@@ -256,15 +256,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OCSZP3UP46J3TQNDST27XJSI",
-     "modifier_data": {
-      "name": "gingerbread person",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
      "modifier_data": {
       "name": "SMOL-lows (house-made baby mallows) (gf)",
@@ -7633,15 +7624,6 @@ var catalog_raw=[
   "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
   "modifier_data": {
    "name": "cream cheese frosting (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "OCSZP3UP46J3TQNDST27XJSI",
-  "modifier_data": {
-   "name": "gingerbread person",
    "price_money": {
     "amount": 75
    }
