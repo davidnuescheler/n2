@@ -3146,6 +3146,15 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "NXFEXXC2RBPA5P762A4WZO6B",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -8168,6 +8177,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "NXFEXXC2RBPA5P762A4WZO6B",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
