@@ -5198,16 +5198,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "LP6YPIV3T4E7CYW5XJVBL6PA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RA4PEKHUMQ53WUNKE7R4SDAU",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5218,10 +5208,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GUBGIHUT2CVA63O55D47FLLP",
+     "id": "B63ISALUIENV5X7OK4UI4MFR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + ube TWIST (gf)",
+      "name": "molasses (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5232,16 +5222,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "B63ISALUIENV5X7OK4UI4MFR",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "molasses (gf)",
       "price_money": {
        "amount": 0
       }
