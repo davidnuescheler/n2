@@ -5569,9 +5569,9 @@ var catalog_raw=[
      "id": "7PMJRNYGB53ZLIO26HQ2X4CW",
      "item_variation_data": {
       "item_id": "WJCKJUSABNGDOGANNOS27XHM",
-      "name": "small",
+      "name": "select your size",
       "price_money": {
-       "amount": 4000
+       "amount": 0
       }
      }
     },
@@ -5580,16 +5580,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "WJCKJUSABNGDOGANNOS27XHM",
       "name": "medium",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "3R37HTHJ2PQWVR2QACUL66ON",
-     "item_variation_data": {
-      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
-      "name": "large",
       "price_money": {
        "amount": 4000
       }
