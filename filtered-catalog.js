@@ -5576,16 +5576,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RPJON65NPJW3J3HXEYG2V43P",
-     "item_variation_data": {
-      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
-      "name": "medium",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
      "id": "V6Q6IO5DPQ7VU4N4KP3ORMEO",
      "item_variation_data": {
       "item_id": "WJCKJUSABNGDOGANNOS27XHM",
