@@ -1081,8 +1081,11 @@ select:disabled:hover, select[aria-disabled=true] {
 
 #form-container .third:last-of-type {
     margin-right: 0;
-    }
+}
 
+#giftcard-form, #creditcard-form {
+    margin-top: 16px;
+} 
 
 /* Define how SqPaymentForm iframes should look */
 .sq-input {
@@ -1111,7 +1114,7 @@ select:disabled:hover, select[aria-disabled=true] {
 
 #sq-card-number {
     margin-bottom: 16px;
-    }
+}
 
 /* Customize the "Pay with Credit Card" button */
 #form-container .button-credit-card {

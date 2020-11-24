@@ -1151,118 +1151,214 @@ var paymentForm;
 function initPaymentForm() {
         
     // Create and initialize a payment form object
-        paymentForm = new SqPaymentForm({
-            // Initialize the payment form elements
-            
-            applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
-            locationId: storeLocations[storeLocation].locationId,
+    paymentForm = new SqPaymentForm({
+        // Initialize the payment form elements
+        
+        applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+        locationId: storeLocations[storeLocation].locationId,
 
-            inputClass: 'sq-input',
-            autoBuild: false,
-            // Customize the CSS for SqPaymentForm iframe elements
-            inputStyles: [{
-                fontFamily: 'sans-serif',
-                fontSize: '16px',
-                lineHeight: '24px',
-                padding: '16px',
-                placeholderColor: '#a0a0a0',
-                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
-                backgroundColor: 'transparent',
-            }],
-            // Initialize the credit card placeholders
-            cardNumber: {
-                elementId: 'sq-card-number',
-                placeholder: 'Card Number'
-            },
-            cvv: {
-                elementId: 'sq-cvv',
-                placeholder: 'CVV'
-            },
-            expirationDate: {
-                elementId: 'sq-expiration-date',
-                placeholder: 'MM/YY'
-            },
-            postalCode: {
-                elementId: 'sq-postal-code',
-                placeholder: 'Postal'
-            },
-            
-            // SqPaymentForm callback functions
-            callbacks: {
-                /*
-                * callback function: cardNonceResponseReceived
-                * Triggered when: SqPaymentForm completes a card nonce request
-                */
-                cardNonceResponseReceived: function (errors, nonce, cardData) {
-                if (errors) {
-                    // Log errors from nonce generation to the browser developer console.   
-                    console.error('Encountered errors:');
-                    errors.forEach(function (error) {
-                        alert(error.message);
-                        console.error('  ' + error.message);
-                    });
+        inputClass: 'sq-input',
+        autoBuild: false,
+        // Customize the CSS for SqPaymentForm iframe elements
+        inputStyles: [{
+            fontFamily: 'sans-serif',
+            fontSize: '16px',
+            lineHeight: '24px',
+            padding: '16px',
+            placeholderColor: '#a0a0a0',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
+            backgroundColor: 'transparent',
+        }],
+        // Initialize the credit card placeholders
+        cardNumber: {
+            elementId: 'sq-card-number',
+            placeholder: 'Card Number'
+        },
+        cvv: {
+            elementId: 'sq-cvv',
+            placeholder: 'CVV'
+        },
+        expirationDate: {
+            elementId: 'sq-expiration-date',
+            placeholder: 'MM/YY'
+        },
+        postalCode: {
+            elementId: 'sq-postal-code',
+            placeholder: 'Postal'
+        },
+        
+        // SqPaymentForm callback functions
+        callbacks: {
+            /*
+            * callback function: cardNonceResponseReceived
+            * Triggered when: SqPaymentForm completes a card nonce request
+            */
+            cardNonceResponseReceived: function (errors, nonce, cardData) {
+            if (errors) {
+                // Log errors from nonce generation to the browser developer console.   
+                console.error('Encountered errors:');
+                errors.forEach(function (error) {
+                    alert(error.message);
+                    console.error('  ' + error.message);
+                });
+                submittingPayment=false;
+                return;
+            }
+            //    console.log(`The generated nonce is:\n${nonce}`);
+    
+                var tipAmount=getTip();
+    
+                var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
+    
+                fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
+                    method: 'GET',
+                    headers: {
+                    'Accept': 'application/json',
+                    }
+                })
+                .catch(err => {
+                    alert('Network error: ' + err);
                     submittingPayment=false;
+                })
+                .then(response => {
+                    if (!response.ok) {
+                    return response.text().then(errorInfo => Promise.reject(errorInfo));
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                //   console.log(data);
+                    var obj=JSON.parse(data);
+                    if (typeof obj.errors != "undefined") {
+                        var message='Payment failed to complete!\nCheck browser developer console for more details';
+                        if (obj.errors[0].category=='PAYMENT_METHOD_ERROR') {
+                            message='Credit Card declined, please check your entries';
+                        }
+                        if (obj.errors[0].code =='CVV_FAILURE') {
+                        message='Credit Card declined, please check your CVV';
+                        }
+                        if (obj.errors[0].code =='PAN_FAILURE') {
+                        message='Credit Card declined, please check your card number';
+                        }
+
+                        if (obj.errors[0].code =='VOICE_FAILURE') {
+                        message='Credit Card declined, issuer requires voice authorization, try a different card';
+                        }
+
+                        if (obj.errors[0].code =='TRANSACTION_LIMIT') {
+                        message='Credit Card declined, limit exceeded';
+                        }
+
+                        alert(message);
+                    submittingPayment=false;
+                    } else {
+                    displayThanks(obj.payment);
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                });          
+                }
+        }
+    });
+    
+    paymentForm.build();      
+}
+
+var giftCardForm;
+
+function initGiftCardForm() {
+
+    giftCardForm = new SqPaymentForm({
+        applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+        locationId: storeLocations[storeLocation].locationId,
+
+        inputClass: 'sq-input',
+
+        giftCard: {
+          elementId: 'sq-gift-card',
+          placeholder: "* * * *  * * * *  * * * *  * * * *"
+        },
+
+        inputStyles: [{
+            fontFamily: 'sans-serif',
+            fontSize: '16px',
+            lineHeight: '24px',
+            padding: '16px',
+            placeholderColor: '#a0a0a0',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
+            backgroundColor: 'transparent',
+        }],
+
+        callbacks: {
+          cardNonceResponseReceived: function (errors, nonce, paymentData, contacts) {
+            if (errors) {
+          //   Log errors from nonce generation to the browser developer console.
+              console.error('Encountered errors on gift card nonce received:');
+              errors.forEach(function (error) {
+                console.error('  ' + error.message);
+              });
+              alert('Encountered errors, check console for more details');
+              return;
+            } 
+
+            var tipAmount=getTip();
+      
+            var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;
+
+            fetch(storeLocations[storeLocation].endpoint + "?" + qs, {
+              method: "GET",
+              headers: {
+                Accept: "application/json",
+              },
+            })
+            .catch((err) => {
+                alert("Network error: " + err);
+                submittingPayment = false;
+            })
+            .then((response) => {
+                if (!response.ok) {
+                  return response
+                    .text()
+                    .then((errorInfo) => Promise.reject(errorInfo));
+                }
+                if (response.status !== undefined && response.status === "'FAILED`") {
+                    alert('Card denied:' + response.errors[0].code);
                     return;
                 }
-                //    console.log(`The generated nonce is:\n${nonce}`);
-      
-                   var tipAmount=getTip();
-      
-                   var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
-      
-                   fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
-                      method: 'GET',
-                      headers: {
-                        'Accept': 'application/json',
-                      }
-                    })
-                    .catch(err => {
-                      alert('Network error: ' + err);
-                      submittingPayment=false;
-                    })
-                    .then(response => {
-                      if (!response.ok) {
-                        return response.text().then(errorInfo => Promise.reject(errorInfo));
-                      }
-                      return response.text();
-                    })
-                    .then(data => {
-                    //   console.log(data);
-                      var obj=JSON.parse(data);
-                      if (typeof obj.errors != "undefined") {
-                          var message='Payment failed to complete!\nCheck browser developer console for more details';
-                          if (obj.errors[0].category=='PAYMENT_METHOD_ERROR') {
-                              message='Credit Card declined, please check your entries';
-                          }
-                          if (obj.errors[0].code =='CVV_FAILURE') {
-                            message='Credit Card declined, please check your CVV';
-                          }
-                          if (obj.errors[0].code =='PAN_FAILURE') {
-                            message='Credit Card declined, please check your card number';
-                          }
+                //If there is a balance remaining on the purchase, collect a
+                // credit or debit card and pass the ID of the Order so that the
+                //payment card nonce is posted in the context of the order
+                if ( response.balance !== undefined && response.balance > 0) {
+                  //Notify buyer of remaining balance and ask for another card.
+                  alert('Gift card authorized. Additional payment of '
+                  + response.balance  + 'needed.');
+                }
+                return response.text();
+            })
+            .then((data) => {
+                //   console.log(data);
+                var obj = JSON.parse(data);
+                if (typeof obj.errors != "undefined") {
+                  var message =
+                    "Payment failed to complete!\nCheck browser developer console for more details";
 
-                          if (obj.errors[0].code =='VOICE_FAILURE') {
-                            message='Credit Card declined, issuer requires voice authorization, try a different card';
-                          }
+                  alert(message);
+                  submittingPayment = false;
+                } else {
+                  displayThanks(obj.payment);
+                }
+            })
+            .catch((err) => {
+                console.error(err);
+            }); 
+            
+          }
+        }
+    });
+    
+    giftCardForm.build();
 
-                          if (obj.errors[0].code =='TRANSACTION_LIMIT') {
-                            message='Credit Card declined, limit exceeded';
-                          }
-
-                          alert(message);
-                        submittingPayment=false;
-                      } else {
-                        displayThanks(obj.payment);
-                      }
-                    })
-                    .catch(err => {
-                      console.error(err);
-                    });          
-                  }
-            }
-          });
-      
-          paymentForm.build();      
 }
 
 function onGetCardNonce(event) {
@@ -1271,7 +1367,30 @@ function onGetCardNonce(event) {
         event.preventDefault();
         paymentForm.requestCardNonce();    
     }
-  }
+}
+
+function submitGiftCardClick(event) {
+    if (!submittingPayment) {
+        submittingPayment=true;
+        event.preventDefault();
+        giftCardForm.requestCardNonce();    
+    }
+}
+
+function togglePaymentOptions() {
+    const $giftCardBox = document.getElementById('pay-with-gift-card');
+
+    const $giftCardForm = document.getElementById('giftcard-form');
+    const $creditCardForm = document.getElementById('creditcard-form');
+
+    if ($giftCardBox.checked) {
+        $giftCardForm.classList.remove('hidden');
+        $creditCardForm.classList.add('hidden');
+    } else {
+        $creditCardForm.classList.remove('hidden');
+        $giftCardForm.classList.add('hidden');
+    }
+}
 
 storeLocation="";
 // TODO: find out why opening and closing hours are nested in "openingHours" obj
@@ -1585,8 +1704,18 @@ function displayOrder(o) {
 
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
+
+    // if credit card
     initPaymentForm();
-    if (storeLocation =='lab') document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
+
+    // if gift card
+    initGiftCardForm();
+
+    if (storeLocation =='lab') {
+        const readyText = 'i am here, ready to pick-up my order';
+        document.getElementById('sq-creditcard').innerHTML = readyText;
+        document.getElementById('sq-giftcard').innerHTML = readyText;
+    }
 }
 
 
@@ -1717,7 +1846,7 @@ function initCart() {
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr>
-                        <input id="delivery-city" type="text" value="salt lake city" readonly>
+                        <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
                         <select id="delivery-zip" onchange="setZipColor()">
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
@@ -1754,15 +1883,26 @@ function initCart() {
                 </select></div>
                 <div id="form-container">
                     <div class="wegotyourorder warning hidden">
-                    <p>${labels.checkout_ready}</p>
-                    <p>${labels.checkout_callyourname}</p>
+                        <p>${labels.checkout_ready}</p>
+                        <p>${labels.checkout_callyourname}</p>
                     </div>
+                    <div class="giftcardcheckbox">
+                        <input type="checkbox" id="pay-with-gift-card" name="pay-with-gift-card" onclick="togglePaymentOptions()">
+                        <label for="pay-with-gift-card">pay with gift card?</label>
+                    </div>
+                    <div id="giftcard-form" class="hidden">
+                    <p>we are working on getting partial payments set up, but right now we can only process gift card payments for the full order amount!</p>
+                    <div id="sq-gift-card"></div>
+                    <button id="sq-giftcard" class="button-credit-card" onclick="submitGiftCardClick(event)">pay</button>
+                    </div>
+                    <div id="creditcard-form">
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
                     <div class="third" id="sq-cvv"></div>
                     <div class="third" id="sq-postal-code"></div>
                     <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
                     <button id="sq-apple-pay"></button>
+                    </div>
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
