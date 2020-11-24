@@ -1717,7 +1717,7 @@ function initCart() {
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr>
-                        <input id="delivery-city" type="text" value="salt lake city" readonly>
+                        <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
                         <select id="delivery-zip" onchange="setZipColor()">
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
