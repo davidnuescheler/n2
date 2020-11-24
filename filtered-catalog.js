@@ -2160,24 +2160,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "T5UMYHXCEXCZEOC7BY2ZZM2K",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PBLX77QECOC5XVWVE3UGNMTZ",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "oatmeal cookie (v)",
@@ -3115,24 +3097,6 @@ var catalog_raw=[
      "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
      "modifier_data": {
       "name": "molasses (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "DLTEM6NQ4Q4OATHLSRCJTARZ",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "B3G5M44MLZO2OFIU4FIPE2OY",
-     "modifier_data": {
-      "name": "chocolate + molasses TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5239,16 +5203,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MMGQPGU64Q47SEPW3LBBGOLZ",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8123,42 +8077,6 @@ var catalog_raw=[
    "name": "dulcey",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "B3G5M44MLZO2OFIU4FIPE2OY",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "DLTEM6NQ4Q4OATHLSRCJTARZ",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "T5UMYHXCEXCZEOC7BY2ZZM2K",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "PBLX77QECOC5XVWVE3UGNMTZ",
-  "modifier_data": {
-   "name": "chocolate + molasses TWIST (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
