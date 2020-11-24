@@ -8146,7 +8146,7 @@ var catalog_raw=[
   "id": "GF63I7QIHZU2LMWRU52UBEKF",
   "type": "CATEGORY",
   "category_data": {
-   "name": "checkout items production"
+   "name": "checkout items delivery"
   }
  }
 ]
