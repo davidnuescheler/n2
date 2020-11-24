@@ -8153,7 +8153,7 @@ var catalog_raw=[
   "id": "QDAJNWYP3PGYB7Y7Z3WPOPVV",
   "type": "CATEGORY",
   "category_data": {
-   "name": "checkout items lab"
+   "name": "checkout items truck"
   }
  },
  {
