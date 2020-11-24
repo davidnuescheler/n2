@@ -8148,5 +8148,32 @@ var catalog_raw=[
   "category_data": {
    "name": "checkout items delivery"
   }
+ },
+ {
+  "id": "QDAJNWYP3PGYB7Y7Z3WPOPVV",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "checkout items lab"
+  }
+ },
+ {
+  "id": "6R43XJRO2YZ4TBBEKJX4EK2E",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lactaid",
+   "category_id": "QDAJNWYP3PGYB7Y7Z3WPOPVV",
+   "variations": [
+    {
+     "id": "RB26UAZPVWH6YEWWXTWLSTDP",
+     "item_variation_data": {
+      "item_id": "6R43XJRO2YZ4TBBEKJX4EK2E",
+      "name": "one lactaid pill",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
  }
 ]
