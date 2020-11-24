@@ -3326,8 +3326,8 @@ var catalog_raw=[
   "id": "MFGGON3VZVXZLI65QKNGPDQF",
   "type": "ITEM",
   "item_data": {
-   "name": "make it a NORMAL® day baggu bag",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "name": "make it a NORMAL® day reusable BAGGU bag",
+   "category_id": "GF63I7QIHZU2LMWRU52UBEKF",
    "variations": [
     {
      "id": "4KCKUPIMNL6RJEC3VQJ3KMPG",
@@ -8140,6 +8140,13 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "GF63I7QIHZU2LMWRU52UBEKF",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "checkout items production"
   }
  }
 ]
