@@ -1527,7 +1527,7 @@ var catalog_raw=[
      "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA meaza",
+      "name": "ETHIOPIA anbessa",
       "price_money": {
        "amount": 1600
       }
@@ -1537,7 +1537,7 @@ var catalog_raw=[
      "id": "EJSWHFOW55CX7EYSENXAKVOU",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "KENYA mr. david mburu",
+      "name": "COLOMBIA robinson figueroa",
       "price_money": {
        "amount": 1600
       }
