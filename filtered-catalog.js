@@ -8211,5 +8211,12 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "QV6ROBZGH5OBVCSBJDVHP4CQ",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "welovesmall"
+  }
  }
 ]
