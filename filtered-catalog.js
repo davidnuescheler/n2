@@ -1524,6 +1524,16 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
+     "id": "EXSYWK42GHQENHXOB7QT5MGZ",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "select your varietal",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
@@ -1548,16 +1558,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "NICARAGUA bella aurora",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "EXSYWK42GHQENHXOB7QT5MGZ",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATAMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
