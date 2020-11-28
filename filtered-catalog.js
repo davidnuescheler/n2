@@ -5511,9 +5511,9 @@ var catalog_raw=[
      "id": "WSSCO4XDPGYGNSJLQA2IPX4T",
      "item_variation_data": {
       "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
-      "name": "medium",
+      "name": "select your size",
       "price_money": {
-       "amount": 4000
+       "amount": 0
       }
      }
     },
