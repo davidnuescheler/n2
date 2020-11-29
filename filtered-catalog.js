@@ -5275,6 +5275,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "63YBKPGCO3BO3CZCEBEM7WWZ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5A4RQGOYY37S5HT3M35BPPG6",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + molasses",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
