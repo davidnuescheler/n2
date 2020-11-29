@@ -3078,7 +3078,7 @@ var catalog_raw=[
     {
      "id": "DAU35H5KFM55Z6QFODCQIDBK",
      "modifier_data": {
-      "name": "no soft serve",
+      "name": "make it a float :)",
       "price_money": {
        "amount": 0
       }
@@ -3663,7 +3663,7 @@ var catalog_raw=[
  {
   "id": "DAU35H5KFM55Z6QFODCQIDBK",
   "modifier_data": {
-   "name": "no soft serve",
+   "name": "make it a float :)",
    "price_money": {
     "amount": 0
    }
