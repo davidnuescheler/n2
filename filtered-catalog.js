@@ -103,15 +103,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "76YYUC5BJ7AHK5SGDXGO4X6L",
-     "modifier_data": {
-      "name": "coffee ganache (v)(gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "DXT3HMOZHHE366QHHE2QQQLW",
      "modifier_data": {
       "name": "streusel crumble (v)",
@@ -7515,15 +7506,6 @@ var catalog_raw=[
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
    "name": "chocolate shortbread crumb",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "76YYUC5BJ7AHK5SGDXGO4X6L",
-  "modifier_data": {
-   "name": "coffee ganache (v)(gf)",
    "price_money": {
     "amount": 75
    }
