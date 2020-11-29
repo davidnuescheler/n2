@@ -202,15 +202,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
-     "modifier_data": {
-      "name": "toasted meringue bits (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
       "name": "ube cake",
@@ -5321,15 +5312,6 @@ var catalog_raw=[
   "id": "J3Z4PLUU34QDCAA36N6FNCX4",
   "modifier_data": {
    "name": "pandan mallow fluff (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "LE7KLXCOOGLQH6X2NDR5JVEM",
-  "modifier_data": {
-   "name": "toasted meringue bits (gf)",
    "price_money": {
     "amount": 75
    }
