@@ -281,6 +281,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "76XYE332AAIWLHY4NG4WQJFX",
+     "modifier_data": {
+      "name": "toasted meringue",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8199,6 +8208,15 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "welovesmall"
+  }
+ },
+ {
+  "id": "76XYE332AAIWLHY4NG4WQJFX",
+  "modifier_data": {
+   "name": "toasted meringue",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
