@@ -195,7 +195,7 @@ var catalog_raw=[
     {
      "id": "J3Z4PLUU34QDCAA36N6FNCX4",
      "modifier_data": {
-      "name": "pandan mallow fluff (gf)",
+      "name": "cinnamon bears",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +204,7 @@ var catalog_raw=[
     {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
-      "name": "ube cake",
+      "name": "white chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
      "modifier_data": {
-      "name": "berry compote (v) (gf)",
+      "name": "brownie bits",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +222,7 @@ var catalog_raw=[
     {
      "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
      "modifier_data": {
-      "name": "brown sugar oat crumble (v)",
+      "name": "olive oil cake",
       "price_money": {
        "amount": 75
       }
@@ -231,7 +231,7 @@ var catalog_raw=[
     {
      "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
      "modifier_data": {
-      "name": "gingersnap cookie bits",
+      "name": "olive oil jam (gf)",
       "price_money": {
        "amount": 75
       }
@@ -240,7 +240,7 @@ var catalog_raw=[
     {
      "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
      "modifier_data": {
-      "name": "cream cheese frosting (gf)",
+      "name": "olive oil powder (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -249,7 +249,7 @@ var catalog_raw=[
     {
      "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
      "modifier_data": {
-      "name": "SMOL-lows (house-made baby mallows) (gf)",
+      "name": "oatmeal streusel (v)",
       "price_money": {
        "amount": 75
       }
@@ -258,7 +258,7 @@ var catalog_raw=[
     {
      "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
      "modifier_data": {
-      "name": "peppermint candy crumb",
+      "name": "house-made pear jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -267,7 +267,7 @@ var catalog_raw=[
     {
      "id": "Z3AAIBRI772VWXK3CADEZSMU",
      "modifier_data": {
-      "name": "strawberry cotton candy",
+      "name": "vegan mallow! (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -276,16 +276,7 @@ var catalog_raw=[
     {
      "id": "62NPDWQFYWUSVSQ426GQVQH5",
      "modifier_data": {
-      "name": "butter cake",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "76XYE332AAIWLHY4NG4WQJFX",
-     "modifier_data": {
-      "name": "toasted meringue",
+      "name": "graham crumb (v)",
       "price_money": {
        "amount": 75
       }
@@ -5246,7 +5237,7 @@ var catalog_raw=[
      "id": "E5BWUGIDKT2BEASPZGWRX4IM",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5256,7 +5247,7 @@ var catalog_raw=[
      "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "oatmeal cookie (v)",
+      "name": "burlap + barrel cinnamon (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5266,7 +5257,7 @@ var catalog_raw=[
      "id": "GDCJDQA6ZKGKMI5BH4PIN25H",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "cranberry sorbet (v) (gf)",
+      "name": "vanilla + cinnamon TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5276,7 +5267,57 @@ var catalog_raw=[
      "id": "2MW6RZWD27E4B7VP3TB7CCKO",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "oatmeal cookie + cranberry TWIST (v)",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MK3IXFEMXJUJCOSI2UGEP6GG",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "fresh mint (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5GRRZWU76SBWPLM7NMNARCRA",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + mint TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "OLPBJSYZCDZL5MRRMR3PWJEF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "O3NZVD56FT2CJBTYX6QUKKG5",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "pear sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GMEI5ESCD3XTTR4J5MMHOBY7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "dark chocolate + pear TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5326,7 +5367,7 @@ var catalog_raw=[
  {
   "id": "J3Z4PLUU34QDCAA36N6FNCX4",
   "modifier_data": {
-   "name": "pandan mallow fluff (gf)",
+   "name": "cinnamon bears",
    "price_money": {
     "amount": 75
    }
@@ -5335,7 +5376,7 @@ var catalog_raw=[
  {
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
-   "name": "ube cake",
+   "name": "white chocolate ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6393,7 +6434,7 @@ var catalog_raw=[
  {
   "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
   "modifier_data": {
-   "name": "berry compote (v) (gf)",
+   "name": "brownie bits",
    "price_money": {
     "amount": 75
    }
@@ -7500,7 +7541,7 @@ var catalog_raw=[
  {
   "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
   "modifier_data": {
-   "name": "brown sugar oat crumble (v)",
+   "name": "olive oil cake",
    "price_money": {
     "amount": 75
    }
@@ -7509,7 +7550,7 @@ var catalog_raw=[
  {
   "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
   "modifier_data": {
-   "name": "gingersnap cookie bits",
+   "name": "olive oil jam (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7518,7 +7559,7 @@ var catalog_raw=[
  {
   "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
   "modifier_data": {
-   "name": "cream cheese frosting (gf)",
+   "name": "olive oil powder (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7527,7 +7568,7 @@ var catalog_raw=[
  {
   "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
   "modifier_data": {
-   "name": "SMOL-lows (house-made baby mallows) (gf)",
+   "name": "oatmeal streusel (v)",
    "price_money": {
     "amount": 75
    }
@@ -7536,7 +7577,7 @@ var catalog_raw=[
  {
   "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
   "modifier_data": {
-   "name": "peppermint candy crumb",
+   "name": "house-made pear jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7545,7 +7586,7 @@ var catalog_raw=[
  {
   "id": "Z3AAIBRI772VWXK3CADEZSMU",
   "modifier_data": {
-   "name": "strawberry cotton candy",
+   "name": "vegan mallow! (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7554,7 +7595,7 @@ var catalog_raw=[
  {
   "id": "62NPDWQFYWUSVSQ426GQVQH5",
   "modifier_data": {
-   "name": "butter cake",
+   "name": "graham crumb (v)",
    "price_money": {
     "amount": 75
    }
@@ -8142,15 +8183,6 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "welovesmall"
-  }
- },
- {
-  "id": "76XYE332AAIWLHY4NG4WQJFX",
-  "modifier_data": {
-   "name": "toasted meringue",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
