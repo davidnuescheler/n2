@@ -58,36 +58,27 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WQFKEJFKIHIESMNUORMAE33V",
-     "modifier_data": {
-      "name": "lavender ganache (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
-     "modifier_data": {
-      "name": "bergamot cotton candy (v)(gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "DSXPCLH47QHLKQ644PWDHIKJ",
      "modifier_data": {
-      "name": "passion fruit NORMAL dots! (v) (gf)",
+      "name": "molasses NORMAL dots! (gf)",
       "price_money": {
        "amount": 150
       }
      }
     },
     {
+     "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
+     "modifier_data": {
+      "name": "coffee ganache (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
      "modifier_data": {
-      "name": "cookie butter (v)",
+      "name": "cotton candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +87,7 @@ var catalog_raw=[
     {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
-      "name": "chocolate shortbread crumb",
+      "name": "gingersnap cookie crumb",
       "price_money": {
        "amount": 75
       }
@@ -105,7 +96,7 @@ var catalog_raw=[
     {
      "id": "DXT3HMOZHHE366QHHE2QQQLW",
      "modifier_data": {
-      "name": "streusel crumble (v)",
+      "name": "housemade graham crumb",
       "price_money": {
        "amount": 75
       }
@@ -114,7 +105,7 @@ var catalog_raw=[
     {
      "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
      "modifier_data": {
-      "name": "coconut jam (v)(gf)",
+      "name": "mallow fluff (gf)",
       "price_money": {
        "amount": 75
       }
@@ -123,7 +114,25 @@ var catalog_raw=[
     {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "cookie dough bits",
+      "name": "olive oil powder (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
+     "modifier_data": {
+      "name": "shortbread cookie crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "JEC2NU57MRPFUBQNRUTACTYW",
+     "modifier_data": {
+      "name": "whipped cream (gf)",
       "price_money": {
        "amount": 75
       }
@@ -5561,7 +5570,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "passion fruit NORMAL dots! (v) (gf)",
+   "name": "molasses NORMAL dots! (gf)",
    "price_money": {
     "amount": 150
    }
@@ -6231,7 +6240,7 @@ var catalog_raw=[
  {
   "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
   "modifier_data": {
-   "name": "bergamot cotton candy (v)(gf)",
+   "name": "coffee ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6324,15 +6333,6 @@ var catalog_raw=[
    "name": "dark chocolate",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "WQFKEJFKIHIESMNUORMAE33V",
-  "modifier_data": {
-   "name": "lavender ganache (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
@@ -7374,7 +7374,7 @@ var catalog_raw=[
  {
   "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
   "modifier_data": {
-   "name": "cookie butter (v)",
+   "name": "cotton candy (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7383,7 +7383,7 @@ var catalog_raw=[
  {
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
-   "name": "chocolate shortbread crumb",
+   "name": "gingersnap cookie crumb",
    "price_money": {
     "amount": 75
    }
@@ -7392,7 +7392,7 @@ var catalog_raw=[
  {
   "id": "DXT3HMOZHHE366QHHE2QQQLW",
   "modifier_data": {
-   "name": "streusel crumble (v)",
+   "name": "housemade graham crumb",
    "price_money": {
     "amount": 75
    }
@@ -7401,7 +7401,7 @@ var catalog_raw=[
  {
   "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
   "modifier_data": {
-   "name": "coconut jam (v)(gf)",
+   "name": "mallow fluff (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7927,7 +7927,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "cookie dough bits",
+   "name": "olive oil powder (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8058,6 +8058,24 @@ var catalog_raw=[
   "id": "76XYE332AAIWLHY4NG4WQJFX",
   "modifier_data": {
    "name": "toasted meringue",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
+  "modifier_data": {
+   "name": "shortbread cookie crumb",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "JEC2NU57MRPFUBQNRUTACTYW",
+  "modifier_data": {
+   "name": "whipped cream (gf)",
    "price_money": {
     "amount": 75
    }
