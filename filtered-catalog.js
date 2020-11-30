@@ -618,7 +618,7 @@ var catalog_raw=[
     {
      "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
      "modifier_data": {
-      "name": "keep it normal :)",
+      "name": "keep it 1 shot",
       "price_money": {
        "amount": 0
       }
@@ -1640,7 +1640,7 @@ var catalog_raw=[
      "id": "26M7MLC4QYIIDOWSE6TPYLCP",
      "item_variation_data": {
       "item_id": "5EXPUENA3LB5EEDUAQEF6E6M",
-      "name": "Regular",
+      "name": "one shot espresso",
       "price_money": {
        "amount": 300
       }
@@ -3036,13 +3036,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "SVPOABGRHX76X2UECZ3ZVC4L",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/d3c3fbf64d05c21408f2cbb2eb046a341f283fef/original.jpeg"
-  }
- },
- {
   "id": "7ZWFQMJ7762E3HNXC4XI4UXU",
   "type": "ITEM",
   "item_data": {
@@ -3075,8 +3068,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "SVPOABGRHX76X2UECZ3ZVC4L"
+  }
  },
  {
   "id": "LPZTD3WMASMFYAJTC5YNFWP2",
@@ -3087,7 +3079,7 @@ var catalog_raw=[
     {
      "id": "DAU35H5KFM55Z6QFODCQIDBK",
      "modifier_data": {
-      "name": "make it a float :)",
+      "name": "make it a float 🍦",
       "price_money": {
        "amount": 0
       }
@@ -3699,7 +3691,7 @@ var catalog_raw=[
  {
   "id": "DAU35H5KFM55Z6QFODCQIDBK",
   "modifier_data": {
-   "name": "make it a float :)",
+   "name": "make it a float 🍦",
    "price_money": {
     "amount": 0
    }
@@ -6416,15 +6408,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LF2Z76IGSFZB3TCVBLUZFGA6",
-     "modifier_data": {
-      "name": "iced",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RIH5N3SG34VD4OI3FFZIG4DC",
      "modifier_data": {
       "name": "kid's temp!",
@@ -6440,15 +6423,6 @@ var catalog_raw=[
   "id": "K3WSIMSHUNDZCUMLAHNHELYR",
   "modifier_data": {
    "name": "hot",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LF2Z76IGSFZB3TCVBLUZFGA6",
-  "modifier_data": {
-   "name": "iced",
    "price_money": {
     "amount": 0
    }
@@ -7195,7 +7169,7 @@ var catalog_raw=[
     {
      "id": "NLKKOTH4LYIU37MFWQP5WWMP",
      "modifier_data": {
-      "name": "keep it normal :)",
+      "name": "make it a ...",
       "price_money": {
        "amount": 0
       }
@@ -7204,7 +7178,7 @@ var catalog_raw=[
     {
      "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
      "modifier_data": {
-      "name": "make it a mocha!",
+      "name": "mocha!",
       "price_money": {
        "amount": 100
       }
@@ -7216,7 +7190,7 @@ var catalog_raw=[
  {
   "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
   "modifier_data": {
-   "name": "make it a mocha!",
+   "name": "mocha!",
    "price_money": {
     "amount": 100
    }
@@ -7324,7 +7298,7 @@ var catalog_raw=[
  {
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
-   "name": "keep it normal :)",
+   "name": "make it a ...",
    "price_money": {
     "amount": 0
    }
@@ -7333,7 +7307,7 @@ var catalog_raw=[
  {
   "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
   "modifier_data": {
-   "name": "keep it normal :)",
+   "name": "keep it 1 shot",
    "price_money": {
     "amount": 0
    }
@@ -7861,13 +7835,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "QV6ROBZGH5OBVCSBJDVHP4CQ",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "welovesmall"
   }
  },
  {
