@@ -5217,7 +5217,7 @@ var catalog_raw=[
   "id": "CVMOVN75J6NADSS7GEG4WMFW",
   "type": "ITEM",
   "item_data": {
-   "name": "soft serve",
+   "name": "store soft serve",
    "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
