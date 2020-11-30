@@ -5846,41 +5846,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ENF4M5HNVYKRF57ROHNCVSEI",
-  "type": "ITEM",
-  "item_data": {
-   "name": "friggin bats",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "FGOUWMTVKMNSL7F7ISBJQZGL",
-     "item_variation_data": {
-      "item_id": "ENF4M5HNVYKRF57ROHNCVSEI",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "QK234CYY4FKUD7MOE7FDUINP",
-     "item_variation_data": {
-      "item_id": "ENF4M5HNVYKRF57ROHNCVSEI",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "E3344GQTL3DXRR5UVVHNZIK4",
   "type": "ITEM",
   "item_data": {
@@ -5919,7 +5884,7 @@ var catalog_raw=[
   "id": "ZNZCC3MHAT5DMFLMEWYCZFA4",
   "type": "ITEM",
   "item_data": {
-   "name": "omnom crunch",
+   "name": "the tru fru",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5954,7 +5919,7 @@ var catalog_raw=[
   "id": "UH2FHMCSKGJ4NEN7RKO2NZSS",
   "type": "ITEM",
   "item_data": {
-   "name": "count chocula ah ah",
+   "name": "the nog",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6024,7 +5989,7 @@ var catalog_raw=[
   "id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
   "type": "ITEM",
   "item_data": {
-   "name": "trashberry™ reincarnate",
+   "name": "dirty chai",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6974,41 +6939,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "W7JHNNMUBUFA7J3J7MAMRVOX",
-  "type": "ITEM",
-  "item_data": {
-   "name": "u say sweet pot, we say ube",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "FRB5Y46EWAAK33YTFRBHTLDV",
-     "item_variation_data": {
-      "item_id": "W7JHNNMUBUFA7J3J7MAMRVOX",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "TRFBJ6LJU6XAFKCQQUHY64AY",
-     "item_variation_data": {
-      "item_id": "W7JHNNMUBUFA7J3J7MAMRVOX",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "25SQ7PZZNYERFM3NQNCTDFRT",
   "type": "ITEM",
   "item_data": {
@@ -7079,45 +7009,10 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5LKWO3AAOOIZPFR4DJ3EBRDD",
-  "type": "ITEM",
-  "item_data": {
-   "name": "frozen hot chocolate",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "HZDL6ZIOBQ2OWUATHOOQJVNR",
-     "item_variation_data": {
-      "item_id": "5LKWO3AAOOIZPFR4DJ3EBRDD",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "KEQUZZCFUQW54SS5C424JLZA",
-     "item_variation_data": {
-      "item_id": "5LKWO3AAOOIZPFR4DJ3EBRDD",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "UVY66VK6IHX6RH2MZWH2VV6K",
   "type": "ITEM",
   "item_data": {
-   "name": "london is foggy",
+   "name": "norm s'more",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -7149,45 +7044,10 @@ var catalog_raw=[
   }
  },
  {
-  "id": "7HMYNBEH6IKRYPOHQFJSLMGD",
-  "type": "ITEM",
-  "item_data": {
-   "name": "milk + cookies",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "356P2KZ2S62PEMRNPFFFNXK5",
-     "item_variation_data": {
-      "item_id": "7HMYNBEH6IKRYPOHQFJSLMGD",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "QP6B5KITCX6UIBHLU3GCJPJD",
-     "item_variation_data": {
-      "item_id": "7HMYNBEH6IKRYPOHQFJSLMGD",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "R6BH2ZCNT56RTTMGTKH55HG2",
   "type": "ITEM",
   "item_data": {
-   "name": "psl (v)",
+   "name": "pom pom (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -7222,7 +7082,7 @@ var catalog_raw=[
   "id": "XISA5FYI4ZPTWRISZ6OZ3CSB",
   "type": "ITEM",
   "item_data": {
-   "name": "mint condition",
+   "name": "mint condition cone",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
