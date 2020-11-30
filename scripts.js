@@ -1329,16 +1329,21 @@ function initGiftCardForm() {
                 //If there is a balance remaining on the purchase, collect a
                 // credit or debit card and pass the ID of the Order so that the
                 //payment card nonce is posted in the context of the order
+
+                // TODO: FIX -- this doesn't work!
+
                 if ( response.balance !== undefined && response.balance > 0) {
                   //Notify buyer of remaining balance and ask for another card.
                   alert('Gift card authorized. Additional payment of '
-                  + response.balance  + 'needed.');
+                  + response.balance + ' needed.');
                 }
+                
                 return response.text();
             })
             .then((data) => {
                 //   console.log(data);
                 var obj = JSON.parse(data);
+                console.log(`initGiftCardForm -> obj`, obj);
                 if (typeof obj.errors != "undefined") {
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
