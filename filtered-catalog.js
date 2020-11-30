@@ -8442,6 +8442,16 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "ZUEPHCBCY5DO6HD3BGW4TTXG",
+     "item_variation_data": {
+      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
+      "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
