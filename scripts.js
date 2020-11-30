@@ -1037,47 +1037,32 @@ function setPickupDates () {
 
         if (storeLocation === "delivery" && deliveryOptionsLength <= 1) {
 
-            // delivery 
-            let $pickupTimeEl = document.getElementById("pickup-time");
-            $pickupTimeEl.classList.add("hidden");
-            $pickupTimeEl.value = "n/a";
-
-            //setup for thanksgiving delivery
-            var wed = document.createElement("option");
-            wed.text = "wed, nov 25";
-            wed.value = "2020/11/25";
-
-            var thu = document.createElement("option");
-            thu.text = "thu, nov 26";
-            thu.value = "2020/11/26";
-
-            dateSelect.add(wed);
-            dateSelect.add(thu);
+            document.querySelector("#pickup-time").classList.add("hidden");
             
-            // while (i < window.labels.delivery_orderahead) {
-            //     let deliveryDate = day;
-            //     let deliveryMS = Date.parse(deliveryDate);
-            //     // deadline for delivery order is friday @ 5:00pm
-            //     let deadline = deliveryDate.setHours(17, 0, 0, 0); 
-            //     let option = document.createElement("option");
+            while (i < window.labels.delivery_orderahead) {
+                let deliveryDate = day;
+                let deliveryMS = Date.parse(deliveryDate);
+                // deadline for delivery order is friday @ 5:00pm
+                let deadline = deliveryDate.setHours(17, 0, 0, 0); 
+                let option = document.createElement("option");
 
-            //     if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
-            //         deliveryDate.setHours(17, 0, 0, 0);
-            //         option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
-            //         option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
-            //         dateSelect.add(option);
-            //         deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
-            //     } else {
-            //         // 5 = saturday, below
-            //         let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
-            //         let sat = new Date(deliveryDate.setDate(dt))
-            //         option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
-            //         option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
-            //         dateSelect.add(option);
-            //         deliveryDate.setDate(new Date(sat).getDate() + 1);
-            //     }
-            //     i++;
-            // }
+                if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
+                    deliveryDate.setHours(17, 0, 0, 0);
+                    option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
+                    option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
+                    dateSelect.add(option);
+                    deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
+                } else {
+                    // 5 = saturday, below
+                    let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
+                    let sat = new Date(deliveryDate.setDate(dt))
+                    option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
+                    option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
+                    dateSelect.add(option);
+                    deliveryDate.setDate(new Date(sat).getDate() + 1);
+                }
+                i++;
+            }
         } else {
             // not delivery
             while (i<storeLocations[storeLocation].orderAhead) {
@@ -1329,16 +1314,21 @@ function initGiftCardForm() {
                 //If there is a balance remaining on the purchase, collect a
                 // credit or debit card and pass the ID of the Order so that the
                 //payment card nonce is posted in the context of the order
+
+                // TODO: FIX -- this doesn't work!
+
                 if ( response.balance !== undefined && response.balance > 0) {
                   //Notify buyer of remaining balance and ask for another card.
                   alert('Gift card authorized. Additional payment of '
-                  + response.balance  + 'needed.');
+                  + response.balance + ' needed.');
                 }
+                
                 return response.text();
             })
             .then((data) => {
                 //   console.log(data);
                 var obj = JSON.parse(data);
+                console.log(`initGiftCardForm -> obj`, obj);
                 if (typeof obj.errors != "undefined") {
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
