@@ -2133,15 +2133,6 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "SEAOEWQP6UAQGF7FV55DQEJY",
-     "modifier_data": {
-      "name": "ube (purple sweet potato) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "QV2NYXATA4CBFL5GP7IHACBT",
      "modifier_data": {
       "name": "molasses (gf)",
@@ -2181,15 +2172,6 @@ var catalog_raw=[
      "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
      "modifier_data": {
       "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "HBA2CSQZHE6U6JY3XGP7QQ6T",
-     "modifier_data": {
-      "name": "ube + salted vanilla bean",
       "price_money": {
        "amount": 0
       }
@@ -3072,15 +3054,6 @@ var catalog_raw=[
       "name": "make it a float :)",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
-     "modifier_data": {
-      "name": "ube (purple sweet potato) (gf)",
-      "price_money": {
-       "amount": 300
       }
      }
     },
@@ -5198,26 +5171,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "RA4PEKHUMQ53WUNKE7R4SDAU",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "ube (purple sweet potato) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "B63ISALUIENV5X7OK4UI4MFR",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5252,16 +5205,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "X64O6YEYIGQXQYQ6BUULSWT4",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + ube",
       "price_money": {
        "amount": 0
       }
@@ -5384,24 +5327,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "BYOU5VK4BFZ2VZN45RAGNZ4C",
-  "modifier_data": {
-   "name": "ube (purple sweet potato) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "SEAOEWQP6UAQGF7FV55DQEJY",
-  "modifier_data": {
-   "name": "ube (purple sweet potato) (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -8139,15 +8064,6 @@ var catalog_raw=[
   "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
   "modifier_data": {
    "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HBA2CSQZHE6U6JY3XGP7QQ6T",
-  "modifier_data": {
-   "name": "ube + salted vanilla bean",
    "price_money": {
     "amount": 0
    }
