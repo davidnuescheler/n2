@@ -5846,41 +5846,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cherry garcia, but make it spooky",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "TRNAN3XKEDBGTCJNUR2TWNK6",
-     "item_variation_data": {
-      "item_id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "25GSND2OGZIJRFQMXTX7WMBM",
-     "item_variation_data": {
-      "item_id": "3BPO7ODBJBY5SMU67WQ3UPLQ",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "ENF4M5HNVYKRF57ROHNCVSEI",
   "type": "ITEM",
   "item_data": {
@@ -5916,49 +5881,14 @@ var catalog_raw=[
   }
  },
  {
-  "id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coco comb, but make it creepy",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "VT7D6SXCTHYDDAK53Y2BZWNM",
-     "item_variation_data": {
-      "item_id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "Q65BYHXB7ZWOQ2UVOFAIVLEA",
-     "item_variation_data": {
-      "item_id": "YZZEBKCHKPI5UYSVLLNPOCHQ",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "E3344GQTL3DXRR5UVVHNZIK4",
   "type": "ITEM",
   "item_data": {
-   "name": "bloooood orange julius",
+   "name": "all about olive",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -6059,11 +5989,11 @@ var catalog_raw=[
   "id": "OZACLK5YWDZJW6MWDQHTCTNC",
   "type": "ITEM",
   "item_data": {
-   "name": "anybody want a peanut?",
+   "name": "pear crisp (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -6116,41 +6046,6 @@ var catalog_raw=[
      "id": "RXECILNLZOQDEQK3OMNS5OTB",
      "item_variation_data": {
       "item_id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "EOS24UWBA2KDHXAH2RHW2NS6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "candy bar cone",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    }
-   ],
-   "variations": [
-    {
-     "id": "RUJYEBOEUBR3K6CTAKKG7OIV",
-     "item_variation_data": {
-      "item_id": "EOS24UWBA2KDHXAH2RHW2NS6",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "SJINSQMKG7IWBFEXJS3P3E4F",
-     "item_variation_data": {
-      "item_id": "EOS24UWBA2KDHXAH2RHW2NS6",
       "name": "normal size",
       "price_money": {
        "amount": 700
@@ -7117,7 +7012,7 @@ var catalog_raw=[
   "id": "25SQ7PZZNYERFM3NQNCTDFRT",
   "type": "ITEM",
   "item_data": {
-   "name": "berry crumble (v)",
+   "name": "s'mores, but make it vegan (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -7152,7 +7047,7 @@ var catalog_raw=[
   "id": "DH74CPQTGIBGTWAC7MCMCIZT",
   "type": "ITEM",
   "item_data": {
-   "name": "a ginger",
+   "name": "cinnamon bear",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -7209,41 +7104,6 @@ var catalog_raw=[
      "id": "KEQUZZCFUQW54SS5C424JLZA",
      "item_variation_data": {
       "item_id": "5LKWO3AAOOIZPFR4DJ3EBRDD",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "UI2Y2BB43DY4EALSB45D26N2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "bday cake",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "JI2YM2VQHXJ5KBONIDENOKQC",
-     "item_variation_data": {
-      "item_id": "UI2Y2BB43DY4EALSB45D26N2",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "O4N2MMFCOZH7ENBRHHVQJUM3",
-     "item_variation_data": {
-      "item_id": "UI2Y2BB43DY4EALSB45D26N2",
       "name": "normal size",
       "price_money": {
        "amount": 700
@@ -7362,11 +7222,11 @@ var catalog_raw=[
   "id": "XISA5FYI4ZPTWRISZ6OZ3CSB",
   "type": "ITEM",
   "item_data": {
-   "name": "apple crisp (v)",
+   "name": "mint condition",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -8071,41 +7931,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 100
    }
-  }
- },
- {
-  "id": "JWCUOV36MAMO3X3VRC4SUJ4W",
-  "type": "ITEM",
-  "item_data": {
-   "name": "bday cake",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
-   "variations": [
-    {
-     "id": "FEHCA5OVG7W2ZY7MLLUVLSUL",
-     "item_variation_data": {
-      "item_id": "JWCUOV36MAMO3X3VRC4SUJ4W",
-      "name": "normal",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "SKBHW4KASOPNEDUUZJQGV7UW",
-     "item_variation_data": {
-      "item_id": "JWCUOV36MAMO3X3VRC4SUJ4W",
-      "name": "half",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
   }
  },
  {
