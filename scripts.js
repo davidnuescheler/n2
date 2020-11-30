@@ -905,6 +905,9 @@ function setPickupTimes () {
 }
 
 function displayThanks(payment){
+
+    console.log(`displayThanks -> payment`, payment);
+    
     var cartEl=document.getElementById("cart");
     var $receipt;
 
@@ -1237,7 +1240,8 @@ function initPaymentForm() {
                         alert(message);
                     submittingPayment=false;
                     } else {
-                    displayThanks(obj.payment);
+                        console.log(`initPaymentForm -> obj`, obj);
+                        displayThanks(obj.payment);
                     }
                 })
                 .catch(err => {
@@ -1328,7 +1332,6 @@ function initGiftCardForm() {
             .then((data) => {
                 //   console.log(data);
                 var obj = JSON.parse(data);
-                console.log(`initGiftCardForm -> obj`, obj);
                 if (typeof obj.errors != "undefined") {
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
@@ -1336,7 +1339,8 @@ function initGiftCardForm() {
                   alert(message);
                   submittingPayment = false;
                 } else {
-                  displayThanks(obj.payment);
+                    console.log(`initGiftCardForm -> obj`, obj);
+                    displayThanks(obj.payment);
                 }
             })
             .catch((err) => {
@@ -1518,7 +1522,7 @@ async function submitOrder() {
         orderParams.now="yes";
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
-
+        orderParams.email_address = document.getElementById("email").value;
         //console.log(cart.line_items);
         
         // auto-add shipping to delivery orders
@@ -1768,6 +1772,7 @@ async function toggleCartDisplay() {
     // show delivery address for delivery orders
     if (storeLocation === "delivery") { 
         cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
+        document.getElementById("email").classList.remove("hidden"); 
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
@@ -1833,6 +1838,7 @@ function initCart() {
             <div class="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
+                <input id="email" type="email" placeholder="your email" class="hidden">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr>
