@@ -6376,14 +6376,14 @@ var catalog_raw=[
   "id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
   "type": "ITEM",
   "item_data": {
-   "name": "oooooh bae tea latte",
+   "name": "mint mocha",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+     "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
     }
    ],
    "variations": [
@@ -6393,7 +6393,7 @@ var catalog_raw=[
       "item_id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
       "name": "12 oz",
       "price_money": {
-       "amount": 500
+       "amount": 600
       }
      }
     }
@@ -7976,6 +7976,31 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
+  "type": "ITEM",
+  "item_data": {
+   "name": "house wassail",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
+    }
+   ],
+   "variations": [
+    {
+     "id": "WP6ISBBCOZPLVQ7TNFVDHVCD",
+     "item_variation_data": {
+      "item_id": "AHZS5TZHRP26TZJ2GDQYTWJI",
+      "name": "12oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
   }
  }
 ]
