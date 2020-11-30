@@ -1896,8 +1896,9 @@ function initCart() {
                         <label for="pay-with-gift-card">pay with gift card?</label>
                     </div>
                     <div id="giftcard-form" class="hidden">
+                    <p>we are working on getting partial payments set up, but right now we can only process gift card payments for the full order amount!</p>
                     <div id="sq-gift-card"></div>
-                    <button  id="sq-giftcard" class="button-credit-card" onclick="submitGiftCardClick(event)">pay</button>
+                    <button id="sq-giftcard" class="button-credit-card" onclick="submitGiftCardClick(event)">pay</button>
                     </div>
                     <div id="creditcard-form">
                     <div id="sq-card-number"></div>
