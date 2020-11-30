@@ -2142,15 +2142,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QV2NYXATA4CBFL5GP7IHACBT",
-     "modifier_data": {
-      "name": "molasses (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "oatmeal cookie (v)",
@@ -3061,15 +3052,6 @@ var catalog_raw=[
      "id": "NXFEXXC2RBPA5P762A4WZO6B",
      "modifier_data": {
       "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
-     "modifier_data": {
-      "name": "molasses (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5175,16 +5157,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "DKRMYCIZXFDNTZKY4V4CUQSG",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "molasses",
       "price_money": {
        "amount": 0
       }
@@ -7875,15 +7847,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
-  "modifier_data": {
-   "name": "molasses (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
   "modifier_data": {
    "name": "pint of ube ice cream",
@@ -7914,15 +7877,6 @@ var catalog_raw=[
   "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
   "modifier_data": {
    "name": "pint of molasses ice cream (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "QV2NYXATA4CBFL5GP7IHACBT",
-  "modifier_data": {
-   "name": "molasses (gf)",
    "price_money": {
     "amount": 0
    }
