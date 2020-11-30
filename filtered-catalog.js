@@ -6031,7 +6031,7 @@ var catalog_raw=[
   "id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "cone size",
+   "name": "STORE cone size",
    "modifiers": [
     {
      "id": "BXXV7SWWBXPULD3JNPTR63GL",
