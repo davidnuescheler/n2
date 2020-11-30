@@ -2133,6 +2133,15 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
+     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "QV2NYXATA4CBFL5GP7IHACBT",
      "modifier_data": {
       "name": "molasses (gf)",
@@ -2163,15 +2172,6 @@ var catalog_raw=[
      "id": "NFBWB7NRRENR2YARYKCFCVAQ",
      "modifier_data": {
       "name": "oatmeal cookie + cranberry TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
-     "modifier_data": {
-      "name": "salted vanilla bean",
       "price_money": {
        "amount": 0
       }
@@ -3058,6 +3058,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "NXFEXXC2RBPA5P762A4WZO6B",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "4HQTIDSXRQ7XVPLPKPBRC3DG",
      "modifier_data": {
       "name": "molasses (gf)",
@@ -3088,15 +3097,6 @@ var catalog_raw=[
      "id": "I5NZWOOTC6VXZLAMQGFFF2QV",
      "modifier_data": {
       "name": "oatmeal cookie + cranberry TWSIT (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "NXFEXXC2RBPA5P762A4WZO6B",
-     "modifier_data": {
-      "name": "salted vanilla bean",
       "price_money": {
        "amount": 300
       }
@@ -5171,6 +5171,26 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "E5BWUGIDKT2BEASPZGWRX4IM",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DKRMYCIZXFDNTZKY4V4CUQSG",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "molasses",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5195,36 +5215,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "oatmeal cookie + cranberry TWIST (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "E5BWUGIDKT2BEASPZGWRX4IM",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "63YBKPGCO3BO3CZCEBEM7WWZ",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "5A4RQGOYY37S5HT3M35BPPG6",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate + molasses",
       "price_money": {
        "amount": 0
       }
