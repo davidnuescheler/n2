@@ -8657,5 +8657,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "2GRRXLGSDHFX6YRTDUWW5EOL",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "femalefoodie"
+  }
  }
 ]
