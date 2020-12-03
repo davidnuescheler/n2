@@ -956,6 +956,50 @@ function getTip() {
     return (tipAmount);
 }
 
+function getContactInfo() {
+    const $infoDiv = document.getElementById("info");
+    // console.log(`getContactInfo -> $infoDiv`, $infoDiv);
+
+    const name = $infoDiv.querySelector("#name").value;
+    const cell = $infoDiv.querySelector("#cell").value;
+    const email = $infoDiv.querySelector("#email").value;
+    // console.log(`getContactInfo ->`, name, cell, email);
+
+    const deliveryAddress = $infoDiv.querySelector("#delivery-address").value;
+    const deliveryCity = $infoDiv.querySelector("#delivery-city").value;
+    const deliveryState = $infoDiv.querySelector("#delivery-state").value;
+    const deliveryZip = $infoDiv.querySelector("#delivery-zip").value;
+
+    const addressStr = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
+    // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
+
+    const deliveryDate = $infoDiv.querySelector("#pickup-date").value;
+    const dateObj = new Date(deliveryDate);
+
+    return {
+        name: name,
+        email: email,
+        deliveryDate: deliveryDate,
+        address: addressStr,
+    }
+
+}
+
+async function sendConfirmationEmail(name, email, address, date, receipt) {
+    const params = `?name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
+    const url = `https://script.google.com/macros/s/AKfycbznNyX8f4bPZO91yyMidzvyfSpI_BQza5sB11kgKA4BuAX2RI-N/exec${params}`;
+
+    let resp = await fetch(url);
+    let data = await resp.json();
+
+    if (data.sent) {
+        console.log(`Email confirmation sent to ${email}`);
+    } else {
+        console.log(`Email confirmation was NOT sent`);
+    }
+
+}
+
 // function setDeliveryDates() {
 
 //     const now = new Date();
@@ -1242,6 +1286,11 @@ function initPaymentForm() {
                     } else {
                         console.log(`initPaymentForm -> obj`, obj);
                         displayThanks(obj.payment);
+                        if (storeLocation === "delivery") {
+                            // send delivery confirmation email here
+                            const info = getContactInfo();
+                            sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                        }
                     }
                 })
                 .catch(err => {
@@ -1333,6 +1382,7 @@ function initGiftCardForm() {
                 //   console.log(data);
                 var obj = JSON.parse(data);
                 if (typeof obj.errors != "undefined") {
+                  console.log(obj.payment);
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
 
@@ -1341,6 +1391,11 @@ function initGiftCardForm() {
                 } else {
                     console.log(`initGiftCardForm -> obj`, obj);
                     displayThanks(obj.payment);
+                    if (storeLocation === "delivery") {
+                        // send delivery confirmation email here
+                        const info = getContactInfo();
+                        sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                    }
                 }
             })
             .catch((err) => {
@@ -1468,7 +1523,7 @@ async function checkCart() {
 }
 
 function displayStoreAlert() {
-    
+
     labels = window.labels;
     
     var $storealert = document.createElement('div');
@@ -1523,7 +1578,11 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
         orderParams.email_address = document.getElementById("email").value;
-        //console.log(cart.line_items);
+        // if the email address is missing
+        if (orderParams.email_address=="") {
+            document.getElementById("email").focus();
+            return;
+        }
         
         // auto-add shipping to delivery orders
         if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
@@ -1835,7 +1894,7 @@ function initCart() {
             <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
             <div class="lineitems"></div>
             <div class="checkoutitems"></div>
-            <div class="info">
+            <div class="info" id="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
                 <input id="email" type="email" placeholder="your email" class="hidden">
