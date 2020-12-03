@@ -337,15 +337,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "V7UMYKA7BZFIZ5MOKZSIJIZI",
-     "modifier_data": {
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "524BWIAZZG5IRTQGLYNGND22",
      "modifier_data": {
       "name": "dark chocolate CRUNCH",
@@ -3842,15 +3833,6 @@ var catalog_raw=[
    "name": "cone",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "V7UMYKA7BZFIZ5MOKZSIJIZI",
-  "modifier_data": {
-   "name": "dark chocolate",
-   "price_money": {
-    "amount": 100
    }
   }
  },
