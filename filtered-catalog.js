@@ -337,6 +337,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "YZB7DEFPRIVGHYXZGE7ZRXAX",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
      "id": "524BWIAZZG5IRTQGLYNGND22",
      "modifier_data": {
       "name": "dark chocolate CRUNCH",
@@ -8655,6 +8664,15 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "femalefoodie"
+  }
+ },
+ {
+  "id": "YZB7DEFPRIVGHYXZGE7ZRXAX",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
