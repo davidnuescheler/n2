@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
-     "modifier_data": {
-      "name": "coffee ganache (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
      "modifier_data": {
       "name": "cotton candy (v) (gf)",
@@ -5954,15 +5945,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "NZ5BJZYMXMLJU7GHS7LWHK4R",
-  "modifier_data": {
-   "name": "coffee ganache (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
