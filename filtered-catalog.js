@@ -8656,5 +8656,45 @@ var catalog_raw=[
     "amount": 100
    }
   }
+ },
+ {
+  "id": "4VOHJQAE36OXA3CMF4YABO5O",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the handle pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "HMPRVNOVIOJBUYZWYJX3GZE2",
+     "item_variation_data": {
+      "item_id": "4VOHJQAE36OXA3CMF4YABO5O",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "PAKWGWRJKJZY772TBRH7KKQ5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pear + ginger sorbet",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "SCR53PXNRA4DIY4SBAKYROLL",
+     "item_variation_data": {
+      "item_id": "PAKWGWRJKJZY772TBRH7KKQ5",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
