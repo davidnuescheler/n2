@@ -5,6 +5,7 @@ node_modules/
 pipeline.log
 logs
 deploy.sh
+debug.log
 hlx
 .env
 blm-fundraiser.json

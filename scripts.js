@@ -292,6 +292,20 @@ function fixSmsUrls() {
 
 }
 
+function setEmbedVideo() {
+    const $embed = document.querySelector(".embed");
+    if ($embed) {
+        const $video = document.createElement("video");
+            $video.controls = true;
+            $video.textContent = "your browser does not support video!";
+        const $source = document.createElement("source");
+            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk2y_9XKCfCAnEIAhKNM&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201205T030413Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=3e625a6d71f8867e0f124c41b3feb5797544201b45be35433f1953084a4e8546");
+            $source.setAttribute("type", "video/mp4");
+        $video.append($source);
+        $embed.prepend($video);
+    }
+}
+
 function setColors() {
     let root = document.documentElement;
     // select all code elements on page 
@@ -905,6 +919,9 @@ function setPickupTimes () {
 }
 
 function displayThanks(payment){
+
+    console.log(`displayThanks -> payment`, payment);
+    
     var cartEl=document.getElementById("cart");
     var $receipt;
 
@@ -951,6 +968,50 @@ function getTip() {
     var tipPercentage=+document.getElementById("tip").value;
     var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
     return (tipAmount);
+}
+
+function getContactInfo() {
+    const $infoDiv = document.getElementById("info");
+    // console.log(`getContactInfo -> $infoDiv`, $infoDiv);
+
+    const name = $infoDiv.querySelector("#name").value;
+    const cell = $infoDiv.querySelector("#cell").value;
+    const email = $infoDiv.querySelector("#email").value;
+    // console.log(`getContactInfo ->`, name, cell, email);
+
+    const deliveryAddress = $infoDiv.querySelector("#delivery-address").value;
+    const deliveryCity = $infoDiv.querySelector("#delivery-city").value;
+    const deliveryState = $infoDiv.querySelector("#delivery-state").value;
+    const deliveryZip = $infoDiv.querySelector("#delivery-zip").value;
+
+    const addressStr = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
+    // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
+
+    const deliveryDate = $infoDiv.querySelector("#pickup-date").value;
+    const dateObj = new Date(deliveryDate);
+
+    return {
+        name: name,
+        email: email,
+        deliveryDate: deliveryDate,
+        address: addressStr,
+    }
+
+}
+
+async function sendConfirmationEmail(name, email, address, date, receipt) {
+    const params = `?name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
+    const url = `https://script.google.com/macros/s/AKfycbznNyX8f4bPZO91yyMidzvyfSpI_BQza5sB11kgKA4BuAX2RI-N/exec${params}`;
+
+    let resp = await fetch(url);
+    let data = await resp.json();
+
+    if (data.sent) {
+        console.log(`Email confirmation sent to ${email}`);
+    } else {
+        console.log(`Email confirmation was NOT sent`);
+    }
+
 }
 
 // function setDeliveryDates() {
@@ -1237,7 +1298,13 @@ function initPaymentForm() {
                         alert(message);
                     submittingPayment=false;
                     } else {
-                    displayThanks(obj.payment);
+                        console.log(`initPaymentForm -> obj`, obj);
+                        displayThanks(obj.payment);
+                        if (storeLocation === "delivery") {
+                            // send delivery confirmation email here
+                            // const info = getContactInfo();
+                            // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                        }
                     }
                 })
                 .catch(err => {
@@ -1328,15 +1395,21 @@ function initGiftCardForm() {
             .then((data) => {
                 //   console.log(data);
                 var obj = JSON.parse(data);
-                console.log(`initGiftCardForm -> obj`, obj);
                 if (typeof obj.errors != "undefined") {
+                  console.log(obj.payment);
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
 
                   alert(message);
                   submittingPayment = false;
                 } else {
-                  displayThanks(obj.payment);
+                    console.log(`initGiftCardForm -> obj`, obj);
+                    displayThanks(obj.payment);
+                    if (storeLocation === "delivery") {
+                        // send delivery confirmation email here
+                        // const info = getContactInfo();
+                        // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                    }
                 }
             })
             .catch((err) => {
@@ -1464,7 +1537,7 @@ async function checkCart() {
 }
 
 function displayStoreAlert() {
-    
+
     labels = window.labels;
     
     var $storealert = document.createElement('div');
@@ -1518,8 +1591,12 @@ async function submitOrder() {
         orderParams.now="yes";
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
-
-        //console.log(cart.line_items);
+        orderParams.email_address = document.getElementById("email").value;
+        // if the email address is missing
+        if (orderParams.email_address=="") {
+            document.getElementById("email").focus();
+            return;
+        }
         
         // auto-add shipping to delivery orders
         if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
@@ -1768,6 +1845,7 @@ async function toggleCartDisplay() {
     // show delivery address for delivery orders
     if (storeLocation === "delivery") { 
         cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
+        document.getElementById("email").classList.remove("hidden"); 
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
@@ -1830,9 +1908,10 @@ function initCart() {
             <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
             <div class="lineitems"></div>
             <div class="checkoutitems"></div>
-            <div class="info">
+            <div class="info" id="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
+                <input id="email" type="email" placeholder="your email" class="hidden">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr>
@@ -2532,6 +2611,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     updateCart();
 
     //setDeliveryDates()
+    setEmbedVideo();
 });
 
 window.onload = function() {  
