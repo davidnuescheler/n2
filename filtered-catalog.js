@@ -94,15 +94,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
-     "modifier_data": {
-      "name": "mallow fluff (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
       "name": "olive oil powder (v) (gf)",
@@ -169,15 +160,6 @@ var catalog_raw=[
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "JY6NIYOH43SEGGHPSURFL2LP",
-     "modifier_data": {
-      "name": "rainbow sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -5066,15 +5048,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JY6NIYOH43SEGGHPSURFL2LP",
-  "modifier_data": {
-   "name": "rainbow sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
@@ -6933,15 +6906,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QB5MXHXKBC3DUDZM7HCOZQL7",
-  "modifier_data": {
-   "name": "mallow fluff (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
   "modifier_data": {
    "name": "olive oil cake",
@@ -7722,15 +7686,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "36BMW3OJVOE23KOSJIQKT47X",
-     "modifier_data": {
-      "name": "rainbow sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "J3AXA6FGMDZHO6HI4AKI33SG",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -7875,15 +7830,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TMJKKBVMRUTO44IPEXBN57SY",
-     "modifier_data": {
-      "name": "rainbow sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -8013,15 +7959,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "36BMW3OJVOE23KOSJIQKT47X",
-  "modifier_data": {
-   "name": "rainbow sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "J3AXA6FGMDZHO6HI4AKI33SG",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
@@ -8133,15 +8070,6 @@ var catalog_raw=[
   "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "TMJKKBVMRUTO44IPEXBN57SY",
-  "modifier_data": {
-   "name": "rainbow sprinks (gf)",
    "price_money": {
     "amount": 75
    }
