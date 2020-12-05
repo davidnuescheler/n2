@@ -292,6 +292,20 @@ function fixSmsUrls() {
 
 }
 
+function setEmbedVideo() {
+    const $embed = document.querySelector(".embed");
+    if ($embed) {
+        const $video = document.createElement("video");
+            $video.controls = true;
+            $video.textContent = "your browser does not support video!";
+        const $source = document.createElement("source");
+            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk2y_9XKCfCAnEIAhKNM&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201205T030413Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=3e625a6d71f8867e0f124c41b3feb5797544201b45be35433f1953084a4e8546");
+            $source.setAttribute("type", "video/mp4");
+        $video.append($source);
+        $embed.prepend($video);
+    }
+}
+
 function setColors() {
     let root = document.documentElement;
     // select all code elements on page 
@@ -905,6 +919,9 @@ function setPickupTimes () {
 }
 
 function displayThanks(payment){
+
+    console.log(`displayThanks -> payment`, payment);
+    
     var cartEl=document.getElementById("cart");
     var $receipt;
 
@@ -951,6 +968,50 @@ function getTip() {
     var tipPercentage=+document.getElementById("tip").value;
     var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
     return (tipAmount);
+}
+
+function getContactInfo() {
+    const $infoDiv = document.getElementById("info");
+    // console.log(`getContactInfo -> $infoDiv`, $infoDiv);
+
+    const name = $infoDiv.querySelector("#name").value;
+    const cell = $infoDiv.querySelector("#cell").value;
+    const email = $infoDiv.querySelector("#email").value;
+    // console.log(`getContactInfo ->`, name, cell, email);
+
+    const deliveryAddress = $infoDiv.querySelector("#delivery-address").value;
+    const deliveryCity = $infoDiv.querySelector("#delivery-city").value;
+    const deliveryState = $infoDiv.querySelector("#delivery-state").value;
+    const deliveryZip = $infoDiv.querySelector("#delivery-zip").value;
+
+    const addressStr = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
+    // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
+
+    const deliveryDate = $infoDiv.querySelector("#pickup-date").value;
+    const dateObj = new Date(deliveryDate);
+
+    return {
+        name: name,
+        email: email,
+        deliveryDate: deliveryDate,
+        address: addressStr,
+    }
+
+}
+
+async function sendConfirmationEmail(name, email, address, date, receipt) {
+    const params = `?name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
+    const url = `https://script.google.com/macros/s/AKfycbznNyX8f4bPZO91yyMidzvyfSpI_BQza5sB11kgKA4BuAX2RI-N/exec${params}`;
+
+    let resp = await fetch(url);
+    let data = await resp.json();
+
+    if (data.sent) {
+        console.log(`Email confirmation sent to ${email}`);
+    } else {
+        console.log(`Email confirmation was NOT sent`);
+    }
+
 }
 
 // function setDeliveryDates() {
@@ -1037,47 +1098,32 @@ function setPickupDates () {
 
         if (storeLocation === "delivery" && deliveryOptionsLength <= 1) {
 
-            // delivery 
-            let $pickupTimeEl = document.getElementById("pickup-time");
-            $pickupTimeEl.classList.add("hidden");
-            $pickupTimeEl.value = "n/a";
-
-            //setup for thanksgiving delivery
-            var wed = document.createElement("option");
-            wed.text = "wed, nov 25";
-            wed.value = "2020/11/25";
-
-            var thu = document.createElement("option");
-            thu.text = "thu, nov 26";
-            thu.value = "2020/11/26";
-
-            dateSelect.add(wed);
-            dateSelect.add(thu);
+            document.querySelector("#pickup-time").classList.add("hidden");
             
-            // while (i < window.labels.delivery_orderahead) {
-            //     let deliveryDate = day;
-            //     let deliveryMS = Date.parse(deliveryDate);
-            //     // deadline for delivery order is friday @ 5:00pm
-            //     let deadline = deliveryDate.setHours(17, 0, 0, 0); 
-            //     let option = document.createElement("option");
+            while (i < window.labels.delivery_orderahead) {
+                let deliveryDate = day;
+                let deliveryMS = Date.parse(deliveryDate);
+                // deadline for delivery order is friday @ 5:00pm
+                let deadline = deliveryDate.setHours(17, 0, 0, 0); 
+                let option = document.createElement("option");
 
-            //     if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
-            //         deliveryDate.setHours(17, 0, 0, 0);
-            //         option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
-            //         option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
-            //         dateSelect.add(option);
-            //         deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
-            //     } else {
-            //         // 5 = saturday, below
-            //         let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
-            //         let sat = new Date(deliveryDate.setDate(dt))
-            //         option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
-            //         option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
-            //         dateSelect.add(option);
-            //         deliveryDate.setDate(new Date(sat).getDate() + 1);
-            //     }
-            //     i++;
-            // }
+                if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
+                    deliveryDate.setHours(17, 0, 0, 0);
+                    option.text = weekdays[deliveryDate.getDay()]+", "+months[deliveryDate.getMonth()]+" "+deliveryDate.getDate();
+                    option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + deliveryDate.getDate();
+                    dateSelect.add(option);
+                    deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
+                } else {
+                    // 5 = saturday, below
+                    let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
+                    let sat = new Date(deliveryDate.setDate(dt))
+                    option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
+                    option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
+                    dateSelect.add(option);
+                    deliveryDate.setDate(new Date(sat).getDate() + 1);
+                }
+                i++;
+            }
         } else {
             // not delivery
             while (i<storeLocations[storeLocation].orderAhead) {
@@ -1151,118 +1197,231 @@ var paymentForm;
 function initPaymentForm() {
         
     // Create and initialize a payment form object
-        paymentForm = new SqPaymentForm({
-            // Initialize the payment form elements
-            
-            applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
-            locationId: storeLocations[storeLocation].locationId,
+    paymentForm = new SqPaymentForm({
+        // Initialize the payment form elements
+        
+        applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+        locationId: storeLocations[storeLocation].locationId,
 
-            inputClass: 'sq-input',
-            autoBuild: false,
-            // Customize the CSS for SqPaymentForm iframe elements
-            inputStyles: [{
-                fontFamily: 'sans-serif',
-                fontSize: '16px',
-                lineHeight: '24px',
-                padding: '16px',
-                placeholderColor: '#a0a0a0',
-                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
-                backgroundColor: 'transparent',
-            }],
-            // Initialize the credit card placeholders
-            cardNumber: {
-                elementId: 'sq-card-number',
-                placeholder: 'Card Number'
-            },
-            cvv: {
-                elementId: 'sq-cvv',
-                placeholder: 'CVV'
-            },
-            expirationDate: {
-                elementId: 'sq-expiration-date',
-                placeholder: 'MM/YY'
-            },
-            postalCode: {
-                elementId: 'sq-postal-code',
-                placeholder: 'Postal'
-            },
-            
-            // SqPaymentForm callback functions
-            callbacks: {
-                /*
-                * callback function: cardNonceResponseReceived
-                * Triggered when: SqPaymentForm completes a card nonce request
-                */
-                cardNonceResponseReceived: function (errors, nonce, cardData) {
-                if (errors) {
-                    // Log errors from nonce generation to the browser developer console.   
-                    console.error('Encountered errors:');
-                    errors.forEach(function (error) {
-                        alert(error.message);
-                        console.error('  ' + error.message);
-                    });
+        inputClass: 'sq-input',
+        autoBuild: false,
+        // Customize the CSS for SqPaymentForm iframe elements
+        inputStyles: [{
+            fontFamily: 'sans-serif',
+            fontSize: '16px',
+            lineHeight: '24px',
+            padding: '16px',
+            placeholderColor: '#a0a0a0',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
+            backgroundColor: 'transparent',
+        }],
+        // Initialize the credit card placeholders
+        cardNumber: {
+            elementId: 'sq-card-number',
+            placeholder: 'Card Number'
+        },
+        cvv: {
+            elementId: 'sq-cvv',
+            placeholder: 'CVV'
+        },
+        expirationDate: {
+            elementId: 'sq-expiration-date',
+            placeholder: 'MM/YY'
+        },
+        postalCode: {
+            elementId: 'sq-postal-code',
+            placeholder: 'Postal'
+        },
+        
+        // SqPaymentForm callback functions
+        callbacks: {
+            /*
+            * callback function: cardNonceResponseReceived
+            * Triggered when: SqPaymentForm completes a card nonce request
+            */
+            cardNonceResponseReceived: function (errors, nonce, cardData) {
+            if (errors) {
+                // Log errors from nonce generation to the browser developer console.   
+                console.error('Encountered errors:');
+                errors.forEach(function (error) {
+                    alert(error.message);
+                    console.error('  ' + error.message);
+                });
+                submittingPayment=false;
+                return;
+            }
+            //    console.log(`The generated nonce is:\n${nonce}`);
+    
+                var tipAmount=getTip();
+    
+                var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
+    
+                fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
+                    method: 'GET',
+                    headers: {
+                    'Accept': 'application/json',
+                    }
+                })
+                .catch(err => {
+                    alert('Network error: ' + err);
                     submittingPayment=false;
+                })
+                .then(response => {
+                    if (!response.ok) {
+                    return response.text().then(errorInfo => Promise.reject(errorInfo));
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                //   console.log(data);
+                    var obj=JSON.parse(data);
+                    if (typeof obj.errors != "undefined") {
+                        var message='Payment failed to complete!\nCheck browser developer console for more details';
+                        if (obj.errors[0].category=='PAYMENT_METHOD_ERROR') {
+                            message='Credit Card declined, please check your entries';
+                        }
+                        if (obj.errors[0].code =='CVV_FAILURE') {
+                        message='Credit Card declined, please check your CVV';
+                        }
+                        if (obj.errors[0].code =='PAN_FAILURE') {
+                        message='Credit Card declined, please check your card number';
+                        }
+
+                        if (obj.errors[0].code =='VOICE_FAILURE') {
+                        message='Credit Card declined, issuer requires voice authorization, try a different card';
+                        }
+
+                        if (obj.errors[0].code =='TRANSACTION_LIMIT') {
+                        message='Credit Card declined, limit exceeded';
+                        }
+
+                        alert(message);
+                    submittingPayment=false;
+                    } else {
+                        console.log(`initPaymentForm -> obj`, obj);
+                        displayThanks(obj.payment);
+                        if (storeLocation === "delivery") {
+                            // send delivery confirmation email here
+                            // const info = getContactInfo();
+                            // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                        }
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                });          
+                }
+        }
+    });
+    
+    paymentForm.build();      
+}
+
+var giftCardForm;
+
+function initGiftCardForm() {
+
+    giftCardForm = new SqPaymentForm({
+        applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+        locationId: storeLocations[storeLocation].locationId,
+
+        inputClass: 'sq-input',
+
+        giftCard: {
+          elementId: 'sq-gift-card',
+          placeholder: "* * * *  * * * *  * * * *  * * * *"
+        },
+
+        inputStyles: [{
+            fontFamily: 'sans-serif',
+            fontSize: '16px',
+            lineHeight: '24px',
+            padding: '16px',
+            placeholderColor: '#a0a0a0',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
+            backgroundColor: 'transparent',
+        }],
+
+        callbacks: {
+          cardNonceResponseReceived: function (errors, nonce, paymentData, contacts) {
+            if (errors) {
+          //   Log errors from nonce generation to the browser developer console.
+              console.error('Encountered errors on gift card nonce received:');
+              errors.forEach(function (error) {
+                console.error('  ' + error.message);
+              });
+              alert('Encountered errors, check console for more details');
+              return;
+            } 
+
+            var tipAmount=getTip();
+      
+            var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;
+
+            fetch(storeLocations[storeLocation].endpoint + "?" + qs, {
+              method: "GET",
+              headers: {
+                Accept: "application/json",
+              },
+            })
+            .catch((err) => {
+                alert("Network error: " + err);
+                submittingPayment = false;
+            })
+            .then((response) => {
+                if (!response.ok) {
+                  return response
+                    .text()
+                    .then((errorInfo) => Promise.reject(errorInfo));
+                }
+                if (response.status !== undefined && response.status === "'FAILED`") {
+                    alert('Card denied:' + response.errors[0].code);
                     return;
                 }
-                //    console.log(`The generated nonce is:\n${nonce}`);
-      
-                   var tipAmount=getTip();
-      
-                   var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
-      
-                   fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
-                      method: 'GET',
-                      headers: {
-                        'Accept': 'application/json',
-                      }
-                    })
-                    .catch(err => {
-                      alert('Network error: ' + err);
-                      submittingPayment=false;
-                    })
-                    .then(response => {
-                      if (!response.ok) {
-                        return response.text().then(errorInfo => Promise.reject(errorInfo));
-                      }
-                      return response.text();
-                    })
-                    .then(data => {
-                    //   console.log(data);
-                      var obj=JSON.parse(data);
-                      if (typeof obj.errors != "undefined") {
-                          var message='Payment failed to complete!\nCheck browser developer console for more details';
-                          if (obj.errors[0].category=='PAYMENT_METHOD_ERROR') {
-                              message='Credit Card declined, please check your entries';
-                          }
-                          if (obj.errors[0].code =='CVV_FAILURE') {
-                            message='Credit Card declined, please check your CVV';
-                          }
-                          if (obj.errors[0].code =='PAN_FAILURE') {
-                            message='Credit Card declined, please check your card number';
-                          }
+                //If there is a balance remaining on the purchase, collect a
+                // credit or debit card and pass the ID of the Order so that the
+                //payment card nonce is posted in the context of the order
 
-                          if (obj.errors[0].code =='VOICE_FAILURE') {
-                            message='Credit Card declined, issuer requires voice authorization, try a different card';
-                          }
+                // TODO: FIX -- this doesn't work!
 
-                          if (obj.errors[0].code =='TRANSACTION_LIMIT') {
-                            message='Credit Card declined, limit exceeded';
-                          }
+                if ( response.balance !== undefined && response.balance > 0) {
+                  //Notify buyer of remaining balance and ask for another card.
+                  alert('Gift card authorized. Additional payment of '
+                  + response.balance + ' needed.');
+                }
+                
+                return response.text();
+            })
+            .then((data) => {
+                //   console.log(data);
+                var obj = JSON.parse(data);
+                if (typeof obj.errors != "undefined") {
+                  console.log(obj.payment);
+                  var message =
+                    "Payment failed to complete!\nCheck browser developer console for more details";
 
-                          alert(message);
-                        submittingPayment=false;
-                      } else {
-                        displayThanks(obj.payment);
-                      }
-                    })
-                    .catch(err => {
-                      console.error(err);
-                    });          
-                  }
-            }
-          });
-      
-          paymentForm.build();      
+                  alert(message);
+                  submittingPayment = false;
+                } else {
+                    console.log(`initGiftCardForm -> obj`, obj);
+                    displayThanks(obj.payment);
+                    if (storeLocation === "delivery") {
+                        // send delivery confirmation email here
+                        // const info = getContactInfo();
+                        // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                    }
+                }
+            })
+            .catch((err) => {
+                console.error(err);
+            }); 
+            
+          }
+        }
+    });
+    
+    giftCardForm.build();
+
 }
 
 function onGetCardNonce(event) {
@@ -1271,7 +1430,30 @@ function onGetCardNonce(event) {
         event.preventDefault();
         paymentForm.requestCardNonce();    
     }
-  }
+}
+
+function submitGiftCardClick(event) {
+    if (!submittingPayment) {
+        submittingPayment=true;
+        event.preventDefault();
+        giftCardForm.requestCardNonce();    
+    }
+}
+
+function togglePaymentOptions() {
+    const $giftCardBox = document.getElementById('pay-with-gift-card');
+
+    const $giftCardForm = document.getElementById('giftcard-form');
+    const $creditCardForm = document.getElementById('creditcard-form');
+
+    if ($giftCardBox.checked) {
+        $giftCardForm.classList.remove('hidden');
+        $creditCardForm.classList.add('hidden');
+    } else {
+        $creditCardForm.classList.remove('hidden');
+        $giftCardForm.classList.add('hidden');
+    }
+}
 
 storeLocation="";
 // TODO: find out why opening and closing hours are nested in "openingHours" obj
@@ -1355,7 +1537,7 @@ async function checkCart() {
 }
 
 function displayStoreAlert() {
-    
+
     labels = window.labels;
     
     var $storealert = document.createElement('div');
@@ -1409,8 +1591,12 @@ async function submitOrder() {
         orderParams.now="yes";
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
-
-        //console.log(cart.line_items);
+        orderParams.email_address = document.getElementById("email").value;
+        // if the email address is missing
+        if (orderParams.email_address=="") {
+            document.getElementById("email").focus();
+            return;
+        }
         
         // auto-add shipping to delivery orders
         if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
@@ -1585,8 +1771,18 @@ function displayOrder(o) {
 
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
+
+    // if credit card
     initPaymentForm();
-    if (storeLocation =='lab') document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
+
+    // if gift card
+    initGiftCardForm();
+
+    if (storeLocation =='lab') {
+        const readyText = 'i am here, ready to pick-up my order';
+        document.getElementById('sq-creditcard').innerHTML = readyText;
+        document.getElementById('sq-giftcard').innerHTML = readyText;
+    }
 }
 
 
@@ -1649,6 +1845,7 @@ async function toggleCartDisplay() {
     // show delivery address for delivery orders
     if (storeLocation === "delivery") { 
         cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
+        document.getElementById("email").classList.remove("hidden"); 
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
@@ -1711,13 +1908,14 @@ function initCart() {
             <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
             <div class="lineitems"></div>
             <div class="checkoutitems"></div>
-            <div class="info">
+            <div class="info" id="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
+                <input id="email" type="email" placeholder="your email" class="hidden">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr>
-                        <input id="delivery-city" type="text" value="salt lake city" readonly>
+                        <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
                         <select id="delivery-zip" onchange="setZipColor()">
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
@@ -1754,15 +1952,26 @@ function initCart() {
                 </select></div>
                 <div id="form-container">
                     <div class="wegotyourorder warning hidden">
-                    <p>${labels.checkout_ready}</p>
-                    <p>${labels.checkout_callyourname}</p>
+                        <p>${labels.checkout_ready}</p>
+                        <p>${labels.checkout_callyourname}</p>
                     </div>
+                    <div class="giftcardcheckbox">
+                        <input type="checkbox" id="pay-with-gift-card" name="pay-with-gift-card" onclick="togglePaymentOptions()">
+                        <label for="pay-with-gift-card">pay with gift card?</label>
+                    </div>
+                    <div id="giftcard-form" class="hidden">
+                    <p>we are working on getting partial payments set up, but right now we can only process gift card payments for the full order amount!</p>
+                    <div id="sq-gift-card"></div>
+                    <button id="sq-giftcard" class="button-credit-card" onclick="submitGiftCardClick(event)">pay</button>
+                    </div>
+                    <div id="creditcard-form">
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
                     <div class="third" id="sq-cvv"></div>
                     <div class="third" id="sq-postal-code"></div>
                     <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
                     <button id="sq-apple-pay"></button>
+                    </div>
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
@@ -2402,6 +2611,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     updateCart();
 
     //setDeliveryDates()
+    setEmbedVideo();
 });
 
 window.onload = function() {  
