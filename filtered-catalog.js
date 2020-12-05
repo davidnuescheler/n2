@@ -5313,7 +5313,7 @@ var catalog_raw=[
     }
    ]
   },
-  "image_id": "AFXX4XI2O5A74IL56TJZP2VY"
+  "image_id": "7WMTCXBYO2W2TYPZE7UHHD2I"
  },
  {
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
@@ -8923,17 +8923,17 @@ var catalog_raw=[
   }
  },
  {
-  "id": "AFXX4XI2O5A74IL56TJZP2VY",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/43017b8b3a891485f793658d97ef7f3f1c9dcee9/original.jpeg"
-  }
- },
- {
   "id": "P5QRWT646X3WG5Y4RYOPD2BM",
   "type": "IMAGE",
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fd8158aa3e0466c4540b13fe7da382878fa7d1ed/original.jpeg"
+  }
+ },
+ {
+  "id": "7WMTCXBYO2W2TYPZE7UHHD2I",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/13e88b334adf33e293257c46d8bbc56697b0005d/original.jpeg"
   }
  }
 ]
