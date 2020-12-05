@@ -1174,22 +1174,73 @@ function setPickupDates () {
 }
 
 function setDeliveryZipCodes() {
-    const zipArr = toNumbersArray(window.labels.delivery_zipcodes).sort();
     const $zipSelect = document.getElementById("delivery-zip");
-
+    const zipArr = window.deliveryZips.sort((a, b) => {
+        if (a.zip > b.zip) {
+            return 1;
+        } else {
+            return -1;
+        }
+    })
     zipArr.forEach((zip) => {
-        let option = document.createElement("option");
-        option.text = zip;
-        option.value = zip;
-        $zipSelect.add(option);
+        let $option = document.createElement("option");
+        $option.text = zip.zip;
+        $option.value = zip.zip;
+        $zipSelect.add($option);
     });
 }
 
-function setZipColor() {
-    const $zipSelect = document.getElementById("delivery-zip");
-    if ($zipSelect.value !== "") {
-        $zipSelect.style.color = "var(--text-color)";
+function setZipColor(el) {
+    if (el.value !== "") {
+        el.style.color = "var(--text-color)";
     }
+}
+
+function setCity(city) {
+    let $city = document.getElementById("delivery-city");
+    if ($city.value !== city) {
+        $city.value = city.toLowerCase();
+    }
+}
+
+function setDeliveryDate(date) {
+    const shortDay = date.substring(0,3).toLowerCase();
+    console.log(`setDeliveryDate -> shortDay`, shortDay);
+    let today = new Date();
+
+    const days = {
+        mon: 0,
+        tue: 1,
+        wed: 2,
+        thu: 3,
+        fri: 4,
+        sat: 5,
+        sun: 6
+    }
+
+    let next = today.getDate() - (today.getDay() - 1) + days["mon"];
+    if (next <= today.getDate()) { next += 7; }
+    let deliveryDate = new Date(today.setDate(next));
+    console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
+
+    // 5 = saturday, below
+    // let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
+    // let sat = new Date(deliveryDate.setDate(dt))
+    // option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
+    // option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
+    // dateSelect.add(option);
+    // deliveryDate.setDate(new Date(sat).getDate() + 1);
+}
+
+function updateAfterZip() {
+    const $zipSelect = document.getElementById("delivery-zip");
+    const zipValue = parseInt($zipSelect.value);
+    const match = window.deliveryZips.find((zip) => {
+        return zip.zip === zipValue;
+    });
+    setZipColor($zipSelect);
+    setCity(match.city);
+    setDeliveryDate(match.date);
 }
 
 var paymentForm;
@@ -1407,8 +1458,8 @@ function initGiftCardForm() {
                     displayThanks(obj.payment);
                     if (storeLocation === "delivery") {
                         // send delivery confirmation email here
-                        // const info = getContactInfo();
-                        // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
+                        const info = getContactInfo();
+                        sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
                     }
                 }
             })
@@ -1832,6 +1883,11 @@ async function toggleCartDisplay() {
         cartEl.querySelector(".summary").innerHTML = 
             `<p class="dotdotdot">${window.labels.checkout_checkstock}<span>.</span><span>.</span><span>.</span><p>`;
         let outOfStock = await checkCart();
+
+        if (storeLocation === "delivery") {
+            await fetchDeliveryZips();
+        }
+
         updateCart(); 
         cartEl.querySelector(".summary").classList.add("hidden");
         cartEl.querySelector(".details").classList.remove("hidden");
@@ -1884,6 +1940,16 @@ async function toggleCartDisplay() {
     }
 }
 
+async function fetchDeliveryZips() {
+    if (!window.deliveryZips) {
+        let resp = await fetch('/deliveryZips.json');
+        let json = await resp.json();
+        if (json.data) { json = json.data };
+        window.deliveryZips = json;
+    }
+    return window.deliveryZips;
+}
+
 async function fetchLabels() {
     if (!window.labels) {
         // fetch labels google sheet from google drive
@@ -1917,7 +1983,7 @@ function initCart() {
                     <nobr>
                         <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
-                        <select id="delivery-zip" onchange="setZipColor()">
+                        <select id="delivery-zip" onchange="updateAfterZip()">
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
                         </select>
                     </nobr>
