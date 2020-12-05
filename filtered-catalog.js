@@ -8690,6 +8690,146 @@ var catalog_raw=[
       "item_id": "PAKWGWRJKJZY772TBRH7KKQ5",
       "name": "Regular",
       "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "AREZ3AL6ZJMK6U2QFU5NSKDH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cranberry sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "2HNSICERXTWV52UW5NE2BI6P",
+     "item_variation_data": {
+      "item_id": "AREZ3AL6ZJMK6U2QFU5NSKDH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "H7HX2W5RBW6PH2LAGBKYRJ4C",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chai tea pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ZI4N4Q2SPAEIKOE7EW4IPTWC",
+     "item_variation_data": {
+      "item_id": "H7HX2W5RBW6PH2LAGBKYRJ4C",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZLLMT6PYPD552ZX6STYVN4XX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pumpkin chocolate chip pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "SRMJCEOVTIGPY5UPJXBA32XL",
+     "item_variation_data": {
+      "item_id": "ZLLMT6PYPD552ZX6STYVN4XX",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CYDY7M6VXK5WAN446YD7F4ID",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan pump choc chip pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "KUD7DEHE5N22T4MRGBJSEZIY",
+     "item_variation_data": {
+      "item_id": "CYDY7M6VXK5WAN446YD7F4ID",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "I5FJKVTMMYIPGF4554S7UUT4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "coconut + bay leaf pint (v)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "LUWNPV5FAGVXBVBW3DZK7IRY",
+     "item_variation_data": {
+      "item_id": "I5FJKVTMMYIPGF4554S7UUT4",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "B5X4IIXXIXGNKYNHXWRY4OA6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "toasted milk + praline pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "YEPUE7C77Y2CQURZZO23TIP6",
+     "item_variation_data": {
+      "item_id": "B5X4IIXXIXGNKYNHXWRY4OA6",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "GIOTQIMGOPZ6433JKY3G2YYI",
+  "type": "ITEM",
+  "item_data": {
+   "name": "date shake pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "IV2FOEOFS34X6V545MEUM73T",
+     "item_variation_data": {
+      "item_id": "GIOTQIMGOPZ6433JKY3G2YYI",
+      "name": "Regular",
+      "price_money": {
        "amount": 1200
       }
      }
