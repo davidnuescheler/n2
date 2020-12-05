@@ -3324,7 +3324,8 @@ var catalog_raw=[
      }
     }
    ]
-  }
+  },
+  "image_id": "5LVXQDWR32UUZAEE6QFBLSK3"
  },
  {
   "id": "ETXJKNGNVXHA6DXKTW3RILR4",
@@ -5311,7 +5312,8 @@ var catalog_raw=[
      }
     }
    ]
-  }
+  },
+  "image_id": "AFXX4XI2O5A74IL56TJZP2VY"
  },
  {
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
@@ -8918,6 +8920,20 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "5LVXQDWR32UUZAEE6QFBLSK3",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b5a0879a69f2379c5f84f93e0be1f37fa8a3a183/original.jpeg"
+  }
+ },
+ {
+  "id": "AFXX4XI2O5A74IL56TJZP2VY",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/43017b8b3a891485f793658d97ef7f3f1c9dcee9/original.jpeg"
   }
  }
 ]
