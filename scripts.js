@@ -1302,13 +1302,8 @@ function initPaymentForm() {
                         displayThanks(obj.payment);
                         if (storeLocation === "delivery") {
                             // send delivery confirmation email here
-<<<<<<< HEAD
                             // const info = getContactInfo();
                             // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-=======
-                            const info = getContactInfo();
-                            sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
->>>>>>> bc866159c1a892ebec326823a0c067cf6f0aebe6
                         }
                     }
                 })
@@ -1412,13 +1407,8 @@ function initGiftCardForm() {
                     displayThanks(obj.payment);
                     if (storeLocation === "delivery") {
                         // send delivery confirmation email here
-<<<<<<< HEAD
                         // const info = getContactInfo();
                         // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-=======
-                        const info = getContactInfo();
-                        sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
->>>>>>> bc866159c1a892ebec326823a0c067cf6f0aebe6
                     }
                 }
             })
