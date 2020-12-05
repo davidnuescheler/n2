@@ -1534,16 +1534,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WGMQVSGRGCZNEJR2M4YJ3YJ7",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA anbessa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "EJSWHFOW55CX7EYSENXAKVOU",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
@@ -1554,10 +1544,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6SXTV3SBB2ZN37JRFERP5XL2",
+     "id": "LD7QZBULGSQNYYPHPW4POC54",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "NICARAGUA bella aurora",
+      "name": "HONDURAS las capucas",
       "price_money": {
        "amount": 1600
       }
