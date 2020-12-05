@@ -1207,7 +1207,7 @@ function setDeliveryDate(date) {
     const shortDay = date.substring(0,3).toLowerCase();
     console.log(`setDeliveryDate -> shortDay`, shortDay);
     let today = new Date();
-
+    
     const days = {
         mon: 0,
         tue: 1,
@@ -1218,10 +1218,13 @@ function setDeliveryDate(date) {
         sun: 6
     }
 
-    let next = today.getDate() - (today.getDay() - 1) + days["mon"];
-    if (next <= today.getDate()) { next += 7; }
+    let next = today.getDate() - (today.getDay() - 1) + days[shortDay];
+    // if in the past, set to the next week
+    if (next <= today.getDate()) { next += 7; } 
     let deliveryDate = new Date(today.setDate(next));
     console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
+
+    const deliveryOption = 
 
     // 5 = saturday, below
     // let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
