@@ -128,6 +128,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
+     "modifier_data": {
+      "name": "tru fru chocolate covered raspberries",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8880,6 +8889,15 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/13e88b334adf33e293257c46d8bbc56697b0005d/original.jpeg"
+  }
+ },
+ {
+  "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
+  "modifier_data": {
+   "name": "tru fru chocolate covered raspberries",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
