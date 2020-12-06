@@ -121,15 +121,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2M3LBRFKJVMDLOR4WDPNOKPK",
-     "modifier_data": {
-      "name": "tru fru chocolate covered raspberries",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
       "name": "coffee ganache (gf)",
@@ -7663,15 +7654,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "2M3LBRFKJVMDLOR4WDPNOKPK",
-  "modifier_data": {
-   "name": "tru fru chocolate covered raspberries",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
