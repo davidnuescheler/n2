@@ -299,10 +299,10 @@ function setEmbedVideo() {
             $video.controls = true;
             $video.textContent = "your browser does not support video!";
         const $source = document.createElement("source");
-            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk2y_9XKCfCAnEIAhKNM&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201205T030413Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=3e625a6d71f8867e0f124c41b3feb5797544201b45be35433f1953084a4e8546");
+            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk5D2j4Rw83aUWED4CWB&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201206T231841Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c4db1941e3636c43a1aac057bb2678f99f51e3502e639edfd884d7652808893e");
             $source.setAttribute("type", "video/mp4");
         $video.append($source);
-        $embed.prepend($video);
+        $embed.append($video);
     }
 }
 
@@ -1224,7 +1224,7 @@ function setDeliveryDate(date) {
     let deliveryDate = new Date(today.setDate(next));
     console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
 
-    const deliveryOption = 
+    // const deliveryOption;
 
     // 5 = saturday, below
     // let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
