@@ -8917,5 +8917,46 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "FHNR26ZN4D5UMNUQEHT2M4I7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "hot chocolate lab",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
+    },
+    {
+     "modifier_list_id": "DGSJMNUMCUXDDOXLUPGH2IRK"
+    },
+    {
+     "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
+    }
+   ],
+   "variations": [
+    {
+     "id": "A7IER3X2L5W4RZBBPJJX7Z5Z",
+     "item_variation_data": {
+      "item_id": "FHNR26ZN4D5UMNUQEHT2M4I7",
+      "name": "8 oz",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "WQISS762UCX5SKAK7GQ6YWMY",
+     "item_variation_data": {
+      "item_id": "FHNR26ZN4D5UMNUQEHT2M4I7",
+      "name": "12 oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
