@@ -7463,15 +7463,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "O4TW7D7YPAQN4PABEHMA65EM",
-  "modifier_data": {
-   "name": "dulcey",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
   "id": "NXFEXXC2RBPA5P762A4WZO6B",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
