@@ -137,15 +137,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "37LRDMMCK4LOTJ655M2OXV3Q",
-     "modifier_data": {
-      "name": "mallow fluff (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -8836,15 +8827,6 @@ var catalog_raw=[
   "id": "3Q6URIRINEWANFVWRLKV24CB",
   "modifier_data": {
    "name": "coffee ganache (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "37LRDMMCK4LOTJ655M2OXV3Q",
-  "modifier_data": {
-   "name": "mallow fluff (gf)",
    "price_money": {
     "amount": 75
    }
