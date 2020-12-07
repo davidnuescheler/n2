@@ -8323,16 +8323,6 @@ var catalog_raw=[
        "amount": 1400
       }
      }
-    },
-    {
-     "id": "ZZSO2NYOA6NEBNUV23M2ENJG",
-     "item_variation_data": {
-      "item_id": "WGIL27GR4LELX62VFZ65RRCC",
-      "name": "6 cin rolls",
-      "price_money": {
-       "amount": 2000
-      }
-     }
     }
    ]
   }
@@ -8351,16 +8341,6 @@ var catalog_raw=[
       "name": "select your varietal",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "2WMGLYHHXFKPIZ5NF55PQJ7G",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "ETHIOPIA anbessa",
-      "price_money": {
-       "amount": 1600
       }
      }
     },
@@ -8385,20 +8365,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ODVQJNJGAYHWNHKR4VVKCHEA",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "HONDURAS las capucas",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "ZUEPHCBCY5DO6HD3BGW4TTXG",
      "item_variation_data": {
       "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "GUATEMALA nayo ovalle",
+      "name": "ETHIOPIA meaza",
       "price_money": {
        "amount": 1600
       }
