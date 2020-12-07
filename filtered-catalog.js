@@ -8928,5 +8928,181 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "Z32R4YCOT72UDFZZMZ34AXW6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "buche de normal®",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "7K7I65N4Q77MHUFGJFGXBIQM",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "THURS 12/17 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "Q4UV4X3EMLHQZYTHBY4WXWJI",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "FRI 12/18 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "BNKKFRNOZG5PYCN4S4SSCNSN",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "SAT 12/19 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "25NJNIZOEO5QOL4PMWT5RGPV",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "SUN 12/20 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "P4G4NFOLAKT3M7ESJHU2EKEW",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "MON 12/21 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "R4U7SZVSXPOBSITODIBBLYIJ",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "TUES 12/22 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "M2HET6XVHK4MMN3NWEHSPXNZ",
+     "item_variation_data": {
+      "item_id": "Z32R4YCOT72UDFZZMZ34AXW6",
+      "name": "WEDS 12/23 pick up",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  },
+  "image_id": "GHRDPZM53MK7YKPX3CSYEZKO"
+ },
+ {
+  "id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "buche de NOT normal®",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "TXNWBZDJSK4J5OILVHXOMSM3",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "THURS 12/17 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "POMP5VMKRP6DDZG6TPZ6CBZW",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "FRI 12/18 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "LA5BGFRNTSXKPDOT5HZG2AZV",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "SAT 12/19 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "4BDW2XFOXOJFOBKXBJLDWTH4",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "SUN 12/20 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "QMI3ABFMM4ZSZM6AM6RFFPBJ",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "MON 12/21 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "PFDHCGVF2ZIGXLBTUOXYDIYL",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "TUES 12/22 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    },
+    {
+     "id": "EAWOFX4IOXTNGA3WAJUNHXTB",
+     "item_variation_data": {
+      "item_id": "4ET3HZ5JGMCYMTIWTPH6W2GO",
+      "name": "WEDS 12/23 pick up",
+      "price_money": {
+       "amount": 4500
+      }
+     }
+    }
+   ]
+  },
+  "image_id": "Y3KIMPK64QXJCW4R3JEW3OWK"
+ },
+ {
+  "id": "GHRDPZM53MK7YKPX3CSYEZKO",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c48f84aa4927307278ea234532f6e1d2ae4a1a36/original.jpeg"
+  }
+ },
+ {
+  "id": "Y3KIMPK64QXJCW4R3JEW3OWK",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9b56ec04641ce8c46d6862b10e50d19014fd9dc2/original.jpeg"
+  }
  }
 ]
