@@ -2006,7 +2006,7 @@ function initCart() {
                         </select>
                     </nobr>
                 </div>
-                <input id="delivery-date" class="hidden" type="text" value="select your zip to get your delivery date!" title="your delivery date is set by your selected zip code!" onClick="displayToolTip(this)" readonly>
+                <input id="delivery-date" class="hidden" type="text" value="select your zip to get your delivery date" title="your delivery date is set by your selected zip code!" onClick="displayToolTip(this)" readonly>
                 <div class="pickup-time"> 
                     <nobr class="pickup-date-time" id="pickup-date-time">
                         <select id="pickup-date"></select>
