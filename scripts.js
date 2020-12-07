@@ -987,7 +987,7 @@ function getContactInfo() {
     const addressStr = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
     // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
 
-    const deliveryDate = $infoDiv.querySelector("#pickup-date").value;
+    const deliveryDate = $infoDiv.querySelector("#delivery-date").value;
     const dateObj = new Date(deliveryDate);
 
     return {
@@ -1204,8 +1204,9 @@ function setCity(city) {
 }
 
 function setDeliveryDate(date) {
+    const $deliveryDate = document.getElementById("delivery-date");
     const shortDay = date.substring(0,3).toLowerCase();
-    console.log(`setDeliveryDate -> shortDay`, shortDay);
+    // console.log(`setDeliveryDate -> shortDay`, shortDay);
     let today = new Date();
     
     const days = {
@@ -1216,23 +1217,22 @@ function setDeliveryDate(date) {
         fri: 4,
         sat: 5,
         sun: 6
-    }
-
+    };
+    const weekdays = [ "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" ];
+    const months = [ "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december" ];
+    
     let next = today.getDate() - (today.getDay() - 1) + days[shortDay];
     // if in the past, set to the next week
     if (next <= today.getDate()) { next += 7; } 
     let deliveryDate = new Date(today.setDate(next));
-    console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
+    // console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
+    // console.log(`setDeliveryDate -> $deliveryDate`, $deliveryDate);
 
-    // const deliveryOption;
-
-    // 5 = saturday, below
-    // let dt = deliveryDate.getDate() - (deliveryDate.getDay() - 1) + 5; 
-    // let sat = new Date(deliveryDate.setDate(dt))
-    // option.text = weekdays[sat.getDay()]+", "+months[sat.getMonth()]+" "+sat.getDate();
-    // option.value = sat.getFullYear() + "/" + ( sat.getMonth()+1 ) + "/" + sat.getDate();
-    // dateSelect.add(option);
-    // deliveryDate.setDate(new Date(sat).getDate() + 1);
+    $deliveryDate.value = weekdays[deliveryDate.getDay()] + ", " + months[deliveryDate.getMonth()] + " " + deliveryDate.getDate();
+    $deliveryDate.setAttribute("data-date", `${deliveryDate.getFullYear()}/${deliveryDate.getMonth()+1}/${deliveryDate.getDate()}`);
+    if ($deliveryDate.style.backgroundColor !== "white") {
+        $deliveryDate.style.backgroundColor = "white"
+    };
 }
 
 function updateAfterZip() {
@@ -1244,6 +1244,19 @@ function updateAfterZip() {
     setZipColor($zipSelect);
     setCity(match.city);
     setDeliveryDate(match.date);
+}
+
+function displayToolTip(el) {
+    const existingTip = document.getElementById("delivery-tip");
+    if (!existingTip) {
+        const $small = document.createElement("small");
+            $small.setAttribute("id", "delivery-tip");
+            $small.classList.add("tool-tip");
+            $small.textContent = el.title;
+        el.parentNode.insertBefore($small, el.nextSibling);
+    } else {
+        el.nextSibling.remove();
+    }
 }
 
 var paymentForm;
@@ -1657,7 +1670,7 @@ async function submitOrder() {
             cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
         }
 
-        const deliveryDate = document.getElementById("pickup-date").value;
+        const deliveryDate = document.getElementById("delivery-date").getAttribute("data-date");
         orderParams.deliver_at = new Date(deliveryDate).toISOString();
 
         const deliveryAddress = document.getElementById("delivery-address").value;
@@ -1904,7 +1917,9 @@ async function toggleCartDisplay() {
     // show delivery address for delivery orders
     if (storeLocation === "delivery") { 
         cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
+        document.getElementById("delivery-date").classList.remove("hidden");
         document.getElementById("email").classList.remove("hidden"); 
+        document.getElementById("pickup-date-time").classList.add("hidden");
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
     cartEl.querySelector(".checkoutitems").classList.remove("hidden");
@@ -1983,7 +1998,7 @@ function initCart() {
                 <input id="email" type="email" placeholder="your email" class="hidden">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
-                    <nobr>
+                    <nobr class="delivery-city-state-zip">
                         <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
                         <select id="delivery-zip" onchange="updateAfterZip()">
@@ -1991,9 +2006,10 @@ function initCart() {
                         </select>
                     </nobr>
                 </div>
+                <input id="delivery-date" class="hidden" type="text" value="select your zip to get your delivery date!" title="your delivery date is set by your selected zip code!" onClick="displayToolTip(this)" readonly>
                 <div class="pickup-time"> 
-                    <nobr>
-                        <select id="pickup-date" ${storeLocation === "delivery" ? "" : 'onchange="setPickupTimes()"'}></select>
+                    <nobr class="pickup-date-time" id="pickup-date-time">
+                        <select id="pickup-date"></select>
                         <select id="pickup-time"></select>
                     </nobr>
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
@@ -2679,7 +2695,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     cart.load();
     updateCart();
 
-    //setDeliveryDates()
+    // setDeliveryDates();
     setEmbedVideo();
 });
 
