@@ -3469,6 +3469,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "4G6OK6FOMHHJBC7NGOPU2NLO",
+     "modifier_data": {
+      "name": "dulcey dip",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
      "id": "FOTLUTCUCC2YNZURTY5LDKY2",
      "modifier_data": {
       "name": "almond",
@@ -9191,6 +9200,15 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a2ddfce9d3b5e78ef8aa61141dc2235e904bd683/original.jpeg"
+  }
+ },
+ {
+  "id": "4G6OK6FOMHHJBC7NGOPU2NLO",
+  "modifier_data": {
+   "name": "dulcey dip",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
