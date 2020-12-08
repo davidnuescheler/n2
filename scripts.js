@@ -299,7 +299,7 @@ function setEmbedVideo() {
             $video.controls = true;
             $video.textContent = "your browser does not support video!";
         const $source = document.createElement("source");
-            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk5D2j4Rw83aUWED4CWB&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201206T231841Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c4db1941e3636c43a1aac057bb2678f99f51e3502e639edfd884d7652808893e");
+            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk6cFB9oX_n9RuEDM3SH&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201208T021527Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=33df5c412750a387a634765f7f1a6ff9d41c33a9cda48f3e67043c47a424a712");
             $source.setAttribute("type", "video/mp4");
         $video.append($source);
         $embed.prepend($video);
