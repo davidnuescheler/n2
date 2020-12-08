@@ -919,8 +919,6 @@ function setPickupTimes () {
 }
 
 function displayThanks(payment){
-
-    console.log(`displayThanks -> payment`, payment);
     
     var cartEl=document.getElementById("cart");
     var $receipt;
@@ -939,7 +937,6 @@ function displayThanks(payment){
         var $thankyou=cartEl.querySelector(".thankyou.deliverydate-confirm");
 
         $thankyou.classList.remove("hidden");
-
         $receipt=$thankyou.querySelector('.receipt-link');
     }
 
@@ -950,6 +947,12 @@ function displayThanks(payment){
     }
 
     $receipt.setAttribute("href", receiptLink);
+
+    // send delivery confirmation email here
+    if (storeLocation === "delivery") {
+        const info = getContactInfo();
+        sendConfirmationEmail(storeLocation, info.name, info.email, info.address, info.deliveryDate, receiptLink);
+    }
 
     var recipient = order.fulfillments[0].pickup_details ? 
     order.fulfillments[0].pickup_details.recipient.display_name : order.fulfillments[0].shipment_details.recipient.display_name;
@@ -999,83 +1002,19 @@ function getContactInfo() {
 
 }
 
-async function sendConfirmationEmail(name, email, address, date, receipt) {
-    const params = `?name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
+async function sendConfirmationEmail(store, name, email, address, date, receipt) {
+    const params = `?type=${store}&name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
     const url = `https://script.google.com/macros/s/AKfycbznNyX8f4bPZO91yyMidzvyfSpI_BQza5sB11kgKA4BuAX2RI-N/exec${params}`;
 
     let resp = await fetch(url);
     let data = await resp.json();
 
-    if (data.sent) {
-        console.log(`Email confirmation sent to ${email}`);
-    } else {
-        console.log(`Email confirmation was NOT sent`);
-    }
-
+    // if (data.sent) {
+    //     console.log(`Email confirmation sent to ${email}`);
+    // } else {
+    //     console.log(`Email confirmation was NOT sent`);
+    // }
 }
-
-// function setDeliveryDates() {
-
-//     const now = new Date();
-//     console.log(`setDeliveryDates -> now`, now);
-
-//     const dayOfWeek = {
-//         mon: 0, tue: 1, wed: 2, thu: 3, fri: 4, sat: 5, sun: 6
-//     }
-
-//     let deliveryDates = window.labels.delivery_dates;
-//     if (deliveryDates.includes(",")) {
-//         deliveryDates = deliveryDates.split(", ");
-//     } else {
-//         deliveryDates = [ deliveryDates ];
-//     }
-    
-//     const orderAheadOptions = window.labels.delivery_orderahead;
-//     // console.log(`setDeliveryDates -> orderAheadOptions`, orderAheadOptions);
-    
-//     let deliveryDeadline = new Date(window.labels.delivery_deadline);
-//     // if date from labels in invalid, replace with HARD CODED date below...
-//     // TODO: better validate date entry out of google sheet...
-//     if (!deliveryDeadline instanceof Date || isNaN(deliveryDeadline)) {
-//         deliveryDeadline = new Date("November 24, 2020 17:00:00");
-//     }
-
-//     // check if delivery is still open
-//     if (now < deliveryDeadline) {
-//         let startDate = now;
-//         const dayNum = dayOfWeek[startDate.toString().substring(0,3).toLowerCase()];
-//         let count = 0;
-        
-//         while (count < orderAheadOptions) {
-//             // find next delivery date
-//             for (date of deliveryDates) {
-
-//                 let nextWeek = 0;
-//                 // if before today, set to next week...
-//                 if (dayNum >= dayOfWeek[date]) {
-//                     nextWeek = 7;
-//                 }
-//                 // console.log(`      setDeliveryDates -> nextWeek`, nextWeek);
-
-//                 let dt = startDate.getDate() - (startDate.getDay() - 1) + dayOfWeek[date] + nextWeek; 
-//                 let nextDt = new Date(startDate.setDate(dt));
-                
-//                 //console.log(`        setDeliveryDates -> today!`, new Date());
-//                 console.log(`        setDeliveryDates -> nextDt`, nextDt);
-                
-//                 count++;
-//                 console.log(`setDeliveryDates -> startDate`, startDate);
-//             }
-//             // add dates for next week
-//             startDate.setDate(startDate.getDate() + 7);
-            
-//         }
-
-//     }
-
-   
-
-// }
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
@@ -1298,13 +1237,7 @@ function initPaymentForm() {
                         alert(message);
                     submittingPayment=false;
                     } else {
-                        console.log(`initPaymentForm -> obj`, obj);
                         displayThanks(obj.payment);
-                        if (storeLocation === "delivery") {
-                            // send delivery confirmation email here
-                            // const info = getContactInfo();
-                            // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-                        }
                     }
                 })
                 .catch(err => {
@@ -1403,13 +1336,7 @@ function initGiftCardForm() {
                   alert(message);
                   submittingPayment = false;
                 } else {
-                    console.log(`initGiftCardForm -> obj`, obj);
                     displayThanks(obj.payment);
-                    if (storeLocation === "delivery") {
-                        // send delivery confirmation email here
-                        // const info = getContactInfo();
-                        // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-                    }
                 }
             })
             .catch((err) => {
