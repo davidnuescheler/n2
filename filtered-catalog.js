@@ -4298,15 +4298,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
-     "modifier_data": {
-      "name": "pint of ube ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "P5F5AT4O6CXOZL7RSIIYTF76",
      "modifier_data": {
       "name": "pint of cranberry sorbet (v)",
@@ -7325,15 +7316,6 @@ var catalog_raw=[
   "id": "NWAWPV4TXHHRXUO5LJGEDALF",
   "modifier_data": {
    "name": "whole milk",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "IX7MQ7GZGQGHM4IBLY4QNTNO",
-  "modifier_data": {
-   "name": "pint of ube ice cream",
    "price_money": {
     "amount": 0
    }
