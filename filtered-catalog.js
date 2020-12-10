@@ -3595,24 +3595,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
-     "modifier_data": {
-      "name": "burnt marshmallow (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
-     "modifier_data": {
-      "name": "egg nog + burnt marshmallow TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
       "name": "chai tea (gf)",
@@ -5145,24 +5127,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "G3BSGRHH6AY6V3MXVQHFHVI2",
-  "modifier_data": {
-   "name": "burnt marshmallow (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2YKZ7W36B7FFCMZ7JA2JFXMA",
-  "modifier_data": {
-   "name": "egg nog + burnt marshmallow TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
