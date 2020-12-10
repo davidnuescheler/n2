@@ -8743,8 +8743,17 @@ var catalog_raw=[
   "id": "DJ2SBDIX55MSF2I3TMXYBIU3",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "single origin espresso",
+   "name": "espresso option",
    "modifiers": [
+    {
+     "id": "KJLLGBKIUCLIPWK4N6AZHN3I",
+     "modifier_data": {
+      "name": "select an espresso",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
     {
      "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
      "modifier_data": {
@@ -9154,6 +9163,15 @@ var catalog_raw=[
    "name": "dulcey dip",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "KJLLGBKIUCLIPWK4N6AZHN3I",
+  "modifier_data": {
+   "name": "select an espresso",
+   "price_money": {
+    "amount": 0
    }
   }
  }
