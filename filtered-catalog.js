@@ -3586,6 +3586,24 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
+     "id": "MGJZOIMAUGQN667ZKJCDJBMO",
+     "modifier_data": {
+      "name": "burnt marshmallow (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "56DSJVFXXTVDBUFTAGMC4SIL",
+     "modifier_data": {
+      "name": "egg nog + burnt marshmallow TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
       "name": "egg nog (gf)",
@@ -9152,6 +9170,24 @@ var catalog_raw=[
   "id": "KJLLGBKIUCLIPWK4N6AZHN3I",
   "modifier_data": {
    "name": "select an espresso",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MGJZOIMAUGQN667ZKJCDJBMO",
+  "modifier_data": {
+   "name": "burnt marshmallow (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "56DSJVFXXTVDBUFTAGMC4SIL",
+  "modifier_data": {
+   "name": "egg nog + burnt marshmallow TWIST (gf)",
    "price_money": {
     "amount": 0
    }
