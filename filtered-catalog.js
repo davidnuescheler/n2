@@ -4307,15 +4307,6 @@ var catalog_raw=[
    "name": "pizza pints",
    "modifiers": [
     {
-     "id": "HKS3OQWPPHG4AHDCRB65ZISF",
-     "modifier_data": {
-      "name": "pint of blood orange sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "COXO4UVA47DNLFHPIRIVGG6Q",
      "modifier_data": {
       "name": "pint of montmorency cherry",
@@ -7030,15 +7021,6 @@ var catalog_raw=[
   "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
   "modifier_data": {
    "name": "keep it 1 shot",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HKS3OQWPPHG4AHDCRB65ZISF",
-  "modifier_data": {
-   "name": "pint of blood orange sorbet (v)",
    "price_money": {
     "amount": 0
    }
