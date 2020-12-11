@@ -4323,15 +4323,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
-     "modifier_data": {
-      "name": "pint of molasses ice cream (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7343,15 +7334,6 @@ var catalog_raw=[
   "id": "P5F5AT4O6CXOZL7RSIIYTF76",
   "modifier_data": {
    "name": "pint of cranberry sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LBDCXC4KL2DBYZAB6HCCOZWD",
-  "modifier_data": {
-   "name": "pint of molasses ice cream (gf)",
    "price_money": {
     "amount": 0
    }
