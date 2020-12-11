@@ -1109,7 +1109,7 @@ function setPickupDates () {
 
                 if (deliveryDate.toString().includes("Fri") && deliveryMS < deadline) {
                     deliveryDate.setHours(17, 0, 0, 0);
-                    option.text = weekdays[(deliveryDate.getDay() + 1)] + ", " + months[deliveryDate.getMonth()] + " " + deliveryDate.getDate();
+                    option.text = weekdays[(deliveryDate.getDay() + 1)] + ", " + months[deliveryDate.getMonth()] + " " + (deliveryDate.getDate() + 1);
                     option.value = deliveryDate.getFullYear() + "/" + ( deliveryDate.getMonth()+1 ) + "/" + (deliveryDate.getDate() + 1);
                     dateSelect.add(option);
                     deliveryDate.setDate(new Date(deliveryDate).getDate() + 1);
