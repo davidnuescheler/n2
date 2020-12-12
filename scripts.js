@@ -1598,11 +1598,6 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
         orderParams.email_address = document.getElementById("email").value;
-        // if the email address is missing
-        if (orderParams.email_address=="") {
-            document.getElementById("email").focus();
-            return;
-        }
         
         // auto-add shipping to delivery orders
         if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
@@ -1642,6 +1637,10 @@ async function submitOrder() {
     }
     if (orderParams.cell=="") {
         document.getElementById("cell").focus();
+        return;
+    }
+    if (orderParams.email_address=="") { // if the email address is missing
+        document.getElementById("email").focus();
         return;
     }
     if (orderParams.discount=="" && orderParams.discount_name) {
