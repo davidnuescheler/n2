@@ -299,11 +299,7 @@ function setEmbedVideo() {
             $video.controls = true;
             $video.textContent = "your browser does not support video!";
         const $source = document.createElement("source");
-<<<<<<< HEAD
-            $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk5D2j4Rw83aUWED4CWB&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201206T231841Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c4db1941e3636c43a1aac057bb2678f99f51e3502e639edfd884d7652808893e");
-=======
             $source.setAttribute("src", "https://frameio-assets-production.s3-accelerate.amazonaws.com/encode/6c358e9f-d7fe-49fb-bab2-de2fcc58681e/h264_1080_best.mp4?x-amz-meta-project_id=c443ce40-7e51-42a6-9247-ad27d3e41cc8&x-amz-meta-request_id=Fk6cFB9oX_n9RuEDM3SH&x-amz-meta-resource_id=6c358e9f-d7fe-49fb-bab2-de2fcc58681e&x-amz-meta-resource_type=asset&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5BPIQ3GK7SUUGPX%2F20201208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201208T021527Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=33df5c412750a387a634765f7f1a6ff9d41c33a9cda48f3e67043c47a424a712");
->>>>>>> c9b231c1a57dfd80c12d4efb04695f646789d7fd
             $source.setAttribute("type", "video/mp4");
         $video.append($source);
         $embed.prepend($video);
@@ -924,7 +920,7 @@ function setPickupTimes () {
 
 function displayThanks(payment){
 
-    console.log(`displayThanks -> payment`, payment);
+    // console.log(`displayThanks -> payment`, payment);
     
     var cartEl=document.getElementById("cart");
     var $receipt;
@@ -953,6 +949,11 @@ function displayThanks(payment){
         receiptLink=payment.receipt_url;
     }
 
+    // send confirmation email
+    const contactInfo = getContactInfo();
+    // console.log(contactInfo);
+    sendConfirmationEmail(contactInfo.name, contactInfo.email,contactInfo.address, contactInfo.date, receiptLink);
+
     $receipt.setAttribute("href", receiptLink);
 
     var recipient = order.fulfillments[0].pickup_details ? 
@@ -977,109 +978,53 @@ function getTip() {
 function getContactInfo() {
     const $infoDiv = document.getElementById("info");
     // console.log(`getContactInfo -> $infoDiv`, $infoDiv);
-
     const name = $infoDiv.querySelector("#name").value;
     const cell = $infoDiv.querySelector("#cell").value;
     const email = $infoDiv.querySelector("#email").value;
     // console.log(`getContactInfo ->`, name, cell, email);
-
     const deliveryAddress = $infoDiv.querySelector("#delivery-address").value;
     const deliveryCity = $infoDiv.querySelector("#delivery-city").value;
     const deliveryState = $infoDiv.querySelector("#delivery-state").value;
     const deliveryZip = $infoDiv.querySelector("#delivery-zip").value;
 
-    const addressStr = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
     // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
-
-    const deliveryDate = $infoDiv.querySelector("#delivery-date").value;
-    const dateObj = new Date(deliveryDate);
+    let address = null;
+    let date;
+    if (storeLocation === "delivery") {
+        address = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
+        date = $infoDiv.querySelector("#delivery-date").value;
+    } else {
+        const pickupDate = $infoDiv.querySelector("#pickup-date").value;
+        const pickupTime = $infoDiv.querySelector("#pickup-time").value;
+        const dt = new Date(pickupTime);
+        const h = dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours();
+        const m = dt.getMinutes().toString().padStart(2, "0");
+        const suf = dt.getHours() > 12 ? "pm" : "am";
+        // console.log(`getContactInfo -> h:m suf`, ``);
+        date = `${pickupDate} at ${h}:${m} ${suf}`;
+    }
 
     return {
-        name: name,
-        email: email,
-        deliveryDate: deliveryDate,
-        address: addressStr,
+        name,
+        email,
+        date,
+        address
     }
 
 }
 
 async function sendConfirmationEmail(name, email, address, date, receipt) {
-    const params = `?name=${name}&email=${email}&address=${address}&deliveryDate=${date}&receipt=${receipt}`;
-    const url = `https://script.google.com/macros/s/AKfycbznNyX8f4bPZO91yyMidzvyfSpI_BQza5sB11kgKA4BuAX2RI-N/exec${params}`;
-
+    const params = `?type=${storeLocation}&name=${name}&email=${email}&address=${address}&date=${date}&receipt=${receipt}`;
+    const url = `https://script.google.com/macros/s/AKfycbybZ1eHJUJoyyDX41m6cekPho9LaZgucH8yA3hnP1wzmqL9u4c5i7GUdw/exec${params}`;
+    // console.log(`sendConfirmationEmail -> url`, url);
     let resp = await fetch(url);
     let data = await resp.json();
-
-    if (data.sent) {
-        console.log(`Email confirmation sent to ${email}`);
-    } else {
-        console.log(`Email confirmation was NOT sent`);
-    }
-
+    // if (data.sent) {
+    //     console.log(`Email confirmation sent to ${email}`);
+    // } else {
+    //     console.log(`Email confirmation was NOT sent`);
+    // }
 }
-
-// function setDeliveryDates() {
-
-//     const now = new Date();
-//     console.log(`setDeliveryDates -> now`, now);
-
-//     const dayOfWeek = {
-//         mon: 0, tue: 1, wed: 2, thu: 3, fri: 4, sat: 5, sun: 6
-//     }
-
-//     let deliveryDates = window.labels.delivery_dates;
-//     if (deliveryDates.includes(",")) {
-//         deliveryDates = deliveryDates.split(", ");
-//     } else {
-//         deliveryDates = [ deliveryDates ];
-//     }
-    
-//     const orderAheadOptions = window.labels.delivery_orderahead;
-//     // console.log(`setDeliveryDates -> orderAheadOptions`, orderAheadOptions);
-    
-//     let deliveryDeadline = new Date(window.labels.delivery_deadline);
-//     // if date from labels in invalid, replace with HARD CODED date below...
-//     // TODO: better validate date entry out of google sheet...
-//     if (!deliveryDeadline instanceof Date || isNaN(deliveryDeadline)) {
-//         deliveryDeadline = new Date("November 24, 2020 17:00:00");
-//     }
-
-//     // check if delivery is still open
-//     if (now < deliveryDeadline) {
-//         let startDate = now;
-//         const dayNum = dayOfWeek[startDate.toString().substring(0,3).toLowerCase()];
-//         let count = 0;
-        
-//         while (count < orderAheadOptions) {
-//             // find next delivery date
-//             for (date of deliveryDates) {
-
-//                 let nextWeek = 0;
-//                 // if before today, set to next week...
-//                 if (dayNum >= dayOfWeek[date]) {
-//                     nextWeek = 7;
-//                 }
-//                 // console.log(`      setDeliveryDates -> nextWeek`, nextWeek);
-
-//                 let dt = startDate.getDate() - (startDate.getDay() - 1) + dayOfWeek[date] + nextWeek; 
-//                 let nextDt = new Date(startDate.setDate(dt));
-                
-//                 //console.log(`        setDeliveryDates -> today!`, new Date());
-//                 console.log(`        setDeliveryDates -> nextDt`, nextDt);
-                
-//                 count++;
-//                 console.log(`setDeliveryDates -> startDate`, startDate);
-//             }
-//             // add dates for next week
-//             startDate.setDate(startDate.getDate() + 7);
-            
-//         }
-
-//     }
-
-   
-
-// }
 
 function setPickupDates () {
     //var now=new Date("2020-04-15T22:51:00-07:00");
@@ -1369,13 +1314,8 @@ function initPaymentForm() {
                         alert(message);
                     submittingPayment=false;
                     } else {
-                        console.log(`initPaymentForm -> obj`, obj);
+                        // console.log(`initPaymentForm -> obj`, obj);
                         displayThanks(obj.payment);
-                        if (storeLocation === "delivery") {
-                            // send delivery confirmation email here
-                            // const info = getContactInfo();
-                            // sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-                        }
                     }
                 })
                 .catch(err => {
@@ -1474,13 +1414,8 @@ function initGiftCardForm() {
                   alert(message);
                   submittingPayment = false;
                 } else {
-                    console.log(`initGiftCardForm -> obj`, obj);
+                    // console.log(`initGiftCardForm -> obj`, obj);
                     displayThanks(obj.payment);
-                    if (storeLocation === "delivery") {
-                        // send delivery confirmation email here
-                        const info = getContactInfo();
-                        sendConfirmationEmail(info.name, info.email, info.address, info.deliveryDate);
-                    }
                 }
             })
             .catch((err) => {
@@ -1922,7 +1857,6 @@ async function toggleCartDisplay() {
     if (storeLocation === "delivery") { 
         cartEl.querySelector(".delivery-address").classList.remove("hidden"); 
         document.getElementById("delivery-date").classList.remove("hidden");
-        document.getElementById("email").classList.remove("hidden"); 
         document.getElementById("pickup-date-time").classList.add("hidden");
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
@@ -1938,7 +1872,7 @@ async function toggleCartDisplay() {
     
     const zipOptionsLength = document.getElementById("delivery-zip").options.length;
     
-    if (zipOptionsLength <= 1) {
+    if (zipOptionsLength <= 1 && storeLocation === "delivery") {
         setDeliveryZipCodes();
     }
 
@@ -1999,7 +1933,7 @@ function initCart() {
             <div class="info" id="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
-                <input id="email" type="email" placeholder="your email" class="hidden">
+                <input id="email" type="email" placeholder="your email">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
                     <nobr class="delivery-city-state-zip">
