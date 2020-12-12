@@ -4334,6 +4334,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "PVURIV6QZECIZMLRD7AAPYOP",
+     "modifier_data": {
+      "name": "milk chocolate ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "EHC3WY4CB47YZ6FBKMAAUXZI",
+     "modifier_data": {
+      "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9190,6 +9208,24 @@ var catalog_raw=[
   "id": "UYJHHXSFPW66YIEW4EPCAU4B",
   "modifier_data": {
    "name": "vegan",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PVURIV6QZECIZMLRD7AAPYOP",
+  "modifier_data": {
+   "name": "milk chocolate ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "EHC3WY4CB47YZ6FBKMAAUXZI",
+  "modifier_data": {
+   "name": "dark chocolate sorbet (v)",
    "price_money": {
     "amount": 0
    }
