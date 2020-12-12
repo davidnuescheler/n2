@@ -4878,6 +4878,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "UYJHHXSFPW66YIEW4EPCAU4B",
+     "modifier_data": {
+      "name": "vegan",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9190,6 +9199,15 @@ var catalog_raw=[
   "id": "56DSJVFXXTVDBUFTAGMC4SIL",
   "modifier_data": {
    "name": "egg nog + burnt marshmallow TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UYJHHXSFPW66YIEW4EPCAU4B",
+  "modifier_data": {
+   "name": "vegan",
    "price_money": {
     "amount": 0
    }
