@@ -4352,6 +4352,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "PB6U3EUPLGOIFAIAWC5N2MBI",
+     "modifier_data": {
+      "name": "fresh mint ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9226,6 +9235,15 @@ var catalog_raw=[
   "id": "EHC3WY4CB47YZ6FBKMAAUXZI",
   "modifier_data": {
    "name": "dark chocolate sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PB6U3EUPLGOIFAIAWC5N2MBI",
+  "modifier_data": {
+   "name": "fresh mint ice cream",
    "price_money": {
     "amount": 0
    }
