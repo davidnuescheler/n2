@@ -8529,7 +8529,7 @@ var catalog_raw=[
       "item_id": "6EWZY5PS7YWTNK6DACDLAJPR",
       "name": "ice cream bar 6 pack",
       "price_money": {
-       "amount": 3200
+       "amount": 3400
       }
      }
     }
@@ -9211,6 +9211,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "7SB2F6R3Q7TZT5MY3FAPU3JW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ice cream sando 6 pack",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "6ZXJVKA4KRU5OD4HWHVAWJGW",
+     "item_variation_data": {
+      "item_id": "7SB2F6R3Q7TZT5MY3FAPU3JW",
+      "name": "ice cream sando 6 pack",
+      "price_money": {
+       "amount": 3400
+      }
+     }
+    }
+   ]
   }
  }
 ]
