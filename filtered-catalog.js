@@ -9232,5 +9232,103 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "QN7B324UVJPUUYIKP5HYM25C",
+  "type": "ITEM",
+  "item_data": {
+   "name": "a NORMAL® BEANIE",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "A5WSNUKKULPKYUVQ4DW6OGBR",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "tan + black \"normal®\"",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "pink + spicy kumquat smiley",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "P5EWFWZ2PYW6SAINUZRWW2JI",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "black + white smiley",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "Q43SBMBB7WWJUDUMBJX2N2DE",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "neon yellow + white cone",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "52DBWXHXWEDAH2BU334K2YWS",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "lavender + digital blue cone",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    }
+   ]
+  },
+  "image_id": "S5E56UZL45GX5BEISK7GHSSZ"
+ },
+ {
+  "id": "RXQLW5K74F3SU7WU3HCI4ESZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® socks",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "6JTB4H2DLIIKEDIUCU5SPKSL",
+     "item_variation_data": {
+      "item_id": "RXQLW5K74F3SU7WU3HCI4ESZ",
+      "name": "1 pair for $10",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "GUXJGWGZAOOCCCGO6PWX7N7V",
+     "item_variation_data": {
+      "item_id": "RXQLW5K74F3SU7WU3HCI4ESZ",
+      "name": "2 pair for $16",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "S5E56UZL45GX5BEISK7GHSSZ",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/020d6fcb44447618f2960808a7ebdb9b024b114b/original.jpeg"
+  }
  }
 ]
