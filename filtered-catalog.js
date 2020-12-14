@@ -9375,14 +9375,15 @@ var catalog_raw=[
      "id": "GUXJGWGZAOOCCCGO6PWX7N7V",
      "item_variation_data": {
       "item_id": "RXQLW5K74F3SU7WU3HCI4ESZ",
-      "name": "2 pair for $16",
+      "name": "2 pair for $18",
       "price_money": {
-       "amount": 1600
+       "amount": 1800
       }
      }
     }
    ]
-  }
+  },
+  "image_id": "YCXLUO4G3LZA3F45D2YO4QIP"
  },
  {
   "id": "S5E56UZL45GX5BEISK7GHSSZ",
@@ -9449,6 +9450,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "YCXLUO4G3LZA3F45D2YO4QIP",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/85bb72cd8af2d727c7e2857e7c571bf55412339e/original.jpeg"
   }
  }
 ]
