@@ -5256,6 +5256,36 @@ var catalog_raw=[
      }
     },
     {
+     "id": "3BSZO5DWCYYQH6S3X3Y4FGBI",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "ERRDAY6D7QGO2CIG33SXB3J7",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "medium",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "WRQK3OPWXR7TGXJWJSM5DD5L",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "large",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
      "id": "XP37V5YMUJT3RWL7TWKGMOJH",
      "item_variation_data": {
       "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
@@ -5282,6 +5312,46 @@ var catalog_raw=[
       "name": "select your size",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "C2SV3EVPIXRTXZFKQKBW42ZU",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "extra small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "VWZUL6N25ULEA3KRBCZD4TRH",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "small",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "P3A42272EU6YOXZANU4OLK76",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "medium",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "I5ZPDWI3QVRVQDS65EAZ3BSS",
+     "item_variation_data": {
+      "item_id": "WJCKJUSABNGDOGANNOS27XHM",
+      "name": "large",
+      "price_money": {
+       "amount": 4000
       }
      }
     },
@@ -9329,6 +9399,66 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/020d6fcb44447618f2960808a7ebdb9b024b114b/original.jpeg"
+  }
+ },
+ {
+  "id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal t-shirt - pink",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "257BJN3P6IPZ6MD7IIPNR23O",
+     "item_variation_data": {
+      "item_id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+      "name": "extra small",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "IILL2ZU3DABDYSN7ORU5CHDZ",
+     "item_variation_data": {
+      "item_id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+      "name": "small",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "M2M5PY2UPS3LGWF7WBQCHTZC",
+     "item_variation_data": {
+      "item_id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+      "name": "medium",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "AFOIS3FWDP4OS3ZK6BBBIUGX",
+     "item_variation_data": {
+      "item_id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+      "name": "large",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "3V3T5VGDV5HF6IWDOYGRRIWJ",
+     "item_variation_data": {
+      "item_id": "2DOUQLOQ7JONSFKZUVYDZ4LK",
+      "name": "extra large",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    }
+   ]
   }
  }
 ]
