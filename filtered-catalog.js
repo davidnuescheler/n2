@@ -8375,7 +8375,7 @@ var catalog_raw=[
      "id": "PK7SVDYUJSOBKTZCDSRW2C7O",
      "item_variation_data": {
       "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "NICARAGUA bella aurora",
+      "name": "COLUMBIA robinson figueroa",
       "price_money": {
        "amount": 1600
       }
@@ -8385,14 +8385,25 @@ var catalog_raw=[
      "id": "ZUEPHCBCY5DO6HD3BGW4TTXG",
      "item_variation_data": {
       "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "ETHIOPIA meaza",
+      "name": "HONDURAS jose alvarado",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "G6BQK3DIK6O7XJJW55NWWBZC",
+     "item_variation_data": {
+      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
+      "name": "GUATEMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
      }
     }
    ]
-  }
+  },
+  "image_id": "YCXS6F66RPR6SGZLSN3CTH4V"
  },
  {
   "id": "ZTDYL3XD4I2WSDJUJ3S36N32",
@@ -9458,5 +9469,50 @@ var catalog_raw=[
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/85bb72cd8af2d727c7e2857e7c571bf55412339e/original.jpeg"
   }
+ },
+ {
+  "id": "YCXS6F66RPR6SGZLSN3CTH4V",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/092102c8372c92053bb815f37fe3ccf51514980f/original.jpeg"
+  }
+ },
+ {
+  "id": "CQA4KCPVUBOKW4OW4J6CZEYL",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c31c0e60634538e5d61fde29de16ef7c3a806aab/original.jpeg"
+  }
+ },
+ {
+  "id": "FQC7RXQDSQO3IZBLJJ7DJQCA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "make it a NORMAL® day reusable BAGGU bag",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "PW6EEJQTTUUROBZU6SBVIIZM",
+     "item_variation_data": {
+      "item_id": "FQC7RXQDSQO3IZBLJJ7DJQCA",
+      "name": "1 for $15",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "73H3XD6N5HXYDBSUCVSN3ZI6",
+     "item_variation_data": {
+      "item_id": "FQC7RXQDSQO3IZBLJJ7DJQCA",
+      "name": "2 for $26",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    }
+   ]
+  },
+  "image_id": "CQA4KCPVUBOKW4OW4J6CZEYL"
  }
 ]
