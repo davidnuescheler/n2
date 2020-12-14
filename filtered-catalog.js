@@ -8372,16 +8372,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MJBA75G6K52ZQO3ZC7IV652B",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "COLOMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "PK7SVDYUJSOBKTZCDSRW2C7O",
      "item_variation_data": {
       "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
