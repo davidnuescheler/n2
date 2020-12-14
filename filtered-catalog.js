@@ -8529,7 +8529,7 @@ var catalog_raw=[
       "item_id": "6EWZY5PS7YWTNK6DACDLAJPR",
       "name": "ice cream bar 6 pack",
       "price_money": {
-       "amount": 3400
+       "amount": 3200
       }
      }
     }
