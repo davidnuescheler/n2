@@ -808,13 +808,13 @@ code {
     border: 2px solid var(--background-highlight-color);
 }
 
-#cart .pickup-time {
+/* #cart .pickup-time {
     margin-top: 4px;
     margin-bottom: 3px;
-}
+} */
 
-#cart .pickup-time nobr,
-#cart .delivery-address nobr {
+.pickup-date-time,
+.delivery-city-state-zip {
     display: flex;
 }
 
@@ -829,6 +829,14 @@ code {
 
 #cart .delivery-address #delivery-zip {
     color: gray;
+}
+
+#cart #delivery-date {
+    background-color: var(--warning-color);
+}
+
+.tool-tip {
+    /* float: left; */
 }
 
 .hidden {
