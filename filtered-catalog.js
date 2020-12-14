@@ -9514,5 +9514,19 @@ var catalog_raw=[
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a610e023c72f01ccf7d554853eaf8d92d1d30085/original.jpeg"
   }
+ },
+ {
+  "id": "MTF4H5WEWJGDTLTHSUOSVUEE",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "UTAHIM"
+  }
+ },
+ {
+  "id": "KEMC2U4CAFFY5MAZKKMJUV4F",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "HAPPYHOLIDAYS15"
+  }
  }
 ]
