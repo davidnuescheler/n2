@@ -8388,36 +8388,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "PK7SVDYUJSOBKTZCDSRW2C7O",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "COLUMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "ZUEPHCBCY5DO6HD3BGW4TTXG",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "HONDURAS jose alvarado",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "G6BQK3DIK6O7XJJW55NWWBZC",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   },
