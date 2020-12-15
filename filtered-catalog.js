@@ -3549,6 +3549,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "32ZXJURTCJRRXMHV4DKOMGHM",
+     "modifier_data": {
+      "name": "cup + cone on top!",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "ODYWRALJ2NAOWKXVJGZ6XZYI",
+     "modifier_data": {
+      "name": "taiyaki",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -9634,6 +9652,24 @@ var catalog_raw=[
   "id": "H6X2IOLNNBSLISAPULSBT5SZ",
   "modifier_data": {
    "name": "cup + TAIYAKI on top!",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "32ZXJURTCJRRXMHV4DKOMGHM",
+  "modifier_data": {
+   "name": "cup + cone on top!",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "ODYWRALJ2NAOWKXVJGZ6XZYI",
+  "modifier_data": {
+   "name": "taiyaki",
    "price_money": {
     "amount": 300
    }
