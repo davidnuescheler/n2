@@ -3640,6 +3640,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
+     "modifier_data": {
+      "name": "burnt marshmallow (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
+     "modifier_data": {
+      "name": "egg nog + burnt marshmallow TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9527,6 +9545,24 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "HAPPYHOLIDAYS15"
+  }
+ },
+ {
+  "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
+  "modifier_data": {
+   "name": "burnt marshmallow (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
+  "modifier_data": {
+   "name": "egg nog + burnt marshmallow TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
