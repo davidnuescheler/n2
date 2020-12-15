@@ -3558,15 +3558,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "ODYWRALJ2NAOWKXVJGZ6XZYI",
-     "modifier_data": {
-      "name": "taiyaki",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -9663,15 +9654,6 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "ODYWRALJ2NAOWKXVJGZ6XZYI",
-  "modifier_data": {
-   "name": "taiyaki",
-   "price_money": {
-    "amount": 300
    }
   }
  }
