@@ -9554,5 +9554,53 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "RBF4W6OADUMJQYLUWO4K3EZO",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/092102c8372c92053bb815f37fe3ccf51514980f/original.jpeg"
+  }
+ },
+ {
+  "id": "JHYN2JLDCM6BJGHN7BYYEDO3",
+  "type": "ITEM",
+  "item_data": {
+   "name": "COAVA instant coffee",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "AGYCQMGZZ26AKXLLVCS5FQ27",
+     "item_variation_data": {
+      "item_id": "JHYN2JLDCM6BJGHN7BYYEDO3",
+      "name": "select your varietal",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "G3MMWGOB5B6LDUSKI5GW5TC2",
+     "item_variation_data": {
+      "item_id": "JHYN2JLDCM6BJGHN7BYYEDO3",
+      "name": "EHTIOPIA amnesia",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "GYPMUL532MC4KWGGIOXV2LA6",
+     "item_variation_data": {
+      "item_id": "JHYN2JLDCM6BJGHN7BYYEDO3",
+      "name": "COLUMBIA robinson figueroa",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    }
+   ]
+  },
+  "image_id": "RBF4W6OADUMJQYLUWO4K3EZO"
  }
 ]
