@@ -5080,26 +5080,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ZTJSGORTRS227LWQU2M6TYXE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "your vote, your voice sticker",
-   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
-   "variations": [
-    {
-     "id": "N5LTPQCHNJGXQHU3C2R4TS4Y",
-     "item_variation_data": {
-      "item_id": "ZTJSGORTRS227LWQU2M6TYXE",
-      "name": "Regular",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
