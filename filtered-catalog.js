@@ -4346,7 +4346,7 @@ var catalog_raw=[
     {
      "id": "CZPUYDIU3N4C5UYZZCBBGIII",
      "modifier_data": {
-      "name": "Fresh Mint ice cream",
+      "name": "fresh mint ice cream (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9597,7 +9597,7 @@ var catalog_raw=[
  {
   "id": "CZPUYDIU3N4C5UYZZCBBGIII",
   "modifier_data": {
-   "name": "Fresh Mint ice cream",
+   "name": "fresh mint ice cream (gf)",
    "price_money": {
     "amount": 0
    }
