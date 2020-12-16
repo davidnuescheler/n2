@@ -4360,6 +4360,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "CZPUYDIU3N4C5UYZZCBBGIII",
+     "modifier_data": {
+      "name": "Fresh Mint ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9618,6 +9627,15 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "CZPUYDIU3N4C5UYZZCBBGIII",
+  "modifier_data": {
+   "name": "Fresh Mint ice cream",
+   "price_money": {
+    "amount": 0
    }
   }
  }
