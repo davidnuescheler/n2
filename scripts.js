@@ -954,6 +954,10 @@ function displayThanks(payment){
     // console.log(contactInfo);
     sendConfirmationEmail(contactInfo.name, contactInfo.email,contactInfo.address, contactInfo.date, receiptLink);
 
+    if (storeLocation === "delivery") {
+        addToRoute(contactInfo.date, contactInfo.name, contactInfo.address, contactInfo.comments);
+    }
+
     $receipt.setAttribute("href", receiptLink);
 
     var recipient = order.fulfillments[0].pickup_details ? 
@@ -989,9 +993,11 @@ function getContactInfo() {
 
     // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
     let address = null;
+    let comments = cell;
     let date;
     if (storeLocation === "delivery") {
         address = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
+        comments += ", note: " + $infoDiv.querySelector("#delivery-comments").value || "";
         date = $infoDiv.querySelector("#delivery-date").value;
     } else {
         const pickupDate = $infoDiv.querySelector("#pickup-date").value;
@@ -1004,13 +1010,33 @@ function getContactInfo() {
         date = `${pickupDate} at ${h}:${m} ${suf}`;
     }
 
-    return {
+    let obj = {
         name,
         email,
         date,
         address
     }
 
+    if (comments) {
+        if (comments.includes("#")) {
+            // remove breaking pound signs
+            comments = comments.replace(/#/g, "");
+        }
+        obj.comments = comments;
+    }
+
+    return obj;
+
+}
+
+async function addToRoute(date, name, address, comments) {
+    let params = `?date=${date}&name=${name}&address=${address}`;
+    if (comments) { params += `&comments=${comments}` };
+    const url = `https://script.google.com/a/macros/normal.club/s/AKfycbzs_D1JjzsjQvSoKH9rPYI5-HUwpWgiEoC5iZpe2LbS62LhkDHg1jvs/exec${params}`;
+    // console.log(`addToRoute -> url`, url);
+    let resp = await fetch(url, { method: "POST" });
+    let data = await resp.json();
+    // console.log(`addToRoute -> data`, data);
 }
 
 async function sendConfirmationEmail(name, email, address, date, receipt) {
@@ -1942,6 +1968,7 @@ function initCart() {
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
                         </select>
                     </nobr>
+                    <input id="delivery-comments" type="text" placeholder="delivery comments?">
                 </div>
                 <input id="delivery-date" class="hidden" type="text" value="select your zip to get your delivery date" title="your delivery date is set by your selected zip code!" onClick="displayToolTip(this)" readonly>
                 <div class="pickup-time"> 
