@@ -3185,18 +3185,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4DVMJE3N4ZA2VJ3BGACDCCPQ",
+     "id": "FPUHP6TMWTMLY26GHZF5KVEV",
      "modifier_data": {
-      "name": "pear sorbet (v) (gf)",
+      "name": "dark chocolate + pear TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "FPUHP6TMWTMLY26GHZF5KVEV",
+     "id": "ZDLKIFOMKMOVVLDIJX54IQCV",
      "modifier_data": {
-      "name": "dark chocolate + pear TWIST (v) (gf)",
+      "name": "pear sorbet",
       "price_money": {
        "amount": 300
       }
@@ -7593,15 +7593,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4DVMJE3N4ZA2VJ3BGACDCCPQ",
-  "modifier_data": {
-   "name": "pear sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "FPUHP6TMWTMLY26GHZF5KVEV",
   "modifier_data": {
    "name": "dark chocolate + pear TWIST (v) (gf)",
@@ -9580,6 +9571,15 @@ var catalog_raw=[
    "name": "fresh mint ice cream (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ZDLKIFOMKMOVVLDIJX54IQCV",
+  "modifier_data": {
+   "name": "pear sorbet",
+   "price_money": {
+    "amount": 300
    }
   }
  }
