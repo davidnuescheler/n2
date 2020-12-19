@@ -2230,24 +2230,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "XC7PXBHRCNEOXTFW57U27DAQ",
-     "modifier_data": {
-      "name": "pear sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "O5JT6SEB64IXARFGT5XK6TNN",
-     "modifier_data": {
-      "name": "dark chocolate + pear TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -3179,24 +3161,6 @@ var catalog_raw=[
      "id": "6L6CZEIHSP6QIW7PTTWB3A5W",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "FPUHP6TMWTMLY26GHZF5KVEV",
-     "modifier_data": {
-      "name": "dark chocolate + pear TWIST (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "ZDLKIFOMKMOVVLDIJX54IQCV",
-     "modifier_data": {
-      "name": "pear sorbet",
       "price_money": {
        "amount": 300
       }
@@ -7593,15 +7557,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "FPUHP6TMWTMLY26GHZF5KVEV",
-  "modifier_data": {
-   "name": "dark chocolate + pear TWIST (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
   "modifier_data": {
    "name": "fresh mint (gf)",
@@ -7623,24 +7578,6 @@ var catalog_raw=[
   "id": "NRI4QBXCB7UIV37MJCRVQM2H",
   "modifier_data": {
    "name": "dark chocolate sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "XC7PXBHRCNEOXTFW57U27DAQ",
-  "modifier_data": {
-   "name": "pear sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "O5JT6SEB64IXARFGT5XK6TNN",
-  "modifier_data": {
-   "name": "dark chocolate + pear TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -9571,15 +9508,6 @@ var catalog_raw=[
    "name": "fresh mint ice cream (gf)",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "ZDLKIFOMKMOVVLDIJX54IQCV",
-  "modifier_data": {
-   "name": "pear sorbet",
-   "price_money": {
-    "amount": 300
    }
   }
  }
