@@ -952,10 +952,10 @@ function displayThanks(payment){
     // send confirmation email
     const contactInfo = getContactInfo();
     // console.log(contactInfo);
-    sendConfirmationEmail(contactInfo.name, contactInfo.email,contactInfo.address, contactInfo.date, receiptLink);
+    sendConfirmationEmail(contactInfo.name, contactInfo.email, contactInfo.address, contactInfo.comments, contactInfo.date, receiptLink);
 
     if (storeLocation === "delivery") {
-        addToRoute(contactInfo.date, contactInfo.name, contactInfo.address, contactInfo.comments);
+        addToRoute(contactInfo.date, contactInfo.name, contactInfo.cell, contactInfo.address, contactInfo.comments);
     }
 
     $receipt.setAttribute("href", receiptLink);
@@ -982,30 +982,30 @@ function getTip() {
 function getContactInfo() {
     const $infoDiv = document.getElementById("info");
     // console.log(`getContactInfo -> $infoDiv`, $infoDiv);
-    const name = $infoDiv.querySelector("#name").value;
-    const cell = $infoDiv.querySelector("#cell").value;
-    const email = $infoDiv.querySelector("#email").value;
+    const name = $infoDiv.querySelector("#name").value.trim();
+    const cell = $infoDiv.querySelector("#cell").value.trim();
+    const email = $infoDiv.querySelector("#email").value.trim();
     // console.log(`getContactInfo ->`, name, cell, email);
-    const deliveryAddress = $infoDiv.querySelector("#delivery-address").value;
-    const deliveryCity = $infoDiv.querySelector("#delivery-city").value;
-    const deliveryState = $infoDiv.querySelector("#delivery-state").value;
-    const deliveryZip = $infoDiv.querySelector("#delivery-zip").value;
+    const deliveryAddress = $infoDiv.querySelector("#delivery-address").value.trim();
+    const deliveryCity = $infoDiv.querySelector("#delivery-city").value.trim();
+    const deliveryState = $infoDiv.querySelector("#delivery-state").value.trim();
+    const deliveryZip = $infoDiv.querySelector("#delivery-zip").value.trim();
 
     // console.log(`getContactInfo ->`, deliveryAddress, `\n`, deliveryCity, deliveryState, deliveryZip);
     let address = null;
-    let comments = cell;
     let date;
+    let comments = null;
     if (storeLocation === "delivery") {
         address = `${deliveryAddress}, ${deliveryCity}, ${deliveryState} ${deliveryZip}`;
-        comments += ", note: " + $infoDiv.querySelector("#delivery-comments").value || "";
-        date = $infoDiv.querySelector("#delivery-date").value;
+        date = $infoDiv.querySelector("#delivery-date").value.trim();
+        comments = $infoDiv.querySelector("#delivery-comments").value.trim();
     } else {
-        const pickupDate = $infoDiv.querySelector("#pickup-date").value;
-        const pickupTime = $infoDiv.querySelector("#pickup-time").value;
+        const pickupDate = $infoDiv.querySelector("#pickup-date").value.trim();
+        const pickupTime = $infoDiv.querySelector("#pickup-time").value.trim();
         const dt = new Date(pickupTime);
         const h = dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours();
         const m = dt.getMinutes().toString().padStart(2, "0");
-        const suf = dt.getHours() > 12 ? "pm" : "am";
+        const suf = dt.getHours() >= 12 ? "pm" : "am";
         // console.log(`getContactInfo -> h:m suf`, ``);
         date = `${pickupDate} at ${h}:${m} ${suf}`;
     }
@@ -1013,6 +1013,7 @@ function getContactInfo() {
     let obj = {
         name,
         email,
+        cell,
         date,
         address
     }
@@ -1029,8 +1030,8 @@ function getContactInfo() {
 
 }
 
-async function addToRoute(date, name, address, comments) {
-    let params = `?date=${date}&name=${name}&address=${address}`;
+async function addToRoute(date, name, cell, address, comments) {
+    let params = `?date=${date}&name=${name}&cell=${cell}&address=${address}`;
     if (comments) { params += `&comments=${comments}` };
     const url = `https://script.google.com/a/macros/normal.club/s/AKfycbzs_D1JjzsjQvSoKH9rPYI5-HUwpWgiEoC5iZpe2LbS62LhkDHg1jvs/exec${params}`;
     // console.log(`addToRoute -> url`, url);
@@ -1039,8 +1040,9 @@ async function addToRoute(date, name, address, comments) {
     // console.log(`addToRoute -> data`, data);
 }
 
-async function sendConfirmationEmail(name, email, address, date, receipt) {
-    const params = `?type=${storeLocation}&name=${name}&email=${email}&address=${address}&date=${date}&receipt=${receipt}`;
+async function sendConfirmationEmail(name, email, address, comments, date, receipt) {
+    let params = `?type=${storeLocation}&name=${name}&email=${email}&address=${address}&date=${date}&receipt=${receipt}`;
+    if (comments) { params += `&comments=${comments}` };
     const url = `https://script.google.com/macros/s/AKfycbybZ1eHJUJoyyDX41m6cekPho9LaZgucH8yA3hnP1wzmqL9u4c5i7GUdw/exec${params}`;
     // console.log(`sendConfirmationEmail -> url`, url);
     let resp = await fetch(url);
