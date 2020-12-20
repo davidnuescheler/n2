@@ -3445,7 +3445,7 @@ var catalog_raw=[
     {
      "id": "4G6OK6FOMHHJBC7NGOPU2NLO",
      "modifier_data": {
-      "name": "dulcey dip",
+      "name": "dulcey",
       "price_money": {
        "amount": 100
       }
@@ -3578,6 +3578,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
+     "modifier_data": {
+      "name": "burnt marshmallow (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
+     "modifier_data": {
+      "name": "egg nog + burnt marshmallow TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
       "name": "chai tea (gf)",
@@ -3599,24 +3617,6 @@ var catalog_raw=[
      "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
      "modifier_data": {
       "name": "pomegranate + chai tea TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
-     "modifier_data": {
-      "name": "burnt marshmallow (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
-     "modifier_data": {
-      "name": "egg nog + burnt marshmallow TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9120,7 +9120,7 @@ var catalog_raw=[
  {
   "id": "4G6OK6FOMHHJBC7NGOPU2NLO",
   "modifier_data": {
-   "name": "dulcey dip",
+   "name": "dulcey",
    "price_money": {
     "amount": 100
    }
