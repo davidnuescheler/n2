@@ -1963,6 +1963,7 @@ function initCart() {
                 <input id="email" type="email" placeholder="your email">
                 <div class="delivery-address hidden"> 
                     <input id="delivery-address" type="text" placeholder="your address">
+                    <input id="delivery-comments" type="text" placeholder="apartment # or building code? add here!">
                     <nobr class="delivery-city-state-zip">
                         <input id="delivery-city" type="text" placeholder="your city" >
                         <input id="delivery-state" type="text" value="utah" readonly>
@@ -1970,7 +1971,6 @@ function initCart() {
                             <option style="color: #a9a9a9" value="" disabled selected hidden>your zip code</option>
                         </select>
                     </nobr>
-                    <input id="delivery-comments" type="text" placeholder="delivery comments?">
                 </div>
                 <input id="delivery-date" class="hidden" type="text" value="select your zip to get your delivery date" title="your delivery date is set by your selected zip code!" onClick="displayToolTip(this)" readonly>
                 <div class="pickup-time"> 
