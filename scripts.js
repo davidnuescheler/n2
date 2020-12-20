@@ -1289,6 +1289,8 @@ function updateAfterZip() {
     const match = window.deliveryZips.find((zip) => {
         return zip.zip === zipValue;
     });
+    document.getElementById("orderBtn").disabled = true;
+    document.getElementById("orderBtn").classList.add("hidden");
     setZipColor($zipSelect);
     setCity(match.city);
     setDeliveryDate(match.date);
@@ -2184,7 +2186,7 @@ function updateCart() {
         const minOrder = parseInt(window.labels.delivery_minorder) * 100;
         // check if zip is set and available
         const deliveryDate = cartEl.querySelector("#delivery-date").value;
-        console.log(`updateCart -> deliveryDate`, deliveryDate);
+        // console.log(`updateCart -> deliveryDate`, deliveryDate);
         if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
