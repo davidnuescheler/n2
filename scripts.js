@@ -343,6 +343,7 @@ function setLocation() {
         case "/delivery.html": 
         case "/delivery2.html": // testing delivery
             storeLocation = 'delivery';
+            getDeliveryCount();
             break;
         case "/lab":
         case "/lab2": // testing lab
@@ -1033,11 +1034,57 @@ function getContactInfo() {
 async function addToRoute(date, name, cell, address, comments) {
     let params = `?date=${date}&name=${name}&cell=${cell}&address=${address}`;
     if (comments) { params += `&comments=${comments}` };
-    const url = `https://script.google.com/a/macros/normal.club/s/AKfycbzs_D1JjzsjQvSoKH9rPYI5-HUwpWgiEoC5iZpe2LbS62LhkDHg1jvs/exec${params}`;
+    const url = `https://script.google.com/macros/s/AKfycbzs_D1JjzsjQvSoKH9rPYI5-HUwpWgiEoC5iZpe2LbS62LhkDHg1jvs/exec${params}`;
     // console.log(`addToRoute -> url`, url);
     let resp = await fetch(url, { method: "POST" });
     let data = await resp.json();
     // console.log(`addToRoute -> data`, data);
+}
+
+async function getDeliveryCount() {
+    await fetchDeliveryZips();
+    let dates = ``;
+    const zipArr = window.deliveryZips.forEach((zip) => {
+        if (!dates.includes(zip.date)) {
+            dates += `date=${zip.date}&`;
+        }
+    })
+    // remove last ampersand
+    const params = `?${dates.slice(0, -1)}` 
+    const url = `https://script.google.com/macros/s/AKfycbzs_D1JjzsjQvSoKH9rPYI5-HUwpWgiEoC5iZpe2LbS62LhkDHg1jvs/exec${params}`
+    // console.log(`getDeliveryCount -> url`, url);
+    let resp = await fetch(url, { method: "GET" });
+    let { data } = await resp.json();
+    window.deliveryCount = {};
+    data.forEach((day) => {
+        // console.log(day);
+        window.deliveryCount[day.day.toUpperCase()] = {
+            date: day.date,
+            orders: day.orders
+        }
+    })
+    // console.log(window.deliveryCount);
+    markSoldOutDelivery();
+}
+
+function markSoldOutDelivery() {
+    const $deliveryZips = document.getElementById(`delivery-zip-codes`).parentElement;
+    const $deliveryDates = $deliveryZips.querySelectorAll("strong");
+    $deliveryDates.forEach((date) => {
+        const thisDate = date.textContent.toUpperCase();
+        // if date has over 40 orders
+        if (window.deliveryCount[thisDate] && 
+            window.deliveryCount[thisDate].orders >= 40) 
+        {
+            // mark SOLD OUT
+            date.textContent += ` - SOLD OUT!`
+            // strike through following zip codes
+            const thisParent = date.parentElement;
+            const thisSibling = thisParent.nextElementSibling;
+            thisSibling.style.textDecoration = "line-through";
+
+        }
+    })
 }
 
 async function sendConfirmationEmail(name, email, address, comments, date, receipt) {
@@ -1200,16 +1247,40 @@ function setDeliveryDate(date) {
     
     let next = today.getDate() - (today.getDay() - 1) + days[shortDay];
     // if in the past, set to the next week
-    if (next <= today.getDate()) { next += 7; } 
+    // if (next <= today.getDate()) { next += 7; } 
     let deliveryDate = new Date(today.setDate(next));
     // console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
-    // console.log(`setDeliveryDate -> $deliveryDate`, $deliveryDate);
 
     $deliveryDate.value = weekdays[deliveryDate.getDay()] + ", " + months[deliveryDate.getMonth()] + " " + deliveryDate.getDate();
     $deliveryDate.setAttribute("data-date", `${deliveryDate.getFullYear()}/${deliveryDate.getMonth()+1}/${deliveryDate.getDate()}`);
     if ($deliveryDate.style.backgroundColor !== "white") {
         $deliveryDate.style.backgroundColor = "white"
     };
+}
+
+async function checkDateStock(date) {
+    await getDeliveryCount();
+    const thisDate = date.toUpperCase();
+    const $cartEl = document.getElementById("cart");
+    const $deliveryDate = document.getElementById("delivery-date");
+    
+    if (window.deliveryCount[thisDate] && 
+        window.deliveryCount[thisDate].orders >= 40) 
+    {
+        // add sold out text to delivery date
+        $deliveryDate.value += " - SOLD OUT!"
+        // display out-of-stock message
+        $cartEl.querySelector(".deliverycap").classList.remove("hidden");
+        // prevent order submission
+        $cartEl.querySelector("#orderBtn").disabled = true;
+        $cartEl.querySelector("#orderBtn").classList.add("hidden");
+    } else {
+        // open order submission back
+        $cartEl.querySelector(".deliverycap").classList.add("hidden");
+        $cartEl.querySelector("#orderBtn").disabled = false;
+        $cartEl.querySelector("#orderBtn").classList.remove("hidden");
+    }
+    
 }
 
 function updateAfterZip() {
@@ -1221,6 +1292,7 @@ function updateAfterZip() {
     setZipColor($zipSelect);
     setCity(match.city);
     setDeliveryDate(match.date);
+    checkDateStock(match.date);
 }
 
 function displayToolTip(el) {
@@ -1984,6 +2056,9 @@ function initCart() {
                 <div class="warning hidden minorder">
                     <p>${labels.checkout_minorder}${labels.delivery_minorder}.</p>
                 </div>
+                <div class="warning hidden deliverycap">
+                    <p>${labels.delivery_ordercap}</p>
+                </div>
                 <button id="orderBtn" onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
@@ -2107,15 +2182,21 @@ function updateCart() {
     if (storeLocation === "delivery") {
         // convert dollar amount from google sheet to cents for comparison 
         const minOrder = parseInt(window.labels.delivery_minorder) * 100;
-        if (cart.totalAmount() < minOrder) { 
-            cartEl.querySelector(".minorder").classList.remove("hidden");
+        // check if zip is set and available
+        const deliveryDate = cartEl.querySelector("#delivery-date").value;
+        if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
         } else {
-            cartEl.querySelector(".minorder").classList.add("hidden");
             cartEl.querySelector("#orderBtn").disabled = false;
             cartEl.querySelector("#orderBtn").classList.remove("hidden");
         };
+        
+        if (cart.totalAmount() < minOrder) {
+            cartEl.querySelector(".minorder").classList.remove("hidden");
+        } else {
+            cartEl.querySelector(".minorder").classList.add("hidden");
+        }
     }
 
     var summaryEl=cartEl.querySelector(".summary");
@@ -2266,6 +2347,7 @@ function toggleCart(e) {
 }
 
 function addToCart(e) {
+    // console.log(`addToCart -> addToCart`, e);
     var id=e.getAttribute("data-id");
     if (id) {
         var obj=catalog.byId[id]
