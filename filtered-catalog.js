@@ -3165,6 +3165,15 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "PKWLPLHLMWOLMZEI344WT4GN",
+     "modifier_data": {
+      "name": "pear sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -5015,6 +5024,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "67CEIT6I5LPM4DK73FL2ORSF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "pear sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9488,6 +9507,15 @@ var catalog_raw=[
    "name": "fresh mint ice cream (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PKWLPLHLMWOLMZEI344WT4GN",
+  "modifier_data": {
+   "name": "pear sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
