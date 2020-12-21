@@ -3434,15 +3434,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2ZYNEF3QG4WBWJV2XGFFB5TM",
-     "modifier_data": {
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "4G6OK6FOMHHJBC7NGOPU2NLO",
      "modifier_data": {
       "name": "dulcey",
@@ -6037,15 +6028,6 @@ var catalog_raw=[
    "name": "pomegranate + chai tea TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "2ZYNEF3QG4WBWJV2XGFFB5TM",
-  "modifier_data": {
-   "name": "dark chocolate",
-   "price_money": {
-    "amount": 100
    }
   }
  },
