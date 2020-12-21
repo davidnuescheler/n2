@@ -6722,16 +6722,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "GITIXD7BLKLACF5OVCG3NF3I",
-     "item_variation_data": {
-      "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
-      "name": "half size",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
      "id": "IKH3TTCSPKRPXSLIQJRPONDO",
      "item_variation_data": {
       "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
