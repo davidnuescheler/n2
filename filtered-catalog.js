@@ -137,15 +137,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "KUXDZVPGTOJKDVIKPNVGWWE2",
-     "modifier_data": {
-      "name": "mallow fluff (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -8817,15 +8808,6 @@ var catalog_raw=[
   "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
   "modifier_data": {
    "name": "tru fru chocolate covered raspberries",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "KUXDZVPGTOJKDVIKPNVGWWE2",
-  "modifier_data": {
-   "name": "mallow fluff (gf)",
    "price_money": {
     "amount": 75
    }
