@@ -3450,6 +3450,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "Z4SEOXFSU73LWWYXAZVTCY2U",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -9434,6 +9443,15 @@ var catalog_raw=[
    "name": "pear sorbet (v) (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "Z4SEOXFSU73LWWYXAZVTCY2U",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
    }
   }
  }
