@@ -137,6 +137,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "PXT5OKUFIFSDRVUDCZ4VWZBF",
+     "modifier_data": {
+      "name": "mallow fluff (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9452,6 +9461,15 @@ var catalog_raw=[
    "name": "dark chocolate",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "PXT5OKUFIFSDRVUDCZ4VWZBF",
+  "modifier_data": {
+   "name": "mallow fluff (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
