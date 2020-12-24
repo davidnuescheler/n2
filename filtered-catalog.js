@@ -6703,6 +6703,16 @@ var catalog_raw=[
        "amount": 700
       }
      }
+    },
+    {
+     "id": "WC46AUF7JLF525IKCH3CWK6Z",
+     "item_variation_data": {
+      "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
     }
    ]
   }
