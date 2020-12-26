@@ -1552,16 +1552,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "NSMAWHNJ53HFR5NMH7IRPPGN",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA meaza",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
@@ -4315,6 +4305,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "YCWFCHGLTYICIBJR3J3RFJO7",
+     "modifier_data": {
+      "name": "cinnamon ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "SFIVZTEZZDZDDCJAQHDF6GZ6",
+     "modifier_data": {
+      "name": "fresh mint ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -4855,6 +4863,15 @@ var catalog_raw=[
      "id": "UYJHHXSFPW66YIEW4EPCAU4B",
      "modifier_data": {
       "name": "vegan",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "QBYX2E6V5KJICT74Z2UXKOYS",
+     "modifier_data": {
+      "name": "pepperoni",
       "price_money": {
        "amount": 0
       }
@@ -9478,6 +9495,33 @@ var catalog_raw=[
   "id": "PXT5OKUFIFSDRVUDCZ4VWZBF",
   "modifier_data": {
    "name": "mallow fluff (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "QBYX2E6V5KJICT74Z2UXKOYS",
+  "modifier_data": {
+   "name": "pepperoni",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YCWFCHGLTYICIBJR3J3RFJO7",
+  "modifier_data": {
+   "name": "cinnamon ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SFIVZTEZZDZDDCJAQHDF6GZ6",
+  "modifier_data": {
+   "name": "fresh mint ice cream",
    "price_money": {
     "amount": 0
    }
