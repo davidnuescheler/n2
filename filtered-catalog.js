@@ -3257,16 +3257,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "RCPV5TFXPHHYPFRB2SGMI3HN",
-     "item_variation_data": {
-      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
-      "name": "small",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
      "id": "CY52KC7X2P2KXLO47PE5PM4A",
      "item_variation_data": {
       "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
@@ -5211,6 +5201,16 @@ var catalog_raw=[
       "name": "select your size",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ETSP24QKTBBRUCIPYAHS5B2A",
+     "item_variation_data": {
+      "item_id": "TWT52CZR6SJ67NHMJVLWJZMG",
+      "name": "extra small",
+      "price_money": {
+       "amount": 4000
       }
      }
     },
@@ -9525,6 +9525,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "LQLZ4YQZV6QKU5IFRPCY4BT2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "yin yang sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "Q23O7LUGLTI6EN6QZSLHD4IH",
+     "item_variation_data": {
+      "item_id": "LQLZ4YQZV6QKU5IFRPCY4BT2",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
   }
  }
 ]
