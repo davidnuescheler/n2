@@ -6188,18 +6188,18 @@ var catalog_raw=[
    "name": "hot chocolate topping",
    "modifiers": [
     {
-     "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
+     "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
      "modifier_data": {
-      "name": "whipped coconut cream (v)",
+      "name": "meringue",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
+     "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
      "modifier_data": {
-      "name": "plain pls!",
+      "name": "whipped coconut cream (v)",
       "price_money": {
        "amount": 0
       }
@@ -6220,7 +6220,7 @@ var catalog_raw=[
  {
   "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
   "modifier_data": {
-   "name": "plain pls!",
+   "name": "meringue",
    "price_money": {
     "amount": 0
    }
