@@ -8724,27 +8724,9 @@ var catalog_raw=[
    "name": "espresso option",
    "modifiers": [
     {
-     "id": "KJLLGBKIUCLIPWK4N6AZHN3I",
-     "modifier_data": {
-      "name": "select an espresso",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
      "modifier_data": {
       "name": "COAVA espresso blend",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "XPQU3C66DYW7LFIIT526J3CP",
-     "modifier_data": {
-      "name": "ETHIOPIA meaza single origin",
       "price_money": {
        "amount": 0
       }
@@ -8757,15 +8739,6 @@ var catalog_raw=[
   "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
   "modifier_data": {
    "name": "COAVA espresso blend",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "XPQU3C66DYW7LFIIT526J3CP",
-  "modifier_data": {
-   "name": "ETHIOPIA meaza single origin",
    "price_money": {
     "amount": 0
    }
@@ -9132,15 +9105,6 @@ var catalog_raw=[
    "name": "dulcey",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "KJLLGBKIUCLIPWK4N6AZHN3I",
-  "modifier_data": {
-   "name": "select an espresso",
-   "price_money": {
-    "amount": 0
    }
   }
  },
