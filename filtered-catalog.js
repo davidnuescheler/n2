@@ -5007,16 +5007,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "67CEIT6I5LPM4DK73FL2ORSF",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "pear sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
