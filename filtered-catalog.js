@@ -2211,15 +2211,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "NRI4QBXCB7UIV37MJCRVQM2H",
-     "modifier_data": {
-      "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -3142,15 +3133,6 @@ var catalog_raw=[
      "id": "NMC2RH6NEUYEQ25VNYZR5SWB",
      "modifier_data": {
       "name": "chocolate + mint TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "PKWLPLHLMWOLMZEI344WT4GN",
-     "modifier_data": {
-      "name": "pear sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6189,7 +6171,7 @@ var catalog_raw=[
     {
      "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
      "modifier_data": {
-      "name": "meringue",
+      "name": "toasted mallow fluff",
       "price_money": {
        "amount": 0
       }
@@ -6219,7 +6201,7 @@ var catalog_raw=[
  {
   "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
   "modifier_data": {
-   "name": "meringue",
+   "name": "toasted mallow fluff",
    "price_money": {
     "amount": 0
    }
@@ -7539,15 +7521,6 @@ var catalog_raw=[
   "id": "J32YPLITR7C5FM4W36U7HDNH",
   "modifier_data": {
    "name": "chocolate + mint TWIST",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "NRI4QBXCB7UIV37MJCRVQM2H",
-  "modifier_data": {
-   "name": "dark chocolate sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -9424,15 +9397,6 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "PKWLPLHLMWOLMZEI344WT4GN",
-  "modifier_data": {
-   "name": "pear sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
