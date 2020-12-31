@@ -3147,6 +3147,33 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "JOFOXYIY2LFS2V6OOHDLQZPC",
+     "modifier_data": {
+      "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "45BMLY5IZZD7C5QXEQ45IZJG",
+     "modifier_data": {
+      "name": "pear sorbet (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "P3GCLM7JJ4APJNLG4KS6XDUJ",
+     "modifier_data": {
+      "name": "dark chocolate + pear TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -5013,6 +5040,36 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "chocolate + mint TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GT5RDYCMYCAR2AR777GO5J5G",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "OPET63OZ32TUNUJRHJCGJMUH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "pear sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "QVQ6ZKKB4AO4AYR5VNA7SKCG",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "dark chocolate + pear TWIST (v)",
       "price_money": {
        "amount": 0
       }
@@ -9480,6 +9537,33 @@ var catalog_raw=[
    "name": "salted vanilla bean ice cream",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JOFOXYIY2LFS2V6OOHDLQZPC",
+  "modifier_data": {
+   "name": "dark chocolate sorbet (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "45BMLY5IZZD7C5QXEQ45IZJG",
+  "modifier_data": {
+   "name": "pear sorbet (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "P3GCLM7JJ4APJNLG4KS6XDUJ",
+  "modifier_data": {
+   "name": "dark chocolate + pear TWIST",
+   "price_money": {
+    "amount": 300
    }
   }
  }
