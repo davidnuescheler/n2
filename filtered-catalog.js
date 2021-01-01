@@ -1577,26 +1577,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4PUTZEJ5FUTWFMPTQVNTK2BG",
-  "type": "ITEM",
-  "item_data": {
-   "name": "hot chocolate pack",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "5AVKNYYTKFPNDMDNZB7IJKGI",
-     "item_variation_data": {
-      "item_id": "4PUTZEJ5FUTWFMPTQVNTK2BG",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1400
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "5EXPUENA3LB5EEDUAQEF6E6M",
   "type": "ITEM",
   "item_data": {
@@ -2572,26 +2552,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "W4VCGR5T7LOUWHWREOBQT4XZ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream sando workshop",
-   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
-   "variations": [
-    {
-     "id": "GCEKLRTHGKO5WH53MCKO45SS",
-     "item_variation_data": {
-      "item_id": "W4VCGR5T7LOUWHWREOBQT4XZ",
-      "name": "saturday 4/25",
-      "price_money": {
-       "amount": 6000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "YS6ZPX2ESI7RABRRZDA32OHC",
   "type": "ITEM",
   "item_data": {
@@ -2625,66 +2585,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "7RY7SCXINZMVS3SQ2CE5JW3H",
-  "type": "ITEM",
-  "item_data": {
-   "name": "sprinkle workshop",
-   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
-   "variations": [
-    {
-     "id": "NGD2Z54DDR5J7ZVPJDGQMWYE",
-     "item_variation_data": {
-      "item_id": "7RY7SCXINZMVS3SQ2CE5JW3H",
-      "name": "saturday 3/21",
-      "price_money": {
-       "amount": 4500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "6W6FXPKJPOJYJS5RQ63CBV6I",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cake workshop",
-   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
-   "variations": [
-    {
-     "id": "MQYXNF6BVVSFMUYWDE2GYYSM",
-     "item_variation_data": {
-      "item_id": "6W6FXPKJPOJYJS5RQ63CBV6I",
-      "name": "saturday 2/15",
-      "price_money": {
-       "amount": 9000
-      }
-     }
-    },
-    {
-     "id": "EVI365OZOWC6VOGGVARVKG74",
-     "item_variation_data": {
-      "item_id": "6W6FXPKJPOJYJS5RQ63CBV6I",
-      "name": "saturday 3/14 *SOLD OUT*",
-      "price_money": {
-       "amount": 9000
-      }
-     }
-    },
-    {
-     "id": "P5EWHXVX6H4GO4S66PD4T2VD",
-     "item_variation_data": {
-      "item_id": "6W6FXPKJPOJYJS5RQ63CBV6I",
-      "name": "saturday 4/11",
-      "price_money": {
-       "amount": 9000
       }
      }
     }
@@ -2979,7 +2879,7 @@ var catalog_raw=[
      "id": "VISQUQUUTZQOSTBUNH6H33JY",
      "item_variation_data": {
       "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "peach (v)",
+      "name": "other",
       "price_money": {
        "amount": 450
       }
@@ -3000,6 +2900,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
       "name": "milk chocolate",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
+     "id": "4YQBMWU4F3T73N4L7FUX3XKM",
+     "item_variation_data": {
+      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
+      "name": "dark chocolate",
       "price_money": {
        "amount": 450
       }
@@ -4449,121 +4359,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "IFPZRBGIPCC2UMGKLBGELQGZ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "our 4 fav pints",
-   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
-   "variations": [
-    {
-     "id": "N64QK6LEPVCS4PXZGCX6M5CX",
-     "item_variation_data": {
-      "item_id": "IFPZRBGIPCC2UMGKLBGELQGZ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "J7VY7RHFB52G5NRFKQYF4LOK",
-  "type": "ITEM",
-  "item_data": {
-   "name": "our 4 fav vegan pints",
-   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
-   "variations": [
-    {
-     "id": "IYEHIS2OVGPQ6ACKEDVRPZGQ",
-     "item_variation_data": {
-      "item_id": "J7VY7RHFB52G5NRFKQYF4LOK",
-      "name": "Regular",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "TV75H6QDN4B4BMU64LKFVSAM",
-  "type": "ITEM",
-  "item_data": {
-   "name": "get me through the week pack",
-   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
-   "variations": [
-    {
-     "id": "ZVXEESFUPJSAY37QIC3LZPCT",
-     "item_variation_data": {
-      "item_id": "TV75H6QDN4B4BMU64LKFVSAM",
-      "name": "Regular",
-      "price_money": {
-       "amount": 5500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "3TDC3QMHQZ35IPPKBZUZK3NL",
-  "type": "ITEM",
-  "item_data": {
-   "name": "get me through the week vegan pack",
-   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
-   "variations": [
-    {
-     "id": "M3N7AHTKMA3JRL24MCTCSVTF",
-     "item_variation_data": {
-      "item_id": "3TDC3QMHQZ35IPPKBZUZK3NL",
-      "name": "Regular",
-      "price_money": {
-       "amount": 5500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "TUL63VH2WEPKSL7VGEC3DOCE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "brownies a la normal",
-   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    }
-   ],
-   "variations": [
-    {
-     "id": "EG6RNNJYBAGRW7KZ7DBG62IB",
-     "item_variation_data": {
-      "item_id": "TUL63VH2WEPKSL7VGEC3DOCE",
-      "name": "no nuts in my brownies!",
-      "price_money": {
-       "amount": 3000
-      }
-     }
-    },
-    {
-     "id": "VUC6INUTQZ7LHBFWMQ73QJVA",
-     "item_variation_data": {
-      "item_id": "TUL63VH2WEPKSL7VGEC3DOCE",
-      "name": "pls add walnuts to my brownie mix",
-      "price_money": {
-       "amount": 3000
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -6704,31 +6499,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DL6NPUI5R26E7DPBWB2QFCM2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "s'mores vegan ice cream pie",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QRABM5M2A2FJSSH5VMVDR3YS"
-    }
-   ],
-   "variations": [
-    {
-     "id": "NDZSXOC7LTVIAVS65SIHYF6O",
-     "item_variation_data": {
-      "item_id": "DL6NPUI5R26E7DPBWB2QFCM2",
-      "name": "s'mores vegan ice cream pie",
-      "price_money": {
-       "amount": 2800
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "QRABM5M2A2FJSSH5VMVDR3YS",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -6843,56 +6613,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "K2XFEZD2I6NEQ5RWWVUOMU2F",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pumpkin + kunafa ice cream pie",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QRABM5M2A2FJSSH5VMVDR3YS"
-    }
-   ],
-   "variations": [
-    {
-     "id": "QN7IWMEJ476FOLWBMMZJWXBC",
-     "item_variation_data": {
-      "item_id": "K2XFEZD2I6NEQ5RWWVUOMU2F",
-      "name": "pumpkin + kunafa ice cream pie",
-      "price_money": {
-       "amount": 2800
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "PMJYZTBRSWIMEBQM3DETPW3N",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pie party x normal",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QRABM5M2A2FJSSH5VMVDR3YS"
-    }
-   ],
-   "variations": [
-    {
-     "id": "NTGOEM2MAVCFFWIOGV3HGQQC",
-     "item_variation_data": {
-      "item_id": "PMJYZTBRSWIMEBQM3DETPW3N",
-      "name": "pie party x normal",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -7813,36 +7533,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "7V5QVONZP5FYPOTMTIMIF2KW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ready to eat cinnamon rolls",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "NG2J3TZF72HG6JA2SMUOL3JL",
-     "item_variation_data": {
-      "item_id": "7V5QVONZP5FYPOTMTIMIF2KW",
-      "name": "4 cin rolls",
-      "price_money": {
-       "amount": 1400
-      }
-     }
-    },
-    {
-     "id": "DQNP34R2SM24KBTV2O2OYVT3",
-     "item_variation_data": {
-      "item_id": "7V5QVONZP5FYPOTMTIMIF2KW",
-      "name": "6 cin rolls",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -9069,6 +8759,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 300
    }
+  }
+ },
+ {
+  "id": "SEOZRAUTDM5R3JXQADUTD674",
+  "type": "ITEM",
+  "item_data": {
+   "name": "make it a NORMAL® day reusable BAGGU bag",
+   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
+   "variations": [
+    {
+     "id": "WK2KTUC265PXISHDORM6COLU",
+     "item_variation_data": {
+      "item_id": "SEOZRAUTDM5R3JXQADUTD674",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    }
+   ]
   }
  }
 ]
