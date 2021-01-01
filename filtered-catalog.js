@@ -9054,5 +9054,85 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "POPNEFDEOAJWIKPP2BE2V2BD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan pink peppermint pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "M3ZHTJBFQ32M6SPLNCPIBW6L",
+     "item_variation_data": {
+      "item_id": "POPNEFDEOAJWIKPP2BE2V2BD",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CX42XQBHF3I6AZNTA5XBDJIO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pink peppermint pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "XIPREQNZ3EONWEGSYVI7VMCZ",
+     "item_variation_data": {
+      "item_id": "CX42XQBHF3I6AZNTA5XBDJIO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "KBKJASOL3JFZYGTZF7NMPBKV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "apple pie pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "Z2GJ2573BOGEAVZB7TNBW5KC",
+     "item_variation_data": {
+      "item_id": "KBKJASOL3JFZYGTZF7NMPBKV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TUPZJASCLI5V6CLN5REY5YMI",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ambrosia pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ZCJDFRXHV62XEVKGNFSIH7RH",
+     "item_variation_data": {
+      "item_id": "TUPZJASCLI5V6CLN5REY5YMI",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
