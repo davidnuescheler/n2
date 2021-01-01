@@ -752,25 +752,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "U4KXGFPJBBZZI5YYG6R4GTC2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "matcha (green tea) pint",
-   "variations": [
-    {
-     "id": "EHRW7UKN63JML4QW2SL7CLVN",
-     "item_variation_data": {
-      "item_id": "U4KXGFPJBBZZI5YYG6R4GTC2",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "5OA65OJCEMWI5FURJQ3RRVTL",
   "type": "ITEM",
   "item_data": {
@@ -795,6 +776,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "6D3TJUDP6LHFNMKDAJAV3CNF",
@@ -973,7 +955,7 @@ var catalog_raw=[
   "id": "22K3ZJXXFO7ZYNSNGPSO5DDF",
   "type": "ITEM",
   "item_data": {
-   "name": "blood orange pint",
+   "name": "blood orange sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -1054,6 +1036,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "malted coffee pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZXI6RNKLTDEBE6P7DRQD5FP4",
@@ -1292,7 +1275,7 @@ var catalog_raw=[
   "id": "3QJIX4LIS6CEOXZRCVV7SCJQ",
   "type": "ITEM",
   "item_data": {
-   "name": "\"handle\" salted maple bar",
+   "name": "the handle bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
@@ -3010,6 +2993,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mini pint (5 oz)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "VISQUQUUTZQOSTBUNH6H33JY",
@@ -5965,26 +5949,6 @@ var catalog_raw=[
      "id": "JGYYAWE3OUIOPFR4SC3XQDMK",
      "item_variation_data": {
       "item_id": "JCXRVTIFTZQTBATTFKACAUFD",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "LDEBYAJBITU7UPTEKMUOIMVQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "all about orange pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "PBKVBZOUOMDUN6MJZY6WODPE",
-     "item_variation_data": {
-      "item_id": "LDEBYAJBITU7UPTEKMUOIMVQ",
       "name": "Regular",
       "price_money": {
        "amount": 1200
