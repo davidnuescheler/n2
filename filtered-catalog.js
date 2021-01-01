@@ -5904,13 +5904,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "FS2PR7FYOFP4I6QE7RHM2WEG",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "shopinutah"
-  }
- },
- {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
    "name": "chai tea (gf)",
@@ -5970,13 +5963,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "ZZQL27DYENVAXH2V3FXXHZKA",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "shopinutahdrinks"
   }
  },
  {
@@ -7786,13 +7772,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "2GRRXLGSDHFX6YRTDUWW5EOL",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "femalefoodie"
   }
  },
  {
