@@ -812,26 +812,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OIKSXB2D3WXTKOJSBA5K7GWB",
-  "type": "ITEM",
-  "item_data": {
-   "name": "mango + coconut rice pint (v)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "SF2QDKYBFYV2DK3Z5SOIPYKI",
-     "item_variation_data": {
-      "item_id": "OIKSXB2D3WXTKOJSBA5K7GWB",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "KOMY237QXE72J7QNLBSGTN75",
   "type": "ITEM",
   "item_data": {
@@ -935,7 +915,7 @@ var catalog_raw=[
   "id": "7DZUNBU55D5J5MNS3VSO62FV",
   "type": "ITEM",
   "item_data": {
-   "name": "dark chocolate pint",
+   "name": "dark chocolate sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -1015,7 +995,7 @@ var catalog_raw=[
   "id": "EZ4TWPXIH2RZ5TDAELJGFMVR",
   "type": "ITEM",
   "item_data": {
-   "name": "normal mint chip pint",
+   "name": "mint condition pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -2762,7 +2742,7 @@ var catalog_raw=[
   "id": "7VNK2ZVKQM6AW2QOK5I57Y6Q",
   "type": "ITEM",
   "item_data": {
-   "name": "blueberry pint",
+   "name": "blueberry  pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -2782,7 +2762,7 @@ var catalog_raw=[
   "id": "MHQRIQRAD6RX377E7T3TKF5D",
   "type": "ITEM",
   "item_data": {
-   "name": "pear pint",
+   "name": "pear sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -5354,7 +5334,7 @@ var catalog_raw=[
   "id": "SG5AHFIRUZ72MV7RDIJAZ2YW",
   "type": "ITEM",
   "item_data": {
-   "name": "mango pint (v)",
+   "name": "mango sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -5364,26 +5344,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "RNJJ2U7CMZNNBEKYCFWDNF43",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cocoa nib pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "LB4PEDCHORF437RUEY2YGL67",
-     "item_variation_data": {
-      "item_id": "RNJJ2U7CMZNNBEKYCFWDNF43",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
       }
      }
     }
@@ -5419,46 +5379,6 @@ var catalog_raw=[
      "id": "MBP47ZLUZ4UP3CLDBWUG2GPX",
      "item_variation_data": {
       "item_id": "RO5AY5HPV3EAUJEGDQUL5XDJ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "EUSIJTBGVJ25E4TCM77YYVE7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "oreo milk pint (v)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "KYIB243R6IVQJFLFNSA5D7QZ",
-     "item_variation_data": {
-      "item_id": "EUSIJTBGVJ25E4TCM77YYVE7",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "L4MROH2DSZ5LENGOLZOPC7KW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "peach + balsamic pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "L2QZFZLUCVWGSMZ5EB7DN7U5",
-     "item_variation_data": {
-      "item_id": "L4MROH2DSZ5LENGOLZOPC7KW",
       "name": "Regular",
       "price_money": {
        "amount": 1000
@@ -5939,26 +5859,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JCXRVTIFTZQTBATTFKACAUFD",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coava coffee exclusive pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "JGYYAWE3OUIOPFR4SC3XQDMK",
-     "item_variation_data": {
-      "item_id": "JCXRVTIFTZQTBATTFKACAUFD",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "CRWRNDQPT6O5ZXFRTE5PSVFY",
   "type": "ITEM",
   "item_data": {
@@ -6063,7 +5963,7 @@ var catalog_raw=[
   "id": "6RXWDXJTVKRGKBKWJZN3M77K",
   "type": "ITEM",
   "item_data": {
-   "name": "rhubarb pint",
+   "name": "rhubarb sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -6256,26 +6156,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "FSY4G4DO6NFBV2VMLP7PD6I6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "molasses + brownie pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "FNDFNX47QMUA2LTL3CVALHNQ",
-     "item_variation_data": {
-      "item_id": "FSY4G4DO6NFBV2VMLP7PD6I6",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
   "type": "ITEM",
   "item_data": {
@@ -6286,26 +6166,6 @@ var catalog_raw=[
      "id": "4Y3P2VMPRFVLR6G52U46HKCQ",
      "item_variation_data": {
       "item_id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "AQVPAXOZWPGJHQNW7EQUJX42",
-  "type": "ITEM",
-  "item_data": {
-   "name": "chocolate custard pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "N74ACF5M3E77B5E6KND4SI2Y",
-     "item_variation_data": {
-      "item_id": "AQVPAXOZWPGJHQNW7EQUJX42",
       "name": "Regular",
       "price_money": {
        "amount": 1000
@@ -6432,86 +6292,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "QJDMR6WGJEUEFWPT2WFCNDXY",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pineapple upside down pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "VNH2VGITF6EL6YXFJYWJ5SAC",
-     "item_variation_data": {
-      "item_id": "QJDMR6WGJEUEFWPT2WFCNDXY",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "VTWLKSBP3Y7VETEZI3S3VCIY",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ritz + grape pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "MPMDKLFTWTEUJIDMUZ6XKAVQ",
-     "item_variation_data": {
-      "item_id": "VTWLKSBP3Y7VETEZI3S3VCIY",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "N4AA3ODPXUPSWERGTDZ2VUF7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "rhubarb crisp pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "QW3BOWCP4CX3A5GOBRNCNXA2",
-     "item_variation_data": {
-      "item_id": "N4AA3ODPXUPSWERGTDZ2VUF7",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "YWKLSVY6ZHHPUAMIQDBYNBI2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "roasted white chocolate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "SNZ54LFT4LDUWQKBNA3FA7M4",
-     "item_variation_data": {
-      "item_id": "YWKLSVY6ZHHPUAMIQDBYNBI2",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
       }
      }
     }
@@ -7299,26 +7079,6 @@ var catalog_raw=[
       "name": "$100 gift card",
       "price_money": {
        "amount": 10000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cream cheese + brownie bit pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "MWZXZXF2LMZ6A5FAAMC3XABN",
-     "item_variation_data": {
-      "item_id": "UEQUEEMKUKZUMFBFNYAOWW7Y",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
       }
      }
     }
@@ -8518,7 +8278,7 @@ var catalog_raw=[
   "id": "PAKWGWRJKJZY772TBRH7KKQ5",
   "type": "ITEM",
   "item_data": {
-   "name": "pear + ginger sorbet",
+   "name": "pear + ginger sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8575,26 +8335,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ZLLMT6PYPD552ZX6STYVN4XX",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pumpkin chocolate chip pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "SRMJCEOVTIGPY5UPJXBA32XL",
-     "item_variation_data": {
-      "item_id": "ZLLMT6PYPD552ZX6STYVN4XX",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "CYDY7M6VXK5WAN446YD7F4ID",
   "type": "ITEM",
   "item_data": {
@@ -8615,26 +8355,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "I5FJKVTMMYIPGF4554S7UUT4",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coconut + bay leaf pint (v)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "LUWNPV5FAGVXBVBW3DZK7IRY",
-     "item_variation_data": {
-      "item_id": "I5FJKVTMMYIPGF4554S7UUT4",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "B5X4IIXXIXGNKYNHXWRY4OA6",
   "type": "ITEM",
   "item_data": {
@@ -8645,26 +8365,6 @@ var catalog_raw=[
      "id": "YEPUE7C77Y2CQURZZO23TIP6",
      "item_variation_data": {
       "item_id": "B5X4IIXXIXGNKYNHXWRY4OA6",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "GIOTQIMGOPZ6433JKY3G2YYI",
-  "type": "ITEM",
-  "item_data": {
-   "name": "date shake pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "IV2FOEOFS34X6V545MEUM73T",
-     "item_variation_data": {
-      "item_id": "GIOTQIMGOPZ6433JKY3G2YYI",
       "name": "Regular",
       "price_money": {
        "amount": 1200
