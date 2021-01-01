@@ -9194,5 +9194,75 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® DOTS!",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "TIBX26H5VUDYYPWDWGOUMVIM",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "sweet cream dots (gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "M7XO6V4EZXNZTJKI2W2O4RII",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "coconut charcoal dots (v)(gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "SQSRQIA6ZRNBFCQC673EKW55",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "passion fruit dots (v)(gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "6AZ3YHWNEECIHMUZ4Q2AGEXB",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "vegan vanilla! dots (v)(gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "UKNFZ2GGDOEEGPWBHCYZVMSU",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "passion fruit + sweet cream MIXED dots (gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "IZF6OMIB7A5M54RIIB6U3TWA",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "passion fruit + coconut charcoal MIXED dots (v)(gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
