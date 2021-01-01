@@ -1135,7 +1135,7 @@ var catalog_raw=[
   "id": "BS6QQVR22YY25AT7ICZAFTDW",
   "type": "ITEM",
   "item_data": {
-   "name": "snickerdoodle + brown butter sando",
+   "name": "snickerdood sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -1315,7 +1315,7 @@ var catalog_raw=[
   "id": "Z5KY32S57FWJYZWNIJGPTV5W",
   "type": "ITEM",
   "item_data": {
-   "name": "trashberry bar",
+   "name": "the trashberry™ bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
@@ -5991,26 +5991,6 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "giftcardonlinepurchase"
-  }
- },
- {
-  "id": "SFSWEF3Z324CXSDKQBWJFPSU",
-  "type": "ITEM",
-  "item_data": {
-   "name": "witch hat",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
-   "variations": [
-    {
-     "id": "NBJ5JJI2RXJ43LUUECIAHABP",
-     "item_variation_data": {
-      "item_id": "SFSWEF3Z324CXSDKQBWJFPSU",
-      "name": "Regular",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    }
-   ]
   }
  },
  {
