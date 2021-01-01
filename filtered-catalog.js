@@ -1035,7 +1035,7 @@ var catalog_raw=[
   "id": "HGVWHWUVJMFDYWCFKJNTB366",
   "type": "ITEM",
   "item_data": {
-   "name": "sweet corn + passionfruit pint",
+   "name": "off the cob pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -5839,46 +5839,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "IBKRUHVB7LBLIM3WMECN3NNK",
-  "type": "ITEM",
-  "item_data": {
-   "name": "tangerine julius sorbet",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "PISKYTNOOIAFS5ZQZV3YTIIX",
-     "item_variation_data": {
-      "item_id": "IBKRUHVB7LBLIM3WMECN3NNK",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "CRWRNDQPT6O5ZXFRTE5PSVFY",
-  "type": "ITEM",
-  "item_data": {
-   "name": "rosemary + chocolate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "N5XBUU5ICULUS7KLSXKRP533",
-     "item_variation_data": {
-      "item_id": "CRWRNDQPT6O5ZXFRTE5PSVFY",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
   "modifier_data": {
    "name": "burlap + barrel cinnamon (gf)",
@@ -6156,46 +6116,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "vegan vanilla + chocolate pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "4Y3P2VMPRFVLR6G52U46HKCQ",
-     "item_variation_data": {
-      "item_id": "ZL2XEB7HZPKPGCSO4RFIC6HZ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "7IS2JN52OJDVSTHUSJT7RZDR",
-  "type": "ITEM",
-  "item_data": {
-   "name": "vanilla custard composed pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "S3C2XXEA3DWELADZM5KTHS4O",
-     "item_variation_data": {
-      "item_id": "7IS2JN52OJDVSTHUSJT7RZDR",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
    "name": "chai tea (gf)",
@@ -6292,46 +6212,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "AEG37F67J2B7A6RUUDMZE56A",
-  "type": "ITEM",
-  "item_data": {
-   "name": "vegan vanilla + rhubarb twist pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "KBB3UDWTIA72HJN52XMH4HUX",
-     "item_variation_data": {
-      "item_id": "AEG37F67J2B7A6RUUDMZE56A",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "HBJELLOLFKTESZKKRD4RGCPS",
-  "type": "ITEM",
-  "item_data": {
-   "name": "vegan vanilla + fudge pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "AHJMZ7DYUOQKUNXKOR7PBTN6",
-     "item_variation_data": {
-      "item_id": "HBJELLOLFKTESZKKRD4RGCPS",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
       }
      }
     }
@@ -8328,46 +8208,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "CYDY7M6VXK5WAN446YD7F4ID",
-  "type": "ITEM",
-  "item_data": {
-   "name": "vegan pump choc chip pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "KUD7DEHE5N22T4MRGBJSEZIY",
-     "item_variation_data": {
-      "item_id": "CYDY7M6VXK5WAN446YD7F4ID",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "B5X4IIXXIXGNKYNHXWRY4OA6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "toasted milk + praline pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "YEPUE7C77Y2CQURZZO23TIP6",
-     "item_variation_data": {
-      "item_id": "B5X4IIXXIXGNKYNHXWRY4OA6",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
       }
      }
     }
