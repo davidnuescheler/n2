@@ -2772,7 +2772,7 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "normal choco taco",
+   "name": "a normal® choco taco",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -8755,6 +8755,41 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "AL2HKRHM42IZIMMULKGZWNE5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the sundae",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
+    }
+   ],
+   "variations": [
+    {
+     "id": "5AY6HZRZXZPPJU5O7ATKWZAA",
+     "item_variation_data": {
+      "item_id": "AL2HKRHM42IZIMMULKGZWNE5",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "NPJUJEFBV624HKQCYXOSLBJ2",
+     "item_variation_data": {
+      "item_id": "AL2HKRHM42IZIMMULKGZWNE5",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
