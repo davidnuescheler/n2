@@ -7886,6 +7886,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "DUR5RUW25STME7XLL6OMISPY",
+     "modifier_data": {
+      "name": "COAVA jose alvarado",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9293,6 +9302,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "DUR5RUW25STME7XLL6OMISPY",
+  "modifier_data": {
+   "name": "COAVA jose alvarado",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
