@@ -9261,6 +9261,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "KC6FIYHMY7UEDRE3O4ZDY4SY",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "vegan vanilla! + charcoal coconut MIXED dots (v) (gf)",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
