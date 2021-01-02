@@ -9274,5 +9274,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "C2QHSEGBD754UDNTPKVRVGVW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "london fog pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "CQUSY45OJZGCFQ56WXSW54HX",
+     "item_variation_data": {
+      "item_id": "C2QHSEGBD754UDNTPKVRVGVW",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
