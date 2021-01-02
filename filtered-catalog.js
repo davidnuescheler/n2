@@ -9312,5 +9312,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "KHDBVE36QYOBXQWBMFPSZMXE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "norm core sample box!",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "KFXZUPKISEDRZ3CMZTKFFNW5",
+     "item_variation_data": {
+      "item_id": "KHDBVE36QYOBXQWBMFPSZMXE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
