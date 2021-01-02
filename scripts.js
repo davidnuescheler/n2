@@ -1247,7 +1247,7 @@ function setDeliveryDate(date) {
     
     let next = today.getDate() - (today.getDay() - 1) + days[shortDay];
     // if in the past, set to the next week
-    // if (next <= today.getDate()) { next += 7; } 
+    if (next <= today.getDate()) { next += 7; } 
     let deliveryDate = new Date(today.setDate(next));
     // console.log(`setDeliveryDate -> deliveryDate`, deliveryDate);
 
