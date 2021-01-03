@@ -274,15 +274,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z3AAIBRI772VWXK3CADEZSMU",
-     "modifier_data": {
-      "name": "vegan mallow! (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "62NPDWQFYWUSVSQ426GQVQH5",
      "modifier_data": {
       "name": "graham crumb (v)",
@@ -6409,15 +6400,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "Z3AAIBRI772VWXK3CADEZSMU",
-  "modifier_data": {
-   "name": "vegan mallow! (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "62NPDWQFYWUSVSQ426GQVQH5",
   "modifier_data": {
    "name": "graham crumb (v)",
@@ -7022,15 +7004,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XKK3S3UOHNP36JR5V3DICOBI",
-     "modifier_data": {
-      "name": "vegan mallow!",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "C4NVV4NZBEK34GDXI23GX6EA",
      "modifier_data": {
       "name": "graham crumb (v)",
@@ -7175,15 +7148,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "V6KVJN5ARTWIRLQVTFRJP4HZ",
-     "modifier_data": {
-      "name": "vegan mallow! (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
      "modifier_data": {
       "name": "graham crumb (v)",
@@ -7304,15 +7268,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "XKK3S3UOHNP36JR5V3DICOBI",
-  "modifier_data": {
-   "name": "vegan mallow!",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "C4NVV4NZBEK34GDXI23GX6EA",
   "modifier_data": {
    "name": "graham crumb (v)",
@@ -7415,15 +7370,6 @@ var catalog_raw=[
   "id": "MPGHWXXR2BJ2KIDG7CEQWG4H",
   "modifier_data": {
    "name": "house-made pear jam (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "V6KVJN5ARTWIRLQVTFRJP4HZ",
-  "modifier_data": {
-   "name": "vegan mallow! (v) (gf)",
    "price_money": {
     "amount": 75
    }
