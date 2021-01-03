@@ -166,15 +166,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XV7A4V6HQP3KFBBOO5DJTHNK",
-     "modifier_data": {
-      "name": "fruity pebbles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -202,15 +193,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "J3Z4PLUU34QDCAA36N6FNCX4",
-     "modifier_data": {
-      "name": "cinnamon bears",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -223,15 +205,6 @@ var catalog_raw=[
      "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
      "modifier_data": {
       "name": "brownie bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
-     "modifier_data": {
-      "name": "olive oil cake",
       "price_money": {
        "amount": 75
       }
@@ -283,15 +256,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "XV7A4V6HQP3KFBBOO5DJTHNK",
-  "modifier_data": {
-   "name": "fruity pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
@@ -4838,15 +4802,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "J3Z4PLUU34QDCAA36N6FNCX4",
-  "modifier_data": {
-   "name": "cinnamon bears",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
    "name": "white chocolate ganache (gf)",
@@ -6355,15 +6310,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "U45RS7BYYRLEJ2YRBJG7VR2A",
-  "modifier_data": {
-   "name": "olive oil cake",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
   "modifier_data": {
    "name": "olive oil jam (gf)",
@@ -6932,15 +6878,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z3RX3QUWD2HHJUWZH6QXGYJQ",
-     "modifier_data": {
-      "name": "cinnamon bears",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "VVSYSHFCSF3GFTIF4B5TFPR5",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -6953,15 +6890,6 @@ var catalog_raw=[
      "id": "P5CXUWNZH3PCWAR3TCZZVXBV",
      "modifier_data": {
       "name": "brownie bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "2HJYRCL276MMNC3645QWVF4Q",
-     "modifier_data": {
-      "name": "olive oil cake",
       "price_money": {
        "amount": 75
       }
@@ -7076,15 +7004,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5XXKSWTFR6Q54TPJCFEZYJFT",
-     "modifier_data": {
-      "name": "cinnamon bears",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "WHB3D6FQOHPWABC2QIQEKJMZ",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -7097,15 +7016,6 @@ var catalog_raw=[
      "id": "MB2XJXDDVKETLN2KAYU7ITGW",
      "modifier_data": {
       "name": "brownie bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "EP7SG5FZELOCCJZYVO2QDCNL",
-     "modifier_data": {
-      "name": "olive oil cake",
       "price_money": {
        "amount": 75
       }
@@ -7196,15 +7106,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "Z3RX3QUWD2HHJUWZH6QXGYJQ",
-  "modifier_data": {
-   "name": "cinnamon bears",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "VVSYSHFCSF3GFTIF4B5TFPR5",
   "modifier_data": {
    "name": "white chocolate ganache (gf)",
@@ -7217,15 +7118,6 @@ var catalog_raw=[
   "id": "P5CXUWNZH3PCWAR3TCZZVXBV",
   "modifier_data": {
    "name": "brownie bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "2HJYRCL276MMNC3645QWVF4Q",
-  "modifier_data": {
-   "name": "olive oil cake",
    "price_money": {
     "amount": 75
    }
@@ -7304,15 +7196,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5XXKSWTFR6Q54TPJCFEZYJFT",
-  "modifier_data": {
-   "name": "cinnamon bears",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "WHB3D6FQOHPWABC2QIQEKJMZ",
   "modifier_data": {
    "name": "white chocolate ganache (gf)",
@@ -7325,15 +7208,6 @@ var catalog_raw=[
   "id": "MB2XJXDDVKETLN2KAYU7ITGW",
   "modifier_data": {
    "name": "brownie bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "EP7SG5FZELOCCJZYVO2QDCNL",
-  "modifier_data": {
-   "name": "olive oil cake",
    "price_money": {
     "amount": 75
    }
