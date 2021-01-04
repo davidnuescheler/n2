@@ -3543,7 +3543,7 @@ var catalog_raw=[
     {
      "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
      "modifier_data": {
-      "name": "açaí + cookie butter TWIST (v)",
+      "name": "acai + cookie butter TWIST (v)",
       "price_money": {
        "amount": 0
       }
@@ -5969,7 +5969,7 @@ var catalog_raw=[
  {
   "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
   "modifier_data": {
-   "name": "açaí + cookie butter TWIST (v)",
+   "name": "acai + cookie butter TWIST (v)",
    "price_money": {
     "amount": 0
    }
