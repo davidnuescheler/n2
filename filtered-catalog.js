@@ -5834,18 +5834,18 @@ var catalog_raw=[
    "name": "hot chocolate topping",
    "modifiers": [
     {
-     "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
+     "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
      "modifier_data": {
-      "name": "toasted mallow fluff",
+      "name": "whipped coconut cream (v)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
+     "id": "CKYJGZMSBYDJVJ7GI7SJIOHQ",
      "modifier_data": {
-      "name": "whipped coconut cream (v)",
+      "name": "whipped cream",
       "price_money": {
        "amount": 0
       }
@@ -5858,15 +5858,6 @@ var catalog_raw=[
   "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
   "modifier_data": {
    "name": "whipped coconut cream (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "MQOG4HV2W5YA4FM7DEZSNPR7",
-  "modifier_data": {
-   "name": "toasted mallow fluff",
    "price_money": {
     "amount": 0
    }
@@ -9219,6 +9210,15 @@ var catalog_raw=[
    "name": "saltine cracker crumble",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "CKYJGZMSBYDJVJ7GI7SJIOHQ",
+  "modifier_data": {
+   "name": "whipped cream",
+   "price_money": {
+    "amount": 0
    }
   }
  }
