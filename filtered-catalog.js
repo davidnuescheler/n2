@@ -60,7 +60,7 @@ var catalog_raw=[
     {
      "id": "DSXPCLH47QHLKQ644PWDHIKJ",
      "modifier_data": {
-      "name": "molasses NORMAL dots! (gf)",
+      "name": "pomegranate NORMAL dots! (v) (gf)",
       "price_money": {
        "amount": 150
       }
@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
      "modifier_data": {
-      "name": "cotton candy (v) (gf)",
+      "name": "cookie dough bits (v)",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
-      "name": "gingersnap cookie crumb",
+      "name": "brownie crumb (v)",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +87,7 @@ var catalog_raw=[
     {
      "id": "DXT3HMOZHHE366QHHE2QQQLW",
      "modifier_data": {
-      "name": "housemade graham crumb",
+      "name": "house-made cookie butter (v)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +96,7 @@ var catalog_raw=[
     {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "olive oil powder (v) (gf)",
+      "name": "toasted coconut (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -105,7 +105,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "shortbread cookie crumb",
+      "name": "house-made mochi (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -114,7 +114,7 @@ var catalog_raw=[
     {
      "id": "JEC2NU57MRPFUBQNRUTACTYW",
      "modifier_data": {
-      "name": "whipped cream (gf)",
+      "name": "blueberry compote (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -123,7 +123,7 @@ var catalog_raw=[
     {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
-      "name": "coffee ganache (gf)",
+      "name": "candied cocoa nib (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -132,7 +132,16 @@ var catalog_raw=[
     {
      "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
      "modifier_data": {
-      "name": "tru fru chocolate covered raspberries",
+      "name": "chocolate shortbread crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "5UPKE32GPVVD7JG53RQE4PXK",
+     "modifier_data": {
+      "name": "milk chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -2058,27 +2067,27 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
+     "id": "ZKYVJQDJNOQ74N4TBRPPHVBX",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "saltine cracker",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
+     "id": "MN6L6GH7UURC6IVXLUU4J5QU",
      "modifier_data": {
-      "name": "burlap + barrel cinnamon (gf)",
+      "name": "golden milk (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "55RLPHUM4436C45O7GC4K66K",
+     "id": "JGQIJ4OKCUO5DWIKBBSOMOER",
      "modifier_data": {
-      "name": "vanilla + cinnamon TWIST (gf)",
+      "name": "saltine + golden milk TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2096,7 +2105,7 @@ var catalog_raw=[
     {
      "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
      "modifier_data": {
-      "name": "fresh mint (gf)",
+      "name": "buttered popcorn (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2105,7 +2114,34 @@ var catalog_raw=[
     {
      "id": "J32YPLITR7C5FM4W36U7HDNH",
      "modifier_data": {
-      "name": "chocolate + mint TWIST",
+      "name": "chocolate + popcorn twist TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
+     "modifier_data": {
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
+     "modifier_data": {
+      "name": "mandarin orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "55RLPHUM4436C45O7GC4K66K",
+     "modifier_data": {
+      "name": "vanilla + mandarin TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2917,7 +2953,7 @@ var catalog_raw=[
     {
      "id": "NXFEXXC2RBPA5P762A4WZO6B",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "vegan vanilla! (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2926,7 +2962,7 @@ var catalog_raw=[
     {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
-      "name": "burlap + barrel cinnamon (gf)",
+      "name": "mandarin orange sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2935,7 +2971,7 @@ var catalog_raw=[
     {
      "id": "4JJX7WCUFWIXXBU3CNASGDHK",
      "modifier_data": {
-      "name": "vanilla + cinnamon TWIST (gf)",
+      "name": "vanilla + mandarin TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2953,7 +2989,7 @@ var catalog_raw=[
     {
      "id": "OYGLWUHBPZEFKUUBVHWHITER",
      "modifier_data": {
-      "name": "fresh mint (gf)",
+      "name": "buttered popcorn (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2962,7 +2998,7 @@ var catalog_raw=[
     {
      "id": "NMC2RH6NEUYEQ25VNYZR5SWB",
      "modifier_data": {
-      "name": "chocolate + mint TWIST (gf)",
+      "name": "chocolate + popcorn TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2971,7 +3007,7 @@ var catalog_raw=[
     {
      "id": "JOFOXYIY2LFS2V6OOHDLQZPC",
      "modifier_data": {
-      "name": "dark chocolate sorbet (v)",
+      "name": "saltine cracker!",
       "price_money": {
        "amount": 300
       }
@@ -2980,7 +3016,7 @@ var catalog_raw=[
     {
      "id": "45BMLY5IZZD7C5QXEQ45IZJG",
      "modifier_data": {
-      "name": "pear sorbet (v)",
+      "name": "golden milk (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2989,7 +3025,7 @@ var catalog_raw=[
     {
      "id": "P3GCLM7JJ4APJNLG4KS6XDUJ",
      "modifier_data": {
-      "name": "dark chocolate + pear TWIST",
+      "name": "saltine + golden milk TWIST",
       "price_money": {
        "amount": 300
       }
@@ -5123,7 +5159,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "molasses NORMAL dots! (gf)",
+   "name": "pomegranate NORMAL dots! (v) (gf)",
    "price_money": {
     "amount": 150
    }
@@ -5573,7 +5609,7 @@ var catalog_raw=[
  {
   "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
   "modifier_data": {
-   "name": "burlap + barrel cinnamon (gf)",
+   "name": "mandarin orange sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5582,7 +5618,7 @@ var catalog_raw=[
  {
   "id": "4JJX7WCUFWIXXBU3CNASGDHK",
   "modifier_data": {
-   "name": "vanilla + cinnamon TWIST (gf)",
+   "name": "vanilla + mandarin TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5600,7 +5636,7 @@ var catalog_raw=[
  {
   "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
   "modifier_data": {
-   "name": "burlap + barrel cinnamon (gf)",
+   "name": "mandarin orange sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5609,7 +5645,7 @@ var catalog_raw=[
  {
   "id": "55RLPHUM4436C45O7GC4K66K",
   "modifier_data": {
-   "name": "vanilla + cinnamon TWIST (gf)",
+   "name": "vanilla + mandarin TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6276,7 +6312,7 @@ var catalog_raw=[
  {
   "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
   "modifier_data": {
-   "name": "cotton candy (v) (gf)",
+   "name": "cookie dough bits (v)",
    "price_money": {
     "amount": 75
    }
@@ -6285,7 +6321,7 @@ var catalog_raw=[
  {
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
-   "name": "gingersnap cookie crumb",
+   "name": "brownie crumb (v)",
    "price_money": {
     "amount": 75
    }
@@ -6294,7 +6330,7 @@ var catalog_raw=[
  {
   "id": "DXT3HMOZHHE366QHHE2QQQLW",
   "modifier_data": {
-   "name": "housemade graham crumb",
+   "name": "house-made cookie butter (v)",
    "price_money": {
     "amount": 75
    }
@@ -6545,7 +6581,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "olive oil powder (v) (gf)",
+   "name": "toasted coconut (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6554,7 +6590,7 @@ var catalog_raw=[
  {
   "id": "NXFEXXC2RBPA5P762A4WZO6B",
   "modifier_data": {
-   "name": "salted vanilla bean (gf)",
+   "name": "vegan vanilla! (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6563,7 +6599,7 @@ var catalog_raw=[
  {
   "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
   "modifier_data": {
-   "name": "salted vanilla bean (gf)",
+   "name": "vegan vanilla! (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6624,7 +6660,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "shortbread cookie crumb",
+   "name": "house-made mochi (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6633,7 +6669,7 @@ var catalog_raw=[
  {
   "id": "JEC2NU57MRPFUBQNRUTACTYW",
   "modifier_data": {
-   "name": "whipped cream (gf)",
+   "name": "blueberry compote (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6642,7 +6678,7 @@ var catalog_raw=[
  {
   "id": "OYGLWUHBPZEFKUUBVHWHITER",
   "modifier_data": {
-   "name": "fresh mint (gf)",
+   "name": "buttered popcorn (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6651,7 +6687,7 @@ var catalog_raw=[
  {
   "id": "NMC2RH6NEUYEQ25VNYZR5SWB",
   "modifier_data": {
-   "name": "chocolate + mint TWIST (gf)",
+   "name": "chocolate + popcorn TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6660,7 +6696,7 @@ var catalog_raw=[
  {
   "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
   "modifier_data": {
-   "name": "fresh mint (gf)",
+   "name": "buttered popcorn (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6669,7 +6705,7 @@ var catalog_raw=[
  {
   "id": "J32YPLITR7C5FM4W36U7HDNH",
   "modifier_data": {
-   "name": "chocolate + mint TWIST",
+   "name": "chocolate + popcorn twist TWIST",
    "price_money": {
     "amount": 0
    }
@@ -7398,7 +7434,7 @@ var catalog_raw=[
  {
   "id": "3Q6URIRINEWANFVWRLKV24CB",
   "modifier_data": {
-   "name": "coffee ganache (gf)",
+   "name": "candied cocoa nib (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7484,7 +7520,7 @@ var catalog_raw=[
  {
   "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
   "modifier_data": {
-   "name": "tru fru chocolate covered raspberries",
+   "name": "chocolate shortbread crumb",
    "price_money": {
     "amount": 75
    }
@@ -8228,7 +8264,7 @@ var catalog_raw=[
  {
   "id": "JOFOXYIY2LFS2V6OOHDLQZPC",
   "modifier_data": {
-   "name": "dark chocolate sorbet (v)",
+   "name": "saltine cracker!",
    "price_money": {
     "amount": 300
    }
@@ -8237,7 +8273,7 @@ var catalog_raw=[
  {
   "id": "45BMLY5IZZD7C5QXEQ45IZJG",
   "modifier_data": {
-   "name": "pear sorbet (v)",
+   "name": "golden milk (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8246,7 +8282,7 @@ var catalog_raw=[
  {
   "id": "P3GCLM7JJ4APJNLG4KS6XDUJ",
   "modifier_data": {
-   "name": "dark chocolate + pear TWIST",
+   "name": "saltine + golden milk TWIST",
    "price_money": {
     "amount": 300
    }
@@ -8874,6 +8910,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "5UPKE32GPVVD7JG53RQE4PXK",
+  "modifier_data": {
+   "name": "milk chocolate ganache (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "ZKYVJQDJNOQ74N4TBRPPHVBX",
+  "modifier_data": {
+   "name": "saltine cracker",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MN6L6GH7UURC6IVXLUU4J5QU",
+  "modifier_data": {
+   "name": "golden milk (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JGQIJ4OKCUO5DWIKBBSOMOER",
+  "modifier_data": {
+   "name": "saltine + golden milk TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
