@@ -7013,24 +7013,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "I3IW33HOLR7IKPRWRYH7ECVP",
-     "modifier_data": {
-      "name": "fruity pebbles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
-     "modifier_data": {
-      "name": "cocoa pebbles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "IQCD2HKOEY2E7OTHFFSZICV2",
      "modifier_data": {
       "name": "rainbow sprinks (gf)",
@@ -7049,9 +7031,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "I3IW33HOLR7IKPRWRYH7ECVP",
+     "modifier_data": {
+      "name": "fruity pebbles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
+     "modifier_data": {
+      "name": "cocoa pebbles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "WHB3D6FQOHPWABC2QIQEKJMZ",
      "modifier_data": {
-      "name": "white chocolate ganache (gf)",
+      "name": "candied walnut (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7060,7 +7060,7 @@ var catalog_raw=[
     {
      "id": "MB2XJXDDVKETLN2KAYU7ITGW",
      "modifier_data": {
-      "name": "brownie bits",
+      "name": "house-made HOT fudge (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7069,7 +7069,7 @@ var catalog_raw=[
     {
      "id": "ISV6PXGEYV4SXWK4Q4MXKADR",
      "modifier_data": {
-      "name": "olive oil jam (gf)",
+      "name": "whipped cream (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7078,7 +7078,7 @@ var catalog_raw=[
     {
      "id": "H47ESJ62GQXGS3UJ3OK6L7NY",
      "modifier_data": {
-      "name": "olive oil powder (v) (gf)",
+      "name": "bunch-a-crunch (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7087,7 +7087,7 @@ var catalog_raw=[
     {
      "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
      "modifier_data": {
-      "name": "oatmeal streusel (v)",
+      "name": "salted caramel (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7096,7 +7096,7 @@ var catalog_raw=[
     {
      "id": "MPGHWXXR2BJ2KIDG7CEQWG4H",
      "modifier_data": {
-      "name": "house-made pear jam (v) (gf)",
+      "name": "mandarin orange jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7105,7 +7105,70 @@ var catalog_raw=[
     {
      "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
      "modifier_data": {
-      "name": "graham crumb (v)",
+      "name": "olive oil powder (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
+     "modifier_data": {
+      "name": "vegan meringue bits (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "OC5RDZVHWOBB7ZESAV6HWEB7",
+     "modifier_data": {
+      "name": "caramel corn (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "AITYCH5Z7FQCR3S3CEHLZAAX",
+     "modifier_data": {
+      "name": "cheese puffs (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "WTLCPNN62JK3P7CXF4CZ3JCW",
+     "modifier_data": {
+      "name": "cheddar cheese powder (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "HJ5ZRUUVQKR2AOU5MSWGMIL4",
+     "modifier_data": {
+      "name": "concord grape jelly (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "4LBJBBIEI23HE3NZRJEITHNE",
+     "modifier_data": {
+      "name": "peanut butter ganache (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "LPYJU7AJFVVS7NVAOPSWH2V2",
+     "modifier_data": {
+      "name": "saltine cracker crumble",
       "price_money": {
        "amount": 75
       }
@@ -7243,7 +7306,7 @@ var catalog_raw=[
  {
   "id": "WHB3D6FQOHPWABC2QIQEKJMZ",
   "modifier_data": {
-   "name": "white chocolate ganache (gf)",
+   "name": "candied walnut (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7252,7 +7315,7 @@ var catalog_raw=[
  {
   "id": "MB2XJXDDVKETLN2KAYU7ITGW",
   "modifier_data": {
-   "name": "brownie bits",
+   "name": "house-made HOT fudge (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7261,7 +7324,7 @@ var catalog_raw=[
  {
   "id": "ISV6PXGEYV4SXWK4Q4MXKADR",
   "modifier_data": {
-   "name": "olive oil jam (gf)",
+   "name": "whipped cream (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7270,7 +7333,7 @@ var catalog_raw=[
  {
   "id": "H47ESJ62GQXGS3UJ3OK6L7NY",
   "modifier_data": {
-   "name": "olive oil powder (v) (gf)",
+   "name": "bunch-a-crunch (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7279,7 +7342,7 @@ var catalog_raw=[
  {
   "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
   "modifier_data": {
-   "name": "oatmeal streusel (v)",
+   "name": "salted caramel (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7288,7 +7351,7 @@ var catalog_raw=[
  {
   "id": "MPGHWXXR2BJ2KIDG7CEQWG4H",
   "modifier_data": {
-   "name": "house-made pear jam (v) (gf)",
+   "name": "mandarin orange jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7297,7 +7360,7 @@ var catalog_raw=[
  {
   "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
   "modifier_data": {
-   "name": "graham crumb (v)",
+   "name": "olive oil powder (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9211,6 +9274,69 @@ var catalog_raw=[
  },
  {
   "id": "ZGXI5W62EWIV2SZU7LTUZ2Z5",
+  "modifier_data": {
+   "name": "saltine cracker crumble",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
+  "modifier_data": {
+   "name": "vegan meringue bits (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OC5RDZVHWOBB7ZESAV6HWEB7",
+  "modifier_data": {
+   "name": "caramel corn (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "AITYCH5Z7FQCR3S3CEHLZAAX",
+  "modifier_data": {
+   "name": "cheese puffs (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "WTLCPNN62JK3P7CXF4CZ3JCW",
+  "modifier_data": {
+   "name": "cheddar cheese powder (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "HJ5ZRUUVQKR2AOU5MSWGMIL4",
+  "modifier_data": {
+   "name": "concord grape jelly (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "4LBJBBIEI23HE3NZRJEITHNE",
+  "modifier_data": {
+   "name": "peanut butter ganache (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "LPYJU7AJFVVS7NVAOPSWH2V2",
   "modifier_data": {
    "name": "saltine cracker crumble",
    "price_money": {
