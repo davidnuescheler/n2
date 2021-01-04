@@ -175,6 +175,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
+     "modifier_data": {
+      "name": "fruity pebbles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "YMAKJVYNC2OCE5SWSMKACT6Z",
      "modifier_data": {
       "name": "rainbow sprinks (gf)",
@@ -252,6 +261,60 @@ var catalog_raw=[
       "name": "graham crumb (v)",
       "price_money": {
        "amount": 75
+      }
+     }
+    },
+    {
+     "id": "QHQGX2J6OIEJRJY3IEXFT32P",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YDBT75DFNUP4DCIW3WIK7XDB",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PH5BC2PHXTIADHEBQWDQLY36",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "CWLHML6WPKNCTJZFH2THN2WN",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "JZO77DB7PFYWZAIY6FKBB55Q",
+     "modifier_data": {
+      "name": "f",
+      "price_money": {
+       "amount": 0
       }
      }
     }
@@ -8943,6 +9006,69 @@ var catalog_raw=[
   "id": "JGQIJ4OKCUO5DWIKBBSOMOER",
   "modifier_data": {
    "name": "saltine + golden milk TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
+  "modifier_data": {
+   "name": "fruity pebbles (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "QHQGX2J6OIEJRJY3IEXFT32P",
+  "modifier_data": {
+   "name": "f",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YDBT75DFNUP4DCIW3WIK7XDB",
+  "modifier_data": {
+   "name": "f",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PH5BC2PHXTIADHEBQWDQLY36",
+  "modifier_data": {
+   "name": "f",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
+  "modifier_data": {
+   "name": "f",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CWLHML6WPKNCTJZFH2THN2WN",
+  "modifier_data": {
+   "name": "f",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JZO77DB7PFYWZAIY6FKBB55Q",
+  "modifier_data": {
+   "name": "f",
    "price_money": {
     "amount": 0
    }
