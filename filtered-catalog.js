@@ -6384,123 +6384,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QRABM5M2A2FJSSH5VMVDR3YS",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "pickup day",
-   "modifiers": [
-    {
-     "id": "OTSWMPJFQ5EAORD5SCA64IYW",
-     "modifier_data": {
-      "name": "friday 11/20",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "WZCOTX7X7MKETNYDECIZMRHQ",
-     "modifier_data": {
-      "name": "saturday 11/21",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PHYIPKXVTI2B7P5C4Y34XYWI",
-     "modifier_data": {
-      "name": "sunday 11/22",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "NDC3HVWJE2RVSJTRA7Q4SUC7",
-     "modifier_data": {
-      "name": "monday 11/23",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "V5I3WJKUISHNYWO3XXGGGVD3",
-     "modifier_data": {
-      "name": "tuesday 11/24",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7QG6ETQR56SX5F4MRS7ZWQEC",
-     "modifier_data": {
-      "name": "wednesday 11/25",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "OTSWMPJFQ5EAORD5SCA64IYW",
-  "modifier_data": {
-   "name": "friday 11/20",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "WZCOTX7X7MKETNYDECIZMRHQ",
-  "modifier_data": {
-   "name": "saturday 11/21",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "PHYIPKXVTI2B7P5C4Y34XYWI",
-  "modifier_data": {
-   "name": "sunday 11/22",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "NDC3HVWJE2RVSJTRA7Q4SUC7",
-  "modifier_data": {
-   "name": "monday 11/23",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "V5I3WJKUISHNYWO3XXGGGVD3",
-  "modifier_data": {
-   "name": "tuesday 11/24",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7QG6ETQR56SX5F4MRS7ZWQEC",
-  "modifier_data": {
-   "name": "wednesday 11/25",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "EEBPEBYIB56RJGFFLSSHO7SV",
   "type": "ITEM",
   "item_data": {
@@ -7401,168 +7284,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "PIGJYHS6OHD5A2GYW4O2EFXN",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "bar pack 1",
-   "modifiers": [
-    {
-     "id": "KARNG2IHCBNF4OPSDZZYIKPM",
-     "modifier_data": {
-      "name": "strawberry shortcake bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LGA2H7IEDWRIWRD32FN2PUYG",
-     "modifier_data": {
-      "name": "key lime pie bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BQERIZDDPK7FUPAX5FP6L5JT",
-     "modifier_data": {
-      "name": "trashberry™ bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CP275NQG4PYKC6LJGA7BA4AG",
-     "modifier_data": {
-      "name": "almond joy bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "KARNG2IHCBNF4OPSDZZYIKPM",
-  "modifier_data": {
-   "name": "strawberry shortcake bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LGA2H7IEDWRIWRD32FN2PUYG",
-  "modifier_data": {
-   "name": "key lime pie bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BQERIZDDPK7FUPAX5FP6L5JT",
-  "modifier_data": {
-   "name": "trashberry™ bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CP275NQG4PYKC6LJGA7BA4AG",
-  "modifier_data": {
-   "name": "almond joy bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VDBTRMWXJAH2KDPLPCQLLDCE",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "bar pack 2",
-   "modifiers": [
-    {
-     "id": "3S2DI2SJITRUQP2CECFGBSFM",
-     "modifier_data": {
-      "name": "key lime pie bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "DH2T3RBCZOP3J2CE4IFQMVVO",
-     "modifier_data": {
-      "name": "strawberry shortcake bar",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "JD2T3ZECAGUZ2PKHV3TQLSWN",
-     "modifier_data": {
-      "name": "trashberry™ bar (vegan)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VVH4CDB7CEI4P6IGMMPNVLZK",
-     "modifier_data": {
-      "name": "almond joy bar (vegan)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "3S2DI2SJITRUQP2CECFGBSFM",
-  "modifier_data": {
-   "name": "key lime pie bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "DH2T3RBCZOP3J2CE4IFQMVVO",
-  "modifier_data": {
-   "name": "strawberry shortcake bar",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "JD2T3ZECAGUZ2PKHV3TQLSWN",
-  "modifier_data": {
-   "name": "trashberry™ bar (vegan)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VVH4CDB7CEI4P6IGMMPNVLZK",
-  "modifier_data": {
-   "name": "almond joy bar (vegan)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -9129,6 +8850,26 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 2600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZRTCGYAMOIVRT4KD6WRQQPED",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cinnamon pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "QSLEZ7C7L56CYTOYIL5T7ZWK",
+     "item_variation_data": {
+      "item_id": "ZRTCGYAMOIVRT4KD6WRQQPED",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
       }
      }
     }
