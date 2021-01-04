@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
-      "name": "brownie crumb (v)",
+      "name": "brownie crumble (v)",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +87,7 @@ var catalog_raw=[
     {
      "id": "DXT3HMOZHHE366QHHE2QQQLW",
      "modifier_data": {
-      "name": "house-made cookie butter (v)",
+      "name": "cookie butter (v)",
       "price_money": {
        "amount": 75
       }
@@ -6393,7 +6393,7 @@ var catalog_raw=[
  {
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
-   "name": "brownie crumb (v)",
+   "name": "brownie crumble (v)",
    "price_money": {
     "amount": 75
    }
@@ -6402,7 +6402,7 @@ var catalog_raw=[
  {
   "id": "DXT3HMOZHHE366QHHE2QQQLW",
   "modifier_data": {
-   "name": "house-made cookie butter (v)",
+   "name": "cookie butter (v)",
    "price_money": {
     "amount": 75
    }
