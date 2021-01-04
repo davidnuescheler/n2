@@ -3390,7 +3390,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "egg nog (gf)",
+      "name": "ube (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3399,7 +3399,7 @@ var catalog_raw=[
     {
      "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
      "modifier_data": {
-      "name": "burnt marshmallow (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3408,7 +3408,7 @@ var catalog_raw=[
     {
      "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
      "modifier_data": {
-      "name": "egg nog + burnt marshmallow TWIST (gf)",
+      "name": "ube + vanilla bean TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3417,7 +3417,7 @@ var catalog_raw=[
     {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
-      "name": "chai tea (gf)",
+      "name": "açaí sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3426,7 +3426,7 @@ var catalog_raw=[
     {
      "id": "VKKVI4KWBJLV5FDC2WVFRH37",
      "modifier_data": {
-      "name": "pomegranate (v) (gf)",
+      "name": "cookie butter (v)",
       "price_money": {
        "amount": 0
       }
@@ -3435,7 +3435,7 @@ var catalog_raw=[
     {
      "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
      "modifier_data": {
-      "name": "pomegranate + chai tea TWIST (gf)",
+      "name": "açaí + cookie butter TWIST (v)",
       "price_money": {
        "amount": 0
       }
@@ -3447,7 +3447,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "egg nog (gf)",
+   "name": "ube (gf)",
    "price_money": {
     "amount": 0
    }
@@ -4459,25 +4459,7 @@ var catalog_raw=[
     {
      "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
      "modifier_data": {
-      "name": "egg nog (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
-     "modifier_data": {
-      "name": "burnt marshmallow (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "UM4WAEHGILERHWPNYJNGIPHV",
-     "modifier_data": {
-      "name": "egg big + burnt mallow TWIST (gf)",
+      "name": "ube (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4486,7 +4468,25 @@ var catalog_raw=[
     {
      "id": "BAUZ64I22FTOE4GDU6XC5H54",
      "modifier_data": {
-      "name": "chai tea (gf)",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UM4WAEHGILERHWPNYJNGIPHV",
+     "modifier_data": {
+      "name": "ube + salted vanilla TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
+     "modifier_data": {
+      "name": "açaí sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4495,7 +4495,7 @@ var catalog_raw=[
     {
      "id": "ND2ANZ4IGURGP57GXAR3A5GF",
      "modifier_data": {
-      "name": "pomegranate (v) (gf)",
+      "name": "cookie butter (v)",
       "price_money": {
        "amount": 300
       }
@@ -4504,7 +4504,7 @@ var catalog_raw=[
     {
      "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
      "modifier_data": {
-      "name": "pomegranate + chai tea TWIST (gf)",
+      "name": "açaí + cookie butter TWIST (v)",
       "price_money": {
        "amount": 300
       }
@@ -4525,7 +4525,7 @@ var catalog_raw=[
  {
   "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
   "modifier_data": {
-   "name": "egg nog (gf)",
+   "name": "ube (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4534,7 +4534,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "burnt marshmallow (gf)",
+   "name": "açaí sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4543,7 +4543,7 @@ var catalog_raw=[
  {
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
-   "name": "pomegranate (v) (gf)",
+   "name": "cookie butter (v)",
    "price_money": {
     "amount": 300
    }
@@ -4552,7 +4552,7 @@ var catalog_raw=[
  {
   "id": "UM4WAEHGILERHWPNYJNGIPHV",
   "modifier_data": {
-   "name": "egg big + burnt mallow TWIST (gf)",
+   "name": "ube + salted vanilla TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5636,7 +5636,7 @@ var catalog_raw=[
  {
   "id": "BAUZ64I22FTOE4GDU6XC5H54",
   "modifier_data": {
-   "name": "chai tea (gf)",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5645,7 +5645,7 @@ var catalog_raw=[
  {
   "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
   "modifier_data": {
-   "name": "pomegranate + chai tea TWIST (gf)",
+   "name": "açaí + cookie butter TWIST (v)",
    "price_money": {
     "amount": 300
    }
@@ -5843,7 +5843,7 @@ var catalog_raw=[
  {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
-   "name": "chai tea (gf)",
+   "name": "açaí sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5852,7 +5852,7 @@ var catalog_raw=[
  {
   "id": "VKKVI4KWBJLV5FDC2WVFRH37",
   "modifier_data": {
-   "name": "pomegranate (v) (gf)",
+   "name": "cookie butter (v)",
    "price_money": {
     "amount": 0
    }
@@ -5861,7 +5861,7 @@ var catalog_raw=[
  {
   "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
   "modifier_data": {
-   "name": "pomegranate + chai tea TWIST (gf)",
+   "name": "açaí + cookie butter TWIST (v)",
    "price_money": {
     "amount": 0
    }
@@ -8079,7 +8079,7 @@ var catalog_raw=[
  {
   "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
   "modifier_data": {
-   "name": "burnt marshmallow (gf)",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8088,7 +8088,7 @@ var catalog_raw=[
  {
   "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
   "modifier_data": {
-   "name": "egg nog + burnt marshmallow TWIST (gf)",
+   "name": "ube + vanilla bean TWIST (gf)",
    "price_money": {
     "amount": 0
    }
