@@ -4766,27 +4766,7 @@ var catalog_raw=[
      "id": "E5BWUGIDKT2BEASPZGWRX4IM",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PRC6TNRIQCETAYLF4BR56MDK",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "burlap + barrel cinnamon (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "GDCJDQA6ZKGKMI5BH4PIN25H",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + cinnamon TWIST (gf)",
+      "name": "saltine cracker",
       "price_money": {
        "amount": 0
       }
@@ -4803,20 +4783,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MK3IXFEMXJUJCOSI2UGEP6GG",
+     "id": "PRC6TNRIQCETAYLF4BR56MDK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "fresh mint (gf)",
+      "name": "buttered popcorn (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "5GRRZWU76SBWPLM7NMNARCRA",
+     "id": "GDCJDQA6ZKGKMI5BH4PIN25H",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + mint TWIST (gf)",
+      "name": "chocolate + popcorn TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4826,7 +4806,7 @@ var catalog_raw=[
      "id": "GT5RDYCMYCAR2AR777GO5J5G",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "dark chocolate sorbet (v)",
+      "name": "vegan vanilla! (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4836,7 +4816,7 @@ var catalog_raw=[
      "id": "OPET63OZ32TUNUJRHJCGJMUH",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "pear sorbet (v)",
+      "name": "mandarin orange sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -4846,7 +4826,7 @@ var catalog_raw=[
      "id": "QVQ6ZKKB4AO4AYR5VNA7SKCG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "dark chocolate + pear TWIST (v)",
+      "name": "vegan vanilla! + orange TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
