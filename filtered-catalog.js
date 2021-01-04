@@ -3496,18 +3496,18 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "POR634QNMVAE4S4ADO2PU6PA",
+     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
      "modifier_data": {
-      "name": "ube (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
+     "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "ube (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3525,7 +3525,7 @@ var catalog_raw=[
     {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
-      "name": "açaí sorbet (v) (gf)",
+      "name": "acai sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5951,7 +5951,7 @@ var catalog_raw=[
  {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
-   "name": "açaí sorbet (v) (gf)",
+   "name": "acai sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
