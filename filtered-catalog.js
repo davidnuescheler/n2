@@ -1796,7 +1796,7 @@ var catalog_raw=[
   "id": "XQ7YWZMDYB5FWTGJDF74YOYF",
   "type": "ITEM",
   "item_data": {
-   "name": "spiced maple latte",
+   "name": "vanilla bean latte",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
@@ -5703,7 +5703,7 @@ var catalog_raw=[
   "id": "ZYKTKE5KM5LZTEIRKGPXNH3N",
   "type": "ITEM",
   "item_data": {
-   "name": "mint mocha",
+   "name": "white chocolate mocha",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
