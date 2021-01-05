@@ -3050,9 +3050,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BPRWBMW224HR2AZXDLOCY4BY",
+     "modifier_data": {
+      "name": "golden milk (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "JOFOXYIY2LFS2V6OOHDLQZPC",
      "modifier_data": {
       "name": "saltine cracker!",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "CP4D6DLUNLVEPDUDMWMP7HZJ",
+     "modifier_data": {
+      "name": "saltine + golden TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4768,6 +4786,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "golden milk (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WK6TWQIGLOOGMU5NFFYCORHL",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "saltine + golden milk TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9211,6 +9239,24 @@ var catalog_raw=[
    "name": "whipped cream",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BPRWBMW224HR2AZXDLOCY4BY",
+  "modifier_data": {
+   "name": "golden milk (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "CP4D6DLUNLVEPDUDMWMP7HZJ",
+  "modifier_data": {
+   "name": "saltine + golden TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
