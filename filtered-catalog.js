@@ -8943,16 +8943,6 @@ var catalog_raw=[
        "amount": 600
       }
      }
-    },
-    {
-     "id": "UKNFZ2GGDOEEGPWBHCYZVMSU",
-     "item_variation_data": {
-      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
-      "name": "passion fruit + sweet cream MIXED dots (gf)",
-      "price_money": {
-       "amount": 600
-      }
-     }
     }
    ]
   }
