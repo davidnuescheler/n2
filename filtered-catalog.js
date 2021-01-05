@@ -4764,6 +4764,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "P6IK37XKDEV43DLRC2HAEWCL",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "golden milk (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "2MW6RZWD27E4B7VP3TB7CCKO",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
