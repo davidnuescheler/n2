@@ -2139,15 +2139,6 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "ZKYVJQDJNOQ74N4TBRPPHVBX",
-     "modifier_data": {
-      "name": "saltine cracker",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "NFBWB7NRRENR2YARYKCFCVAQ",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -9003,15 +8994,6 @@ var catalog_raw=[
    "name": "milk chocolate ganache (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "ZKYVJQDJNOQ74N4TBRPPHVBX",
-  "modifier_data": {
-   "name": "saltine cracker",
-   "price_money": {
-    "amount": 0
    }
   }
  },
