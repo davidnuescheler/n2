@@ -3057,6 +3057,24 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "RORQJB45BVV2KOT4QYVI44KI",
+     "modifier_data": {
+      "name": "saltine",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "OSEVRY7ZCST2QFHRLMNLJKWW",
+     "modifier_data": {
+      "name": "saltine + golden milk",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -4181,15 +4199,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "EHC3WY4CB47YZ6FBKMAAUXZI",
-     "modifier_data": {
-      "name": "dark chocolate sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YCWFCHGLTYICIBJR3J3RFJO7",
      "modifier_data": {
       "name": "cinnamon ice cream",
@@ -4211,15 +4220,6 @@ var catalog_raw=[
      "id": "6XM3C63YRZ4OPYI74US2YXVF",
      "modifier_data": {
       "name": "pear sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "URBBFULNIFWMMWG2LGJFNY5N",
-     "modifier_data": {
-      "name": "salted vanilla bean ice cream",
       "price_money": {
        "amount": 0
       }
@@ -4754,10 +4754,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "PPDHEPPAY3FC45JUUH6ZELIA",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "saltine",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "P6IK37XKDEV43DLRC2HAEWCL",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "golden milk (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MS3CYIQSBWPCOLRLDBP4H7DV",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "saltine + golden milk",
       "price_money": {
        "amount": 0
       }
@@ -7983,15 +8003,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EHC3WY4CB47YZ6FBKMAAUXZI",
-  "modifier_data": {
-   "name": "dark chocolate sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "7SB2F6R3Q7TZT5MY3FAPU3JW",
   "type": "ITEM",
   "item_data": {
@@ -8371,15 +8382,6 @@ var catalog_raw=[
   "id": "6XM3C63YRZ4OPYI74US2YXVF",
   "modifier_data": {
    "name": "pear sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "URBBFULNIFWMMWG2LGJFNY5N",
-  "modifier_data": {
-   "name": "salted vanilla bean ice cream",
    "price_money": {
     "amount": 0
    }
@@ -8868,30 +8870,10 @@ var catalog_raw=[
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
-     "id": "TIBX26H5VUDYYPWDWGOUMVIM",
-     "item_variation_data": {
-      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
-      "name": "sweet cream dots (gf)",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "M7XO6V4EZXNZTJKI2W2O4RII",
      "item_variation_data": {
       "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
       "name": "coconut charcoal dots (v)(gf)",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "6AZ3YHWNEECIHMUZ4Q2AGEXB",
-     "item_variation_data": {
-      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
-      "name": "vegan vanilla! dots (v)(gf)",
       "price_money": {
        "amount": 600
       }
@@ -9189,6 +9171,24 @@ var catalog_raw=[
   "id": "BPRWBMW224HR2AZXDLOCY4BY",
   "modifier_data": {
    "name": "golden milk (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "RORQJB45BVV2KOT4QYVI44KI",
+  "modifier_data": {
+   "name": "saltine",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OSEVRY7ZCST2QFHRLMNLJKWW",
+  "modifier_data": {
+   "name": "saltine + golden milk",
    "price_money": {
     "amount": 300
    }
