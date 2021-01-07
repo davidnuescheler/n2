@@ -3168,16 +3168,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "CY52KC7X2P2KXLO47PE5PM4A",
-     "item_variation_data": {
-      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
-      "name": "medium",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
      "id": "WUZZXP6PCZP5CEOUW2IOA7LA",
      "item_variation_data": {
       "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
@@ -4202,15 +4192,6 @@ var catalog_raw=[
      "id": "YCWFCHGLTYICIBJR3J3RFJO7",
      "modifier_data": {
       "name": "cinnamon ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "SFIVZTEZZDZDDCJAQHDF6GZ6",
-     "modifier_data": {
-      "name": "fresh mint ice cream",
       "price_money": {
        "amount": 0
       }
@@ -8344,15 +8325,6 @@ var catalog_raw=[
   "id": "YCWFCHGLTYICIBJR3J3RFJO7",
   "modifier_data": {
    "name": "cinnamon ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "SFIVZTEZZDZDDCJAQHDF6GZ6",
-  "modifier_data": {
-   "name": "fresh mint ice cream",
    "price_money": {
     "amount": 0
    }
