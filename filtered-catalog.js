@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
      "modifier_data": {
-      "name": "house-made HOT fudge (gf)",
+      "name": "house-made fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -5670,7 +5670,7 @@ var catalog_raw=[
  {
   "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
   "modifier_data": {
-   "name": "house-made HOT fudge (gf)",
+   "name": "house-made fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6797,7 +6797,7 @@ var catalog_raw=[
     {
      "id": "P5CXUWNZH3PCWAR3TCZZVXBV",
      "modifier_data": {
-      "name": "house-made HOT fudge (gf)",
+      "name": "house-made fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6986,7 +6986,7 @@ var catalog_raw=[
     {
      "id": "MB2XJXDDVKETLN2KAYU7ITGW",
      "modifier_data": {
-      "name": "house-made HOT fudge (gf)",
+      "name": "house-made fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7151,7 +7151,7 @@ var catalog_raw=[
  {
   "id": "P5CXUWNZH3PCWAR3TCZZVXBV",
   "modifier_data": {
-   "name": "house-made HOT fudge (gf)",
+   "name": "house-made fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7241,7 +7241,7 @@ var catalog_raw=[
  {
   "id": "MB2XJXDDVKETLN2KAYU7ITGW",
   "modifier_data": {
-   "name": "house-made HOT fudge (gf)",
+   "name": "house-made fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
