@@ -4189,15 +4189,6 @@ var catalog_raw=[
    "name": "pizza pints",
    "modifiers": [
     {
-     "id": "PVURIV6QZECIZMLRD7AAPYOP",
-     "modifier_data": {
-      "name": "milk chocolate ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YCWFCHGLTYICIBJR3J3RFJO7",
      "modifier_data": {
       "name": "cinnamon ice cream",
@@ -7984,15 +7975,6 @@ var catalog_raw=[
   "id": "UYJHHXSFPW66YIEW4EPCAU4B",
   "modifier_data": {
    "name": "vegan",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "PVURIV6QZECIZMLRD7AAPYOP",
-  "modifier_data": {
-   "name": "milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
