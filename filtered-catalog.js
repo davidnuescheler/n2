@@ -8857,6 +8857,16 @@ var catalog_raw=[
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
+     "id": "ECGDIYGRSCCVUYTSK4US3SDC",
+     "item_variation_data": {
+      "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
+      "name": "select your dot flavor",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "M7XO6V4EZXNZTJKI2W2O4RII",
      "item_variation_data": {
       "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
@@ -9224,6 +9234,86 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "GA72PIBZYWR3WMSNKKN6OJ42",
+  "type": "ITEM",
+  "item_data": {
+   "name": "molasses 5oz",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "CWUSUBJD5BRMG66YKWX27TWG",
+     "item_variation_data": {
+      "item_id": "GA72PIBZYWR3WMSNKKN6OJ42",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "7WWMZAZCFBZSVGVOTDMCMYKH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "milk chocolate 5oz",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "MEZR35UCYLROBG3WWQRVZTK6",
+     "item_variation_data": {
+      "item_id": "7WWMZAZCFBZSVGVOTDMCMYKH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4JLSA3KMS76REHH5PY4U6JF6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cranberry 5oz",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "I6EK5PRFHFFOVVX567WW7ZPN",
+     "item_variation_data": {
+      "item_id": "4JLSA3KMS76REHH5PY4U6JF6",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "7IN7FLAFCQKBTY4WP3N6DXTH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "salted vanilla bean 5oz",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "O6YKIZU2DX2ZQVT3ITQ2WK57",
+     "item_variation_data": {
+      "item_id": "7IN7FLAFCQKBTY4WP3N6DXTH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
   }
  }
 ]
