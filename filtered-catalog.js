@@ -4196,15 +4196,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "6XM3C63YRZ4OPYI74US2YXVF",
-     "modifier_data": {
-      "name": "pear sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -8345,15 +8336,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "6XM3C63YRZ4OPYI74US2YXVF",
-  "modifier_data": {
-   "name": "pear sorbet (v)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
