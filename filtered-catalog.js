@@ -2148,27 +2148,9 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "NFBWB7NRRENR2YARYKCFCVAQ",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
      "modifier_data": {
       "name": "buttered popcorn (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "J32YPLITR7C5FM4W36U7HDNH",
-     "modifier_data": {
-      "name": "chocolate + popcorn twist TWIST",
       "price_money": {
        "amount": 0
       }
@@ -5604,15 +5586,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NFBWB7NRRENR2YARYKCFCVAQ",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
   "modifier_data": {
    "name": "house-made fudge sauce (gf)",
@@ -6643,15 +6616,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "J32YPLITR7C5FM4W36U7HDNH",
-  "modifier_data": {
-   "name": "chocolate + popcorn twist TWIST",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
   "type": "ITEM",
   "item_data": {
@@ -7516,15 +7480,6 @@ var catalog_raw=[
      "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
      "modifier_data": {
       "name": "COAVA espresso blend",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "DUR5RUW25STME7XLL6OMISPY",
-     "modifier_data": {
-      "name": "COAVA jose alvarado",
       "price_money": {
        "amount": 0
       }
@@ -8805,15 +8760,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "DUR5RUW25STME7XLL6OMISPY",
-  "modifier_data": {
-   "name": "COAVA jose alvarado",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
