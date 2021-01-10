@@ -247,15 +247,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
-     "modifier_data": {
-      "name": "mandarin orange jam (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "62NPDWQFYWUSVSQ426GQVQH5",
      "modifier_data": {
       "name": "olive oil powder (v) (gf)",
@@ -6286,15 +6277,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "XT2LKCE2OHHHLJ7LL5URXIQV",
-  "modifier_data": {
-   "name": "mandarin orange jam (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "62NPDWQFYWUSVSQ426GQVQH5",
   "modifier_data": {
    "name": "olive oil powder (v) (gf)",
@@ -6737,15 +6719,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "E7VEEDZEUOT5BDPSPDBPGXHG",
-     "modifier_data": {
-      "name": "mandarin orange jam (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "C4NVV4NZBEK34GDXI23GX6EA",
      "modifier_data": {
       "name": "olive oil powder (v) (gf)",
@@ -6926,15 +6899,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MPGHWXXR2BJ2KIDG7CEQWG4H",
-     "modifier_data": {
-      "name": "mandarin orange jam (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
      "modifier_data": {
       "name": "olive oil powder (v) (gf)",
@@ -7091,15 +7055,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "E7VEEDZEUOT5BDPSPDBPGXHG",
-  "modifier_data": {
-   "name": "mandarin orange jam (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "C4NVV4NZBEK34GDXI23GX6EA",
   "modifier_data": {
    "name": "olive oil powder (v) (gf)",
@@ -7175,15 +7130,6 @@ var catalog_raw=[
   "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
   "modifier_data": {
    "name": "salted caramel (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "MPGHWXXR2BJ2KIDG7CEQWG4H",
-  "modifier_data": {
-   "name": "mandarin orange jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
