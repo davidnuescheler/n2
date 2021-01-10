@@ -2139,15 +2139,6 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
-     "modifier_data": {
-      "name": "buttered popcorn (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
      "modifier_data": {
       "name": "vegan vanilla! (v) (gf)",
@@ -2169,6 +2160,15 @@ var catalog_raw=[
      "id": "55RLPHUM4436C45O7GC4K66K",
      "modifier_data": {
       "name": "vanilla + mandarin TWIST (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3034,7 +3034,7 @@ var catalog_raw=[
     {
      "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
      "modifier_data": {
-      "name": "milk chocolate",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6562,15 +6562,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
-  "modifier_data": {
-   "name": "buttered popcorn (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
   "type": "ITEM",
   "item_data": {
@@ -9092,9 +9083,18 @@ var catalog_raw=[
  {
   "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
   "modifier_data": {
-   "name": "milk chocolate",
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
