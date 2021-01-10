@@ -3005,15 +3005,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OYGLWUHBPZEFKUUBVHWHITER",
-     "modifier_data": {
-      "name": "buttered popcorn (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "BPRWBMW224HR2AZXDLOCY4BY",
      "modifier_data": {
       "name": "golden milk (gf)",
@@ -3035,6 +3026,15 @@ var catalog_raw=[
      "id": "OSEVRY7ZCST2QFHRLMNLJKWW",
      "modifier_data": {
       "name": "saltine + golden milk",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
+     "modifier_data": {
+      "name": "milk chocolate",
       "price_money": {
        "amount": 300
       }
@@ -6562,15 +6562,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OYGLWUHBPZEFKUUBVHWHITER",
-  "modifier_data": {
-   "name": "buttered popcorn (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "JKDTOYEQZ2SYRRAQDK6HEXSJ",
   "modifier_data": {
    "name": "buttered popcorn (gf)",
@@ -9096,6 +9087,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
+  "modifier_data": {
+   "name": "milk chocolate",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
