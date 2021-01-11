@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
-     "modifier_data": {
-      "name": "cookie dough bits (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
       "name": "brownie crumble (v)",
@@ -6237,15 +6228,6 @@ var catalog_raw=[
    "name": "mocha!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "S37QLOCZ2P6UJOXFJZIPHOJN",
-  "modifier_data": {
-   "name": "cookie dough bits (v)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
