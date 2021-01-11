@@ -4668,12 +4668,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "I3JSG5HR2WGYZVXPCW3JC54G"
-    },
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    },
-    {
-     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
     }
    ],
    "variations": [
@@ -4701,17 +4695,17 @@ var catalog_raw=[
      "id": "MS3CYIQSBWPCOLRLDBP4H7DV",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "saltine + golden milk",
+      "name": "saltine + golden milk TWIST",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "PRC6TNRIQCETAYLF4BR56MDK",
+     "id": "53YB2FLQKGFHJPIOCJ6I7KBN",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "buttered popcorn (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4742,16 +4736,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "vegan vanilla! + orange TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "53YB2FLQKGFHJPIOCJ6I7KBN",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
