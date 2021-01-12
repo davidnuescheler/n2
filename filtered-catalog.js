@@ -137,6 +137,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "SNS5BH2VZPMNSB7KBATZ6WZO",
+     "modifier_data": {
+      "name": "cookie dough bits (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9131,6 +9140,15 @@ var catalog_raw=[
    "name": "golden milk (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SNS5BH2VZPMNSB7KBATZ6WZO",
+  "modifier_data": {
+   "name": "cookie dough bits (v)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
