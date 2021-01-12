@@ -5940,6 +5940,36 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "KXH64DXKRNXLGJXF4VHQNUGK",
+     "item_variation_data": {
+      "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
+      "name": "local",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IV37HQ6227WQAOS3HOCNTPXN",
+     "item_variation_data": {
+      "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
+      "name": "near",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "P2WZUWA7HTJ7G76QTKJ27Y5V",
+     "item_variation_data": {
+      "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
+      "name": "far",
+      "price_money": {
+       "amount": 900
+      }
+     }
     }
    ]
   }
