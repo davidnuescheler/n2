@@ -3484,24 +3484,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "VKKVI4KWBJLV5FDC2WVFRH37",
-     "modifier_data": {
-      "name": "cookie butter (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
-     "modifier_data": {
-      "name": "acai + cookie butter TWIST (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -5808,24 +5790,6 @@ var catalog_raw=[
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
    "name": "acai sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VKKVI4KWBJLV5FDC2WVFRH37",
-  "modifier_data": {
-   "name": "cookie butter (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VSMGBH7U7EAWVWRSPSWCIIDC",
-  "modifier_data": {
-   "name": "acai + cookie butter TWIST (v)",
    "price_money": {
     "amount": 0
    }
