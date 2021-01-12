@@ -5945,7 +5945,7 @@ var catalog_raw=[
      "id": "KXH64DXKRNXLGJXF4VHQNUGK",
      "item_variation_data": {
       "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
-      "name": "local",
+      "name": "in the neighborhood",
       "price_money": {
        "amount": 0
       }
