@@ -2139,15 +2139,6 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
-     "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "mandarin orange sorbet (v) (gf)",
@@ -2160,15 +2151,6 @@ var catalog_raw=[
      "id": "55RLPHUM4436C45O7GC4K66K",
      "modifier_data": {
       "name": "vanilla + mandarin TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2196,6 +2178,33 @@ var catalog_raw=[
      "id": "XWA6LXGQQREF4HYF2UEGWCBB",
      "modifier_data": {
       "name": "saltine + golden milk TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "456OM2ASY6N7WAJ3MT2W4SZB",
+     "modifier_data": {
+      "name": "buttered popcorn (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
+     "modifier_data": {
+      "name": "chocolate + popcorn TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3005,27 +3014,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NXFEXXC2RBPA5P762A4WZO6B",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
       "name": "mandarin orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "4JJX7WCUFWIXXBU3CNASGDHK",
-     "modifier_data": {
-      "name": "vanilla + mandarin TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3062,6 +3053,24 @@ var catalog_raw=[
      "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
      "modifier_data": {
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
+     "modifier_data": {
+      "name": "buttered popcorn (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UANGXGZPSEIFQR7MM2OFZMZE",
+     "modifier_data": {
+      "name": "chocolate + popcorn TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4741,26 +4750,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GT5RDYCMYCAR2AR777GO5J5G",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "OPET63OZ32TUNUJRHJCGJMUH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "mandarin orange sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "QVQ6ZKKB4AO4AYR5VNA7SKCG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -5564,15 +5553,6 @@ var catalog_raw=[
   "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
   "modifier_data": {
    "name": "mandarin orange sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "4JJX7WCUFWIXXBU3CNASGDHK",
-  "modifier_data": {
-   "name": "vanilla + mandarin TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6511,24 +6491,6 @@ var catalog_raw=[
    "name": "toasted coconut (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "NXFEXXC2RBPA5P762A4WZO6B",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "WLUIDAZARKC4L3DJOYZ3UDTT",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
@@ -9181,6 +9143,42 @@ var catalog_raw=[
    "name": "HONDURAS porfio castellanos",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "456OM2ASY6N7WAJ3MT2W4SZB",
+  "modifier_data": {
+   "name": "buttered popcorn (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
+  "modifier_data": {
+   "name": "chocolate + popcorn TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
+  "modifier_data": {
+   "name": "buttered popcorn (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UANGXGZPSEIFQR7MM2OFZMZE",
+  "modifier_data": {
+   "name": "chocolate + popcorn TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
