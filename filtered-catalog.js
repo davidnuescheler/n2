@@ -4721,6 +4721,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "buttered popcorn (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "KLSWGUKHIIEKFIIRTMFVZMN5",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "chocolate + popcorn TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "GT5RDYCMYCAR2AR777GO5J5G",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
