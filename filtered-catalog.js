@@ -2139,6 +2139,15 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
+     "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
+     "modifier_data": {
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
       "name": "mandarin orange sorbet (v) (gf)",
@@ -3014,9 +3023,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "TIPY6EAQXW66LGNXNPVCHJBE",
+     "modifier_data": {
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
       "name": "mandarin orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "AK4OQHF3YQOVDTKW2LDUD6YY",
+     "modifier_data": {
+      "name": "vegan vanilla + mandarin sorbet TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9179,6 +9206,33 @@ var catalog_raw=[
    "name": "chocolate + popcorn TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "TIPY6EAQXW66LGNXNPVCHJBE",
+  "modifier_data": {
+   "name": "vegan vanilla! (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "AK4OQHF3YQOVDTKW2LDUD6YY",
+  "modifier_data": {
+   "name": "vegan vanilla + mandarin sorbet TWIST (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
+  "modifier_data": {
+   "name": "vegan vanilla! (v) (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
