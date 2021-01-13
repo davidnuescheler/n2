@@ -4777,6 +4777,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "MY4Q2QD35N5S3HQIBRTQ6U44",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UPB26OHYK2AP5WEW5QFDVQDN",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "mandarin orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "QVQ6ZKKB4AO4AYR5VNA7SKCG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
