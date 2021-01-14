@@ -9273,5 +9273,23 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "5GUN4J2A4GUVI7KGV5ZHH2FF",
+  "modifier_data": {
+   "name": "cookie butter (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "XA7HYOSE32YQE6NZKK4A3UMX",
+  "modifier_data": {
+   "name": "acai + cookie buttes TWIST (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
  }
 ]
