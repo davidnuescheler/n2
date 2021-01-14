@@ -364,15 +364,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "524BWIAZZG5IRTQGLYNGND22",
-     "modifier_data": {
-      "name": "dark chocolate CRUNCH",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
      "modifier_data": {
       "name": "dulcey",
@@ -5177,15 +5168,6 @@ var catalog_raw=[
    "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "524BWIAZZG5IRTQGLYNGND22",
-  "modifier_data": {
-   "name": "dark chocolate CRUNCH",
-   "price_money": {
-    "amount": 100
    }
   }
  },
