@@ -371,6 +371,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "KUR4W2MTHDQ6RNNUYGIHZECC",
+     "modifier_data": {
+      "name": "Dark chocolate crunch",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -9361,6 +9370,15 @@ var catalog_raw=[
    "name": "buttered popcorn (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "KUR4W2MTHDQ6RNNUYGIHZECC",
+  "modifier_data": {
+   "name": "Dark chocolate crunch",
+   "price_money": {
+    "amount": 100
    }
   }
  }
