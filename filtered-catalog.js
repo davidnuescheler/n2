@@ -4653,15 +4653,6 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "WVMJNHUEULE4SPOQ35QS6B2U",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UYJHHXSFPW66YIEW4EPCAU4B",
      "modifier_data": {
       "name": "vegan",
@@ -6617,15 +6608,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "WVMJNHUEULE4SPOQ35QS6B2U",
-  "modifier_data": {
-   "name": "beehive",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
