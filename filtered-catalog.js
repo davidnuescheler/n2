@@ -1515,16 +1515,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XDPSTSQICZVNBE3IFHJ4DKG4",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA juan francisco pira",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "J3QLO4K4LMDQDXZDEFHWM7V2",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
