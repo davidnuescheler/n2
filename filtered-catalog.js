@@ -3049,24 +3049,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RORQJB45BVV2KOT4QYVI44KI",
-     "modifier_data": {
-      "name": "saltine",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "OSEVRY7ZCST2QFHRLMNLJKWW",
-     "modifier_data": {
-      "name": "saltine + golden milk TWIST",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -8979,24 +8961,6 @@ var catalog_raw=[
   "id": "BPRWBMW224HR2AZXDLOCY4BY",
   "modifier_data": {
    "name": "golden milk (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "RORQJB45BVV2KOT4QYVI44KI",
-  "modifier_data": {
-   "name": "saltine",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "OSEVRY7ZCST2QFHRLMNLJKWW",
-  "modifier_data": {
-   "name": "saltine + golden milk TWIST",
    "price_money": {
     "amount": 300
    }
