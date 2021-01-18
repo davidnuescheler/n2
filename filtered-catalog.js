@@ -3013,6 +3013,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "K7RRIIB5Z6QFO7F555CYQKXU",
+     "modifier_data": {
+      "name": "saltine",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "OGUZ65MLWWMG6CJX73JBUJTQ",
+     "modifier_data": {
+      "name": "saltine + golden milk TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "TIPY6EAQXW66LGNXNPVCHJBE",
      "modifier_data": {
       "name": "vegan vanilla! (v) (gf)",
@@ -4743,10 +4761,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "Q5QWSWDSTFSAMNQWIE6IAWZJ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "saltine",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "P6IK37XKDEV43DLRC2HAEWCL",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "golden milk (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "P72D5PYSHAMK6IXN4PWRBF36",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "saltine + golden milk TWIST",
       "price_money": {
        "amount": 0
       }
@@ -7427,7 +7465,7 @@ var catalog_raw=[
     {
      "id": "CXIF33NKLGJ3PINLKGR4NCPX",
      "modifier_data": {
-      "name": "HONDURAS porfio castellanos",
+      "name": "GUATEMALA juan francisco pira",
       "price_money": {
        "amount": 0
       }
@@ -9148,7 +9186,7 @@ var catalog_raw=[
  {
   "id": "CXIF33NKLGJ3PINLKGR4NCPX",
   "modifier_data": {
-   "name": "HONDURAS porfio castellanos",
+   "name": "GUATEMALA juan francisco pira",
    "price_money": {
     "amount": 0
    }
@@ -9295,6 +9333,24 @@ var catalog_raw=[
    "name": "Dark chocolate crunch",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "K7RRIIB5Z6QFO7F555CYQKXU",
+  "modifier_data": {
+   "name": "saltine",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OGUZ65MLWWMG6CJX73JBUJTQ",
+  "modifier_data": {
+   "name": "saltine + golden milk TWIST",
+   "price_money": {
+    "amount": 300
    }
   }
  }
