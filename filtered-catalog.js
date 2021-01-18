@@ -4761,30 +4761,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "PPDHEPPAY3FC45JUUH6ZELIA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "saltine",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "P6IK37XKDEV43DLRC2HAEWCL",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "golden milk (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MS3CYIQSBWPCOLRLDBP4H7DV",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "saltine + golden milk TWIST",
       "price_money": {
        "amount": 0
       }
