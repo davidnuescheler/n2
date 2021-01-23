@@ -8964,7 +8964,7 @@ var catalog_raw=[
   "id": "WIHFHEUIWGM3PTTNWKWCNVPY",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "temperature",
+   "name": "temperature + kids",
    "modifiers": [
     {
      "id": "6UREDPO7E3KU4TC3UPCAQHXX",
