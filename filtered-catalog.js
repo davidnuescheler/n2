@@ -1953,9 +1953,6 @@ var catalog_raw=[
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "DGSJMNUMCUXDDOXLUPGH2IRK"
-    },
-    {
      "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
     }
    ],
@@ -5778,51 +5775,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DGSJMNUMCUXDDOXLUPGH2IRK",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "temperature (+kids)",
-   "modifiers": [
-    {
-     "id": "K3WSIMSHUNDZCUMLAHNHELYR",
-     "modifier_data": {
-      "name": "hot",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "RIH5N3SG34VD4OI3FFZIG4DC",
-     "modifier_data": {
-      "name": "kid's temp!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "K3WSIMSHUNDZCUMLAHNHELYR",
-  "modifier_data": {
-   "name": "hot",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "RIH5N3SG34VD4OI3FFZIG4DC",
-  "modifier_data": {
-   "name": "kid's temp!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "L5EF7UVE5SIC77BQIWYHSO4O",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -7554,9 +7506,6 @@ var catalog_raw=[
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "DGSJMNUMCUXDDOXLUPGH2IRK"
-    },
-    {
      "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
     }
    ],
@@ -9037,6 +8986,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "3ETYIPTVQRGOFBONMXL2XRJQ",
+     "modifier_data": {
+      "name": "hot (kid's temp)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9361,6 +9319,15 @@ var catalog_raw=[
    "name": "saltine + golden milk TWIST",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "3ETYIPTVQRGOFBONMXL2XRJQ",
+  "modifier_data": {
+   "name": "hot (kid's temp)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
