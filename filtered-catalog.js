@@ -8174,7 +8174,7 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "3M77EREKZ6PL7744W2UA3UMH",
+     "id": "GNKFVWYDCV66PY62W6XB2VP3",
      "item_variation_data": {
       "item_id": "ZMRXHV76DMRDKFFVQMVDMZNK",
       "name": "half size",
@@ -8184,7 +8184,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MUC4XTWBXSDJTQAXI5HE6UNN",
+     "id": "RQMYD5E6D675EYXTYNR7H5UJ",
      "item_variation_data": {
       "item_id": "ZMRXHV76DMRDKFFVQMVDMZNK",
       "name": "normal size",
