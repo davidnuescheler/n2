@@ -2772,7 +2772,7 @@ var catalog_raw=[
       "item_id": "OMNNCA7EAZH5HLODBY2FMJRZ",
       "name": "Regular",
       "price_money": {
-       "amount": 500
+       "amount": 600
       }
      }
     }
