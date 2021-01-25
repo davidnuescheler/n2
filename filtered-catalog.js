@@ -308,6 +308,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "LRG6UIAEKSEVEXLPCNPFX7CP",
+     "modifier_data": {
+      "name": "bunch-a-crunch",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -6742,6 +6751,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "NAOMLHSZCH6QBODNR5TLBAEX",
+     "modifier_data": {
+      "name": "bunch-a-crunch",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -6909,6 +6927,15 @@ var catalog_raw=[
      "id": "LPYJU7AJFVVS7NVAOPSWH2V2",
      "modifier_data": {
       "name": "saltine cracker crumble",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "UMDVQXHJZVXD52HBUPJBSGLT",
+     "modifier_data": {
+      "name": "bunch-a-crunch",
       "price_money": {
        "amount": 75
       }
@@ -9261,6 +9288,33 @@ var catalog_raw=[
    "name": "hot (kid's temp)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LRG6UIAEKSEVEXLPCNPFX7CP",
+  "modifier_data": {
+   "name": "bunch-a-crunch",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "NAOMLHSZCH6QBODNR5TLBAEX",
+  "modifier_data": {
+   "name": "bunch-a-crunch",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "UMDVQXHJZVXD52HBUPJBSGLT",
+  "modifier_data": {
+   "name": "bunch-a-crunch",
+   "price_money": {
+    "amount": 75
    }
   }
  }
