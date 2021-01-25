@@ -2763,7 +2763,7 @@ var catalog_raw=[
   "id": "OMNNCA7EAZH5HLODBY2FMJRZ",
   "type": "ITEM",
   "item_data": {
-   "name": "norm core",
+   "name": "norm core mystery pack!",
    "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
@@ -2772,7 +2772,7 @@ var catalog_raw=[
       "item_id": "OMNNCA7EAZH5HLODBY2FMJRZ",
       "name": "Regular",
       "price_money": {
-       "amount": 450
+       "amount": 500
       }
      }
     }
