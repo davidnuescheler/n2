@@ -229,15 +229,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
-     "modifier_data": {
-      "name": "bunch-a-crunch (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -6293,15 +6284,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KOX7XOUFZTW5GCQPQTC4IDYQ",
-  "modifier_data": {
-   "name": "bunch-a-crunch (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
   "modifier_data": {
    "name": "salted caramel (gf)",
@@ -6681,15 +6663,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GAJBTKICK5HMLZIPE3E2SGHJ",
-     "modifier_data": {
-      "name": "bunch-a-crunch (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "7JV5DR67ICFMLUKGMLTFZ7DX",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -6861,15 +6834,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "H47ESJ62GQXGS3UJ3OK6L7NY",
-     "modifier_data": {
-      "name": "bunch-a-crunch (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -7017,15 +6981,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "GAJBTKICK5HMLZIPE3E2SGHJ",
-  "modifier_data": {
-   "name": "bunch-a-crunch (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "7JV5DR67ICFMLUKGMLTFZ7DX",
   "modifier_data": {
    "name": "salted caramel (gf)",
@@ -7092,15 +7047,6 @@ var catalog_raw=[
   "id": "ISV6PXGEYV4SXWK4Q4MXKADR",
   "modifier_data": {
    "name": "whipped cream (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "H47ESJ62GQXGS3UJ3OK6L7NY",
-  "modifier_data": {
-   "name": "bunch-a-crunch (gf)",
    "price_money": {
     "amount": 75
    }
