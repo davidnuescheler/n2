@@ -1292,16 +1292,17 @@ async function checkDateStock(date) {
         // prevent order submission
         $cartEl.querySelector("#orderBtn").disabled = true;
         $cartEl.querySelector("#orderBtn").classList.add("hidden");
-    } else {
-        // open order submission back IF MIN ORDER IS MET AS WELL
-        // convert dollar amount from google sheet to cents for comparison 
-        const minOrder = parseInt(window.labels.delivery_minorder) * 100;
-        if ( cart.totalAmount() > minOrder) {
-            $cartEl.querySelector(".deliverycap").classList.add("hidden");
-            $cartEl.querySelector("#orderBtn").disabled = false;
-            $cartEl.querySelector("#orderBtn").classList.remove("hidden");
-        }
-    }
+    } 
+    // else {
+    //     // open order submission back IF MIN ORDER IS MET AS WELL
+    //     // convert dollar amount from google sheet to cents for comparison 
+    //     const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+    //     if ( cart.totalAmount() > minOrder) {
+    //         $cartEl.querySelector(".deliverycap").classList.add("hidden");
+    //         $cartEl.querySelector("#orderBtn").disabled = false;
+    //         $cartEl.querySelector("#orderBtn").classList.remove("hidden");
+    //     }
+    // }
     
 }
 // debounce from underscore.js
@@ -1311,7 +1312,7 @@ function debounce(func, wait, immediate) {
         const context = this, args = arguments;
         const later = function() {
             timeout = null;
-            if (!immediate) func.apply(context, args);
+            if (!immediate) { func.apply(context, args) };
         }
         const callNow = immediate && !timeout;
         clearTimeout(timeout);
@@ -1788,6 +1789,7 @@ async function submitOrder() {
     localStorage.setItem("name",orderParams.display_name);
     localStorage.setItem("cell",orderParams.cell);
     localStorage.setItem("address",orderParams.address);
+    localStorage.setItem("email",orderParams.email_address);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
     cartEl.querySelector(".checkoutitems").classList.add("hidden");
@@ -1819,18 +1821,23 @@ async function submitOrder() {
         // console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
-        var line_item={
+        var line_item = {
             "catalog_object_id": li.variation,
-            "quantity": ""+li.quantity };
-
+            "quantity": ""+li.quantity 
+        };    
         if (mods.length) {
             line_item.modifiers=mods;
         }
         orderParams.line_items.push(line_item);       
     });
 
-    // console.log ("order: "+JSON.stringify(orderParams));
-
+    if (storeLocation === "delivery") {
+        orderParams.line_items.push({
+            "catalog_object_id": cart.shipping_item.variation,
+            "quantity": ""  + cart.shipping_item.quantity
+        });
+    }
+        
     var qs="";
     for (var a in orderParams) {
         if (a=="line_items") {
@@ -1878,31 +1885,28 @@ async function submitOrder() {
 }
 
 function displayOrder(o) {
+    console.log(`displayOrder -> o`, o);
     order=o;
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
         // print shipping line item differently
-        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") { return; }
-        html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
-        if (typeof li.modifiers !== "undefined") {
-            li.modifiers.forEach((mod) => {
-                html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
-            })
+        if (deliveryIds.includes(li.catalog_object_id)) { 
+            html += `<div class="line shipping"><span class="desc">${li.name}</span><span class="amount">$${formatMoney(li.base_price_money.amount * li.quantity)}</span></div>`
+        } else {
+            html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
+            if (typeof li.modifiers !== "undefined") {
+                li.modifiers.forEach((mod) => {
+                    html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
+                })
+            }
         }
     });
     if (order.discounts) {
         html+=`<div class="line discounts"><span class="desc">${order.discounts[0].name} - discount</span><span class="amount">- $${formatMoney(order.discounts[0].applied_money.amount)}</span></div>`;
     }
+
     html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
     html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
-    
-    // if cart includes delivery fee...
-    if (cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
-        var shipping = order.line_items.filter(item => item.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC")[0];
-        // console.log(shipping);
-        html+=`<div class="line shipping"><span class="desc">${shipping.name} (${shipping.variation_name})</span><span class="amount">$${formatMoney(shipping.base_price_money.amount*shipping.quantity)}</span></div>`
-    }
-
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
@@ -2180,6 +2184,7 @@ function initCart() {
 
     document.getElementById("name").value=localStorage.getItem("name");
     document.getElementById("cell").value=localStorage.getItem("cell");
+    document.getElementById("email").value=localStorage.getItem("email");
 
 }
 
@@ -2220,20 +2225,14 @@ function updateCart() {
         const minOrder = parseInt(window.labels.delivery_minorder) * 100;
         // check if zip is set and available
         const deliveryDate = cartEl.querySelector("#delivery-date").value;
-        // console.log(`updateCart -> deliveryDate`, deliveryDate);
-        if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
+        // if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
+        if (deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
         } else {
             cartEl.querySelector("#orderBtn").disabled = false;
             cartEl.querySelector("#orderBtn").classList.remove("hidden");
         };
-        
-        if (cart.totalAmount() < minOrder) {
-            cartEl.querySelector(".minorder").classList.remove("hidden");
-        } else {
-            cartEl.querySelector(".minorder").classList.add("hidden");
-        }
     }
 
     var summaryEl=cartEl.querySelector(".summary");
