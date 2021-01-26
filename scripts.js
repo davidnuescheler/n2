@@ -1885,7 +1885,6 @@ async function submitOrder() {
 }
 
 function displayOrder(o) {
-    console.log(`displayOrder -> o`, o);
     order=o;
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
