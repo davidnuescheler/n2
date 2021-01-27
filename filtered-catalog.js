@@ -5329,7 +5329,7 @@ var catalog_raw=[
   "id": "E3344GQTL3DXRR5UVVHNZIK4",
   "type": "ITEM",
   "item_data": {
-   "name": "all about olive",
+   "name": "red velvet",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5364,7 +5364,7 @@ var catalog_raw=[
   "id": "ZNZCC3MHAT5DMFLMEWYCZFA4",
   "type": "ITEM",
   "item_data": {
-   "name": "the tru fru",
+   "name": "for the love of chocolate",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5399,7 +5399,7 @@ var catalog_raw=[
   "id": "UH2FHMCSKGJ4NEN7RKO2NZSS",
   "type": "ITEM",
   "item_data": {
-   "name": "the nog",
+   "name": "<3 cone",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5434,7 +5434,7 @@ var catalog_raw=[
   "id": "OZACLK5YWDZJW6MWDQHTCTNC",
   "type": "ITEM",
   "item_data": {
-   "name": "pear crisp (v)",
+   "name": "strawberry shortcake",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5469,7 +5469,7 @@ var catalog_raw=[
   "id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
   "type": "ITEM",
   "item_data": {
-   "name": "dirty chai",
+   "name": "it's berry tart (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -5985,7 +5985,7 @@ var catalog_raw=[
   "id": "25SQ7PZZNYERFM3NQNCTDFRT",
   "type": "ITEM",
   "item_data": {
-   "name": "s'mores, but make it vegan (v)",
+   "name": "lamington (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6020,7 +6020,7 @@ var catalog_raw=[
   "id": "DH74CPQTGIBGTWAC7MCMCIZT",
   "type": "ITEM",
   "item_data": {
-   "name": "cinnamon bear",
+   "name": "chocolate wasted",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6055,7 +6055,7 @@ var catalog_raw=[
   "id": "UVY66VK6IHX6RH2MZWH2VV6K",
   "type": "ITEM",
   "item_data": {
-   "name": "norm s'more",
+   "name": "lemon cheesecake",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
@@ -6125,7 +6125,7 @@ var catalog_raw=[
   "id": "XISA5FYI4ZPTWRISZ6OZ3CSB",
   "type": "ITEM",
   "item_data": {
-   "name": "mint condition cone",
+   "name": "call me, maybe",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
