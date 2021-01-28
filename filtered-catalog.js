@@ -5923,7 +5923,7 @@ var catalog_raw=[
      "id": "GTMQCMXMAHX4X6NFKDX5AYQC",
      "item_variation_data": {
       "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
-      "name": "included",
+      "name": "free",
       "price_money": {
        "amount": 0
       }
