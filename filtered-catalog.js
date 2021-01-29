@@ -1513,16 +1513,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "J3QLO4K4LMDQDXZDEFHWM7V2",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
@@ -7184,36 +7174,6 @@ var catalog_raw=[
       "name": "select your varietal",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "A4UEJKTCEGKAAEHDX22SS7O6",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "EHTIOPIA meaza",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "UEEPSJZ4BL772PWIJTAQ64GJ",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "COLUMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "YR7JGJJ66PEYPTBG3W7KE7M4",
-     "item_variation_data": {
-      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
-      "name": "NICARAGUA bella aurora",
-      "price_money": {
-       "amount": 1600
       }
      }
     }
