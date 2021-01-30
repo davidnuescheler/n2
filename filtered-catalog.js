@@ -4174,6 +4174,15 @@ var catalog_raw=[
    "name": "pizza pints",
    "modifiers": [
     {
+     "id": "7AFPIGFSYBVSDQTN44AMV235",
+     "modifier_data": {
+      "name": "select your pint",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "TXJL4JXXY7VMPEBSOWZHY7BP",
      "modifier_data": {
       "name": "golden milk ice cream (gf)",
@@ -4629,6 +4638,15 @@ var catalog_raw=[
   "modifier_list_data": {
    "name": "pizza nono",
    "modifiers": [
+    {
+     "id": "BL2CXEQI3ERZHILCDMETNKHZ",
+     "modifier_data": {
+      "name": "select your pizza",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
     {
      "id": "QBYX2E6V5KJICT74Z2UXKOYS",
      "modifier_data": {
@@ -9247,6 +9265,24 @@ var catalog_raw=[
    "name": "bunch-a-crunch",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "BL2CXEQI3ERZHILCDMETNKHZ",
+  "modifier_data": {
+   "name": "select your pizza",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7AFPIGFSYBVSDQTN44AMV235",
+  "modifier_data": {
+   "name": "select your pint",
+   "price_money": {
+    "amount": 0
    }
   }
  }
