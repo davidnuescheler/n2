@@ -4630,15 +4630,6 @@ var catalog_raw=[
    "name": "pizza nono",
    "modifiers": [
     {
-     "id": "UYJHHXSFPW66YIEW4EPCAU4B",
-     "modifier_data": {
-      "name": "vegan",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "QBYX2E6V5KJICT74Z2UXKOYS",
      "modifier_data": {
       "name": "pepperoni",
@@ -7713,15 +7704,6 @@ var catalog_raw=[
    "name": "dulcey",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "UYJHHXSFPW66YIEW4EPCAU4B",
-  "modifier_data": {
-   "name": "vegan",
-   "price_money": {
-    "amount": 0
    }
   }
  },
