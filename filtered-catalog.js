@@ -2990,27 +2990,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TIPY6EAQXW66LGNXNPVCHJBE",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
       "name": "mandarin orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "AK4OQHF3YQOVDTKW2LDUD6YY",
-     "modifier_data": {
-      "name": "vegan vanilla + mandarin sorbet TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4724,30 +4706,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MY4Q2QD35N5S3HQIBRTQ6U44",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UPB26OHYK2AP5WEW5QFDVQDN",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "mandarin orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "QVQ6ZKKB4AO4AYR5VNA7SKCG",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vegan vanilla! + orange TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8973,24 +8935,6 @@ var catalog_raw=[
   "id": "UANGXGZPSEIFQR7MM2OFZMZE",
   "modifier_data": {
    "name": "chocolate + popcorn TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "TIPY6EAQXW66LGNXNPVCHJBE",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "AK4OQHF3YQOVDTKW2LDUD6YY",
-  "modifier_data": {
-   "name": "vegan vanilla + mandarin sorbet TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
