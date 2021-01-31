@@ -3478,6 +3478,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "UOPYHIT3MNT2ODKVSMBQXT74",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "B34QGIFYQGCIGY757ET5SICH",
+     "modifier_data": {
+      "name": "ube (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
+     "modifier_data": {
+      "name": "salted vanilla bean + ube TWIST (gf) ",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -4516,6 +4543,24 @@ var catalog_raw=[
      "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
      "modifier_data": {
       "name": "açaí + cookie butter TWIST (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HSVRY3S35OCPLYE35LIRLOBF",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UIUUY3EADX5IOB3N6AI4PRKK",
+     "modifier_data": {
+      "name": "salted vanilla bean + ube TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9173,6 +9218,51 @@ var catalog_raw=[
   "id": "7AFPIGFSYBVSDQTN44AMV235",
   "modifier_data": {
    "name": "select your pint",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HSVRY3S35OCPLYE35LIRLOBF",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UOPYHIT3MNT2ODKVSMBQXT74",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "B34QGIFYQGCIGY757ET5SICH",
+  "modifier_data": {
+   "name": "ube (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UIUUY3EADX5IOB3N6AI4PRKK",
+  "modifier_data": {
+   "name": "salted vanilla bean + ube TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
+  "modifier_data": {
+   "name": "salted vanilla bean + ube TWIST (gf) ",
    "price_money": {
     "amount": 0
    }
