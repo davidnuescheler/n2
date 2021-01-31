@@ -3500,7 +3500,7 @@ var catalog_raw=[
     {
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
-      "name": "salted vanilla bean + ube TWIST (gf) ",
+      "name": "salted vanilla bean + ube TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9262,7 +9262,7 @@ var catalog_raw=[
  {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
-   "name": "salted vanilla bean + ube TWIST (gf) ",
+   "name": "salted vanilla bean + ube TWIST (gf)",
    "price_money": {
     "amount": 0
    }
