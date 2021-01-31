@@ -3453,33 +3453,6 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "POR634QNMVAE4S4ADO2PU6PA",
-     "modifier_data": {
-      "name": "ube (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
-     "modifier_data": {
-      "name": "ube + vanilla bean TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
       "name": "acai sorbet (v) (gf)",
@@ -3507,15 +3480,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "POR634QNMVAE4S4ADO2PU6PA",
-  "modifier_data": {
-   "name": "ube (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -4531,33 +4495,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
-     "modifier_data": {
-      "name": "ube (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "BAUZ64I22FTOE4GDU6XC5H54",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "UM4WAEHGILERHWPNYJNGIPHV",
-     "modifier_data": {
-      "name": "ube + salted vanilla TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
       "name": "açaí sorbet (v) (gf)",
@@ -4597,15 +4534,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
-  "modifier_data": {
-   "name": "ube (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
    "name": "açaí sorbet (v) (gf)",
@@ -4618,15 +4546,6 @@ var catalog_raw=[
   "id": "ND2ANZ4IGURGP57GXAR3A5GF",
   "modifier_data": {
    "name": "cookie butter (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "UM4WAEHGILERHWPNYJNGIPHV",
-  "modifier_data": {
-   "name": "ube + salted vanilla TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5650,15 +5569,6 @@ var catalog_raw=[
    "name": "house-made fudge sauce (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "BAUZ64I22FTOE4GDU6XC5H54",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -7968,24 +7878,6 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "HAPPYHOLIDAYS15"
-  }
- },
- {
-  "id": "YNL3EAY5MIF3A6FA4CLJSGCW",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "IKAZBDAGAWTVRNGSDL2K3M7Z",
-  "modifier_data": {
-   "name": "ube + vanilla bean TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
