@@ -1260,6 +1260,9 @@ function setDeliveryDate(date) {
 
 function setDeliveryFee(tier) {
     switch (tier) {
+        case 0: // free delivery on orders over cap
+            cart.addShipping("GTMQCMXMAHX4X6NFKDX5AYQC");
+            break;
         case 1:
             cart.addShipping("KXH64DXKRNXLGJXF4VHQNUGK");
             break;
@@ -1322,7 +1325,6 @@ function debounce(func, wait, immediate) {
 }
 
 const updateAfterZip = debounce(function() {
-    // console.log(`\nupdateAfterZip is running`);
     const $zipSelect = document.getElementById("delivery-zip");
     const zipValue = parseInt($zipSelect.value);
     const match = window.deliveryZips.find((zip) => {
@@ -1333,9 +1335,28 @@ const updateAfterZip = debounce(function() {
     setZipColor($zipSelect);
     setCity(match.city);
     setDeliveryDate(match.date);
-    setDeliveryFee(match["shipping tier"]);
+    checkDeliveryFee();
+    
+    // check if zip is set and available
     checkDateStock(match.date);
 }, 500); // half-second delay
+
+function checkDeliveryFee() {
+    const $zipSelect = document.getElementById("delivery-zip");
+    const zipValue = parseInt($zipSelect.value);
+    const match = window.deliveryZips.find((zip) => {
+        return zip.zip === zipValue;
+    });
+    // convert dollar amount from google sheet to cents for comparison 
+    const minOrder = parseInt(window.labels.delivery_free) * 100;
+    const deliveryTotal = cart.totalAmount() - cart.shipping_item.price || cart.totalAmount();
+    
+    if (deliveryTotal < minOrder) {
+        setDeliveryFee(match["shipping tier"]);
+    } else {
+        setDeliveryFee(0);
+    }
+}
 
 function displayToolTip(el) {
     const existingTip = document.getElementById("delivery-tip");
@@ -2092,8 +2113,8 @@ function initCart() {
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
-                <div class="warning hidden minorder">
-                    <p>${labels.checkout_minorder}${labels.delivery_minorder}.</p>
+                <div class="warning hidden freedelivery">
+                    <p>${labels.checkout_minorder}${labels.delivery_free}.</p>
                 </div>
                 <div class="warning hidden deliverycap">
                     <p>${labels.delivery_ordercap}</p>
@@ -2179,8 +2200,6 @@ function initCart() {
         // console.log('migrating cell to ls')
     }
 
-    
-
     document.getElementById("name").value=localStorage.getItem("name");
     document.getElementById("cell").value=localStorage.getItem("cell");
     document.getElementById("email").value=localStorage.getItem("email");
@@ -2193,6 +2212,9 @@ function plus(el) {
   if (li.quantity<20) {
       cart.setQuantity(fp, li.quantity+1);
   }
+  if (storeLocation === "delivery") {
+    checkDeliveryFee();
+  }
   updateCart();
 }
 
@@ -2200,7 +2222,10 @@ function minus (el) {
     var fp=el.parentNode.parentNode.getAttribute("data-id");
     var li=cart.line_items.find((li) => fp == li.fp);
     cart.setQuantity(fp, li.quantity-1);
-    if (li.quantity==0) cart.remove(fp);   
+    if (li.quantity==0) cart.remove(fp);  
+    if (storeLocation === "delivery") {
+        checkDeliveryFee();
+    } 
     updateCart();
 }
 
@@ -2220,11 +2245,27 @@ function updateCart() {
 
     // check delivery cart
     if (storeLocation === "delivery") {
+        const $zipSelect = document.getElementById("delivery-zip");
+        const zipValue = parseInt($zipSelect.value);
+        let match;
+        
         // convert dollar amount from google sheet to cents for comparison 
-        const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+        const minOrder = parseInt(window.labels.delivery_free) * 100;
         // check if zip is set and available
         const deliveryDate = cartEl.querySelector("#delivery-date").value;
-        // if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
+        if (!zipValue) {
+            // if zip has not been selected yet
+        } else if ((cart.totalAmount() - cart.shipping_item.price) < minOrder) {
+            match = window.deliveryZips.find((zip) => {
+                return zip.zip === zipValue;
+            });
+            cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
+            cartEl.querySelector(".freedelivery").classList.remove("hidden");
+            cartEl.querySelector(".freedelivery").textContent += ` you're $${(minOrder - cart.totalAmount())/100} away!`;
+        } else {
+            cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
+            cartEl.querySelector(".freedelivery").classList.add("hidden");
+        }
         if (deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
@@ -2286,7 +2327,16 @@ function updateCart() {
             const v = catalog.byId[shipping.variation];
             const i = catalog.byId[v.item_variation_data.item_id];
             const zip = document.getElementById("delivery-zip").value;
-            shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+
+            if (shipping.fp === "GTMQCMXMAHX4X6NFKDX5AYQC") {
+                // convert dollar amount from google sheet to cents for comparison 
+                const minOrder = parseInt(window.labels.delivery_free) * 100;
+                shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip} on orders over $${formatMoney(minOrder)})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+            } else {
+                shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+            }
+
+            // shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
         } else {
             shippingLi = `<div class="line shipping"><span class="desc">shipping + handling</span><span class="amount">(calculated after you select your zip)</span></div>`
         }
