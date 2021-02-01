@@ -9018,5 +9018,39 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "A5TBGNXU2N6ZN7Y63X5BVJ7D",
+  "type": "ITEM",
+  "item_data": {
+   "name": "custom pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    },
+    {
+     "modifier_list_id": "3EX6HIXETUSNUGXPIYUNHDJQ"
+    },
+    {
+     "modifier_list_id": "I3JSG5HR2WGYZVXPCW3JC54G"
+    }
+   ],
+   "variations": [
+    {
+     "id": "3MCEPJAFXFKROXTK77CCT5HA",
+     "item_variation_data": {
+      "item_id": "A5TBGNXU2N6ZN7Y63X5BVJ7D",
+      "name": "my custom pint!",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
