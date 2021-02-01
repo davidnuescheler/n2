@@ -150,7 +150,7 @@ var catalog_raw=[
     {
      "id": "YMAKJVYNC2OCE5SWSMKACT6Z",
      "modifier_data": {
-      "name": "rainbow sprinks (gf)",
+      "name": "pink sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -186,7 +186,7 @@ var catalog_raw=[
     {
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
-      "name": "candied walnuts (v) (gf)",
+      "name": "red velvet cake bits",
       "price_money": {
        "amount": 75
       }
@@ -195,7 +195,7 @@ var catalog_raw=[
     {
      "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
      "modifier_data": {
-      "name": "house-made fudge sauce (gf)",
+      "name": "cream cheese frosting (gf)",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +204,7 @@ var catalog_raw=[
     {
      "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
      "modifier_data": {
-      "name": "whipped cream (gf)",
+      "name": "roasted white chocolate bits (gf)",
       "price_money": {
        "amount": 75
       }
@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
      "modifier_data": {
-      "name": "salted caramel (gf)",
+      "name": "house-made candy hearts (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +222,7 @@ var catalog_raw=[
     {
      "id": "62NPDWQFYWUSVSQ426GQVQH5",
      "modifier_data": {
-      "name": "olive oil powder (v) (gf)",
+      "name": "cornmeal cake (v)",
       "price_money": {
        "amount": 75
       }
@@ -231,7 +231,7 @@ var catalog_raw=[
     {
      "id": "QHQGX2J6OIEJRJY3IEXFT32P",
      "modifier_data": {
-      "name": "vegan meringue bits (v) (gf)",
+      "name": "berry compote (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -240,7 +240,7 @@ var catalog_raw=[
     {
      "id": "YDBT75DFNUP4DCIW3WIK7XDB",
      "modifier_data": {
-      "name": "caramel corn (gf)",
+      "name": "whipped coconut cream (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -249,7 +249,7 @@ var catalog_raw=[
     {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
-      "name": "cheese puffs (gf)",
+      "name": "graham cracker crumble",
       "price_money": {
        "amount": 75
       }
@@ -258,34 +258,7 @@ var catalog_raw=[
     {
      "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
      "modifier_data": {
-      "name": "cheddar cheese powder (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "CWLHML6WPKNCTJZFH2THN2WN",
-     "modifier_data": {
-      "name": "concord grape jelly (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "JZO77DB7PFYWZAIY6FKBB55Q",
-     "modifier_data": {
-      "name": "peanut butter ganache",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "YFAYKTXESYFSYCQ2LOL3COCX",
-     "modifier_data": {
-      "name": "saltine cracker crumble",
+      "name": "honeycomb candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -2081,7 +2054,7 @@ var catalog_raw=[
     {
      "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
      "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
+      "name": "select your soft serve",
       "price_money": {
        "amount": 0
       }
@@ -2090,16 +2063,7 @@ var catalog_raw=[
     {
      "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
      "modifier_data": {
-      "name": "mandarin orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "55RLPHUM4436C45O7GC4K66K",
-     "modifier_data": {
-      "name": "vanilla + mandarin TWIST (v) (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2108,7 +2072,16 @@ var catalog_raw=[
     {
      "id": "SDICO7ZEQQSTJCBI5LQC5O3B",
      "modifier_data": {
-      "name": "saltine",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "55RLPHUM4436C45O7GC4K66K",
+     "modifier_data": {
+      "name": "vanilla + chocolate TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2117,16 +2090,7 @@ var catalog_raw=[
     {
      "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
      "modifier_data": {
-      "name": "golden milk (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "XWA6LXGQQREF4HYF2UEGWCBB",
-     "modifier_data": {
-      "name": "saltine + golden milk TWIST",
+      "name": "lemon sorbet (v)  (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2135,7 +2099,16 @@ var catalog_raw=[
     {
      "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
      "modifier_data": {
-      "name": "milk chocolate (gf)",
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "XWA6LXGQQREF4HYF2UEGWCBB",
+     "modifier_data": {
+      "name": "lemon + cream cheese TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2144,7 +2117,7 @@ var catalog_raw=[
     {
      "id": "456OM2ASY6N7WAJ3MT2W4SZB",
      "modifier_data": {
-      "name": "buttered popcorn (gf)",
+      "name": "salted caramel (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2153,7 +2126,16 @@ var catalog_raw=[
     {
      "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
      "modifier_data": {
-      "name": "chocolate + popcorn TWIST (gf)",
+      "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "LP5OMWIJGRSMTG5R4PHL76NZ",
+     "modifier_data": {
+      "name": "caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2965,7 +2947,7 @@ var catalog_raw=[
     {
      "id": "BPRWBMW224HR2AZXDLOCY4BY",
      "modifier_data": {
-      "name": "golden milk (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2974,7 +2956,16 @@ var catalog_raw=[
     {
      "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
      "modifier_data": {
-      "name": "mandarin orange sorbet (v) (gf)",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "DUB4AURZKRG3V5OQYDUZLBWA",
+     "modifier_data": {
+      "name": "vanilla + chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2983,7 +2974,52 @@ var catalog_raw=[
     {
      "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
      "modifier_data": {
-      "name": "buttered popcorn (gf)",
+      "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "TGZL3LBAMBVGJ6IGUX4GBJQ3",
+     "modifier_data": {
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "QDS4BVYOJQQA74AIWLWMZTKE",
+     "modifier_data": {
+      "name": "lemon + cream cheese TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UHPUR2TT6V4NJSYGLMZ4NO62",
+     "modifier_data": {
+      "name": "salted caramel (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
+     "modifier_data": {
+      "name": "dark chocolate (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "3VYA35RMUC3TVOIWBKSQV6EX",
+     "modifier_data": {
+      "name": "caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4460,7 +4496,7 @@ var catalog_raw=[
  {
   "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
   "modifier_data": {
-   "name": "candied walnuts (v) (gf)",
+   "name": "red velvet cake bits",
    "price_money": {
     "amount": 75
    }
@@ -5229,7 +5265,7 @@ var catalog_raw=[
  {
   "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
   "modifier_data": {
-   "name": "mandarin orange sorbet (v) (gf)",
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
    }
@@ -5238,7 +5274,7 @@ var catalog_raw=[
  {
   "id": "YM5LHKOJ2Y57PSH7Y2IIE7TX",
   "modifier_data": {
-   "name": "mandarin orange sorbet (v) (gf)",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5247,7 +5283,7 @@ var catalog_raw=[
  {
   "id": "55RLPHUM4436C45O7GC4K66K",
   "modifier_data": {
-   "name": "vanilla + mandarin TWIST (v) (gf)",
+   "name": "vanilla + chocolate TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -5256,7 +5292,7 @@ var catalog_raw=[
  {
   "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
   "modifier_data": {
-   "name": "house-made fudge sauce (gf)",
+   "name": "cream cheese frosting (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5866,7 +5902,7 @@ var catalog_raw=[
  {
   "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
   "modifier_data": {
-   "name": "whipped cream (gf)",
+   "name": "roasted white chocolate bits (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5875,7 +5911,7 @@ var catalog_raw=[
  {
   "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
   "modifier_data": {
-   "name": "salted caramel (gf)",
+   "name": "house-made candy hearts (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5884,7 +5920,7 @@ var catalog_raw=[
  {
   "id": "62NPDWQFYWUSVSQ426GQVQH5",
   "modifier_data": {
-   "name": "olive oil powder (v) (gf)",
+   "name": "cornmeal cake (v)",
    "price_money": {
     "amount": 75
    }
@@ -6940,7 +6976,7 @@ var catalog_raw=[
  {
   "id": "YMAKJVYNC2OCE5SWSMKACT6Z",
   "modifier_data": {
-   "name": "rainbow sprinks (gf)",
+   "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8215,7 +8251,7 @@ var catalog_raw=[
  {
   "id": "QHQGX2J6OIEJRJY3IEXFT32P",
   "modifier_data": {
-   "name": "vegan meringue bits (v) (gf)",
+   "name": "berry compote (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8224,7 +8260,7 @@ var catalog_raw=[
  {
   "id": "YDBT75DFNUP4DCIW3WIK7XDB",
   "modifier_data": {
-   "name": "caramel corn (gf)",
+   "name": "whipped coconut cream (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8233,7 +8269,7 @@ var catalog_raw=[
  {
   "id": "PH5BC2PHXTIADHEBQWDQLY36",
   "modifier_data": {
-   "name": "cheese puffs (gf)",
+   "name": "graham cracker crumble",
    "price_money": {
     "amount": 75
    }
@@ -8242,34 +8278,7 @@ var catalog_raw=[
  {
   "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
   "modifier_data": {
-   "name": "cheddar cheese powder (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "CWLHML6WPKNCTJZFH2THN2WN",
-  "modifier_data": {
-   "name": "concord grape jelly (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "JZO77DB7PFYWZAIY6FKBB55Q",
-  "modifier_data": {
-   "name": "peanut butter ganache",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "YFAYKTXESYFSYCQ2LOL3COCX",
-  "modifier_data": {
-   "name": "saltine cracker crumble",
+   "name": "honeycomb candy (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8413,7 +8422,7 @@ var catalog_raw=[
  {
   "id": "BPRWBMW224HR2AZXDLOCY4BY",
   "modifier_data": {
-   "name": "golden milk (gf)",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8556,7 +8565,7 @@ var catalog_raw=[
  {
   "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
   "modifier_data": {
-   "name": "milk chocolate (gf)",
+   "name": "cream cheese (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8565,7 +8574,7 @@ var catalog_raw=[
  {
   "id": "SDICO7ZEQQSTJCBI5LQC5O3B",
   "modifier_data": {
-   "name": "saltine",
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8574,7 +8583,7 @@ var catalog_raw=[
  {
   "id": "XWA6LXGQQREF4HYF2UEGWCBB",
   "modifier_data": {
-   "name": "saltine + golden milk TWIST",
+   "name": "lemon + cream cheese TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8583,7 +8592,7 @@ var catalog_raw=[
  {
   "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
   "modifier_data": {
-   "name": "golden milk (gf)",
+   "name": "lemon sorbet (v)  (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8601,7 +8610,7 @@ var catalog_raw=[
  {
   "id": "456OM2ASY6N7WAJ3MT2W4SZB",
   "modifier_data": {
-   "name": "buttered popcorn (gf)",
+   "name": "salted caramel (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8610,7 +8619,7 @@ var catalog_raw=[
  {
   "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
   "modifier_data": {
-   "name": "chocolate + popcorn TWIST (gf)",
+   "name": "dark chocolate sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8619,7 +8628,7 @@ var catalog_raw=[
  {
   "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
   "modifier_data": {
-   "name": "buttered popcorn (gf)",
+   "name": "lemon sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8628,7 +8637,7 @@ var catalog_raw=[
  {
   "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
   "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
+   "name": "select your soft serve",
    "price_money": {
     "amount": 0
    }
@@ -8811,6 +8820,69 @@ var catalog_raw=[
    "name": "raspberry + vegan vanilla TWIST (v) (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "TGZL3LBAMBVGJ6IGUX4GBJQ3",
+  "modifier_data": {
+   "name": "cream cheese (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UHPUR2TT6V4NJSYGLMZ4NO62",
+  "modifier_data": {
+   "name": "salted caramel (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
+  "modifier_data": {
+   "name": "dark chocolate (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DUB4AURZKRG3V5OQYDUZLBWA",
+  "modifier_data": {
+   "name": "vanilla + chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "QDS4BVYOJQQA74AIWLWMZTKE",
+  "modifier_data": {
+   "name": "lemon + cream cheese TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "3VYA35RMUC3TVOIWBKSQV6EX",
+  "modifier_data": {
+   "name": "caramel + dark chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "LP5OMWIJGRSMTG5R4PHL76NZ",
+  "modifier_data": {
+   "name": "caramel + dark chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
