@@ -7261,14 +7261,6 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "XHH56RJAUEPTN56J6TVROHUV"
- },
- {
-  "id": "XHH56RJAUEPTN56J6TVROHUV",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a2ddfce9d3b5e78ef8aa61141dc2235e904bd683/original.jpeg"
   }
  },
  {
@@ -8779,13 +8771,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NTCG24H2X5DP4V44YTX3OTUM",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a2ddfce9d3b5e78ef8aa61141dc2235e904bd683/original.jpeg"
-  }
- },
- {
   "id": "HQC72OAPXAXQVFI653VOAVAN",
   "type": "ITEM",
   "item_data": {
@@ -8864,7 +8849,7 @@ var catalog_raw=[
     }
    ]
   },
-  "image_id": "NTCG24H2X5DP4V44YTX3OTUM"
+  "image_id": "FLJ2RQP3KWKTSX24VLZLXTQR"
  },
  {
   "id": "ZYU6EPD63WIR5N5D2MPLPTAL",
@@ -8904,6 +8889,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "FLJ2RQP3KWKTSX24VLZLXTQR",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/405425f344608ccd05e44bcb059f1d1391874a1d/original.jpeg"
   }
  }
 ]
