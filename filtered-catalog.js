@@ -1790,7 +1790,7 @@ var catalog_raw=[
   "id": "XQ7YWZMDYB5FWTGJDF74YOYF",
   "type": "ITEM",
   "item_data": {
-   "name": "vanilla bean latte",
+   "name": "salted caramel latte",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
@@ -1813,7 +1813,7 @@ var catalog_raw=[
       "item_id": "XQ7YWZMDYB5FWTGJDF74YOYF",
       "name": "12 oz",
       "price_money": {
-       "amount": 500
+       "amount": 600
       }
      }
     }
@@ -6188,7 +6188,7 @@ var catalog_raw=[
   "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
   "type": "ITEM",
   "item_data": {
-   "name": "by my hotty toddy",
+   "name": "be my hotty toddy",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
