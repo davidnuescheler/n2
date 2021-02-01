@@ -8920,7 +8920,7 @@ var catalog_raw=[
       "item_id": "2IGUHEYFY5XTFJIEMGUCBRIA",
       "name": "FRIDAY 2/12 pick up",
       "price_money": {
-       "amount": 9000
+       "amount": 10000
       }
      }
     },
@@ -8930,7 +8930,7 @@ var catalog_raw=[
       "item_id": "2IGUHEYFY5XTFJIEMGUCBRIA",
       "name": "SATURDAY 2/13 pick up",
       "price_money": {
-       "amount": 9000
+       "amount": 10000
       }
      }
     },
@@ -8940,7 +8940,7 @@ var catalog_raw=[
       "item_id": "2IGUHEYFY5XTFJIEMGUCBRIA",
       "name": "SUNDAY 2/14 pick up",
       "price_money": {
-       "amount": 9000
+       "amount": 10000
       }
      }
     }
