@@ -60,7 +60,7 @@ var catalog_raw=[
     {
      "id": "DSXPCLH47QHLKQ644PWDHIKJ",
      "modifier_data": {
-      "name": "pomegranate NORMAL dots! (v) (gf)",
+      "name": "cream cheese NORMAL dots! (gf)",
       "price_money": {
        "amount": 150
       }
@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
-      "name": "brownie crumble (v)",
+      "name": "dark chocolate NORMAL dots! (v) ",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "DXT3HMOZHHE366QHHE2QQQLW",
      "modifier_data": {
-      "name": "cookie butter (v)",
+      "name": "strawberry shortbread crumb",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +87,7 @@ var catalog_raw=[
     {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "toasted coconut (v) (gf)",
+      "name": "white chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +96,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "house-made mochi (v) (gf)",
+      "name": "butter cake ",
       "price_money": {
        "amount": 75
       }
@@ -105,7 +105,7 @@ var catalog_raw=[
     {
      "id": "JEC2NU57MRPFUBQNRUTACTYW",
      "modifier_data": {
-      "name": "blueberry compote (v) (gf)",
+      "name": "dried coconut (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -114,7 +114,7 @@ var catalog_raw=[
     {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
-      "name": "candied cocoa nib (v) (gf)",
+      "name": "vegan brownie bits (v)",
       "price_money": {
        "amount": 75
       }
@@ -123,25 +123,7 @@ var catalog_raw=[
     {
      "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
      "modifier_data": {
-      "name": "chocolate shortbread crumb",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "5UPKE32GPVVD7JG53RQE4PXK",
-     "modifier_data": {
-      "name": "milk chocolate ganache (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "SNS5BH2VZPMNSB7KBATZ6WZO",
-     "modifier_data": {
-      "name": "cookie dough bits (v)",
+      "name": "vegan salted caramel (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -3392,7 +3374,7 @@ var catalog_raw=[
     {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
-      "name": "acai sorbet (v) (gf)",
+      "name": "strawberry milk (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3401,7 +3383,16 @@ var catalog_raw=[
     {
      "id": "UOPYHIT3MNT2ODKVSMBQXT74",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "brownie batter (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
+     "modifier_data": {
+      "name": "strawberry milk + brownie batter TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3410,7 +3401,7 @@ var catalog_raw=[
     {
      "id": "B34QGIFYQGCIGY757ET5SICH",
      "modifier_data": {
-      "name": "ube (gf)",
+      "name": "vegan vanilla (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3419,7 +3410,16 @@ var catalog_raw=[
     {
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
-      "name": "salted vanilla bean + ube TWIST (gf)",
+      "name": "raspberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
+     "modifier_data": {
+      "name": "raspberry + vegan vanilla TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4443,7 +4443,7 @@ var catalog_raw=[
     {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
-      "name": "açaí sorbet (v) (gf)",
+      "name": "strawberry milk (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4452,7 +4452,7 @@ var catalog_raw=[
     {
      "id": "HSVRY3S35OCPLYE35LIRLOBF",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "brownie batter (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4461,7 +4461,34 @@ var catalog_raw=[
     {
      "id": "UIUUY3EADX5IOB3N6AI4PRKK",
      "modifier_data": {
-      "name": "salted vanilla bean + ube TWIST (gf)",
+      "name": "strawberry milk + brownie batter TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
+     "modifier_data": {
+      "name": "raspberry (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
+     "modifier_data": {
+      "name": "vegan vanilla (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
+     "modifier_data": {
+      "name": "raspberry + vegan vanilla TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4482,7 +4509,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "açaí sorbet (v) (gf)",
+   "name": "strawberry milk (gf)",
    "price_money": {
     "amount": 300
    }
@@ -4986,7 +5013,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "pomegranate NORMAL dots! (v) (gf)",
+   "name": "cream cheese NORMAL dots! (gf)",
    "price_money": {
     "amount": 150
    }
@@ -5610,7 +5637,7 @@ var catalog_raw=[
  {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
-   "name": "acai sorbet (v) (gf)",
+   "name": "strawberry milk (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6055,7 +6082,7 @@ var catalog_raw=[
  {
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
-   "name": "brownie crumble (v)",
+   "name": "dark chocolate NORMAL dots! (v) ",
    "price_money": {
     "amount": 75
    }
@@ -6064,7 +6091,7 @@ var catalog_raw=[
  {
   "id": "DXT3HMOZHHE366QHHE2QQQLW",
   "modifier_data": {
-   "name": "cookie butter (v)",
+   "name": "strawberry shortbread crumb",
    "price_money": {
     "amount": 75
    }
@@ -6297,7 +6324,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "toasted coconut (v) (gf)",
+   "name": "white chocolate ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6340,7 +6367,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "house-made mochi (v) (gf)",
+   "name": "butter cake ",
    "price_money": {
     "amount": 75
    }
@@ -6349,7 +6376,7 @@ var catalog_raw=[
  {
   "id": "JEC2NU57MRPFUBQNRUTACTYW",
   "modifier_data": {
-   "name": "blueberry compote (v) (gf)",
+   "name": "dried coconut (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7102,7 +7129,7 @@ var catalog_raw=[
  {
   "id": "3Q6URIRINEWANFVWRLKV24CB",
   "modifier_data": {
-   "name": "candied cocoa nib (v) (gf)",
+   "name": "vegan brownie bits (v)",
    "price_money": {
     "amount": 75
    }
@@ -7188,7 +7215,7 @@ var catalog_raw=[
  {
   "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
   "modifier_data": {
-   "name": "chocolate shortbread crumb",
+   "name": "vegan salted caramel (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8411,15 +8438,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5UPKE32GPVVD7JG53RQE4PXK",
-  "modifier_data": {
-   "name": "milk chocolate ganache (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
   "modifier_data": {
    "name": "fruity pebbles (v) (gf)",
@@ -8806,15 +8824,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "SNS5BH2VZPMNSB7KBATZ6WZO",
-  "modifier_data": {
-   "name": "cookie dough bits (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "CXIF33NKLGJ3PINLKGR4NCPX",
   "modifier_data": {
    "name": "GUATEMALA juan francisco pira",
@@ -8952,7 +8961,7 @@ var catalog_raw=[
  {
   "id": "HSVRY3S35OCPLYE35LIRLOBF",
   "modifier_data": {
-   "name": "salted vanilla bean (gf)",
+   "name": "brownie batter (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8961,7 +8970,7 @@ var catalog_raw=[
  {
   "id": "UOPYHIT3MNT2ODKVSMBQXT74",
   "modifier_data": {
-   "name": "salted vanilla bean (gf)",
+   "name": "brownie batter (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8970,7 +8979,7 @@ var catalog_raw=[
  {
   "id": "B34QGIFYQGCIGY757ET5SICH",
   "modifier_data": {
-   "name": "ube (gf)",
+   "name": "vegan vanilla (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8979,7 +8988,7 @@ var catalog_raw=[
  {
   "id": "UIUUY3EADX5IOB3N6AI4PRKK",
   "modifier_data": {
-   "name": "salted vanilla bean + ube TWIST (gf)",
+   "name": "strawberry milk + brownie batter TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8988,9 +8997,54 @@ var catalog_raw=[
  {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
-   "name": "salted vanilla bean + ube TWIST (gf)",
+   "name": "raspberry (v) (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
+  "modifier_data": {
+   "name": "strawberry milk + brownie batter TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
+  "modifier_data": {
+   "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
+  "modifier_data": {
+   "name": "raspberry (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
+  "modifier_data": {
+   "name": "vegan vanilla (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
+  "modifier_data": {
+   "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
