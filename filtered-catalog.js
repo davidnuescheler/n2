@@ -6188,7 +6188,7 @@ var catalog_raw=[
   "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
   "type": "ITEM",
   "item_data": {
-   "name": "house wassail",
+   "name": "by my hotty toddy",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
