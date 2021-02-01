@@ -4435,7 +4435,7 @@ var catalog_raw=[
      "id": "P6IK37XKDEV43DLRC2HAEWCL",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "golden milk (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4452,10 +4452,20 @@ var catalog_raw=[
      }
     },
     {
+     "id": "HA3HGGG53XFNNXJS4FFFEUFJ",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean  + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "buttered popcorn (gf)",
+      "name": "lemon sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4465,7 +4475,17 @@ var catalog_raw=[
      "id": "KLSWGUKHIIEKFIIRTMFVZMN5",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + popcorn TWIST (gf)",
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RP5UTQ5RPCB22IQ7FEYNPYMN",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "lemon sorbet + cream cheese TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4475,7 +4495,27 @@ var catalog_raw=[
      "id": "UPB26OHYK2AP5WEW5QFDVQDN",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "mandarin orange sorbet (v) (gf)",
+      "name": "salted caramel (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "U7XMQQR6TZ677KGHGF6ZTMXV",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted caramel + dark chocolate sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
