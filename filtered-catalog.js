@@ -1920,6 +1920,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
+    },
+    {
+     "modifier_list_id": "QBORXUXL2PMWWNVSL2M5AHBY"
     }
    ],
    "variations": [
@@ -5386,6 +5389,15 @@ var catalog_raw=[
   "modifier_list_data": {
    "name": "hot chocolate topping",
    "modifiers": [
+    {
+     "id": "RYKQCU55FKOML2ZQEVBIYWBB",
+     "modifier_data": {
+      "name": "toasted mallow fluff",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
     {
      "id": "N5WQRIYMZQ4IG5TJ4A3XCZI7",
      "modifier_data": {
@@ -9048,6 +9060,15 @@ var catalog_raw=[
    "name": "vanilla latte!",
    "price_money": {
     "amount": 50
+   }
+  }
+ },
+ {
+  "id": "RYKQCU55FKOML2ZQEVBIYWBB",
+  "modifier_data": {
+   "name": "toasted mallow fluff",
+   "price_money": {
+    "amount": 0
    }
   }
  }
