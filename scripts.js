@@ -1258,6 +1258,27 @@ function setDeliveryDate(date) {
     };
 }
 
+function setDeliveryFee(tier) {
+    switch (tier) {
+        case 0: // free delivery on orders over cap
+            cart.addShipping("GTMQCMXMAHX4X6NFKDX5AYQC");
+            break;
+        case 1:
+            cart.addShipping("KXH64DXKRNXLGJXF4VHQNUGK");
+            break;
+        case 2:
+            cart.addShipping("IV37HQ6227WQAOS3HOCNTPXN");
+            break;
+        case 3: 
+            cart.addShipping("P2WZUWA7HTJ7G76QTKJ27Y5V");
+            break;
+        default:
+            cart.addShipping("KXH64DXKRNXLGJXF4VHQNUGK");
+            break;
+    }
+    updateCart();
+}
+
 async function checkDateStock(date) {
     await getDeliveryCount();
     const thisDate = date.toUpperCase();
@@ -1274,16 +1295,36 @@ async function checkDateStock(date) {
         // prevent order submission
         $cartEl.querySelector("#orderBtn").disabled = true;
         $cartEl.querySelector("#orderBtn").classList.add("hidden");
-    } else {
-        // open order submission back
-        $cartEl.querySelector(".deliverycap").classList.add("hidden");
-        $cartEl.querySelector("#orderBtn").disabled = false;
-        $cartEl.querySelector("#orderBtn").classList.remove("hidden");
-    }
+    } 
+    // else {
+    //     // open order submission back IF MIN ORDER IS MET AS WELL
+    //     // convert dollar amount from google sheet to cents for comparison 
+    //     const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+    //     if ( cart.totalAmount() > minOrder) {
+    //         $cartEl.querySelector(".deliverycap").classList.add("hidden");
+    //         $cartEl.querySelector("#orderBtn").disabled = false;
+    //         $cartEl.querySelector("#orderBtn").classList.remove("hidden");
+    //     }
+    // }
     
 }
+// debounce from underscore.js
+function debounce(func, wait, immediate) {
+    let timeout;
+    return function() {
+        const context = this, args = arguments;
+        const later = function() {
+            timeout = null;
+            if (!immediate) { func.apply(context, args) };
+        }
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) { func.apply(context, args) };
+    }
+}
 
-function updateAfterZip() {
+const updateAfterZip = debounce(function() {
     const $zipSelect = document.getElementById("delivery-zip");
     const zipValue = parseInt($zipSelect.value);
     const match = window.deliveryZips.find((zip) => {
@@ -1294,7 +1335,27 @@ function updateAfterZip() {
     setZipColor($zipSelect);
     setCity(match.city);
     setDeliveryDate(match.date);
+    checkDeliveryFee();
+    
+    // check if zip is set and available
     checkDateStock(match.date);
+}, 500); // half-second delay
+
+function checkDeliveryFee() {
+    const $zipSelect = document.getElementById("delivery-zip");
+    const zipValue = parseInt($zipSelect.value);
+    const match = window.deliveryZips.find((zip) => {
+        return zip.zip === zipValue;
+    });
+    // convert dollar amount from google sheet to cents for comparison 
+    const minOrder = parseInt(window.labels.delivery_free) * 100;
+    const deliveryTotal = cart.totalAmount() - cart.shipping_item.price || cart.totalAmount();
+    
+    if (deliveryTotal < minOrder) {
+        setDeliveryFee(match["shipping tier"]);
+    } else {
+        setDeliveryFee(0);
+    }
 }
 
 function displayToolTip(el) {
@@ -1509,7 +1570,7 @@ function initGiftCardForm() {
                 //   console.log(data);
                 var obj = JSON.parse(data);
                 if (typeof obj.errors != "undefined") {
-                  console.log(obj.payment);
+                //   console.log(obj.payment);
                   var message =
                     "Payment failed to complete!\nCheck browser developer console for more details";
 
@@ -1700,11 +1761,6 @@ async function submitOrder() {
     } else if (orderParams.pickup_at === "delivery") {
         delete orderParams.pickup_at; // remove pickup from delivery orders
         orderParams.email_address = document.getElementById("email").value;
-        
-        // auto-add shipping to delivery orders
-        if (!cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
-            cart.add("GTMQCMXMAHX4X6NFKDX5AYQC");
-        }
 
         const deliveryDate = document.getElementById("delivery-date").getAttribute("data-date");
         orderParams.deliver_at = new Date(deliveryDate).toISOString();
@@ -1754,6 +1810,7 @@ async function submitOrder() {
     localStorage.setItem("name",orderParams.display_name);
     localStorage.setItem("cell",orderParams.cell);
     localStorage.setItem("address",orderParams.address);
+    localStorage.setItem("email",orderParams.email_address);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
     cartEl.querySelector(".checkoutitems").classList.add("hidden");
@@ -1785,18 +1842,23 @@ async function submitOrder() {
         // console.log(`submitOrder -> li`, li);
         var mods=[];
         li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
-        var line_item={
+        var line_item = {
             "catalog_object_id": li.variation,
-            "quantity": ""+li.quantity };
-
+            "quantity": ""+li.quantity 
+        };    
         if (mods.length) {
             line_item.modifiers=mods;
         }
         orderParams.line_items.push(line_item);       
     });
 
-    // console.log ("order: "+JSON.stringify(orderParams));
-
+    if (storeLocation === "delivery") {
+        orderParams.line_items.push({
+            "catalog_object_id": cart.shipping_item.variation,
+            "quantity": ""  + cart.shipping_item.quantity
+        });
+    }
+        
     var qs="";
     for (var a in orderParams) {
         if (a=="line_items") {
@@ -1848,27 +1910,23 @@ function displayOrder(o) {
     html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
         // print shipping line item differently
-        if (li.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC" || li.name === "shipping + handling") { return; }
-        html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
-        if (typeof li.modifiers !== "undefined") {
-            li.modifiers.forEach((mod) => {
-                html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
-            })
+        if (deliveryIds.includes(li.catalog_object_id)) { 
+            html += `<div class="line shipping"><span class="desc">${li.name}</span><span class="amount">$${formatMoney(li.base_price_money.amount * li.quantity)}</span></div>`
+        } else {
+            html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
+            if (typeof li.modifiers !== "undefined") {
+                li.modifiers.forEach((mod) => {
+                    html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
+                })
+            }
         }
     });
     if (order.discounts) {
         html+=`<div class="line discounts"><span class="desc">${order.discounts[0].name} - discount</span><span class="amount">- $${formatMoney(order.discounts[0].applied_money.amount)}</span></div>`;
     }
+
     html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
     html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
-    
-    // if cart includes delivery fee...
-    if (cart.line_items.some(item => item.variation === 'GTMQCMXMAHX4X6NFKDX5AYQC')) {
-        var shipping = order.line_items.filter(item => item.catalog_object_id === "GTMQCMXMAHX4X6NFKDX5AYQC")[0];
-        // console.log(shipping);
-        html+=`<div class="line shipping"><span class="desc">${shipping.name} (${shipping.variation_name})</span><span class="amount">$${formatMoney(shipping.base_price_money.amount*shipping.quantity)}</span></div>`
-    }
-
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
@@ -2055,8 +2113,8 @@ function initCart() {
                     <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
-                <div class="warning hidden minorder">
-                    <p>${labels.checkout_minorder}${labels.delivery_minorder}.</p>
+                <div class="warning hidden freedelivery">
+                    <p>${labels.checkout_minorder}${labels.delivery_free}.</p>
                 </div>
                 <div class="warning hidden deliverycap">
                     <p>${labels.delivery_ordercap}</p>
@@ -2142,10 +2200,9 @@ function initCart() {
         // console.log('migrating cell to ls')
     }
 
-    
-
     document.getElementById("name").value=localStorage.getItem("name");
     document.getElementById("cell").value=localStorage.getItem("cell");
+    document.getElementById("email").value=localStorage.getItem("email");
 
 }
 
@@ -2155,6 +2212,9 @@ function plus(el) {
   if (li.quantity<20) {
       cart.setQuantity(fp, li.quantity+1);
   }
+  if (storeLocation === "delivery") {
+    checkDeliveryFee();
+  }
   updateCart();
 }
 
@@ -2162,7 +2222,10 @@ function minus (el) {
     var fp=el.parentNode.parentNode.getAttribute("data-id");
     var li=cart.line_items.find((li) => fp == li.fp);
     cart.setQuantity(fp, li.quantity-1);
-    if (li.quantity==0) cart.remove(fp);   
+    if (li.quantity==0) cart.remove(fp);  
+    if (storeLocation === "delivery") {
+        checkDeliveryFee();
+    } 
     updateCart();
 }
 
@@ -2182,24 +2245,34 @@ function updateCart() {
 
     // check delivery cart
     if (storeLocation === "delivery") {
+        const $zipSelect = document.getElementById("delivery-zip");
+        const zipValue = parseInt($zipSelect.value);
+        let match;
+        
         // convert dollar amount from google sheet to cents for comparison 
-        const minOrder = parseInt(window.labels.delivery_minorder) * 100;
+        const minOrder = parseInt(window.labels.delivery_free) * 100;
         // check if zip is set and available
         const deliveryDate = cartEl.querySelector("#delivery-date").value;
-        // console.log(`updateCart -> deliveryDate`, deliveryDate);
-        if (cart.totalAmount() < minOrder || deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
+        if (!zipValue) {
+            // if zip has not been selected yet
+        } else if ((cart.totalAmount() - cart.shipping_item.price) < minOrder) {
+            match = window.deliveryZips.find((zip) => {
+                return zip.zip === zipValue;
+            });
+            cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
+            cartEl.querySelector(".freedelivery").classList.remove("hidden");
+            cartEl.querySelector(".freedelivery").textContent += ` you're $${(minOrder - (cart.totalAmount() - cart.shipping_item.price))/100} away!`;
+        } else {
+            cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
+            cartEl.querySelector(".freedelivery").classList.add("hidden");
+        }
+        if (deliveryDate.includes("SOLD OUT") || deliveryDate.includes("select your zip")) { 
             cartEl.querySelector("#orderBtn").disabled = true;
             cartEl.querySelector("#orderBtn").classList.add("hidden");
         } else {
             cartEl.querySelector("#orderBtn").disabled = false;
             cartEl.querySelector("#orderBtn").classList.remove("hidden");
         };
-        
-        if (cart.totalAmount() < minOrder) {
-            cartEl.querySelector(".minorder").classList.remove("hidden");
-        } else {
-            cartEl.querySelector(".minorder").classList.add("hidden");
-        }
     }
 
     var summaryEl=cartEl.querySelector(".summary");
@@ -2219,15 +2292,13 @@ function updateCart() {
     var html=``;
     
     cart.line_items.forEach((li) => {
-        // console.log(`updateCart -> li`, li);
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
         if (i.item_data.name == 'lab cone' && li.quantity > 0) cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        // don't display shipping here
-        if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
+        if (li.quantity > 0) {
             html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
@@ -2246,6 +2317,31 @@ function updateCart() {
         }
         
     })
+
+    if (storeLocation === "delivery") {
+        const shipping = cart.shipping_item;
+        const validShipping = Object.entries(shipping).length;
+        // display shipping info at the bottom of the cart
+        let shippingLi;
+        if (validShipping) {
+            const v = catalog.byId[shipping.variation];
+            const i = catalog.byId[v.item_variation_data.item_id];
+            const zip = document.getElementById("delivery-zip").value;
+
+            if (shipping.fp === "GTMQCMXMAHX4X6NFKDX5AYQC") {
+                // convert dollar amount from google sheet to cents for comparison 
+                const minOrder = parseInt(window.labels.delivery_free) * 100;
+                shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip} on orders over $${formatMoney(minOrder)})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+            } else {
+                shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+            }
+
+            // shippingLi = `<div class="line shipping"><span class="desc">${i.item_data.name} (to ${zip})</span><span class="amount">$${formatMoney(v.item_variation_data.price_money.amount)}</span></div>`
+        } else {
+            shippingLi = `<div class="line shipping"><span class="desc">shipping + handling</span><span class="amount">(calculated after you select your zip)</span></div>`
+        }
+        html += shippingLi;
+    }
 
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
     
@@ -2485,9 +2581,11 @@ function makeShoppable() {
         }
     })
 }
+const deliveryIds = ["GTMQCMXMAHX4X6NFKDX5AYQC", "KXH64DXKRNXLGJXF4VHQNUGK", "IV37HQ6227WQAOS3HOCNTPXN", "P2WZUWA7HTJ7G76QTKJ27Y5V"];
 
 var cart={
     line_items: [],
+    shipping_item: {},
     remove: (fp) => {
         var index=cart.line_items.findIndex((li) => fp == li.fp);
         cart.line_items.splice(index, 1);
@@ -2505,7 +2603,11 @@ var cart={
             cart.line_items.push({fp: fp, variation: variation, mods: mods, quantity: 1, price:  price})
         }
         cart.store();
-
+    },
+    addShipping: (variation) => {
+        var fp = variation;
+        var price = catalog.byId[variation].item_variation_data.price_money.amount;
+        cart.shipping_item = {fp: fp, variation: variation, mods: [], quantity: 1, price: price};
     },
     find: (variation, mods) => {
         var fp=variation;
@@ -2524,27 +2626,30 @@ var cart={
                 total+=li.price*li.quantity
             }
         })
+        // add shipping to total on delivery orders
+        if (storeLocation === "delivery" && cart.shipping_item.price) {
+            total += cart.shipping_item.price;
+        }
         return (total);
     },
     totalItems: () => {
         var total=0;
         cart.line_items.forEach((li)=>{ 
-            // don't count out-of-stock or shipping
-            if (li.quantity > 0 && li.variation !== "GTMQCMXMAHX4X6NFKDX5AYQC") {
-                total+=li.quantity
-            }
+            // don't count out-of-stock
+            if (li.quantity) {
+                total += li.quantity
+            } 
         })
         return (total);
     },
     clear: () => {
         cart.line_items=[];
+        cart.shipping_item={};
         cart.store();
     },
-
     store: () => {
         localStorage.setItem("cart-"+storeLocation,JSON.stringify({lastUpdate: new Date(), line_items: cart.line_items}));
     },
-
     load: () => {
         var cartobj=JSON.parse(localStorage.getItem("cart-"+storeLocation));
         cart.line_items=[];
@@ -2745,8 +2850,6 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     insertSignupForm();
     cart.load();
     updateCart();
-
-    // setDeliveryDates();
     setEmbedVideo();
 });
 
