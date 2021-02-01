@@ -9005,5 +9005,50 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "QBORXUXL2PMWWNVSL2M5AHBY",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "make is sweet",
+   "modifiers": [
+    {
+     "id": "336TWQ2Q2X4VU6GCE253GMAO",
+     "modifier_data": {
+      "name": "make it a ...",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "OWPDBOYZMX4F7LRSR3JGGHDK",
+     "modifier_data": {
+      "name": "vanilla latte!",
+      "price_money": {
+       "amount": 50
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "336TWQ2Q2X4VU6GCE253GMAO",
+  "modifier_data": {
+   "name": "make it a ...",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "OWPDBOYZMX4F7LRSR3JGGHDK",
+  "modifier_data": {
+   "name": "vanilla latte!",
+   "price_money": {
+    "amount": 50
+   }
+  }
  }
 ]
