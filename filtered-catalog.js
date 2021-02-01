@@ -96,7 +96,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "butter cake",
+      "name": "butter cake (v)",
       "price_money": {
        "amount": 75
       }
@@ -6178,7 +6178,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "butter cake",
+   "name": "butter cake (v)",
    "price_money": {
     "amount": 75
    }
