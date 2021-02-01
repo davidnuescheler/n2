@@ -2261,7 +2261,7 @@ function updateCart() {
             });
             cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
             cartEl.querySelector(".freedelivery").classList.remove("hidden");
-            cartEl.querySelector(".freedelivery").textContent += ` you're $${(minOrder - cart.totalAmount())/100} away!`;
+            cartEl.querySelector(".freedelivery").textContent += ` you're $${(minOrder - (cart.totalAmount() - cart.shipping_item.price))/100} away!`;
         } else {
             cartEl.querySelector(".freedelivery").textContent = `${labels.checkout_minorder}${labels.delivery_free}.`;
             cartEl.querySelector(".freedelivery").classList.add("hidden");
