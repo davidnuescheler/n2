@@ -8890,7 +8890,7 @@ var catalog_raw=[
   "id": "RG2O42Y4U3CTMNR7JBETMHZI",
   "type": "ITEM",
   "item_data": {
-   "name": "vegan macaron sando box",
+   "name": "vegan macaron sando pack",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
