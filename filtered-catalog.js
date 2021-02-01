@@ -1920,9 +1920,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
-    },
-    {
-     "modifier_list_id": "QBORXUXL2PMWWNVSL2M5AHBY"
     }
    ],
    "variations": [
@@ -6202,11 +6199,6 @@ var catalog_raw=[
   "item_data": {
    "name": "be my hotty toddy",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
-    }
-   ],
    "variations": [
     {
      "id": "WP6ISBBCOZPLVQ7TNFVDHVCD",
@@ -9015,51 +9007,6 @@ var catalog_raw=[
    "name": "make it vegan!",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "QBORXUXL2PMWWNVSL2M5AHBY",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "make is sweet",
-   "modifiers": [
-    {
-     "id": "336TWQ2Q2X4VU6GCE253GMAO",
-     "modifier_data": {
-      "name": "make it a ...",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "OWPDBOYZMX4F7LRSR3JGGHDK",
-     "modifier_data": {
-      "name": "vanilla latte!",
-      "price_money": {
-       "amount": 50
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "336TWQ2Q2X4VU6GCE253GMAO",
-  "modifier_data": {
-   "name": "make it a ...",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "OWPDBOYZMX4F7LRSR3JGGHDK",
-  "modifier_data": {
-   "name": "vanilla latte!",
-   "price_money": {
-    "amount": 50
    }
   }
  },
