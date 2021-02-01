@@ -6793,6 +6793,36 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "2PQBUKVHUS2WECCXLQTG4D54",
+     "item_variation_data": {
+      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
+      "name": "nathalia maria - BRASIL",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "U2OVDTIL2PHIJO46MKRFD2LV",
+     "item_variation_data": {
+      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
+      "name": "kilenso - ETHIOPIA",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "M62UUPW622OILPAYRXMSLBMV",
+     "item_variation_data": {
+      "item_id": "522D5LT7HHGZRYDI5NM4FAVV",
+      "name": "juan francisco pira - GUATEMALA",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   },
