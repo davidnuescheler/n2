@@ -3417,24 +3417,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5GUN4J2A4GUVI7KGV5ZHH2FF",
-     "modifier_data": {
-      "name": "cookie butter (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "XA7HYOSE32YQE6NZKK4A3UMX",
-     "modifier_data": {
-      "name": "acai + cookie buttes TWIST (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UOPYHIT3MNT2ODKVSMBQXT74",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
@@ -4486,24 +4468,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ND2ANZ4IGURGP57GXAR3A5GF",
-     "modifier_data": {
-      "name": "cookie butter (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
-     "modifier_data": {
-      "name": "açaí + cookie butter TWIST (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "HSVRY3S35OCPLYE35LIRLOBF",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
@@ -4537,15 +4501,6 @@ var catalog_raw=[
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
    "name": "açaí sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "ND2ANZ4IGURGP57GXAR3A5GF",
-  "modifier_data": {
-   "name": "cookie butter (v)",
    "price_money": {
     "amount": 300
    }
@@ -5529,15 +5484,6 @@ var catalog_raw=[
    "name": "house-made fudge sauce (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "PNUUDEE7ZV2A6KGM5C4ZNWPM",
-  "modifier_data": {
-   "name": "açaí + cookie butter TWIST (v)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -8944,24 +8890,6 @@ var catalog_raw=[
   "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
   "modifier_data": {
    "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "5GUN4J2A4GUVI7KGV5ZHH2FF",
-  "modifier_data": {
-   "name": "cookie butter (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "XA7HYOSE32YQE6NZKK4A3UMX",
-  "modifier_data": {
-   "name": "acai + cookie buttes TWIST (v)",
    "price_money": {
     "amount": 0
    }
