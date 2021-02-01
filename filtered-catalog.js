@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "MSCCGZPDMED35KXS26XZKBMH",
      "modifier_data": {
-      "name": "dark chocolate NORMAL dots! (v) ",
+      "name": "dark chocolate NORMAL dots! (v)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +96,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "butter cake ",
+      "name": "butter cake",
       "price_money": {
        "amount": 75
       }
@@ -6082,7 +6082,7 @@ var catalog_raw=[
  {
   "id": "MSCCGZPDMED35KXS26XZKBMH",
   "modifier_data": {
-   "name": "dark chocolate NORMAL dots! (v) ",
+   "name": "dark chocolate NORMAL dots! (v)",
    "price_money": {
     "amount": 75
    }
@@ -6367,7 +6367,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "butter cake ",
+   "name": "butter cake",
    "price_money": {
     "amount": 75
    }
