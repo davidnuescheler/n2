@@ -5858,7 +5858,7 @@ var catalog_raw=[
   "id": "YFCEEKJDIK2VGMCJIN5D45NL",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "make it a mocha",
+   "name": "make it sweet",
    "modifiers": [
     {
      "id": "NLKKOTH4LYIU37MFWQP5WWMP",
@@ -5866,6 +5866,15 @@ var catalog_raw=[
       "name": "make it a ...",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MIOBAVYUK4ICRMOQGG77YHEQ",
+     "modifier_data": {
+      "name": "vanilla latte!",
+      "price_money": {
+       "amount": 100
       }
      }
     },
@@ -9051,6 +9060,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "MIOBAVYUK4ICRMOQGG77YHEQ",
+  "modifier_data": {
+   "name": "vanilla latte!",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
