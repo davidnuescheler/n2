@@ -2999,27 +2999,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
      "modifier_data": {
       "name": "buttered popcorn (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "UANGXGZPSEIFQR7MM2OFZMZE",
-     "modifier_data": {
-      "name": "chocolate + popcorn TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -8788,15 +8770,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6KOHG2PNPRB5UOEKRJ7HPM4E",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "FZBZ4C4A7UYDMDFZ2BJGUYCY",
   "modifier_data": {
    "name": "milk chocolate (gf)",
@@ -8872,15 +8845,6 @@ var catalog_raw=[
   "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
   "modifier_data": {
    "name": "buttered popcorn (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "UANGXGZPSEIFQR7MM2OFZMZE",
-  "modifier_data": {
-   "name": "chocolate + popcorn TWIST (gf)",
    "price_money": {
     "amount": 300
    }
