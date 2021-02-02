@@ -8990,7 +8990,7 @@ var catalog_raw=[
   "id": "2IGUHEYFY5XTFJIEMGUCBRIA",
   "type": "ITEM",
   "item_data": {
-   "name": "WHAT A NIGHT!",
+   "name": "LOCAL LOVE BOX",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "modifier_list_info": [
     {
