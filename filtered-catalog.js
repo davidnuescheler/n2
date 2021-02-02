@@ -6248,6 +6248,11 @@ var catalog_raw=[
   "item_data": {
    "name": "be my hotty toddy",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
+    }
+   ],
    "variations": [
     {
      "id": "WP6ISBBCOZPLVQ7TNFVDHVCD",
