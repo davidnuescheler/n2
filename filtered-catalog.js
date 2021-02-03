@@ -1459,6 +1459,36 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "NZWNHC6IENA3QM5N5GUAZ6IZ",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA kilenso",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "OH4O3T3YT46H5FYBUH44CHC4",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "GUATEMALA juan francisco pira",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "VDH6NQ5A3BFZOOAIGQV7NBRU",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "BRASIL nathalia maria",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
