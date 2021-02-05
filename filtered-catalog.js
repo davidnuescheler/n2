@@ -4201,6 +4201,51 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "6EBB5BWWDCO34J5V477FJ5XT",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
+     "modifier_data": {
+      "name": "salted caramel (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "3XXYSD6H2RRSNNBGX26SRCW5",
+     "modifier_data": {
+      "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "S7LMCA2GXYDV5XA42B2WMWOU",
+     "modifier_data": {
+      "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5FHYQ3WNRENHS5YOEIWGGHOK",
+     "modifier_data": {
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9217,6 +9262,51 @@ var catalog_raw=[
   "id": "2DNDFE2NNZFJYULLCJ4XWOZG",
   "modifier_data": {
    "name": "margherita",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "6EBB5BWWDCO34J5V477FJ5XT",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
+  "modifier_data": {
+   "name": "salted caramel (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "3XXYSD6H2RRSNNBGX26SRCW5",
+  "modifier_data": {
+   "name": "dark chocolate sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "S7LMCA2GXYDV5XA42B2WMWOU",
+  "modifier_data": {
+   "name": "lemon sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5FHYQ3WNRENHS5YOEIWGGHOK",
+  "modifier_data": {
+   "name": "cream cheese (gf)",
    "price_money": {
     "amount": 0
    }
