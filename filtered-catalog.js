@@ -7471,16 +7471,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "A5WSNUKKULPKYUVQ4DW6OGBR",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "tan + black \"normal®\"",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
      "id": "QIUM25EZNJFYV7CJHIPD4EX5",
      "item_variation_data": {
       "item_id": "QN7B324UVJPUUYIKP5HYM25C",
