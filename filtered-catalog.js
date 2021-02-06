@@ -4409,7 +4409,7 @@ var catalog_raw=[
     {
      "id": "K7DKNT3SLP454U263EM5XTFJ",
      "modifier_data": {
-      "name": "vegetarian",
+      "name": "vegan!",
       "price_money": {
        "amount": 0
       }
@@ -9242,7 +9242,7 @@ var catalog_raw=[
  {
   "id": "K7DKNT3SLP454U263EM5XTFJ",
   "modifier_data": {
-   "name": "vegetarian",
+   "name": "vegan!",
    "price_money": {
     "amount": 0
    }
