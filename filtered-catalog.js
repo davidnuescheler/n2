@@ -7068,15 +7068,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "CXIF33NKLGJ3PINLKGR4NCPX",
-     "modifier_data": {
-      "name": "GUATEMALA juan francisco pira",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -8638,15 +8629,6 @@ var catalog_raw=[
   "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
   "modifier_data": {
    "name": "lemon sorbet (v)  (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CXIF33NKLGJ3PINLKGR4NCPX",
-  "modifier_data": {
-   "name": "GUATEMALA juan francisco pira",
    "price_money": {
     "amount": 0
    }
