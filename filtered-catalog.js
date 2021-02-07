@@ -4658,7 +4658,7 @@ var catalog_raw=[
       "item_id": "STDRG3UHNP36OST6JYOIQM42",
       "name": "Regular",
       "price_money": {
-       "amount": 1000
+       "amount": 500
       }
      }
     }
@@ -9282,6 +9282,66 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "HIAVU3FTTACLM5NMIEXC5WCY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mandarin orange sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "GVBEZTKR32PNNF7AZQT7WY34",
+     "item_variation_data": {
+      "item_id": "HIAVU3FTTACLM5NMIEXC5WCY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZUGJFIUDJU6KDLKLG32G7L73",
+  "type": "ITEM",
+  "item_data": {
+   "name": "golden milk pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ID474ZAZC5YTVCOPMPCE5FJK",
+     "item_variation_data": {
+      "item_id": "ZUGJFIUDJU6KDLKLG32G7L73",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "HPWIKVJJCZZ2NGXNAAS6CGOZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "buttered popcorn pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "7JSCIRQ34DEA3NCODENEKUH3",
+     "item_variation_data": {
+      "item_id": "HPWIKVJJCZZ2NGXNAAS6CGOZ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
   }
  }
 ]
