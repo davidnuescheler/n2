@@ -9343,5 +9343,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "VLBJI4JHANG6NXOVUWYFZHM2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the valentine's bomb (delivery)",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "I77AEZD47NV3GLIBL56TFLC3",
+     "item_variation_data": {
+      "item_id": "VLBJI4JHANG6NXOVUWYFZHM2",
+      "name": "the valentine's bomb (delivery)",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
