@@ -2108,9 +2108,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "SDNMUIRKDV3SK6GIA4A7C4P6",
+     "modifier_data": {
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
      "modifier_data": {
       "name": "lemon sorbet (v)  (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "W7L3I7CP42U3DRT7LYL3YZFA",
+     "modifier_data": {
+      "name": "cream cheese + lemon sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2974,9 +2992,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "QC3X3R7N4KKTWDN2GYTBBTMK",
+     "modifier_data": {
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
      "modifier_data": {
       "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "OR7JYGQ5DJZX3SGL3GATIRQJ",
+     "modifier_data": {
+      "name": "cream cheese + lemon sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4509,10 +4545,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "JDKGNKIXVVG5HZ4QLOV4IAGY",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GOHUD6S5WWE234MITCX7DWN2",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cream cheese + lemon sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9250,6 +9306,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "QC3X3R7N4KKTWDN2GYTBBTMK",
+  "modifier_data": {
+   "name": "cream cheese (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OR7JYGQ5DJZX3SGL3GATIRQJ",
+  "modifier_data": {
+   "name": "cream cheese + lemon sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "SDNMUIRKDV3SK6GIA4A7C4P6",
+  "modifier_data": {
+   "name": "cream cheese (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "W7L3I7CP42U3DRT7LYL3YZFA",
+  "modifier_data": {
+   "name": "cream cheese + lemon sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
