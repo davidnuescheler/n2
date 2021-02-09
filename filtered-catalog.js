@@ -4149,54 +4149,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TXJL4JXXY7VMPEBSOWZHY7BP",
-     "modifier_data": {
-      "name": "golden milk ice cream (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VAF5U4XHG4CAV7EDN56I3YRX",
-     "modifier_data": {
-      "name": "saltine ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "OO4EVTKWAL25SI267E3HJI3M",
-     "modifier_data": {
-      "name": "mandarin orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "KJLEC7RLGO6LIQ6D6GEQSVI6",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "NC7M4J7SBDYXW6OLTS4Y2YSV",
      "modifier_data": {
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7BPNXOS7U7LVKCUNZD6Q47VX",
-     "modifier_data": {
-      "name": "buttered popcorn (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8671,54 +8626,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TXJL4JXXY7VMPEBSOWZHY7BP",
-  "modifier_data": {
-   "name": "golden milk ice cream (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VAF5U4XHG4CAV7EDN56I3YRX",
-  "modifier_data": {
-   "name": "saltine ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "OO4EVTKWAL25SI267E3HJI3M",
-  "modifier_data": {
-   "name": "mandarin orange sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "KJLEC7RLGO6LIQ6D6GEQSVI6",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "NC7M4J7SBDYXW6OLTS4Y2YSV",
   "modifier_data": {
    "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7BPNXOS7U7LVKCUNZD6Q47VX",
-  "modifier_data": {
-   "name": "buttered popcorn (gf)",
    "price_money": {
     "amount": 0
    }
