@@ -9329,5 +9329,65 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "7YPCNXGIPLFVBRL3MBZ3SLVF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lemon + ginger pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "TZ2OOZI2AT32MAL4FQAF4NWJ",
+     "item_variation_data": {
+      "item_id": "7YPCNXGIPLFVBRL3MBZ3SLVF",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XQBDYXSYBL4UI3Y5FHJTPZ74",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ritual \"hot\" chocolate",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "QTALOGBGVKBFCPOCYSH4GYQI",
+     "item_variation_data": {
+      "item_id": "XQBDYXSYBL4UI3Y5FHJTPZ74",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZGCFFQU2OYB3XD6RW6JB7MFM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pretzel party",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "2DZZDO7V4IP6WZFDKY4CYP4W",
+     "item_variation_data": {
+      "item_id": "ZGCFFQU2OYB3XD6RW6JB7MFM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
