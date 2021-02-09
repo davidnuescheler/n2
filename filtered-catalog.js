@@ -9374,7 +9374,7 @@ var catalog_raw=[
   "id": "ZGCFFQU2OYB3XD6RW6JB7MFM",
   "type": "ITEM",
   "item_data": {
-   "name": "pretzel party",
+   "name": "pretzel party pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
