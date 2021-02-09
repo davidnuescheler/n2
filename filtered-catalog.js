@@ -9354,7 +9354,7 @@ var catalog_raw=[
   "id": "XQBDYXSYBL4UI3Y5FHJTPZ74",
   "type": "ITEM",
   "item_data": {
-   "name": "ritual \"hot\" chocolate",
+   "name": "ritual \"hot\" chocolate pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -9381,6 +9381,46 @@ var catalog_raw=[
      "id": "2DZZDO7V4IP6WZFDKY4CYP4W",
      "item_variation_data": {
       "item_id": "ZGCFFQU2OYB3XD6RW6JB7MFM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NVDDFTEAT3VRC6KX6GDPYY6P",
+  "type": "ITEM",
+  "item_data": {
+   "name": "crème fraise pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "7ZSHBZA344NA52JA7HEDBGO4",
+     "item_variation_data": {
+      "item_id": "NVDDFTEAT3VRC6KX6GDPYY6P",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZQ7FZUARO7EVRGPHTOD7GNHG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ruby red grapefruit pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "6PAKOS5WMEQEG7VLACLT5PZ3",
+     "item_variation_data": {
+      "item_id": "ZQ7FZUARO7EVRGPHTOD7GNHG",
       "name": "Regular",
       "price_money": {
        "amount": 1200
