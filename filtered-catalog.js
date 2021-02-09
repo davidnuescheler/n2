@@ -1469,16 +1469,6 @@ var catalog_raw=[
        "amount": 1600
       }
      }
-    },
-    {
-     "id": "VDH6NQ5A3BFZOOAIGQV7NBRU",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "BRASIL nathalia maria",
-      "price_money": {
-       "amount": 1600
-      }
-     }
     }
    ]
   }
