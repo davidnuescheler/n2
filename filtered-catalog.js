@@ -9229,7 +9229,7 @@ var catalog_raw=[
       "item_id": "HPWIKVJJCZZ2NGXNAAS6CGOZ",
       "name": "Regular",
       "price_money": {
-       "amount": 500
+       "amount": 1000
       }
      }
     }
@@ -9308,6 +9308,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "JLVJI7H66OIEDCYR7VTQX76V",
+  "type": "ITEM",
+  "item_data": {
+   "name": "saltine pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "F4E76LUDJ6MMMTVZBWOPFAYJ",
+     "item_variation_data": {
+      "item_id": "JLVJI7H66OIEDCYR7VTQX76V",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
