@@ -7061,9 +7061,27 @@ var catalog_raw=[
    "name": "espresso option",
    "modifiers": [
     {
+     "id": "JE2GF7PSIE67IPML4MB72BWT",
+     "modifier_data": {
+      "name": "choose an espresso",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
      "modifier_data": {
       "name": "COAVA espresso blend",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "X35NJ5JJRMJUYDNPGIOJJL3V",
+     "modifier_data": {
+      "name": "ETHIOPIA meaza",
       "price_money": {
        "amount": 0
       }
@@ -9362,6 +9380,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "X35NJ5JJRMJUYDNPGIOJJL3V",
+  "modifier_data": {
+   "name": "ETHIOPIA meaza",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JE2GF7PSIE67IPML4MB72BWT",
+  "modifier_data": {
+   "name": "choose an espresso",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
