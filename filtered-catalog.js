@@ -9209,7 +9209,7 @@ var catalog_raw=[
       "item_id": "ZUGJFIUDJU6KDLKLG32G7L73",
       "name": "Regular",
       "price_money": {
-       "amount": 500
+       "amount": 1000
       }
      }
     }
