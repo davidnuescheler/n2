@@ -9189,7 +9189,7 @@ var catalog_raw=[
       "item_id": "HIAVU3FTTACLM5NMIEXC5WCY",
       "name": "Regular",
       "price_money": {
-       "amount": 500
+       "amount": 1000
       }
      }
     }
