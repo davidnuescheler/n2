@@ -4201,26 +4201,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "2DAX5IRR4F2VEBSQFU2H52XF",
-  "type": "ITEM",
-  "item_data": {
-   "name": "togo cooler",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "557BMPKU337AAUMK4KHLAODK",
-     "item_variation_data": {
-      "item_id": "2DAX5IRR4F2VEBSQFU2H52XF",
-      "name": "Regular",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "TCZCAZNPUJ5BQHTT7WEMYYAY",
   "type": "ITEM",
   "item_data": {
@@ -5689,7 +5669,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "store flavor flight",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "Q72IHSLV6JYB5GZZEBOZRZYQ",
@@ -5709,7 +5689,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lab flavor flight",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "KMLMEEOXWKW53VUE7LFKV7X3",
@@ -5729,7 +5709,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "full flavor flight",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "OOLVXVUME433FX6DZHMIK7EG",
@@ -6330,7 +6310,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "take + bake cinnamon rolls",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "Q7GOQ2GBFWPMMEB7JLODP6U5",
@@ -7246,7 +7226,7 @@ var catalog_raw=[
   "id": "LQLZ4YQZV6QKU5IFRPCY4BT2",
   "type": "ITEM",
   "item_data": {
-   "name": "yin yang sando",
+   "name": "the yin yang sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -8584,7 +8564,7 @@ var catalog_raw=[
   "id": "ZK623BBI26HJS3UJWKZD5TOE",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale specialty pint",
+   "name": "wholesale - specialty pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8604,7 +8584,7 @@ var catalog_raw=[
   "id": "H2TSHX36VLKXJ67LJTAJNAT6",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale butter berry pint",
+   "name": "wholesale - butter berry pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8624,7 +8604,7 @@ var catalog_raw=[
   "id": "S2PC3B5USWVHYZTEC3MUWLVB",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale mint condition pint",
+   "name": "wholesale - mint condition pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8644,7 +8624,7 @@ var catalog_raw=[
   "id": "CJK2BEGA3G7IZ2KJX5F2KNYA",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale malted coffee pint",
+   "name": "wholesale - malted coffee pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8664,7 +8644,7 @@ var catalog_raw=[
   "id": "3TEXYW7P3YIQ45B2COXEJ2AO",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale off the cob pint",
+   "name": "wholesale - off the cob pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8684,7 +8664,7 @@ var catalog_raw=[
   "id": "AAMFXPSNFIKFGZA4QE4HPS4C",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale coco comb pint",
+   "name": "wholesale - coco comb pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8704,7 +8684,7 @@ var catalog_raw=[
   "id": "E4G22HM7TMKWYMEVYUDAO77X",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale milk + cookies pint",
+   "name": "wholesale - milk + cookies pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8724,7 +8704,7 @@ var catalog_raw=[
   "id": "HYLPUZ2Z2USNWYG77376YTNC",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale salted vanilla bean pint",
+   "name": "wholesale - salted vanilla bean pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8744,7 +8724,7 @@ var catalog_raw=[
   "id": "ZLLL7AHDJQJPYZYNBIHTWN4S",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale milk chocolate pint",
+   "name": "wholesale - milk chocolate pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8764,7 +8744,7 @@ var catalog_raw=[
   "id": "BZIKM6KB4SEBK5U3CVMJSXZE",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale blood orange pint",
+   "name": "wholesale - blood orange pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8784,7 +8764,7 @@ var catalog_raw=[
   "id": "VVVFHNOWEMMEC3LW7N7OIHD5",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale earl grey tea pint",
+   "name": "wholesale - earl grey tea pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8804,7 +8784,7 @@ var catalog_raw=[
   "id": "R2I4AFV3HWNICNFG7QSHGO5H",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale olive oil pint",
+   "name": "wholesale - olive oil pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8824,7 +8804,7 @@ var catalog_raw=[
   "id": "VH6VK26RFDDUFJR7LYWP4IJ3",
   "type": "ITEM",
   "item_data": {
-   "name": "wholesale dark chocolate pint",
+   "name": "wholesale - dark chocolate pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -9211,6 +9191,66 @@ var catalog_raw=[
      "id": "K22QDS5ZBGMDGK2SXTV7WNVM",
      "item_variation_data": {
       "item_id": "547IXCBXUHEAG32YU33CSWUV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RPRXUHOA6YG7IQCCZ7PWNCKH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the yin yang sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "MEJBXXV3JUT3HYOBDIJUILYM",
+     "item_variation_data": {
+      "item_id": "RPRXUHOA6YG7IQCCZ7PWNCKH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "FQLKQMHQINZQ3UBEYEHHHWJY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - we're nuts! sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "PI5JWQNXCLXPCPAT4SXXELXR",
+     "item_variation_data": {
+      "item_id": "FQLKQMHQINZQ3UBEYEHHHWJY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "KXW2RA56ALCJH2QXUN3KBQMU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - snickerdood sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "TOVLSQNVOE2RGGW3WQ2BDW4C",
+     "item_variation_data": {
+      "item_id": "KXW2RA56ALCJH2QXUN3KBQMU",
       "name": "Regular",
       "price_money": {
        "amount": 390
