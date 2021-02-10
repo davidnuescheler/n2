@@ -2855,56 +2855,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "45PRQCRBAYLURP3LEDJ3OGN7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "mini pint (5 oz)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "VISQUQUUTZQOSTBUNH6H33JY",
-     "item_variation_data": {
-      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "other",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "PHOAHWK4S6UWJIWV5ODNI4H2",
-     "item_variation_data": {
-      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "6LOWKXRWVA5HVKJLAP44HM7Q",
-     "item_variation_data": {
-      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "4YQBMWU4F3T73N4L7FUX3XKM",
-     "item_variation_data": {
-      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "7ZWFQMJ7762E3HNXC4XI4UXU",
   "type": "ITEM",
   "item_data": {
@@ -8103,46 +8053,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KBKJASOL3JFZYGTZF7NMPBKV",
-  "type": "ITEM",
-  "item_data": {
-   "name": "apple pie pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "Z2GJ2573BOGEAVZB7TNBW5KC",
-     "item_variation_data": {
-      "item_id": "KBKJASOL3JFZYGTZF7NMPBKV",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "TUPZJASCLI5V6CLN5REY5YMI",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ambrosia pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "ZCJDFRXHV62XEVKGNFSIH7RH",
-     "item_variation_data": {
-      "item_id": "TUPZJASCLI5V6CLN5REY5YMI",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "FLHS6WHUSF726OMBJ6QU5Y4W",
   "type": "ITEM",
   "item_data": {
@@ -8512,26 +8422,6 @@ var catalog_raw=[
      "id": "MEZR35UCYLROBG3WWQRVZTK6",
      "item_variation_data": {
       "item_id": "7WWMZAZCFBZSVGVOTDMCMYKH",
-      "name": "Regular",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "4JLSA3KMS76REHH5PY4U6JF6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cranberry 5oz",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "I6EK5PRFHFFOVVX567WW7ZPN",
-     "item_variation_data": {
-      "item_id": "4JLSA3KMS76REHH5PY4U6JF6",
       "name": "Regular",
       "price_money": {
        "amount": 450
