@@ -1199,7 +1199,7 @@ var catalog_raw=[
   "id": "C2KKKP5BVBK5J6TIUBPG2HWT",
   "type": "ITEM",
   "item_data": {
-   "name": "kix cereal bar",
+   "name": "wholesale - the cereal bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
@@ -1208,7 +1208,7 @@ var catalog_raw=[
       "item_id": "C2KKKP5BVBK5J6TIUBPG2HWT",
       "name": "Regular",
       "price_money": {
-       "amount": 500
+       "amount": 325
       }
      }
     }
@@ -6421,7 +6421,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream bar 6 pack",
-   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "7YPQ5IABBWEZJXUVKAYA5YYK",
@@ -8914,6 +8914,186 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "LP4AKV6MV4J4US3XZFZY74YH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the trashberry™ bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "PBG2VWDHYK4CDJLJOTQSMTG2",
+     "item_variation_data": {
+      "item_id": "LP4AKV6MV4J4US3XZFZY74YH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XX2ZZCSY4DS4S37RNSXAY2EL",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - lil shorty bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "TUY62LPAFJNU27AWY357V3CN",
+     "item_variation_data": {
+      "item_id": "XX2ZZCSY4DS4S37RNSXAY2EL",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5H75CESZVEF2TI55NCDGW66N",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale -  mint condition bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "RSWQGEKNCBCP3DBV4PFWUKUJ",
+     "item_variation_data": {
+      "item_id": "5H75CESZVEF2TI55NCDGW66N",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZNKOLJGQGRKY3LNBJFHI7FXF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - norm s'mores bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "TI3KNI44C27XGBSGDHE66BHK",
+     "item_variation_data": {
+      "item_id": "ZNKOLJGQGRKY3LNBJFHI7FXF",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "2BGVIBB3OPHSBLEGGLZTNI2S",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the keys bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "HHI4ARAGX3ABGLQ4VRF3K6NM",
+     "item_variation_data": {
+      "item_id": "2BGVIBB3OPHSBLEGGLZTNI2S",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5KEXULCPRU5PEBRBIOQ3N5JJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the best one bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "I63T7ZOXROBAE724VPUCC27H",
+     "item_variation_data": {
+      "item_id": "5KEXULCPRU5PEBRBIOQ3N5JJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "J7HWO7AVS4DM6JS6YWAEQE3Z",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the cereal bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "STOKJ5MKTWKJQIFWKNZEBO7A",
+     "item_variation_data": {
+      "item_id": "J7HWO7AVS4DM6JS6YWAEQE3Z",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "D67BXI2DJXCGPKSKIQPN4J44",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the basic bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "Y7PLZFBQ7CDQFVRXLUQGWTRX",
+     "item_variation_data": {
+      "item_id": "D67BXI2DJXCGPKSKIQPN4J44",
+      "name": "Regular",
+      "price_money": {
+       "amount": 325
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "3Z342GRXAG54COBUFH5S6OY7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - totes toasted bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "TFKMFGZWIZJFLR6E5THZXXJI",
+     "item_variation_data": {
+      "item_id": "3Z342GRXAG54COBUFH5S6OY7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
       }
      }
     }
