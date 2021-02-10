@@ -9314,7 +9314,7 @@ var catalog_raw=[
   "id": "ZK623BBI26HJS3UJWKZD5TOE",
   "type": "ITEM",
   "item_data": {
-   "name": "specialty pint",
+   "name": "wholesale specialty pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -9504,6 +9504,106 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 650
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VVVFHNOWEMMEC3LW7N7OIHD5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale earl grey tea pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "FGXDSQTLCAOVHCOORMRJNIAQ",
+     "item_variation_data": {
+      "item_id": "VVVFHNOWEMMEC3LW7N7OIHD5",
+      "name": "Regular",
+      "price_money": {
+       "amount": 650
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "R2I4AFV3HWNICNFG7QSHGO5H",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale olive oil pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "BS5IC2OX6ZT74P4P7OVQSYRE",
+     "item_variation_data": {
+      "item_id": "R2I4AFV3HWNICNFG7QSHGO5H",
+      "name": "Regular",
+      "price_money": {
+       "amount": 650
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VH6VK26RFDDUFJR7LYWP4IJ3",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale dark chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "SKD5RZQHU3UCDUALWRSWOJR4",
+     "item_variation_data": {
+      "item_id": "VH6VK26RFDDUFJR7LYWP4IJ3",
+      "name": "Regular",
+      "price_money": {
+       "amount": 650
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RHDDH32JBCIJE5ATGQ2VJJNC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale ice cream tub",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
+   "variations": [
+    {
+     "id": "Z2SAVWTHJDYJM464TXJRRYTF",
+     "item_variation_data": {
+      "item_id": "RHDDH32JBCIJE5ATGQ2VJJNC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "FJFSLNN57X5ZMNOPSCG3C4TQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale specialty ice cream tub",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
+   "variations": [
+    {
+     "id": "3XGYFFQSDWXKP6R2YMP7QTHI",
+     "item_variation_data": {
+      "item_id": "FJFSLNN57X5ZMNOPSCG3C4TQ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2600
       }
      }
     }
