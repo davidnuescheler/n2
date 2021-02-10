@@ -6652,7 +6652,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "buche de normal®",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "7K7I65N4Q77MHUFGJFGXBIQM",
@@ -6733,7 +6733,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "buche de NOT normal®",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "TXNWBZDJSK4J5OILVHXOMSM3",
@@ -6828,7 +6828,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the valentine's bomb",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "3IDCUEZLQX2RVYUED6MQ5EOM",
@@ -7940,7 +7940,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "valentines heart cake",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "AV25OMT3JFYH4VSAQGBYWE2I",
@@ -8407,7 +8407,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the valentine's bomb (delivery)",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "I77AEZD47NV3GLIBL56TFLC3",
@@ -9254,6 +9254,86 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VEQW4OONXMDVSHZODAAU43QH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - banana cream 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "3F3WXOHFJN537DREA2GD3U6S",
+     "item_variation_data": {
+      "item_id": "VEQW4OONXMDVSHZODAAU43QH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "LJREMPNYVPBKF5VNF2WSY5CU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - chocolate + brown butter 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "4PZN3NEL2H63CRFNC57BXNFT",
+     "item_variation_data": {
+      "item_id": "LJREMPNYVPBKF5VNF2WSY5CU",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5JSB24IA3UIWDPN3CTMHBFAY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - strawberry + funfetti 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "RX3MAFRCMQZXBBPOTXQNUP4K",
+     "item_variation_data": {
+      "item_id": "5JSB24IA3UIWDPN3CTMHBFAY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "S5CUDYOIIFSDUL2SUB4GKBV7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the cookies cake 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "ZYNXE6VAFGV26ESIYLTGB5JZ",
+     "item_variation_data": {
+      "item_id": "S5CUDYOIIFSDUL2SUB4GKBV7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2300
       }
      }
     }
