@@ -6831,26 +6831,6 @@ var catalog_raw=[
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
-     "id": "3IDCUEZLQX2RVYUED6MQ5EOM",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "MONDAY 2/8 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "EKHND5USBU7R52BIKEYOJSAY",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "TUESDAY 2/9 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
      "id": "UN4U52PMEN3DOZZEPFPOUXRZ",
      "item_variation_data": {
       "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
