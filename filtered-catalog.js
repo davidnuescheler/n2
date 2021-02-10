@@ -4003,26 +4003,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UHMOE6ZLHUKN3YOJJ7BGGAMM",
-  "type": "ITEM",
-  "item_data": {
-   "name": "VoVo sando",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
-   "variations": [
-    {
-     "id": "L5BV5WIOEVIA3WQ7Z7OB3KPO",
-     "item_variation_data": {
-      "item_id": "UHMOE6ZLHUKN3YOJJ7BGGAMM",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "3D2X763NAIJIJHYXA2TCL5KF",
   "type": "ITEM",
   "item_data": {
@@ -6441,7 +6421,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "vegan ice cream bar 6 pack",
-   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "6TJ6VI6NOOY53KHXF5DGS3F7",
@@ -6957,7 +6937,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream sando 6 pack",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
    "variations": [
     {
      "id": "6ZXJVKA4KRU5OD4HWHVAWJGW",
@@ -9091,6 +9071,146 @@ var catalog_raw=[
      "id": "TFKMFGZWIZJFLR6E5THZXXJI",
      "item_variation_data": {
       "item_id": "3Z342GRXAG54COBUFH5S6OY7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "657XSUNXZBUJFIIKHKQKAG4L",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - normal® choco taco",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "ZYMS7OCHNVG5D4434BGHSQK5",
+     "item_variation_data": {
+      "item_id": "657XSUNXZBUJFIIKHKQKAG4L",
+      "name": "Regular",
+      "price_money": {
+       "amount": 490
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "T2AYLFVZJHUFJCUDOZFN2EUE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the not sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "2OS23UKTNY2ZGDG3ZOO34KXJ",
+     "item_variation_data": {
+      "item_id": "T2AYLFVZJHUFJCUDOZFN2EUE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VE4EBDZGLS3OKVJI427N2BAG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - b-a-n-a-n-a-s sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "7ITYFCVKGYZ6POUJ7RVSIQF3",
+     "item_variation_data": {
+      "item_id": "VE4EBDZGLS3OKVJI427N2BAG",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "Y6GVDLBK3HWRE6DPNPAQW5OZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - the norm sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "SFOWW6HOVPFOXKXQI74WQIHL",
+     "item_variation_data": {
+      "item_id": "Y6GVDLBK3HWRE6DPNPAQW5OZ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "HEFUENLKE5O3ZUSDGV4JVEZE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - chocolate wasted sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "EDM5222TS3CSNH6YXS22YTQQ",
+     "item_variation_data": {
+      "item_id": "HEFUENLKE5O3ZUSDGV4JVEZE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "BMQR6VLYZIQL336DYPU2VK37",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - it snaps sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "CNXA72Z6NBTJUWKFHZOP5JZS",
+     "item_variation_data": {
+      "item_id": "BMQR6VLYZIQL336DYPU2VK37",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "547IXCBXUHEAG32YU33CSWUV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - choco-latte sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "K22QDS5ZBGMDGK2SXTV7WNVM",
+     "item_variation_data": {
+      "item_id": "547IXCBXUHEAG32YU33CSWUV",
       "name": "Regular",
       "price_money": {
        "amount": 390
