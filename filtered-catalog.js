@@ -1469,6 +1469,16 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "JTFU2STYKI3RIJYQ6EIWRISK",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "PERU rayos del sol",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
