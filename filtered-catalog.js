@@ -6831,16 +6831,6 @@ var catalog_raw=[
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
-     "id": "UN4U52PMEN3DOZZEPFPOUXRZ",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "WEDS 2/10 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
      "id": "YHCOGDEC7JSDMSNBTQCE6RBL",
      "item_variation_data": {
       "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
@@ -7922,16 +7912,6 @@ var catalog_raw=[
    "name": "valentines heart cake",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
-    {
-     "id": "YEGMCY5RVPOIIT4VCLCOVWSQ",
-     "item_variation_data": {
-      "item_id": "HQC72OAPXAXQVFI653VOAVAN",
-      "name": "WEDS 2/10 pick up",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
     {
      "id": "VNZNNRWRNPUYUQSYIJ5XUYWA",
      "item_variation_data": {
