@@ -5596,26 +5596,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EEBPEBYIB56RJGFFLSSHO7SV",
-  "type": "ITEM",
-  "item_data": {
-   "name": "lactaid",
-   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
-   "variations": [
-    {
-     "id": "O7VU47RP2DIC5VKAPQHWOEUI",
-     "item_variation_data": {
-      "item_id": "EEBPEBYIB56RJGFFLSSHO7SV",
-      "name": "one lactaid pill",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "VXNNJLWYPTLXYR3G6Q37AFXG",
   "type": "ITEM",
   "item_data": {
