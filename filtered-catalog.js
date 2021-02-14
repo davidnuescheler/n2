@@ -4773,7 +4773,7 @@ var catalog_raw=[
      "id": "RXECILNLZOQDEQK3OMNS5OTB",
      "item_variation_data": {
       "item_id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
-      "name": "Normal Size",
+      "name": "normal Size",
       "price_money": {
        "amount": 700
       }
@@ -5337,22 +5337,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "IKH3TTCSPKRPXSLIQJRPONDO",
-     "item_variation_data": {
-      "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "WC46AUF7JLF525IKCH3CWK6Z",
      "item_variation_data": {
       "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "IKH3TTCSPKRPXSLIQJRPONDO",
+     "item_variation_data": {
+      "item_id": "UVY66VK6IHX6RH2MZWH2VV6K",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
