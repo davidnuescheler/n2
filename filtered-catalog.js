@@ -4725,22 +4725,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "W7HA6AUW2UESIMMRBENFKBSC",
-     "item_variation_data": {
-      "item_id": "OZACLK5YWDZJW6MWDQHTCTNC",
-      "name": "normal size",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
      "id": "5BHWBTFLADTKM6SKBGMBTMXP",
      "item_variation_data": {
       "item_id": "OZACLK5YWDZJW6MWDQHTCTNC",
       "name": "half size",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "W7HA6AUW2UESIMMRBENFKBSC",
+     "item_variation_data": {
+      "item_id": "OZACLK5YWDZJW6MWDQHTCTNC",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
