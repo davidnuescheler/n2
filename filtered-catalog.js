@@ -148,15 +148,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YMAKJVYNC2OCE5SWSMKACT6Z",
-     "modifier_data": {
-      "name": "pink sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2OJWAYTZO6OOOHEGC7QFJP5Z",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -214,6 +205,15 @@ var catalog_raw=[
      "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
      "modifier_data": {
       "name": "house-made candy hearts (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
+     "modifier_data": {
+      "name": "coconut whipped cream (v) ",
       "price_money": {
        "amount": 75
       }
@@ -5791,15 +5791,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WLV35X3QWJ7SKJA4QYZHDWAA",
-     "modifier_data": {
-      "name": "pink sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "J3AXA6FGMDZHO6HI4AKI33SG",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -5857,6 +5848,15 @@ var catalog_raw=[
      "id": "7JV5DR67ICFMLUKGMLTFZ7DX",
      "modifier_data": {
       "name": "house-made candy hearts (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "HZHOKK6L56TPQQ7HNCKPC2T6",
+     "modifier_data": {
+      "name": "coconut whipped cream (v)",
       "price_money": {
        "amount": 75
       }
@@ -5926,15 +5926,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "IQCD2HKOEY2E7OTHFFSZICV2",
-     "modifier_data": {
-      "name": "pink sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -5992,6 +5983,15 @@ var catalog_raw=[
      "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
      "modifier_data": {
       "name": "house-made candy hearts (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "S5LCV3TIVXK6554PSNLRZXY5",
+     "modifier_data": {
+      "name": "coconut whipped cream (v) ",
       "price_money": {
        "amount": 75
       }
@@ -6503,33 +6503,6 @@ var catalog_raw=[
    "name": "COAVA espresso blend",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "YMAKJVYNC2OCE5SWSMKACT6Z",
-  "modifier_data": {
-   "name": "pink sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "WLV35X3QWJ7SKJA4QYZHDWAA",
-  "modifier_data": {
-   "name": "pink sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "IQCD2HKOEY2E7OTHFFSZICV2",
-  "modifier_data": {
-   "name": "pink sprinks (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
@@ -9209,6 +9182,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
+  "modifier_data": {
+   "name": "coconut whipped cream (v) ",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "HZHOKK6L56TPQQ7HNCKPC2T6",
+  "modifier_data": {
+   "name": "coconut whipped cream (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "S5LCV3TIVXK6554PSNLRZXY5",
+  "modifier_data": {
+   "name": "coconut whipped cream (v) ",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
