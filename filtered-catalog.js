@@ -9190,5 +9190,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "A6DRIPCD6V2XKTYFVIBJ34SO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "earl gray + passion pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "5JREUZ2KVV44NWQYQPZOIQMJ",
+     "item_variation_data": {
+      "item_id": "A6DRIPCD6V2XKTYFVIBJ34SO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
