@@ -4773,7 +4773,7 @@ var catalog_raw=[
      "id": "RXECILNLZOQDEQK3OMNS5OTB",
      "item_variation_data": {
       "item_id": "R7WMXQH7MAGU2FIOG3TRTHOZ",
-      "name": "normal Size",
+      "name": "normal size",
       "price_money": {
        "amount": 700
       }
