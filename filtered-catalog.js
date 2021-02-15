@@ -2299,13 +2299,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TVV6PIR5L3XFL43TDIXSBWXK",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "normal-wholesale"
-  }
- },
- {
   "id": "NCEEXC4XE5X24M6P7YELCTOU",
   "type": "ITEM",
   "item_data": {
