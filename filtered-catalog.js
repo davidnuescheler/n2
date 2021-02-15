@@ -3999,15 +3999,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "2DNDFE2NNZFJYULLCJ4XWOZG",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -8177,15 +8168,6 @@ var catalog_raw=[
   "id": "K7DKNT3SLP454U263EM5XTFJ",
   "modifier_data": {
    "name": "vegan!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2DNDFE2NNZFJYULLCJ4XWOZG",
-  "modifier_data": {
-   "name": "margherita",
    "price_money": {
     "amount": 0
    }
