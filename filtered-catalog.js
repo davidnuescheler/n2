@@ -238,15 +238,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YDBT75DFNUP4DCIW3WIK7XDB",
-     "modifier_data": {
-      "name": "whipped coconut cream (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "graham cracker crumble",
@@ -5897,15 +5888,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CRJ6Q3OUPBTOY43SQCUJNN74",
-     "modifier_data": {
-      "name": "whipped coconut cream (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "5YM476W3SGXA2MI5Y4447SZV",
      "modifier_data": {
       "name": "graham cracker crumble",
@@ -6035,15 +6017,6 @@ var catalog_raw=[
      "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
      "modifier_data": {
       "name": "berry compote (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "OC5RDZVHWOBB7ZESAV6HWEB7",
-     "modifier_data": {
-      "name": "whipped coconut cream (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7422,15 +7395,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "YDBT75DFNUP4DCIW3WIK7XDB",
-  "modifier_data": {
-   "name": "whipped coconut cream (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "PH5BC2PHXTIADHEBQWDQLY36",
   "modifier_data": {
    "name": "graham cracker crumble",
@@ -7458,15 +7422,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CRJ6Q3OUPBTOY43SQCUJNN74",
-  "modifier_data": {
-   "name": "whipped coconut cream (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "5YM476W3SGXA2MI5Y4447SZV",
   "modifier_data": {
    "name": "graham cracker crumble",
@@ -7488,15 +7443,6 @@ var catalog_raw=[
   "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
   "modifier_data": {
    "name": "berry compote (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "OC5RDZVHWOBB7ZESAV6HWEB7",
-  "modifier_data": {
-   "name": "whipped coconut cream (v) (gf)",
    "price_money": {
     "amount": 75
    }
