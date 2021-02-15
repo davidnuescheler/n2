@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
-      "name": "coconut whipped cream (v) ",
+      "name": "coconut whipped cream (v)",
       "price_money": {
        "amount": 75
       }
@@ -5991,7 +5991,7 @@ var catalog_raw=[
     {
      "id": "S5LCV3TIVXK6554PSNLRZXY5",
      "modifier_data": {
-      "name": "coconut whipped cream (v) ",
+      "name": "coconut whipped cream (v)",
       "price_money": {
        "amount": 75
       }
@@ -9187,7 +9187,7 @@ var catalog_raw=[
  {
   "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
   "modifier_data": {
-   "name": "coconut whipped cream (v) ",
+   "name": "coconut whipped cream (v)",
    "price_money": {
     "amount": 75
    }
@@ -9205,10 +9205,30 @@ var catalog_raw=[
  {
   "id": "S5LCV3TIVXK6554PSNLRZXY5",
   "modifier_data": {
-   "name": "coconut whipped cream (v) ",
+   "name": "coconut whipped cream (v)",
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "W2R3NJ5KG4XL4BTDGF3STMMH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lactaid",
+   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
+   "variations": [
+    {
+     "id": "7X5RO5OXYN3H46D2XMLUEQWN",
+     "item_variation_data": {
+      "item_id": "W2R3NJ5KG4XL4BTDGF3STMMH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
   }
  }
 ]
