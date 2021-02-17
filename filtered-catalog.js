@@ -7291,7 +7291,7 @@ var catalog_raw=[
      "id": "M7XO6V4EZXNZTJKI2W2O4RII",
      "item_variation_data": {
       "item_id": "YTN5G4PSWNA2NWDTSLKSOJKG",
-      "name": "molasses (gf)",
+      "name": "pomegranate (gf)",
       "price_money": {
        "amount": 600
       }
