@@ -258,7 +258,7 @@ var catalog_raw=[
     {
      "id": "33LQ53YVIKK5HSTOQ2547O3S",
      "modifier_data": {
-      "name": "Pink sprinks (gf)",
+      "name": "pink sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -5928,7 +5928,7 @@ var catalog_raw=[
     {
      "id": "QBHQFYOOS7TDZTIZRDFGJEVG",
      "modifier_data": {
-      "name": "Pink sprinks (gf)",
+      "name": "pink sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6072,7 +6072,7 @@ var catalog_raw=[
     {
      "id": "II6AL4WQRFB66MCVNH6PAV5B",
      "modifier_data": {
-      "name": "Pink sprinks (gf)",
+      "name": "pink sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -9317,7 +9317,7 @@ var catalog_raw=[
  {
   "id": "33LQ53YVIKK5HSTOQ2547O3S",
   "modifier_data": {
-   "name": "Pink sprinks (gf)",
+   "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9326,7 +9326,7 @@ var catalog_raw=[
  {
   "id": "QBHQFYOOS7TDZTIZRDFGJEVG",
   "modifier_data": {
-   "name": "Pink sprinks (gf)",
+   "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9335,7 +9335,7 @@ var catalog_raw=[
  {
   "id": "II6AL4WQRFB66MCVNH6PAV5B",
   "modifier_data": {
-   "name": "Pink sprinks (gf)",
+   "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
    }
