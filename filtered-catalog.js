@@ -6796,36 +6796,6 @@ var catalog_raw=[
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
-     "id": "YHCOGDEC7JSDMSNBTQCE6RBL",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "THURS 2/11 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "Z2LABSR2XL7AJWAGXNTICDRI",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "FRI 2/12 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
-     "id": "WTHKQCND7LVZNAAFI2PT3L73",
-     "item_variation_data": {
-      "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
-      "name": "SAT 2/13 pick up",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    },
-    {
      "id": "Z5XWOQCYOYCQ75X4YUZIQE6T",
      "item_variation_data": {
       "item_id": "QHQLFMZ34GNLO5PUTIIDN6NN",
@@ -7850,36 +7820,6 @@ var catalog_raw=[
    "name": "valentines heart cake",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
-    {
-     "id": "VNZNNRWRNPUYUQSYIJ5XUYWA",
-     "item_variation_data": {
-      "item_id": "HQC72OAPXAXQVFI653VOAVAN",
-      "name": "THURS 2/11 pick up",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "UJDEP3DCRA2IIKCP6GRKA37V",
-     "item_variation_data": {
-      "item_id": "HQC72OAPXAXQVFI653VOAVAN",
-      "name": "FRI 2/12 pick up",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "KOBCSMEFFCIHPE4NHEQIGC2A",
-     "item_variation_data": {
-      "item_id": "HQC72OAPXAXQVFI653VOAVAN",
-      "name": "SAT 2/13 pick up",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
     {
      "id": "564FXXESBX3N5OGJN7NNHDZ4",
      "item_variation_data": {
