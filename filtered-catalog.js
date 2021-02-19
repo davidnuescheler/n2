@@ -3782,15 +3782,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NC7M4J7SBDYXW6OLTS4Y2YSV",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6EBB5BWWDCO34J5V477FJ5XT",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
@@ -7638,15 +7629,6 @@ var catalog_raw=[
   "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
   "modifier_data": {
    "name": "select your soft serve",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "NC7M4J7SBDYXW6OLTS4Y2YSV",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
