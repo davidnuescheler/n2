@@ -3825,6 +3825,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "D34RW5ZSPBIHDKMJ3R46H2GP",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9268,6 +9277,15 @@ var catalog_raw=[
   "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
   "modifier_data": {
    "name": "PERU rayos del sol",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "D34RW5ZSPBIHDKMJ3R46H2GP",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
