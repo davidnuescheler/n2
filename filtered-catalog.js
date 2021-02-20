@@ -6532,9 +6532,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "X35NJ5JJRMJUYDNPGIOJJL3V",
+     "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
      "modifier_data": {
-      "name": "ETHIOPIA meaza",
+      "name": "PERU rayos del sol",
       "price_money": {
        "amount": 0
       }
@@ -8224,15 +8224,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "X35NJ5JJRMJUYDNPGIOJJL3V",
-  "modifier_data": {
-   "name": "ETHIOPIA meaza",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "JE2GF7PSIE67IPML4MB72BWT",
   "modifier_data": {
    "name": "choose an espresso",
@@ -9270,6 +9261,15 @@ var catalog_raw=[
    "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
+  "modifier_data": {
+   "name": "PERU rayos del sol",
+   "price_money": {
+    "amount": 0
    }
   }
  }
