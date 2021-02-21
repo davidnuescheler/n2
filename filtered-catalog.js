@@ -9198,5 +9198,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "MQFPUEMF6Q4XCXSTKRSZW3BH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "salted caramel pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "IBOJZ5JAMMIYLDHGXC32BFQR",
+     "item_variation_data": {
+      "item_id": "MQFPUEMF6Q4XCXSTKRSZW3BH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
