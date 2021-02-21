@@ -4074,10 +4074,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
+     "id": "EOOBQ3CL73QER2GXFXRGHHMB",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "lemon sorbet (v) (gf)",
+      "name": "cream cheese (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4088,6 +4088,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "salted vanilla bean  + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6U4DFM4E2AMMMD6A43NIKMNW",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cream cheese + lemon TWIST (gf)",
       "price_money": {
        "amount": 0
       }
