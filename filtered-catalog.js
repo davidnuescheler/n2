@@ -3746,15 +3746,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6EBB5BWWDCO34J5V477FJ5XT",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
      "modifier_data": {
       "name": "salted caramel (gf)",
@@ -3785,15 +3776,6 @@ var catalog_raw=[
      "id": "5FHYQ3WNRENHS5YOEIWGGHOK",
      "modifier_data": {
       "name": "cream cheese (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "D34RW5ZSPBIHDKMJ3R46H2GP",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8016,15 +7998,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6EBB5BWWDCO34J5V477FJ5XT",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
   "modifier_data": {
    "name": "salted caramel (gf)",
@@ -9185,15 +9158,6 @@ var catalog_raw=[
   "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
   "modifier_data": {
    "name": "PERU rayos del sol",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "D34RW5ZSPBIHDKMJ3R46H2GP",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
