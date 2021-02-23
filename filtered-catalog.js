@@ -1461,16 +1461,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NZWNHC6IENA3QM5N5GUAZ6IZ",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "JTFU2STYKI3RIJYQ6EIWRISK",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
