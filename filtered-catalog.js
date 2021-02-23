@@ -2589,6 +2589,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "52SF4L2ZA4QWNO7TPFAOFJCX",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6NWC3BTU2YVMB6UOU36LOIOR",
+     "modifier_data": {
+      "name": "vanilla + chocolate TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "KYICOHEQLG2XRQ52OQFJBBAY",
      "modifier_data": {
       "name": "cream cheese (gf)",
@@ -9178,6 +9196,24 @@ var catalog_raw=[
   "id": "7JG34MYK2TEAW6LR4KDXSXFJ",
   "modifier_data": {
    "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "52SF4L2ZA4QWNO7TPFAOFJCX",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "6NWC3BTU2YVMB6UOU36LOIOR",
+  "modifier_data": {
+   "name": "vanilla + chocolate TWIST",
    "price_money": {
     "amount": 0
    }
