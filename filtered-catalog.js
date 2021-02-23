@@ -2544,15 +2544,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
      "modifier_data": {
       "name": "lemon sorbet (v) (gf)",
@@ -3946,16 +3937,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "53YB2FLQKGFHJPIOCJ6I7KBN",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -4734,15 +4715,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "KNZ3BFVRKNKDB4EA7FFQPWD6",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
   }
  },
  {
