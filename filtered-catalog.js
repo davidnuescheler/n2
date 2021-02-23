@@ -2120,7 +2120,7 @@ var catalog_raw=[
     {
      "id": "L6GZBC6PN2XWY5N3FXAU62RO",
      "modifier_data": {
-      "name": "cream cheese(gf) + lemon(v) TWIST",
+      "name": "cream cheese(gf) + lemon TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2147,7 +2147,7 @@ var catalog_raw=[
     {
      "id": "CFEALAU73WP7M4VGFOFUJKMM",
      "modifier_data": {
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v) TWIST",
+      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2609,7 +2609,7 @@ var catalog_raw=[
     {
      "id": "7RMBCMPQRYIZKYOAYDZM3IXX",
      "modifier_data": {
-      "name": "cream cheese (gf) + lemon (v) TWIST",
+      "name": "cream cheese (gf) + lemon TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2636,7 +2636,7 @@ var catalog_raw=[
     {
      "id": "7JG34MYK2TEAW6LR4KDXSXFJ",
      "modifier_data": {
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v) TWIST",
+      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
       "price_money": {
        "amount": 0
       }
@@ -4051,7 +4051,7 @@ var catalog_raw=[
      "id": "GQYUEMNG6LPOQD6QP4VWHJW7",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "cream cheese (gf) + lemon sorbet (V) TWIST",
+      "name": "cream cheese (gf) + lemon sorbet TWIST",
       "price_money": {
        "amount": 0
       }
@@ -4081,7 +4081,7 @@ var catalog_raw=[
      "id": "EWDC5KLMRF37RS6FWXFBB6VX",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) ( v) TWIST",
+      "name": "salted caramel (gf) + dark chocolate (gf)  TWIST",
       "price_money": {
        "amount": 0
       }
@@ -9105,7 +9105,7 @@ var catalog_raw=[
  {
   "id": "L6GZBC6PN2XWY5N3FXAU62RO",
   "modifier_data": {
-   "name": "cream cheese(gf) + lemon(v) TWIST",
+   "name": "cream cheese(gf) + lemon TWIST",
    "price_money": {
     "amount": 0
    }
@@ -9123,7 +9123,7 @@ var catalog_raw=[
  {
   "id": "7RMBCMPQRYIZKYOAYDZM3IXX",
   "modifier_data": {
-   "name": "cream cheese (gf) + lemon (v) TWIST",
+   "name": "cream cheese (gf) + lemon TWIST",
    "price_money": {
     "amount": 0
    }
@@ -9168,7 +9168,7 @@ var catalog_raw=[
  {
   "id": "CFEALAU73WP7M4VGFOFUJKMM",
   "modifier_data": {
-   "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v) TWIST",
+   "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
    "price_money": {
     "amount": 0
    }
@@ -9177,7 +9177,7 @@ var catalog_raw=[
  {
   "id": "7JG34MYK2TEAW6LR4KDXSXFJ",
   "modifier_data": {
-   "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v) TWIST",
+   "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
    "price_money": {
     "amount": 0
    }
