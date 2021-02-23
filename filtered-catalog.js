@@ -2091,6 +2091,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "IA7LN4VKIUP3WP5E5FFPLZFX",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "MUEVHLQ2FIX2UWHYJ7Z3HRNL",
      "modifier_data": {
       "name": "cream cheese (gf)",
@@ -2553,11 +2562,11 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
+     "id": "ICEEPTANKRBXUH6WTIEK5E74",
      "modifier_data": {
-      "name": "lemon sorbet (v) (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
-       "amount": 300
+       "amount": 0
       }
      }
     },
@@ -2567,6 +2576,15 @@ var catalog_raw=[
       "name": "cream cheese (gf)",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
+     "modifier_data": {
+      "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
       }
      }
     },
@@ -3964,10 +3982,40 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "HDPBOWPUFIVSR2SJW5QNBPLO",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean ( gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6UDFJ3XELBXSX4EZCUMZXWTX",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cream cheese (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "lemon sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GQYUEMNG6LPOQD6QP4VWHJW7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "cream cheese (gf) + lemon sorbet (V) TWIST",
       "price_money": {
        "amount": 0
       }
@@ -9020,6 +9068,24 @@ var catalog_raw=[
   "id": "7RMBCMPQRYIZKYOAYDZM3IXX",
   "modifier_data": {
    "name": "cream cheese (gf) + lemon (v) TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ICEEPTANKRBXUH6WTIEK5E74",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IA7LN4VKIUP3WP5E5FFPLZFX",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 0
    }
