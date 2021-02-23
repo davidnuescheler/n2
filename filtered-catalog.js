@@ -2091,15 +2091,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SDICO7ZEQQSTJCBI5LQC5O3B",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
      "modifier_data": {
       "name": "lemon sorbet (v)  (gf)",
@@ -7346,15 +7337,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "SDICO7ZEQQSTJCBI5LQC5O3B",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
