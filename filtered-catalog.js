@@ -2624,9 +2624,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "7YHSG2OEDSPASK7ZGFYZMO54",
+     "modifier_data": {
+      "name": "salted caramel (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
      "modifier_data": {
-      "name": "dark chocolate (v) (gf)",
+      "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "CH65OQMJTMCZT6ZZY4MAWIEV",
+     "modifier_data": {
+      "name": "salted caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4061,7 +4079,17 @@ var catalog_raw=[
      "id": "GQYUEMNG6LPOQD6QP4VWHJW7",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "cream cheese (gf) + lemon sorbet TWIST",
+      "name": "cream cheese + lemon sorbet TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "Z6L4GLVAIVAXTTVSWEVHCYU6",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted caramel (gf)",
       "price_money": {
        "amount": 0
       }
@@ -4072,6 +4100,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IRLOJWHYUPP6EDXRRXCTLAAR",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -7634,7 +7672,7 @@ var catalog_raw=[
  {
   "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
   "modifier_data": {
-   "name": "dark chocolate (v) (gf)",
+   "name": "dark chocolate sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -9170,6 +9208,24 @@ var catalog_raw=[
    "name": "vanilla + chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7YHSG2OEDSPASK7ZGFYZMO54",
+  "modifier_data": {
+   "name": "salted caramel (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "CH65OQMJTMCZT6ZZY4MAWIEV",
+  "modifier_data": {
+   "name": "salted caramel + dark chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
