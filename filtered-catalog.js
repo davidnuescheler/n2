@@ -4068,30 +4068,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z6L4GLVAIVAXTTVSWEVHCYU6",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "IRLOJWHYUPP6EDXRRXCTLAAR",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
