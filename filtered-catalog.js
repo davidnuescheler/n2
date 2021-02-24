@@ -2142,6 +2142,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "DPSK2K5EMQE3LKZ5PDXT4BQJ",
+     "modifier_data": {
+      "name": "salted caramel ( gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FY5W24TWGHRLSW7C4RQXYMMU",
+     "modifier_data": {
+      "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2627,6 +2645,24 @@ var catalog_raw=[
      "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "IOALQ32V4CWHHOHSGM2QUB3S",
+     "modifier_data": {
+      "name": "salted caramel (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "IRFUB2ECUAM72VNZGRYXOD7P",
+     "modifier_data": {
+      "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v)",
       "price_money": {
        "amount": 300
       }
@@ -9191,6 +9227,62 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "BXC4YQZGXESW3LIOK2Q27JXS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "WHOLESALE - 6 INCH CAKE",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "GZGXJ55AHKHF3AQVMRR4YVES",
+     "item_variation_data": {
+      "item_id": "BXC4YQZGXESW3LIOK2Q27JXS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2275
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "IOALQ32V4CWHHOHSGM2QUB3S",
+  "modifier_data": {
+   "name": "salted caramel (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "IRFUB2ECUAM72VNZGRYXOD7P",
+  "modifier_data": {
+   "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DPSK2K5EMQE3LKZ5PDXT4BQJ",
+  "modifier_data": {
+   "name": "salted caramel ( gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "FY5W24TWGHRLSW7C4RQXYMMU",
+  "modifier_data": {
+   "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v)",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
