@@ -9172,5 +9172,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "BI3CQ7CJIWOBYJUW2LTHBH4M",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale 5 oz",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "Q5XDDFC43KDY7DFNYQWSMUIE",
+     "item_variation_data": {
+      "item_id": "BI3CQ7CJIWOBYJUW2LTHBH4M",
+      "name": "Regular",
+      "price_money": {
+       "amount": 293
+      }
+     }
+    }
+   ]
+  }
  }
 ]
