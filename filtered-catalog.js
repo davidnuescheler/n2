@@ -1479,6 +1479,26 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "SEYZEIGK6NBZF3MR7IHABUE5",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "BRASIL nathalia maria",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "2ABLWE5TYBYZS5YVDXWRRK2C",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "HONDURAS porfirio castellanos",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
