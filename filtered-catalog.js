@@ -2135,27 +2135,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NBL6H25WUWXKN5VY4TFU2KVU",
-     "modifier_data": {
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YB22HJOJOYAZY7UO3LABVSUL",
-     "modifier_data": {
-      "name": "salted caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2642,27 +2624,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7YHSG2OEDSPASK7ZGFYZMO54",
-     "modifier_data": {
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "CH65OQMJTMCZT6ZZY4MAWIEV",
-     "modifier_data": {
-      "name": "salted caramel + dark chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9224,42 +9188,6 @@ var catalog_raw=[
   "id": "OZPCOBQMM5X353JGGKW4USOY",
   "modifier_data": {
    "name": "vanilla + chocolate TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7YHSG2OEDSPASK7ZGFYZMO54",
-  "modifier_data": {
-   "name": "salted caramel (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "CH65OQMJTMCZT6ZZY4MAWIEV",
-  "modifier_data": {
-   "name": "salted caramel + dark chocolate TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "NBL6H25WUWXKN5VY4TFU2KVU",
-  "modifier_data": {
-   "name": "salted caramel (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "YB22HJOJOYAZY7UO3LABVSUL",
-  "modifier_data": {
-   "name": "salted caramel + dark chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
    }
