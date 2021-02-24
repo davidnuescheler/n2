@@ -4127,7 +4127,7 @@ var catalog_raw=[
      "id": "MRHRMLRSMEVFBPRBYZXN6CLJ",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) (v) TWIST",
+      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
       "price_money": {
        "amount": 0
       }
