@@ -254,6 +254,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
+     "modifier_data": {
+      "name": "pink sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -5890,6 +5899,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "4AUAQDTYOHCDT37EPVYBGOSK",
+     "modifier_data": {
+      "name": "pink sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -6021,6 +6039,15 @@ var catalog_raw=[
      "id": "WTLCPNN62JK3P7CXF4CZ3JCW",
      "modifier_data": {
       "name": "honeycomb candy (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "JONAGM5H4Z2I33XE4ZYRDFSS",
+     "modifier_data": {
+      "name": "pink sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -9289,6 +9316,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
+  "modifier_data": {
+   "name": "pink sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "4AUAQDTYOHCDT37EPVYBGOSK",
+  "modifier_data": {
+   "name": "pink sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "JONAGM5H4Z2I33XE4ZYRDFSS",
+  "modifier_data": {
+   "name": "pink sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
