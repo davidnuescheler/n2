@@ -3826,6 +3826,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "375R7GECOPMKF6J2VTBNHVBX",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9340,6 +9349,15 @@ var catalog_raw=[
   "id": "S7NDUWYLJ3V7KYJDOETN5COM",
   "modifier_data": {
    "name": "cream cheese + lemon sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "375R7GECOPMKF6J2VTBNHVBX",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 0
    }
