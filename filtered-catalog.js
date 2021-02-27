@@ -5453,7 +5453,7 @@ var catalog_raw=[
     {
      "id": "NLKKOTH4LYIU37MFWQP5WWMP",
      "modifier_data": {
-      "name": "make it a ...",
+      "name": "no extra flavors",
       "price_money": {
        "amount": 0
       }
@@ -5537,7 +5537,7 @@ var catalog_raw=[
  {
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
-   "name": "make it a ...",
+   "name": "no extra flavors",
    "price_money": {
     "amount": 0
    }
