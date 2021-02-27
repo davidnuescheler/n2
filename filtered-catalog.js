@@ -3131,7 +3131,7 @@ var catalog_raw=[
   "id": "2NQSD2Q7EQP23Q2MADGONRAX",
   "type": "ITEM",
   "item_data": {
-   "name": "lab cone",
+   "name": "lab soft serve",
    "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
