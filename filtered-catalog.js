@@ -2137,45 +2137,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
-     "modifier_data": {
-      "name": "lemon sorbet (v)  (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "S7NDUWYLJ3V7KYJDOETN5COM",
-     "modifier_data": {
-      "name": "cream cheese + lemon sorbet TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "DPSK2K5EMQE3LKZ5PDXT4BQJ",
-     "modifier_data": {
-      "name": "salted caramel ( gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FY5W24TWGHRLSW7C4RQXYMMU",
-     "modifier_data": {
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
       "price_money": {
        "amount": 0
       }
@@ -7529,15 +7493,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "MD3FQ2AS3GCIUKBLFQJTLMI7",
-  "modifier_data": {
-   "name": "lemon sorbet (v)  (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
   "modifier_data": {
    "name": "dark chocolate sorbet (v) (gf)",
@@ -9201,24 +9156,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DPSK2K5EMQE3LKZ5PDXT4BQJ",
-  "modifier_data": {
-   "name": "salted caramel ( gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "FY5W24TWGHRLSW7C4RQXYMMU",
-  "modifier_data": {
-   "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "773FGXNLDBJH5KYKIMKTJYTQ",
   "type": "ITEM",
   "item_data": {
@@ -9278,15 +9215,6 @@ var catalog_raw=[
   "id": "2AC37SIVICVTVNY6H4N7V37B",
   "modifier_data": {
    "name": "cream cheese (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "S7NDUWYLJ3V7KYJDOETN5COM",
-  "modifier_data": {
-   "name": "cream cheese + lemon sorbet TWIST (gf)",
    "price_money": {
     "amount": 0
    }
