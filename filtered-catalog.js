@@ -202,15 +202,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
-     "modifier_data": {
-      "name": "house-made candy hearts (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "coconut whipped cream (v)",
@@ -5444,15 +5435,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "C7UHK3B3RFY3XYQG6GFRDJL7",
-  "modifier_data": {
-   "name": "house-made candy hearts (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "62NPDWQFYWUSVSQ426GQVQH5",
   "modifier_data": {
    "name": "cornmeal cake (v)",
@@ -5774,15 +5756,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7JV5DR67ICFMLUKGMLTFZ7DX",
-     "modifier_data": {
-      "name": "house-made candy hearts (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "HZHOKK6L56TPQQ7HNCKPC2T6",
      "modifier_data": {
       "name": "coconut whipped cream (v)",
@@ -5918,15 +5891,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
-     "modifier_data": {
-      "name": "house-made candy hearts (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S5LCV3TIVXK6554PSNLRZXY5",
      "modifier_data": {
       "name": "coconut whipped cream (v)",
@@ -6047,15 +6011,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "7JV5DR67ICFMLUKGMLTFZ7DX",
-  "modifier_data": {
-   "name": "house-made candy hearts (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "C4NVV4NZBEK34GDXI23GX6EA",
   "modifier_data": {
    "name": "cornmeal cake (v)",
@@ -6113,15 +6068,6 @@ var catalog_raw=[
   "id": "ISV6PXGEYV4SXWK4Q4MXKADR",
   "modifier_data": {
    "name": "roasted white chocolate bits (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "QO4QVS3W4J3CDVMAJEB6VZSB",
-  "modifier_data": {
-   "name": "house-made candy hearts (v) (gf)",
    "price_money": {
     "amount": 75
    }
