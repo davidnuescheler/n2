@@ -9531,5 +9531,85 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "57655YOPMGNGPCFHD6PREKBH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono - a la vodka",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "3WCOPTZBACLCAH54LC5IVGFE",
+     "item_variation_data": {
+      "item_id": "57655YOPMGNGPCFHD6PREKBH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "U36F4ADPESYANAUZTI6T4UNS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono - beehive",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "G56Y42BYNXNQ3L3TUP6I2JSR",
+     "item_variation_data": {
+      "item_id": "U36F4ADPESYANAUZTI6T4UNS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "KKUJ6UO5VULI6XLWI3E42WUP",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono - vegan",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "EU6SBXAU665CZVHTAEMZQAZU",
+     "item_variation_data": {
+      "item_id": "KKUJ6UO5VULI6XLWI3E42WUP",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ECJYBZJUXGCZLK2JR6PZIIQG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono - margherita",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "YKXWWXBSKQREFCRAIIHLTACI",
+     "item_variation_data": {
+      "item_id": "ECJYBZJUXGCZLK2JR6PZIIQG",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
