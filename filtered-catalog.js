@@ -4071,30 +4071,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZUYTHS53EUZ3ZWUYKEE2QN7D",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "cream cheese + lemon sorbet TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "lemon sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
