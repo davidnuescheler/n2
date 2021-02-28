@@ -2893,9 +2893,39 @@ var catalog_raw=[
      "id": "MM3E66XXHJQL6TYTLGOI6KV2",
      "item_variation_data": {
       "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
-      "name": "Regular",
+      "name": "1 month",
       "price_money": {
        "amount": 4000
+      }
+     }
+    },
+    {
+     "id": "O4G6YLCKHVEARENNHPBPBGCY",
+     "item_variation_data": {
+      "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
+      "name": "3 months",
+      "price_money": {
+       "amount": 12000
+      }
+     }
+    },
+    {
+     "id": "QCK7C5NI7FXY7TQIPYMLW4ID",
+     "item_variation_data": {
+      "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
+      "name": "6 months",
+      "price_money": {
+       "amount": 24000
+      }
+     }
+    },
+    {
+     "id": "U2GNVQCBH3UDB3OAFKCXWCME",
+     "item_variation_data": {
+      "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
+      "name": "12 months",
+      "price_money": {
+       "amount": 48000
       }
      }
     }
