@@ -9188,5 +9188,33 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "ZPLEOLEWS6IX3GJGPZAWTYVS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the green monster",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
+    },
+    {
+     "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GMXPWH4BIYHH3Q5BSIVK7MVB",
+     "item_variation_data": {
+      "item_id": "ZPLEOLEWS6IX3GJGPZAWTYVS",
+      "name": "12 oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
