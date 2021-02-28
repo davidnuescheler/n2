@@ -2651,24 +2651,6 @@ var catalog_raw=[
        "amount": 300
       }
      }
-    },
-    {
-     "id": "IOALQ32V4CWHHOHSGM2QUB3S",
-     "modifier_data": {
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "IRFUB2ECUAM72VNZGRYXOD7P",
-     "modifier_data": {
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -4149,26 +4131,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "lemon sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "JVOOIOUG6B4Y4RN6T5JSILMP",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MRHRMLRSMEVFBPRBYZXN6CLJ",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
       "price_money": {
        "amount": 0
       }
@@ -9236,24 +9198,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "IOALQ32V4CWHHOHSGM2QUB3S",
-  "modifier_data": {
-   "name": "salted caramel (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "IRFUB2ECUAM72VNZGRYXOD7P",
-  "modifier_data": {
-   "name": "salted caramel (gf) + dark chocolate sorbet (gf) TWIST",
-   "price_money": {
-    "amount": 300
-   }
   }
  },
  {
