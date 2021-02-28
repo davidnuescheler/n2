@@ -2644,24 +2644,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
-     "modifier_data": {
-      "name": "lemon sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "HCZEZX7CDD2TP6QIAJGISPYA",
-     "modifier_data": {
-      "name": "cream cheese + lemon sorbet TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
@@ -4123,20 +4105,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
+     "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "lemon sorbet (v) (gf)",
+      "name": "dark chocolate sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
+     "id": "6RHXF7TZ6Z3V3QDVEZLACN4L",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "dark chocolate sorbet (v) (gf)",
+      "name": "lemon sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -7573,15 +7555,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "PL6DT72VKE54ZUZEDZK4Z4NM",
-  "modifier_data": {
-   "name": "lemon sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
   "modifier_data": {
    "name": "select your soft serve",
@@ -9322,15 +9295,6 @@ var catalog_raw=[
   "id": "X772PU73PE623EO5JHMSFE74",
   "modifier_data": {
    "name": "cream cheese (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "HCZEZX7CDD2TP6QIAJGISPYA",
-  "modifier_data": {
-   "name": "cream cheese + lemon sorbet TWIST (gf)",
    "price_money": {
     "amount": 300
    }
