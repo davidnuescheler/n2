@@ -340,60 +340,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "MR66BS3WFKZZ5QH4VRLZMNKC",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "STORE VESSEL",
-   "modifiers": [
-    {
-     "id": "5P7O4MLKQOXVCZJXARDYUGBW",
-     "modifier_data": {
-      "name": "cup",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ATTR4UD6EKWOWDXL2JPCPWAE",
-     "modifier_data": {
-      "name": "cone",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
-     "id": "HGUHUOMLEGCK5QICXMMBXCLX",
-     "modifier_data": {
-      "name": "cup + cone on top!",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "5P7O4MLKQOXVCZJXARDYUGBW",
-  "modifier_data": {
-   "name": "cup",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "ATTR4UD6EKWOWDXL2JPCPWAE",
-  "modifier_data": {
-   "name": "cone",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
   "id": "2C6JVCDGCNAOQDEUPM4F6PNZ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -2059,9 +2005,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
-    },
-    {
      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
     },
     {
@@ -2967,9 +2910,6 @@ var catalog_raw=[
    "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
-     "modifier_list_id": "SVHE22U3CGBLX3O5ICNVCG5A"
-    },
-    {
      "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
     },
     {
@@ -2987,9 +2927,9 @@ var catalog_raw=[
      "id": "6VCVAVGJ3QUOOIJQAPBQXQ6B",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "normal size",
+      "name": "graham cracker milk",
       "price_money": {
-       "amount": 400
+       "amount": 0
       }
      }
     },
@@ -2997,9 +2937,49 @@ var catalog_raw=[
      "id": "4UQDTZSNNB5F4L6R242D6JPP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "half size",
+      "name": "coffee (gf)",
       "price_money": {
-       "amount": 300
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "FVT3D5V75VEM25INB4NJBVXC",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "graham cracker milk + coffee TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NG3CQQISBQZXP5FADUMU54BT",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6LQ3UPMRFPQGUSBCMVHM7CXP",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "blackberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "JPIWRXZLGYW26KZ4U446UYA3",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "blackberry + vegan vanilla TWIST (v) (gf)",
+      "price_money": {
+       "amount": 0
       }
      }
     }
@@ -3066,15 +3046,6 @@ var catalog_raw=[
    "name": "select topping 1",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "HGUHUOMLEGCK5QICXMMBXCLX",
-  "modifier_data": {
-   "name": "cup + cone on top!",
-   "price_money": {
-    "amount": 100
    }
   }
  },
@@ -3770,9 +3741,6 @@ var catalog_raw=[
    "name": "store soft serve",
    "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
-    },
     {
      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
     },
