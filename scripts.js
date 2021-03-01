@@ -1879,6 +1879,9 @@ const validateSubmission = ($form) => {
 
   if ($requiredFields) {
     $requiredFields.forEach((f) => {
+      if (f.type === "tel") {
+        f.value = cleanName(f.value);
+      }
       if (!f.value.trim() || !f.checkValidity()) {
         invalidFieldsById.push(f.id);
       }
@@ -2133,7 +2136,7 @@ const buildFields = (formType, field) => {
         // tel pattern
         $field.pattern = "[0-9]{10,11}";
       } else if (field.type === "email") {
-        $field.pattern = "[a-zA-Z0-9]+@[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+)+";
+        $field.pattern = "[a-zA-Z0-9\\.]+@[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+)+";
       }
 
       if (field.placeholder) {
