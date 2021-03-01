@@ -1190,9 +1190,6 @@ var catalog_raw=[
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "modifier_list_info": [
     {
-     "modifier_list_id": "XKJLMJRKJ6BRSJVJRD6UP4NV"
-    },
-    {
      "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
     }
    ],
@@ -2389,87 +2386,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "XKJLMJRKJ6BRSJVJRD6UP4NV",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "custom taco dip",
-   "modifiers": [
-    {
-     "id": "EPUTNMXXPP467JTJRW7FOCVX",
-     "modifier_data": {
-      "name": "no dip",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "NRGI7KGRKOBOGDOGDENHAZBZ",
-     "modifier_data": {
-      "name": "almond dip",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VLROZ7RIUKALRYS6SJMQ6GXL",
-     "modifier_data": {
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ZXY3QPE2NBPFPBXNKZ2CEV4W",
-     "modifier_data": {
-      "name": "dark chocolate crunch",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UTS3EPW5FU3QKEKMSPP4QG4L",
-     "modifier_data": {
-      "name": "dulcey chocolate",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "NRGI7KGRKOBOGDOGDENHAZBZ",
-  "modifier_data": {
-   "name": "almond dip",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VLROZ7RIUKALRYS6SJMQ6GXL",
-  "modifier_data": {
-   "name": "dark chocolate",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "UTS3EPW5FU3QKEKMSPP4QG4L",
-  "modifier_data": {
-   "name": "dulcey chocolate",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
   "type": "ITEM",
   "item_data": {
@@ -2968,15 +2884,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EPUTNMXXPP467JTJRW7FOCVX",
-  "modifier_data": {
-   "name": "no dip",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "RK6BJKAS3V753NS6YSDJV5PX",
   "modifier_data": {
    "name": "no dip",
@@ -3012,15 +2919,6 @@ var catalog_raw=[
   "id": "AVCCZNFMX46OY3UXA3WC7HHQ",
   "modifier_data": {
    "name": "cup + cone on top!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "ZXY3QPE2NBPFPBXNKZ2CEV4W",
-  "modifier_data": {
-   "name": "dark chocolate crunch",
    "price_money": {
     "amount": 0
    }
@@ -6877,7 +6775,7 @@ var catalog_raw=[
     {
      "id": "3ETYIPTVQRGOFBONMXL2XRJQ",
      "modifier_data": {
-      "name": "hot (kid's temp)",
+      "name": "warm (kid's temp)",
       "price_money": {
        "amount": 0
       }
@@ -6994,7 +6892,7 @@ var catalog_raw=[
  {
   "id": "3ETYIPTVQRGOFBONMXL2XRJQ",
   "modifier_data": {
-   "name": "hot (kid's temp)",
+   "name": "warm (kid's temp)",
    "price_money": {
     "amount": 0
    }
