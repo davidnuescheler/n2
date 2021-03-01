@@ -8953,5 +8953,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "TQD3ELFTKE6RYOXOWGOOC772",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lemon sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "LSJ2UBCTCGVYUU47IFCQSWQY",
+     "item_variation_data": {
+      "item_id": "TQD3ELFTKE6RYOXOWGOOC772",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
