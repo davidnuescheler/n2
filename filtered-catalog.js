@@ -397,7 +397,7 @@ var catalog_raw=[
   "id": "2C6JVCDGCNAOQDEUPM4F6PNZ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "LAB composed cone",
+   "name": "composed cone vessel",
    "modifiers": [
     {
      "id": "7VPNBADQMRBQUFDJGJFKB5S3",
@@ -478,51 +478,6 @@ var catalog_raw=[
   "id": "5K62DMKPEKA5ZTXU5VRFBACQ",
   "modifier_data": {
    "name": "iced",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2MUFXZ5SDSXC3FSR7AAOT6XH",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "location",
-   "modifiers": [
-    {
-     "id": "YLMSOOZAREKSOUMSOC74PDZK",
-     "modifier_data": {
-      "name": "to stay",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "QPPQV3IZE3INYMZ4GS75GSGB",
-     "modifier_data": {
-      "name": "to-go",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "YLMSOOZAREKSOUMSOC74PDZK",
-  "modifier_data": {
-   "name": "to stay",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "QPPQV3IZE3INYMZ4GS75GSGB",
-  "modifier_data": {
-   "name": "to-go",
    "price_money": {
     "amount": 0
    }
@@ -1683,9 +1638,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
     },
     {
@@ -1757,9 +1709,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1790,9 +1739,6 @@ var catalog_raw=[
    "name": "monthly tea latte special",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
     {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
     },
@@ -1860,9 +1806,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
-    },
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     }
    ],
    "variations": [
@@ -1978,9 +1921,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -2013,9 +1953,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
@@ -2873,7 +2810,7 @@ var catalog_raw=[
   "id": "G6UENHHO3MBKOXDAAT2FW3WU",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "LAB vessel",
+   "name": "vessel",
    "modifiers": [
     {
      "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
@@ -3672,69 +3609,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6FIUN6R47HWQU43NUNM7GSC4",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "pizza pints",
-   "modifiers": [
-    {
-     "id": "7AFPIGFSYBVSDQTN44AMV235",
-     "modifier_data": {
-      "name": "select your pint",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
-     "modifier_data": {
-      "name": "salted caramel (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3XXYSD6H2RRSNNBGX26SRCW5",
-     "modifier_data": {
-      "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "S7LMCA2GXYDV5XA42B2WMWOU",
-     "modifier_data": {
-      "name": "lemon sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "5FHYQ3WNRENHS5YOEIWGGHOK",
-     "modifier_data": {
-      "name": "cream cheese (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "375R7GECOPMKF6J2VTBNHVBX",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "HCPXHYIFAFZ2VWX6YUCXECJD",
   "type": "CATEGORY",
   "category_data": {
@@ -3867,60 +3741,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JIE2SU6X6G42LVGUY2EV7SBR",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "pizza nono",
-   "modifiers": [
-    {
-     "id": "BL2CXEQI3ERZHILCDMETNKHZ",
-     "modifier_data": {
-      "name": "select your pizza",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "QBYX2E6V5KJICT74Z2UXKOYS",
-     "modifier_data": {
-      "name": "pepperoni",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "K7DKNT3SLP454U263EM5XTFJ",
-     "modifier_data": {
-      "name": "vegan!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MT6ZQGKIRJFEEA6OLEZEJ6KM",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LMEF5CMTQ7MDSUVPBOYQIJKY",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "3D2X763NAIJIJHYXA2TCL5KF",
   "type": "ITEM",
   "item_data": {
@@ -3958,12 +3778,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ"
-    },
-    {
-     "modifier_list_id": "3EX6HIXETUSNUGXPIYUNHDJQ"
-    },
-    {
-     "modifier_list_id": "I3JSG5HR2WGYZVXPCW3JC54G"
     }
    ],
    "variations": [
@@ -4423,14 +4237,6 @@ var catalog_raw=[
   "item_data": {
    "name": "pizza nono X normal",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    },
-    {
-     "modifier_list_id": "JIE2SU6X6G42LVGUY2EV7SBR"
-    }
-   ],
    "variations": [
     {
      "id": "6L27SV4ZBKHPHOQAL3FLSQZ5",
@@ -4624,7 +4430,7 @@ var catalog_raw=[
   "id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "STORE cone size",
+   "name": "cone size",
    "modifiers": [
     {
      "id": "BXXV7SWWBXPULD3JNPTR63GL",
@@ -5007,11 +4813,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "shipping + handling",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    }
-   ],
    "variations": [
     {
      "id": "GTMQCMXMAHX4X6NFKDX5AYQC",
@@ -6883,15 +6684,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QBYX2E6V5KJICT74Z2UXKOYS",
-  "modifier_data": {
-   "name": "pepperoni",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "LQLZ4YQZV6QKU5IFRPCY4BT2",
   "type": "ITEM",
   "item_data": {
@@ -7371,24 +7163,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "BL2CXEQI3ERZHILCDMETNKHZ",
-  "modifier_data": {
-   "name": "select your pizza",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7AFPIGFSYBVSDQTN44AMV235",
-  "modifier_data": {
-   "name": "select your pint",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "HSVRY3S35OCPLYE35LIRLOBF",
   "modifier_data": {
    "name": "brownie batter (gf)",
@@ -7561,11 +7335,6 @@ var catalog_raw=[
   "item_data": {
    "name": "LOCAL LOVE BOX",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "4L6YA7XPYZI6TIDHIRMXKMKB"
-    }
-   ],
    "variations": [
     {
      "id": "4V46OTFQIXROLKWXSD7M3JOI",
@@ -7598,69 +7367,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "4L6YA7XPYZI6TIDHIRMXKMKB",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "v day box mod",
-   "modifiers": [
-    {
-     "id": "WMSQWE7SHJFDIDEGXPFZKMAB",
-     "modifier_data": {
-      "name": "allergens?",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MPPVIO2LHXWC7G33WOYO6CR3",
-     "modifier_data": {
-      "name": "make it normal®",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7AG7MAX7DLEC4AQE7UP7DCL2",
-     "modifier_data": {
-      "name": "make it vegan!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "WMSQWE7SHJFDIDEGXPFZKMAB",
-  "modifier_data": {
-   "name": "allergens?",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "MPPVIO2LHXWC7G33WOYO6CR3",
-  "modifier_data": {
-   "name": "make it normal®",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7AG7MAX7DLEC4AQE7UP7DCL2",
-  "modifier_data": {
-   "name": "make it vegan!",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -7733,51 +7439,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "K7DKNT3SLP454U263EM5XTFJ",
-  "modifier_data": {
-   "name": "vegan!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "ZNB2GLXYGGIOPAB5NB4MRACU",
-  "modifier_data": {
-   "name": "salted caramel (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3XXYSD6H2RRSNNBGX26SRCW5",
-  "modifier_data": {
-   "name": "dark chocolate sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "S7LMCA2GXYDV5XA42B2WMWOU",
-  "modifier_data": {
-   "name": "lemon sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "5FHYQ3WNRENHS5YOEIWGGHOK",
-  "modifier_data": {
-   "name": "cream cheese (gf)",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -8837,24 +8498,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "MT6ZQGKIRJFEEA6OLEZEJ6KM",
-  "modifier_data": {
-   "name": "beehive",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LMEF5CMTQ7MDSUVPBOYQIJKY",
-  "modifier_data": {
-   "name": "margherita",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "KEGZ2BHIPF3CYHG25VAUL45X",
   "type": "ITEM",
   "item_data": {
@@ -9005,15 +8648,6 @@ var catalog_raw=[
    "name": "pink sprinks (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "375R7GECOPMKF6J2VTBNHVBX",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
