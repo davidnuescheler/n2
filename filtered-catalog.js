@@ -2824,7 +2824,7 @@ var catalog_raw=[
       "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
       "name": "3 months",
       "price_money": {
-       "amount": 12000
+       "amount": 11400
       }
      }
     },
@@ -2834,7 +2834,7 @@ var catalog_raw=[
       "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
       "name": "6 months",
       "price_money": {
-       "amount": 24000
+       "amount": 22800
       }
      }
     },
