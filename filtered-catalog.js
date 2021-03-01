@@ -8247,26 +8247,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "773FGXNLDBJH5KYKIMKTJYTQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "amano pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
-   "variations": [
-    {
-     "id": "LLMXKCVFJFOSJRS7RCCOK4ZY",
-     "item_variation_data": {
-      "item_id": "773FGXNLDBJH5KYKIMKTJYTQ",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1200
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
   "modifier_data": {
    "name": "burnt honey ganache (gf)",
@@ -8892,6 +8872,86 @@ var catalog_raw=[
    "price_money": {
     "amount": 300
    }
+  }
+ },
+ {
+  "id": "KB57CBAY2PPMX72PZL5LHOWK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "feeling blue pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "3CPM55STPGEKR7EE4ZY5RJYW",
+     "item_variation_data": {
+      "item_id": "KB57CBAY2PPMX72PZL5LHOWK",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "BF22UMOGA5AF474DVT4KK4BV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "almond joy pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "EPQZDPKM4AAJD5K6RDQURLOT",
+     "item_variation_data": {
+      "item_id": "BF22UMOGA5AF474DVT4KK4BV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "BITOW5LL4P6MPG7L6YUEBN3I",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the amano pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "U3VFPY7HM6ZY3PMRQSJNR3Y7",
+     "item_variation_data": {
+      "item_id": "BITOW5LL4P6MPG7L6YUEBN3I",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "UHOUIHQVFYFJ24BIA6PK46DN",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vegan red velvet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "RCXZKUPNKHXY3UKV4WBYX3F2",
+     "item_variation_data": {
+      "item_id": "UHOUIHQVFYFJ24BIA6PK46DN",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
   }
  }
 ]
