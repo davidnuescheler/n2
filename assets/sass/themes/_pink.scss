@@ -1,0 +1,143 @@
+.theme-pink {
+    background: $color-pink;
+    color: $color-red;
+
+    input {
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 5rem $color-pink inset;
+            -webkit-text-fill-color: $color-red;
+        }
+    }
+
+    & .header-cart {
+        background: $color-pink;
+
+        &-text {
+            color: $color-red;
+        }
+    }
+
+    & .btn {
+        &-back, &-rect {
+            color: $color-pink !important;
+            background: $color-red !important;
+        }
+    }
+
+    & .customize {
+        &::-webkit-scrollbar-thumb {
+            background: $color-red;
+        }
+        & .invalid-field {
+            animation-name: pink-error-blink;
+        }
+        &-close {
+            background: $color-pink;
+        }
+        &-table {
+            &-body {
+                &-field, &-selectwrapper {
+                    &:hover, &:focus {
+                        background: $color-yellow;
+                    }
+                }
+                &-radio, &-checkbox {
+                    background: $color-red;
+                    color: $color-pink; 
+                
+                    &-container {
+                        background: $color-pink;
+                        color: $color-red;
+                    }
+                }
+            }
+        }
+    }
+
+    & .checkout {
+        // border: 2px solid gold;
+        &::-webkit-scrollbar-thumb {
+            background: $color-red;
+        }
+        & .invalid-field {
+            animation-name: pink-error-blink;
+        }
+        &-back {
+            background: $color-yellow !important;
+            color: $color-red !important;
+        }
+
+        &-table {
+            &-body {
+                background: $color-red !important;
+                color: $color-pink !important;
+                & tr {
+                    border-top: 1px solid $color-pink;
+                    border-bottom: 1px solid $color-pink;
+                }
+                &-quantity {
+                    & .quantity {
+                        background: $color-pink;
+                        color: $color-red;
+                    }
+                }
+                &-field, &-selectwrapper {
+                    &:hover, &:focus {
+                        background: $color-yellow;
+                    }
+                }
+                &-radio, &-checkbox {
+                    background: $color-red;
+                    color: $color-pink; 
+                
+                    &-container {
+                        background: $color-pink;
+                        color: $color-red;
+                    }
+                }
+            }
+        }
+    }
+
+    & .menu {
+        &-filled {
+            background: $color-red;
+            color: $color-pink;
+
+            &:nth-child(odd) {
+                background: $color-yellow;
+                color: $color-red;
+            }
+    
+            & .btn {
+                &-rect {
+                    background: $color-pink !important;
+                    color: $color-red !important;
+                }
+            }
+        }
+        &-carousel {
+            &-btn {
+                background: $color-pink;
+
+                &:hover, &:focus {
+                    background: $color-red;
+                    
+                    & svg.icon {
+                        color: $color-pink;
+                    }
+                }
+            }
+        }
+    }
+
+    & #back-to-top {
+        background: $color-pink;
+    }
+}
+
+@keyframes pink-error-blink {
+    0% { background: $color-pink; }
+   50% { background: $color-red; }
+   99% { background: $color-pink; }
+}

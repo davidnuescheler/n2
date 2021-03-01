@@ -1,0 +1,21 @@
+h1#normalreg {
+    font-size: 9.9rem;
+
+    & svg.icon-reg {
+        vertical-align: super;
+        font-size: 50%;
+        margin-right: -3.9rem; // offset for center alignment
+    }
+}
+
+@media only screen and (max-width: $tablet) {
+    h1#normalreg {
+        // font-size: 7.9rem;
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    h1#normalreg {
+        font-size: 7.3rem;
+    }
+}

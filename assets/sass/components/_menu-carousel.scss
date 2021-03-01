@@ -1,0 +1,163 @@
+.menu-carousel {
+    position: relative;
+    overflow-x: hidden;
+
+    &-btn {
+        // background: red;
+        position: absolute;
+        display: inline-block;
+        padding: 0.5rem;
+        border-radius: 50%;
+        top: 55%;
+        z-index: 4;
+        transition: 0.2s all;
+        cursor: pointer;
+        @include bfv;
+        
+        &-left {
+            left: 0.5rem;
+        }
+        &-right {
+            right: 0.5rem;
+        }
+
+        & svg.icon {
+            // color: pink;
+            height: 3rem;
+            width: 3rem;
+            margin: 0.5rem;
+            stroke-width: 6;
+        }
+    }
+
+    &-odd {
+        // background: red;
+    }
+
+    &-even {
+        // background: yellow;
+    }
+
+    &-full {
+        // background: green;
+    }
+
+    &-three {
+        & .menu-carousel-btn {
+            display: none;
+        }
+    }
+
+    &-two {
+        // background: pink;
+        & .menu-carousel-btn {
+            display: none;
+        }
+
+        & div {
+            // border: 2px solid red;
+            width: calc(100% / 2);
+            padding: 0 10rem;
+        }
+    }
+
+    &-one {
+        // background: purple;
+        & .menu-carousel-btn {
+            display: none;
+        }
+
+        & div {
+            width: 100%;
+        }
+    }
+}
+
+.embed-internal-storemenus, .embed-internal-labmenus, 
+.embed-internal-deliverymenus, .embed-internal-merchmenus,
+.embed-internal-aboutmenus {
+    // background: yellow;
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    & div {
+        // border: 2px solid red;
+        min-width: calc(100% / 3);
+        padding: 0 6rem;
+
+        & h3 {
+            margin-top: 2rem;
+            margin-bottom: 0.2rem;
+        }
+        & p {
+            @include font-poppins;
+            font-size: 60%;
+            line-height: 1.4;
+            margin-top: 0.4rem;
+            & img {
+                margin-top: 1rem;
+                height: 20rem;
+                transition: 0.2s all;
+                @include bfv;
+
+                &:hover, &:focus {
+                    transform: translateY(0.5rem) scale(1.2) rotate(-3deg);
+                }
+            }
+            & strong {
+                @include font-poppins-black;
+                font-size: 120%;
+            }
+            & a {
+                @include font-acumin-semibold;
+                font-size: 2rem;
+                text-decoration: none;
+                cursor: not-allowed;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $tablet) {
+    .menu-carousel {
+        &-full, &-three {
+            & div {
+                // border: 2px solid red;
+                min-width: calc(100% / 2);
+                padding: 0 10rem;
+            }
+        }
+        &-three {
+            & .menu-carousel-btn {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    .menu-carousel {
+        &-full, &-two, &-three {
+            & div {
+                // border: 2px solid red;
+                min-width: 100%;
+                padding: 0 6rem;
+            }
+        }
+        &-two {
+            & .menu-carousel-btn {
+                display: inline-block;
+            }
+        }
+    }
+}
