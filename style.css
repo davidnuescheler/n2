@@ -694,6 +694,9 @@ svg {
   .menu-carousel-one div {
     width: 100%; }
 
+.p-icecreamcake img {
+  border-radius: 50%; }
+
 .embed-internal-storemenus, .embed-internal-labmenus,
 .embed-internal-deliverymenus, .embed-internal-merchmenus,
 .embed-internal-aboutmenus {

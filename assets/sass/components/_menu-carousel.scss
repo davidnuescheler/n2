@@ -73,6 +73,13 @@
     }
 }
 
+// ice cream cake specific
+.p-icecreamcake {
+    & img {
+        border-radius: 50%;
+    }
+}
+
 .embed-internal-storemenus, .embed-internal-labmenus, 
 .embed-internal-deliverymenus, .embed-internal-merchmenus,
 .embed-internal-aboutmenus {

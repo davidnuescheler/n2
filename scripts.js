@@ -1236,7 +1236,12 @@ const setupPintSubOptions = () => {
         o.setAttribute("data-club-type", cleanName(title));
         o.onclick = (e) => {
           const $el = e.target.closest("a");
-          const target = $el.getAttribute("data-club-type");
+          let target = $el.getAttribute("data-club-type");
+        if (target.includes("edit")) { // hacky fix for broken links
+            const split = target.split("edit")[1];
+            target = split;
+        }
+
           populateCustomizationTool("select your subscription pack", [ "contact", "pint-club" ]);
           customizeToolforClub(target);
         }
