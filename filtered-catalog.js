@@ -9179,7 +9179,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -9214,7 +9214,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -9248,9 +9248,6 @@ var catalog_raw=[
    "name": "blueberry crumble",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    },
     {
      "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
@@ -9287,9 +9284,6 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
-    },
-    {
      "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
@@ -9325,7 +9319,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
@@ -9360,7 +9354,7 @@ var catalog_raw=[
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
     }
    ],
    "variations": [
