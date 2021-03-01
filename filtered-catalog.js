@@ -430,51 +430,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UIXMGRUZBPNSQHDPOWXEKQGO",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "tea latte",
-   "modifiers": [
-    {
-     "id": "TCO5XTNUNOKM7L34JQJNYEKU",
-     "modifier_data": {
-      "name": "latte whole milk",
-      "price_money": {
-       "amount": 200
-      }
-     }
-    },
-    {
-     "id": "OK6NZWMATJT5UXJ6HULYEG7S",
-     "modifier_data": {
-      "name": "latte oat milk",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "TCO5XTNUNOKM7L34JQJNYEKU",
-  "modifier_data": {
-   "name": "latte whole milk",
-   "price_money": {
-    "amount": 200
-   }
-  }
- },
- {
-  "id": "OK6NZWMATJT5UXJ6HULYEG7S",
-  "modifier_data": {
-   "name": "latte oat milk",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "UTJ4KKU6NI74TL37AS6FJFAZ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -1585,9 +1540,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
-    },
-    {
-     "modifier_list_id": "UIXMGRUZBPNSQHDPOWXEKQGO"
     }
    ],
    "variations": [
