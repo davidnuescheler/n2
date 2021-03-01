@@ -145,6 +145,10 @@ h2 {
   font-weight: 600;
   font-style: normal;
   font-size: 6.6rem; }
+  h2 svg.icon-reg {
+    vertical-align: 20%;
+    margin-left: -3px;
+    font-size: 70%; }
 
 h3 {
   font-family: acumin-pro-extra-condensed, sans-serif;
@@ -153,7 +157,8 @@ h3 {
   font-size: 3.3rem; }
   h3 svg.icon-reg {
     vertical-align: baseline;
-    margin-left: -3px; }
+    margin-left: -3px;
+    font-size: 70%; }
 
 h4 {
   font-family: acumin-pro-extra-condensed, sans-serif;
@@ -409,7 +414,7 @@ a {
 @media only screen and (max-width: 46.4rem) {
   .checkout-container {
     margin-top: 6rem;
-    margin-bottom: 6rem; }
+    margin-bottom: 12rem; }
   .checkout-back {
     position: static;
     margin: 0 auto;
@@ -625,39 +630,20 @@ a {
     .customize-table-body-selectwrapper-select {
       padding: 1rem 4rem 1rem 2rem; }
   .customize-foot {
-    margin-bottom: 8rem; } }
+    margin-bottom: 12rem; } }
 
-main svg {
-  height: 0.8em;
-  width: 0.8em;
-  display: inline-block;
-  text-transform: none; }
+main > * {
+  opacity: 0; }
 
-svg {
-  fill: currentColor;
-  stroke: currentColor;
-  vertical-align: middle; }
-  svg.icon-store, svg.icon-lab, svg.icon-cooler-bag, svg.icon-shipping-box, svg.icon-to-go-bag, svg.icon-van, svg.icon-pint-club, svg.icon-pints {
-    height: 15rem;
-    width: 20rem;
-    stroke-width: 0; }
-  svg.icon-v, svg.icon-gf {
-    margin: 0 -0.2rem;
-    font-size: 120%;
-    font-family: acumin-pro-extra-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal; }
-  svg.icon-arrow-up, svg.icon-arrow-down, svg.icon-arrow-left, svg.icon-arrow-right {
-    stroke-width: 10 !important;
-    margin: 12rem 1rem;
-    width: 4.5rem;
-    height: 4.5rem; }
+.lazy-load {
+  animation: lazy-load 0.5s linear 0s 1 normal;
+  opacity: 1; }
 
-#about svg.icon-arrow-down, #pintclub svg.icon-arrow-down {
-  cursor: pointer;
-  transition: 0.1s all; }
-  #about svg.icon-arrow-down:hover, #pintclub svg.icon-arrow-down:hover {
-    transform: scaleY(1.2) translateY(0.6rem); }
+@keyframes lazy-load {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 .menu-carousel {
   position: relative;
@@ -695,7 +681,8 @@ svg {
     width: 100%; }
 
 .p-icecreamcake img {
-  border-radius: 50%; }
+  border-radius: 50%;
+  object-fit: cover !important; }
 
 .embed-internal-storemenus, .embed-internal-labmenus,
 .embed-internal-deliverymenus, .embed-internal-merchmenus,
@@ -765,7 +752,7 @@ svg {
 @media only screen and (max-width: 76.8rem) {
   .menu-carousel-full div, .menu-carousel-three div {
     min-width: calc(100% / 2);
-    padding: 0 10rem; }
+    padding: 0 6rem; }
   .menu-carousel-three .menu-carousel-btn {
     display: inline-block; } }
 
@@ -877,6 +864,38 @@ svg {
 
 .sq-input {
   transition: 0.2s all; }
+
+main svg {
+  height: 0.8em;
+  width: 0.8em;
+  display: inline-block;
+  text-transform: none; }
+
+svg {
+  fill: currentColor;
+  stroke: currentColor;
+  vertical-align: middle; }
+  svg.icon-store, svg.icon-lab, svg.icon-cooler-bag, svg.icon-shipping-box, svg.icon-to-go-bag, svg.icon-van, svg.icon-pint-club, svg.icon-pints {
+    height: 15rem;
+    width: 20rem;
+    stroke-width: 0; }
+  svg.icon-v, svg.icon-gf {
+    margin: 0 -0.2rem;
+    font-size: 120%;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal; }
+  svg.icon-arrow-up, svg.icon-arrow-down, svg.icon-arrow-left, svg.icon-arrow-right {
+    stroke-width: 10 !important;
+    margin: 12rem 1rem;
+    width: 4.5rem;
+    height: 4.5rem; }
+
+#about svg.icon-arrow-down, #pintclub svg.icon-arrow-down {
+  cursor: pointer;
+  transition: 0.1s all; }
+  #about svg.icon-arrow-down:hover, #pintclub svg.icon-arrow-down:hover {
+    transform: scaleY(1.2) translateY(0.6rem); }
 
 h1#normalreg {
   font-size: 9.9rem; }
@@ -1153,7 +1172,7 @@ h2#soft-serve ~ p, h2#drinks-drinks-drinks ~ p, h2#pints ~ p, h2#bars ~ p, h2#sa
   h2#soft-serve ~ p img, h2#drinks-drinks-drinks ~ p img, h2#pints ~ p img, h2#bars ~ p img, h2#sandos ~ p img, h2#composed-cones ~ p img, h2#pizza ~ p img, h2#choco-taco ~ p img, h2#specials ~ p img, h2#norm-cores ~ p img, h2#ice-cream-cake ~ p img, h2#gift-cards ~ p img, h2#apparel ~ p img, h2#accessories ~ p img, h2#delivery-zips ~ p img {
     margin-top: 1rem;
     height: 20rem;
-    max-width: 80%;
+    max-width: 100%;
     object-fit: contain;
     transition: 0.2s all;
     -webkit-backface-visibility: hidden;
@@ -1181,7 +1200,7 @@ h2#soft-serve ~ h3 {
   padding: 2rem 0; }
   .menu img {
     height: 20rem;
-    max-width: 80%;
+    max-width: 100%;
     object-fit: contain; }
   .menu-filled > * {
     padding-left: 33%;
@@ -1195,7 +1214,9 @@ h2#soft-serve ~ h3 {
 .p-normal > p {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+  line-height: 1.2;
+  margin-top: 0.8rem; }
 
 @media only screen and (max-width: 76.8rem) {
   .menu-filled > * {
