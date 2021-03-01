@@ -1,0 +1,134 @@
+.theme-yellow {
+    background: $color-yellow;
+    color: $color-green;
+
+    input {
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 5rem $color-yellow inset;
+            -webkit-text-fill-color: $color-green;
+        }
+    }
+
+    & .header-cart {
+        background: $color-yellow;
+
+        &-text {
+            color: $color-green;
+        }
+    }
+
+    & .btn {
+        &-back, &-rect {
+            color: $color-yellow !important;
+            background: $color-green !important;
+        }
+    }
+
+    & .customize {
+        &::-webkit-scrollbar-thumb {
+            background: $color-green;
+        }
+        & .invalid-field {
+            animation-name: yellow-error-blink;
+        }
+        &-close {
+            background: $color-yellow;
+        }
+        &-table-body-radio, &-table-body-checkbox {
+            background: $color-green;
+            color: $color-yellow; 
+        
+            &-container {
+                background: $color-yellow;
+                color: $color-green;
+            }
+        }
+    }
+
+    & .checkout {
+        // border: 2px solid gold;
+        &::-webkit-scrollbar-thumb {
+            background: $color-green;
+        }
+        & .invalid-field {
+            animation-name: yellow-error-blink;
+        }
+        &-back {
+            background: $color-white !important;
+            color: $color-green !important;
+        }
+
+        &-table {
+            &-body {
+                background: $color-green;
+                color: $color-yellow;
+                & tr {
+                    border-top: 1px solid $color-yellow;
+                    border-bottom: 1px solid $color-yellow;
+                }
+                &-quantity {
+                    & .quantity {
+                        background: $color-yellow;
+                        color: $color-green;
+                    }
+                }
+                &-field, &-selectwrapper {
+                    &:hover, &:focus {
+                        background: $color-pink;
+                    }
+                }
+                &-radio, &-checkbox {
+                    background: $color-blue;
+                    color: $color-white; 
+                
+                    &-container {
+                        background: $color-white;
+                        color: $color-blue;
+                    }
+                }
+            }
+        }
+    }
+
+    & .menu {
+        &-filled {
+            background: $color-green;
+            color: $color-yellow;
+
+            &:nth-child(odd) {
+                background: $color-white;
+                color: $color-green;
+            }
+    
+            & .btn {
+                &-rect {
+                    background: $color-yellow !important;
+                    color: $color-green !important;
+                }
+            }
+        }
+        &-carousel {
+            &-btn {
+                background: $color-yellow;
+
+                &:hover, &:focus {
+                    background: $color-green;
+                    
+                    & svg.icon {
+                        color: $color-yellow;
+                    }
+                }
+            }
+        }
+    }
+
+    & #back-to-top {
+        background: $color-yellow;
+    }
+}
+
+@keyframes yellow-error-blink {
+    0% { background: $color-yellow; }
+   50% { background: $color-green; }
+   99% { background: $color-yellow; }
+}

@@ -1,0 +1,175 @@
+h2#nav + ul {
+    font-size: 5.8rem;
+    line-height: 5.8rem;
+    list-style-type: none;
+    text-align: left;
+    margin: 1.8rem 0;
+    padding: 0;
+    @include font-acumin-semibold;
+
+    & li {
+        position: relative;
+        border-bottom: 2px solid currentColor;
+        padding: 1.5rem 0 1.5rem 0;
+        transition: 0.1s;
+        // @include bfv;
+
+        &:hover, &:focus {
+            padding-bottom: calc(1.5rem - 2px);
+            border-width: 4px;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        }
+
+        & a {
+            width: 100%;
+            text-decoration: none;
+            transition: 0.1s;
+            // @include bfv;
+
+            &:focus {
+                padding-bottom: calc(1.5rem - 1.5px);
+                border-width: 3px;
+                letter-spacing: 1.5px;
+            }
+
+            &::after {
+                content: url("./svg/arrow-right.svg");
+                position: absolute;
+                right: 0;
+                height: 1;
+                width: 6.5rem;
+            }
+        }
+    }
+} 
+
+// AFTER CLASSES & IDS ARE ADDED
+#index h1#normalreg {
+    text-align: left;
+}
+
+div.p-nav {
+    width: 33%;
+}
+
+@media only screen and (max-width: $tablet) {
+    div.p-nav {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    div.p-nav {
+        width: 100%;
+    }
+}
+
+h2#carousel + div.embed {
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-thumb {
+        background: $color-white;
+    }
+
+    & div {
+        display: flex;
+
+        p {
+            display: flex;
+        }
+        
+        img {
+            width: 45rem;
+            height: 60rem;
+            object-fit: cover;
+            padding-right: 1.8rem;
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    h2#carousel + div.embed  {
+        & div {
+            flex-direction: column;
+            
+            p {
+                padding-right: 0;
+                padding-bottom: 0.9rem;
+
+                img {
+                    height: 30rem;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+div.embed-internal-indexcarousel + p {
+    // border: 2px solid green;
+    position: relative;
+    text-align: left;
+    
+    & a {
+        // border: 2px solid orange;
+        display: block;
+        font-size: 2.9rem;
+        line-height: 2.9rem;
+        text-decoration: none;
+        transition: 0.1s;
+        @include bfv;
+    
+        &:hover, &:focus {
+            letter-spacing: 1.5px;
+        }
+
+        &::after {
+            content: url("./svg/arrow-right.svg");
+            width: 3.5rem;
+            position: absolute;
+            right: 1.8rem;
+        }
+    }
+}
+
+div.p-carousel {
+    position: absolute;
+    right: 0;
+    width: 60%;
+}
+
+@media only screen and (max-width: $tablet) {
+    div.p-carousel {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    div.p-carousel {
+        position: static;
+        width: 100%;
+        margin-top: 1.8rem;
+    }
+}
+
+#index {
+    display: flex;
+    flex-flow: column wrap;
+    // max-height: 60rem;
+    @include container;
+    & h1 {
+        text-align: left;
+    }
+}

@@ -1,0 +1,9 @@
+main {
+    flex-grow: 1;
+
+    @include container;
+
+    & div {
+        text-align: center;
+    }
+}

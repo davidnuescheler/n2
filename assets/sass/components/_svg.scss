@@ -1,0 +1,48 @@
+main svg {
+    height: 0.8em;
+    width: 0.8em;
+    display: inline-block;
+    text-transform: none;
+}
+
+svg {
+    fill: currentColor;
+    stroke: currentColor;
+    vertical-align: middle;
+
+    &.icon-store, &.icon-lab, 
+    &.icon-cooler-bag, &.icon-shipping-box, 
+    &.icon-to-go-bag, &.icon-van,
+    &.icon-pint-club, &.icon-pints {
+        height: 15rem;
+        width: 20rem;
+        stroke-width: 0;
+    }
+
+    &.icon-v, &.icon-gf {
+        margin: 0 -0.2rem;
+        font-size: 120%;
+        @include font-acumin;
+    }
+
+    &.icon-arrow-up, &.icon-arrow-down,
+    &.icon-arrow-left, &.icon-arrow-right {
+        stroke-width: 10 !important;
+        margin: 12rem 1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}
+
+// page-specific
+#about, #pintclub {
+    & svg.icon-arrow-down {
+        cursor: pointer;
+        transition: 0.1s all;
+        // @include bfv; 
+
+        &:hover {
+            transform: scaleY(1.2) translateY(0.6rem);
+        }
+    }
+}

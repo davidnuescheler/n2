@@ -1,0 +1,96 @@
+:root {
+    --white: #{$color-white};
+    --red: #{$color-red};
+    --yellow: #{$color-yellow};
+    --green: #{$color-green};
+    --blue: #{$color-blue};
+    --pink: #{$color-pink};
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%; // setting 1rem to 10px
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background: $color-white;
+    color: $color-blue;
+    flex-direction: column;
+}
+
+del {
+    display: none;
+}
+
+ol {
+    margin-left: 2.6rem;
+}
+
+ol li::marker {
+    font-family: $font-mono;
+}
+
+ul {
+    margin-left: 1.8rem;
+}
+
+//code blocks
+table thead tr th code { 
+    display: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.show-block {
+    display: block !important;
+    & > * {
+        display: block !important;
+    }
+}
+
+.show-flex {
+    display: flex !important;
+}
+
+// FORM RESET
+input,
+label,
+select,
+button,
+textarea {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    @include font-acumin-semibold;
+    color: inherit;
+    font-size: 120%;
+    line-height: 1;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus {
+    outline: 0;
+}

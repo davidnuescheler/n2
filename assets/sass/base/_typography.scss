@@ -1,0 +1,98 @@
+@import url("https://use.typekit.net/ysf7eux.css"); // ACUMIN
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+@font-face {
+    font-family: "GT Walsheim";
+    src: url("/fonts/GT-Walsheim-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT Walsheim";
+    src: url("/fonts/GT-Walsheim-Bold.otf") format("opentype");
+    font-weight:600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GT Walsheim";
+    src: url("/fonts/GT-Walsheim-Black.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GT Walsheim";
+    src: url("/fonts/GT-Walsheim-Ultra-Bold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    @include font-acumin-semibold;
+    font-size: 2.4rem;
+    line-height: 1.6;
+}
+
+strong, b {
+    @include font-acumin-ultrablack;
+}
+
+em {
+    @include font-acumin-italic;
+}
+
+u {
+    text-decoration: underline wavy currentColor;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    line-height: 1;
+    margin-bottom: 1rem;
+    // @include stretchY;
+
+    & svg {
+        font-weight: $weight-normal;
+    }
+}
+
+h1 {
+    @include font-normal;
+    font-size: 9.9rem;
+}
+
+h2 {
+    @include font-acumin-semibold;
+    font-size: 6.6rem;
+    
+}
+
+h3 {
+    @include font-acumin-semibold;
+    font-size: 3.3rem;
+    & svg.icon-reg {
+        vertical-align: baseline;
+        margin-left: -3px;
+    }
+}
+
+h4 {
+    @include font-acumin-semibold;
+    font-size: 2.2rem;
+}
+
+h5 {
+    @include font-poppins-bold;
+}
+
+@media only screen and (max-width: $mobile) {
+    h2 {
+        font-size: 5.5rem;
+    }
+}
+
+a {
+    color: inherit;
+}

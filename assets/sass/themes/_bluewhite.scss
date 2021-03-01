@@ -1,0 +1,124 @@
+.theme-bluewhite {
+    background: $color-blue;
+    color: $color-white;
+
+    input {
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 5rem $color-blue inset;
+            -webkit-text-fill-color: $color-white;
+        }
+    }
+
+    & .header-cart {
+        background: $color-blue;
+
+        &-text {
+            color: $color-white;
+        }
+    }
+
+    & .btn {
+        &-back, &-rect {
+            color: $color-blue !important;
+            background: $color-white !important;
+        }
+    }
+
+    & .customize {
+        &::-webkit-scrollbar-thumb {
+            background: $color-white;
+        }
+        & .invalid-field {
+            animation-name: bluewhite-error-blink;
+        }
+        &-close {
+            background: $color-blue;
+        }
+        &-table {
+            &-body {
+                &-radio, &-checkbox {
+                    background: $color-white;
+                    color: $color-blue; 
+            
+                    &-container {
+                        background: $color-blue;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    & .checkout {
+        // border: 2px solid gold;
+        &::-webkit-scrollbar-thumb {
+            background: $color-white;
+        }
+        & .invalid-field {
+            animation-name: bluewhite-error-blink;
+        }
+        &-back {
+            background: $color-red !important;
+            color: $color-white !important;
+        }
+
+        &-table {
+            &-body {
+                background: $color-white !important;
+                color: $color-blue !important;
+                & tr {
+                    border-top: 1px solid $color-blue;
+                    border-bottom: 1px solid $color-blue;
+                }
+                &-quantity {
+                    & .quantity {
+                        background: $color-blue;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    & .menu {
+        &-filled {
+            background: $color-white;
+            color: $color-blue;
+
+            &:nth-child(odd) {
+                background: $color-pink;
+                color: $color-blue;
+            }
+    
+            & .btn {
+                &-rect {
+                    background: $color-blue !important;
+                    color: $color-white !important;
+                }
+            }
+        }
+        &-carousel {
+            &-btn {
+                background: $color-blue;
+
+                &:hover, &:focus {
+                    background: $color-white;
+                    
+                    & svg.icon {
+                        color: $color-blue;
+                    }
+                }
+            }
+        }
+    }
+
+    & #back-to-top {
+        background: $color-blue;
+    }
+}
+
+@keyframes bluewhite-error-blink {
+    0% { background: $color-blue; }
+   50% { background: $color-white; }
+   99% { background: $color-blue; }
+}
