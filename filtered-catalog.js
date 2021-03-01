@@ -2101,24 +2101,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3LWJEYFDN2X3YEQWHTUU2SFB",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "OZPCOBQMM5X353JGGKW4USOY",
-     "modifier_data": {
-      "name": "vanilla + chocolate TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
      "modifier_data": {
       "name": "dark chocolate sorbet (v) (gf)",
@@ -2557,24 +2539,6 @@ var catalog_raw=[
      "id": "ICEEPTANKRBXUH6WTIEK5E74",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "52SF4L2ZA4QWNO7TPFAOFJCX",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "6NWC3BTU2YVMB6UOU36LOIOR",
-     "modifier_data": {
-      "name": "vanilla + chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4014,30 +3978,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HP6P2AZBBDM5CUXMNZINEFBX",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "dark chocolate sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PUPJFLKH4WQKP67TSM2SH7IS",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "vanilla + chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8972,42 +8916,6 @@ var catalog_raw=[
   "id": "IA7LN4VKIUP3WP5E5FFPLZFX",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "52SF4L2ZA4QWNO7TPFAOFJCX",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "6NWC3BTU2YVMB6UOU36LOIOR",
-  "modifier_data": {
-   "name": "vanilla + chocolate TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "3LWJEYFDN2X3YEQWHTUU2SFB",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "OZPCOBQMM5X353JGGKW4USOY",
-  "modifier_data": {
-   "name": "vanilla + chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
    }
