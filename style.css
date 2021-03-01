@@ -632,9 +632,6 @@ a {
   .customize-foot {
     margin-bottom: 12rem; } }
 
-main > * {
-  opacity: 0; }
-
 .lazy-load {
   animation: lazy-load 0.5s linear 0s 1 normal;
   opacity: 1; }
