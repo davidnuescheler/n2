@@ -2977,6 +2977,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
+    },
+    {
+     "modifier_list_id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ"
     }
    ],
    "variations": [
@@ -3778,6 +3781,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "3QDFJ5NIW3RLZ52ZDKE6BQAJ"
+    },
+    {
+     "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
     }
    ],
    "variations": [
@@ -4257,11 +4263,6 @@ var catalog_raw=[
   "item_data": {
    "name": "red velvet",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "VDDJPRKZJDQPKYAXMPSYBVXE",
@@ -4362,11 +4363,6 @@ var catalog_raw=[
   "item_data": {
    "name": "strawberry shortcake",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "5BHWBTFLADTKM6SKBGMBTMXP",
@@ -4468,69 +4464,6 @@ var catalog_raw=[
    "name": "normal size",
    "price_money": {
     "amount": 400
-   }
-  }
- },
- {
-  "id": "QCD4BITPMFVUTXUMAF3DEA35",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "STORE composed cone",
-   "modifiers": [
-    {
-     "id": "XI252QVKWMG5TN656WA26GA3",
-     "modifier_data": {
-      "name": "cup",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "I36XW5TUPOQXGSFQFKBWCYLN",
-     "modifier_data": {
-      "name": "cone",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
-     "id": "GSFHBTAMM3BZIWWQDOCTEYL7",
-     "modifier_data": {
-      "name": "cup + cone on top!",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "XI252QVKWMG5TN656WA26GA3",
-  "modifier_data": {
-   "name": "cup",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "I36XW5TUPOQXGSFQFKBWCYLN",
-  "modifier_data": {
-   "name": "cone",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
-  "id": "GSFHBTAMM3BZIWWQDOCTEYL7",
-  "modifier_data": {
-   "name": "cup + cone on top!",
-   "price_money": {
-    "amount": 100
    }
   }
  },
@@ -4872,11 +4805,6 @@ var catalog_raw=[
   "item_data": {
    "name": "lamington (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "SEB4A7SJQZCKFAOK2BSHKYEV",
@@ -4907,11 +4835,6 @@ var catalog_raw=[
   "item_data": {
    "name": "chocolate wasted",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "K5Z2RG5IKAOHTMJYYPDFAETJ",
@@ -4977,11 +4900,6 @@ var catalog_raw=[
   "item_data": {
    "name": "call me, maybe",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "O7TMQZGPJ3KBCIGKMLHW2EH5",
@@ -8719,11 +8637,6 @@ var catalog_raw=[
   "item_data": {
    "name": "handle bar cone",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "ZG56RCQX2ZY5WH33ANDQ6K6U",
@@ -8754,11 +8667,6 @@ var catalog_raw=[
   "item_data": {
    "name": "out at sea",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "L35DECD4W4GQ5BEDLHIOSME5",
@@ -8789,11 +8697,6 @@ var catalog_raw=[
   "item_data": {
    "name": "blueberry crumble",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "WCRJ2S22DTCRXDT33TUQBQZ5",
@@ -8824,11 +8727,6 @@ var catalog_raw=[
   "item_data": {
    "name": "baklavaziza",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "MBF4YMO47CKULUX3KYQSYLZF",
@@ -8859,11 +8757,6 @@ var catalog_raw=[
   "item_data": {
    "name": "strawberry + cream",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "JSYIKVTABFZWGVS6Y5GSOO4N",
@@ -8894,11 +8787,6 @@ var catalog_raw=[
   "item_data": {
    "name": "key lime pie",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "QCD4BITPMFVUTXUMAF3DEA35"
-    }
-   ],
    "variations": [
     {
      "id": "BNDHFQSBIYLBA7VGZDCTP2UH",
