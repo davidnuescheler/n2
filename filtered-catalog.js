@@ -2716,7 +2716,7 @@ var catalog_raw=[
     {
      "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
      "modifier_data": {
-      "name": "strawberry milk (gf)",
+      "name": "graham cracker milk",
       "price_money": {
        "amount": 0
       }
@@ -2725,7 +2725,7 @@ var catalog_raw=[
     {
      "id": "UOPYHIT3MNT2ODKVSMBQXT74",
      "modifier_data": {
-      "name": "brownie batter (gf)",
+      "name": "coffee (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2734,7 +2734,7 @@ var catalog_raw=[
     {
      "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
      "modifier_data": {
-      "name": "strawberry milk + brownie batter TWIST",
+      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2743,7 +2743,7 @@ var catalog_raw=[
     {
      "id": "B34QGIFYQGCIGY757ET5SICH",
      "modifier_data": {
-      "name": "vegan vanilla (v) (gf)",
+      "name": "vegan vanilla! (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2752,7 +2752,7 @@ var catalog_raw=[
     {
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
-      "name": "raspberry (v) (gf)",
+      "name": "blackberry (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2761,7 +2761,7 @@ var catalog_raw=[
     {
      "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
      "modifier_data": {
-      "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3492,7 +3492,7 @@ var catalog_raw=[
     {
      "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
      "modifier_data": {
-      "name": "strawberry milk (gf)",
+      "name": "graham cracker milk",
       "price_money": {
        "amount": 300
       }
@@ -3501,7 +3501,7 @@ var catalog_raw=[
     {
      "id": "HSVRY3S35OCPLYE35LIRLOBF",
      "modifier_data": {
-      "name": "brownie batter (gf)",
+      "name": "coffee (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3510,7 +3510,7 @@ var catalog_raw=[
     {
      "id": "UIUUY3EADX5IOB3N6AI4PRKK",
      "modifier_data": {
-      "name": "strawberry milk + brownie batter TWIST (gf)",
+      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 300
       }
@@ -3519,7 +3519,7 @@ var catalog_raw=[
     {
      "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
      "modifier_data": {
-      "name": "raspberry (v) (gf)",
+      "name": "vegan vanilla! (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3528,7 +3528,7 @@ var catalog_raw=[
     {
      "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
      "modifier_data": {
-      "name": "vegan vanilla (v) (gf)",
+      "name": "blackerry (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3537,7 +3537,7 @@ var catalog_raw=[
     {
      "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
      "modifier_data": {
-      "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3558,7 +3558,7 @@ var catalog_raw=[
  {
   "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
   "modifier_data": {
-   "name": "strawberry milk (gf)",
+   "name": "graham cracker milk",
    "price_money": {
     "amount": 300
    }
@@ -4464,7 +4464,7 @@ var catalog_raw=[
  {
   "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
   "modifier_data": {
-   "name": "strawberry milk (gf)",
+   "name": "graham cracker milk",
    "price_money": {
     "amount": 0
    }
@@ -6901,7 +6901,7 @@ var catalog_raw=[
  {
   "id": "HSVRY3S35OCPLYE35LIRLOBF",
   "modifier_data": {
-   "name": "brownie batter (gf)",
+   "name": "coffee (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6910,7 +6910,7 @@ var catalog_raw=[
  {
   "id": "UOPYHIT3MNT2ODKVSMBQXT74",
   "modifier_data": {
-   "name": "brownie batter (gf)",
+   "name": "coffee (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6919,7 +6919,7 @@ var catalog_raw=[
  {
   "id": "B34QGIFYQGCIGY757ET5SICH",
   "modifier_data": {
-   "name": "vegan vanilla (v) (gf)",
+   "name": "vegan vanilla! (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6928,7 +6928,7 @@ var catalog_raw=[
  {
   "id": "UIUUY3EADX5IOB3N6AI4PRKK",
   "modifier_data": {
-   "name": "strawberry milk + brownie batter TWIST (gf)",
+   "name": "graham cracker milk + coffee TWIST",
    "price_money": {
     "amount": 300
    }
@@ -6937,7 +6937,7 @@ var catalog_raw=[
  {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
-   "name": "raspberry (v) (gf)",
+   "name": "blackberry (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6946,7 +6946,7 @@ var catalog_raw=[
  {
   "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
   "modifier_data": {
-   "name": "strawberry milk + brownie batter TWIST",
+   "name": "graham cracker milk + coffee TWIST",
    "price_money": {
     "amount": 0
    }
@@ -6955,7 +6955,7 @@ var catalog_raw=[
  {
   "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
   "modifier_data": {
-   "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+   "name": "vegan vanilla + blackberry TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6964,7 +6964,7 @@ var catalog_raw=[
  {
   "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
   "modifier_data": {
-   "name": "raspberry (v) (gf)",
+   "name": "vegan vanilla! (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6973,7 +6973,7 @@ var catalog_raw=[
  {
   "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
   "modifier_data": {
-   "name": "vegan vanilla (v) (gf)",
+   "name": "blackerry (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -6982,7 +6982,7 @@ var catalog_raw=[
  {
   "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
   "modifier_data": {
-   "name": "raspberry + vegan vanilla TWIST (v) (gf)",
+   "name": "vegan vanilla + blackberry TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
