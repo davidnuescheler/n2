@@ -9,6 +9,16 @@ const setupHead = () => {
   document.title = `normal® ${title === "home" ? "" : ` ${title.split("-").join(" ")}`}`;
 }
 
+const lazyLoad = () => {
+  const $main = document.querySelector("main");
+  const $childrenArr = [ ...$main.children ];
+  $childrenArr.forEach((c, i) => {
+    setTimeout(() => {
+      c.classList.add("lazy-load");
+    }, i * 250);
+  })
+}
+
 const getPage = () => {
   const path = window.location.pathname;
   if (path.includes("order")) {
@@ -3640,7 +3650,10 @@ window.onload = async (e) => {
   // make page useable
   await classify();
   await codify();
-  setPage();
+
+  lazyLoad();
+
+  setPage();  
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
