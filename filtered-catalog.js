@@ -2844,7 +2844,7 @@ var catalog_raw=[
       "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
       "name": "12 months",
       "price_money": {
-       "amount": 48000
+       "amount": 45600
       }
      }
     }
