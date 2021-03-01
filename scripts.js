@@ -3651,7 +3651,7 @@ window.onload = async (e) => {
   await classify();
   await codify();
 
-  lazyLoad();
+  // lazyLoad();
 
   setPage();  
   buildCheckoutTool(); // needs to be on all the pages
