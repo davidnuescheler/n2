@@ -321,7 +321,7 @@ var catalog_raw=[
     {
      "id": "KUR4W2MTHDQ6RNNUYGIHZECC",
      "modifier_data": {
-      "name": "Dark chocolate crunch",
+      "name": "dark chocolate crunch",
       "price_money": {
        "amount": 100
       }
@@ -7079,7 +7079,7 @@ var catalog_raw=[
  {
   "id": "KUR4W2MTHDQ6RNNUYGIHZECC",
   "modifier_data": {
-   "name": "Dark chocolate crunch",
+   "name": "dark chocolate crunch",
    "price_money": {
     "amount": 100
    }
