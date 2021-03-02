@@ -975,7 +975,7 @@ var catalog_raw=[
   "id": "G33PUKVQLLE23GVXJFNMUPC6",
   "type": "ITEM",
   "item_data": {
-   "name": "anti chocolate chip + dark chocolate sando",
+   "name": "anti chocolate chip + milk chocolate sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
