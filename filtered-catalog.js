@@ -547,7 +547,7 @@ var catalog_raw=[
   "id": "PKEG4TNRCFT564ZAESAO2VBB",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "employee-off-shift"
+   "name": "employeeoffshift"
   }
  },
  {
