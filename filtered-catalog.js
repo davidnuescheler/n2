@@ -442,12 +442,21 @@ var catalog_raw=[
   "id": "UTJ4KKU6NI74TL37AS6FJFAZ",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "+ espresso",
+   "name": "espresso",
    "modifiers": [
     {
-     "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
+     "id": "TZDOWVS5CEILHREX7AVM2RW6",
      "modifier_data": {
-      "name": "keep it 1 shot",
+      "name": "COAVA espresso blend",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HG4GUV5UOKAVOAETV4FQL2XR",
+     "modifier_data": {
+      "name": "PERU rayos del sol",
       "price_money": {
        "amount": 0
       }
@@ -1412,9 +1421,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     }
    ],
    "variations": [
@@ -1443,9 +1449,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "VMSQXPBZYS4EP37IO4VFLNDG"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
@@ -1487,9 +1490,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     }
    ],
    "variations": [
@@ -1616,9 +1616,6 @@ var catalog_raw=[
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
-    },
-    {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
     }
    ],
@@ -1679,9 +1676,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
@@ -1794,9 +1788,6 @@ var catalog_raw=[
      "modifier_list_id": "YFCEEKJDIK2VGMCJIN5D45NL"
     },
     {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
-    },
-    {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
     }
    ],
@@ -1829,9 +1820,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     }
    ],
    "variations": [
@@ -1863,9 +1851,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "KWPKDUHXG5EG6UGHCNRD3SPK"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     }
    ],
    "variations": [
@@ -4383,9 +4368,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     }
    ],
    "variations": [
@@ -4414,9 +4396,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "L5EF7UVE5SIC77BQIWYHSO4O"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
@@ -4686,51 +4665,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "F3S2BQ2DYFPULICIMYXXQ5TH",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "americano milk mod",
-   "modifiers": [
-    {
-     "id": "CIFOPJLFVE2DIG3NJARAV4LF",
-     "modifier_data": {
-      "name": "whole milk",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
-     "id": "QNULXT72YTEUEYSZZ2ANLUMT",
-     "modifier_data": {
-      "name": "oat milk",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "CIFOPJLFVE2DIG3NJARAV4LF",
-  "modifier_data": {
-   "name": "whole milk",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
-  "id": "QNULXT72YTEUEYSZZ2ANLUMT",
-  "modifier_data": {
-   "name": "oat milk",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
   "id": "YFCEEKJDIK2VGMCJIN5D45NL",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -4806,15 +4740,6 @@ var catalog_raw=[
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
    "name": "no extra flavors",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "C6WJR5IWRLUE7WIG4XEYAKDT",
-  "modifier_data": {
-   "name": "keep it 1 shot",
    "price_money": {
     "amount": 0
    }
@@ -5710,51 +5635,6 @@ var catalog_raw=[
    "name": "chocolate shortbread crumb",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "DJ2SBDIX55MSF2I3TMXYBIU3",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "espresso option",
-   "modifiers": [
-    {
-     "id": "JE2GF7PSIE67IPML4MB72BWT",
-     "modifier_data": {
-      "name": "choose an espresso",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
-     "modifier_data": {
-      "name": "COAVA espresso blend",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
-     "modifier_data": {
-      "name": "PERU rayos del sol",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "YD6YT5RTXCNGHI4O3RUZAMNY",
-  "modifier_data": {
-   "name": "COAVA espresso blend",
-   "price_money": {
-    "amount": 0
    }
   }
  },
@@ -6658,7 +6538,7 @@ var catalog_raw=[
   "id": "WIHFHEUIWGM3PTTNWKWCNVPY",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "temperature + kids",
+   "name": "temperature",
    "modifiers": [
     {
      "id": "6UREDPO7E3KU4TC3UPCAQHXX",
@@ -7161,15 +7041,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "JE2GF7PSIE67IPML4MB72BWT",
-  "modifier_data": {
-   "name": "choose an espresso",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -8160,15 +8031,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "7ABHMES3Z4NDNCJOJRWBX4EM",
-  "modifier_data": {
-   "name": "PERU rayos del sol",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "MQFPUEMF6Q4XCXSTKRSZW3BH",
   "type": "ITEM",
   "item_data": {
@@ -8285,9 +8147,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "DJ2SBDIX55MSF2I3TMXYBIU3"
     },
     {
      "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
@@ -8972,6 +8831,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "TZDOWVS5CEILHREX7AVM2RW6",
+  "modifier_data": {
+   "name": "COAVA espresso blend",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HG4GUV5UOKAVOAETV4FQL2XR",
+  "modifier_data": {
+   "name": "PERU rayos del sol",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
