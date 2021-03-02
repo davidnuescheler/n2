@@ -445,27 +445,18 @@ var catalog_raw=[
    "name": "espresso",
    "modifiers": [
     {
-     "id": "TZDOWVS5CEILHREX7AVM2RW6",
+     "id": "YDQQW7GBU2OEHPKWCIZLRVPQ",
      "modifier_data": {
-      "name": "COAVA espresso blend",
+      "name": "+ a shot COAVA espresso blend",
       "price_money": {
-       "amount": 0
+       "amount": 100
       }
      }
     },
     {
      "id": "HG4GUV5UOKAVOAETV4FQL2XR",
      "modifier_data": {
-      "name": "PERU rayos del sol",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YDQQW7GBU2OEHPKWCIZLRVPQ",
-     "modifier_data": {
-      "name": "+ a shot",
+      "name": "+ a shot PERU rayos del sol",
       "price_money": {
        "amount": 100
       }
@@ -477,7 +468,7 @@ var catalog_raw=[
  {
   "id": "YDQQW7GBU2OEHPKWCIZLRVPQ",
   "modifier_data": {
-   "name": "+ a shot",
+   "name": "+ a shot COAVA espresso blend",
    "price_money": {
     "amount": 100
    }
@@ -8834,20 +8825,11 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TZDOWVS5CEILHREX7AVM2RW6",
-  "modifier_data": {
-   "name": "COAVA espresso blend",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "HG4GUV5UOKAVOAETV4FQL2XR",
   "modifier_data": {
-   "name": "PERU rayos del sol",
+   "name": "+ a shot PERU rayos del sol",
    "price_money": {
-    "amount": 0
+    "amount": 100
    }
   }
  }
