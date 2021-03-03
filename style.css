@@ -683,7 +683,8 @@ a {
 
 .embed-internal-storemenus, .embed-internal-labmenus,
 .embed-internal-deliverymenus, .embed-internal-merchmenus,
-.embed-internal-cateringmenus, .embed-internal-aboutmenus {
+.embed-internal-cateringmenus, .embed-internal-wholesalemenus,
+.embed-internal-aboutmenus {
   width: 100%;
   padding-bottom: 1rem;
   display: flex;
@@ -694,21 +695,25 @@ a {
   scrollbar-width: none; }
   .embed-internal-storemenus::-webkit-scrollbar, .embed-internal-labmenus::-webkit-scrollbar,
   .embed-internal-deliverymenus::-webkit-scrollbar, .embed-internal-merchmenus::-webkit-scrollbar,
-  .embed-internal-cateringmenus::-webkit-scrollbar, .embed-internal-aboutmenus::-webkit-scrollbar {
+  .embed-internal-cateringmenus::-webkit-scrollbar, .embed-internal-wholesalemenus::-webkit-scrollbar,
+  .embed-internal-aboutmenus::-webkit-scrollbar {
     display: none; }
   .embed-internal-storemenus div, .embed-internal-labmenus div,
   .embed-internal-deliverymenus div, .embed-internal-merchmenus div,
-  .embed-internal-cateringmenus div, .embed-internal-aboutmenus div {
+  .embed-internal-cateringmenus div, .embed-internal-wholesalemenus div,
+  .embed-internal-aboutmenus div {
     min-width: calc(100% / 3);
     padding: 0 6rem; }
     .embed-internal-storemenus div h3, .embed-internal-labmenus div h3,
     .embed-internal-deliverymenus div h3, .embed-internal-merchmenus div h3,
-    .embed-internal-cateringmenus div h3, .embed-internal-aboutmenus div h3 {
+    .embed-internal-cateringmenus div h3, .embed-internal-wholesalemenus div h3,
+    .embed-internal-aboutmenus div h3 {
       margin-top: 2rem;
       margin-bottom: 0.2rem; }
     .embed-internal-storemenus div p, .embed-internal-labmenus div p,
     .embed-internal-deliverymenus div p, .embed-internal-merchmenus div p,
-    .embed-internal-cateringmenus div p, .embed-internal-aboutmenus div p {
+    .embed-internal-cateringmenus div p, .embed-internal-wholesalemenus div p,
+    .embed-internal-aboutmenus div p {
       font-family: "Poppins", sans-serif;
       font-weight: 500;
       font-style: normal;
@@ -717,7 +722,8 @@ a {
       margin-top: 0.4rem; }
       .embed-internal-storemenus div p img, .embed-internal-labmenus div p img,
       .embed-internal-deliverymenus div p img, .embed-internal-merchmenus div p img,
-      .embed-internal-cateringmenus div p img, .embed-internal-aboutmenus div p img {
+      .embed-internal-cateringmenus div p img, .embed-internal-wholesalemenus div p img,
+      .embed-internal-aboutmenus div p img {
         margin-top: 1rem;
         height: 20rem;
         transition: 0.2s all;
@@ -727,18 +733,22 @@ a {
         .embed-internal-deliverymenus div p img:hover,
         .embed-internal-deliverymenus div p img:focus, .embed-internal-merchmenus div p img:hover, .embed-internal-merchmenus div p img:focus,
         .embed-internal-cateringmenus div p img:hover,
-        .embed-internal-cateringmenus div p img:focus, .embed-internal-aboutmenus div p img:hover, .embed-internal-aboutmenus div p img:focus {
+        .embed-internal-cateringmenus div p img:focus, .embed-internal-wholesalemenus div p img:hover, .embed-internal-wholesalemenus div p img:focus,
+        .embed-internal-aboutmenus div p img:hover,
+        .embed-internal-aboutmenus div p img:focus {
           transform: translateY(0.5rem) scale(1.2) rotate(-3deg); }
       .embed-internal-storemenus div p strong, .embed-internal-labmenus div p strong,
       .embed-internal-deliverymenus div p strong, .embed-internal-merchmenus div p strong,
-      .embed-internal-cateringmenus div p strong, .embed-internal-aboutmenus div p strong {
+      .embed-internal-cateringmenus div p strong, .embed-internal-wholesalemenus div p strong,
+      .embed-internal-aboutmenus div p strong {
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-style: normal;
         font-size: 120%; }
       .embed-internal-storemenus div p a, .embed-internal-labmenus div p a,
       .embed-internal-deliverymenus div p a, .embed-internal-merchmenus div p a,
-      .embed-internal-cateringmenus div p a, .embed-internal-aboutmenus div p a {
+      .embed-internal-cateringmenus div p a, .embed-internal-wholesalemenus div p a,
+      .embed-internal-aboutmenus div p a {
         font-family: acumin-pro-extra-condensed, sans-serif;
         font-weight: 600;
         font-style: normal;
