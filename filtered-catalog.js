@@ -1305,26 +1305,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JTFU2STYKI3RIJYQ6EIWRISK",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "PERU rayos del sol",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "XULTJVSVW32C4N4NU6EBC3HP",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "SEYZEIGK6NBZF3MR7IHABUE5",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
@@ -1413,7 +1393,7 @@ var catalog_raw=[
      "id": "26M7MLC4QYIIDOWSE6TPYLCP",
      "item_variation_data": {
       "item_id": "5EXPUENA3LB5EEDUAQEF6E6M",
-      "name": "one shot espresso",
+      "name": "one shot",
       "price_money": {
        "amount": 300
       }
