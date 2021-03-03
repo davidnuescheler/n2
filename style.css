@@ -1165,18 +1165,18 @@ main#order {
   main#order div.p-pickup, main#order div.p-shipping {
     display: none; }
 
-h2#soft-serve ~ h3, h2#drinks-drinks-drinks ~ h3, h2#pints ~ h3, h2#bars ~ h3, h2#sandos ~ h3, h2#composed-cones ~ h3, h2#pizza ~ h3, h2#choco-taco ~ h3, h2#specials ~ h3, h2#norm-cores ~ h3, h2#ice-cream-cake ~ h3, h2#gift-cards ~ h3, h2#apparel ~ h3, h2#accessories ~ h3, h2#delivery-zips ~ h3 {
+h2#soft-serve ~ h3, h2#drinks-drinks-drinks ~ h3, h2#pints ~ h3, h2#bars ~ h3, h2#sandos ~ h3, h2#composed-cones ~ h3, h2#pizza ~ h3, h2#choco-taco ~ h3, h2#specials ~ h3, h2#norm-cores ~ h3, h2#ice-cream-cake ~ h3, h2#gift-cards ~ h3, h2#apparel ~ h3, h2#accessories ~ h3, h2#delivery-zips ~ h3, h2#more-stuff ~ h3 {
   margin-top: 2rem;
   margin-bottom: 0.2rem; }
 
-h2#soft-serve ~ p, h2#drinks-drinks-drinks ~ p, h2#pints ~ p, h2#bars ~ p, h2#sandos ~ p, h2#composed-cones ~ p, h2#pizza ~ p, h2#choco-taco ~ p, h2#specials ~ p, h2#norm-cores ~ p, h2#ice-cream-cake ~ p, h2#gift-cards ~ p, h2#apparel ~ p, h2#accessories ~ p, h2#delivery-zips ~ p {
+h2#soft-serve ~ p, h2#drinks-drinks-drinks ~ p, h2#pints ~ p, h2#bars ~ p, h2#sandos ~ p, h2#composed-cones ~ p, h2#pizza ~ p, h2#choco-taco ~ p, h2#specials ~ p, h2#norm-cores ~ p, h2#ice-cream-cake ~ p, h2#gift-cards ~ p, h2#apparel ~ p, h2#accessories ~ p, h2#delivery-zips ~ p, h2#more-stuff ~ p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 60%;
   line-height: 1.4;
   margin-top: 0.4rem; }
-  h2#soft-serve ~ p img, h2#drinks-drinks-drinks ~ p img, h2#pints ~ p img, h2#bars ~ p img, h2#sandos ~ p img, h2#composed-cones ~ p img, h2#pizza ~ p img, h2#choco-taco ~ p img, h2#specials ~ p img, h2#norm-cores ~ p img, h2#ice-cream-cake ~ p img, h2#gift-cards ~ p img, h2#apparel ~ p img, h2#accessories ~ p img, h2#delivery-zips ~ p img {
+  h2#soft-serve ~ p img, h2#drinks-drinks-drinks ~ p img, h2#pints ~ p img, h2#bars ~ p img, h2#sandos ~ p img, h2#composed-cones ~ p img, h2#pizza ~ p img, h2#choco-taco ~ p img, h2#specials ~ p img, h2#norm-cores ~ p img, h2#ice-cream-cake ~ p img, h2#gift-cards ~ p img, h2#apparel ~ p img, h2#accessories ~ p img, h2#delivery-zips ~ p img, h2#more-stuff ~ p img {
     margin-top: 1rem;
     height: 20rem;
     max-width: 100%;
@@ -1184,14 +1184,14 @@ h2#soft-serve ~ p, h2#drinks-drinks-drinks ~ p, h2#pints ~ p, h2#bars ~ p, h2#sa
     transition: 0.2s all;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-    h2#soft-serve ~ p img:hover, h2#soft-serve ~ p img:focus, h2#drinks-drinks-drinks ~ p img:hover, h2#drinks-drinks-drinks ~ p img:focus, h2#pints ~ p img:hover, h2#pints ~ p img:focus, h2#bars ~ p img:hover, h2#bars ~ p img:focus, h2#sandos ~ p img:hover, h2#sandos ~ p img:focus, h2#composed-cones ~ p img:hover, h2#composed-cones ~ p img:focus, h2#pizza ~ p img:hover, h2#pizza ~ p img:focus, h2#choco-taco ~ p img:hover, h2#choco-taco ~ p img:focus, h2#specials ~ p img:hover, h2#specials ~ p img:focus, h2#norm-cores ~ p img:hover, h2#norm-cores ~ p img:focus, h2#ice-cream-cake ~ p img:hover, h2#ice-cream-cake ~ p img:focus, h2#gift-cards ~ p img:hover, h2#gift-cards ~ p img:focus, h2#apparel ~ p img:hover, h2#apparel ~ p img:focus, h2#accessories ~ p img:hover, h2#accessories ~ p img:focus, h2#delivery-zips ~ p img:hover, h2#delivery-zips ~ p img:focus {
+    h2#soft-serve ~ p img:hover, h2#soft-serve ~ p img:focus, h2#drinks-drinks-drinks ~ p img:hover, h2#drinks-drinks-drinks ~ p img:focus, h2#pints ~ p img:hover, h2#pints ~ p img:focus, h2#bars ~ p img:hover, h2#bars ~ p img:focus, h2#sandos ~ p img:hover, h2#sandos ~ p img:focus, h2#composed-cones ~ p img:hover, h2#composed-cones ~ p img:focus, h2#pizza ~ p img:hover, h2#pizza ~ p img:focus, h2#choco-taco ~ p img:hover, h2#choco-taco ~ p img:focus, h2#specials ~ p img:hover, h2#specials ~ p img:focus, h2#norm-cores ~ p img:hover, h2#norm-cores ~ p img:focus, h2#ice-cream-cake ~ p img:hover, h2#ice-cream-cake ~ p img:focus, h2#gift-cards ~ p img:hover, h2#gift-cards ~ p img:focus, h2#apparel ~ p img:hover, h2#apparel ~ p img:focus, h2#accessories ~ p img:hover, h2#accessories ~ p img:focus, h2#delivery-zips ~ p img:hover, h2#delivery-zips ~ p img:focus, h2#more-stuff ~ p img:hover, h2#more-stuff ~ p img:focus {
       transform: translateY(0.5rem) scale(1.2) rotate(-3deg); }
-  h2#soft-serve ~ p strong, h2#drinks-drinks-drinks ~ p strong, h2#pints ~ p strong, h2#bars ~ p strong, h2#sandos ~ p strong, h2#composed-cones ~ p strong, h2#pizza ~ p strong, h2#choco-taco ~ p strong, h2#specials ~ p strong, h2#norm-cores ~ p strong, h2#ice-cream-cake ~ p strong, h2#gift-cards ~ p strong, h2#apparel ~ p strong, h2#accessories ~ p strong, h2#delivery-zips ~ p strong {
+  h2#soft-serve ~ p strong, h2#drinks-drinks-drinks ~ p strong, h2#pints ~ p strong, h2#bars ~ p strong, h2#sandos ~ p strong, h2#composed-cones ~ p strong, h2#pizza ~ p strong, h2#choco-taco ~ p strong, h2#specials ~ p strong, h2#norm-cores ~ p strong, h2#ice-cream-cake ~ p strong, h2#gift-cards ~ p strong, h2#apparel ~ p strong, h2#accessories ~ p strong, h2#delivery-zips ~ p strong, h2#more-stuff ~ p strong {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 120%; }
-  h2#soft-serve ~ p a, h2#drinks-drinks-drinks ~ p a, h2#pints ~ p a, h2#bars ~ p a, h2#sandos ~ p a, h2#composed-cones ~ p a, h2#pizza ~ p a, h2#choco-taco ~ p a, h2#specials ~ p a, h2#norm-cores ~ p a, h2#ice-cream-cake ~ p a, h2#gift-cards ~ p a, h2#apparel ~ p a, h2#accessories ~ p a, h2#delivery-zips ~ p a {
+  h2#soft-serve ~ p a, h2#drinks-drinks-drinks ~ p a, h2#pints ~ p a, h2#bars ~ p a, h2#sandos ~ p a, h2#composed-cones ~ p a, h2#pizza ~ p a, h2#choco-taco ~ p a, h2#specials ~ p a, h2#norm-cores ~ p a, h2#ice-cream-cake ~ p a, h2#gift-cards ~ p a, h2#apparel ~ p a, h2#accessories ~ p a, h2#delivery-zips ~ p a, h2#more-stuff ~ p a {
     font-family: acumin-pro-extra-condensed, sans-serif;
     font-weight: 600;
     font-style: normal;
