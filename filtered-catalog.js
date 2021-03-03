@@ -3778,26 +3778,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KEAM7NLFVWNOTSUJGWNJZUCA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ZV4T4KUFQVK2NA4IRSF6S5OB",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "maple + blueberry TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "WMLG74FJVBBDC4DVTRVHJXWC",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
