@@ -1948,9 +1948,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "K3ONNCDN4Z4CNUKLL75NXQFE",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "PKJN2C3OUFV4JENMB65R5OM4",
      "modifier_data": {
       "name": "blueberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5J7CELTSIFYXCNDZTID4BLLO",
+     "modifier_data": {
+      "name": "salted maple + blueberry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2434,11 +2452,29 @@ var catalog_raw=[
      }
     },
     {
+     "id": "E6T2P7KWALYLJJMW4SANFOSG",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "IFPFJ4KPDLALXHDXD62WE4ZR",
      "modifier_data": {
       "name": "blueberry (v) (gf)",
       "price_money": {
        "amount": 300
+      }
+     }
+    },
+    {
+     "id": "76CQK6UMQWXXWFXXI27XQVMV",
+     "modifier_data": {
+      "name": "salted maple + blueberry TWIST (gf)",
+      "price_money": {
+       "amount": 0
       }
      }
     },
@@ -3723,10 +3759,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "66UK6K4KHXWWDM3GZMIS4YL3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "E3VKQKGI6SCJ5NBCCCLJ5P7S",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "blueberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VSZPSYWQQDYZ7STIR4E7DEKW",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted maple + blueberry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8753,6 +8809,42 @@ var catalog_raw=[
    "name": "+ 1 shot",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "K3ONNCDN4Z4CNUKLL75NXQFE",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5J7CELTSIFYXCNDZTID4BLLO",
+  "modifier_data": {
+   "name": "salted maple + blueberry TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "E6T2P7KWALYLJJMW4SANFOSG",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "76CQK6UMQWXXWFXXI27XQVMV",
+  "modifier_data": {
+   "name": "salted maple + blueberry TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
