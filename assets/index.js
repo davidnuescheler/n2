@@ -104,13 +104,11 @@ const setPage = () => {
       styleMenus();
       setupCarousels();
       fixCart();
-      buildCustomizationTool();
       break;
     case "wholesale":
       styleMenus();
       setupCarousels();
       fixCart();
-      buildCustomizationTool();
       break;
     case "home":
       buildIndexCarousel();
