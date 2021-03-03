@@ -25,6 +25,8 @@ const getPage = () => {
     return "pint-club";
   } else if (path.includes("cone-builder")) {
     return "cone builder";
+  } else if (path.includes("catering")) {
+    return "catering";
   } else if (path.includes("merch")) {
     return "merch";
   } else {
@@ -84,6 +86,13 @@ const setPage = () => {
       fixCart();
       buildCustomizationTool();
       setupDownAnchors();
+      break;
+    case "catering":
+      shopify();
+      styleMenus();
+      setupCarousels();
+      fixCart();
+      buildCustomizationTool();
       break;
     case "cone builder":
       console.log("nothing yet~");
