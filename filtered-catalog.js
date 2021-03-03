@@ -2727,20 +2727,20 @@ var catalog_raw=[
    "name": "vessel",
    "modifiers": [
     {
-     "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
-     "modifier_data": {
-      "name": "cone",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "TIDE5HTT5CFESA3IF3SN73A5",
      "modifier_data": {
       "name": "cup",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
+     "modifier_data": {
+      "name": "cone",
+      "price_money": {
+       "amount": 100
       }
      }
     },
