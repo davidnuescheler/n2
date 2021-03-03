@@ -229,15 +229,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QHQGX2J6OIEJRJY3IEXFT32P",
-     "modifier_data": {
-      "name": "blueberry compote (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -1959,25 +1950,7 @@ var catalog_raw=[
     {
      "id": "PKJN2C3OUFV4JENMB65R5OM4",
      "modifier_data": {
-      "name": "blackberry (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BIFQZIVIIXXQNXWI4LU5WML7",
-     "modifier_data": {
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "TYLWC3RKL6O44SGNO7QX4BO4",
-     "modifier_data": {
-      "name": "maple + blackberry TWIST (gf)",
+      "name": "blueberry (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2464,24 +2437,6 @@ var catalog_raw=[
      "id": "IFPFJ4KPDLALXHDXD62WE4ZR",
      "modifier_data": {
       "name": "blueberry (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "PH7BJRNB6E3FZBBCFAHMOQUP",
-     "modifier_data": {
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "4G5VFZBRMJDV3VEMJIQW4JRF",
-     "modifier_data": {
-      "name": "maple + blueberry TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -5050,15 +5005,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5C32ID5KRQHV4KUSHBONKTG2",
-     "modifier_data": {
-      "name": "berry compote (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "5YM476W3SGXA2MI5Y4447SZV",
      "modifier_data": {
       "name": "graham cracker crumble",
@@ -5179,15 +5125,6 @@ var catalog_raw=[
      "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
      "modifier_data": {
       "name": "cornmeal cake (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
-     "modifier_data": {
-      "name": "berry compote (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6437,15 +6374,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QHQGX2J6OIEJRJY3IEXFT32P",
-  "modifier_data": {
-   "name": "blueberry compote (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "PH5BC2PHXTIADHEBQWDQLY36",
   "modifier_data": {
    "name": "white chocolate ganache (gf)",
@@ -6464,15 +6392,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5C32ID5KRQHV4KUSHBONKTG2",
-  "modifier_data": {
-   "name": "berry compote (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "5YM476W3SGXA2MI5Y4447SZV",
   "modifier_data": {
    "name": "graham cracker crumble",
@@ -6485,15 +6404,6 @@ var catalog_raw=[
   "id": "7TIHBLSXDXNQNQFTAUXZOFWK",
   "modifier_data": {
    "name": "honeycomb candy (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "P7DGHNY2W4QZCUQOJLXVK7PG",
-  "modifier_data": {
-   "name": "berry compote (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8614,25 +8524,7 @@ var catalog_raw=[
  {
   "id": "PKJN2C3OUFV4JENMB65R5OM4",
   "modifier_data": {
-   "name": "blackberry (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BIFQZIVIIXXQNXWI4LU5WML7",
-  "modifier_data": {
-   "name": "salted maple (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "TYLWC3RKL6O44SGNO7QX4BO4",
-  "modifier_data": {
-   "name": "maple + blackberry TWIST (gf)",
+   "name": "blueberry (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8678,24 +8570,6 @@ var catalog_raw=[
   "id": "IFPFJ4KPDLALXHDXD62WE4ZR",
   "modifier_data": {
    "name": "blueberry (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "PH7BJRNB6E3FZBBCFAHMOQUP",
-  "modifier_data": {
-   "name": "salted maple (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "4G5VFZBRMJDV3VEMJIQW4JRF",
-  "modifier_data": {
-   "name": "maple + blueberry TWIST (gf)",
    "price_money": {
     "amount": 300
    }
