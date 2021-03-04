@@ -946,7 +946,7 @@ var catalog_raw=[
   "id": "BS6QQVR22YY25AT7ICZAFTDW",
   "type": "ITEM",
   "item_data": {
-   "name": "snickerdood sando",
+   "name": "snicker dood sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
