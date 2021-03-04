@@ -8827,5 +8827,25 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "LLTPB5WK3ALYAZSZ7ETKCSLG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pizza nono - pepperoni",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "REWUBDRZKIW7HPNYH4F4CBTZ",
+     "item_variation_data": {
+      "item_id": "LLTPB5WK3ALYAZSZ7ETKCSLG",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
