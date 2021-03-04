@@ -6174,7 +6174,7 @@ var catalog_raw=[
   "id": "LQLZ4YQZV6QKU5IFRPCY4BT2",
   "type": "ITEM",
   "item_data": {
-   "name": "the yin yang sando",
+   "name": "yin yang sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
