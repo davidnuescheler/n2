@@ -238,15 +238,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
-     "modifier_data": {
-      "name": "streusel crumb",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
@@ -1962,6 +1953,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "RGUUVG2XMR2AR65DJ2CAXLUU",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7BVEKD24VMHUONYG7GBMIWDP",
+     "modifier_data": {
+      "name": "salted maple (gf) + blueberry (gf) TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2444,6 +2453,24 @@ var catalog_raw=[
      "id": "M4IDSP6CDHJZP4I5I4HBWNIT",
      "modifier_data": {
       "name": "greek yogurt + passion fruit sorbet TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FP3HTAFJPCU4LEVKFFCFPBPC",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "RL7CR6ODGZZNPRY522MGBQT6",
+     "modifier_data": {
+      "name": "salted maple (gf) + blueberry (gf) TWIST",
       "price_money": {
        "amount": 300
       }
@@ -6383,15 +6410,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "LBKQXM6IHQIYPRZT7DCK4JQH",
-  "modifier_data": {
-   "name": "streusel crumb",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "5YM476W3SGXA2MI5Y4447SZV",
   "modifier_data": {
    "name": "graham cracker crumble",
@@ -8774,6 +8792,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "RGUUVG2XMR2AR65DJ2CAXLUU",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7BVEKD24VMHUONYG7GBMIWDP",
+  "modifier_data": {
+   "name": "salted maple (gf) + blueberry (gf) TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "FP3HTAFJPCU4LEVKFFCFPBPC",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "RL7CR6ODGZZNPRY522MGBQT6",
+  "modifier_data": {
+   "name": "salted maple (gf) + blueberry (gf) TWIST",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
