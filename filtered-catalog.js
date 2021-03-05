@@ -1945,6 +1945,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "VXYYCNI6ITD6WBL7MFF56UNB",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "XGRO7ETULSWBSRFPAU7YJE7Q",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -8625,6 +8643,24 @@ var catalog_raw=[
    "name": "streusel crumb",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "VXYYCNI6ITD6WBL7MFF56UNB",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "XGRO7ETULSWBSRFPAU7YJE7Q",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
