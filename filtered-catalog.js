@@ -1911,15 +1911,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "PKJN2C3OUFV4JENMB65R5OM4",
      "modifier_data": {
       "name": "blueberry (v) (gf)",
@@ -2375,15 +2366,6 @@ var catalog_raw=[
       "name": "no soft serve",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
       }
      }
     },
@@ -3647,20 +3629,20 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "RHQZHDCKLA7M6LNDZ4AEECBF",
+     "id": "E3VKQKGI6SCJ5NBCCCLJ5P7S",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
+      "name": "blueberry (v) (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "E3VKQKGI6SCJ5NBCCCLJ5P7S",
+     "id": "IE7WO3TDLXPAZM7U34DPMAAO",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "blueberry (v) (gf)",
+      "name": "greek yogurt (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3681,36 +3663,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "passion fruit + greek yogurt TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "IE7WO3TDLXPAZM7U34DPMAAO",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "66UK6K4KHXWWDM3GZMIS4YL3",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "VSZPSYWQQDYZ7STIR4E7DEKW",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple + blueberry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -6496,15 +6448,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WLKZXZTS5EDODHCKJ3JJMPR3",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "DA4MFP2ZCSQXJRZDVFSNYVM6",
   "modifier_data": {
    "name": "select your soft serve",
@@ -6616,15 +6559,6 @@ var catalog_raw=[
   "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
   "modifier_data": {
    "name": "vegan vanilla + blackberry TWIST (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "3BJIB3S4QOEOLH3LBKOCPK7S",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
    }
