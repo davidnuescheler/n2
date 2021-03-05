@@ -238,6 +238,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "6GXWF24GYBERPFV33P4OEZKC",
+     "modifier_data": {
+      "name": "streusel crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
@@ -8857,6 +8866,15 @@ var catalog_raw=[
    "name": "salted maple (gf) + blueberry (gf) TWIST",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "6GXWF24GYBERPFV33P4OEZKC",
+  "modifier_data": {
+   "name": "streusel crumb",
+   "price_money": {
+    "amount": 75
    }
   }
  }
