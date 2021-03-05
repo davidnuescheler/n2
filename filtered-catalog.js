@@ -2449,6 +2449,51 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "PQAZPKJPZNKPPQ4VXP7TDHBJ",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "F7LVU2OBNYPZBBQFBVSVQFA7",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "H6E4RUPFL3WIYXPYHEBJ5FLZ",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ZXEFKGDWD5YAK5PH52Z73OKH",
+     "modifier_data": {
+      "name": "salted maple + blueberry TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "US5FR4XOJVJVVTIHVGWWKWN5",
+     "modifier_data": {
+      "name": "salted vanilla + milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -8715,6 +8760,51 @@ var catalog_raw=[
    "name": "salted vanilla + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PQAZPKJPZNKPPQ4VXP7TDHBJ",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "F7LVU2OBNYPZBBQFBVSVQFA7",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "H6E4RUPFL3WIYXPYHEBJ5FLZ",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ZXEFKGDWD5YAK5PH52Z73OKH",
+  "modifier_data": {
+   "name": "salted maple + blueberry TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "US5FR4XOJVJVVTIHVGWWKWN5",
+  "modifier_data": {
+   "name": "salted vanilla + milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
