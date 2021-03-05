@@ -3677,16 +3677,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "66UK6K4KHXWWDM3GZMIS4YL3",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "QXWS6VXD6YD56BBYCUWLH6DG",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3701,6 +3691,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "66UK6K4KHXWWDM3GZMIS4YL3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted maple (gf)",
       "price_money": {
        "amount": 0
       }
