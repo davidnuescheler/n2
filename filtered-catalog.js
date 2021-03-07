@@ -121,15 +121,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SMSISZPETGOMFINCESSB7HSD",
-     "modifier_data": {
-      "name": "whipped coconut cream (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
       "name": "peanut praline (v) (gf)",
@@ -8437,15 +8428,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "SMSISZPETGOMFINCESSB7HSD",
-  "modifier_data": {
-   "name": "whipped coconut cream (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
