@@ -211,6 +211,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
+     "modifier_data": {
+      "name": "coffee ganache (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -8819,6 +8828,15 @@ var catalog_raw=[
    "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
+  "modifier_data": {
+   "name": "coffee ganache (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
