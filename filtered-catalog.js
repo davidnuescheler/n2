@@ -2773,15 +2773,6 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
-     "modifier_data": {
-      "name": "graham cracker milk",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UOPYHIT3MNT2ODKVSMBQXT74",
      "modifier_data": {
       "name": "coffee (gf)",
@@ -4397,15 +4388,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "JUBW7IOJWA5ADTVVZZMWM2SW",
-  "modifier_data": {
-   "name": "graham cracker milk",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
