@@ -1893,9 +1893,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "3NM7O3GHJA4MLSSOE4DIQ64T",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "XGRO7ETULSWBSRFPAU7YJE7Q",
      "modifier_data": {
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UQQ5DNPOWMTWEZUTLN32EBVW",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -1950,24 +1968,6 @@ var catalog_raw=[
      "id": "7RWDQTQZ7VSD7V7A3L52U5ZI",
      "modifier_data": {
       "name": "passion fruit + greek yogurt TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3NM7O3GHJA4MLSSOE4DIQ64T",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UQQ5DNPOWMTWEZUTLN32EBVW",
-     "modifier_data": {
-      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
