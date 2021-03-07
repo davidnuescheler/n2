@@ -2397,9 +2397,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "7GTY4ATQD2KMXKHH43FVTDDM",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "F7LVU2OBNYPZBBQFBVSVQFA7",
      "modifier_data": {
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "OXVTEOWRCL5I5OAZOZONAJC6",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2454,24 +2472,6 @@ var catalog_raw=[
      "id": "M4IDSP6CDHJZP4I5I4HBWNIT",
      "modifier_data": {
       "name": "passion fruit + greek yogurt TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "7GTY4ATQD2KMXKHH43FVTDDM",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "OXVTEOWRCL5I5OAZOZONAJC6",
-     "modifier_data": {
-      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3701,6 +3701,26 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "4V6UROWMDLZOJP36HYN364PH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WQCR7GZQ4JHOMYWDXDNSCKBP",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3765,26 +3785,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "passion fruit + greek yogurt TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4V6UROWMDLZOJP36HYN364PH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "WQCR7GZQ4JHOMYWDXDNSCKBP",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
