@@ -94,15 +94,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JEC2NU57MRPFUBQNRUTACTYW",
-     "modifier_data": {
-      "name": "cheesecake bits (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
       "name": "chocolate shortbread crumb",
@@ -4906,15 +4897,6 @@ var catalog_raw=[
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
    "name": "honeycomb candy (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "JEC2NU57MRPFUBQNRUTACTYW",
-  "modifier_data": {
-   "name": "cheesecake bits (gf)",
    "price_money": {
     "amount": 75
    }
