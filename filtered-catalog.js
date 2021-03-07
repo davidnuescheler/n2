@@ -211,15 +211,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "62NPDWQFYWUSVSQ426GQVQH5",
-     "modifier_data": {
-      "name": "coffee ganache (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -4656,15 +4647,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "62NPDWQFYWUSVSQ426GQVQH5",
-  "modifier_data": {
-   "name": "coffee ganache (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
    "name": "no extra flavors",
@@ -5040,18 +5022,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
+     "id": "I3IW33HOLR7IKPRWRYH7ECVP",
      "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
+      "name": "fruity pebbles (v) (gf)",
       "price_money": {
        "amount": 75
       }
      }
     },
     {
-     "id": "I3IW33HOLR7IKPRWRYH7ECVP",
+     "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
      "modifier_data": {
-      "name": "fruity pebbles (v) (gf)",
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
