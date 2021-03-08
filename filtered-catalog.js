@@ -112,6 +112,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "NRVUGQADH5BEIGQATLXAXER6",
+     "modifier_data": {
+      "name": "whipped coconut cream (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
       "name": "peanut praline (v) (gf)",
@@ -142,6 +151,15 @@ var catalog_raw=[
      "id": "PJLXM7AJ33KQDDFLF5R3XQCT",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "DK3ZFQ5XR5EEUTOXRWJCPAHO",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -8607,6 +8625,24 @@ var catalog_raw=[
    "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DK3ZFQ5XR5EEUTOXRWJCPAHO",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "NRVUGQADH5BEIGQATLXAXER6",
+  "modifier_data": {
+   "name": "whipped coconut cream (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
