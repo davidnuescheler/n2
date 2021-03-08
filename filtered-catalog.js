@@ -2764,6 +2764,33 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
+     "id": "XQUR4IPF4EAJ7S3WEOD5AORW",
+     "modifier_data": {
+      "name": "graham cracker milk",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HVBOSMACVVOYXIXYAMSFUJKM",
+     "modifier_data": {
+      "name": "coffee (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NXD5A7CTZS5QDLORQHQ22SHS",
+     "modifier_data": {
+      "name": "graham cracker milk + coffee TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "B34QGIFYQGCIGY757ET5SICH",
      "modifier_data": {
       "name": "vegan vanilla! (v) (gf)",
@@ -3477,6 +3504,33 @@ var catalog_raw=[
      "id": "6YINBTKO4XRD26AZKWOQWD2O",
      "modifier_data": {
       "name": "no soft serve",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "EOV57LLSHIQ3K245WCBSIDHR",
+     "modifier_data": {
+      "name": "graham cracker milk",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "D5I7X2UZYZWQMHG2I23CAPPX",
+     "modifier_data": {
+      "name": "coffee (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "OGUHHUUNCJZSIRKEVZZNQ4UW",
+     "modifier_data": {
+      "name": "graham cracker + coffee TWIST",
       "price_money": {
        "amount": 0
       }
@@ -8571,6 +8625,60 @@ var catalog_raw=[
    "name": "coffee ganache (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "XQUR4IPF4EAJ7S3WEOD5AORW",
+  "modifier_data": {
+   "name": "graham cracker milk",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HVBOSMACVVOYXIXYAMSFUJKM",
+  "modifier_data": {
+   "name": "coffee (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NXD5A7CTZS5QDLORQHQ22SHS",
+  "modifier_data": {
+   "name": "graham cracker milk + coffee TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "EOV57LLSHIQ3K245WCBSIDHR",
+  "modifier_data": {
+   "name": "graham cracker milk",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "D5I7X2UZYZWQMHG2I23CAPPX",
+  "modifier_data": {
+   "name": "coffee (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "OGUHHUUNCJZSIRKEVZZNQ4UW",
+  "modifier_data": {
+   "name": "graham cracker + coffee TWIST",
+   "price_money": {
+    "amount": 0
    }
   }
  }
