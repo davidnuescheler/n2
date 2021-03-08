@@ -2815,36 +2815,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "6VCVAVGJ3QUOOIJQAPBQXQ6B",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "graham cracker milk",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4UQDTZSNNB5F4L6R242D6JPP",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "coffee (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FVT3D5V75VEM25INB4NJBVXC",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "graham cracker milk + coffee TWIST",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "NG3CQQISBQZXP5FADUMU54BT",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
