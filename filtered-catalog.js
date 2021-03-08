@@ -3545,10 +3545,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "EOF5OFHJ5ZXS4OYHMKNWZDPH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "THFPJJZAU2ODSK3UEXYL6BLI",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + milk chocolate TWIST",
       "price_money": {
        "amount": 0
       }
