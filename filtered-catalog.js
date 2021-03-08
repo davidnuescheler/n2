@@ -2782,15 +2782,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
-     "modifier_data": {
-      "name": "graham cracker milk + coffee TWIST",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "B34QGIFYQGCIGY757ET5SICH",
      "modifier_data": {
       "name": "vegan vanilla! (v) (gf)",
@@ -3540,27 +3531,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
-     "modifier_data": {
-      "name": "graham cracker milk",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "HSVRY3S35OCPLYE35LIRLOBF",
      "modifier_data": {
       "name": "coffee (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "UIUUY3EADX5IOB3N6AI4PRKK",
-     "modifier_data": {
-      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 300
       }
@@ -3602,15 +3575,6 @@ var catalog_raw=[
    "name": "no soft serve",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
-  "modifier_data": {
-   "name": "graham cracker milk",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -6532,27 +6496,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UIUUY3EADX5IOB3N6AI4PRKK",
-  "modifier_data": {
-   "name": "graham cracker milk + coffee TWIST",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
    "name": "blackberry (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CO2X3LAMEXVDDUIV3MD2HRJB",
-  "modifier_data": {
-   "name": "graham cracker milk + coffee TWIST",
    "price_money": {
     "amount": 0
    }
