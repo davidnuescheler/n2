@@ -2773,15 +2773,6 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "UOPYHIT3MNT2ODKVSMBQXT74",
-     "modifier_data": {
-      "name": "coffee (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "B34QGIFYQGCIGY757ET5SICH",
      "modifier_data": {
       "name": "vegan vanilla! (v) (gf)",
@@ -3527,15 +3518,6 @@ var catalog_raw=[
       "name": "no soft serve",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "HSVRY3S35OCPLYE35LIRLOBF",
-     "modifier_data": {
-      "name": "coffee (gf)",
-      "price_money": {
-       "amount": 300
       }
      }
     },
@@ -6463,24 +6445,6 @@ var catalog_raw=[
   "id": "3ETYIPTVQRGOFBONMXL2XRJQ",
   "modifier_data": {
    "name": "warm (kid's temp)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HSVRY3S35OCPLYE35LIRLOBF",
-  "modifier_data": {
-   "name": "coffee (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "UOPYHIT3MNT2ODKVSMBQXT74",
-  "modifier_data": {
-   "name": "coffee (gf)",
    "price_money": {
     "amount": 0
    }
