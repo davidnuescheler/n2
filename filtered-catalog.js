@@ -1920,9 +1920,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "CW7PI76XG6ETKEFMVB7I4BTX",
+     "modifier_data": {
+      "name": "passion fruit sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "C5FG2X7KRWBXJBHQROXZELR2",
      "modifier_data": {
-      "name": "greek yogurt",
+      "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2BC2JN6UDQQNVOFCBMOQFYXK",
+     "modifier_data": {
+      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3585,10 +3603,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UULUZQ3ED3Z5MEMZQNIVPM52",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "passion fruit sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "IE7WO3TDLXPAZM7U34DPMAAO",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MCX3J76MHJHNZRQSCC463DV6",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8230,7 +8268,7 @@ var catalog_raw=[
  {
   "id": "C5FG2X7KRWBXJBHQROXZELR2",
   "modifier_data": {
-   "name": "greek yogurt",
+   "name": "greek yogurt (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8513,6 +8551,24 @@ var catalog_raw=[
   "id": "D5I7X2UZYZWQMHG2I23CAPPX",
   "modifier_data": {
    "name": "coffee (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CW7PI76XG6ETKEFMVB7I4BTX",
+  "modifier_data": {
+   "name": "passion fruit sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2BC2JN6UDQQNVOFCBMOQFYXK",
+  "modifier_data": {
+   "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 0
    }
