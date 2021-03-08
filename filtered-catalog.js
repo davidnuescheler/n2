@@ -1884,27 +1884,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GVKMGM3TFA2Q5NMOH5MIRMOW",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "XGRO7ETULSWBSRFPAU7YJE7Q",
      "modifier_data": {
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PUMGVILCFA6J5P6LVT5OB4MT",
-     "modifier_data": {
-      "name": "salted vanilla bean + milk chocolate TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2370,27 +2352,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QETHLQEJ4QXM2WMCKJIE2DPO",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "F7LVU2OBNYPZBBQFBVSVQFA7",
      "modifier_data": {
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JGVMCBOSRP4I2Q7LQOIKB4HF",
-     "modifier_data": {
-      "name": "salted vanilla bean + milk chocolate TWIST",
       "price_money": {
        "amount": 300
       }
@@ -3581,30 +3545,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "EOF5OFHJ5ZXS4OYHMKNWZDPH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "THFPJJZAU2ODSK3UEXYL6BLI",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + milk chocolate TWIST",
       "price_money": {
        "amount": 0
       }
@@ -8571,42 +8515,6 @@ var catalog_raw=[
    "name": "coffee (gf)",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "GVKMGM3TFA2Q5NMOH5MIRMOW",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "PUMGVILCFA6J5P6LVT5OB4MT",
-  "modifier_data": {
-   "name": "salted vanilla bean + milk chocolate TWIST",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "QETHLQEJ4QXM2WMCKJIE2DPO",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "JGVMCBOSRP4I2Q7LQOIKB4HF",
-  "modifier_data": {
-   "name": "salted vanilla bean + milk chocolate TWIST",
-   "price_money": {
-    "amount": 300
    }
   }
  }
