@@ -2842,6 +2842,16 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "I7ZPKRUWIGGXSVMZ5EEAS424",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "coffee (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "NG3CQQISBQZXP5FADUMU54BT",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
@@ -3514,7 +3524,7 @@ var catalog_raw=[
      "modifier_data": {
       "name": "coffee (gf)",
       "price_money": {
-       "amount": 0
+       "amount": 300
       }
      }
     },
@@ -8588,7 +8598,7 @@ var catalog_raw=[
   "modifier_data": {
    "name": "coffee (gf)",
    "price_money": {
-    "amount": 0
+    "amount": 300
    }
   }
  },
