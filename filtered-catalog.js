@@ -94,6 +94,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
+     "modifier_data": {
+      "name": "cheesecake bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
       "name": "chocolate shortbread crumb",
@@ -112,6 +121,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
+     "modifier_data": {
+      "name": "vegan salted caramel (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "NRVUGQADH5BEIGQATLXAXER6",
      "modifier_data": {
       "name": "whipped coconut cream (v) (gf)",
@@ -123,7 +141,7 @@ var catalog_raw=[
     {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
-      "name": "peanut praline (v) (gf)",
+      "name": "peanut praline (gf)",
       "price_money": {
        "amount": 75
       }
@@ -193,6 +211,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "R5552JHAMS6LL2HLITDED4X2",
+     "modifier_data": {
+      "name": "chocolate chip cake bits (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "AZIZA pistachio baklava",
@@ -205,6 +232,15 @@ var catalog_raw=[
      "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
      "modifier_data": {
       "name": "coffee ganache (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
+     "modifier_data": {
+      "name": "blueberry compote (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -8354,7 +8390,7 @@ var catalog_raw=[
  {
   "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
   "modifier_data": {
-   "name": "peanut praline (v) (gf)",
+   "name": "peanut praline (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8783,6 +8819,42 @@ var catalog_raw=[
    "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
+  "modifier_data": {
+   "name": "cheesecake bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
+  "modifier_data": {
+   "name": "vegan salted caramel (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "R5552JHAMS6LL2HLITDED4X2",
+  "modifier_data": {
+   "name": "chocolate chip cake bits (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
+  "modifier_data": {
+   "name": "blueberry compote (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
