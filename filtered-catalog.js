@@ -193,15 +193,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
-     "modifier_data": {
-      "name": "chocolate chip cake bits (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "AZIZA pistachio baklava",
@@ -4620,15 +4611,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "OX3PPRMWG4CD6ABJBW4P4RKA",
-  "modifier_data": {
-   "name": "chocolate chip cake bits (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
    "name": "no extra flavors",
@@ -4932,15 +4914,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "C4NVV4NZBEK34GDXI23GX6EA",
-     "modifier_data": {
-      "name": "cornmeal cake (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "5YM476W3SGXA2MI5Y4447SZV",
      "modifier_data": {
       "name": "graham cracker crumble",
@@ -5058,15 +5031,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
-     "modifier_data": {
-      "name": "cornmeal cake (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "AITYCH5Z7FQCR3S3CEHLZAAX",
      "modifier_data": {
       "name": "graham cracker crumble",
@@ -5160,15 +5124,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "C4NVV4NZBEK34GDXI23GX6EA",
-  "modifier_data": {
-   "name": "cornmeal cake (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "I3IW33HOLR7IKPRWRYH7ECVP",
   "modifier_data": {
    "name": "fruity pebbles (v) (gf)",
@@ -5217,15 +5172,6 @@ var catalog_raw=[
   "id": "ISV6PXGEYV4SXWK4Q4MXKADR",
   "modifier_data": {
    "name": "roasted white chocolate bits (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "TYQAFDHJNYBNGIAO7TVIM2UJ",
-  "modifier_data": {
-   "name": "cornmeal cake (v)",
    "price_money": {
     "amount": 75
    }
