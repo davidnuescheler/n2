@@ -1893,9 +1893,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "GOQCWDDB4GQYWYHDYNDBV3PY",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "XGRO7ETULSWBSRFPAU7YJE7Q",
      "modifier_data": {
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "6BJKPZWFTYOG4TJ4XQL346C4",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2379,9 +2397,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "HPXA457JCTEEQI2KN2BMDMSL",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "F7LVU2OBNYPZBBQFBVSVQFA7",
      "modifier_data": {
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UOZBELA22WAZLNQ6MNEOOOKC",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3656,10 +3692,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "WKBNGIK366345JUMEV2CA2VO",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2JTNOCVW4BYBE5AY4WLOD2T5",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8689,6 +8745,42 @@ var catalog_raw=[
   "id": "6VIZWMWIKH7WC7PVXIBQVWLY",
   "modifier_data": {
    "name": "graham cracker",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "GOQCWDDB4GQYWYHDYNDBV3PY",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "6BJKPZWFTYOG4TJ4XQL346C4",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HPXA457JCTEEQI2KN2BMDMSL",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UOZBELA22WAZLNQ6MNEOOOKC",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
    }
