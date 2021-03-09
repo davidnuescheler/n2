@@ -2816,6 +2816,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "6PEJDT6MVEZAWCTM256RGFBW",
+     "modifier_data": {
+      "name": "graham cracker",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UB4D2IGAVUNOD6WMGUPW63LA",
+     "modifier_data": {
+      "name": "coffee + graham cracker TWIST",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2876,6 +2894,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
       "name": "blackberry + vegan vanilla TWIST (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5GVZLOQPVUI4BUBWSAFMADGE",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "graham cracker",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TCUYQBFHW6Q3OUGEZEPM3PJD",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "coffee + graham cracker TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3550,6 +3588,24 @@ var catalog_raw=[
      "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
      "modifier_data": {
       "name": "vegan vanilla + blackberry TWIST (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "B3GVTAQ76TUGWSCNJSDRWQ7T",
+     "modifier_data": {
+      "name": "coffee + graham cracker TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "6VIZWMWIKH7WC7PVXIBQVWLY",
+     "modifier_data": {
+      "name": "graham cracker",
       "price_money": {
        "amount": 300
       }
@@ -8653,6 +8709,42 @@ var catalog_raw=[
    "name": "whipped coconut cream (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "6PEJDT6MVEZAWCTM256RGFBW",
+  "modifier_data": {
+   "name": "graham cracker",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UB4D2IGAVUNOD6WMGUPW63LA",
+  "modifier_data": {
+   "name": "coffee + graham cracker TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "B3GVTAQ76TUGWSCNJSDRWQ7T",
+  "modifier_data": {
+   "name": "coffee + graham cracker TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "6VIZWMWIKH7WC7PVXIBQVWLY",
+  "modifier_data": {
+   "name": "graham cracker",
+   "price_money": {
+    "amount": 300
    }
   }
  }
