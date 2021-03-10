@@ -2906,7 +2906,13 @@ const setCartTotal = () => {
   const $headerText = document.querySelector(".header-cart-text");
   if ($headerText) { 
     cart.load();
-    $headerText.textContent = cart.totalItems() || 0;
+    const totalItems = cart.totalItems();
+    if (totalItems == parseInt(totalItems)) {
+      $headerText.textContent = cart.totalItems() || 0;
+    } else {
+      cart.clear();
+      $headerText.textContent = 0;
+    }
   }
 };
 
@@ -3084,6 +3090,7 @@ var cart = {
     cart.store();
   },
   totalAmount: () => {
+    const currentStore = getCurrentStore();
     var total = 0;
     cart.line_items.forEach((li) => {
       if (li.quantity > 0) {
@@ -3091,7 +3098,7 @@ var cart = {
       }
     });
     // add shipping to total on delivery orders
-    if (storeLocation === "delivery" && cart.shipping_item.price) {
+    if (currentStore === "delivery" && cart.shipping_item.price) {
       total += cart.shipping_item.price;
     }
     return total;
