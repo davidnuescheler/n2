@@ -1,5 +1,4 @@
-// GLOBAL VARIABLES
-let storeLocation;
+
 
 /*==========================================================
 UNIVERSAL SETUP
@@ -54,6 +53,7 @@ const setPage = () => {
       buildOrderPage();
       break;
     case "store":
+      cart.clear();
       setCurrentStore();
       shopify();
       styleMenus();
