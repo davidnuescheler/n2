@@ -59,7 +59,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      cart.clear();
       // drinksStarburst();
       break;
     case "lab":
