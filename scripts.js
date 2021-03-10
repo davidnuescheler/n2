@@ -53,13 +53,13 @@ const setPage = () => {
       buildOrderPage();
       break;
     case "store":
-      cart.clear();
       setCurrentStore();
       shopify();
       styleMenus();
       setupCarousels();
       fixCart();
       buildCustomizationTool();
+      cart.clear();
       // drinksStarburst();
       break;
     case "lab":
