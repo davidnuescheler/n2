@@ -7760,7 +7760,7 @@ var catalog_raw=[
   "id": "A6DRIPCD6V2XKTYFVIBJ34SO",
   "type": "ITEM",
   "item_data": {
-   "name": "earl gray + passion pint",
+   "name": "earl grey + passion pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
