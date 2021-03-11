@@ -5,6 +5,12 @@
     & .highlight {
         background: $color-yellow-alt;
     }
+
+    & .starburst {
+        & .icon-starburst {
+            fill: $color-pink;
+        }
+    }
     
     & input {
         &:-webkit-autofill {
@@ -123,10 +129,10 @@
             background: $color-blue;
             color: $color-white;
 
-            &:nth-child(odd) {
-                background: $color-pink;
-                color: $color-blue;
-            }
+            // &:nth-child(odd) {
+            //     background: $color-pink;
+            //     color: $color-blue;
+            // }
     
             & .btn {
                 &-rect {

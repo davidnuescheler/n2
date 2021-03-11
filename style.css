@@ -872,6 +872,60 @@ a {
 .sq-input {
   transition: 0.2s all; }
 
+.starburst {
+  float: left;
+  position: relative;
+  margin-top: -8%;
+  margin-left: -8%;
+  width: 18rem;
+  transition: 0.2s all;
+  cursor: pointer;
+  z-index: 3; }
+  .starburst:hover, .starburst:focus {
+    transform: scale(1.2) rotate(12deg); }
+    .starburst:hover .icon-starburst, .starburst:focus .icon-starburst {
+      animation-duration: 7.5s; }
+  .starburst-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 85%;
+    text-align: center;
+    line-height: 1;
+    transform: translate(-50%, -50%) rotate(-12deg); }
+  .starburst-close {
+    position: absolute;
+    padding: 0 !important;
+    top: 2rem;
+    right: 5%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s all; }
+    .starburst-close:hover, .starburst-close:focus {
+      transform: scale(1.6); }
+    .starburst-close svg.icon-close {
+      width: 2.5rem;
+      height: 2.5rem; }
+  .starburst .icon-starburst {
+    animation: spin 15s linear 0s infinite normal; }
+
+@media only screen and (max-width: 46.4rem) {
+  .starburst {
+    float: none;
+    margin: 0 auto;
+    margin-top: 4rem; }
+    .starburst:hover, .starburst:focus {
+      transform: scale(1.4) rotate(12deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
 main svg {
   height: 0.8em;
   width: 0.8em;
@@ -897,6 +951,10 @@ svg {
     margin: 12rem 1rem;
     width: 4.5rem;
     height: 4.5rem; }
+  svg.icon-starburst {
+    stroke-width: 0;
+    width: 18rem;
+    height: 18rem; }
 
 #about svg.icon-arrow-down, #pintclub svg.icon-arrow-down {
   cursor: pointer;
@@ -1203,6 +1261,7 @@ h2#soft-serve ~ h3 {
   margin: 0.2rem 0; }
 
 .menu {
+  position: relative;
   margin-top: 4rem;
   padding: 2rem 0; }
   .menu img {
@@ -1557,34 +1616,6 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
     width: 100%;
     padding: 2rem 0; } }
 
-main#icons .p-icons, main#icons .p-logos {
-  border: 2px solid #0D26F9;
-  margin-top: 4rem;
-  padding: 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%; }
-  main#icons .p-icons h2, main#icons .p-logos h2 {
-    width: 100%;
-    margin-bottom: 4rem; }
-  main#icons .p-icons p, main#icons .p-logos p {
-    width: 33%;
-    padding: 1rem; }
-  main#icons .p-icons svg, main#icons .p-logos svg {
-    fill: currentColor;
-    stroke: currentColor;
-    stroke-width: 0;
-    vertical-align: middle; }
-
-main#icons .p-icons svg {
-  width: 9rem !important;
-  height: 9rem !important;
-  transform: scale(1, 1); }
-
-main#icons .p-logos svg {
-  width: 100% !important;
-  height: 100% !important; }
-
 .theme-outline {
   border: 1px solid currentColor; }
   .theme-outline h2 {
@@ -1828,6 +1859,8 @@ main#icons .p-logos svg {
   color: #0D26F9; }
   .theme-white .highlight {
     background: #FBFF5C; }
+  .theme-white .starburst .icon-starburst {
+    fill: #FFD4CC; }
   .theme-white input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 5rem #FFFCF3 inset;
     -webkit-text-fill-color: #0D26F9; }
@@ -1887,9 +1920,6 @@ main#icons .p-logos svg {
   .theme-white .menu-filled {
     background: #0D26F9;
     color: #FFFCF3; }
-    .theme-white .menu-filled:nth-child(odd) {
-      background: #FFD4CC;
-      color: #0D26F9; }
     .theme-white .menu-filled .btn-rect {
       background: #FFFCF3;
       color: #0D26F9; }

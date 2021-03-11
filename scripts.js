@@ -59,7 +59,7 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
+      buildCollapsableStarbursts();
       break;
     case "lab":
       setCurrentStore();
@@ -164,9 +164,9 @@ const codify = () => {
       } else if (key === "color") {
         setBlockTheme(c, values); // set theme class on parent
       } else if (key === "starburst") {
-        // console.log("starburst", values);
+        console.log("starburst", values);
       } else if (key === "starburst-collapse") {
-        // console.log("starburst collapse", values);
+        console.log("starburst-collapse", values);
       } else if (key === "code") {
         switch (values) {
           case "search":
@@ -209,6 +209,96 @@ const setBlockStyle = ($el, style) => {
     $parent.classList.add(`theme-${style}`);
   }
 };
+
+const buildCollapsableStarbursts = () => {
+
+  const $collapsableStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-collapse") { return c; }
+  });
+
+  $collapsableStarbursts.forEach((s) => {
+    console.log(s);
+    const [key, values] = s.textContent.split(": ");
+
+    const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+    
+    if ($parent) {
+      $parent.classList.add("hide");
+      const $closeBtn = document.createElement("div");
+        $closeBtn.classList.add("starburst-close");
+        $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+          <use href="/icons.svg#close"></use>
+        </svg>`;
+        $closeBtn.onclick = (e) => {
+          const $target = e.target.closest(".starburst-close");
+          const $parent = $target.parentNode;
+          console.log($parent);
+        }
+      $parent.prepend($closeBtn);
+
+      // build starburst
+      const $starburst = document.createElement("aside");
+        $starburst.classList.add("starburst");
+        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+          <use href="/icons.svg#starburst"></use>
+        </svg>`;
+
+      const $starburstText = document.createElement("span");
+        $starburstText.classList.add("starburst-text");
+        $starburstText.textContent = values;
+      $starburst.append($starburstText);
+
+      $starburst.onclick = (e) => {
+        const $target = e.target.closest("aside");
+        const $sibling = $target.nextElementSibling;
+        $sibling.classList.remove("hide");
+        $target.classList.add("hide");
+      };
+
+      const $main = document.querySelector("main");
+      $main.insertBefore($starburst, $parent);
+
+    }
+
+  })
+
+  // console.log($el);
+  // console.log(values);
+  // hide parent
+  // const $parent = $el.parentNode.parentNode.parentNode.parentNode.parentNode;
+  // if ($parent) {
+  //   // $parent.classList.add("hide");
+  //   const $closeBtn = document.createElement("div");
+  //     $closeBtn.classList.add("starburst-close");
+  //     $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+  //       <use href="/icons.svg#close"></use>
+  //     </svg>`;
+  //   $parent.prepend($closeBtn);
+
+  //   // build starburst
+  //   const $starburst = document.createElement("aside");
+  //     $starburst.classList.add("starburst");
+  //     $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+  //       <use href="/icons.svg#starburst"></use>
+  //     </svg>`;
+
+  //   const $starburstText = document.createElement("span");
+  //     $starburstText.classList.add("starburst-text");
+  //     $starburstText.textContent = values;
+  //   $starburst.append($starburstText);
+
+  //   $starburst.onclick = (e) => {
+  //     const $target = e.target.closest("aside");
+  //     const $sibling = $target.nextElementSibling;
+  //     $sibling.classList.remove("hide");
+  //     $target.classList.add("hide");
+  //   };
+
+  //   const $main = document.querySelector("main");
+  //   $main.insertBefore($starburst, $parent);
+  // }
+}
 
 const fixCart = () => {
   const $cart = document.querySelector(".header-cart");

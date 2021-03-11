@@ -1,3 +1,59 @@
+.starburst {
+    // border: 1px solid gold;
+    float: left;
+    position: relative;
+    margin-top: -8%;
+    margin-left: -8%;
+    width: 18rem;
+    transition: 0.2s all;
+    cursor: pointer;
+    z-index: 3;
+
+    &:hover, &:focus {
+        transform: scale(1.2) rotate(12deg);
+
+        & .icon-starburst {
+            animation-duration: 7.5s;
+        }
+    }
+
+    &-text {
+        // color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include font-poppins-bold;
+        font-size: 85%;
+        text-align: center;
+        line-height: 1;
+        transform: translate(-50%, -50%) rotate(-12deg);
+    }
+
+    &-close {
+        position: absolute;
+        padding: 0 !important;
+        top: 2rem;
+        right: 5%;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s all;
+
+        &:hover, &:focus {
+            transform: scale(1.6);
+        }
+
+        & svg.icon-close {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+    
+    & .icon-starburst {
+        animation: spin 15s linear 0s infinite normal;
+    }
+    
+}
+
 // .starburst {   
 //     position: relative;
 //     margin: -7.5rem -1rem !important;
@@ -68,17 +124,23 @@
 //     }
 // }
 
-// @media only screen and (max-width: 41.1rem) {
-//     .starburst {
-//         margin: 0 auto !important;
-//     }
-// }
+@media only screen and (max-width: $mobile) {
+    .starburst {
+        float: none;
+        margin: 0 auto;
+        margin-top: 4rem;
 
-// @keyframes spin {
-//     from {
-//         transform: rotate(0deg);
-//     }
-//     to {
-//         transform: rotate(360deg);
-//     }
-// }
+        &:hover, &:focus {
+            transform: scale(1.4) rotate(12deg);
+        }    
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
