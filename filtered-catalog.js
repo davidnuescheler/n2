@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DXT3HMOZHHE366QHHE2QQQLW",
-     "modifier_data": {
-      "name": "key lime curd (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
       "name": "graham cracker cumb",
@@ -88,15 +79,6 @@ var catalog_raw=[
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
       "name": "honeycomb candy (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
-     "modifier_data": {
-      "name": "cheesecake bits",
       "price_money": {
        "amount": 75
       }
@@ -4677,15 +4659,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DXT3HMOZHHE366QHHE2QQQLW",
-  "modifier_data": {
-   "name": "key lime curd (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "NLKKOTH4LYIU37MFWQP5WWMP",
   "modifier_data": {
    "name": "no extra flavors",
@@ -8793,15 +8766,6 @@ var catalog_raw=[
    "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
-  "modifier_data": {
-   "name": "cheesecake bits",
-   "price_money": {
-    "amount": 75
    }
   }
  },
