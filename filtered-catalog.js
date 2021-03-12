@@ -202,15 +202,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
-     "modifier_data": {
-      "name": "brown butter milk crumb (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "R5552JHAMS6LL2HLITDED4X2",
      "modifier_data": {
       "name": "chocolate chip cake bits (v)",
@@ -223,15 +214,6 @@ var catalog_raw=[
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "AZIZA pistachio baklava",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
-     "modifier_data": {
-      "name": "coffee ganache (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -4331,15 +4313,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
-  "modifier_data": {
-   "name": "brown butter milk crumb (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
@@ -8676,15 +8649,6 @@ var catalog_raw=[
    "name": "salted maple + blueberry TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
-  "modifier_data": {
-   "name": "coffee ganache (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
