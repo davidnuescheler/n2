@@ -8795,5 +8795,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "QKA7JOHXFP35IZW4PF2WG3CO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "burnt+barley bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "BA2CRVUBIY6K5CS4VAYCUEPU",
+     "item_variation_data": {
+      "item_id": "QKA7JOHXFP35IZW4PF2WG3CO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
  }
 ]
