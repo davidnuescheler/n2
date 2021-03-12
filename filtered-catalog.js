@@ -67,15 +67,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DXT3HMOZHHE366QHHE2QQQLW",
-     "modifier_data": {
-      "name": "key lime curd (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
       "name": "graham cracker cumb",
@@ -88,15 +79,6 @@ var catalog_raw=[
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
       "name": "honeycomb candy (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
-     "modifier_data": {
-      "name": "cheesecake bits",
       "price_money": {
        "amount": 75
       }
@@ -202,15 +184,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
-     "modifier_data": {
-      "name": "brown butter milk crumb (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "R5552JHAMS6LL2HLITDED4X2",
      "modifier_data": {
       "name": "chocolate chip cake bits (v)",
@@ -223,15 +196,6 @@ var catalog_raw=[
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "AZIZA pistachio baklava",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
-     "modifier_data": {
-      "name": "coffee ganache (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -4334,15 +4298,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UYX3JZ6C7BU7NIBP33GL7FD2",
-  "modifier_data": {
-   "name": "brown butter milk crumb (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "6RXWDXJTVKRGKBKWJZN3M77K",
   "type": "ITEM",
   "item_data": {
@@ -4700,15 +4655,6 @@ var catalog_raw=[
    "name": "mocha!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "DXT3HMOZHHE366QHHE2QQQLW",
-  "modifier_data": {
-   "name": "key lime curd (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
@@ -8680,15 +8626,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JXJZC4TT3MR7EMN6XDAZCSKB",
-  "modifier_data": {
-   "name": "coffee ganache (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "HVBOSMACVVOYXIXYAMSFUJKM",
   "modifier_data": {
    "name": "coffee (gf)",
@@ -8829,15 +8766,6 @@ var catalog_raw=[
    "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "ACQWMRKHCVJ3JDKRLUUYYTW6",
-  "modifier_data": {
-   "name": "cheesecake bits",
-   "price_money": {
-    "amount": 75
    }
   }
  },
