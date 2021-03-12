@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "graham cracker cumb",
+      "name": "graham cracker crumb",
       "price_money": {
        "amount": 75
       }
@@ -124,6 +124,15 @@ var catalog_raw=[
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
       "name": "peanut praline (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
+     "modifier_data": {
+      "name": "cheesecake bits",
       "price_money": {
        "amount": 75
       }
@@ -4809,7 +4818,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "graham cracker cumb",
+   "name": "graham cracker crumb",
    "price_money": {
     "amount": 75
    }
@@ -8814,6 +8823,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
+  "modifier_data": {
+   "name": "cheesecake bits",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
