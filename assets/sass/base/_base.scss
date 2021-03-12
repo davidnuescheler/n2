@@ -47,7 +47,8 @@ ul {
 }
 
 //code blocks
-table thead tr th code { 
+table thead tr th code,
+table tbody tr td code { 
     display: none;
 }
 

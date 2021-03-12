@@ -1,6 +1,6 @@
 h2 {
     // do not style here! globals are in typography
-    &#about {
+    &#about, &#aboutstarburst {
         & ~ p {
             // color: red;
             font-size: 150%;
@@ -67,7 +67,7 @@ div#meettheteam {
 }
 
 // AFTER CLASSES & IDS ARE ADDED
-#about {
+#about, #aboutstarburst {
     & .about-text {
         @include font-acumin-semibold;
     }
@@ -230,7 +230,7 @@ div#meettheteam {
             }
         }
     }
-    #about {
+    #about, #aboutstarburst {
         & .locations-container {
             // background: pink;
             & .location-item {
@@ -270,7 +270,7 @@ div#meettheteam {
             margin: 0 0 1rem !important;
         }
     }
-    #about {
+    #about, #aboutstarburst {
         & .locations-container {
             // background: pink;
             & .location-item {

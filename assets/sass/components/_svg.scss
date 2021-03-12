@@ -42,7 +42,8 @@ svg {
 }
 
 // page-specific
-#about, #pintclub {
+#about, #aboutstarburst, 
+#pintclub, #pintclubstarburst {
     & svg.icon-arrow-down {
         cursor: pointer;
         transition: 0.1s all;

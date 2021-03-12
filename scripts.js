@@ -59,7 +59,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      buildCollapsableStarbursts();
       break;
     case "lab":
       setCurrentStore();
@@ -68,7 +67,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      buildCollapsableStarbursts();
       break;
     case "delivery":
       setCurrentStore();
@@ -77,7 +75,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      buildCollapsableStarbursts();
       break;
     case "about":
       setAboutTextClass();
@@ -108,19 +105,16 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      buildCollapsableStarbursts();
       break;
     case "catering":
       styleMenus();
       setupCarousels();
       fixCart();
-      buildCollapsableStarbursts();
       break;
     case "wholesale":
       styleMenus();
       setupCarousels();
       fixCart();
-      buildCollapsableStarbursts();
       break;
     case "home":
       buildIndexCarousel();
@@ -266,6 +260,76 @@ const buildCollapsableStarbursts = () => {
       }
     })
 
+  }
+}
+
+const buildLinkStarbursts = () => {
+  const $linkStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-link") { return c; }
+  });
+
+  if ($linkStarbursts.length > 0) {
+
+    $linkStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parentEl = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+      const link = s.parentNode.parentNode.parentNode.nextElementSibling.textContent.trim();
+      const linkArr = link.split("/");
+      const location = linkArr[linkArr.length - 1];
+
+      if ($parentEl && link) {
+        // build starburst
+        const $starburst = document.createElement("aside");
+        $starburst.classList.add("starburst", "starburst-link");
+        $starburst.setAttribute("data-link", cleanName(location));
+        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+
+        $starburst.onclick = (e) => {
+          window.open(link, "_self");
+        };
+
+        $parentEl.prepend($starburst);
+      }
+    })
+  }
+}
+
+const buildStaticStarbursts = () => {
+  const $staticStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-static") { return c; }
+  });
+
+  if ($staticStarbursts.length > 0) {
+
+    $staticStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+
+      if ($parent) {
+        // build starburst
+        const $starburst = document.createElement("aside");
+        $starburst.classList.add("starburst", "starburst-static");
+        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+
+        $parent.prepend($starburst);
+      }
+    })
   }
 }
 
@@ -3733,6 +3797,9 @@ window.onload = async (e) => {
   // lazyLoad();
 
   setPage();  
+  buildCollapsableStarbursts();
+  buildLinkStarbursts();
+  buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
