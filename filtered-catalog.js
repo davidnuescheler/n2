@@ -3067,7 +3067,7 @@ var catalog_raw=[
   "id": "BTSMOL5GNKOPJ76HQVVBWUFA",
   "type": "ITEM",
   "item_data": {
-   "name": "triple berry pie slice",
+   "name": "raspberry sour cream slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
