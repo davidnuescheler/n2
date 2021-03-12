@@ -3042,7 +3042,7 @@ var catalog_raw=[
   "id": "47GHWIWAG7XYC5THUPMTNEM6",
   "type": "ITEM",
   "item_data": {
-   "name": "sweet potato pie slice",
+   "name": "blueberry sour cream slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
