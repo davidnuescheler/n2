@@ -8,6 +8,7 @@
     transition: 0.2s all;
     cursor: pointer;
     z-index: 3;
+    @include bfv;
 
     &:hover, &:focus {
         transform: scale(1.2) rotate(12deg);

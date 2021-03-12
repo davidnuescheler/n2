@@ -173,6 +173,19 @@
     & #back-to-top {
         background: $color-white;
     }
+
+    // themes
+    & .theme-pink {
+        background: $color-pink;
+        color: $color-blue;
+
+        & .btn {
+            &-rect {
+                background: $color-white !important;
+                color: $color-blue !important;
+            }
+        }
+    }
 }
 
 @keyframes white-error-blink {

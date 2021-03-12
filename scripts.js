@@ -68,7 +68,7 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
+      buildCollapsableStarbursts();
       break;
     case "delivery":
       setCurrentStore();
@@ -77,7 +77,7 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
+      buildCollapsableStarbursts();
       break;
     case "about":
       setAboutTextClass();
@@ -108,16 +108,19 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
+      buildCollapsableStarbursts();
       break;
     case "catering":
       styleMenus();
       setupCarousels();
       fixCart();
+      buildCollapsableStarbursts();
       break;
     case "wholesale":
       styleMenus();
       setupCarousels();
       fixCart();
+      buildCollapsableStarbursts();
       break;
     case "home":
       buildIndexCarousel();
@@ -166,7 +169,7 @@ const codify = () => {
       } else if (key === "starburst") {
         console.log("starburst", values);
       } else if (key === "starburst-collapse") {
-        console.log("starburst-collapse", values);
+        // functionality moved to buildCollapsableStarburst func
       } else if (key === "code") {
         switch (values) {
           case "search":
@@ -217,87 +220,53 @@ const buildCollapsableStarbursts = () => {
     if (key === "starburst-collapse") { return c; }
   });
 
-  $collapsableStarbursts.forEach((s) => {
-    console.log(s);
-    const [key, values] = s.textContent.split(": ");
+  if ($collapsableStarbursts.length > 0) {
 
-    const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
-    
-    if ($parent) {
-      $parent.classList.add("hide");
-      const $closeBtn = document.createElement("div");
-        $closeBtn.classList.add("starburst-close");
-        $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
-          <use href="/icons.svg#close"></use>
-        </svg>`;
-        $closeBtn.onclick = (e) => {
-          const $target = e.target.closest(".starburst-close");
-          const $parent = $target.parentNode;
-          console.log($parent);
-        }
-      $parent.prepend($closeBtn);
+    $collapsableStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+      
+      if ($parent) {
+        $parent.classList.add("hide");
+        const $closeBtn = document.createElement("div");
+          $closeBtn.classList.add("starburst-close");
+          $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+            <use href="/icons.svg#close"></use>
+          </svg>`;
+          $closeBtn.onclick = (e) => {
+            const $target = e.target.closest(".starburst-close");
+            const $parent = $target.parentNode;
+            const $sibling = $parent.previousElementSibling;
+            $parent.classList.add("hide");
+            $sibling.classList.remove("hide");
+          }
+        $parent.prepend($closeBtn);
+  
+        // build starburst
+        const $starburst = document.createElement("aside");
+          $starburst.classList.add("starburst");
+          $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+  
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+  
+        $starburst.onclick = (e) => {
+          const $target = e.target.closest("aside");
+          const $sibling = $target.nextElementSibling;
+          $sibling.classList.remove("hide");
+          $target.classList.add("hide");
+        };
+  
+        const $main = document.querySelector("main");
+        $main.insertBefore($starburst, $parent);
+      }
+    })
 
-      // build starburst
-      const $starburst = document.createElement("aside");
-        $starburst.classList.add("starburst");
-        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
-          <use href="/icons.svg#starburst"></use>
-        </svg>`;
-
-      const $starburstText = document.createElement("span");
-        $starburstText.classList.add("starburst-text");
-        $starburstText.textContent = values;
-      $starburst.append($starburstText);
-
-      $starburst.onclick = (e) => {
-        const $target = e.target.closest("aside");
-        const $sibling = $target.nextElementSibling;
-        $sibling.classList.remove("hide");
-        $target.classList.add("hide");
-      };
-
-      const $main = document.querySelector("main");
-      $main.insertBefore($starburst, $parent);
-
-    }
-
-  })
-
-  // console.log($el);
-  // console.log(values);
-  // hide parent
-  // const $parent = $el.parentNode.parentNode.parentNode.parentNode.parentNode;
-  // if ($parent) {
-  //   // $parent.classList.add("hide");
-  //   const $closeBtn = document.createElement("div");
-  //     $closeBtn.classList.add("starburst-close");
-  //     $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
-  //       <use href="/icons.svg#close"></use>
-  //     </svg>`;
-  //   $parent.prepend($closeBtn);
-
-  //   // build starburst
-  //   const $starburst = document.createElement("aside");
-  //     $starburst.classList.add("starburst");
-  //     $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
-  //       <use href="/icons.svg#starburst"></use>
-  //     </svg>`;
-
-  //   const $starburstText = document.createElement("span");
-  //     $starburstText.classList.add("starburst-text");
-  //     $starburstText.textContent = values;
-  //   $starburst.append($starburstText);
-
-  //   $starburst.onclick = (e) => {
-  //     const $target = e.target.closest("aside");
-  //     const $sibling = $target.nextElementSibling;
-  //     $sibling.classList.remove("hide");
-  //     $target.classList.add("hide");
-  //   };
-
-  //   const $main = document.querySelector("main");
-  //   $main.insertBefore($starburst, $parent);
-  // }
+  }
 }
 
 const fixCart = () => {

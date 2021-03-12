@@ -880,7 +880,9 @@ a {
   width: 18rem;
   transition: 0.2s all;
   cursor: pointer;
-  z-index: 3; }
+  z-index: 3;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
   .starburst:hover, .starburst:focus {
     transform: scale(1.2) rotate(12deg); }
     .starburst:hover .icon-starburst, .starburst:focus .icon-starburst {
@@ -1831,9 +1833,6 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
   .theme-pink .menu-filled {
     background: #F94F0D;
     color: #FFD4CC; }
-    .theme-pink .menu-filled:nth-child(odd) {
-      background: #FFFC92;
-      color: #F94F0D; }
     .theme-pink .menu-filled .btn-rect {
       background: #FFD4CC !important;
       color: #F94F0D !important; }
@@ -1936,6 +1935,12 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
     background: #FFD4CC; }
   .theme-white #back-to-top {
     background: #FFFCF3; }
+  .theme-white .theme-pink {
+    background: #FFD4CC;
+    color: #0D26F9; }
+    .theme-white .theme-pink .btn-rect {
+      background: #FFFCF3 !important;
+      color: #0D26F9 !important; }
 
 @keyframes white-error-blink {
   0% {
