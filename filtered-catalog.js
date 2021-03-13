@@ -132,7 +132,7 @@ var catalog_raw=[
     {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
-      "name": "peanut praline (gf)",
+      "name": "peanut praline (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -8364,7 +8364,7 @@ var catalog_raw=[
  {
   "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
   "modifier_data": {
-   "name": "peanut praline (gf)",
+   "name": "peanut praline (v) (gf)",
    "price_money": {
     "amount": 75
    }
