@@ -2846,15 +2846,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
-     "modifier_data": {
-      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6PEJDT6MVEZAWCTM256RGFBW",
      "modifier_data": {
       "name": "graham cracker",
@@ -6466,15 +6457,6 @@ var catalog_raw=[
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
    "name": "blackberry (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2VN7GV4CWSQNTOTPIVLMFT4G",
-  "modifier_data": {
-   "name": "vegan vanilla + blackberry TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
