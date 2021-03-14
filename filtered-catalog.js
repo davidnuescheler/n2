@@ -8743,5 +8743,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "MR7UGW7BYWQGTLPTHA26HY5X",
+  "type": "ITEM",
+  "item_data": {
+   "name": "grasshopper pie",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "RWHMQD4IYJYXIE5IOPIPJ3AB",
+     "item_variation_data": {
+      "item_id": "MR7UGW7BYWQGTLPTHA26HY5X",
+      "name": "Regular",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
