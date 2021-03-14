@@ -1964,6 +1964,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "SOBT4W3RXFV3SQ27CW2QQX7H",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ISNH6S44QWCNMVFO24MV2C7T",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "Z3BDQNOP3KWWR25BQP5MMCWH",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2437,6 +2464,33 @@ var catalog_raw=[
      "id": "BE42I67BF72M3VSB525R6KYA",
      "modifier_data": {
       "name": "passion fruit + greek yogurt TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "XD2ADF6ULYTOEJ3NKTP4R5QC",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FSYCQRG6R6M5PNZXVNVXCABG",
+     "modifier_data": {
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "64KLOIN6CXK6QE2U73OP6KQX",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -8708,6 +8762,60 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "SOBT4W3RXFV3SQ27CW2QQX7H",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ISNH6S44QWCNMVFO24MV2C7T",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "Z3BDQNOP3KWWR25BQP5MMCWH",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "XD2ADF6ULYTOEJ3NKTP4R5QC",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FSYCQRG6R6M5PNZXVNVXCABG",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "64KLOIN6CXK6QE2U73OP6KQX",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
