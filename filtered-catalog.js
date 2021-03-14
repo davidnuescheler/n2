@@ -4620,20 +4620,29 @@ var catalog_raw=[
    "name": "make it sweet",
    "modifiers": [
     {
-     "id": "NLKKOTH4LYIU37MFWQP5WWMP",
-     "modifier_data": {
-      "name": "no extra flavors",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "MIOBAVYUK4ICRMOQGG77YHEQ",
      "modifier_data": {
       "name": "vanilla latte!",
       "price_money": {
        "amount": 100
+      }
+     }
+    },
+    {
+     "id": "3EDRZIAXUGIER2RWPMGSRIEB",
+     "modifier_data": {
+      "name": "mocha!",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "NLKKOTH4LYIU37MFWQP5WWMP",
+     "modifier_data": {
+      "name": "no extra flavors",
+      "price_money": {
+       "amount": 0
       }
      }
     },
@@ -8815,6 +8824,15 @@ var catalog_raw=[
    "name": "salted vanilla bean + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "3EDRZIAXUGIER2RWPMGSRIEB",
+  "modifier_data": {
+   "name": "mocha!",
+   "price_money": {
+    "amount": 100
    }
   }
  }
