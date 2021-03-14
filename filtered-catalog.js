@@ -2837,15 +2837,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "B34QGIFYQGCIGY757ET5SICH",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
       "name": "blackberry (v) (gf)",
@@ -3613,27 +3604,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
-     "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
      "modifier_data": {
       "name": "blackerry (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
-     "modifier_data": {
-      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6490,15 +6463,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "B34QGIFYQGCIGY757ET5SICH",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
    "name": "blackberry (v) (gf)",
@@ -6517,27 +6481,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "BCZHHIU4SVKRLTW7QSWO2VOZ",
-  "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
   "modifier_data": {
    "name": "blackerry (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "L6CEL2DZZPDWGY7QKPEOJFJS",
-  "modifier_data": {
-   "name": "vegan vanilla + blackberry TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
