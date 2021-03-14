@@ -2828,9 +2828,9 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "HVBOSMACVVOYXIXYAMSFUJKM",
+     "id": "5TZBXVTUJESLLLFFQFSL5KJH",
      "modifier_data": {
-      "name": "coffee (gf)",
+      "name": "vegan vailla! (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2840,6 +2840,24 @@ var catalog_raw=[
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
       "name": "blackberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
+     "modifier_data": {
+      "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HVBOSMACVVOYXIXYAMSFUJKM",
+     "modifier_data": {
+      "name": "coffee (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2911,7 +2929,7 @@ var catalog_raw=[
      "id": "TQDDHKIMSMCQXPIEZUGGE6EK",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
+      "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8761,6 +8779,24 @@ var catalog_raw=[
    "name": "mocha!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "5TZBXVTUJESLLLFFQFSL5KJH",
+  "modifier_data": {
+   "name": "vegan vailla! (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
+  "modifier_data": {
+   "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
