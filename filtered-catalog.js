@@ -2888,26 +2888,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "I7ZPKRUWIGGXSVMZ5EEAS424",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "coffee (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "NG3CQQISBQZXP5FADUMU54BT",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "vegan vanilla! (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6LQ3UPMRFPQGUSBCMVHM7CXP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
@@ -2918,10 +2898,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JPIWRXZLGYW26KZ4U446UYA3",
+     "id": "I7ZPKRUWIGGXSVMZ5EEAS424",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "blackberry + vegan vanilla TWIST (v) (gf)",
+      "name": "coffee (gf)",
       "price_money": {
        "amount": 0
       }
