@@ -2888,10 +2888,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "I4GNL2CK57NQUHQBASSRPNRX",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "vegan vanilla! (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6LQ3UPMRFPQGUSBCMVHM7CXP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
       "name": "blackberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TQDDHKIMSMCQXPIEZUGGE6EK",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "vegan vanilla + blackberry TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
