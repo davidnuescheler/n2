@@ -429,7 +429,7 @@ var catalog_raw=[
     {
      "id": "HG4GUV5UOKAVOAETV4FQL2XR",
      "modifier_data": {
-      "name": "PERU rayos del sol",
+      "name": "ETHIOPIA meaza",
       "price_money": {
        "amount": 0
       }
@@ -8374,7 +8374,7 @@ var catalog_raw=[
  {
   "id": "HG4GUV5UOKAVOAETV4FQL2XR",
   "modifier_data": {
-   "name": "PERU rayos del sol",
+   "name": "ETHIOPIA meaza",
    "price_money": {
     "amount": 0
    }
