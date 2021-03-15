@@ -31,6 +31,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
+     "modifier_data": {
+      "name": "chocolate sprinkles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -8805,6 +8814,15 @@ var catalog_raw=[
    "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
+  "modifier_data": {
+   "name": "chocolate sprinkles (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
