@@ -1903,6 +1903,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "J237V2DX5HJRRSBQQ73HBJ7X",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "ISNH6S44QWCNMVFO24MV2C7T",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -1912,9 +1921,63 @@ var catalog_raw=[
      }
     },
     {
+     "id": "TV5QKXYAKAI6JQGRYCK7QW6C",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "SYBTURDV6SLGT7S3OHJC43B2",
+     "modifier_data": {
+      "name": "blueberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GXJ5SLIOWORMDUNFDHMB4WMF",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "K76E67L7LRD4PUA6UOL7S6QY",
+     "modifier_data": {
+      "name": "blueberry + salted maple TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "CW7PI76XG6ETKEFMVB7I4BTX",
      "modifier_data": {
       "name": "passion fruit sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
+     "modifier_data": {
+      "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "CFYSSJAHNOUSC5MJQSTD6G5L",
+     "modifier_data": {
+      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2344,6 +2407,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "2YYSTDLKF5VHMVWOQYHI7TZX",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "FSYCQRG6R6M5PNZXVNVXCABG",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -2353,9 +2425,63 @@ var catalog_raw=[
      }
     },
     {
+     "id": "EDBJSDSOPXDS3ADAX4MV7KNA",
+     "modifier_data": {
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
+     "modifier_data": {
+      "name": "blueberry (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ISZO6ZULVSVH5DTOMUU72CDE",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "7VS2PO6J6UQCST4LZRYSY27Q",
+     "modifier_data": {
+      "name": "blueberry + salted maple TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "CR4PCOTSG4TEXDGDGRGU6DEY",
      "modifier_data": {
       "name": "passion fruit sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
+     "modifier_data": {
+      "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "D5KPTQXTA42CJSP3G4GQEDKB",
+     "modifier_data": {
+      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -8561,6 +8687,132 @@ var catalog_raw=[
   "id": "A6RXASWSDCOKKDUBEDPSOSI5",
   "modifier_data": {
    "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "J237V2DX5HJRRSBQQ73HBJ7X",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TV5QKXYAKAI6JQGRYCK7QW6C",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SYBTURDV6SLGT7S3OHJC43B2",
+  "modifier_data": {
+   "name": "blueberry (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "GXJ5SLIOWORMDUNFDHMB4WMF",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "K76E67L7LRD4PUA6UOL7S6QY",
+  "modifier_data": {
+   "name": "blueberry + salted maple TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
+  "modifier_data": {
+   "name": "greek yogurt (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CFYSSJAHNOUSC5MJQSTD6G5L",
+  "modifier_data": {
+   "name": "passion fruit + greek yogurt TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2YYSTDLKF5VHMVWOQYHI7TZX",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "EDBJSDSOPXDS3ADAX4MV7KNA",
+  "modifier_data": {
+   "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
+  "modifier_data": {
+   "name": "blueberry (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ISZO6ZULVSVH5DTOMUU72CDE",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "7VS2PO6J6UQCST4LZRYSY27Q",
+  "modifier_data": {
+   "name": "blueberry + salted maple TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
+  "modifier_data": {
+   "name": "greek yogurt (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "D5KPTQXTA42CJSP3G4GQEDKB",
+  "modifier_data": {
+   "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 300
    }
