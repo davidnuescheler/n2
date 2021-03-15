@@ -3576,6 +3576,16 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "OONP5KH25WG5PHMHRAIQJECF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3586,10 +3596,70 @@ var catalog_raw=[
      }
     },
     {
+     "id": "NMTL4V6FR6L75XGPRWIQ6IYA",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RH6G4E2WEF27O7YTCKAXW7FE",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blueberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "3OWXFHBVUPZHZP6KDOXPT5PH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PBWW5UC32BMEKULGSEAYVZ7G",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blueberry + salted maple TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "UULUZQ3ED3Z5MEMZQNIVPM52",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "passion fruit sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BAOF6CDD5LR7UO2F7EJWY4SK",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UZHR3QSVQT7WKSKGOLJ2DUKK",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
