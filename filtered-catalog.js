@@ -33,7 +33,7 @@ var catalog_raw=[
     {
      "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
      "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -70,6 +70,15 @@ var catalog_raw=[
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
       "name": "graham cracker crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "PQMVAL2AKECSTA36F4V7RW2R",
+     "modifier_data": {
+      "name": "key lime curd",
       "price_money": {
        "amount": 75
       }
@@ -8856,7 +8865,7 @@ var catalog_raw=[
  {
   "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
   "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
+   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8893,6 +8902,15 @@ var catalog_raw=[
   "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
   "modifier_data": {
    "name": "coffee ganache (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "PQMVAL2AKECSTA36F4V7RW2R",
+  "modifier_data": {
+   "name": "key lime curd",
    "price_money": {
     "amount": 75
    }
