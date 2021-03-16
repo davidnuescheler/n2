@@ -157,6 +157,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
+     "modifier_data": {
+      "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "DK3ZFQ5XR5EEUTOXRWJCPAHO",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -220,6 +229,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
+     "modifier_data": {
+      "name": "coffee ganache (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "white chocolate ganache (gf)",
@@ -241,15 +259,6 @@ var catalog_raw=[
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -8875,6 +8884,15 @@ var catalog_raw=[
   "id": "LYRCHCLZNPQTCQVISPV3OZSA",
   "modifier_data": {
    "name": "normal sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
+  "modifier_data": {
+   "name": "coffee ganache (v) (gf)",
    "price_money": {
     "amount": 75
    }
