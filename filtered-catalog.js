@@ -175,15 +175,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DK3ZFQ5XR5EEUTOXRWJCPAHO",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -8531,15 +8522,6 @@ var catalog_raw=[
    "name": "passion fruit sorbet (v) (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "DK3ZFQ5XR5EEUTOXRWJCPAHO",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
