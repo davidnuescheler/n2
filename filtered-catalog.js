@@ -8915,5 +8915,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "YZJ4JC7NBZAAUHHGNWSINZV2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "horchata pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "LXMWS2YFCV32XKCDTUWWSKBE",
+     "item_variation_data": {
+      "item_id": "YZJ4JC7NBZAAUHHGNWSINZV2",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
