@@ -32,10 +32,18 @@ svg {
         width: 4.5rem;
         height: 4.5rem;
     }
+
+    &.icon-starburst {
+        stroke-width: 0;
+        // fill: red;
+        width: 18rem;
+        height: 18rem;
+    }
 }
 
 // page-specific
-#about, #pintclub {
+#about, #aboutstarburst, 
+#pintclub, #pintclubstarburst {
     & svg.icon-arrow-down {
         cursor: pointer;
         transition: 0.1s all;

@@ -4,6 +4,7 @@ h2 {
     &#composed-cones, &#pizza, 
     &#choco-taco, &#specials, 
     &#norm-cores, &#ice-cream-cake,
+    &#ice-cream-pie,
     &#gift-cards, &#apparel, &#accessories,
     &#delivery-zips, &#more-stuff { // STORE HEADINGS
         // color: red;
@@ -52,6 +53,7 @@ h2 {
 // AFTER CLASSES AND IDS ARE ADDED
 .menu {
     // border: 2px solid red;
+    position: relative;
     margin-top: 4rem;
     padding: 2rem 0;
 
@@ -71,6 +73,33 @@ h2 {
     &-carousel {
         // border: 2px solid blue;
         padding: 0.5rem 0 1rem;
+    }
+
+    & p {
+        @include font-poppins;
+        font-size: 60%;
+        line-height: 1.4;
+        margin-top: 0.4rem;
+
+        & img {
+            margin-top: 1rem;
+            height: 20rem;
+            max-width: 100%;
+            object-fit: contain;
+            transition: 0.2s all;
+            @include bfv;
+
+            &:hover, &:focus {
+                transform: translateY(0.5rem) scale(1.2) rotate(-3deg);
+            }
+        }
+    }
+
+    & a {
+        @include font-acumin-semibold;
+        font-size: 2rem;
+        text-decoration: none;
+        cursor: not-allowed;
     }
 }
 

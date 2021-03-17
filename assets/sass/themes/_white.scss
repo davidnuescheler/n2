@@ -5,6 +5,17 @@
     & .highlight {
         background: $color-yellow-alt;
     }
+
+    & .starburst {
+        & .icon-starburst {
+            fill: $color-pink;
+        }
+        &[data-link=catering] {
+            & .icon-starburst {
+                fill: $color-yellow-alt;
+            }
+        }
+    }
     
     & input {
         &:-webkit-autofill {
@@ -123,10 +134,10 @@
             background: $color-blue;
             color: $color-white;
 
-            &:nth-child(odd) {
-                background: $color-pink;
-                color: $color-blue;
-            }
+            // &:nth-child(odd) {
+            //     background: $color-pink;
+            //     color: $color-blue;
+            // }
     
             & .btn {
                 &-rect {
@@ -166,6 +177,19 @@
 
     & #back-to-top {
         background: $color-white;
+    }
+
+    // themes
+    & .theme-pink {
+        background: $color-pink;
+        color: $color-blue;
+
+        & .btn {
+            &-rect {
+                background: $color-white !important;
+                color: $color-blue !important;
+            }
+        }
     }
 }
 

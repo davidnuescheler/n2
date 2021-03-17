@@ -59,7 +59,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
       break;
     case "lab":
       setCurrentStore();
@@ -68,7 +67,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
       break;
     case "delivery":
       setCurrentStore();
@@ -77,7 +75,6 @@ const setPage = () => {
       setupCarousels();
       fixCart();
       buildCustomizationTool();
-      // drinksStarburst();
       break;
     case "about":
       setAboutTextClass();
@@ -164,9 +161,9 @@ const codify = () => {
       } else if (key === "color") {
         setBlockTheme(c, values); // set theme class on parent
       } else if (key === "starburst") {
-        // console.log("starburst", values);
+        console.log("starburst", values);
       } else if (key === "starburst-collapse") {
-        // console.log("starburst collapse", values);
+        // functionality moved to buildCollapsableStarburst func
       } else if (key === "code") {
         switch (values) {
           case "search":
@@ -209,6 +206,132 @@ const setBlockStyle = ($el, style) => {
     $parent.classList.add(`theme-${style}`);
   }
 };
+
+const buildCollapsableStarbursts = () => {
+
+  const $collapsableStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-collapse") { return c; }
+  });
+
+  if ($collapsableStarbursts.length > 0) {
+
+    $collapsableStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+      
+      if ($parent) {
+        $parent.classList.add("hide");
+        const $closeBtn = document.createElement("div");
+          $closeBtn.classList.add("starburst-close");
+          $closeBtn.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+            <use href="/icons.svg#close"></use>
+          </svg>`;
+          $closeBtn.onclick = (e) => {
+            const $target = e.target.closest(".starburst-close");
+            const $parent = $target.parentNode;
+            const $sibling = $parent.previousElementSibling;
+            $parent.classList.add("hide");
+            $sibling.classList.remove("hide");
+          }
+        $parent.prepend($closeBtn);
+  
+        // build starburst
+        const $starburst = document.createElement("aside");
+          $starburst.classList.add("starburst");
+          $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+  
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+  
+        $starburst.onclick = (e) => {
+          const $target = e.target.closest("aside");
+          const $sibling = $target.nextElementSibling;
+          $sibling.classList.remove("hide");
+          $target.classList.add("hide");
+        };
+  
+        const $main = document.querySelector("main");
+        $main.insertBefore($starburst, $parent);
+      }
+    })
+
+  }
+}
+
+const buildLinkStarbursts = () => {
+  const $linkStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-link") { return c; }
+  });
+
+  if ($linkStarbursts.length > 0) {
+
+    $linkStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parentEl = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+      const link = s.parentNode.parentNode.parentNode.nextElementSibling.textContent.trim();
+      const linkArr = link.split("/");
+      const location = linkArr[linkArr.length - 1];
+
+      if ($parentEl && link) {
+        // build starburst
+        const $starburst = document.createElement("aside");
+        $starburst.classList.add("starburst", "starburst-link");
+        $starburst.setAttribute("data-link", cleanName(location));
+        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+
+        $starburst.onclick = (e) => {
+          window.open(link, "_self");
+        };
+
+        $parentEl.prepend($starburst);
+      }
+    })
+  }
+}
+
+const buildStaticStarbursts = () => {
+  const $staticStarbursts = [ ...document.querySelectorAll("code") ].filter((c) => {
+    const [key, values] = c.textContent.split(": ");
+    if (key === "starburst-static") { return c; }
+  });
+
+  if ($staticStarbursts.length > 0) {
+
+    $staticStarbursts.forEach((s) => {
+      const [key, values] = s.textContent.split(": ");
+      const $parent = s.parentNode.parentNode.parentNode.parentNode.parentNode;
+
+      if ($parent) {
+        // build starburst
+        const $starburst = document.createElement("aside");
+        $starburst.classList.add("starburst", "starburst-static");
+        $starburst.innerHTML += `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-starburst">
+            <use href="/icons.svg#starburst"></use>
+          </svg>`;
+
+        const $starburstText = document.createElement("span");
+          $starburstText.classList.add("starburst-text");
+          $starburstText.textContent = values;
+        $starburst.append($starburstText);
+
+        $parent.prepend($starburst);
+      }
+    })
+  }
+}
 
 const fixCart = () => {
   const $cart = document.querySelector(".header-cart");
@@ -3674,6 +3797,9 @@ window.onload = async (e) => {
   // lazyLoad();
 
   setPage();  
+  buildCollapsableStarbursts();
+  buildLinkStarbursts();
+  buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
