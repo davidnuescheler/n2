@@ -8985,7 +8985,7 @@ var catalog_raw=[
       "item_id": "72ERUF3UGAFXSDFLL7RBVNFV",
       "name": "Regular",
       "price_money": {
-       "amount": 700
+       "amount": 600
       }
      }
     }
