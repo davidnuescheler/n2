@@ -2307,7 +2307,7 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "a normal® choco taco",
+   "name": "a normal® taco",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
