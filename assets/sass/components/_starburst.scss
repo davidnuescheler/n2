@@ -71,7 +71,7 @@
 }
 
 @media only screen and (max-width: $mobile) {
-    .starburst {
+    .starburst, .starburst[data-link=lab] {
         float: none;
         margin: 0 auto;
         margin-top: 4rem;
