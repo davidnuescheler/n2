@@ -263,6 +263,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -4995,6 +5004,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "SFB3LHAONCOXORNAYGCWHWCI",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -5108,6 +5126,15 @@ var catalog_raw=[
      "id": "LYRCHCLZNPQTCQVISPV3OZSA",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
       "price_money": {
        "amount": 75
       }
@@ -8916,6 +8943,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "SFB3LHAONCOXORNAYGCWHWCI",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
