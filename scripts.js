@@ -2153,7 +2153,7 @@ const getFields = (fields) => {
       case "pint-club":
         allFields.push(
           { title: "payment-option", type: "radio", label: "select payment option", options: [ "prepay", "monthly" ], required: true },
-          { title: "customize-pints", type: "checkbox", label: "customize your pints (select any that apply)", options: [ "keep it normal®", "vegan", "half-vegan", "nut free", "gluten free" ] },
+          { title: "customize-pints", type: "checkbox", label: "customize your pints (select any that apply)", src: "packs", options: [ "keep it normal®", "vegan", "half-vegan", "nut free", "gluten free" ] },
           { title: "allergies", type: "text", placeholder: "any allergies? even shellfish, seriously! ya never know!" },
           { title: "delivery-option", type: "radio", label: "how do you want to get your pints?", options: [ "pickup", "shipping" ], required: true }
         );
@@ -2605,10 +2605,10 @@ const buildSquarePaymentForm = () => {
     const $tipDropdown = $sqContainer.querySelector("#tip");
     const tipArr = [ 
       { text: "no tip", value: 0 },
-      { text: "10%", value: 10 },
-      { text: "15%", value: 15 },
-      { text: "20%", value: 20 },
-      { text: "25%", value: 25 }
+      { text: "10% tip", value: 10 },
+      { text: "15% tip", value: 15 },
+      { text: "20% tip", value: 20 },
+      { text: "25% tip", value: 25 }
     ];
       $tipDropdown.onchange = (e) => {
         const currentTotal = parseInt(document.querySelector("#checkout-foot-total").getAttribute("data-total"));
@@ -2677,10 +2677,31 @@ const buildSquarePaymentForm = () => {
     $sqContainer.append($tipWrapper, $giftcardWrapper, $sqForm);
     $checkoutContainer.append($sqContainer);
 
+    setDefaultTip();
+
     const currentStore = getCurrentStore();
     const recurring = checkRecurringClubInCart();
-    initPaymentForm("creditcard", currentStore, recurring)
+    initPaymentForm("creditcard", currentStore, recurring);
 
+  }
+}
+
+const setDefaultTip = () => {
+  const $tipDropdown = document.querySelector("#tip");
+  if ($tipDropdown) {
+    $tipDropdown.value = "15";
+    const currentTotal = parseInt(document.querySelector("#checkout-foot-total").getAttribute("data-total"));
+    const tipPercentage = 15;
+    const tipAmount = Math.round(currentTotal * (tipPercentage / 100));
+    const tipValue = formatMoney(tipAmount);
+    // update tip field
+    const $tipField = document.querySelector("#checkout-foot-tip");
+      $tipField.setAttribute("data-value", tipAmount);
+      $tipField.textContent = `$${tipValue}`;
+    // update total field
+    const $totalField = document.querySelector("#checkout-foot-total");
+      $totalField.setAttribute("data-value", (currentTotal + tipAmount));
+      $totalField.textContent = `$${formatMoney(currentTotal + tipAmount)}`;
   }
 }
 
