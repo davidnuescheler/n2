@@ -8971,5 +8971,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "72ERUF3UGAFXSDFLL7RBVNFV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "grasshopper pie slice",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "G72I5LX34AZVJ3YBSRMZIGT7",
+     "item_variation_data": {
+      "item_id": "72ERUF3UGAFXSDFLL7RBVNFV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
