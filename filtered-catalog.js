@@ -31,15 +31,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -259,6 +250,15 @@ var catalog_raw=[
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
       "price_money": {
        "amount": 75
       }
@@ -1324,20 +1324,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5R3BGXLKMZ7K7T53E6ETDOL3",
+     "id": "DANLVDAAWCTIUH3ZYSQUIVNB",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA meaza",
+      "name": "HONDURAS la peña",
       "price_money": {
        "amount": 1600
       }
      }
     },
     {
-     "id": "DANLVDAAWCTIUH3ZYSQUIVNB",
+     "id": "S2IAKWHHGTCKJQULYB5GN7CG",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "HONDURAS la peña",
+      "name": "ETHIOPIA kilenso",
       "price_money": {
        "amount": 1600
       }
@@ -2297,7 +2297,7 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "a normal® choco taco",
+   "name": "a normal® taco",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -4995,6 +4995,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "SFB3LHAONCOXORNAYGCWHWCI",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -5108,6 +5117,15 @@ var catalog_raw=[
      "id": "LYRCHCLZNPQTCQVISPV3OZSA",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
+     "modifier_data": {
+      "name": "chocolate sprinks (gf) (v)",
       "price_money": {
        "amount": 75
       }
@@ -8845,15 +8863,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KLJ5AO4Y4XHHFXB6SFLGFIPK",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
   "modifier_data": {
    "name": "normal sprinks (gf)",
@@ -8912,6 +8921,53 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "SFB3LHAONCOXORNAYGCWHWCI",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
+  "modifier_data": {
+   "name": "chocolate sprinks (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "72ERUF3UGAFXSDFLL7RBVNFV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "grasshopper pie slice",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "G72I5LX34AZVJ3YBSRMZIGT7",
+     "item_variation_data": {
+      "item_id": "72ERUF3UGAFXSDFLL7RBVNFV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
       }
      }
     }
