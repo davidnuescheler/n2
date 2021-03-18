@@ -1324,16 +1324,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5R3BGXLKMZ7K7T53E6ETDOL3",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA meaza",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "DANLVDAAWCTIUH3ZYSQUIVNB",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
