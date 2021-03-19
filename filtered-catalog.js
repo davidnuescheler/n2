@@ -8973,5 +8973,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "2NCYVIUUMHHC6YLGVTRDJLLC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - special bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "Z6FQEHURWEOQUW6S5FDKDSVG",
+     "item_variation_data": {
+      "item_id": "2NCYVIUUMHHC6YLGVTRDJLLC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
+      }
+     }
+    }
+   ]
+  }
  }
 ]
