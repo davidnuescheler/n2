@@ -2689,9 +2689,9 @@ const buildSquarePaymentForm = () => {
 const setDefaultTip = () => {
   const $tipDropdown = document.querySelector("#tip");
   if ($tipDropdown) {
-    $tipDropdown.value = "15";
+    $tipDropdown.value = "20";
     const currentTotal = parseInt(document.querySelector("#checkout-foot-total").getAttribute("data-total"));
-    const tipPercentage = 15;
+    const tipPercentage = 20;
     const tipAmount = Math.round(currentTotal * (tipPercentage / 100));
     const tipValue = formatMoney(tipAmount);
     // update tip field
