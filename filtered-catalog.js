@@ -254,15 +254,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
-     "modifier_data": {
-      "name": "chocolate sprinks (gf) (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -4995,15 +4986,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "SFB3LHAONCOXORNAYGCWHWCI",
-     "modifier_data": {
-      "name": "chocolate sprinks (gf) (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -5117,15 +5099,6 @@ var catalog_raw=[
      "id": "LYRCHCLZNPQTCQVISPV3OZSA",
      "modifier_data": {
       "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
-     "modifier_data": {
-      "name": "chocolate sprinks (gf) (v)",
       "price_money": {
        "amount": 75
       }
@@ -8928,33 +8901,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "RSOOBXBC2QTRR5D6DT3MPGRJ",
-  "modifier_data": {
-   "name": "chocolate sprinks (gf) (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "SFB3LHAONCOXORNAYGCWHWCI",
-  "modifier_data": {
-   "name": "chocolate sprinks (gf) (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "S5J2JZ4HQDPSLWTDMIFJEFVF",
-  "modifier_data": {
-   "name": "chocolate sprinks (gf) (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "72ERUF3UGAFXSDFLL7RBVNFV",
   "type": "ITEM",
   "item_data": {
@@ -8968,6 +8914,26 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "2NCYVIUUMHHC6YLGVTRDJLLC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "wholesale - special bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "Z6FQEHURWEOQUW6S5FDKDSVG",
+     "item_variation_data": {
+      "item_id": "2NCYVIUUMHHC6YLGVTRDJLLC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 390
       }
      }
     }
