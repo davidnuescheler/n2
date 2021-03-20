@@ -996,6 +996,11 @@ const submitOrder = async (store, formData) => {
 
   const credentials = getStorefrontCheckoutCred(store);
 
+  if (store.includes("merch")) {
+    // add merch pickup/ship location
+    qs += `locationId=${credentials.locationId}`;
+  }
+
   const orderObj = await fetch(credentials.endpoint + "?" + qs, {
     method: "GET",
     headers: {
@@ -1050,10 +1055,16 @@ const getStorefrontCheckoutCred = (storefront) => {
         endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
         locationId: "WPBKJEG0HRQ9F"
       };
-    case "merch":
+    case "merch-pickup":
       return {
         name: storefront,
-        endpoint: "https://script.google.com/macros/s/AKfycbwXsVa_i4JBUjyH7DyWVizeU3h5Rg5efYTtf4pcF4FXxy6zJOU/exec",
+        endpoint: "https://script.google.com/macros/s/AKfycbxzfw2T-Cx3lJMSK2TXqjhlTg1vjcGkTW5_eufayZGHzRrHkM6rUK5thYgTMbWK56ca/exec",
+        locationId: "6EXJXZ644ND0E"
+      };
+    case "merch-shipping":
+      return {
+        name: storefront,
+        endpoint: "https://script.google.com/macros/s/AKfycbxzfw2T-Cx3lJMSK2TXqjhlTg1vjcGkTW5_eufayZGHzRrHkM6rUK5thYgTMbWK56ca/exec",
         locationId: "WPBKJEG0HRQ9F"
       };
     default:
@@ -1213,7 +1224,6 @@ const buildLocationsGrid = () => {
 };
 
 const carouselizeTeam = () => {
-  console.log(`this is running`);
   const $teamContainer = document.querySelector(".embed-internal-team").parentNode;
   if ($teamContainer) {
     $teamContainer.classList.add("menu-carousel")
@@ -1625,9 +1635,7 @@ MERCH PAGE
 ==========================================================*/
 
 const showMerchCheckout = () => {
-  console.log(`showing merch checkout`);
   populateCustomizationTool("merch", "how do you want to check out?", [ "merch" ]);
-  // customizeToolforClub(target);
 }
 
 /*==========================================================
@@ -1731,25 +1739,34 @@ const populateCustomizationTool = (store, title, fields) => {
         buildScreensaver("getting ready for check out...");
         await saveToLocalStorage($form);
         const formData = await getSubmissionData($form);
-        console.log(`$btn.onclick= -> formData`, formData);
-        // await addClubToCart(formData);
-        // await addClubToCartDesc(formData);
         await clearCustomizationTool();
         await hideCustomizationTool();
-        if (formData["merch-checkout"].includes("ship")) {
+        if (formData["merch-checkout"] === "ship in the mail") {
+          const type = cleanName(formData["merch-checkout"]);
+          const $checkoutTable = document.querySelector(".checkout-table-body");
+          $checkoutTable.setAttribute("data-type", type);
+
           const $checkoutForm = document.querySelector(".checkout-form");
           $checkoutForm.innerHTML = ``; // clear form
-          console.log(`add delivery field!`);
           // ADD DELIVERY ADDRESS
           const fields = getFields([ "contact", "address-national", "discount-code" ]);
           fields.forEach((f) => {
             $checkoutForm.append(buildFields("checkout", f));
           });
+          getContactFromLocalStorage();
           getAddressFromLocalStorage();
         } else if (formData["merch-checkout"] === "in store pick up") {
-          // ADD PICKUP TIMES
-          getFields([ "pick-up" ]);
+          const type = cleanName(formData["merch-checkout"]);
+          const $checkoutTable = document.querySelector(".checkout-table-body");
+          $checkoutTable.setAttribute("data-type", type);
 
+          const $checkoutForm = document.querySelector(".checkout-form");
+          $checkoutForm.innerHTML = ``; // clear form
+          // ADD PICKUP TIMES
+          const fields = getFields([ "contact", "pick-up", "discount-code" ]);
+          fields.forEach((f) => {
+            $checkoutForm.append(buildFields("checkout", f));
+          });
           // this is setting the pickup times
           const $pickupTimeDropdown = document.getElementById("pickuptime");
           if ($pickupTimeDropdown) {
@@ -1757,6 +1774,7 @@ const populateCustomizationTool = (store, title, fields) => {
             const pickupTimes = getPickupTimes("store");
             populateDynamicOptions($pickupTimeDropdown, pickupTimes);
           }
+          getContactFromLocalStorage();
         }
         await showCheckoutTool();
         removeScreensaver();
@@ -2508,14 +2526,36 @@ const buildCheckoutTool = () => {
         await saveToLocalStorage($form);
         const formData = await getSubmissionData($form);
         let pintMonthlySub = false;
+        // PINT CLUB SETUP
         if (currentStore === "pint-club") {
           const clubOption = await findClubOption();
           if (clubOption.term.includes("1 month") || clubOption.term.includes("one month")) {
             pintMonthlySub = true;
           }
         }
+        // MERCH
+        if (currentStore === "merch") {
+          const $checkoutTable = document.querySelector(".checkout-table-body");
+          const type = $checkoutTable.getAttribute("data-type");
+          if (type.includes("ship")) {
+            orderObj = await submitOrder("merch-shipping", formData);
+          } else if (type.includes("pickup")) {
+            orderObj = await submitOrder("merch-pickup", formData);
+          }
 
-        if (!pintMonthlySub) { // store, lab, merch, prepay pint-club
+          if (orderObj) {
+            await disableCartEdits();
+            await displayOrderObjInfo(orderObj, formData);
+            await hideCheckoutForm();
+            await buildSquarePaymentForm();
+            removeScreensaver();
+          } 
+          else {
+            console.error("something went wrong and your order didn't go through. try again?");
+            makeScreensaverError("something went wrong and your order didn't go through. try again?")
+          }
+
+        } else if (!pintMonthlySub) { // store, lab, merch, prepay pint-club
           //////////////////////////////////////////////////////
           orderObj = await submitOrder(currentStore, formData);
 
@@ -2729,14 +2769,36 @@ const buildSquarePaymentForm = () => {
         if (payWithGiftcard && sqFormType === "sq-creditcard") {
           const $sqForm = document.querySelector(".sq-form");
             $sqForm.remove();
-            const currentStore = getCurrentStore();
+            let currentStore = getCurrentStore();
             const recurring = checkRecurringClubInCart();
+
+            if (currentStore === "merch") {
+              const $checkoutTable = document.querySelector(".checkout-table-body");
+              const type = $checkoutTable.getAttribute("data-type");
+              if (type.includes("ship")) {
+                currentStore = "merch-shipping";
+              } else if (type.includes("pickup")) {
+                currentStore = "merch-pickup";
+              }
+            }
+        
             resetSqForm("giftcard", currentStore, recurring);
         } else if (!payWithGiftcard && sqFormType === "sq-giftcard") {
           const $sqForm = document.querySelector(".sq-form");
             $sqForm.remove();
-            const currentStore = getCurrentStore();
+            let currentStore = getCurrentStore();
             const recurring = checkRecurringClubInCart();
+
+            if (currentStore === "merch") {
+              const $checkoutTable = document.querySelector(".checkout-table-body");
+              const type = $checkoutTable.getAttribute("data-type");
+              if (type.includes("ship")) {
+                currentStore = "merch-shipping";
+              } else if (type.includes("pickup")) {
+                currentStore = "merch-pickup";
+              }
+            }
+
             $sqForm.setAttribute("data-card-type", "sq-creditcard");
             resetSqForm("creditcard", currentStore, recurring);
         } 
@@ -2755,8 +2817,19 @@ const buildSquarePaymentForm = () => {
 
     setDefaultTip();
 
-    const currentStore = getCurrentStore();
+    let currentStore = getCurrentStore();
     const recurring = checkRecurringClubInCart();
+
+    if (currentStore === "merch") {
+      const $checkoutTable = document.querySelector(".checkout-table-body");
+      const type = $checkoutTable.getAttribute("data-type");
+      if (type.includes("ship")) {
+        currentStore = "merch-shipping";
+      } else if (type.includes("pickup")) {
+        currentStore = "merch-pickup";
+      }
+    }
+
     initPaymentForm("creditcard", currentStore, recurring);
 
   }
@@ -2850,7 +2923,17 @@ const onGetCardNonce = (e) => {
 const successfulOrderConfirmation = async (orderInfo) => {
 
   if (orderInfo.receipt_url) {
-    const currentStore = getCurrentStore();
+    let currentStore = getCurrentStore();
+
+    if (currentStore === "merch") {
+      const $checkoutTable = document.querySelector(".checkout-table-body");
+      const type = $checkoutTable.getAttribute("data-type");
+      if (type.includes("ship")) {
+        currentStore = "merchshipping";
+      } else if (type.includes("pickup")) {
+        currentStore = "merchpickup";
+      }
+    }
 
     if (currentStore === "pint-club") {
       // add to club sheet
@@ -2863,7 +2946,6 @@ const successfulOrderConfirmation = async (orderInfo) => {
       $checkoutContainer.append($confirmationMsg);
       // remove screensaver
       removeScreensaver();
-
     } else {
       // send confirmation email
       const $form = document.querySelector(".checkout-form");
@@ -2873,7 +2955,7 @@ const successfulOrderConfirmation = async (orderInfo) => {
         const formAddr2 = formData.addr2 || null;
         // TODO: collect delivery date on delivery orders
         await sendConfirmationEmail(
-          currentStore, // store 
+          encodeURIComponent(currentStore), // store 
           encodeURIComponent(formData.name), // name
           encodeURIComponent(formData.email), // email
           encodeURIComponent(formAddr), // addr
@@ -2891,9 +2973,8 @@ const successfulOrderConfirmation = async (orderInfo) => {
         } else {
           formDate = prettyPrintDate(formData.pickuptime);
         }
-
         await sendConfirmationEmail(
-          currentStore, // store
+          encodeURIComponent(currentStore), // store
           encodeURIComponent(formData.name), // name
           encodeURIComponent(formData.email), // email
           null, // addr
@@ -2911,11 +2992,11 @@ const successfulOrderConfirmation = async (orderInfo) => {
       const $checkoutContainer = document.querySelector(".checkout-container");
       $checkoutContainer.append($confirmationMsg);
       // remove screensaver
-      removeScreensaver();
+      return removeScreensaver();
     }
   } else {
     console.error(orderInfo);
-    makeScreensaverError("something went wrong and your payment was not submitted. try again?");
+    return makeScreensaverError("something went wrong and your payment was not submitted. try again?");
   }
 
 }
@@ -2946,9 +3027,9 @@ const createCustomer = async (formData) => {
 }
 
 const sendConfirmationEmail = async (store, name, email, address, comments, date, receipt) => {
-  let params = `?type=${store}&name=${name}&email=${email}&address=${address}&date=${date}&receipt=${receipt}`;
+  let params = `type=${store}&name=${name}&email=${email}&address=${address}&date=${date}&receipt=${receipt}`;
   if (comments) { params += `&comments=${comments}` };
-  const url = `https://script.google.com/macros/s/AKfycbybZ1eHJUJoyyDX41m6cekPho9LaZgucH8yA3hnP1wzmqL9u4c5i7GUdw/exec${params}`;
+  const url = `https://script.google.com/macros/s/AKfycbyh32OeH9OZevQS-T1dK8tT1z-1je4cSgcQ9vdPrZ0KggGIUafHefn6gzoS81vk9VpUhQ/exec?${params}`;
   let resp = await fetch(url);
   let data = await resp.json();
   if (!data.sent) {
@@ -2984,7 +3065,6 @@ const addClubToSheet = async () => {
 }
 
 const createConfirmationMsg = (store, receiptUrl) => {
-
   const $thankYouContainer = document.createElement("div");
     $thankYouContainer.classList.add("checkout-confirmed");
 
@@ -3533,7 +3613,8 @@ function initPaymentForm(paymentType, currentStore, recurring) {
             `&order_id=${encodeURIComponent(orderObj.id)}` + 
             `&reference_id=${encodeURIComponent(orderObj.reference_id)}` + 
             `&order_amount=${orderObj.total_money.amount}` + 
-            `&tip_amount=${tipAmount}`;
+            `&tip_amount=${tipAmount}` + 
+            `&locationId=${credentials.locationId}`;
 
           const thisFetch = fetch(credentials.endpoint + "?" + qs, {
             method: "GET",
@@ -3638,7 +3719,8 @@ function initPaymentForm(paymentType, currentStore, recurring) {
             `&order_id=${encodeURIComponent(orderObj.id)}` + 
             `&reference_id=${encodeURIComponent(orderObj.reference_id)}` + 
             `&order_amount=${orderObj.total_money.amount}` + 
-            `&tip_amount=${tipAmount}`;
+            `&tip_amount=${tipAmount}` + 
+            `&locationId=${credentials.locationId}`;
 
           const thisFetch = fetch(credentials.endpoint + "?" + qs, {
             method: "GET",
