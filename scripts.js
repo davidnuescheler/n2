@@ -727,8 +727,13 @@ const customizeCheckoutForStorefront = async () => {
   }
 }
 
-const getPickupTimes = () => {
-  const store = getCurrentStore();
+const getPickupTimes = (setStore) => {
+  let store;
+  if (setStore) {
+    store = setStore;
+  } else {
+    store = getCurrentStore();
+  }
   const date = new Date();
   const now = parseInt(`${date.getHours()}${date.getMinutes().toString().padStart(2, "0")}`);
   
@@ -1387,8 +1392,7 @@ const setupPintSubOptions = () => {
             const split = target.split("edit")[1];
             target = split;
         }
-
-          populateCustomizationTool("select your subscription pack", [ "contact", "pint-club" ]);
+          populateCustomizationTool("pint-club", "select your subscription pack", [ "contact", "pint-club" ]);
           customizeToolforClub(target);
         }
       })
@@ -1617,6 +1621,16 @@ const buildClubFAQ = () => {
 }
 
 /*==========================================================
+MERCH PAGE
+==========================================================*/
+
+const showMerchCheckout = () => {
+  console.log(`showing merch checkout`);
+  populateCustomizationTool("merch", "how do you want to check out?", [ "merch" ]);
+  // customizeToolforClub(target);
+}
+
+/*==========================================================
 CUSTOMIZATION TOOL
 ==========================================================*/
 const buildCustomizationTool = () => {
@@ -1667,7 +1681,7 @@ const clearCustomizationTool = () => {
   }
 }
 
-const populateCustomizationTool = (title, fields) => {
+const populateCustomizationTool = (store, title, fields) => {
 
   clearCustomizationTool();
 
@@ -1688,6 +1702,8 @@ const populateCustomizationTool = (title, fields) => {
   
   const $btn = document.createElement("a");
     $btn.classList.add("btn-rect");
+
+  if (store === "pint-club") {
     $btn.textContent = "join the club";
     $btn.onclick = async (e) => {
       const $form = document.querySelector("form");
@@ -1706,6 +1722,50 @@ const populateCustomizationTool = (title, fields) => {
         console.error("please fill out all required fields!");
       }
     }
+  } else if (store === "merch") {
+    $btn.textContent = "check out";
+    $btn.onclick = async (e) => {
+      const $form = document.querySelector("form");
+      const valid = validateSubmission($form);
+      if (valid) {
+        buildScreensaver("getting ready for check out...");
+        await saveToLocalStorage($form);
+        const formData = await getSubmissionData($form);
+        console.log(`$btn.onclick= -> formData`, formData);
+        // await addClubToCart(formData);
+        // await addClubToCartDesc(formData);
+        await clearCustomizationTool();
+        await hideCustomizationTool();
+        if (formData["merch-checkout"].includes("ship")) {
+          const $checkoutForm = document.querySelector(".checkout-form");
+          $checkoutForm.innerHTML = ``; // clear form
+          console.log(`add delivery field!`);
+          // ADD DELIVERY ADDRESS
+          const fields = getFields([ "contact", "address-national", "discount-code" ]);
+          fields.forEach((f) => {
+            $checkoutForm.append(buildFields("checkout", f));
+          });
+          getAddressFromLocalStorage();
+        } else if (formData["merch-checkout"] === "in store pick up") {
+          // ADD PICKUP TIMES
+          getFields([ "pick-up" ]);
+
+          // this is setting the pickup times
+          const $pickupTimeDropdown = document.getElementById("pickuptime");
+          if ($pickupTimeDropdown) {
+            $pickupTimeDropdown.innerHTML = ""; // clear on each customize
+            const pickupTimes = getPickupTimes("store");
+            populateDynamicOptions($pickupTimeDropdown, pickupTimes);
+          }
+        }
+        await showCheckoutTool();
+        removeScreensaver();
+      } else {
+        console.error("please fill out all required fields!");
+      }
+    }
+  }
+  
   $customFoot.append($btn);
 
   showCustomizationTool();
@@ -2025,7 +2085,7 @@ const validateSubmission = ($form) => {
 
   if ($requiredFields) {
     $requiredFields.forEach((f) => {
-      if (f.type === "tel") {
+      if (f.type === "tel" && f.value !== "") {
         f.value = cleanName(f.value);
       }
       if (!f.value.trim() || !f.checkValidity()) {
@@ -2150,6 +2210,15 @@ const getFields = (fields) => {
           { data: { fieldtype: "address" }, title: "zip", type: "select", placeholder: "your zip code", src: "deliveryZips", required: true }          
         );
         break;
+      case "address-national": 
+        allFields.push(
+          { data: { fieldtype: "address", store: true }, title: "addr1", type: "text", placeholder: "your address", required: true },
+          { data: { fieldtype: "address", store: true }, title: "addr2", type: "text", placeholder: "apt # or building code? add here!" },
+          { data: { fieldtype: "address", store: true }, title: "city", type: "text", placeholder: "your city", required: true },
+          { data: { fieldtype: "address", store: true }, title: "state", type: "text", placeholder: "your state", required: true },
+          { data: { fieldtype: "address" }, title: "zip", type: "text", placeholder: "your zip code", required: true }
+        )
+        break;
       case "pint-club":
         allFields.push(
           { title: "payment-option", type: "radio", label: "select payment option", options: [ "prepay", "monthly" ], required: true },
@@ -2161,6 +2230,11 @@ const getFields = (fields) => {
       case "prepay-months": 
         allFields.push(
           { title: "prepay-months", type: "radio", label: "how many months?", options: [ "3", "6", "12" ], required: true }
+        );
+        break;
+      case "merch":
+        allFields.push(
+          { title: "merch-checkout", type: "radio", label: "pick up/shipping", options: [ "in store pick up", "ship in the mail" ], required: true }
         );
         break;
       case "pick-up":
@@ -2283,6 +2357,8 @@ const buildFields = (formType, field) => {
         $field.pattern = "[0-9]{10,11}";
       } else if (field.type === "email") {
         $field.pattern = "[a-zA-Z0-9\\.]+@[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+)+";
+      } else if (field.title === "zip") {
+        $field.pattern = "[0-9]{5}(?:-[0-9]{4})?";
       }
 
       if (field.placeholder) {
@@ -2391,7 +2467,7 @@ const buildCheckoutTool = () => {
   let fieldsArr = [ "contact" ];
   const currentStore = getCurrentStore();
 
-  if (currentStore === "store" || currentStore === "lab" || currentStore === "merch") {
+  if (currentStore === "store" || currentStore === "lab") {
     fieldsArr.push("pick-up");
   } else if (currentStore === "delivery") {
     fieldsArr.push("address");
@@ -2689,9 +2765,9 @@ const buildSquarePaymentForm = () => {
 const setDefaultTip = () => {
   const $tipDropdown = document.querySelector("#tip");
   if ($tipDropdown) {
-    $tipDropdown.value = "15";
+    $tipDropdown.value = "20";
     const currentTotal = parseInt(document.querySelector("#checkout-foot-total").getAttribute("data-total"));
-    const tipPercentage = 15;
+    const tipPercentage = 20;
     const tipAmount = Math.round(currentTotal * (tipPercentage / 100));
     const tipValue = formatMoney(tipAmount);
     // update tip field
@@ -3029,7 +3105,12 @@ const makeCartClickable = () => {
   if ($headerCart) {
     $headerCart.onclick = (e) => {
       updateCart();
-      showCheckoutTool();
+      const currentStore = getCurrentStore();
+      if (currentStore === "merch") {
+        showMerchCheckout();
+      } else {
+        showCheckoutTool();
+      }
       const $sqContainer = document.querySelector(".sq-container");
       if ($sqContainer) { $sqContainer.remove() };
       const $checkoutConfirmed = document.querySelector(".checkout-confirmed");
