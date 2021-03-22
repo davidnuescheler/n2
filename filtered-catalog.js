@@ -220,15 +220,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
-     "modifier_data": {
-      "name": "blueberry compote (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
       "name": "coffee ganache (v) (gf)",
@@ -8583,15 +8574,6 @@ var catalog_raw=[
   "id": "R5552JHAMS6LL2HLITDED4X2",
   "modifier_data": {
    "name": "chocolate chip cake bits (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
-  "modifier_data": {
-   "name": "blueberry compote (v) (gf)",
    "price_money": {
     "amount": 75
    }
