@@ -137,6 +137,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8938,6 +8947,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
