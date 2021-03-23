@@ -175,6 +175,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -8958,6 +8967,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
