@@ -8939,5 +8939,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "PNMACDLJLO5UI2H5FJEVCFHO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate + orange sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "PWP5Y5V7JBKJ6JWC2Y4K5QEJ",
+     "item_variation_data": {
+      "item_id": "PNMACDLJLO5UI2H5FJEVCFHO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
