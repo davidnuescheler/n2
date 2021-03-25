@@ -1031,8 +1031,6 @@ const submitOrder = async (store, formData) => {
       quantity: shippingItem.quantity.toString()
     })
   }
-
-  console.log(orderParams);
   
   let qs = "";
   for (prop in orderParams) {
