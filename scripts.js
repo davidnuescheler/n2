@@ -1,5 +1,4 @@
 
-
 /*==========================================================
 UNIVERSAL SETUP
 ==========================================================*/
@@ -33,7 +32,7 @@ const getPage = () => {
   } else if (path.includes("pint-club")) {
     return "pint-club";
   } else if (path.includes("cone-builder")) {
-    return "cone builder";
+    return "cone-builder";
   } else if (path.includes("merch")) {
     return "merch";
   } else if (path.includes("catering")) {
