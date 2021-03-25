@@ -23,6 +23,7 @@
         @include container;
         padding: 0;
         margin-top: 16rem;
+        margin-bottom: 8rem;
     }
 
     &-back { // inherit from .btn-back
@@ -104,7 +105,8 @@
             border-left: 1px solid currentColor;
             border-right: 1px solid currentColor;
         }
-        & .checkout-table-body-selectwrapper {
+        & .checkout-table-body-selectwrapper,
+        & input#zip {
             display: inline-block;
             &[data-fieldtype=address] {
                 width: calc(100% / 3);
@@ -223,7 +225,8 @@
             & #state {
                 width: 20%;
             }
-            & .checkout-table-body-selectwrapper {
+            & .checkout-table-body-selectwrapper,
+            & input#zip {
                 &[data-fieldtype=address] {
                     width: 40%;
                 }
@@ -287,7 +290,8 @@
                 width: 50%;
                 border-left: 0;
             }
-            & .checkout-table-body-selectwrapper {
+            & .checkout-table-body-selectwrapper,
+            & input#zip {
                 &[data-fieldtype=address] {
                     width: 50%;
                 }
