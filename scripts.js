@@ -4,7 +4,7 @@ UNIVERSAL SETUP
 ==========================================================*/
 const setupHead = () => {
   const title = getPage();
-  document.title = `normal® ${title === "home" ? "" : ` ${title.split("-").join(" ")}`}`;
+  document.title = `normal® ice cream ${title === "home" ? "" : ` ${title.split("-").join(" ")}`}`;
 }
 
 const lazyLoad = () => {
