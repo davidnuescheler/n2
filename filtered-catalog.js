@@ -137,6 +137,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -160,6 +169,15 @@ var catalog_raw=[
      "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -205,15 +223,6 @@ var catalog_raw=[
      "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
      "modifier_data": {
       "name": "AZIZA pistachio baklava",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
-     "modifier_data": {
-      "name": "blueberry compote (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -4554,6 +4563,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "X3E6SVSEI2JPN3HGOW3LEQVK",
+     "item_variation_data": {
+      "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
+      "name": "merch",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "P2WZUWA7HTJ7G76QTKJ27Y5V",
      "item_variation_data": {
       "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
@@ -8580,15 +8599,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "I6ISZHCMV6JDO2ZNLV5NJFOV",
-  "modifier_data": {
-   "name": "blueberry compote (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "QKA7JOHXFP35IZW4PF2WG3CO",
   "type": "ITEM",
   "item_data": {
@@ -8938,6 +8948,44 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "PNMACDLJLO5UI2H5FJEVCFHO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate + orange sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "PWP5Y5V7JBKJ6JWC2Y4K5QEJ",
+     "item_variation_data": {
+      "item_id": "PNMACDLJLO5UI2H5FJEVCFHO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
