@@ -4563,6 +4563,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "X3E6SVSEI2JPN3HGOW3LEQVK",
+     "item_variation_data": {
+      "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
+      "name": "merch",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "P2WZUWA7HTJ7G76QTKJ27Y5V",
      "item_variation_data": {
       "item_id": "2H3DKCE3GKS27WLAG6R5WFJF",
