@@ -2542,7 +2542,7 @@ var catalog_raw=[
   "id": "ETXJKNGNVXHA6DXKTW3RILR4",
   "type": "ITEM",
   "item_data": {
-   "name": "NORMAL® enamel pin",
+   "name": "noraml® enamel pin",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
@@ -8986,6 +8986,66 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "JGNN6G7G53J5B3TD4XMKOQNJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® cone pin",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "YZE4LTIEPFYA5QJWNCEDSZL2",
+     "item_variation_data": {
+      "item_id": "JGNN6G7G53J5B3TD4XMKOQNJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "MBUFNRXRD5NY72J2FZXQD5PC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® truck pin",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "Q2SLCUGIW5YGX74SAIG77S3M",
+     "item_variation_data": {
+      "item_id": "MBUFNRXRD5NY72J2FZXQD5PC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "6RKBZLU3GRMG65XLYUFUSY7J",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® smiley pin",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "24FIBGYI7CZW6UR6MPMAJCIV",
+     "item_variation_data": {
+      "item_id": "6RKBZLU3GRMG65XLYUFUSY7J",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
   }
  }
 ]
