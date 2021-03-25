@@ -1389,7 +1389,7 @@ var catalog_raw=[
      "id": "2UPTTZJKGF3HVJKA6I7BGPER",
      "item_variation_data": {
       "item_id": "E6MHOVDZ5BI4DDBN3FGPYYJG",
-      "name": "Regular",
+      "name": "pup cup",
       "price_money": {
        "amount": 150
       }
@@ -9059,32 +9059,7 @@ var catalog_raw=[
      "id": "S3AZZOVDM4ILPBRJQXVRAI5K",
      "item_variation_data": {
       "item_id": "SQ6VGB2JFGDCAKSNSO2W6XSL",
-      "name": "Regular",
-      "price_money": {
-       "amount": 150
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "P2ADQATEEXNRKDJK4BU6QIKW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "STORE pup cup (1)",
-   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
-    }
-   ],
-   "variations": [
-    {
-     "id": "NXS73YWYL6HUAHRRTWM7TVSY",
-     "item_variation_data": {
-      "item_id": "P2ADQATEEXNRKDJK4BU6QIKW",
-      "name": "Regular",
+      "name": "pup cup",
       "price_money": {
        "amount": 150
       }
