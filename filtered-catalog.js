@@ -4624,11 +4624,11 @@ var catalog_raw=[
    "name": "make it sweet",
    "modifiers": [
     {
-     "id": "MIOBAVYUK4ICRMOQGG77YHEQ",
+     "id": "NLKKOTH4LYIU37MFWQP5WWMP",
      "modifier_data": {
-      "name": "vanilla latte!",
+      "name": "no extra flavors",
       "price_money": {
-       "amount": 100
+       "amount": 0
       }
      }
     },
@@ -4640,35 +4640,8 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "NLKKOTH4LYIU37MFWQP5WWMP",
-     "modifier_data": {
-      "name": "no extra flavors",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
-     "modifier_data": {
-      "name": "mocha!",
-      "price_money": {
-       "amount": 100
-      }
-     }
     }
    ]
-  }
- },
- {
-  "id": "H4UDRSAEFAJ7PBK6DGOSHX3T",
-  "modifier_data": {
-   "name": "mocha!",
-   "price_money": {
-    "amount": 100
-   }
   }
  },
  {
@@ -6678,15 +6651,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "MIOBAVYUK4ICRMOQGG77YHEQ",
-  "modifier_data": {
-   "name": "vanilla latte!",
-   "price_money": {
-    "amount": 100
-   }
   }
  },
  {
