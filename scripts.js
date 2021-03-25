@@ -837,13 +837,54 @@ const updateCart = () => {
     $checkoutTable.append($row);
   }
 
-  $checkoutFoot.innerHTML = `<tr>
-    <td colspan="2">total</td>
-    <td id="checkout-foot-total">${formatMoney(cart.totalAmount())}</td>
-  </tr>`;
+  const currentStore = getCurrentStore();
+  let isShipped = false;
 
+  if (currentStore === "merch") {
+    if (cart.shipping_item.price > 0) {
+      isShipped = true;
+    } 
+  } else if (currentStore === "delivery") {
+    isShipped = true;
+  }
+
+  if (isShipped) {
+    // display shipping item
+    const shippingItem = cart.shipping_item;
+    const variation = catalog.byId[shippingItem.variation];
+    // const variationName = variation.item_variation_data.name;
+    const item = catalog.byId[variation.item_variation_data.item_id];
+    const itemName = item.item_data.name;
+
+    const $row = document.createElement("tr");
+      $row.setAttribute("data-id", shippingItem.fp);
+
+    const $quantity = document.createElement("td");
+      $quantity.classList.add("checkout-table-body-quantity");
+      $quantity.innerHTML = `<del class="quantity-num">${shippingItem.quantity}</del>`;
+
+    const $item = document.createElement("td");
+      $item.classList.add("checkout-table-body-item");
+      $item.textContent = itemName;
+
+    const $price = document.createElement("td");
+      $price.classList.add("checkout-table-body-price");
+      $price.textContent = `$${formatMoney(shippingItem.price * shippingItem.quantity)}`;
+
+    $row.append($quantity, $item, $price);
+    $checkoutTable.append($row);
+
+    $checkoutFoot.innerHTML = `<tr>
+      <td colspan="2">total</td>
+      <td id="checkout-foot-total">$${formatMoney(cart.totalAmountWithShipping())}</td>
+    </tr>`;
+  } else {
+    $checkoutFoot.innerHTML = `<tr>
+      <td colspan="2">total</td>
+      <td id="checkout-foot-total">$${formatMoney(cart.totalAmount())}</td>
+    </tr>`;
+  }
   // BUILD CO ITEMS DISPLAY
-
 }
 
 const plus = (e) => {
@@ -982,6 +1023,16 @@ const submitOrder = async (store, formData) => {
     if (mods.length) { lineItem.modifiers = mods };
     orderParams.line_items.push(lineItem); 
   });
+
+  if (store === "merch-shipping" || store === "delivery") {
+    const shippingItem = cart.shipping_item;
+    orderParams.line_items.push({
+      catalog_object_id: shippingItem.variation,
+      quantity: shippingItem.quantity.toString()
+    })
+  }
+
+  console.log(orderParams);
   
   let qs = "";
   for (prop in orderParams) {
@@ -1071,6 +1122,22 @@ const getStorefrontCheckoutCred = (storefront) => {
       return {
         name: storefront
       };
+  }
+}
+
+const getShippingItem = (type) => {
+  switch (type) {
+    case "merch":
+      return "X3E6SVSEI2JPN3HGOW3LEQVK";
+    case "tier 1":
+      return "KXH64DXKRNXLGJXF4VHQNUGK"; // in the neighborhood
+    case "tier 2":
+      return "IV37HQ6227WQAOS3HOCNTPXN"; // near
+    case "tier 3":
+      return "P2WZUWA7HTJ7G76QTKJ27Y5V"; // far
+    case "free":
+    default:
+      return "GTMQCMXMAHX4X6NFKDX5AYQC"; // free
   }
 }
 
@@ -1743,10 +1810,13 @@ const populateCustomizationTool = (store, title, fields) => {
         if (formData["merch-checkout"] === "ship in the mail") {
           const type = cleanName(formData["merch-checkout"]);
           const $checkoutTable = document.querySelector(".checkout-table-body");
-          $checkoutTable.setAttribute("data-type", type);
-
+            $checkoutTable.setAttribute("data-type", type);
           const $checkoutForm = document.querySelector(".checkout-form");
-          $checkoutForm.innerHTML = ``; // clear form
+            $checkoutForm.innerHTML = ``; // clear form
+          // ADD SHIPPING ITEM
+          const shipping = getShippingItem("merch");
+          cart.addShipping(shipping);
+          updateCart();
           // ADD DELIVERY ADDRESS
           const fields = getFields([ "contact", "address-national", "discount-code" ]);
           fields.forEach((f) => {
@@ -1757,10 +1827,12 @@ const populateCustomizationTool = (store, title, fields) => {
         } else if (formData["merch-checkout"] === "in store pick up") {
           const type = cleanName(formData["merch-checkout"]);
           const $checkoutTable = document.querySelector(".checkout-table-body");
-          $checkoutTable.setAttribute("data-type", type);
-
+            $checkoutTable.setAttribute("data-type", type);
           const $checkoutForm = document.querySelector(".checkout-form");
-          $checkoutForm.innerHTML = ``; // clear form
+            $checkoutForm.innerHTML = ``; // clear form
+          // REMOVE SHIPPING ITEM
+          cart.removeShipping();
+          updateCart();
           // ADD PICKUP TIMES
           const fields = getFields([ "contact", "pick-up", "discount-code" ]);
           fields.forEach((f) => {
@@ -3183,8 +3255,8 @@ const makeCartClickable = () => {
   const $headerCart = document.querySelector(".header-cart");
   if ($headerCart) {
     $headerCart.onclick = (e) => {
-      updateCart();
       const currentStore = getCurrentStore();
+      updateCart();
       if (currentStore === "merch") {
         showMerchCheckout();
       } else {
@@ -3347,6 +3419,9 @@ var cart = {
     cart.line_items.splice(index, 1);
     cart.store();
   },
+  removeShipping: () => {
+    cart.shipping_item = {};
+  },
   add: (variation, mods) => {
     if (!mods) { mods = []; }
     var li = cart.find(variation, mods);
@@ -3401,8 +3476,11 @@ var cart = {
         total += li.price * li.quantity;
       }
     });
-    // add shipping to total on delivery orders
-    if (currentStore === "delivery" && cart.shipping_item.price) {
+    return total;
+  },
+  totalAmountWithShipping: () => {
+    let total = cart.totalAmount();
+    if (cart.shipping_item.price) {
       total += cart.shipping_item.price;
     }
     return total;
@@ -3503,6 +3581,12 @@ function addToCart(e) {
       updateCart();
     }
   }
+}
+
+const addShippingToCart = (id) => {
+  const obj = catalog.byId[id];
+  cart.addShipping(obj.id);
+  updateCart();
 }
 
 function addConfigToCart(formData) {
