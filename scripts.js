@@ -4059,7 +4059,7 @@ window.onload = async (e) => {
   await classify();
   await codify();
 
-  // lazyLoad();
+  lazyLoad();
 
   setPage();  
   buildCollapsableStarbursts();
