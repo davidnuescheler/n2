@@ -159,7 +159,7 @@ h2 {
 }
 
 // AFTER CLASSES & IDS ARE ADDED
-#pintclub {
+#pintclub, #pintclubstarburst {
     & .pintclub-logo {
         position: absolute;
         z-index: 2;
@@ -216,7 +216,7 @@ h2 {
 }
 
 @media only screen and (max-width: $tablet) {
-    #pintclub { 
+    #pintclub, #pintclubstarburst { 
         & h1#normalreg {
             // color: green;
             margin-bottom: 10rem;
@@ -231,7 +231,7 @@ h2 {
 }
 
 @media only screen and (max-width: $mobile) {
-    #pintclub {
+    #pintclub, #pintclubstarburst {
         & .faq-container {
             & > .faq-item {
                 width: 100%;

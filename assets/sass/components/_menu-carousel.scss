@@ -77,11 +77,13 @@
 .p-icecreamcake {
     & img {
         border-radius: 50%;
+        object-fit: cover !important;
     }
 }
 
 .embed-internal-storemenus, .embed-internal-labmenus, 
 .embed-internal-deliverymenus, .embed-internal-merchmenus,
+.embed-internal-cateringmenus, .embed-internal-wholesalemenus,
 .embed-internal-aboutmenus {
     // background: yellow;
     width: 100%;
@@ -141,7 +143,7 @@
             & div {
                 // border: 2px solid red;
                 min-width: calc(100% / 2);
-                padding: 0 10rem;
+                padding: 0 6rem;
             }
         }
         &-three {

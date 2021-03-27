@@ -27,6 +27,10 @@ const getPage = () => {
     return "cone builder";
   } else if (path.includes("merch")) {
     return "merch";
+  } else if (path.includes("catering")) {
+    return "catering";
+  } else if (path.includes("wholesale")) {
+    return "wholesale";
   } else {
     return "home";
   }
@@ -96,12 +100,22 @@ const setPage = () => {
       fixCart();
       buildCustomizationTool();
       break;
+    case "catering":
+      styleMenus();
+      setupCarousels();
+      fixCart();
+      break;
+    case "wholesale":
+      styleMenus();
+      setupCarousels();
+      fixCart();
+      break;
     case "home":
       buildIndexCarousel();
-      break;
-    default:
-      console.error("something went wrong!")
-      break;
+    break;
+  default:
+    console.error("something went wrong!")
+    break;
   }
 
 };
@@ -917,7 +931,6 @@ const getStorefrontCheckoutCred = (storefront) => {
 STOREFRONT CAROUSELS
 ==========================================================*/
 const resetCarousels = debounce(function() {
-  const currentStore = getCurrentStore();
   const $carousels = document.querySelectorAll(`.embed-internal-${getPage()}menus`);
   if ($carousels) {
     $carousels.forEach((c) => {

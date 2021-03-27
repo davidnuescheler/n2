@@ -104,10 +104,10 @@
             background: $color-red;
             color: $color-pink;
 
-            &:nth-child(odd) {
-                background: $color-yellow;
-                color: $color-red;
-            }
+            // &:nth-child(odd) {
+            //     background: $color-yellow;
+            //     color: $color-red;
+            // }
     
             & .btn {
                 &-rect {
@@ -134,6 +134,7 @@
     & #back-to-top {
         background: $color-pink;
     }
+
 }
 
 @keyframes pink-error-blink {

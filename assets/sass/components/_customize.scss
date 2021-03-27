@@ -1,5 +1,7 @@
 .customize {
     // background: red;
+    opacity: 1;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -269,7 +271,7 @@
             }
         }
         &-foot {
-            margin-bottom: 8rem;
+            margin-bottom: 12rem;
         }
     }
 }
