@@ -175,15 +175,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -4885,15 +4876,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "J3AXA6FGMDZHO6HI4AKI33SG",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "ZOXZI4YBI2ISFYEOV324CPXH",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -5011,15 +4993,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -5122,15 +5095,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "J3AXA6FGMDZHO6HI4AKI33SG",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "VVSYSHFCSF3GFTIF4B5TFPR5",
   "modifier_data": {
    "name": "red velvet cake bits",
@@ -5170,15 +5134,6 @@ var catalog_raw=[
   "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8936,15 +8891,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
