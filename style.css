@@ -258,6 +258,7 @@ a {
     margin: 4rem auto; } }
 
 .checkout {
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -459,6 +460,7 @@ a {
     text-decoration: none; }
 
 .customize {
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -638,6 +640,9 @@ a {
   .customize-foot {
     margin-bottom: 12rem; } }
 
+main > * {
+  opacity: 0; }
+
 .lazy-load {
   animation: lazy-load 0.5s linear 0s 1 normal;
   opacity: 1; }
@@ -777,6 +782,7 @@ a {
     display: inline-block; } }
 
 .screensaver {
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
