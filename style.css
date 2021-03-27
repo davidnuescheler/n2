@@ -885,6 +885,7 @@ main > * {
   transition: 0.2s all; }
 
 .starburst {
+  opacity: 1;
   float: left;
   position: relative;
   margin-top: -8%;
