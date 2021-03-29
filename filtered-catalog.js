@@ -175,6 +175,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "WXGAFDESL66GH6KSX3RGLIT6",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -4622,6 +4631,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "C75LA77374FFT5EHDVTTR7QQ",
+     "modifier_data": {
+      "name": "vanilla!",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -8958,6 +8976,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "WXGAFDESL66GH6KSX3RGLIT6",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "C75LA77374FFT5EHDVTTR7QQ",
+  "modifier_data": {
+   "name": "vanilla!",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
