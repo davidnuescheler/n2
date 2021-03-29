@@ -31,6 +31,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -133,15 +142,6 @@ var catalog_raw=[
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
       "name": "peanut praline (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
