@@ -166,15 +166,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "WXGAFDESL66GH6KSX3RGLIT6",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -8765,15 +8756,6 @@ var catalog_raw=[
    "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
-  "modifier_data": {
-   "name": "normal sprinks (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
