@@ -247,6 +247,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
+     "modifier_data": {
+      "name": "streusel crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
@@ -8993,6 +9002,15 @@ var catalog_raw=[
    "name": "vanilla!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
+  "modifier_data": {
+   "name": "streusel crumb",
+   "price_money": {
+    "amount": 75
    }
   }
  }
