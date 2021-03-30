@@ -211,15 +211,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
-     "modifier_data": {
-      "name": "AZIZA pistachio baklava",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
       "name": "coffee ganache (v) (gf)",
@@ -7635,15 +7626,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
-  "modifier_data": {
-   "name": "AZIZA pistachio baklava",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
