@@ -189,7 +189,6 @@ const setPageTheme = (color) => {
 
 const setBlockTheme = ($el, color) => {
   const $parent = $el.parentNode.parentNode;
-  console.log(`setBlockTheme -> $parent`, $parent);
   const configuredColors = ["bluepink", "bluewhite", "pink", "yellow"];
   if (configuredColors.includes(color)) {
     $parent.classList.add(`theme-${color}`);
