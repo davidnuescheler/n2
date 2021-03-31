@@ -152,7 +152,10 @@ const codify = () => {
   const $code = document.querySelectorAll("code");
   if ($code) {
     $code.forEach((c, i) => {
-      const [key, values] = c.textContent.split(": ");
+      console.log(c);
+      let [key, values] = c.textContent.split(": ");
+      if (values) { values = values.trim() };
+      // values = values.trim();
       if (key === "theme") {
         setPageTheme(values); // set theme class on body
       } else if (key === "style") {
@@ -160,7 +163,7 @@ const codify = () => {
       } else if (key === "color") {
         setBlockTheme(c, values); // set theme class on parent
       } else if (key === "starburst") {
-        console.log("starburst", values);
+        // console.log("starburst", values);
       } else if (key === "starburst-collapse") {
         // functionality moved to buildCollapsableStarburst func
       } else if (key === "code") {
@@ -179,9 +182,11 @@ const codify = () => {
 };
 
 const setPageTheme = (color) => {
+  console.log(`set page theme`, color)
   const $body = document.querySelector("body");
   const configuredColors = ["bluepink", "bluewhite", "pink", "yellow"];
   if (configuredColors.includes(color)) {
+    console.log(`theme-${color}`);
     $body.classList.add("theme", `theme-${color}`);
   } else {
     $body.classList.add("theme", `theme-white`);
@@ -4062,9 +4067,9 @@ window.onload = async (e) => {
   lazyLoad();
 
   setPage();  
-  buildCollapsableStarbursts();
-  buildLinkStarbursts();
-  buildStaticStarbursts();
+  // buildCollapsableStarbursts();
+  // buildLinkStarbursts();
+  // buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
