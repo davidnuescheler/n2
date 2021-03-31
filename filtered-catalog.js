@@ -2472,6 +2472,24 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
+     "modifier_data": {
+      "name": "passion fruit (gf) (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
+     "modifier_data": {
+      "name": "greek yogurt + passion fruit TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -8919,6 +8937,24 @@ var catalog_raw=[
    "name": "greek yogurt + passion fruit TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
+  "modifier_data": {
+   "name": "passion fruit (gf) (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
+  "modifier_data": {
+   "name": "greek yogurt + passion fruit TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
