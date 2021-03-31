@@ -3774,6 +3774,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "HOKOSZNYVF63V27FYXMSQRYI",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "passion fruit (gf) ( v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "22DUY2AJY2YF3CCVDLWY22C3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "greek yogurt + passion fruit TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
