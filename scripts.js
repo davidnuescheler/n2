@@ -153,6 +153,7 @@ const codify = () => {
   if ($code) {
     $code.forEach((c, i) => {
       const [key, values] = c.textContent.split(": ");
+      if (values) { values = values.trim() };
       if (key === "theme") {
         setPageTheme(values); // set theme class on body
       } else if (key === "style") {
@@ -4062,9 +4063,9 @@ window.onload = async (e) => {
   lazyLoad();
 
   setPage();  
-  buildCollapsableStarbursts();
-  buildLinkStarbursts();
-  buildStaticStarbursts();
+  // buildCollapsableStarbursts();
+  // buildLinkStarbursts();
+  // buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
