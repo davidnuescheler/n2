@@ -4062,9 +4062,9 @@ window.onload = async (e) => {
   lazyLoad();
 
   setPage();  
-  buildCollapsableStarbursts();
-  buildLinkStarbursts();
-  buildStaticStarbursts();
+  // buildCollapsableStarbursts();
+  // buildLinkStarbursts();
+  // buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
