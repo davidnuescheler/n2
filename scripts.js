@@ -94,7 +94,7 @@ const setPage = () => {
       buildCustomizationTool();
       setupDownAnchors();
       break;
-    case "cone builder":
+    case "cone-builder":
       console.log("nothing yet~");
       break;
     case "merch":
@@ -152,10 +152,8 @@ const codify = () => {
   const $code = document.querySelectorAll("code");
   if ($code) {
     $code.forEach((c, i) => {
-      console.log(c);
       let [key, values] = c.textContent.split(": ");
       if (values) { values = values.trim() };
-      // values = values.trim();
       if (key === "theme") {
         setPageTheme(values); // set theme class on body
       } else if (key === "style") {
@@ -170,8 +168,6 @@ const codify = () => {
         switch (values) {
           case "search":
             return buildProductSearch(c);
-          case "pint-club":
-            return buildPintClubCheckout(c);
           default:
             console.log(`${values} code block hasn't been configured yet`);
             break;
@@ -194,7 +190,7 @@ const setPageTheme = (color) => {
 };
 
 const setBlockTheme = ($el, color) => {
-  const $parent = $el.parentNode.parentNode.parentNode.parentNode.parentNode;
+  const $parent = $el.parentNode.parentNode;
   const configuredColors = ["bluepink", "bluewhite", "pink", "yellow"];
   if (configuredColors.includes(color)) {
     $parent.classList.add(`theme-${color}`);
@@ -204,7 +200,7 @@ const setBlockTheme = ($el, color) => {
 };
 
 const setBlockStyle = ($el, style) => {
-  const $parent = $el.parentNode.parentNode.parentNode.parentNode.parentNode;
+  const $parent = $el.parentNode.parentNode;
   const configuredStyles = ["outline"];
   if (configuredStyles.includes(style)) {
     $parent.classList.add(`theme-${style}`);
@@ -1322,7 +1318,7 @@ const setupDownAnchors = () => {
 };
 
 const buildProductSearch = ($code) => {
-  const $parent = $code.parentNode.parentNode.parentNode.parentNode.parentNode;
+  const $parent = $code.parentNode.parentNode;
 
   const $searchForm = document.createElement("form");
   $searchForm.classList.add("search-form");
@@ -1446,12 +1442,6 @@ const buildPintBanner = () => {
       }
     };
   }
-}
-
-const buildPintClubCheckout = ($code) => {
-  // console.log(`building pint club checkout`);
-  const $parent = $code.parentNode.parentNode.parentNode.parentNode.parentNode;
-  // console.log($parent);
 }
 
 const setupPintSubOptions = () => {
