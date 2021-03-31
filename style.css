@@ -40,7 +40,8 @@ ul {
   margin-left: 1.8rem; }
 
 table thead tr th code,
-table tbody tr td code {
+table tbody tr td code,
+pre code {
   display: none; }
 
 .hide {
@@ -1148,12 +1149,12 @@ h2#carousel + div.embed {
     display: flex; }
     h2#carousel + div.embed div p {
       display: flex; }
-    h2#carousel + div.embed div img {
+    h2#carousel + div.embed div img, h2#carousel + div.embed div source {
       width: 45rem;
       height: 60rem;
       object-fit: cover;
       padding-right: 1.8rem; }
-      h2#carousel + div.embed div img:last-child {
+      h2#carousel + div.embed div img:last-child, h2#carousel + div.embed div source:last-child {
         padding-right: 0; }
 
 @media only screen and (max-width: 46.4rem) {
@@ -1528,11 +1529,10 @@ div#meettheteam img {
       width: 1rem; }
     .embed-internal-pintbanner > div p::-webkit-scrollbar-track, .embed-internal-pintbanner > div p::-webkit-scrollbar-thumb {
       background: #FFFCF3; }
-    .embed-internal-pintbanner > div p img {
+    .embed-internal-pintbanner > div p img, .embed-internal-pintbanner > div p source {
       height: 60rem;
-      width: 100%;
       object-fit: cover; }
-      .embed-internal-pintbanner > div p img:not(:last-child) {
+      .embed-internal-pintbanner > div p img:not(:last-child), .embed-internal-pintbanner > div p source:not(:last-child) {
         margin-right: 1rem; }
 
 h2#welcome-to-normal-pint-club, h2#welcome-to-normalreg-pint-club {

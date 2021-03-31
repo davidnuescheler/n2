@@ -1075,7 +1075,6 @@ const buildLocationsGrid = () => {
 };
 
 const carouselizeTeam = () => {
-  console.log(`this is running`);
   const $teamContainer = document.querySelector(".embed-internal-team").parentNode;
   if ($teamContainer) {
     $teamContainer.classList.add("menu-carousel")
@@ -1344,7 +1343,6 @@ const customizeToolforClub = (target) => {
 }
 
 const addClubToCart = (formData) => {
-  // console.log("add club to cart");
   const paymentOption = formData["payment-option"];
   const monthsToPay = formData["prepay-months"] || "1";
 
@@ -3638,7 +3636,6 @@ INIT
 ==========================================================*/
 
 window.onload = async (e) => {
-
   await fetchLabels();
   await indexCatalog(); // legacy
 
