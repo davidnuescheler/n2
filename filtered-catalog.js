@@ -1968,6 +1968,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "IJUDD2N4CGIQTGMX3WBOI35X",
+     "modifier_data": {
+      "name": "passion fruit (gf) ( v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "D3KI4E77HLCKB32QZL25EXJS",
+     "modifier_data": {
+      "name": "greek yogurt + passion fruit TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -8883,6 +8901,24 @@ var catalog_raw=[
    "name": "streusel crumb",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "IJUDD2N4CGIQTGMX3WBOI35X",
+  "modifier_data": {
+   "name": "passion fruit (gf) ( v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "D3KI4E77HLCKB32QZL25EXJS",
+  "modifier_data": {
+   "name": "greek yogurt + passion fruit TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
