@@ -31,6 +31,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -137,15 +146,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "KPYYYZJ4ZHLPRQ5CZ2P6ZZP2",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -166,16 +166,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
+     "id": "WXGAFDESL66GH6KSX3RGLIT6",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
       "price_money": {
@@ -220,15 +211,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
-     "modifier_data": {
-      "name": "AZIZA pistachio baklava",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
       "name": "coffee ganache (v) (gf)",
@@ -247,7 +229,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6GXWF24GYBERPFV33P4OEZKC",
+     "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
      "modifier_data": {
       "name": "streusel crumb",
       "price_money": {
@@ -4640,6 +4622,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "C75LA77374FFT5EHDVTTR7QQ",
+     "modifier_data": {
+      "name": "vanilla!",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -4885,15 +4876,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "J3AXA6FGMDZHO6HI4AKI33SG",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "ZOXZI4YBI2ISFYEOV324CPXH",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -5011,15 +4993,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -5122,15 +5095,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "J3AXA6FGMDZHO6HI4AKI33SG",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "VVSYSHFCSF3GFTIF4B5TFPR5",
   "modifier_data": {
    "name": "red velvet cake bits",
@@ -5170,15 +5134,6 @@ var catalog_raw=[
   "id": "S7UUEXX7K4QFDLMWFJIVKZ2Q",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "JZ7OK7VD5GHVUR7DHWAAVYCZ",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7674,15 +7629,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NLNI4OVDNGSZKQEOOJPFIJXR",
-  "modifier_data": {
-   "name": "AZIZA pistachio baklava",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "HZHOKK6L56TPQQ7HNCKPC2T6",
   "modifier_data": {
    "name": "coconut whipped cream (v)",
@@ -8450,15 +8396,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6GXWF24GYBERPFV33P4OEZKC",
-  "modifier_data": {
-   "name": "streusel crumb",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "HVBOSMACVVOYXIXYAMSFUJKM",
   "modifier_data": {
    "name": "coffee (gf)",
@@ -8805,15 +8742,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "YBTXKZE4J2SVJGNWSBZCIAKV",
-  "modifier_data": {
-   "name": "normal sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "V2P3E3364W2FWTKN7BVXURF5",
   "modifier_data": {
    "name": "normal sprinks (gf)",
@@ -8939,15 +8867,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "N7K3OSCA5K2EPHZZDIUJWW4D",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "JGNN6G7G53J5B3TD4XMKOQNJ",
   "type": "ITEM",
   "item_data": {
@@ -9030,6 +8949,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "WXGAFDESL66GH6KSX3RGLIT6",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "C75LA77374FFT5EHDVTTR7QQ",
+  "modifier_data": {
+   "name": "vanilla!",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
+  "modifier_data": {
+   "name": "streusel crumb",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
