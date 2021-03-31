@@ -1961,27 +1961,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CW7PI76XG6ETKEFMVB7I4BTX",
-     "modifier_data": {
-      "name": "passion fruit sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
      "modifier_data": {
       "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CFYSSJAHNOUSC5MJQSTD6G5L",
-     "modifier_data": {
-      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2465,27 +2447,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CR4PCOTSG4TEXDGDGRGU6DEY",
-     "modifier_data": {
-      "name": "passion fruit sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
      "modifier_data": {
       "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "D5KPTQXTA42CJSP3G4GQEDKB",
-     "modifier_data": {
-      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3766,30 +3730,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UULUZQ3ED3Z5MEMZQNIVPM52",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "passion fruit sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "BAOF6CDD5LR7UO2F7EJWY4SK",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UZHR3QSVQT7WKSKGOLJ2DUKK",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "passion fruit + greek yogurt TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8414,24 +8358,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CW7PI76XG6ETKEFMVB7I4BTX",
-  "modifier_data": {
-   "name": "passion fruit sorbet (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CR4PCOTSG4TEXDGDGRGU6DEY",
-  "modifier_data": {
-   "name": "passion fruit sorbet (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "NRVUGQADH5BEIGQATLXAXER6",
   "modifier_data": {
    "name": "whipped coconut cream (v) (gf)",
@@ -8670,15 +8596,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CFYSSJAHNOUSC5MJQSTD6G5L",
-  "modifier_data": {
-   "name": "passion fruit + greek yogurt TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "2YYSTDLKF5VHMVWOQYHI7TZX",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
@@ -8727,15 +8644,6 @@ var catalog_raw=[
   "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
   "modifier_data": {
    "name": "greek yogurt (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "D5KPTQXTA42CJSP3G4GQEDKB",
-  "modifier_data": {
-   "name": "passion fruit + greek yogurt TWIST (gf)",
    "price_money": {
     "amount": 300
    }
