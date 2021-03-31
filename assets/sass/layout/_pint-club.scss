@@ -23,10 +23,10 @@
             background: $color-white;
         }
         
-        & img {
+        & img, & source {
             // border: 2px solid red;
             height: 60rem;
-            width: 100%;
+            // width: 100%;
             object-fit: cover;
             &:not(:last-child) {
                 margin-right: 1rem;
