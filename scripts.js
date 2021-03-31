@@ -152,7 +152,7 @@ const codify = () => {
   const $code = document.querySelectorAll("code");
   if ($code) {
     $code.forEach((c, i) => {
-      const [key, values] = c.textContent.split(": ");
+      let [key, values] = c.textContent.split(": ");
       if (values) { values = values.trim() };
       if (key === "theme") {
         setPageTheme(values); // set theme class on body
