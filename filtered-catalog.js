@@ -236,6 +236,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "H3PNDRWFOGXOM7PK2NTISLVN",
+     "modifier_data": {
+      "name": "AZIZA pistachio baklava",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8939,6 +8948,15 @@ var catalog_raw=[
    "name": "salted maple (gf) + blueberry (gf) (v)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "H3PNDRWFOGXOM7PK2NTISLVN",
+  "modifier_data": {
+   "name": "AZIZA pistachio baklava",
+   "price_money": {
+    "amount": 75
    }
   }
  }
