@@ -8959,5 +8959,85 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "24YFDKLMPQ6IYNEGIN35AVTV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lychee pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "N2ZVNJGRJ7BNX34O34UXC65B",
+     "item_variation_data": {
+      "item_id": "24YFDKLMPQ6IYNEGIN35AVTV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "OTHX5DYKSMG65N4DJ2CQJGE4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "dark chocolate orange sorbet",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "ECAUUGHHRRDGJSG3VJQ6OVQ2",
+     "item_variation_data": {
+      "item_id": "OTHX5DYKSMG65N4DJ2CQJGE4",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "75OATBF4JFWYLKP2Y2YMGFVB",
+  "type": "ITEM",
+  "item_data": {
+   "name": "acai sorbet",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "GYE2QD7SQXKNGZFTARAPIPAI",
+     "item_variation_data": {
+      "item_id": "75OATBF4JFWYLKP2Y2YMGFVB",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SMFX4GIP4ER3RFXUCKSLE274",
+  "type": "ITEM",
+  "item_data": {
+   "name": "in your dreams pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "XQMMOODTIMHPS5ETLUJHT6BS",
+     "item_variation_data": {
+      "item_id": "SMFX4GIP4ER3RFXUCKSLE274",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
