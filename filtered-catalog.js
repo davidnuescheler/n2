@@ -3545,9 +3545,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "S435GG5BU656KUXDZ3KBEPSB",
+     "modifier_data": {
+      "name": "graham cracker milk",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "D5I7X2UZYZWQMHG2I23CAPPX",
      "modifier_data": {
       "name": "coffee (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "F2UGUVMOCLA6FHORLEG6IVEF",
+     "modifier_data": {
+      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 300
       }
@@ -8737,6 +8755,24 @@ var catalog_raw=[
    "name": "graham cracker milk + coffee TWIST",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "S435GG5BU656KUXDZ3KBEPSB",
+  "modifier_data": {
+   "name": "graham cracker milk",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "F2UGUVMOCLA6FHORLEG6IVEF",
+  "modifier_data": {
+   "name": "graham cracker milk + coffee TWIST",
+   "price_money": {
+    "amount": 300
    }
   }
  }
