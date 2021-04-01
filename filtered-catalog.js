@@ -4839,7 +4839,7 @@ var catalog_raw=[
       "item_id": "AHZS5TZHRP26TZJ2GDQYTWJI",
       "name": "12oz",
       "price_money": {
-       "amount": 500
+       "amount": 600
       }
      }
     }
