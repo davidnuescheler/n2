@@ -1907,9 +1907,36 @@ var catalog_raw=[
      }
     },
     {
+     "id": "LZWKE33VY632IL4L76YKJWOE",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SYBTURDV6SLGT7S3OHJC43B2",
      "modifier_data": {
       "name": "blueberry (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BM52NNLBKPPFKEZDK4HLAG2N",
+     "modifier_data": {
+      "name": "salted maple (gf) + blueberry (gf) (v)",
       "price_money": {
        "amount": 0
       }
@@ -8773,6 +8800,33 @@ var catalog_raw=[
    "name": "graham cracker milk + coffee TWIST",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "LZWKE33VY632IL4L76YKJWOE",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BM52NNLBKPPFKEZDK4HLAG2N",
+  "modifier_data": {
+   "name": "salted maple (gf) + blueberry (gf) (v)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
