@@ -9039,5 +9039,64 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "U6346LYP4ZUDAVBO4L32RVGH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "poppa that cornin' to ya pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "5FZX3ZLOCYIBTU5BBQNRN3RM",
+     "item_variation_data": {
+      "item_id": "U6346LYP4ZUDAVBO4L32RVGH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TFS7BGWVPCD6CD3KJZ7EKSYR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "razz ma tazz pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "2LV3DWOLADNXRV2VR6W5Z3FT",
+     "item_variation_data": {
+      "item_id": "TFS7BGWVPCD6CD3KJZ7EKSYR",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ONELC4BPOKU42WXITQQJBNRN",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pot o'gold pint",
+   "variations": [
+    {
+     "id": "QNIILI3JTGY6EYN4X5RROA3M",
+     "item_variation_data": {
+      "item_id": "ONELC4BPOKU42WXITQQJBNRN",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
