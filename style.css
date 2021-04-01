@@ -1666,6 +1666,17 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
     width: 100%;
     padding: 2rem 0; } }
 
+.conebuilder {
+  border: 2px solid green;
+  display: flex; }
+  .conebuilder-form {
+    border: 2px solid red;
+    flex-basis: 66%; }
+  .conebuilder-cone {
+    border: 2px solid blue;
+    flex-basis: 33%;
+    margin-left: 3rem; }
+
 .theme-outline {
   border: 1px solid currentColor; }
   .theme-outline h2 {

@@ -95,7 +95,8 @@ const setPage = () => {
       setupDownAnchors();
       break;
     case "cone-builder":
-      console.log("nothing yet~");
+      hideCart();
+      // fetchConeImages();
       break;
     case "merch":
       setCurrentStore();
@@ -160,14 +161,13 @@ const codify = () => {
         setBlockStyle(c, values);
       } else if (key === "color") {
         setBlockTheme(c, values); // set theme class on parent
-      } else if (key === "starburst") {
-        console.log("starburst", values);
-      } else if (key === "starburst-collapse") {
-        // functionality moved to buildCollapsableStarburst func
       } else if (key === "code") {
         switch (values) {
           case "search":
             return buildProductSearch(c);
+          case "cone builder":
+          case "cone-builder":
+            return buildConeBuilder(c);
           default:
             console.log(`${values} code block hasn't been configured yet`);
             break;
@@ -458,6 +458,15 @@ const fetchDeliveryZips = async () => {
   }
   return window.deliveryZips;
 };
+
+const fetchConeImages = async () => {
+  const resp = await fetch("https://api.github.com/repos/davidnuescheler/n2/contents/cone-builder");
+  let json = await resp.json();
+  const images = json.map((j) => {
+    return { name: j.name, url: `https://normal.club/${j.path}`}
+  })
+  console.log(images);
+}
 
 /*==========================================================
 INDEX PAGE
@@ -1693,6 +1702,31 @@ MERCH PAGE
 
 const showMerchCheckout = () => {
   populateCustomizationTool("merch", "how do you want to check out?", [ "merch" ]);
+}
+
+/*==========================================================
+CONE BUILDER PAGE
+==========================================================*/
+
+const buildConeBuilder = ($code) => {
+  const $parent = $code.parentNode.parentNode;
+  if ($parent.nodeName === "DIV") { // TODO: cleanup after breaking changes
+    const $coneBuilderContainer = document.createElement("section");
+      $coneBuilderContainer.classList.add("conebuilder");
+
+    const $customizeForm = document.createElement("div");
+      $customizeForm.classList.add("conebuilder-form");
+      $customizeForm.textContent = "hello world";
+
+    const $coneSidebar = document.createElement("div");
+      $coneSidebar.classList.add("conebuilder-cone");
+      $coneSidebar.textContent = "cone here";
+
+    $coneBuilderContainer.append($customizeForm, $coneSidebar);
+    $parent.append($coneBuilderContainer);
+
+    fetchConeImages();
+  }
 }
 
 /*==========================================================
@@ -4055,9 +4089,9 @@ window.onload = async (e) => {
   lazyLoad();
 
   setPage();  
-  // buildCollapsableStarbursts();
-  // buildLinkStarbursts();
-  // buildStaticStarbursts();
+  buildCollapsableStarbursts();
+  buildLinkStarbursts();
+  buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
