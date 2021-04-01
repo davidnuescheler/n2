@@ -3024,7 +3024,7 @@ var catalog_raw=[
   "id": "ACCUCB4LZBBMIOFEUNH62EDZ",
   "type": "ITEM",
   "item_data": {
-   "name": "cookies + cream bar",
+   "name": "the basic bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
