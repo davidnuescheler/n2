@@ -2402,9 +2402,45 @@ var catalog_raw=[
      }
     },
     {
+     "id": "JHRXFLIZMBQDAND5UA5OUPH2",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "YP2JA7EWPXIHZ4UKMMXGHPQV",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf) + milk chocolate (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "M4O2RGTGJPWQY7PBVICSJNHZ",
+     "modifier_data": {
+      "name": "salted maple (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
      "modifier_data": {
       "name": "blueberry (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "6UK3MQNKRFSKPZX6HRIR7FGY",
+     "modifier_data": {
+      "name": "salted maple (gf) + blueberry (gf) (v)",
       "price_money": {
        "amount": 300
       }
@@ -2431,7 +2467,7 @@ var catalog_raw=[
     {
      "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
      "modifier_data": {
-      "name": "greek yogurt + passion fruit TWIST (gf)",
+      "name": "greek yogurt (gf) + passion fruit TWIST (gf) (v)",
       "price_money": {
        "amount": 300
       }
@@ -8761,7 +8797,7 @@ var catalog_raw=[
  {
   "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
   "modifier_data": {
-   "name": "greek yogurt + passion fruit TWIST (gf)",
+   "name": "greek yogurt (gf) + passion fruit TWIST (gf) (v)",
    "price_money": {
     "amount": 300
    }
@@ -8827,6 +8863,42 @@ var catalog_raw=[
    "name": "salted maple (gf) + blueberry (gf) (v)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JHRXFLIZMBQDAND5UA5OUPH2",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "YP2JA7EWPXIHZ4UKMMXGHPQV",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf) + milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "M4O2RGTGJPWQY7PBVICSJNHZ",
+  "modifier_data": {
+   "name": "salted maple (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "6UK3MQNKRFSKPZX6HRIR7FGY",
+  "modifier_data": {
+   "name": "salted maple (gf) + blueberry (gf) (v)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
