@@ -4830,13 +4830,8 @@ var catalog_raw=[
   "id": "AHZS5TZHRP26TZJ2GDQYTWJI",
   "type": "ITEM",
   "item_data": {
-   "name": "be my hotty toddy",
+   "name": "mushaboom",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
-    }
-   ],
    "variations": [
     {
      "id": "WP6ISBBCOZPLVQ7TNFVDHVCD",
@@ -9408,6 +9403,31 @@ var catalog_raw=[
       "name": "normal size",
       "price_money": {
        "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NKU7SIRVWTCKRRGJWLWOMH7U",
+  "type": "ITEM",
+  "item_data": {
+   "name": "hazy jane",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
+    }
+   ],
+   "variations": [
+    {
+     "id": "7VCZMMNQYF5UM5I65QKFOMZO",
+     "item_variation_data": {
+      "item_id": "NKU7SIRVWTCKRRGJWLWOMH7U",
+      "name": "12oz",
+      "price_money": {
+       "amount": 500
       }
      }
     }
