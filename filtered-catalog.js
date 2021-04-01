@@ -1916,24 +1916,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GXJ5SLIOWORMDUNFDHMB4WMF",
-     "modifier_data": {
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "K76E67L7LRD4PUA6UOL7S6QY",
-     "modifier_data": {
-      "name": "blueberry + salted maple TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
      "modifier_data": {
       "name": "greek yogurt (gf)",
@@ -2402,24 +2384,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ISZO6ZULVSVH5DTOMUU72CDE",
-     "modifier_data": {
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "7VS2PO6J6UQCST4LZRYSY27Q",
-     "modifier_data": {
-      "name": "blueberry + salted maple TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
      "modifier_data": {
       "name": "greek yogurt (gf)",
@@ -2805,9 +2769,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
+     "modifier_data": {
+      "name": "graham cracker milk",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "HVBOSMACVVOYXIXYAMSFUJKM",
      "modifier_data": {
       "name": "coffee (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BG5G37P42QDWOENJO4KWTAEV",
+     "modifier_data": {
+      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2868,10 +2850,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "QTLMFEBEV4LTZZAD7ZPVWCDD",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "graham cracker milk",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "I7ZPKRUWIGGXSVMZ5EEAS424",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
       "name": "coffee (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YZ6IJ2RS3WCMVDHWWMCYBPIV",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "graham cracker milk + coffee TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3619,26 +3621,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "blueberry (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3OWXFHBVUPZHZP6KDOXPT5PH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "PBWW5UC32BMEKULGSEAYVZ7G",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "blueberry + salted maple TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8450,24 +8432,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "GXJ5SLIOWORMDUNFDHMB4WMF",
-  "modifier_data": {
-   "name": "salted maple (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "K76E67L7LRD4PUA6UOL7S6QY",
-  "modifier_data": {
-   "name": "blueberry + salted maple TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
   "modifier_data": {
    "name": "greek yogurt (gf)",
@@ -8480,24 +8444,6 @@ var catalog_raw=[
   "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
   "modifier_data": {
    "name": "blueberry (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "ISZO6ZULVSVH5DTOMUU72CDE",
-  "modifier_data": {
-   "name": "salted maple (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "7VS2PO6J6UQCST4LZRYSY27Q",
-  "modifier_data": {
-   "name": "blueberry + salted maple TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8773,6 +8719,24 @@ var catalog_raw=[
    "name": "greek yogurt + passion fruit TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
+  "modifier_data": {
+   "name": "graham cracker milk",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BG5G37P42QDWOENJO4KWTAEV",
+  "modifier_data": {
+   "name": "graham cracker milk + coffee TWIST",
+   "price_money": {
+    "amount": 0
    }
   }
  }
