@@ -9275,14 +9275,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CMMO3T3N7ODAUGLABBEUWC7H",
-  "type": "ITEM",
-  "item_data": {
-   "name": "tony's cone",
-   "category_id": "HEH4X5LRMX57JKGAFLQACNGH"
-  }
- },
- {
   "id": "GVKGRIB4I3FMMXGXL7ABK34D",
   "type": "ITEM",
   "item_data": {
@@ -9378,6 +9370,41 @@ var catalog_raw=[
      "id": "U4YQAM6I2XD3JJ6FD6JISQWF",
      "item_variation_data": {
       "item_id": "QFU6R5RRSZOIURKJPO4TNCE4",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "N7RJKC3LLXKJGTETQQGWVXQU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "tony's cone",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "CU6SNATCPA4EUFWPJ2HFRBDT",
+     "item_variation_data": {
+      "item_id": "N7RJKC3LLXKJGTETQQGWVXQU",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "PUQVOX3TTUOIJTXNLSAHMKB4",
+     "item_variation_data": {
+      "item_id": "N7RJKC3LLXKJGTETQQGWVXQU",
       "name": "normal size",
       "price_money": {
        "amount": 700
