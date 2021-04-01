@@ -9044,7 +9044,7 @@ var catalog_raw=[
   "id": "U6346LYP4ZUDAVBO4L32RVGH",
   "type": "ITEM",
   "item_data": {
-   "name": "poppa that cornin' to ya pint",
+   "name": "poppa tha cornin' to ya pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
