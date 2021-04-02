@@ -1667,15 +1667,31 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
     padding: 2rem 0; } }
 
 .conebuilder {
-  border: 2px solid green;
-  display: flex; }
+  display: flex;
+  margin-top: 6rem; }
   .conebuilder-form {
-    border: 2px solid red;
+    border: 1px solid currentColor;
     flex-basis: 66%; }
+    .conebuilder-form-title {
+      margin-bottom: 2rem;
+      padding: 0 4rem; }
+    .conebuilder-form-body {
+      border-top: 1px solid currentColor; }
+      .conebuilder-form-body .customize-table-body-selectwrapper {
+        width: 100%; }
+    .conebuilder-form-foot {
+      margin: 0 auto;
+      padding: 1.8rem 0; }
   .conebuilder-cone {
-    border: 2px solid blue;
     flex-basis: 33%;
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    position: relative; }
+    .conebuilder-cone div {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .conebuilder-cone div img {
+        width: 100%; }
 
 .theme-outline {
   border: 1px solid currentColor; }

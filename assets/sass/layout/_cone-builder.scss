@@ -1,15 +1,46 @@
 .conebuilder {
-    border: 2px solid green;
+    // border: 2px solid green;
     display: flex;
+    margin-top: 6rem;
 
     &-form {
-        border: 2px solid red;
+        border: 1px solid currentColor;
         flex-basis: 66%;
+
+        &-title {
+            margin-bottom: 2rem;
+            padding: 0 4rem;
+        }
+
+        &-body {
+            border-top: 1px solid currentColor;
+
+            & .customize-table-body-selectwrapper {
+                width: 100%;
+            }
+        }
+
+        &-foot {
+            margin: 0 auto;
+            padding: 1.8rem 0;
+            // margin-bottom: 3rem;
+        }
     }
 
     &-cone {
-        border: 2px solid blue;
+        // border: 2px solid blue;
         flex-basis: 33%;
         margin-left: 3rem;
+        position: relative;
+
+        & div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+            & img {
+                width: 100%;
+            }
+        }
     }
 }
