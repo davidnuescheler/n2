@@ -9295,5 +9295,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "CJGKZ4KUBB4DMIKBWFVTOBBP",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ice cream easter egg",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "7EF2LWXZ2I5EGWU6II3CGZ3A",
+     "item_variation_data": {
+      "item_id": "CJGKZ4KUBB4DMIKBWFVTOBBP",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
