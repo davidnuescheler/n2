@@ -1952,27 +1952,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
-     "modifier_data": {
-      "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "IJUDD2N4CGIQTGMX3WBOI35X",
      "modifier_data": {
       "name": "passion fruit (gf) ( v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "D3KI4E77HLCKB32QZL25EXJS",
-     "modifier_data": {
-      "name": "greek yogurt + passion fruit TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2456,27 +2438,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
-     "modifier_data": {
-      "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
      "modifier_data": {
       "name": "passion fruit (gf) (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
-     "modifier_data": {
-      "name": "greek yogurt (gf) + passion fruit TWIST (gf) (v)",
       "price_money": {
        "amount": 300
       }
@@ -8537,27 +8501,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "SL6J7SHUX7XV3SMHZRQXH6TO",
-  "modifier_data": {
-   "name": "greek yogurt (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
   "modifier_data": {
    "name": "blueberry (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "DYTZI6H4B3B3JZ2P4LXH5YXK",
-  "modifier_data": {
-   "name": "greek yogurt (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8801,27 +8747,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "D3KI4E77HLCKB32QZL25EXJS",
-  "modifier_data": {
-   "name": "greek yogurt + passion fruit TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
   "modifier_data": {
    "name": "passion fruit (gf) (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "DBXFVSSNDYZFIJ7IWDW7JILW",
-  "modifier_data": {
-   "name": "greek yogurt (gf) + passion fruit TWIST (gf) (v)",
    "price_money": {
     "amount": 300
    }
