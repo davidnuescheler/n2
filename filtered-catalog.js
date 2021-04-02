@@ -1950,15 +1950,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "IJUDD2N4CGIQTGMX3WBOI35X",
-     "modifier_data": {
-      "name": "passion fruit (gf) ( v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -2432,15 +2423,6 @@ var catalog_raw=[
      "id": "6UK3MQNKRFSKPZX6HRIR7FGY",
      "modifier_data": {
       "name": "salted maple (gf) + blueberry (gf) (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
-     "modifier_data": {
-      "name": "passion fruit (gf) (v)",
       "price_money": {
        "amount": 300
       }
@@ -3715,16 +3697,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "salted maple (gf) + blueberry (gf) (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "HOKOSZNYVF63V27FYXMSQRYI",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "passion fruit (gf) ( v)",
       "price_money": {
        "amount": 0
       }
@@ -8734,24 +8706,6 @@ var catalog_raw=[
    "name": "streusel crumb",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "IJUDD2N4CGIQTGMX3WBOI35X",
-  "modifier_data": {
-   "name": "passion fruit (gf) ( v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "EXB7KEQI6Z5OHASM7GT7MX3O",
-  "modifier_data": {
-   "name": "passion fruit (gf) (v)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
