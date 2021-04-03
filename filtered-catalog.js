@@ -166,6 +166,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
@@ -1917,18 +1926,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ISNH6S44QWCNMVFO24MV2C7T",
+     "id": "LZWKE33VY632IL4L76YKJWOE",
      "modifier_data": {
-      "name": "milk chocolate (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "LZWKE33VY632IL4L76YKJWOE",
+     "id": "ISNH6S44QWCNMVFO24MV2C7T",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2412,18 +2421,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FSYCQRG6R6M5PNZXVNVXCABG",
+     "id": "JHRXFLIZMBQDAND5UA5OUPH2",
      "modifier_data": {
-      "name": "milk chocolate (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "JHRXFLIZMBQDAND5UA5OUPH2",
+     "id": "FSYCQRG6R6M5PNZXVNVXCABG",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3707,20 +3716,20 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "6VIAFFVSV2C2OB2HV65NEETA",
+     "id": "FBWY7R7SMCCB6TOVCYEMUFCR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "FBWY7R7SMCCB6TOVCYEMUFCR",
+     "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9469,6 +9478,15 @@ var catalog_raw=[
    "name": "passion fruit (gf) (v) + greek yogurt (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
