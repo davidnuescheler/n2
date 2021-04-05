@@ -2743,18 +2743,18 @@ var catalog_raw=[
    "name": "LAB flavor",
    "modifiers": [
     {
-     "id": "5TZBXVTUJESLLLFFQFSL5KJH",
+     "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
-      "name": "vegan vailla! (v) (gf)",
+      "name": "earl grey (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
+     "id": "5TZBXVTUJESLLLFFQFSL5KJH",
      "modifier_data": {
-      "name": "blackberry (v) (gf)",
+      "name": "apricot sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2763,7 +2763,7 @@ var catalog_raw=[
     {
      "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
      "modifier_data": {
-      "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+      "name": "earl grey + apricot TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2772,7 +2772,7 @@ var catalog_raw=[
     {
      "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
      "modifier_data": {
-      "name": "graham cracker milk",
+      "name": "carrot cake (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2781,7 +2781,7 @@ var catalog_raw=[
     {
      "id": "HVBOSMACVVOYXIXYAMSFUJKM",
      "modifier_data": {
-      "name": "coffee (gf)",
+      "name": "cocoa nib (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2790,7 +2790,7 @@ var catalog_raw=[
     {
      "id": "BG5G37P42QDWOENJO4KWTAEV",
      "modifier_data": {
-      "name": "graham cracker milk + coffee TWIST",
+      "name": "carrot cake + cocoa nib TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3521,7 +3521,7 @@ var catalog_raw=[
     {
      "id": "PGGTQZGLOFLQN33DZ2MUEJWO",
      "modifier_data": {
-      "name": "vegan vanilla! (v) (gf)",
+      "name": "earl grey (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3530,7 +3530,7 @@ var catalog_raw=[
     {
      "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
      "modifier_data": {
-      "name": "blackerry (v) (gf)",
+      "name": "apricot sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3539,7 +3539,7 @@ var catalog_raw=[
     {
      "id": "A6RXASWSDCOKKDUBEDPSOSI5",
      "modifier_data": {
-      "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+      "name": "earl grey + apricot TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3548,7 +3548,7 @@ var catalog_raw=[
     {
      "id": "S435GG5BU656KUXDZ3KBEPSB",
      "modifier_data": {
-      "name": "graham cracker milk",
+      "name": "carrot cake (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3557,7 +3557,7 @@ var catalog_raw=[
     {
      "id": "D5I7X2UZYZWQMHG2I23CAPPX",
      "modifier_data": {
-      "name": "coffee (gf)",
+      "name": "cocoa nib (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3566,7 +3566,7 @@ var catalog_raw=[
     {
      "id": "F2UGUVMOCLA6FHORLEG6IVEF",
      "modifier_data": {
-      "name": "graham cracker milk + coffee TWIST",
+      "name": "carrot cake + cocoa nib TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -6327,7 +6327,7 @@ var catalog_raw=[
  {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
-   "name": "blackberry (v) (gf)",
+   "name": "earl grey (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6336,7 +6336,7 @@ var catalog_raw=[
  {
   "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
   "modifier_data": {
-   "name": "blackerry (v) (gf)",
+   "name": "apricot sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8283,7 +8283,7 @@ var catalog_raw=[
  {
   "id": "HVBOSMACVVOYXIXYAMSFUJKM",
   "modifier_data": {
-   "name": "coffee (gf)",
+   "name": "cocoa nib (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8292,7 +8292,7 @@ var catalog_raw=[
  {
   "id": "D5I7X2UZYZWQMHG2I23CAPPX",
   "modifier_data": {
-   "name": "coffee (gf)",
+   "name": "cocoa nib (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8395,7 +8395,7 @@ var catalog_raw=[
  {
   "id": "5TZBXVTUJESLLLFFQFSL5KJH",
   "modifier_data": {
-   "name": "vegan vailla! (v) (gf)",
+   "name": "apricot sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8404,7 +8404,7 @@ var catalog_raw=[
  {
   "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
   "modifier_data": {
-   "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+   "name": "earl grey + apricot TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8413,7 +8413,7 @@ var catalog_raw=[
  {
   "id": "PGGTQZGLOFLQN33DZ2MUEJWO",
   "modifier_data": {
-   "name": "vegan vanilla! (v) (gf)",
+   "name": "earl grey (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8422,7 +8422,7 @@ var catalog_raw=[
  {
   "id": "A6RXASWSDCOKKDUBEDPSOSI5",
   "modifier_data": {
-   "name": "vegan vanilla! + blackberry TWIST (v) (gf)",
+   "name": "earl grey + apricot TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8668,7 +8668,7 @@ var catalog_raw=[
  {
   "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
   "modifier_data": {
-   "name": "graham cracker milk",
+   "name": "carrot cake (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8677,7 +8677,7 @@ var catalog_raw=[
  {
   "id": "BG5G37P42QDWOENJO4KWTAEV",
   "modifier_data": {
-   "name": "graham cracker milk + coffee TWIST",
+   "name": "carrot cake + cocoa nib TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8686,7 +8686,7 @@ var catalog_raw=[
  {
   "id": "S435GG5BU656KUXDZ3KBEPSB",
   "modifier_data": {
-   "name": "graham cracker milk",
+   "name": "carrot cake (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8695,7 +8695,7 @@ var catalog_raw=[
  {
   "id": "F2UGUVMOCLA6FHORLEG6IVEF",
   "modifier_data": {
-   "name": "graham cracker milk + coffee TWIST",
+   "name": "carrot cake + cocoa nib TWIST (gf)",
    "price_money": {
     "amount": 300
    }
