@@ -166,15 +166,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LMTMMNZL4HL4QZRDCF5QTY3B",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -9523,15 +9514,6 @@ var catalog_raw=[
   "id": "FVE4T662MXYGZMYB5M3NFQ5D",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "LMTMMNZL4HL4QZRDCF5QTY3B",
-  "modifier_data": {
-   "name": "normal sprinks (gf)",
    "price_money": {
     "amount": 75
    }
