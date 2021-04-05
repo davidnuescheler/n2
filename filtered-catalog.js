@@ -1917,15 +1917,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LZWKE33VY632IL4L76YKJWOE",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "ISNH6S44QWCNMVFO24MV2C7T",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -2394,27 +2385,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JHRXFLIZMBQDAND5UA5OUPH2",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "FSYCQRG6R6M5PNZXVNVXCABG",
      "modifier_data": {
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "YP2JA7EWPXIHZ4UKMMXGHPQV",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf) + milk chocolate (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3671,30 +3644,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "FBWY7R7SMCCB6TOVCYEMUFCR",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6VIAFFVSV2C2OB2HV65NEETA",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "WUTBNVAUW376RNVLUPNDS63J",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf) + milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3721,20 +3674,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
+     "id": "CWTMR4L2SZ6NYAZSDLSADCUR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "greek yogurt (gf)",
+      "name": "salted maple (gf) + blueberry (gf) (v)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "CWTMR4L2SZ6NYAZSDLSADCUR",
+     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted maple (gf) + blueberry (gf) (v)",
+      "name": "greek yogurt (gf)",
       "price_money": {
        "amount": 0
       }
@@ -8795,15 +8748,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "LZWKE33VY632IL4L76YKJWOE",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
   "modifier_data": {
    "name": "salted maple (gf)",
@@ -8818,24 +8762,6 @@ var catalog_raw=[
    "name": "salted maple (gf) + blueberry (gf) (v)",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "JHRXFLIZMBQDAND5UA5OUPH2",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "YP2JA7EWPXIHZ4UKMMXGHPQV",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf) + milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
