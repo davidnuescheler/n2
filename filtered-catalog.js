@@ -1971,27 +1971,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FBWAWUWUWGXKB4KDF7E7T3IG",
-     "modifier_data": {
-      "name": "passion fruit (gf) (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "DENJ3RPTE3OEXVRPHNDC54YC",
      "modifier_data": {
       "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "U6WC2YWH2RYXFMUNVIFCYMJS",
-     "modifier_data": {
-      "name": "passion fruit (gf) (v) + greek yogurt (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2475,27 +2457,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WWFNISTL65UCPFW6Q7CDKEPI",
-     "modifier_data": {
-      "name": "passion fruit (gf) (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JZYOMZFB7IVS4KVGJSUL6QW3",
      "modifier_data": {
       "name": "greek yogurt (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "MA4FEP5ZGG44NCHZUZUHPCAX",
-     "modifier_data": {
-      "name": "passion fruit (gf) (v) + greek yogurt (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3766,6 +3730,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "greek yogurt (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "CWTMR4L2SZ6NYAZSDLSADCUR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3780,16 +3754,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "passion fruit (gf) (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "greek yogurt (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9420,24 +9384,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "FBWAWUWUWGXKB4KDF7E7T3IG",
-  "modifier_data": {
-   "name": "passion fruit (gf) (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "WWFNISTL65UCPFW6Q7CDKEPI",
-  "modifier_data": {
-   "name": "passion fruit (gf) (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "B6YIRF3LPLFJ3KCSA3QZXVWV",
   "type": "ITEM",
   "item_data": {
@@ -9455,27 +9401,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "U6WC2YWH2RYXFMUNVIFCYMJS",
-  "modifier_data": {
-   "name": "passion fruit (gf) (v) + greek yogurt (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "JZYOMZFB7IVS4KVGJSUL6QW3",
   "modifier_data": {
    "name": "greek yogurt (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "MA4FEP5ZGG44NCHZUZUHPCAX",
-  "modifier_data": {
-   "name": "passion fruit (gf) (v) + greek yogurt (gf)",
    "price_money": {
     "amount": 0
    }
