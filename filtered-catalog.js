@@ -9554,5 +9554,12 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "NP4VA422DAKF5SZUCOVPHRL5",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "$10.00 off your next purchase"
+  }
  }
 ]
