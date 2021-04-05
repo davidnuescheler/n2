@@ -1340,42 +1340,22 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "EXSYWK42GHQENHXOB7QT5MGZ",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "select your varietal",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "SEYZEIGK6NBZF3MR7IHABUE5",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "BRASIL nathalia maria",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "DANLVDAAWCTIUH3ZYSQUIVNB",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "HONDURAS la peña",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "S2IAKWHHGTCKJQULYB5GN7CG",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "ETHIOPIA kilenso",
       "price_money": {
        "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "EXSYWK42GHQENHXOB7QT5MGZ",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "select your varietal",
+      "price_money": {
+       "amount": 0
       }
      }
     },
