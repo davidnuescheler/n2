@@ -22,9 +22,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "DSXPCLH47QHLKQ644PWDHIKJ",
+     "modifier_data": {
+      "name": "salted vanilla bean NORMAL dots! (gf)",
+      "price_money": {
+       "amount": 150
+      }
+     }
+    },
+    {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "FVE4T662MXYGZMYB5M3NFQ5D",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -49,18 +67,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DSXPCLH47QHLKQ644PWDHIKJ",
-     "modifier_data": {
-      "name": "salted maple NORMAL dots! (gf)",
-      "price_money": {
-       "amount": 150
-      }
-     }
-    },
-    {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "graham cracker crumb",
+      "name": "candied walnuts (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -69,7 +78,7 @@ var catalog_raw=[
     {
      "id": "PQMVAL2AKECSTA36F4V7RW2R",
      "modifier_data": {
-      "name": "key lime curd",
+      "name": "carrot cake bits",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +87,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "honeycomb candy (v) (gf)",
+      "name": "cream cheese frosting (gf)",
       "price_money": {
        "amount": 75
       }
@@ -87,7 +96,7 @@ var catalog_raw=[
     {
      "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
      "modifier_data": {
-      "name": "cheesecake bits",
+      "name": "lavender ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -96,7 +105,7 @@ var catalog_raw=[
     {
      "id": "3Q6URIRINEWANFVWRLKV24CB",
      "modifier_data": {
-      "name": "chocolate shortbread crumb",
+      "name": "bergamot cotton candy (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -105,7 +114,7 @@ var catalog_raw=[
     {
      "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
      "modifier_data": {
-      "name": "vegan waffle cone bits (v)",
+      "name": "hazelnut praline (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -114,7 +123,7 @@ var catalog_raw=[
     {
      "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
      "modifier_data": {
-      "name": "vegan salted caramel (v) (gf)",
+      "name": "candied cocoa nibs (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -123,7 +132,7 @@ var catalog_raw=[
     {
      "id": "NRVUGQADH5BEIGQATLXAXER6",
      "modifier_data": {
-      "name": "whipped coconut cream (v) (gf)",
+      "name": "streusel crumble",
       "price_money": {
        "amount": 75
       }
@@ -132,7 +141,7 @@ var catalog_raw=[
     {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
-      "name": "peanut praline (v) (gf)",
+      "name": "cinnamon white chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -4082,7 +4091,7 @@ var catalog_raw=[
  {
   "id": "DSXPCLH47QHLKQ644PWDHIKJ",
   "modifier_data": {
-   "name": "salted maple NORMAL dots! (gf)",
+   "name": "salted vanilla bean NORMAL dots! (gf)",
    "price_money": {
     "amount": 150
    }
@@ -4796,7 +4805,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "graham cracker crumb",
+   "name": "candied walnuts (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4839,7 +4848,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "honeycomb candy (v) (gf)",
+   "name": "cream cheese frosting (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5437,7 +5446,7 @@ var catalog_raw=[
  {
   "id": "3Q6URIRINEWANFVWRLKV24CB",
   "modifier_data": {
-   "name": "chocolate shortbread crumb",
+   "name": "bergamot cotton candy (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -5460,7 +5469,7 @@ var catalog_raw=[
  {
   "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
   "modifier_data": {
-   "name": "vegan waffle cone bits (v)",
+   "name": "hazelnut praline (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8220,7 +8229,7 @@ var catalog_raw=[
  {
   "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
   "modifier_data": {
-   "name": "peanut praline (v) (gf)",
+   "name": "cinnamon white chocolate ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8421,7 +8430,7 @@ var catalog_raw=[
  {
   "id": "NRVUGQADH5BEIGQATLXAXER6",
   "modifier_data": {
-   "name": "whipped coconut cream (v) (gf)",
+   "name": "streusel crumble",
    "price_money": {
     "amount": 75
    }
@@ -8430,7 +8439,7 @@ var catalog_raw=[
  {
   "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
   "modifier_data": {
-   "name": "vegan salted caramel (v) (gf)",
+   "name": "candied cocoa nibs (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8468,7 +8477,7 @@ var catalog_raw=[
  {
   "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
   "modifier_data": {
-   "name": "cheesecake bits",
+   "name": "lavender ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8596,7 +8605,7 @@ var catalog_raw=[
  {
   "id": "PQMVAL2AKECSTA36F4V7RW2R",
   "modifier_data": {
-   "name": "key lime curd",
+   "name": "carrot cake bits",
    "price_money": {
     "amount": 75
    }
@@ -9487,6 +9496,15 @@ var catalog_raw=[
    "name": "guava + olive oil TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "FVE4T662MXYGZMYB5M3NFQ5D",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
