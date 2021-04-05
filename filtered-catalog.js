@@ -9380,11 +9380,6 @@ var catalog_raw=[
   "item_data": {
    "name": "hazy jane",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "WIHFHEUIWGM3PTTNWKWCNVPY"
-    }
-   ],
    "variations": [
     {
      "id": "7VCZMMNQYF5UM5I65QKFOMZO",
