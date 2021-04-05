@@ -1917,15 +1917,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ISNH6S44QWCNMVFO24MV2C7T",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
      "modifier_data": {
       "name": "salted maple (gf)",
@@ -2381,15 +2372,6 @@ var catalog_raw=[
       "name": "no soft serve",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FSYCQRG6R6M5PNZXVNVXCABG",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
       }
      }
     },
@@ -3643,16 +3625,6 @@ var catalog_raw=[
     }
    ],
    "variations": [
-    {
-     "id": "6VIAFFVSV2C2OB2HV65NEETA",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
     {
      "id": "4JEKAXBCQB7ALN5LVARASSAQ",
      "item_variation_data": {
@@ -8409,24 +8381,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "ISNH6S44QWCNMVFO24MV2C7T",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "FSYCQRG6R6M5PNZXVNVXCABG",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
   }
  },
  {
