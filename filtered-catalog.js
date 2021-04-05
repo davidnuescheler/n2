@@ -166,18 +166,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
+     "id": "LMTMMNZL4HL4QZRDCF5QTY3B",
      "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
+      "name": "normal sprinks (gf)",
       "price_money": {
        "amount": 75
       }
      }
     },
     {
-     "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
+     "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
      "modifier_data": {
-      "name": "cocoa pebbles (v) (gf)",
+      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -193,9 +193,18 @@ var catalog_raw=[
      }
     },
     {
+     "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
+     "modifier_data": {
+      "name": "cocoa pebbles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "67VR3ELQYKJGRHNGNU45BNXY",
      "modifier_data": {
-      "name": "brown butter milk crumb",
+      "name": "olive oil cake bits",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +213,7 @@ var catalog_raw=[
     {
      "id": "R5552JHAMS6LL2HLITDED4X2",
      "modifier_data": {
-      "name": "chocolate chip cake bits (v)",
+      "name": "blackberry mostarda (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -213,7 +222,7 @@ var catalog_raw=[
     {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
-      "name": "coffee ganache (v) (gf)",
+      "name": "balsamic dust (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +231,7 @@ var catalog_raw=[
     {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
-      "name": "white chocolate ganache (gf)",
+      "name": "house-made berry jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -231,7 +240,7 @@ var catalog_raw=[
     {
      "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
      "modifier_data": {
-      "name": "streusel crumb",
+      "name": "waffle cone bits",
       "price_money": {
        "amount": 75
       }
@@ -240,7 +249,7 @@ var catalog_raw=[
     {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
-      "name": "burnt honey ganache (gf)",
+      "name": "chocolate pearls",
       "price_money": {
        "amount": 75
       }
@@ -249,7 +258,43 @@ var catalog_raw=[
     {
      "id": "H3PNDRWFOGXOM7PK2NTISLVN",
      "modifier_data": {
-      "name": "AZIZA pistachio baklava",
+      "name": "pineapple coconut jam  (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
+     "modifier_data": {
+      "name": "cornmeal cake bits (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "4GO4LOTLKFZDXJTPAON7MLRX",
+     "modifier_data": {
+      "name": "butter cake bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "7PI2WQLWSNAFZJVWSZG24UQB",
+     "modifier_data": {
+      "name": "strawberry cotton candy (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
+     "modifier_data": {
+      "name": "coconut whipped cream  (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6261,7 +6306,7 @@ var catalog_raw=[
  {
   "id": "PH5BC2PHXTIADHEBQWDQLY36",
   "modifier_data": {
-   "name": "white chocolate ganache (gf)",
+   "name": "house-made berry jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7763,7 +7808,7 @@ var catalog_raw=[
  {
   "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
   "modifier_data": {
-   "name": "burnt honey ganache (gf)",
+   "name": "chocolate pearls",
    "price_money": {
     "amount": 75
    }
@@ -8448,7 +8493,7 @@ var catalog_raw=[
  {
   "id": "R5552JHAMS6LL2HLITDED4X2",
   "modifier_data": {
-   "name": "chocolate chip cake bits (v)",
+   "name": "blackberry mostarda (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8486,7 +8531,7 @@ var catalog_raw=[
  {
   "id": "67VR3ELQYKJGRHNGNU45BNXY",
   "modifier_data": {
-   "name": "brown butter milk crumb",
+   "name": "olive oil cake bits",
    "price_money": {
     "amount": 75
    }
@@ -8596,7 +8641,7 @@ var catalog_raw=[
  {
   "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
   "modifier_data": {
-   "name": "coffee ganache (v) (gf)",
+   "name": "balsamic dust (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8788,7 +8833,7 @@ var catalog_raw=[
  {
   "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
   "modifier_data": {
-   "name": "streusel crumb",
+   "name": "waffle cone bits",
    "price_money": {
     "amount": 75
    }
@@ -8869,7 +8914,7 @@ var catalog_raw=[
  {
   "id": "H3PNDRWFOGXOM7PK2NTISLVN",
   "modifier_data": {
-   "name": "AZIZA pistachio baklava",
+   "name": "pineapple coconut jam  (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9503,6 +9548,51 @@ var catalog_raw=[
   "id": "FVE4T662MXYGZMYB5M3NFQ5D",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "LMTMMNZL4HL4QZRDCF5QTY3B",
+  "modifier_data": {
+   "name": "normal sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
+  "modifier_data": {
+   "name": "cornmeal cake bits (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "4GO4LOTLKFZDXJTPAON7MLRX",
+  "modifier_data": {
+   "name": "butter cake bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "7PI2WQLWSNAFZJVWSZG24UQB",
+  "modifier_data": {
+   "name": "strawberry cotton candy (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
+  "modifier_data": {
+   "name": "coconut whipped cream  (v) (gf)",
    "price_money": {
     "amount": 75
    }
