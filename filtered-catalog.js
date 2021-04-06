@@ -4650,15 +4650,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3EDRZIAXUGIER2RWPMGSRIEB",
-     "modifier_data": {
-      "name": "mocha!",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "C75LA77374FFT5EHDVTTR7QQ",
      "modifier_data": {
       "name": "vanilla!",
@@ -8526,15 +8517,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "3EDRZIAXUGIER2RWPMGSRIEB",
-  "modifier_data": {
-   "name": "mocha!",
-   "price_money": {
-    "amount": 100
-   }
   }
  },
  {
