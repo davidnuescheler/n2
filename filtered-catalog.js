@@ -22,27 +22,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DSXPCLH47QHLKQ644PWDHIKJ",
-     "modifier_data": {
-      "name": "salted vanilla bean NORMAL dots! (gf)",
-      "price_money": {
-       "amount": 150
-      }
-     }
-    },
-    {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
       "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "FVE4T662MXYGZMYB5M3NFQ5D",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -4051,15 +4033,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "DSXPCLH47QHLKQ644PWDHIKJ",
-  "modifier_data": {
-   "name": "salted vanilla bean NORMAL dots! (gf)",
-   "price_money": {
-    "amount": 150
-   }
   }
  },
  {
@@ -9384,15 +9357,6 @@ var catalog_raw=[
    "name": "guava (v) (gf)",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "FVE4T662MXYGZMYB5M3NFQ5D",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
