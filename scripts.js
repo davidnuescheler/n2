@@ -1787,7 +1787,12 @@ const buildConeBuilder = ($code) => {
             if (cbDropdowns.length > 1) {
               cbDropdowns[cbDropdowns.length - 1].remove();
             }
-
+            const $twistDiv = document.querySelector(".conebuilder-cone-twist");
+            // remove twist img if exists
+            if ($twistDiv) {
+              $twistDiv.remove()
+            }
+            
           }
         }
 
@@ -1864,7 +1869,7 @@ const populateConeBuilderForm = async () => {
   if ($secondFlavorDropdown) {
     if ($secondFlavorDropdown.options.length === 1) {
       populateOptions($secondFlavorDropdown, coneData.flavor);
-      // setupConeBuilderFlavor();
+      setupConeBuilderTwist();
     }
   }
   
@@ -1948,6 +1953,35 @@ const setupConeBuilderFlavor = () => {
 
       $newFlavorDiv.append($flavorImg);
       $coneSidebar.append($newFlavorDiv);
+    }
+    
+  }
+}
+
+const setupConeBuilderTwist = () => {
+  console.log(`setupConeBuilderTwist -> setupConeBuilderTwist`);
+  // FLAVORS
+  const $twistDropdown = document.querySelector("#secondflavor");
+  $twistDropdown.onchange = (e) => {
+    const value = e.target.value;
+    const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-twist.png`;
+    const $coneSidebar = document.querySelector("#conebuilder-cone");
+
+    const $twistDiv = document.querySelector(".conebuilder-cone-twist");
+
+    if ($twistDiv) {
+      const $img = $twistDiv.childNodes[0];
+        $img.setAttribute("src", imgPath);
+        $img.setAttribute("alt", `${value} twist`);
+    } else {
+      const $newTwistDiv = document.createElement("div");
+        $newTwistDiv.classList.add("conebuilder-cone-twist");
+      const $twistImg = document.createElement("img");
+        $twistImg.setAttribute("src", imgPath);
+        $twistImg.setAttribute("alt", `${value} twist`);
+
+      $newTwistDiv.append($twistImg);
+      $coneSidebar.append($newTwistDiv);
     }
     
   }
