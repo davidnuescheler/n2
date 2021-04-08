@@ -3727,6 +3727,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ROUFZ45775OYGI7EIOMVOPSY",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "guava (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SSTA7V7T6EGXC6ZTJBVDV7RT",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3741,16 +3751,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "chocolate + horchata TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ROUFZ45775OYGI7EIOMVOPSY",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "guava (v) (gf)",
       "price_money": {
        "amount": 0
       }
