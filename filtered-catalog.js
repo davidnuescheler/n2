@@ -1985,24 +1985,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "C44FOEE45KXCFBIFRXCAE34Q",
-     "modifier_data": {
-      "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "Q5E7YHCXVYDH4HBFNABRJF7D",
-     "modifier_data": {
-      "name": "guava + olive oil TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -2485,24 +2467,6 @@ var catalog_raw=[
      "id": "6CZQKKGLPYMECAG5PHJLJXF2",
      "modifier_data": {
       "name": "guava (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "SITPWKTEDHZWFKM2OENFGT7I",
-     "modifier_data": {
-      "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "LZQCCRELX746GMTWTXJTN4R7",
-     "modifier_data": {
-      "name": "guava + olive oil TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9394,24 +9358,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "C44FOEE45KXCFBIFRXCAE34Q",
-  "modifier_data": {
-   "name": "olive oil (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "Q5E7YHCXVYDH4HBFNABRJF7D",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "NGFNCZV7SK3Z5XYYXNIVOKT6",
   "modifier_data": {
    "name": "horchata (gf)",
@@ -9433,24 +9379,6 @@ var catalog_raw=[
   "id": "6CZQKKGLPYMECAG5PHJLJXF2",
   "modifier_data": {
    "name": "guava (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "SITPWKTEDHZWFKM2OENFGT7I",
-  "modifier_data": {
-   "name": "olive oil (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "LZQCCRELX746GMTWTXJTN4R7",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
    "price_money": {
     "amount": 0
    }
