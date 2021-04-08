@@ -94,24 +94,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
-     "modifier_data": {
-      "name": "lavender ganache (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "3Q6URIRINEWANFVWRLKV24CB",
-     "modifier_data": {
-      "name": "bergamot cotton candy (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
      "modifier_data": {
       "name": "hazelnut praline (v) (gf)",
@@ -5451,15 +5433,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "3Q6URIRINEWANFVWRLKV24CB",
-  "modifier_data": {
-   "name": "bergamot cotton candy (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "P5QRWT646X3WG5Y4RYOPD2BM",
   "type": "IMAGE",
   "image_data": {
@@ -8479,15 +8452,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "2HCIHAR3AHIIMAIKZYGIRLYV",
-  "modifier_data": {
-   "name": "lavender ganache (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
