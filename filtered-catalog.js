@@ -211,15 +211,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "H3PNDRWFOGXOM7PK2NTISLVN",
-     "modifier_data": {
-      "name": "pineapple coconut jam  (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
      "modifier_data": {
       "name": "cornmeal cake bits (v)",
@@ -8765,15 +8756,6 @@ var catalog_raw=[
    "name": "salted vanilla + many-berry TWIST (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "H3PNDRWFOGXOM7PK2NTISLVN",
-  "modifier_data": {
-   "name": "pineapple coconut jam  (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
