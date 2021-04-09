@@ -3713,6 +3713,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "F3FIBRPDX7WYX6N7MGYG7GPH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "horchata (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SSTA7V7T6EGXC6ZTJBVDV7RT",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3727,6 +3737,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "chocolate + horchata TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GQRKGOFMW7Y2RFYVDO7L4GK3",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf) + horchata (gf)",
       "price_money": {
        "amount": 0
       }
