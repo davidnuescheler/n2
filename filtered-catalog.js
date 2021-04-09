@@ -1157,7 +1157,7 @@ var catalog_raw=[
   "id": "5S447RAYQDJ4BDEWRZ6HCPVZ",
   "type": "ITEM",
   "item_data": {
-   "name": "almond joy bar",
+   "name": "totes toasted",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
