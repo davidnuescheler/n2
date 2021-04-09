@@ -866,7 +866,7 @@ var catalog_raw=[
   "id": "QJAZTYZZSWL457OPU3RNQ2GD",
   "type": "ITEM",
   "item_data": {
-   "name": "chocolate chip + sweet cream sando",
+   "name": "the norm sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
