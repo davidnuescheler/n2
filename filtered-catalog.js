@@ -3656,9 +3656,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
-    },
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
     }
    ],
    "variations": [
@@ -3723,50 +3720,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SSTA7V7T6EGXC6ZTJBVDV7RT",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "horchata (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ZHK6ZR3UCAFXLR4VCRLNLMJK",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "chocolate + horchata TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "GQRKGOFMW7Y2RFYVDO7L4GK3",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf) + horchata (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "V3MXD4SBCIT3T2QJA4RAWENH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "2MZB4BZYDSHE5WCTBQ3XB2QT",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "guava + olive oil TWIST (gf)",
       "price_money": {
        "amount": 0
       }
