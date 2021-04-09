@@ -4603,6 +4603,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "RMHA4WFOIUEEYK4XHSLEB3GL",
+     "modifier_data": {
+      "name": "mohca!",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -9451,6 +9460,15 @@ var catalog_raw=[
    "name": "guava + olive oil TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "RMHA4WFOIUEEYK4XHSLEB3GL",
+  "modifier_data": {
+   "name": "mohca!",
+   "price_money": {
+    "amount": 100
    }
   }
  }
