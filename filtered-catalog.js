@@ -110,6 +110,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "WZQCQSA43YV6XMME3UOVPEIF",
+     "modifier_data": {
+      "name": "salted vanilla normal dots (gf)",
+      "price_money": {
+       "amount": 150
+      }
+     }
     }
    ]
   }
@@ -9469,6 +9478,15 @@ var catalog_raw=[
    "name": "mohca!",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "WZQCQSA43YV6XMME3UOVPEIF",
+  "modifier_data": {
+   "name": "salted vanilla normal dots (gf)",
+   "price_money": {
+    "amount": 150
    }
   }
  }
