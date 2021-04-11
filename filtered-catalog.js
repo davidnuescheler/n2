@@ -76,15 +76,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
-     "modifier_data": {
-      "name": "hazelnut praline (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
      "modifier_data": {
       "name": "candied cocoa nibs (v) (gf)",
@@ -5426,15 +5417,6 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://items-images-production.s3.us-west-2.amazonaws.com/files/13e88b334adf33e293257c46d8bbc56697b0005d/original.jpeg"
-  }
- },
- {
-  "id": "G3MHVHBVDXHTG3RNXCSLOQUK",
-  "modifier_data": {
-   "name": "hazelnut praline (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
