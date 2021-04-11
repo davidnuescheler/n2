@@ -110,6 +110,24 @@ var catalog_raw=[
        "amount": 150
       }
      }
+    },
+    {
+     "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
+     "modifier_data": {
+      "name": "lavender ganache (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "7ZF3GT7ZP5D43N3OXZLQQD27",
+     "modifier_data": {
+      "name": "hazelnut praline (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9451,6 +9469,24 @@ var catalog_raw=[
    "name": "salted vanilla normal dots (gf)",
    "price_money": {
     "amount": 150
+   }
+  }
+ },
+ {
+  "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
+  "modifier_data": {
+   "name": "lavender ganache (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "7ZF3GT7ZP5D43N3OXZLQQD27",
+  "modifier_data": {
+   "name": "hazelnut praline (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
