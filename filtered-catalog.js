@@ -58,15 +58,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PQMVAL2AKECSTA36F4V7RW2R",
-     "modifier_data": {
-      "name": "carrot cake bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
       "name": "cream cheese frosting (gf)",
@@ -8523,15 +8514,6 @@ var catalog_raw=[
   "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
   "modifier_data": {
    "name": "balsamic dust (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "PQMVAL2AKECSTA36F4V7RW2R",
-  "modifier_data": {
-   "name": "carrot cake bits",
    "price_money": {
     "amount": 75
    }
