@@ -1924,24 +1924,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "EXCR3JFQXG5KVZOD6CETEDNZ",
-     "modifier_data": {
-      "name": "horchata (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "HW5UXCFFZQOS2QKOPWIACANK",
-     "modifier_data": {
-      "name": "chocolate + horchata TWIST (Gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "3UA3VOZDO4FBGXWAXIKZRIK6",
      "modifier_data": {
       "name": "guava (v) (gf)",
@@ -2422,24 +2404,6 @@ var catalog_raw=[
      "id": "JZYOMZFB7IVS4KVGJSUL6QW3",
      "modifier_data": {
       "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "NGFNCZV7SK3Z5XYYXNIVOKT6",
-     "modifier_data": {
-      "name": "horchata (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "NJA2H3M33I6UCYSKTUKK5QQS",
-     "modifier_data": {
-      "name": "chocolate + horchata TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3717,40 +3681,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "F3FIBRPDX7WYX6N7MGYG7GPH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "horchata (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "GQRKGOFMW7Y2RFYVDO7L4GK3",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf) + horchata (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "ROUFZ45775OYGI7EIOMVOPSY",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "guava (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9280,47 +9224,11 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EXCR3JFQXG5KVZOD6CETEDNZ",
-  "modifier_data": {
-   "name": "horchata (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HW5UXCFFZQOS2QKOPWIACANK",
-  "modifier_data": {
-   "name": "chocolate + horchata TWIST (Gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "3UA3VOZDO4FBGXWAXIKZRIK6",
   "modifier_data": {
    "name": "guava (v) (gf)",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "NGFNCZV7SK3Z5XYYXNIVOKT6",
-  "modifier_data": {
-   "name": "horchata (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "NJA2H3M33I6UCYSKTUKK5QQS",
-  "modifier_data": {
-   "name": "chocolate + horchata TWIST (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
