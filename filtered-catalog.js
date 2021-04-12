@@ -139,15 +139,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -9285,15 +9276,6 @@ var catalog_raw=[
    "name": "milk chocolate (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "WKHEV3T5P6BEMXB4BP6JAMUS",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
