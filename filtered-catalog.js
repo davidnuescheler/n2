@@ -245,6 +245,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "TPFXWESTVNMIJG3NGNPUFOGE",
+     "modifier_data": {
+      "name": "blackberry mostarda (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9479,6 +9488,15 @@ var catalog_raw=[
   "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
   "modifier_data": {
    "name": "normal sprinks (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "TPFXWESTVNMIJG3NGNPUFOGE",
+  "modifier_data": {
+   "name": "blackberry mostarda (v) (gf)",
    "price_money": {
     "amount": 75
    }
