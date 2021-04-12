@@ -119,6 +119,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
+     "modifier_data": {
+      "name": "carrot cake bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9533,6 +9542,15 @@ var catalog_raw=[
   "id": "JA5B65CIZ2NCAGAJJYWI3WCN",
   "modifier_data": {
    "name": "blackberry mostarda (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
+  "modifier_data": {
+   "name": "carrot cake bits",
    "price_money": {
     "amount": 75
    }
