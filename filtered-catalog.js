@@ -4940,6 +4940,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "OI5BJT3M4S5RJD35WDDFIDWH",
+     "modifier_data": {
+      "name": "blackberry mostarda (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -5044,6 +5053,15 @@ var catalog_raw=[
      "id": "LYRCHCLZNPQTCQVISPV3OZSA",
      "modifier_data": {
       "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "JA5B65CIZ2NCAGAJJYWI3WCN",
+     "modifier_data": {
+      "name": "blackberry mostarda (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -9495,6 +9513,24 @@ var catalog_raw=[
  },
  {
   "id": "TPFXWESTVNMIJG3NGNPUFOGE",
+  "modifier_data": {
+   "name": "blackberry mostarda (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OI5BJT3M4S5RJD35WDDFIDWH",
+  "modifier_data": {
+   "name": "blackberry mostarda (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "JA5B65CIZ2NCAGAJJYWI3WCN",
   "modifier_data": {
    "name": "blackberry mostarda (v) (gf)",
    "price_money": {
