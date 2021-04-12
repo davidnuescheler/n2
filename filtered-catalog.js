@@ -175,15 +175,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "R5552JHAMS6LL2HLITDED4X2",
-     "modifier_data": {
-      "name": "blackberry mostarda (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
       "name": "balsamic dust (v) (gf)",
@@ -8381,15 +8372,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "R5552JHAMS6LL2HLITDED4X2",
-  "modifier_data": {
-   "name": "blackberry mostarda (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "QKA7JOHXFP35IZW4PF2WG3CO",
   "type": "ITEM",
   "item_data": {
@@ -9273,7 +9255,19 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "matcha green tea pint (v)",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN"
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "V6VUS6K2GITA6DK6R2CV2K5T",
+     "item_variation_data": {
+      "item_id": "B6YIRF3LPLFJ3KCSA3QZXVWV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  },
  {
