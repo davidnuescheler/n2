@@ -1915,27 +1915,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SYBTURDV6SLGT7S3OHJC43B2",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BM52NNLBKPPFKEZDK4HLAG2N",
-     "modifier_data": {
-      "name": "salted vanilla bean + many-berry TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2419,27 +2401,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "M4O2RGTGJPWQY7PBVICSJNHZ",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "6UK3MQNKRFSKPZX6HRIR7FGY",
-     "modifier_data": {
-      "name": "salted vanilla + many-berry TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -8760,42 +8724,6 @@ var catalog_raw=[
   "id": "F2UGUVMOCLA6FHORLEG6IVEF",
   "modifier_data": {
    "name": "carrot cake + cocoa nib TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "YEQLSNBHZ4D7XAV5CBAMSUTJ",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BM52NNLBKPPFKEZDK4HLAG2N",
-  "modifier_data": {
-   "name": "salted vanilla bean + many-berry TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "M4O2RGTGJPWQY7PBVICSJNHZ",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "6UK3MQNKRFSKPZX6HRIR7FGY",
-  "modifier_data": {
-   "name": "salted vanilla + many-berry TWIST (gf)",
    "price_money": {
     "amount": 300
    }
