@@ -148,6 +148,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
+     "modifier_data": {
+      "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "NIOZHWELUU4MIU6POCLMR7HO",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -241,15 +259,6 @@ var catalog_raw=[
      "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
      "modifier_data": {
       "name": "coconut whipped cream  (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -9387,6 +9396,15 @@ var catalog_raw=[
   "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
   "modifier_data": {
    "name": "carrot cake bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "NIOZHWELUU4MIU6POCLMR7HO",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
