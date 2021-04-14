@@ -1967,6 +1967,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "CDUIO6MAMMOZZ7SGX4M6VS7C",
+     "modifier_data": {
+      "name": "olive oil (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TKCRS2N5YORJSDMEVLEUOYH5",
+     "modifier_data": {
+      "name": "guava + olive oil TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2431,6 +2449,24 @@ var catalog_raw=[
      "id": "6CZQKKGLPYMECAG5PHJLJXF2",
      "modifier_data": {
       "name": "guava (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "SNRTSJVYZEJPAHWRXFEF3YWE",
+     "modifier_data": {
+      "name": "olive oil (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "EQH2FXH7ARGXZDSE6HMOHUZZ",
+     "modifier_data": {
+      "name": "guava + olive oil TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3715,6 +3751,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "guava (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WVSX7K5XOAE2RC3S5DMON3HF",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "olive oil (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PJQVABDUBFVVL36WQO4YSI3P",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "guava + olive oil TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9407,6 +9463,42 @@ var catalog_raw=[
    "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "CDUIO6MAMMOZZ7SGX4M6VS7C",
+  "modifier_data": {
+   "name": "olive oil (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TKCRS2N5YORJSDMEVLEUOYH5",
+  "modifier_data": {
+   "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SNRTSJVYZEJPAHWRXFEF3YWE",
+  "modifier_data": {
+   "name": "olive oil (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "EQH2FXH7ARGXZDSE6HMOHUZZ",
+  "modifier_data": {
+   "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
