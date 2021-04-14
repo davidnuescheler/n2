@@ -1405,9 +1405,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "VO5P5JCGKCKFNLLLU4HGUXQN"
     }
    ],
@@ -1432,9 +1429,6 @@ var catalog_raw=[
    "name": "americano",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "VMSQXPBZYS4EP37IO4VFLNDG"
     },
@@ -1476,9 +1470,6 @@ var catalog_raw=[
    "name": "cappuccino",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
@@ -1603,9 +1594,6 @@ var catalog_raw=[
    "name": "cortado",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
