@@ -904,7 +904,7 @@ var catalog_raw=[
   "id": "KCOAN4YN2YK5N32ALWRUDLG3",
   "type": "ITEM",
   "item_data": {
-   "name": "gingersnap + cream cheese sando",
+   "name": "it snaps sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
