@@ -1767,9 +1767,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1804,9 +1801,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1837,9 +1831,6 @@ var catalog_raw=[
    "name": "mocha",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
