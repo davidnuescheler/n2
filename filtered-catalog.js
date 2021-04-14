@@ -1924,9 +1924,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SYBTURDV6SLGT7S3OHJC43B2",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2410,9 +2428,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "PYC47FCXFVWIHIJEHW47YQOL",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "2AUKL45K3WIEMOP7H3I26QDI",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9497,6 +9533,42 @@ var catalog_raw=[
   "id": "EQH2FXH7ARGXZDSE6HMOHUZZ",
   "modifier_data": {
    "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PYC47FCXFVWIHIJEHW47YQOL",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "2AUKL45K3WIEMOP7H3I26QDI",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
    "price_money": {
     "amount": 300
    }
