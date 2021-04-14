@@ -42,5 +42,17 @@
                 width: 100%;
             }
         }
+        &-flavor {
+            z-index: 2;
+        }
+        &-twist {
+            z-index: 3;
+        }
+        &-dip {
+            z-index: 4;
+        }
+        &-topping {
+            z-index: 5;
+        }
     }
 }

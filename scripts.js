@@ -1895,8 +1895,40 @@ const populateConeBuilderForm = async () => {
           $option.type = "radio";
           $option.value = d;
 
-        $label.append($option, $customEl);      
+        $label.append($option, $customEl);    
         $dipOptions.append($label);
+      })
+
+      const dipArr = [ ...$dipOptions.getElementsByTagName("label") ];
+      dipArr.forEach((d) => {
+        d.onclick = (e) => {
+          const thisDip = e.target.closest("input");
+          if (thisDip) {
+            const value = thisDip.id;
+            const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-dip.png`;
+            const $coneSidebar = document.querySelector("#conebuilder-cone");
+            const $dipDiv = document.querySelector(".conebuilder-cone-dip");
+
+            if (value === "nodip" && $dipDiv) {
+              $dipDiv.remove();
+            } else if ($dipDiv) {
+              // change dip div
+              const $img = $dipDiv.childNodes[0];
+                $img.setAttribute("src", imgPath);
+                $img.setAttribute("alt", `${value} dip`);
+            } else {
+              // create dip div
+              const $newDipDiv = document.createElement("div");
+                $newDipDiv.classList.add("conebuilder-cone-dip");
+              const $dipImg = document.createElement("img");
+                $dipImg.setAttribute("src", imgPath);
+                $dipImg.setAttribute("alt", `${value} dip`);
+
+              $newDipDiv.append($dipImg);
+              $coneSidebar.append($newDipDiv);
+            }
+          }
+        }
       })
     }
 
@@ -1925,9 +1957,43 @@ const populateConeBuilderForm = async () => {
         $label.append($option, $customEl);      
         $toppingOptions.append($label);
       })      
-      customizeToolforStore();
+      customizeToolforConeBuilder();
     }
 
+}
+
+const customizeToolforConeBuilder = () => {
+  // limit soft serve toppings
+  const $toppingCheckboxes = document.querySelectorAll("input[name=topping]");
+  if ($toppingCheckboxes) {
+    $toppingCheckboxes.forEach((c) => {
+      c.onchange = (e) => {
+        const max = 3;
+        const $cbs =  [ ...document.querySelectorAll("input[name=topping]")];
+        const numChecked = $cbs.filter((c) => c.checked).length;
+        const thisTopping = e.target.closest("input");
+        const value = thisTopping.id;
+
+        const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-topping.png`;
+        const $coneSidebar = document.querySelector("#conebuilder-cone");
+
+        const $flavorDiv = document.querySelector(".conebuilder-cone-topping");
+      
+        if (numChecked === max) { // max checkboxes checked
+          $cbs.forEach((c) => {
+            if (!c.checked) { c.disabled = true }; // disable checkboxes
+          })
+        } else { 
+          $cbs.forEach((c) => {
+            c.disabled = false; // enable checkboxes
+          })
+        }
+
+        // if (numCheck < max && $toppingDiv
+      }
+
+    })
+  }
 }
 
 const setupConeBuilderFlavor = () => {
@@ -1959,7 +2025,6 @@ const setupConeBuilderFlavor = () => {
 }
 
 const setupConeBuilderTwist = () => {
-  console.log(`setupConeBuilderTwist -> setupConeBuilderTwist`);
   // FLAVORS
   const $twistDropdown = document.querySelector("#secondflavor");
   $twistDropdown.onchange = (e) => {
