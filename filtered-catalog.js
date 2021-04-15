@@ -1004,7 +1004,7 @@ var catalog_raw=[
   "id": "DFPIRLESYW372ABMYY5QDLWI",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream sando",
+   "name": "b-a-n-a-n-a-s sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -1044,7 +1044,7 @@ var catalog_raw=[
   "id": "KCN2AJYIMPVYC5KTE3JYQXNP",
   "type": "ITEM",
   "item_data": {
-   "name": "earl grey + passion bar",
+   "name": "the best one",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
