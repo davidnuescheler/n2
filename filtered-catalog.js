@@ -9572,5 +9572,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "NJV4ZNULITQXOWESQPDRTELS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "berry pie pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "VO34T3KBFOB6XNQSAJTYHX77",
+     "item_variation_data": {
+      "item_id": "NJV4ZNULITQXOWESQPDRTELS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
