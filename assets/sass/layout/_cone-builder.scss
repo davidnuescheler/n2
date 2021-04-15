@@ -3,6 +3,11 @@
     display: flex;
     margin-top: 6rem;
 
+    & .invalid-field {
+        animation-duration: 0.3s;
+        animation-iteration-count: 3;
+    }
+
     &-form {
         border: 1px solid currentColor;
         flex-basis: 66%;
@@ -42,6 +47,9 @@
                 width: 100%;
             }
         }
+        &-final {
+            margin: 0 auto;
+        }
         &-flavor {
             z-index: 2;
         }
@@ -53,6 +61,36 @@
         }
         &-topping {
             z-index: 5;
+        }
+        // TOPPINGS FLIP
+        &-brownie:nth-child(even),
+        &-cotton:nth-child(even),
+        &-crumble:nth-child(even),
+        &-dots:nth-child(even),
+        &-ganache:nth-child(even),
+        &-jam:nth-child(even),
+        &-peanut:nth-child(even),
+        &-sprinks:nth-child(even),
+        &-sprinkles:nth-child(even) {
+            transform: scaleX(-1);
+        }
+    }
+
+    &-submit {
+        & .invalid-field {
+            animation-duration: 0.3s;
+            animation-iteration-count: 3;
+        }
+        &-makeup {
+            text-align: left;
+        }
+        &-form {
+            margin-top: 1rem;
+            border: 1px solid currentColor;
+            border-top: 0;
+        }
+        &-foot {
+            margin-top: 3rem;
         }
     }
 }

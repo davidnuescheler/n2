@@ -1669,6 +1669,9 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
 .conebuilder {
   display: flex;
   margin-top: 6rem; }
+  .conebuilder .invalid-field {
+    animation-duration: 0.3s;
+    animation-iteration-count: 3; }
   .conebuilder-form {
     border: 1px solid currentColor;
     flex-basis: 66%; }
@@ -1692,6 +1695,8 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
       left: 0; }
       .conebuilder-cone div img {
         width: 100%; }
+    .conebuilder-cone-final {
+      margin: 0 auto; }
     .conebuilder-cone-flavor {
       z-index: 2; }
     .conebuilder-cone-twist {
@@ -1700,6 +1705,19 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
       z-index: 4; }
     .conebuilder-cone-topping {
       z-index: 5; }
+    .conebuilder-cone-brownie:nth-child(even), .conebuilder-cone-cotton:nth-child(even), .conebuilder-cone-crumble:nth-child(even), .conebuilder-cone-dots:nth-child(even), .conebuilder-cone-ganache:nth-child(even), .conebuilder-cone-jam:nth-child(even), .conebuilder-cone-peanut:nth-child(even), .conebuilder-cone-sprinks:nth-child(even), .conebuilder-cone-sprinkles:nth-child(even) {
+      transform: scaleX(-1); }
+  .conebuilder-submit .invalid-field {
+    animation-duration: 0.3s;
+    animation-iteration-count: 3; }
+  .conebuilder-submit-makeup {
+    text-align: left; }
+  .conebuilder-submit-form {
+    margin-top: 1rem;
+    border: 1px solid currentColor;
+    border-top: 0; }
+  .conebuilder-submit-foot {
+    margin-top: 3rem; }
 
 .theme-outline {
   border: 1px solid currentColor; }
@@ -1913,6 +1931,8 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
       .theme-pink .checkout-table-body-radio-container, .theme-pink .checkout-table-body-checkbox-container {
         background: #FFD4CC;
         color: #F94F0D; }
+  .theme-pink .conebuilder-submit-form .invalid-field {
+    animation-name: pink-error-blink; }
   .theme-pink .menu-filled {
     background: #F94F0D;
     color: #FFD4CC; }
@@ -1932,7 +1952,7 @@ h2#normal-pint-club-faq, h2#normal-pint-club-faqs, h2#normalreg-pint-club-faq, h
   0% {
     background: #FFD4CC; }
   50% {
-    background: #F94F0D; }
+    background: #FFFC92 !important; }
   99% {
     background: #FFD4CC; } }
 

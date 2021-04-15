@@ -1820,8 +1820,10 @@ const buildConeBuilder = ($code) => {
         const $form = document.querySelector("form");
         const valid = validateSubmission($form);
         if (valid) {
-          buildScreensaver("building your cone...");
+          buildScreensaver("building your custom cone...");
           const formData = await getSubmissionData($form);
+          await prepConeBuilderSubmit();
+          await buildConeBuilderSubmit(formData);
           removeScreensaver();
         } else {
           console.error("please fill out all required fields!");
@@ -1972,12 +1974,15 @@ const customizeToolforConeBuilder = () => {
         const $cbs =  [ ...document.querySelectorAll("input[name=topping]")];
         const numChecked = $cbs.filter((c) => c.checked).length;
         const thisTopping = e.target.closest("input");
-        const value = thisTopping.id;
+        const checked = thisTopping.checked;
+        const fullVal = thisTopping.id;
+        const value = thisTopping.value;
+        const valuesArr = thisTopping.value.split(" ");
+          valuesArr.push("topping", fullVal);
 
-        const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-topping.png`;
+        const imgPath = `https://normal.club/cone-builder/${cleanName(fullVal)}-topping.png`;
         const $coneSidebar = document.querySelector("#conebuilder-cone");
-
-        const $flavorDiv = document.querySelector(".conebuilder-cone-topping");
+        const $toppingDiv = document.querySelector(`.conebuilder-cone-${fullVal}`);
       
         if (numChecked === max) { // max checkboxes checked
           $cbs.forEach((c) => {
@@ -1989,7 +1994,23 @@ const customizeToolforConeBuilder = () => {
           })
         }
 
-        // if (numCheck < max && $toppingDiv
+        if (checked && !$toppingDiv) {
+          // create topping
+          const $newToppingDiv = document.createElement("div");
+
+          valuesArr.forEach((v) => {
+            $newToppingDiv.classList.add(`conebuilder-cone-${v}`);
+          })
+          const $toppingImg = document.createElement("img");
+            $toppingImg.setAttribute("src", imgPath);
+            $toppingImg.setAttribute("alt", `${value} topping`);
+
+          $newToppingDiv.append($toppingImg);
+          $coneSidebar.append($newToppingDiv);
+
+        } else if (!checked && $toppingDiv) {
+          $toppingDiv.remove();
+        }
       }
 
     })
@@ -2050,6 +2071,94 @@ const setupConeBuilderTwist = () => {
     }
     
   }
+}
+
+const prepConeBuilderSubmit = () => {
+  const coneBuilderForm = document.querySelector(".conebuilder-form");
+    coneBuilderForm.classList.add("hide");
+
+  const coneBuilderCone = document.querySelector(".conebuilder-cone");
+  const coneBuilderVessel = document.querySelector(".conebuilder-cone-vessel");
+    const coneHeight = coneBuilderVessel.offsetHeight;
+    coneBuilderCone.style.height = `${coneHeight}px`;
+    coneBuilderCone.classList.add("conebuilder-cone-final");
+
+  
+}
+
+const buildConeBuilderSubmit = (formData) => {
+
+  const $coneBuilderContainer = document.querySelector(".conebuilder");
+
+  const $coneBuilderSubmitContainer = document.createElement("div");
+    $coneBuilderSubmitContainer.classList.add("conebuilder-submit");
+
+  const $coneBuilderTitle = document.createElement("p");
+    $coneBuilderTitle.classList.add("conebuilder-submit-makeup");
+    $coneBuilderTitle.textContent = generateConeMakeup(formData);
+
+  const $coneBuilderSubmit = document.createElement("form");
+    $coneBuilderSubmit.classList.add("conebuilder-submit-form");
+
+    const fieldsArr = [ "contact", "cone-builder-title" ];
+    let allFields = getFields(fieldsArr);
+  
+    allFields.forEach((f) => {
+      $coneBuilderSubmit.append(buildFields("checkout", f));
+    });
+
+  const $coneBuilderSubmitFoot = document.createElement("div");
+    $coneBuilderSubmitFoot.classList.add("conebuilder-submit-foot");
+
+  const $btn = document.createElement("a");
+    $btn.classList.add("btn-rect");
+    $btn.textContent = "submit";
+    $btn.onclick = async (e) => {
+      const $form = document.querySelector(".conebuilder-submit-form");
+      const valid = validateSubmission($form);
+      if (valid) {
+        buildScreensaver("submitting your custom cone...");
+        const formData = await getSubmissionData($form);
+        console.log(`build submission confirmation`);
+        removeScreensaver();
+      } else {
+        console.error("please fill out all required fields!");
+      }
+    }
+
+    $coneBuilderSubmitFoot.append($btn);
+
+  $coneBuilderSubmitContainer.append($coneBuilderTitle, $coneBuilderSubmit, $coneBuilderSubmitFoot);
+  $coneBuilderContainer.parentNode.insertBefore($coneBuilderSubmitContainer, $coneBuilderContainer.nextSibling);
+  getContactFromLocalStorage();
+}
+
+const generateConeMakeup = (formData) => {
+  let coneMakeup = "";
+  if (formData.twist) {
+    coneMakeup += `${formData.flavor} + ${formData.secondflavor} twist`;
+  } else {
+    coneMakeup += `${formData.flavor} cone`;
+  }
+
+  if (formData.dip !== "no dip") {
+    coneMakeup += ` in ${formData.dip} dip`;
+  }
+
+  if (formData.topping) {
+    switch (formData.topping.length) {
+      case 1: 
+        coneMakeup += ` with ${formData.topping[0]}`
+        break;
+      case 2:
+        coneMakeup += ` with ${formData.topping[0]} and ${formData.topping[1]}`
+        break;
+      default:
+        coneMakeup += ` with ${formData.topping[0]}, ${formData.topping[1]}, and ${formData.topping[2]}`
+        break;
+    }
+  }
+  return coneMakeup;
 }
 
 /*==========================================================
@@ -2705,6 +2814,11 @@ const getFields = (fields) => {
       case "cone-builder-second-flavor":
         allFields.push(
           { title: "second-flavor", type: "select", placeholder: "select your second flavor", src: "coneBuilderFlavors" }
+        )
+        break;
+      case "cone-builder-title":
+        allFields.push(
+          { title: "title", type: "text", placeholder: "name your creation", required: true }
         )
         break;
       default:
