@@ -148,6 +148,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
+     "modifier_data": {
+      "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "NIOZHWELUU4MIU6POCLMR7HO",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -241,15 +259,6 @@ var catalog_raw=[
      "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
      "modifier_data": {
       "name": "coconut whipped cream  (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -895,7 +904,7 @@ var catalog_raw=[
   "id": "KCOAN4YN2YK5N32ALWRUDLG3",
   "type": "ITEM",
   "item_data": {
-   "name": "gingersnap + cream cheese sando",
+   "name": "it snaps sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -1396,9 +1405,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "VO5P5JCGKCKFNLLLU4HGUXQN"
     }
    ],
@@ -1423,9 +1429,6 @@ var catalog_raw=[
    "name": "americano",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "VMSQXPBZYS4EP37IO4VFLNDG"
     },
@@ -1467,9 +1470,6 @@ var catalog_raw=[
    "name": "cappuccino",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
@@ -1594,9 +1594,6 @@ var catalog_raw=[
    "name": "cortado",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
@@ -1770,9 +1767,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1807,9 +1801,6 @@ var catalog_raw=[
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -1840,9 +1831,6 @@ var catalog_raw=[
    "name": "mocha",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
@@ -1915,9 +1903,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SYBTURDV6SLGT7S3OHJC43B2",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -1960,7 +1966,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TMHWXFPA5XTFCSZA5SI4D2ED",
+     "id": "CDUIO6MAMMOZZ7SGX4M6VS7C",
      "modifier_data": {
       "name": "olive oil (gf)",
       "price_money": {
@@ -1969,7 +1975,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OGPLGZEZAZK7BAN6CAMBDXLF",
+     "id": "TKCRS2N5YORJSDMEVLEUOYH5",
      "modifier_data": {
       "name": "guava + olive oil TWIST (gf)",
       "price_money": {
@@ -2401,9 +2407,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "PYC47FCXFVWIHIJEHW47YQOL",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "VRIAGWD5PMXGLL5UCS6I7QBI",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "2AUKL45K3WIEMOP7H3I26QDI",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2446,7 +2470,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2TZJKA74JSSKGOEIP7GCQU53",
+     "id": "SNRTSJVYZEJPAHWRXFEF3YWE",
      "modifier_data": {
       "name": "olive oil (gf)",
       "price_money": {
@@ -2455,7 +2479,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RYU45CYS6TJ5HHZ3RNNCXKL6",
+     "id": "EQH2FXH7ARGXZDSE6HMOHUZZ",
      "modifier_data": {
       "name": "guava + olive oil TWIST (gf)",
       "price_money": {
@@ -3748,7 +3772,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XA65RHANZ4R25ZB522XHBNKU",
+     "id": "WVSX7K5XOAE2RC3S5DMON3HF",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "olive oil (gf)",
@@ -3758,7 +3782,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "64SUCMLRHJSWHTGGRUXT3WHH",
+     "id": "PJQVABDUBFVVL36WQO4YSI3P",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "guava + olive oil TWIST (gf)",
@@ -9323,42 +9347,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TMHWXFPA5XTFCSZA5SI4D2ED",
-  "modifier_data": {
-   "name": "olive oil (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "OGPLGZEZAZK7BAN6CAMBDXLF",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2TZJKA74JSSKGOEIP7GCQU53",
-  "modifier_data": {
-   "name": "olive oil (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "RYU45CYS6TJ5HHZ3RNNCXKL6",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "RMHA4WFOIUEEYK4XHSLEB3GL",
   "modifier_data": {
    "name": "mohca!",
@@ -9481,6 +9469,87 @@ var catalog_raw=[
    "name": "carrot cake bits",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "NIOZHWELUU4MIU6POCLMR7HO",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "CDUIO6MAMMOZZ7SGX4M6VS7C",
+  "modifier_data": {
+   "name": "olive oil (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TKCRS2N5YORJSDMEVLEUOYH5",
+  "modifier_data": {
+   "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SNRTSJVYZEJPAHWRXFEF3YWE",
+  "modifier_data": {
+   "name": "olive oil (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "EQH2FXH7ARGXZDSE6HMOHUZZ",
+  "modifier_data": {
+   "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PYC47FCXFVWIHIJEHW47YQOL",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "2AUKL45K3WIEMOP7H3I26QDI",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
