@@ -9552,5 +9552,25 @@ var catalog_raw=[
     "amount": 300
    }
   }
+ },
+ {
+  "id": "DC3EWADN2V7WZNTIWSUD3C5S",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cream cheese + blueberry jam pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "OCTVOBDCZOCRRYSRC5YQNXFE",
+     "item_variation_data": {
+      "item_id": "DC3EWADN2V7WZNTIWSUD3C5S",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
