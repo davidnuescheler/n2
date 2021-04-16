@@ -1024,7 +1024,7 @@ var catalog_raw=[
   "id": "VXETXDZPJOMLGBE3PPKIFXIE",
   "type": "ITEM",
   "item_data": {
-   "name": "strawberry shortcake bar",
+   "name": "little shortie bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
