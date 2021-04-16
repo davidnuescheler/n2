@@ -267,7 +267,7 @@ var catalog_raw=[
     {
      "id": "TBJCJNVWLISW2C6XAZWEOT45",
      "modifier_data": {
-      "name": "butter cake ",
+      "name": "butter cake",
       "price_money": {
        "amount": 75
       }
@@ -9575,7 +9575,7 @@ var catalog_raw=[
  {
   "id": "TBJCJNVWLISW2C6XAZWEOT45",
   "modifier_data": {
-   "name": "butter cake ",
+   "name": "butter cake",
    "price_money": {
     "amount": 75
    }
