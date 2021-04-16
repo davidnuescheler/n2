@@ -263,6 +263,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "TBJCJNVWLISW2C6XAZWEOT45",
+     "modifier_data": {
+      "name": "butter cake ",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9561,6 +9570,15 @@ var catalog_raw=[
   "item_data": {
    "name": "cookie fill",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS"
+  }
+ },
+ {
+  "id": "TBJCJNVWLISW2C6XAZWEOT45",
+  "modifier_data": {
+   "name": "butter cake ",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
