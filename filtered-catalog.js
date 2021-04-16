@@ -238,15 +238,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4GO4LOTLKFZDXJTPAON7MLRX",
-     "modifier_data": {
-      "name": "butter cake bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "7PI2WQLWSNAFZJVWSZG24UQB",
      "modifier_data": {
       "name": "strawberry cotton candy (v) (gf)",
@@ -9287,15 +9278,6 @@ var catalog_raw=[
   "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
   "modifier_data": {
    "name": "cornmeal cake bits (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "4GO4LOTLKFZDXJTPAON7MLRX",
-  "modifier_data": {
-   "name": "butter cake bits",
    "price_money": {
     "amount": 75
    }
