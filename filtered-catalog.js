@@ -1313,10 +1313,10 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "S2IAKWHHGTCKJQULYB5GN7CG",
+     "id": "JZG3IG4ME3KRWUBQ6Y336HYC",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
+      "name": "GUATEMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
@@ -1329,16 +1329,6 @@ var catalog_raw=[
       "name": "select your varietal",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "JZG3IG4ME3KRWUBQ6Y336HYC",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 1600
       }
      }
     }
@@ -5714,30 +5704,20 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "pink + spicy kumquat smiley",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
-     "id": "P5EWFWZ2PYW6SAINUZRWW2JI",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "black + white smiley",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
      "id": "Q43SBMBB7WWJUDUMBJX2N2DE",
      "item_variation_data": {
       "item_id": "QN7B324UVJPUUYIKP5HYM25C",
       "name": "neon yellow + white cone",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "pink + spicy kumquat smiley",
       "price_money": {
        "amount": 1500
       }
