@@ -128,6 +128,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "MWXFG3LX4NBID6XZJNKHVSIM",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -9558,6 +9567,15 @@ var catalog_raw=[
   "id": "TBJCJNVWLISW2C6XAZWEOT45",
   "modifier_data": {
    "name": "butter cake bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MWXFG3LX4NBID6XZJNKHVSIM",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
