@@ -31,6 +31,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "MWXFG3LX4NBID6XZJNKHVSIM",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -103,6 +112,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "RFPNKW234JVACISKSIYN3TIA",
+     "modifier_data": {
+      "name": "bergamot cotton candy (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
      "modifier_data": {
       "name": "lavender ganache (gf)",
@@ -124,15 +142,6 @@ var catalog_raw=[
      "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
      "modifier_data": {
       "name": "carrot cake bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "MWXFG3LX4NBID6XZJNKHVSIM",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -9597,6 +9606,15 @@ var catalog_raw=[
    "name": "salted vanilla bean + berry sorbet TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "RFPNKW234JVACISKSIYN3TIA",
+  "modifier_data": {
+   "name": "bergamot cotton candy (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
