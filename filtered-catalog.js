@@ -8858,6 +8858,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pot o'gold pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "QNIILI3JTGY6EYN4X5RROA3M",
