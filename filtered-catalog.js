@@ -2861,6 +2861,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "243LE34DLEMWBKLY77IZ4VJZ",
+     "modifier_data": {
+      "name": "cocoa nib (gf) (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "SSN3UFAQEGECCWBLBWMPAM62",
+     "modifier_data": {
+      "name": "cocoa nib + carrot cake TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -3615,6 +3633,24 @@ var catalog_raw=[
      "id": "S435GG5BU656KUXDZ3KBEPSB",
      "modifier_data": {
       "name": "carrot cake (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "WMHO3SBKXRMNCZPX3KNV27GY",
+     "modifier_data": {
+      "name": "cocoa nib (gf) (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
+     "modifier_data": {
+      "name": "cocoa nib + carrot cake TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9543,6 +9579,42 @@ var catalog_raw=[
    "name": "bergamot cotton candy (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "243LE34DLEMWBKLY77IZ4VJZ",
+  "modifier_data": {
+   "name": "cocoa nib (gf) (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SSN3UFAQEGECCWBLBWMPAM62",
+  "modifier_data": {
+   "name": "cocoa nib + carrot cake TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WMHO3SBKXRMNCZPX3KNV27GY",
+  "modifier_data": {
+   "name": "cocoa nib (gf) (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
+  "modifier_data": {
+   "name": "cocoa nib + carrot cake TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
