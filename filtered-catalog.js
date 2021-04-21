@@ -1349,6 +1349,16 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA wuri",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
