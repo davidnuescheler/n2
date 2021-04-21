@@ -3139,7 +3139,7 @@ var catalog_raw=[
   "id": "QN2S75SWBVH4VUXHXJKP67F5",
   "type": "ITEM",
   "item_data": {
-   "name": "peanut butter + dark chocolate sando",
+   "name": "we're nuts! sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
