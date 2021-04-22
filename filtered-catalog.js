@@ -1182,7 +1182,7 @@ var catalog_raw=[
   "id": "LT5NLKXJMOISMJ3E2VWDYK4A",
   "type": "ITEM",
   "item_data": {
-   "name": "normal mint chip bar",
+   "name": "mint condition bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
