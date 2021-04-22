@@ -31,6 +31,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "MWXFG3LX4NBID6XZJNKHVSIM",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -99,6 +108,15 @@ var catalog_raw=[
       "name": "salted vanilla normal dots (gf)",
       "price_money": {
        "amount": 150
+      }
+     }
+    },
+    {
+     "id": "RFPNKW234JVACISKSIYN3TIA",
+     "modifier_data": {
+      "name": "bergamot cotton candy (v) (gf)",
+      "price_money": {
+       "amount": 75
       }
      }
     },
@@ -238,15 +256,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4GO4LOTLKFZDXJTPAON7MLRX",
-     "modifier_data": {
-      "name": "butter cake bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "7PI2WQLWSNAFZJVWSZG24UQB",
      "modifier_data": {
       "name": "strawberry cotton candy (v) (gf)",
@@ -268,6 +277,15 @@ var catalog_raw=[
      "id": "TPFXWESTVNMIJG3NGNPUFOGE",
      "modifier_data": {
       "name": "blackberry mostarda (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "TBJCJNVWLISW2C6XAZWEOT45",
+     "modifier_data": {
+      "name": "butter cake bits",
       "price_money": {
        "amount": 75
       }
@@ -1004,7 +1022,7 @@ var catalog_raw=[
   "id": "DFPIRLESYW372ABMYY5QDLWI",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream sando",
+   "name": "b-a-n-a-n-a-s sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -1024,7 +1042,7 @@ var catalog_raw=[
   "id": "VXETXDZPJOMLGBE3PPKIFXIE",
   "type": "ITEM",
   "item_data": {
-   "name": "strawberry shortcake bar",
+   "name": "little shortie bar",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
@@ -1044,7 +1062,7 @@ var catalog_raw=[
   "id": "KCN2AJYIMPVYC5KTE3JYQXNP",
   "type": "ITEM",
   "item_data": {
-   "name": "earl grey + passion bar",
+   "name": "the best one",
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
@@ -1313,10 +1331,10 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "S2IAKWHHGTCKJQULYB5GN7CG",
+     "id": "JZG3IG4ME3KRWUBQ6Y336HYC",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
+      "name": "GUATEMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
@@ -1333,10 +1351,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "JZG3IG4ME3KRWUBQ6Y336HYC",
+     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
+      "name": "ETHIOPIA wuri",
       "price_money": {
        "amount": 1600
       }
@@ -1903,7 +1921,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+     "id": "RQHM2PPLSA6V66QTE7MHBNNU",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
       "price_money": {
@@ -1921,9 +1939,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+     "id": "LWV5PDM4S6FCA7XSPCDIILKV",
      "modifier_data": {
-      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+      "name": "salted vanilla bean + berry sorbet TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2407,7 +2425,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PYC47FCXFVWIHIJEHW47YQOL",
+     "id": "SKEOAFDVFBEXTQXRMT7IUWG6",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
       "price_money": {
@@ -2425,7 +2443,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "2AUKL45K3WIEMOP7H3I26QDI",
+     "id": "MSWD2BFLXCKVJ75CH6FDWF7Z",
      "modifier_data": {
       "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
@@ -2702,9 +2720,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z4SEOXFSU73LWWYXAZVTCY2U",
+     "id": "OHAWJ7X577FQFXPGDUJIEL7M",
      "modifier_data": {
-      "name": "dark chocolate",
+      "name": "dark chocolate (v)",
       "price_money": {
        "amount": 100
       }
@@ -2855,18 +2873,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HVBOSMACVVOYXIXYAMSFUJKM",
+     "id": "243LE34DLEMWBKLY77IZ4VJZ",
      "modifier_data": {
-      "name": "cocoa nib (v) (gf)",
+      "name": "cocoa nib (gf) (v)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "BG5G37P42QDWOENJO4KWTAEV",
+     "id": "SSN3UFAQEGECCWBLBWMPAM62",
      "modifier_data": {
-      "name": "carrot cake + cocoa nib TWIST (gf)",
+      "name": "cocoa nib + carrot cake TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3121,7 +3139,7 @@ var catalog_raw=[
   "id": "QN2S75SWBVH4VUXHXJKP67F5",
   "type": "ITEM",
   "item_data": {
-   "name": "peanut butter + dark chocolate sando",
+   "name": "we're nuts! sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
@@ -3631,18 +3649,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "D5I7X2UZYZWQMHG2I23CAPPX",
+     "id": "WMHO3SBKXRMNCZPX3KNV27GY",
      "modifier_data": {
-      "name": "cocoa nib (v) (gf)",
+      "name": "cocoa nib (gf) (v)",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "F2UGUVMOCLA6FHORLEG6IVEF",
+     "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
      "modifier_data": {
-      "name": "carrot cake + cocoa nib TWIST (gf)",
+      "name": "cocoa nib + carrot cake TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3702,7 +3720,7 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "4JEKAXBCQB7ALN5LVARASSAQ",
+     "id": "AGPNVOZ5XSSISRQNAM5PRFL4",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "salted vanilla bean (gf)",
@@ -3722,10 +3740,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CWTMR4L2SZ6NYAZSDLSADCUR",
+     "id": "YBRDGPQVBTGCLR75ZHW6PWUT",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
+      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -5714,30 +5732,20 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "pink + spicy kumquat smiley",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
-     "id": "P5EWFWZ2PYW6SAINUZRWW2JI",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "black + white smiley",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
      "id": "Q43SBMBB7WWJUDUMBJX2N2DE",
      "item_variation_data": {
       "item_id": "QN7B324UVJPUUYIKP5HYM25C",
       "name": "neon yellow + white cone",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    },
+    {
+     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
+     "item_variation_data": {
+      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
+      "name": "pink + spicy kumquat smiley",
       "price_money": {
        "amount": 1500
       }
@@ -5973,15 +5981,6 @@ var catalog_raw=[
   "id": "32ZXJURTCJRRXMHV4DKOMGHM",
   "modifier_data": {
    "name": "cup + cone on top!",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
-  "id": "Z4SEOXFSU73LWWYXAZVTCY2U",
-  "modifier_data": {
-   "name": "dark chocolate",
    "price_money": {
     "amount": 100
    }
@@ -8369,24 +8368,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "HVBOSMACVVOYXIXYAMSFUJKM",
-  "modifier_data": {
-   "name": "cocoa nib (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "D5I7X2UZYZWQMHG2I23CAPPX",
-  "modifier_data": {
-   "name": "cocoa nib (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "NRVUGQADH5BEIGQATLXAXER6",
   "modifier_data": {
    "name": "streusel crumble",
@@ -8727,27 +8708,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "BG5G37P42QDWOENJO4KWTAEV",
-  "modifier_data": {
-   "name": "carrot cake + cocoa nib TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "S435GG5BU656KUXDZ3KBEPSB",
   "modifier_data": {
    "name": "carrot cake (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "F2UGUVMOCLA6FHORLEG6IVEF",
-  "modifier_data": {
-   "name": "carrot cake + cocoa nib TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8878,6 +8841,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pot o'gold pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "QNIILI3JTGY6EYN4X5RROA3M",
@@ -9313,15 +9277,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4GO4LOTLKFZDXJTPAON7MLRX",
-  "modifier_data": {
-   "name": "butter cake bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "7PI2WQLWSNAFZJVWSZG24UQB",
   "modifier_data": {
    "name": "strawberry cotton candy (v) (gf)",
@@ -9518,7 +9473,82 @@ var catalog_raw=[
   }
  },
  {
-  "id": "CYAN7DN6L4XADPXQKUIKMH2L",
+  "id": "DC3EWADN2V7WZNTIWSUD3C5S",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cream cheese + blueberry jam pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "OCTVOBDCZOCRRYSRC5YQNXFE",
+     "item_variation_data": {
+      "item_id": "DC3EWADN2V7WZNTIWSUD3C5S",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NJV4ZNULITQXOWESQPDRTELS",
+  "type": "ITEM",
+  "item_data": {
+   "name": "berry pie pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "VO34T3KBFOB6XNQSAJTYHX77",
+     "item_variation_data": {
+      "item_id": "NJV4ZNULITQXOWESQPDRTELS",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5HGYGONKHMKCIYKAZT7GD6GT",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cookie fill",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS"
+  }
+ },
+ {
+  "id": "TBJCJNVWLISW2C6XAZWEOT45",
+  "modifier_data": {
+   "name": "butter cake bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MWXFG3LX4NBID6XZJNKHVSIM",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OHAWJ7X577FQFXPGDUJIEL7M",
+  "modifier_data": {
+   "name": "dark chocolate (v)",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "RQHM2PPLSA6V66QTE7MHBNNU",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
    "price_money": {
@@ -9527,16 +9557,16 @@ var catalog_raw=[
   }
  },
  {
-  "id": "C4HZFHZP66NBUG3NR4UH4FHH",
+  "id": "LWV5PDM4S6FCA7XSPCDIILKV",
   "modifier_data": {
-   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+   "name": "salted vanilla bean + berry sorbet TWIST",
    "price_money": {
     "amount": 0
    }
   }
  },
  {
-  "id": "PYC47FCXFVWIHIJEHW47YQOL",
+  "id": "SKEOAFDVFBEXTQXRMT7IUWG6",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
    "price_money": {
@@ -9545,9 +9575,54 @@ var catalog_raw=[
   }
  },
  {
-  "id": "2AUKL45K3WIEMOP7H3I26QDI",
+  "id": "MSWD2BFLXCKVJ75CH6FDWF7Z",
   "modifier_data": {
    "name": "salted vanilla bean + berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "RFPNKW234JVACISKSIYN3TIA",
+  "modifier_data": {
+   "name": "bergamot cotton candy (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "243LE34DLEMWBKLY77IZ4VJZ",
+  "modifier_data": {
+   "name": "cocoa nib (gf) (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "SSN3UFAQEGECCWBLBWMPAM62",
+  "modifier_data": {
+   "name": "cocoa nib + carrot cake TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WMHO3SBKXRMNCZPX3KNV27GY",
+  "modifier_data": {
+   "name": "cocoa nib (gf) (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
+  "modifier_data": {
+   "name": "cocoa nib + carrot cake TWIST (gf)",
    "price_money": {
     "amount": 300
    }
