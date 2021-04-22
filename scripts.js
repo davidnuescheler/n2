@@ -2095,6 +2095,11 @@ const buildConeBuilderSubmit = (formData) => {
 
   const $coneBuilderTitle = document.createElement("p");
     $coneBuilderTitle.classList.add("conebuilder-submit-makeup");
+      const flavor = formData.twist ? `${formData.flavor} + ${formData.secondflavor} twist` : formData.flavor;
+    $coneBuilderTitle.setAttribute("data-flavor", flavor);
+    $coneBuilderTitle.setAttribute("data-dip", formData.dip);
+      const toppings = formData.topping ? formData.topping.join(", ") : "no toppings";
+    $coneBuilderTitle.setAttribute("data-topping", toppings);
     $coneBuilderTitle.textContent = generateConeMakeup(formData);
 
   const $coneBuilderSubmit = document.createElement("form");
@@ -2119,6 +2124,8 @@ const buildConeBuilderSubmit = (formData) => {
       if (valid) {
         buildScreensaver("submitting your custom cone...");
         const formData = await getSubmissionData($form);
+        await submitCone(formData);
+        await coneSubmissionConfirmation(formData.title);
         console.log(`build submission confirmation`);
         removeScreensaver();
       } else {
@@ -2159,6 +2166,52 @@ const generateConeMakeup = (formData) => {
     }
   }
   return coneMakeup;
+}
+
+const submitCone = async (formData) => {
+  const $makeup = document.querySelector(".conebuilder-submit-makeup");
+    const flavor = $makeup.getAttribute("data-flavor");
+    const dip = $makeup.getAttribute("data-dip");
+    const toppings = $makeup.getAttribute("data-topping") || "none";
+  formData = { ...formData, flavor, dip, toppings}
+
+  let params = "";
+  for (prop in formData) {
+    params += prop + "=" + encodeURIComponent(formData[prop]);
+    params += "&";
+  }
+
+  const url = `https://script.google.com/macros/s/AKfycbwqkZ641gi2WOVt6m7gFVM_biS8TowSjgQMiQaOKV0olwS6cUma5iIalVjwtA1zD5Hp/exec?${params}`;
+  let resp = await fetch(url, { method: "POST", mode: "no-cors" });
+  return resp;
+}
+
+const coneSubmissionConfirmation = (title) => {
+  const $cone = document.getElementById("conebuilder-cone");
+    $cone.classList.remove("conebuilder-cone-final");
+
+  const $submitForm = document.querySelector(".conebuilder-submit-form");
+    $submitForm.remove();
+  const $submitFoot = document.querySelector(".conebuilder-submit-foot");
+    $submitFoot.remove();
+
+  const $coneBuilder = document.querySelector(".conebuilder");
+  
+  const $confirmation = document.createElement("div");
+    $confirmation.classList.add("conebuilder-confirmation");
+    $confirmation.innerHTML = 
+      `<p>your <u>${title}</u> was submitted!</p>
+      <p>we'll contact you if you win. good luck!`;
+
+  const $resubmitBtn = document.createElement("button");
+    $resubmitBtn.classList.add("btn-rect");
+    $resubmitBtn.textContent = "submit another";
+    $resubmitBtn.onclick = () => {
+      location.reload();
+    }
+
+  $confirmation.append($resubmitBtn);
+  $coneBuilder.append($confirmation);
 }
 
 /*==========================================================
