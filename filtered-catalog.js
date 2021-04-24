@@ -166,15 +166,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "NIOZHWELUU4MIU6POCLMR7HO",
      "modifier_data": {
       "name": "chocolate sprinks (v) (gf)",
@@ -1331,10 +1322,10 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "JZG3IG4ME3KRWUBQ6Y336HYC",
+     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
+      "name": "ETHIOPIA wuri",
       "price_money": {
        "amount": 1600
       }
@@ -1347,16 +1338,6 @@ var catalog_raw=[
       "name": "select your varietal",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA wuri",
-      "price_money": {
-       "amount": 1600
       }
      }
     }
@@ -9361,15 +9342,6 @@ var catalog_raw=[
    "name": "toasted mallow fluff",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "BJXDNRGQNXXNFXYGPXKBNVLT",
-  "modifier_data": {
-   "name": "normal sprinks (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
