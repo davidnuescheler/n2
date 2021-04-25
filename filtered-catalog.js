@@ -1963,6 +1963,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "KUMBGIB76E3DVDNJFWDHUI6N",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VKJWRIQIYNWU4DX3CM7RGCCF",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2445,6 +2463,24 @@ var catalog_raw=[
      "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
      "modifier_data": {
       "name": "guava + olive oil TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "MAQ5BOYXBAPZH6U4D2MMQWC7",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "YGL2Z3U3CFQ3FZXMO7NIMMBI",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9503,6 +9539,42 @@ var catalog_raw=[
   "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
   "modifier_data": {
    "name": "guava + olive oil TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "KUMBGIB76E3DVDNJFWDHUI6N",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "VKJWRIQIYNWU4DX3CM7RGCCF",
+  "modifier_data": {
+   "name": "salted vanilla bean + many-berry TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MAQ5BOYXBAPZH6U4D2MMQWC7",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "YGL2Z3U3CFQ3FZXMO7NIMMBI",
+  "modifier_data": {
+   "name": "salted vanilla bean + many-berry TWIST (gf)",
    "price_money": {
     "amount": 300
    }
