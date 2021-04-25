@@ -3769,6 +3769,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "PJADC3SKBFYJGG6XTUCLPG33",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "AF4CJA37ET7IH4XTWIOJT66D",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + many berry sorbet (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
