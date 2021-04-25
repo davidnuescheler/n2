@@ -1902,27 +1902,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "VUB26QKYENBL24PSTUE2O4VG",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "T7Y7ATH2M4VUVOLAS6ORUV5L",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "2T2YS7O3OIGBSEE72RCB3A7Z",
-     "modifier_data": {
-      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2406,27 +2388,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HU5PIXWMRCLSO4BG66UKYCXY",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "K7PU37Z3FQJKAVJZRU3DGKQ7",
      "modifier_data": {
       "name": "many berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "XNFRCC4MAYGKLWSGPD3NRPHU",
-     "modifier_data": {
-      "name": "salted vanilla bean + berry TWiST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9539,42 +9503,6 @@ var catalog_raw=[
   "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
   "modifier_data": {
    "name": "guava + olive oil TWIST (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "VUB26QKYENBL24PSTUE2O4VG",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2T2YS7O3OIGBSEE72RCB3A7Z",
-  "modifier_data": {
-   "name": "salted vanilla bean + berry sorbet TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "HU5PIXWMRCLSO4BG66UKYCXY",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "XNFRCC4MAYGKLWSGPD3NRPHU",
-  "modifier_data": {
-   "name": "salted vanilla bean + berry TWiST (gf)",
    "price_money": {
     "amount": 300
    }
