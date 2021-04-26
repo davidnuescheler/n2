@@ -85,15 +85,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NRVUGQADH5BEIGQATLXAXER6",
-     "modifier_data": {
-      "name": "streusel crumble",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
       "name": "cinnamon white chocolate ganache (gf)",
@@ -8336,15 +8327,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "NRVUGQADH5BEIGQATLXAXER6",
-  "modifier_data": {
-   "name": "streusel crumble",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
