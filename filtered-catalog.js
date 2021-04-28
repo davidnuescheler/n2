@@ -3742,6 +3742,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "XVLSJOIYH5Y3WF5RFJCKEA53",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2XYMKYWRZ2EVCGOB2IBIAH5R",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + many-berry TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
