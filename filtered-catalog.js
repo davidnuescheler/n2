@@ -9669,5 +9669,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "DNQREQGIDS72I765KUYJZ5IX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "blueberry milk + granola praline pint (gf)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "XOAHKK46MWFSCVMXNRFEMU6B",
+     "item_variation_data": {
+      "item_id": "DNQREQGIDS72I765KUYJZ5IX",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
