@@ -9629,5 +9629,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "XOYHGNRFNVUBQMJPFMG3355W",
+  "type": "ITEM",
+  "item_data": {
+   "name": "blueberry \"milk\" + granola praline pint (v) (gf)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "4JINA7HJ3SKS6TXDWJOH6P6L",
+     "item_variation_data": {
+      "item_id": "XOYHGNRFNVUBQMJPFMG3355W",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
