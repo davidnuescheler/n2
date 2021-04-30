@@ -9634,7 +9634,7 @@ var catalog_raw=[
   "id": "XOYHGNRFNVUBQMJPFMG3355W",
   "type": "ITEM",
   "item_data": {
-   "name": "blueberry \"milk\" + granola praline pint (v) (gf)",
+   "name": "vegan! blueberry \"milk\" + granola praline pint (v) (gf)",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
