@@ -1340,6 +1340,16 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "BNA7AGDWTG4MA5XZZ5ACZZ36",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ECUADOR alamor",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
