@@ -175,15 +175,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "NIOZHWELUU4MIU6POCLMR7HO",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -196,15 +187,6 @@ var catalog_raw=[
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa pebbles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "67VR3ELQYKJGRHNGNU45BNXY",
-     "modifier_data": {
-      "name": "olive oil cake bits",
       "price_money": {
        "amount": 75
       }
@@ -8387,15 +8369,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "67VR3ELQYKJGRHNGNU45BNXY",
-  "modifier_data": {
-   "name": "olive oil cake bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "MR7UGW7BYWQGTLPTHA26HY5X",
   "type": "ITEM",
   "item_data": {
@@ -9376,15 +9349,6 @@ var catalog_raw=[
   "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
   "modifier_data": {
    "name": "carrot cake bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "NIOZHWELUU4MIU6POCLMR7HO",
-  "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
    }
