@@ -220,6 +220,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "TBJCJNVWLISW2C6XAZWEOT45",
+     "modifier_data": {
+      "name": "butter cake bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "FSRWMPF6SYBKGXN5BAXBTQJG",
+     "modifier_data": {
+      "name": "olive oil cake bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "chocolate pearls",
@@ -259,15 +277,6 @@ var catalog_raw=[
      "id": "TPFXWESTVNMIJG3NGNPUFOGE",
      "modifier_data": {
       "name": "blackberry mostarda (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "TBJCJNVWLISW2C6XAZWEOT45",
-     "modifier_data": {
-      "name": "butter cake bits",
       "price_money": {
        "amount": 75
       }
@@ -9579,6 +9588,15 @@ var catalog_raw=[
    "name": "salted vanilla bean + many-berry TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FSRWMPF6SYBKGXN5BAXBTQJG",
+  "modifier_data": {
+   "name": "olive oil cake bits",
+   "price_money": {
+    "amount": 75
    }
   }
  }
