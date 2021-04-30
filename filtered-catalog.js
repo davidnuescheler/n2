@@ -9689,5 +9689,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "XZKR7FULJ5TTIGDWGMZMJ5YW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® samoa pint (gf)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "5YLCDHMYX7E2KUGKLSLTO6SW",
+     "item_variation_data": {
+      "item_id": "XZKR7FULJ5TTIGDWGMZMJ5YW",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
