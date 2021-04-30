@@ -9649,5 +9649,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "OGAQ4ZGBVV4PW22UR543EH7J",
+  "type": "ITEM",
+  "item_data": {
+   "name": "matcha green tea + orange blossom pint (gf)",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "LSJI5OBUW3ZR6MJUK5GTBSP2",
+     "item_variation_data": {
+      "item_id": "OGAQ4ZGBVV4PW22UR543EH7J",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
