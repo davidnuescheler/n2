@@ -1912,9 +1912,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "F3HRYIPQC4B2HNNQL7YBYDUC",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "T7Y7ATH2M4VUVOLAS6ORUV5L",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UZ3FDP2ABQ2W66EWJFETQTSB",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST",
       "price_money": {
        "amount": 0
       }
@@ -2398,9 +2416,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "NYTUGKI4TTUHOTW5SWN47XL4",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "K7PU37Z3FQJKAVJZRU3DGKQ7",
      "modifier_data": {
       "name": "many berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ULWN34DJYSLVRNQRKIV7JJOG",
+     "modifier_data": {
+      "name": "salted vanilla bean + berry sorbet TWIST",
       "price_money": {
        "amount": 300
       }
@@ -9616,6 +9652,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "F3HRYIPQC4B2HNNQL7YBYDUC",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UZ3FDP2ABQ2W66EWJFETQTSB",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NYTUGKI4TTUHOTW5SWN47XL4",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ULWN34DJYSLVRNQRKIV7JJOG",
+  "modifier_data": {
+   "name": "salted vanilla bean + berry sorbet TWIST",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
