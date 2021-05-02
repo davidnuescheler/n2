@@ -3675,30 +3675,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "AWGSPRHBDFUP6SVTPFMDUCFE",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "D5YA2V4OC7V4XGCSCP5BR53A",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "many-berry sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FKREC2XQ4WBM5SSKG757YK5B",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
