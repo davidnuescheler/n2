@@ -103,15 +103,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RFPNKW234JVACISKSIYN3TIA",
-     "modifier_data": {
-      "name": "bergamot cotton candy (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
      "modifier_data": {
       "name": "lavender ganache (gf)",
@@ -9389,15 +9380,6 @@ var catalog_raw=[
    "name": "dark chocolate (v)",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "RFPNKW234JVACISKSIYN3TIA",
-  "modifier_data": {
-   "name": "bergamot cotton candy (v) (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
