@@ -220,15 +220,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "FSRWMPF6SYBKGXN5BAXBTQJG",
-     "modifier_data": {
-      "name": "olive oil cake bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
       "name": "chocolate pearls",
@@ -9542,15 +9533,6 @@ var catalog_raw=[
   "id": "5PUDKRVXOHLZUY7U7ELAEX7H",
   "modifier_data": {
    "name": "normal sprinks (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "FSRWMPF6SYBKGXN5BAXBTQJG",
-  "modifier_data": {
-   "name": "olive oil cake bits",
    "price_money": {
     "amount": 75
    }
