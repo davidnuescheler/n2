@@ -1964,6 +1964,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "UQPXXHYR2HHDFA67CXJCLDYH",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "Y3RK2DJ23JCBXJ6FVOPEDNSW",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2446,6 +2464,24 @@ var catalog_raw=[
      "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
      "modifier_data": {
       "name": "guava + olive oil TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "GPWFIXH723RNTXBREJEYFRT5",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FI5TYVKY73HLWJHT5WED3RZV",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9598,6 +9634,42 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "UQPXXHYR2HHDFA67CXJCLDYH",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "Y3RK2DJ23JCBXJ6FVOPEDNSW",
+  "modifier_data": {
+   "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "GPWFIXH723RNTXBREJEYFRT5",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FI5TYVKY73HLWJHT5WED3RZV",
+  "modifier_data": {
+   "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
