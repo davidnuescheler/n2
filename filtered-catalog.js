@@ -2873,7 +2873,7 @@ var catalog_raw=[
      "id": "I4GNL2CK57NQUHQBASSRPNRX",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "earl grey (gf)",
+      "name": "vegan vanilla (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2883,7 +2883,7 @@ var catalog_raw=[
      "id": "6LQ3UPMRFPQGUSBCMVHM7CXP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "apricot sorbet (v) (gf)",
+      "name": "rhubarb sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2893,7 +2893,7 @@ var catalog_raw=[
      "id": "TQDDHKIMSMCQXPIEZUGGE6EK",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "earl grey + apricot TWIST (gf)",
+      "name": "vegan vanilla + rhubarb TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2903,7 +2903,7 @@ var catalog_raw=[
      "id": "QTLMFEBEV4LTZZAD7ZPVWCDD",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "carrot cake (gf)",
+      "name": "kix milk (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2913,7 +2913,7 @@ var catalog_raw=[
      "id": "I7ZPKRUWIGGXSVMZ5EEAS424",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "cocoa nib (v) (gf)",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2923,7 +2923,7 @@ var catalog_raw=[
      "id": "YZ6IJ2RS3WCMVDHWWMCYBPIV",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "carrot cake + cocoa nib TWIST (gf)",
+      "name": "kix milk + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
