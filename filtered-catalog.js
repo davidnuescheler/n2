@@ -9813,5 +9813,110 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "AYPBUKJ3FOZOUERJCC7WO5KA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate wasted",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "ARMCKJUQ5OA72U7CXLTIBF77",
+     "item_variation_data": {
+      "item_id": "AYPBUKJ3FOZOUERJCC7WO5KA",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "YONFTGVZBTMMRYKAWTRJOGXA",
+     "item_variation_data": {
+      "item_id": "AYPBUKJ3FOZOUERJCC7WO5KA",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "WV5OPYDAU5E7AQJHY2PJXFFZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "it kicks",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GGPBV4Y52IZHIWXG6AAAKL74",
+     "item_variation_data": {
+      "item_id": "WV5OPYDAU5E7AQJHY2PJXFFZ",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "43TK2G6Q6LP36F2Q2OSX5ETB",
+     "item_variation_data": {
+      "item_id": "WV5OPYDAU5E7AQJHY2PJXFFZ",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CHJHTFSWW62WHLYT47DDWRK7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "sculpture club",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "RZGKTURSIPAQO45PBELFSFT2",
+     "item_variation_data": {
+      "item_id": "CHJHTFSWW62WHLYT47DDWRK7",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "BO5AK5W5X5VKEQT6VLDG5HY4",
+     "item_variation_data": {
+      "item_id": "CHJHTFSWW62WHLYT47DDWRK7",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
