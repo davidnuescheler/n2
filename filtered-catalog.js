@@ -9673,5 +9673,30 @@ var catalog_raw=[
     "amount": 300
    }
   }
+ },
+ {
+  "id": "T5J7FENDWXPQZAKF7TC6F5NM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana split cone",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "UWYAQS72ZCUY6QS4DGPJODLA",
+     "item_variation_data": {
+      "item_id": "T5J7FENDWXPQZAKF7TC6F5NM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 800
+      }
+     }
+    }
+   ]
+  }
  }
 ]
