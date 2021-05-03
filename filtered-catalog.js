@@ -1955,6 +1955,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "HOLFIMRU4ZBHQH2SDVVCCOZM",
+     "modifier_data": {
+      "name": "plum sorbet + honey lavender TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -9990,6 +9999,15 @@ var catalog_raw=[
    "name": "powdered sugar dust (v) (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "HOLFIMRU4ZBHQH2SDVVCCOZM",
+  "modifier_data": {
+   "name": "plum sorbet + honey lavender TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
