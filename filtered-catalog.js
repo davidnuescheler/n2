@@ -1894,9 +1894,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UQPXXHYR2HHDFA67CXJCLDYH",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "T7Y7ATH2M4VUVOLAS6ORUV5L",
      "modifier_data": {
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "Y3RK2DJ23JCBXJ6FVOPEDNSW",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -1930,45 +1948,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3UA3VOZDO4FBGXWAXIKZRIK6",
-     "modifier_data": {
-      "name": "guava (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "JF3PJ6DDT3JIRIGOKPAB2QWF",
      "modifier_data": {
       "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "AIFO4Y7ZMPFYP6AQHDIXOHYM",
-     "modifier_data": {
-      "name": "guava + olive oil TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UQPXXHYR2HHDFA67CXJCLDYH",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "Y3RK2DJ23JCBXJ6FVOPEDNSW",
-     "modifier_data": {
-      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2398,9 +2380,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "GPWFIXH723RNTXBREJEYFRT5",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "K7PU37Z3FQJKAVJZRU3DGKQ7",
      "modifier_data": {
       "name": "many berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FI5TYVKY73HLWJHT5WED3RZV",
+     "modifier_data": {
+      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2434,45 +2434,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6CZQKKGLPYMECAG5PHJLJXF2",
-     "modifier_data": {
-      "name": "guava (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "PODR3PKRMZNT6EKY6ZRJC2YE",
      "modifier_data": {
       "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
-     "modifier_data": {
-      "name": "guava + olive oil TWIST (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "GPWFIXH723RNTXBREJEYFRT5",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "FI5TYVKY73HLWJHT5WED3RZV",
-     "modifier_data": {
-      "name": "salted vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3693,10 +3657,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "SAX362P357PXLKH6JEV2P5UH",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "D5YA2V4OC7V4XGCSCP5BR53A",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "many-berry sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "N5AILEWQHDAVRGUMVS6YI7K2",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salt vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3733,50 +3717,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ROUFZ45775OYGI7EIOMVOPSY",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "guava (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "BNFRZ2LATCHOBKSAHEWQCCIE",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "olive oil (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "YGDXF7K7XDUA23SHE7W7EKKH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "guava + olive oil TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "SAX362P357PXLKH6JEV2P5UH",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "N5AILEWQHDAVRGUMVS6YI7K2",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salt vanilla bean + many-berry sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9187,24 +9131,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "3UA3VOZDO4FBGXWAXIKZRIK6",
-  "modifier_data": {
-   "name": "guava (v) (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "6CZQKKGLPYMECAG5PHJLJXF2",
-  "modifier_data": {
-   "name": "guava (v) (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
   "modifier_data": {
    "name": "cornmeal cake bits (v)",
@@ -9476,15 +9402,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "AIFO4Y7ZMPFYP6AQHDIXOHYM",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "T7Y7ATH2M4VUVOLAS6ORUV5L",
   "modifier_data": {
    "name": "many-berry sorbet (v) (gf)",
@@ -9506,15 +9423,6 @@ var catalog_raw=[
   "id": "PODR3PKRMZNT6EKY6ZRJC2YE",
   "modifier_data": {
    "name": "olive oil (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "BQ75KOYH53HQ3B4LHPOHYV7Q",
-  "modifier_data": {
-   "name": "guava + olive oil TWIST (gf)",
    "price_money": {
     "amount": 300
    }
