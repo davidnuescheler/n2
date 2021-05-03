@@ -9860,5 +9860,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "K3NQK3Q4ADIKIWJOR4YAQSUO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "almond brew",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "variations": [
+    {
+     "id": "UQVQKY7NANZD2NHGBYA3LUFR",
+     "item_variation_data": {
+      "item_id": "K3NQK3Q4ADIKIWJOR4YAQSUO",
+      "name": "12oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
