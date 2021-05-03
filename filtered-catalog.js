@@ -1426,7 +1426,7 @@ var catalog_raw=[
      "id": "VRMVUR7BLGNIBTECJZGOJFKO",
      "item_variation_data": {
       "item_id": "53PEQKVSZQFR372XWFDFOX37",
-      "name": "8 oz",
+      "name": "8 oz (hot only)",
       "price_money": {
        "amount": 300
       }
@@ -1437,6 +1437,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "53PEQKVSZQFR372XWFDFOX37",
       "name": "12 oz",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KAFTLM4LMCWP4KGQJRVRJALF",
+     "item_variation_data": {
+      "item_id": "53PEQKVSZQFR372XWFDFOX37",
+      "name": "16 oz (iced only)",
       "price_money": {
        "amount": 300
       }
@@ -1769,6 +1779,16 @@ var catalog_raw=[
       "name": "12 oz",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "TQ37D26GSTRUD6LSHP3GXA6G",
+     "item_variation_data": {
+      "item_id": "XFIQI3TZLLNSL4O67S67RQIK",
+      "name": "16 oz (iced only)",
+      "price_money": {
+       "amount": 550
       }
      }
     }
