@@ -9880,5 +9880,25 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "P52QXLXTEMGWVAMQSAADOTG6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "vacation on ice",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+   "variations": [
+    {
+     "id": "KFC4FUMYHGCR3LKVDLITN472",
+     "item_variation_data": {
+      "item_id": "P52QXLXTEMGWVAMQSAADOTG6",
+      "name": "12oz",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
