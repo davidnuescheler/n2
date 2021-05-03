@@ -157,15 +157,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5PUDKRVXOHLZUY7U7ELAEX7H",
-     "modifier_data": {
-      "name": "normal sprinks (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -196,15 +187,6 @@ var catalog_raw=[
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
       "name": "house-made berry jam (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
-     "modifier_data": {
-      "name": "waffle cone bits",
       "price_money": {
        "amount": 75
       }
@@ -8571,15 +8553,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6M7MMZFGGYWCYUU3TJ5CIEWL",
-  "modifier_data": {
-   "name": "waffle cone bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
   "modifier_data": {
    "name": "carrot cake (gf)",
@@ -9432,15 +9405,6 @@ var catalog_raw=[
   "id": "6ZC4B6LPJLDQ4AALME6L3SRS",
   "modifier_data": {
    "name": "streusel crumble",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "5PUDKRVXOHLZUY7U7ELAEX7H",
-  "modifier_data": {
-   "name": "normal sprinks (gf)",
    "price_money": {
     "amount": 75
    }
