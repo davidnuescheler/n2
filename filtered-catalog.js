@@ -9918,5 +9918,75 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "HUSCQP2NUQ6JG7U7MYCOCCSN",
+  "type": "ITEM",
+  "item_data": {
+   "name": "rhubarb crisp (v)",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "W6A7K6KDPHU4CAKZDFZGVOAK",
+     "item_variation_data": {
+      "item_id": "HUSCQP2NUQ6JG7U7MYCOCCSN",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "CDT3F3LPZM7MT2AATGZNQH2X",
+     "item_variation_data": {
+      "item_id": "HUSCQP2NUQ6JG7U7MYCOCCSN",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "QVGCSABYO2ORB3Z6FW5CMYQG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the yin yang (v)",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GQJP6UVIGHRPUMEYK6RWGRLD",
+     "item_variation_data": {
+      "item_id": "QVGCSABYO2ORB3Z6FW5CMYQG",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "RZY6I3MC66QYBUWHDP3X5J2P",
+     "item_variation_data": {
+      "item_id": "QVGCSABYO2ORB3Z6FW5CMYQG",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
