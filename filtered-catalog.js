@@ -9687,12 +9687,127 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "KGJPCPNUVDQJT27EMD7V7YHJ",
+     "item_variation_data": {
+      "item_id": "T5J7FENDWXPQZAKF7TC6F5NM",
+      "name": "half size",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
      "id": "UWYAQS72ZCUY6QS4DGPJODLA",
      "item_variation_data": {
       "item_id": "T5J7FENDWXPQZAKF7TC6F5NM",
-      "name": "Regular",
+      "name": "normal size",
       "price_money": {
        "amount": 800
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "GISTHILDO7OYHTDRO73SDXVH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "high tea",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "OW5XBEL6EJ7Y62B33AMOMKTG",
+     "item_variation_data": {
+      "item_id": "GISTHILDO7OYHTDRO73SDXVH",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "B2C2P4MLC2IWGOBZIWWZNIQP",
+     "item_variation_data": {
+      "item_id": "GISTHILDO7OYHTDRO73SDXVH",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "E3YD7UNUQV7KVZY25KK624FN",
+  "type": "ITEM",
+  "item_data": {
+   "name": "plumpy",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GRA3N2LSELWFR5C5ZDC5M44G",
+     "item_variation_data": {
+      "item_id": "E3YD7UNUQV7KVZY25KK624FN",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "HIG5UCH5SBEV7CK6JTWADKTW",
+     "item_variation_data": {
+      "item_id": "E3YD7UNUQV7KVZY25KK624FN",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "H7RKB432SW4FAPIZENELLSZ5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "creamsicle",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "QQ7VD5SCV7VVDY43EDO64AKE",
+     "item_variation_data": {
+      "item_id": "H7RKB432SW4FAPIZENELLSZ5",
+      "name": "half size",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "6TRLO5T2SZ4JP62Q4VNWV3Q4",
+     "item_variation_data": {
+      "item_id": "H7RKB432SW4FAPIZENELLSZ5",
+      "name": "normal size",
+      "price_money": {
+       "amount": 700
       }
      }
     }
