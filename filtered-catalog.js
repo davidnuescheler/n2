@@ -60,7 +60,7 @@ var catalog_raw=[
     {
      "id": "J3WQBSME36YHSAT7LAI72KUL",
      "modifier_data": {
-      "name": "candied walnuts (v) (gf)",
+      "name": "crushed kix (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -69,7 +69,7 @@ var catalog_raw=[
     {
      "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
      "modifier_data": {
-      "name": "cream cheese frosting (gf)",
+      "name": "milk jam (gf)",
       "price_money": {
        "amount": 75
       }
@@ -78,7 +78,7 @@ var catalog_raw=[
     {
      "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
      "modifier_data": {
-      "name": "candied cocoa nibs (v) (gf)",
+      "name": "ube cake",
       "price_money": {
        "amount": 75
       }
@@ -87,25 +87,16 @@ var catalog_raw=[
     {
      "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
      "modifier_data": {
-      "name": "cinnamon white chocolate ganache (gf)",
+      "name": "white chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
      }
     },
     {
-     "id": "WZQCQSA43YV6XMME3UOVPEIF",
-     "modifier_data": {
-      "name": "salted vanilla normal dots (gf)",
-      "price_money": {
-       "amount": 150
-      }
-     }
-    },
-    {
      "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
      "modifier_data": {
-      "name": "lavender ganache (gf)",
+      "name": "poprocks (gf)",
       "price_money": {
        "amount": 75
       }
@@ -114,7 +105,7 @@ var catalog_raw=[
     {
      "id": "7ZF3GT7ZP5D43N3OXZLQQD27",
      "modifier_data": {
-      "name": "hazelnut praline (v) (gf)",
+      "name": "roasted strawberry jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -123,7 +114,7 @@ var catalog_raw=[
     {
      "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
      "modifier_data": {
-      "name": "carrot cake bits",
+      "name": "toasted vegan meringue (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -132,7 +123,16 @@ var catalog_raw=[
     {
      "id": "6ZC4B6LPJLDQ4AALME6L3SRS",
      "modifier_data": {
-      "name": "streusel crumble",
+      "name": "flourless chocolate crinkle bits (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "HRJKZPAMAK55JV4L76O3LMCQ",
+     "modifier_data": {
+      "name": "powdered sugar dust (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -2794,7 +2794,7 @@ var catalog_raw=[
     {
      "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
      "modifier_data": {
-      "name": "earl grey (gf)",
+      "name": "vegan vanilla (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2803,7 +2803,7 @@ var catalog_raw=[
     {
      "id": "5TZBXVTUJESLLLFFQFSL5KJH",
      "modifier_data": {
-      "name": "apricot sorbet (v) (gf)",
+      "name": "rhubarb sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2812,7 +2812,7 @@ var catalog_raw=[
     {
      "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
      "modifier_data": {
-      "name": "earl grey + apricot TWIST (gf)",
+      "name": "vegan vanilla + rhubarb TWIST (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2821,7 +2821,7 @@ var catalog_raw=[
     {
      "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
      "modifier_data": {
-      "name": "carrot cake (gf)",
+      "name": "kix milk (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2830,7 +2830,7 @@ var catalog_raw=[
     {
      "id": "243LE34DLEMWBKLY77IZ4VJZ",
      "modifier_data": {
-      "name": "cocoa nib (gf) (v)",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2839,7 +2839,7 @@ var catalog_raw=[
     {
      "id": "SSN3UFAQEGECCWBLBWMPAM62",
      "modifier_data": {
-      "name": "cocoa nib + carrot cake TWIST (gf)",
+      "name": "kix milk + black sesame TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3570,7 +3570,7 @@ var catalog_raw=[
     {
      "id": "PGGTQZGLOFLQN33DZ2MUEJWO",
      "modifier_data": {
-      "name": "earl grey (gf)",
+      "name": "vegan vanilla (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3579,7 +3579,7 @@ var catalog_raw=[
     {
      "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
      "modifier_data": {
-      "name": "apricot sorbet (v) (gf)",
+      "name": "rhubarb sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3588,7 +3588,7 @@ var catalog_raw=[
     {
      "id": "A6RXASWSDCOKKDUBEDPSOSI5",
      "modifier_data": {
-      "name": "earl grey + apricot TWIST (gf)",
+      "name": "vegan vanilla + rhubarb TWIST (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3597,7 +3597,7 @@ var catalog_raw=[
     {
      "id": "S435GG5BU656KUXDZ3KBEPSB",
      "modifier_data": {
-      "name": "carrot cake (gf)",
+      "name": "kix milk (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3606,7 +3606,7 @@ var catalog_raw=[
     {
      "id": "WMHO3SBKXRMNCZPX3KNV27GY",
      "modifier_data": {
-      "name": "cocoa nib (gf) (v)",
+      "name": "black sesame (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3615,7 +3615,7 @@ var catalog_raw=[
     {
      "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
      "modifier_data": {
-      "name": "cocoa nib + carrot cake TWIST (gf)",
+      "name": "kix milk + black sesame TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -4746,7 +4746,7 @@ var catalog_raw=[
  {
   "id": "J3WQBSME36YHSAT7LAI72KUL",
   "modifier_data": {
-   "name": "candied walnuts (v) (gf)",
+   "name": "crushed kix (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -4789,7 +4789,7 @@ var catalog_raw=[
  {
   "id": "JM5SUFIDKBKI5HKRBJBVS6XJ",
   "modifier_data": {
-   "name": "cream cheese frosting (gf)",
+   "name": "milk jam (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6378,7 +6378,7 @@ var catalog_raw=[
  {
   "id": "W4UWHV6OVDW3A6UOVG3Z77RX",
   "modifier_data": {
-   "name": "earl grey (gf)",
+   "name": "vegan vanilla (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -6387,7 +6387,7 @@ var catalog_raw=[
  {
   "id": "UQ7SD43SWZDOQKP4UL4ML2ZR",
   "modifier_data": {
-   "name": "apricot sorbet (v) (gf)",
+   "name": "rhubarb sorbet (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8142,7 +8142,7 @@ var catalog_raw=[
  {
   "id": "LPT5O3YZHUFN3TNYSDG6GXO4",
   "modifier_data": {
-   "name": "cinnamon white chocolate ganache (gf)",
+   "name": "white chocolate ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8325,7 +8325,7 @@ var catalog_raw=[
  {
   "id": "ZRJFV5OFFQVR3M7L6ZOV6LVP",
   "modifier_data": {
-   "name": "candied cocoa nibs (v) (gf)",
+   "name": "ube cake",
    "price_money": {
     "amount": 75
    }
@@ -8374,7 +8374,7 @@ var catalog_raw=[
  {
   "id": "5TZBXVTUJESLLLFFQFSL5KJH",
   "modifier_data": {
-   "name": "apricot sorbet (v) (gf)",
+   "name": "rhubarb sorbet (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8383,7 +8383,7 @@ var catalog_raw=[
  {
   "id": "TV2H6PAXWBX3CVCLPLBGJNHZ",
   "modifier_data": {
-   "name": "earl grey + apricot TWIST (gf)",
+   "name": "vegan vanilla + rhubarb TWIST (v) (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8392,7 +8392,7 @@ var catalog_raw=[
  {
   "id": "PGGTQZGLOFLQN33DZ2MUEJWO",
   "modifier_data": {
-   "name": "earl grey (gf)",
+   "name": "vegan vanilla (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8401,7 +8401,7 @@ var catalog_raw=[
  {
   "id": "A6RXASWSDCOKKDUBEDPSOSI5",
   "modifier_data": {
-   "name": "earl grey + apricot TWIST (gf)",
+   "name": "vegan vanilla + rhubarb TWIST (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8611,7 +8611,7 @@ var catalog_raw=[
  {
   "id": "LKDONF47I2ZLVMBDWJRPNKYZ",
   "modifier_data": {
-   "name": "carrot cake (gf)",
+   "name": "kix milk (gf)",
    "price_money": {
     "amount": 0
    }
@@ -8620,7 +8620,7 @@ var catalog_raw=[
  {
   "id": "S435GG5BU656KUXDZ3KBEPSB",
   "modifier_data": {
-   "name": "carrot cake (gf)",
+   "name": "kix milk (gf)",
    "price_money": {
     "amount": 300
    }
@@ -9203,18 +9203,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WZQCQSA43YV6XMME3UOVPEIF",
-  "modifier_data": {
-   "name": "salted vanilla normal dots (gf)",
-   "price_money": {
-    "amount": 150
-   }
-  }
- },
- {
   "id": "XA3DWNZHNKX6LOPBZ2QFDY7N",
   "modifier_data": {
-   "name": "lavender ganache (gf)",
+   "name": "poprocks (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9223,7 +9214,7 @@ var catalog_raw=[
  {
   "id": "7ZF3GT7ZP5D43N3OXZLQQD27",
   "modifier_data": {
-   "name": "hazelnut praline (v) (gf)",
+   "name": "roasted strawberry jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9304,7 +9295,7 @@ var catalog_raw=[
  {
   "id": "BC3UQMC2N2C4FKAR4NR4PWWX",
   "modifier_data": {
-   "name": "carrot cake bits",
+   "name": "toasted vegan meringue (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9388,7 +9379,7 @@ var catalog_raw=[
  {
   "id": "243LE34DLEMWBKLY77IZ4VJZ",
   "modifier_data": {
-   "name": "cocoa nib (gf) (v)",
+   "name": "black sesame (gf)",
    "price_money": {
     "amount": 0
    }
@@ -9397,7 +9388,7 @@ var catalog_raw=[
  {
   "id": "SSN3UFAQEGECCWBLBWMPAM62",
   "modifier_data": {
-   "name": "cocoa nib + carrot cake TWIST (gf)",
+   "name": "kix milk + black sesame TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -9406,7 +9397,7 @@ var catalog_raw=[
  {
   "id": "WMHO3SBKXRMNCZPX3KNV27GY",
   "modifier_data": {
-   "name": "cocoa nib (gf) (v)",
+   "name": "black sesame (gf)",
    "price_money": {
     "amount": 300
    }
@@ -9415,7 +9406,7 @@ var catalog_raw=[
  {
   "id": "OQJV5UCTQBYZZ2HDJJ4Q45YK",
   "modifier_data": {
-   "name": "cocoa nib + carrot cake TWIST (gf)",
+   "name": "kix milk + black sesame TWIST (gf)",
    "price_money": {
     "amount": 300
    }
@@ -9460,7 +9451,7 @@ var catalog_raw=[
  {
   "id": "6ZC4B6LPJLDQ4AALME6L3SRS",
   "modifier_data": {
-   "name": "streusel crumble",
+   "name": "flourless chocolate crinkle bits (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9988,6 +9979,15 @@ var catalog_raw=[
   "id": "57A6ID76566ZHSX5DU4ETQYC",
   "modifier_data": {
    "name": "house-made SMOLL-ows (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "HRJKZPAMAK55JV4L76O3LMCQ",
+  "modifier_data": {
+   "name": "powdered sugar dust (v) (gf)",
    "price_money": {
     "amount": 75
    }
