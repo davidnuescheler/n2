@@ -177,7 +177,7 @@ var catalog_raw=[
     {
      "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
      "modifier_data": {
-      "name": "balsamic dust (v) (gf)",
+      "name": "whipped cream (gf)",
       "price_money": {
        "amount": 75
       }
@@ -186,7 +186,7 @@ var catalog_raw=[
     {
      "id": "PH5BC2PHXTIADHEBQWDQLY36",
      "modifier_data": {
-      "name": "house-made berry jam (v) (gf)",
+      "name": "toshi cherry (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -195,7 +195,7 @@ var catalog_raw=[
     {
      "id": "TBJCJNVWLISW2C6XAZWEOT45",
      "modifier_data": {
-      "name": "butter cake bits",
+      "name": "olive oil cake",
       "price_money": {
        "amount": 75
       }
@@ -204,7 +204,7 @@ var catalog_raw=[
     {
      "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
      "modifier_data": {
-      "name": "chocolate pearls",
+      "name": "lemon marmalade (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -213,7 +213,7 @@ var catalog_raw=[
     {
      "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
      "modifier_data": {
-      "name": "cornmeal cake bits (v)",
+      "name": "olive oil powder (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -222,7 +222,7 @@ var catalog_raw=[
     {
      "id": "7PI2WQLWSNAFZJVWSZG24UQB",
      "modifier_data": {
-      "name": "strawberry cotton candy (v) (gf)",
+      "name": "white chocolate ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -231,7 +231,7 @@ var catalog_raw=[
     {
      "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
      "modifier_data": {
-      "name": "coconut whipped cream  (v) (gf)",
+      "name": "black pepper meringue (gf)",
       "price_money": {
        "amount": 75
       }
@@ -240,7 +240,16 @@ var catalog_raw=[
     {
      "id": "TPFXWESTVNMIJG3NGNPUFOGE",
      "modifier_data": {
-      "name": "blackberry mostarda (v) (gf)",
+      "name": "roasted plums (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "57A6ID76566ZHSX5DU4ETQYC",
+     "modifier_data": {
+      "name": "house-made SMOLL-ows (gf)",
       "price_money": {
        "amount": 75
       }
@@ -6174,7 +6183,7 @@ var catalog_raw=[
  {
   "id": "PH5BC2PHXTIADHEBQWDQLY36",
   "modifier_data": {
-   "name": "house-made berry jam (v) (gf)",
+   "name": "toshi cherry (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7667,7 +7676,7 @@ var catalog_raw=[
  {
   "id": "3XVMZHVMK3BGGXI4UGXJHH7Q",
   "modifier_data": {
-   "name": "chocolate pearls",
+   "name": "lemon marmalade (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8419,7 +8428,7 @@ var catalog_raw=[
  {
   "id": "FCDFJLU2XQFUKL7JLLDJTMUA",
   "modifier_data": {
-   "name": "balsamic dust (v) (gf)",
+   "name": "whipped cream (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9153,7 +9162,7 @@ var catalog_raw=[
  {
   "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
   "modifier_data": {
-   "name": "cornmeal cake bits (v)",
+   "name": "olive oil powder (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9162,7 +9171,7 @@ var catalog_raw=[
  {
   "id": "7PI2WQLWSNAFZJVWSZG24UQB",
   "modifier_data": {
-   "name": "strawberry cotton candy (v) (gf)",
+   "name": "white chocolate ganache (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9171,7 +9180,7 @@ var catalog_raw=[
  {
   "id": "5DNQ5UXUJIIPGR5VCQIHSYEO",
   "modifier_data": {
-   "name": "coconut whipped cream  (v) (gf)",
+   "name": "black pepper meringue (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9268,7 +9277,7 @@ var catalog_raw=[
  {
   "id": "TPFXWESTVNMIJG3NGNPUFOGE",
   "modifier_data": {
-   "name": "blackberry mostarda (v) (gf)",
+   "name": "roasted plums (gf)",
    "price_money": {
     "amount": 75
    }
@@ -9352,7 +9361,7 @@ var catalog_raw=[
  {
   "id": "TBJCJNVWLISW2C6XAZWEOT45",
   "modifier_data": {
-   "name": "butter cake bits",
+   "name": "olive oil cake",
    "price_money": {
     "amount": 75
    }
@@ -9972,6 +9981,15 @@ var catalog_raw=[
    "name": "plum sorbet + honey lavender (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "57A6ID76566ZHSX5DU4ETQYC",
+  "modifier_data": {
+   "name": "house-made SMOLL-ows (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
