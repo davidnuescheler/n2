@@ -10050,5 +10050,65 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "FUJB3JZOPQZ3GRZFLXKS5MBO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "olive oil bubble cake",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "K4GVF73AY5VZQMARKI2EKABS",
+     "item_variation_data": {
+      "item_id": "FUJB3JZOPQZ3GRZFLXKS5MBO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SKN6OUYAC4VOXOQUZ4CD6EDV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "bc the mom is the bomb",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "5CB7QVI45BC5YBWSTYOQCRF3",
+     "item_variation_data": {
+      "item_id": "SKN6OUYAC4VOXOQUZ4CD6EDV",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "RUNLV2WLYXPMLRUT36WXSASH",
+  "type": "ITEM",
+  "item_data": {
+   "name": "macaron ice cream sando pack",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "IZNVN2U2EHATUV2O4VQH3WFJ",
+     "item_variation_data": {
+      "item_id": "RUNLV2WLYXPMLRUT36WXSASH",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1800
+      }
+     }
+    }
+   ]
+  }
  }
 ]
