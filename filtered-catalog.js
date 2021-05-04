@@ -10110,5 +10110,43 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "HDTJEZEA4O2BLHMJ2MHK7YFR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal t-shirt - green",
+   "variations": [
+    {
+     "id": "6C35O6NSQ7HPFO3AOKED5V4E",
+     "item_variation_data": {
+      "item_id": "HDTJEZEA4O2BLHMJ2MHK7YFR",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "IIYILP6JVFFP3LVE6J76SUNR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal t-shirt - cream",
+   "variations": [
+    {
+     "id": "Q67Z5RCPCBQYTG3SI2BJKL4O",
+     "item_variation_data": {
+      "item_id": "IIYILP6JVFFP3LVE6J76SUNR",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
