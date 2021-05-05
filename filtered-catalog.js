@@ -906,7 +906,7 @@ var catalog_raw=[
   "id": "65PZW2R6FQRGLSZ2L66STYCR",
   "type": "ITEM",
   "item_data": {
-   "name": "mocha sando",
+   "name": "choco-latte sando",
    "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
