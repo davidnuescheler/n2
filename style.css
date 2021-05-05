@@ -1335,6 +1335,10 @@ h2#soft-serve ~ h3 {
   line-height: 1.2;
   margin-top: 0.8rem; }
 
+.mothersdayspecials + p {
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
 @media only screen and (max-width: 76.8rem) {
   .menu-filled > * {
     padding-left: 25%;
