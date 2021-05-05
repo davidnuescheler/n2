@@ -1,0 +1,106 @@
+.conebuilder {
+    // border: 2px solid green;
+    display: flex;
+    margin-top: 6rem;
+
+    & .invalid-field {
+        animation-duration: 0.3s;
+        animation-iteration-count: 3;
+    }
+
+    &-form {
+        border: 1px solid currentColor;
+        flex-basis: 66%;
+
+        &-title {
+            margin-bottom: 2rem;
+            padding: 0 4rem;
+        }
+
+        &-body {
+            border-top: 1px solid currentColor;
+
+            & .customize-table-body-selectwrapper {
+                width: 100%;
+            }
+        }
+
+        &-foot {
+            margin: 0 auto;
+            padding: 1.8rem 0;
+            // margin-bottom: 3rem;
+        }
+    }
+
+    &-cone {
+        // border: 2px solid blue;
+        flex-basis: 33%;
+        margin-left: 3rem;
+        position: relative;
+
+        & div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+            & img {
+                width: 100%;
+            }
+        }
+        &-final {
+            margin: 0 auto;
+        }
+        &-flavor {
+            z-index: 2;
+        }
+        &-twist {
+            z-index: 3;
+        }
+        &-dip {
+            z-index: 4;
+        }
+        &-topping {
+            z-index: 5;
+        }
+        // TOPPINGS FLIP
+        &-brownie:nth-child(even),
+        &-cotton:nth-child(even),
+        &-crumble:nth-child(even),
+        &-dots:nth-child(even),
+        &-ganache:nth-child(even),
+        &-jam:nth-child(even),
+        &-peanut:nth-child(even),
+        &-sprinks:nth-child(even),
+        &-sprinkles:nth-child(even) {
+            transform: scaleX(-1);
+        }
+    }
+
+    &-submit {
+        & .invalid-field {
+            animation-duration: 0.3s;
+            animation-iteration-count: 3;
+        }
+        &-makeup {
+            text-align: left;
+        }
+        &-form {
+            margin-top: 1rem;
+            border: 1px solid currentColor;
+            border-top: 0;
+        }
+        &-foot {
+            margin-top: 3rem;
+        }
+    }
+
+    &-confirmation {
+        // border: 2px solid red;
+        font-size: 200%;
+        flex-basis: 66%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

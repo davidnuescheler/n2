@@ -99,6 +99,12 @@
         }
     }
 
+    & .conebuilder-submit-form {
+        & .invalid-field {
+            animation-name: pink-error-blink;
+        }
+    }
+
     & .menu {
         &-filled {
             background: $color-red;
@@ -139,6 +145,6 @@
 
 @keyframes pink-error-blink {
     0% { background: $color-pink; }
-   50% { background: $color-red; }
+   50% { background: $color-yellow !important; }
    99% { background: $color-pink; }
 }

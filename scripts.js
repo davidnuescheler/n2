@@ -95,7 +95,8 @@ const setPage = () => {
       setupDownAnchors();
       break;
     case "cone-builder":
-      console.log("nothing yet~");
+      hideCart();
+      // fetchConeImages();
       break;
     case "merch":
       setCurrentStore();
@@ -160,14 +161,13 @@ const codify = () => {
         setBlockStyle(c, values);
       } else if (key === "color") {
         setBlockTheme(c, values); // set theme class on parent
-      } else if (key === "starburst") {
-        console.log("starburst", values);
-      } else if (key === "starburst-collapse") {
-        // functionality moved to buildCollapsableStarburst func
       } else if (key === "code") {
         switch (values) {
           case "search":
             return buildProductSearch(c);
+          case "cone builder":
+          case "cone-builder":
+            return buildConeBuilder(c);
           default:
             console.log(`${values} code block hasn't been configured yet`);
             break;
@@ -458,6 +458,42 @@ const fetchDeliveryZips = async () => {
   }
   return window.deliveryZips;
 };
+
+const fetchConeImages = async () => {
+  const resp = await fetch("https://api.github.com/repos/davidnuescheler/n2/contents/cone-builder");
+  let json = await resp.json();
+  const images = json.map((j) => {
+    return { name: j.name, url: `https://normal.club/${j.path}`}
+  })
+  console.log(images);
+}
+
+const fetchConeBuilderData = async () => {
+  const resp = await fetch("/_data/cone-builder.json");
+  let json = await resp.json();
+  if (json.data) {
+    json = json.data; // helix quirk, difference between live and local
+  }
+  let coneData = {
+    "flavor": [],
+    "dip": [],
+    "topping": []
+  }
+
+  json.forEach((j) => {
+    if (j.type === "soft serve") {
+      if (!j.flavor.includes("twist")) {
+        coneData.flavor.push(j.flavor);
+      }
+    } else if (j.type === "dip") {
+      coneData.dip.push(j.flavor);
+    } else if (j.type === "topping") {
+      coneData.topping.push(j.flavor);
+    }
+  })
+
+  return coneData;
+}
 
 /*==========================================================
 INDEX PAGE
@@ -1696,6 +1732,489 @@ const showMerchCheckout = () => {
 }
 
 /*==========================================================
+CONE BUILDER PAGE
+==========================================================*/
+
+const buildConeBuilder = ($code) => {
+  const $parent = $code.parentNode.parentNode;
+  if ($parent.nodeName === "DIV") { // TODO: cleanup after breaking changes
+    const $coneBuilderContainer = document.createElement("section");
+      $coneBuilderContainer.classList.add("conebuilder");
+
+    const $customizeForm = document.createElement("div");
+      $customizeForm.classList.add("conebuilder-form");
+      
+    const $customHead = document.createElement("h2");
+      $customHead.classList.add("conebuilder-form-title");
+      $customHead.textContent = "customize your soft serve";
+
+    const $customBody = document.createElement("form");
+      $customBody.classList.add("conebuilder-form-body");
+
+      const $twistWrapper = document.createElement("div");
+        $twistWrapper.classList.add("customize-table-body-checkbox-container");
+
+      const $twistLabel = document.createElement("label");
+        $twistLabel.classList.add("sq-table-body-checkbox-container-optionblock");
+        $twistLabel.setAttribute("for", "twist");
+        $twistLabel.textContent = "make a twist (2 flavors)";
+
+      const $twistOption = document.createElement("input");
+        $twistOption.classList.add("customize-table-body-checkbox-container-optionblock-option");
+        $twistOption.type = "checkbox";
+        $twistOption.id = "twist";
+        $twistOption.name = "twist";
+        $twistOption.value = "twist";
+        $twistOption.onchange = (e) => {
+          const twistOpt = e.target.checked;
+          if (twistOpt) {
+            // add a second flavor dropdown
+            const allFields = getFields( [ "cone-builder-second-flavor" ] );
+
+            const $customForm = document.querySelector(".conebuilder-form-body");
+            const $dipRadio = document.querySelector("#radio-dip");
+
+            allFields.forEach((f) => {
+              // $customBody.append(buildFields("customize", f));
+              $customForm.insertBefore(buildFields("customize", f), $dipRadio);
+            });
+
+            populateConeBuilderForm();
+
+          } else {
+            const cbDropdowns = document.querySelectorAll(".customize-table-body-selectwrapper");
+            // remove second flavor dropdown if exists
+            if (cbDropdowns.length > 1) {
+              cbDropdowns[cbDropdowns.length - 1].remove();
+            }
+            const $twistDiv = document.querySelector(".conebuilder-cone-twist");
+            // remove twist img if exists
+            if ($twistDiv) {
+              $twistDiv.remove()
+            }
+            
+          }
+        }
+
+      const $twistCustom = document.createElement("span");
+        $twistCustom.classList.add("customize-table-body-checkbox-container-optionblock-custom");
+
+      $twistLabel.append($twistOption, $twistCustom);
+      $twistWrapper.append($twistLabel);
+
+      $customBody.append($twistWrapper);
+
+      const allFields = getFields( [ "cone-builder" ] );
+
+      allFields.forEach((f) => {
+        $customBody.append(buildFields("customize", f));
+      });
+
+    const $customFoot = document.createElement("div");
+      $customFoot.classList.add("conebuilder-form-foot");
+
+      const $btn = document.createElement("a");
+      $btn.classList.add("btn-rect");
+      $btn.textContent = "submit";
+      $btn.onclick = async (e) => {
+        const $form = document.querySelector("form");
+        const valid = validateSubmission($form);
+        if (valid) {
+          buildScreensaver("building your custom cone...");
+          const formData = await getSubmissionData($form);
+          await prepConeBuilderSubmit();
+          await buildConeBuilderSubmit(formData);
+          removeScreensaver();
+        } else {
+          console.error("please fill out all required fields!");
+        }
+      }
+
+      $customFoot.append($btn);
+
+    $customizeForm.append($customHead, $customBody, $customFoot);
+
+    const $coneSidebar = document.createElement("div");
+      $coneSidebar.id = "conebuilder-cone";
+      $coneSidebar.classList.add("conebuilder-cone");
+
+      const imgPath = `https://normal.club/cone-builder/cone-back.png`;
+
+      const $vesselDiv = document.createElement("div");
+        $vesselDiv.classList.add("conebuilder-cone-vessel");
+      const $vesselImg = document.createElement("img");
+        $vesselImg.setAttribute("src", imgPath);
+        $vesselImg.setAttribute("alt", "cone");
+    
+      $vesselDiv.append($vesselImg);
+      $coneSidebar.append($vesselDiv);
+
+    $coneBuilderContainer.append($customizeForm, $coneSidebar);
+    $parent.append($coneBuilderContainer);
+
+    populateConeBuilderForm();
+    
+  }
+}
+
+const populateConeBuilderForm = async () => {
+  const coneData = await fetchConeBuilderData();  
+
+  // FLAVORS
+  const $flavorDropdown = document.querySelector("#flavor");
+  if ($flavorDropdown.options.length === 1) {
+    populateOptions($flavorDropdown, coneData.flavor);
+    setupConeBuilderFlavor();
+  }
+  
+  const $secondFlavorDropdown = document.querySelector("#secondflavor");
+  if ($secondFlavorDropdown) {
+    if ($secondFlavorDropdown.options.length === 1) {
+      populateOptions($secondFlavorDropdown, coneData.flavor);
+      setupConeBuilderTwist();
+    }
+  }
+  
+  // DIPS
+  const $dipContainer = document.querySelector("#radio-dip");
+    const $dipOptions = $dipContainer.childNodes[1];
+
+    if ($dipOptions.childNodes.length === 1) {
+      
+      coneData.dip.forEach((d) => {
+        const $label = document.createElement("label");
+          $label.classList.add(`customize-table-body-radio-container-optionblock`);
+          $label.setAttribute("for", cleanName(d));
+          $label.textContent = d;
+
+        const $customEl = document.createElement("span");
+          $customEl.classList.add(`customize-table-body-radio-container-optionblock-custom`);
+
+        const $option = document.createElement("input");
+          $option.classList.add(`customize-table-body-radio-container-optionblock-option`);
+          $option.id = cleanName(d);
+          $option.name = "dip";
+          $option.type = "radio";
+          $option.value = d;
+
+        $label.append($option, $customEl);    
+        $dipOptions.append($label);
+      })
+
+      const dipArr = [ ...$dipOptions.getElementsByTagName("label") ];
+      dipArr.forEach((d) => {
+        d.onclick = (e) => {
+          const thisDip = e.target.closest("input");
+          if (thisDip) {
+            const value = thisDip.id;
+            const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-dip.png`;
+            const $coneSidebar = document.querySelector("#conebuilder-cone");
+            const $dipDiv = document.querySelector(".conebuilder-cone-dip");
+
+            if (value === "nodip" && $dipDiv) {
+              $dipDiv.remove();
+            } else if ($dipDiv) {
+              // change dip div
+              const $img = $dipDiv.childNodes[0];
+                $img.setAttribute("src", imgPath);
+                $img.setAttribute("alt", `${value} dip`);
+            } else {
+              // create dip div
+              const $newDipDiv = document.createElement("div");
+                $newDipDiv.classList.add("conebuilder-cone-dip");
+              const $dipImg = document.createElement("img");
+                $dipImg.setAttribute("src", imgPath);
+                $dipImg.setAttribute("alt", `${value} dip`);
+
+              $newDipDiv.append($dipImg);
+              $coneSidebar.append($newDipDiv);
+            }
+          }
+        }
+      })
+    }
+
+  // TOPPINGS
+  const $toppingContainer = document.querySelector("#checkbox-toppings");
+    const $toppingOptions = $toppingContainer.childNodes[1];
+
+    if ($toppingOptions.childNodes.length < 1) {
+      coneData.topping.forEach((t) => {
+  
+        const $label = document.createElement("label");
+          $label.classList.add(`customize-table-body-checkbox-container-optionblock`);
+          $label.setAttribute("for", cleanName(t));
+          $label.textContent = t;
+  
+        const $customEl = document.createElement("span");
+          $customEl.classList.add(`customize-table-body-checkbox-container-optionblock-custom`);
+        
+        const $option = document.createElement("input");
+          $option.classList.add(`customize-table-body-checkbox-container-optionblock-option`);
+          $option.id = cleanName(t);
+          $option.name = "topping";
+          $option.type = "checkbox";
+          $option.value = t;
+  
+        $label.append($option, $customEl);      
+        $toppingOptions.append($label);
+      })      
+      customizeToolforConeBuilder();
+    }
+
+}
+
+const customizeToolforConeBuilder = () => {
+  // limit soft serve toppings
+  const $toppingCheckboxes = document.querySelectorAll("input[name=topping]");
+  if ($toppingCheckboxes) {
+    $toppingCheckboxes.forEach((c) => {
+      c.onchange = (e) => {
+        const max = 3;
+        const $cbs =  [ ...document.querySelectorAll("input[name=topping]")];
+        const numChecked = $cbs.filter((c) => c.checked).length;
+        const thisTopping = e.target.closest("input");
+        const checked = thisTopping.checked;
+        const fullVal = thisTopping.id;
+        const value = thisTopping.value;
+        const valuesArr = thisTopping.value.split(" ");
+          valuesArr.push("topping", fullVal);
+
+        const imgPath = `https://normal.club/cone-builder/${cleanName(fullVal)}-topping.png`;
+        const $coneSidebar = document.querySelector("#conebuilder-cone");
+        const $toppingDiv = document.querySelector(`.conebuilder-cone-${fullVal}`);
+      
+        if (numChecked === max) { // max checkboxes checked
+          $cbs.forEach((c) => {
+            if (!c.checked) { c.disabled = true }; // disable checkboxes
+          })
+        } else { 
+          $cbs.forEach((c) => {
+            c.disabled = false; // enable checkboxes
+          })
+        }
+
+        if (checked && !$toppingDiv) {
+          // create topping
+          const $newToppingDiv = document.createElement("div");
+
+          valuesArr.forEach((v) => {
+            $newToppingDiv.classList.add(`conebuilder-cone-${v}`);
+          })
+          const $toppingImg = document.createElement("img");
+            $toppingImg.setAttribute("src", imgPath);
+            $toppingImg.setAttribute("alt", `${value} topping`);
+
+          $newToppingDiv.append($toppingImg);
+          $coneSidebar.append($newToppingDiv);
+
+        } else if (!checked && $toppingDiv) {
+          $toppingDiv.remove();
+        }
+      }
+
+    })
+  }
+}
+
+const setupConeBuilderFlavor = () => {
+  // FLAVORS
+  const $flavorDropdown = document.querySelector("#flavor");
+  $flavorDropdown.onchange = (e) => {
+    const value = e.target.value;
+    const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-soft-serve.png`;
+    const $coneSidebar = document.querySelector("#conebuilder-cone");
+
+    const $flavorDiv = document.querySelector(".conebuilder-cone-flavor");
+
+    if ($flavorDiv) {
+      const $img = $flavorDiv.childNodes[0];
+        $img.setAttribute("src", imgPath);
+        $img.setAttribute("alt", `${value} soft serve`);
+    } else {
+      const $newFlavorDiv = document.createElement("div");
+        $newFlavorDiv.classList.add("conebuilder-cone-flavor");
+      const $flavorImg = document.createElement("img");
+        $flavorImg.setAttribute("src", imgPath);
+        $flavorImg.setAttribute("alt", `${value} soft serve`);
+
+      $newFlavorDiv.append($flavorImg);
+      $coneSidebar.append($newFlavorDiv);
+    }
+    
+  }
+}
+
+const setupConeBuilderTwist = () => {
+  // FLAVORS
+  const $twistDropdown = document.querySelector("#secondflavor");
+  $twistDropdown.onchange = (e) => {
+    const value = e.target.value;
+    const imgPath = `https://normal.club/cone-builder/${cleanName(value)}-twist.png`;
+    const $coneSidebar = document.querySelector("#conebuilder-cone");
+
+    const $twistDiv = document.querySelector(".conebuilder-cone-twist");
+
+    if ($twistDiv) {
+      const $img = $twistDiv.childNodes[0];
+        $img.setAttribute("src", imgPath);
+        $img.setAttribute("alt", `${value} twist`);
+    } else {
+      const $newTwistDiv = document.createElement("div");
+        $newTwistDiv.classList.add("conebuilder-cone-twist");
+      const $twistImg = document.createElement("img");
+        $twistImg.setAttribute("src", imgPath);
+        $twistImg.setAttribute("alt", `${value} twist`);
+
+      $newTwistDiv.append($twistImg);
+      $coneSidebar.append($newTwistDiv);
+    }
+    
+  }
+}
+
+const prepConeBuilderSubmit = () => {
+  const coneBuilderForm = document.querySelector(".conebuilder-form");
+    coneBuilderForm.classList.add("hide");
+
+  const coneBuilderCone = document.querySelector(".conebuilder-cone");
+  const coneBuilderVessel = document.querySelector(".conebuilder-cone-vessel");
+    const coneHeight = coneBuilderVessel.offsetHeight;
+    coneBuilderCone.style.height = `${coneHeight}px`;
+    coneBuilderCone.classList.add("conebuilder-cone-final");
+
+  
+}
+
+const buildConeBuilderSubmit = (formData) => {
+
+  const $coneBuilderContainer = document.querySelector(".conebuilder");
+
+  const $coneBuilderSubmitContainer = document.createElement("div");
+    $coneBuilderSubmitContainer.classList.add("conebuilder-submit");
+
+  const $coneBuilderTitle = document.createElement("p");
+    $coneBuilderTitle.classList.add("conebuilder-submit-makeup");
+      const flavor = formData.twist ? `${formData.flavor} + ${formData.secondflavor} twist` : formData.flavor;
+    $coneBuilderTitle.setAttribute("data-flavor", flavor);
+    $coneBuilderTitle.setAttribute("data-dip", formData.dip);
+      const toppings = formData.topping ? formData.topping.join(", ") : "no toppings";
+    $coneBuilderTitle.setAttribute("data-topping", toppings);
+    $coneBuilderTitle.textContent = generateConeMakeup(formData);
+
+  const $coneBuilderSubmit = document.createElement("form");
+    $coneBuilderSubmit.classList.add("conebuilder-submit-form");
+
+    const fieldsArr = [ "contact", "cone-builder-title" ];
+    let allFields = getFields(fieldsArr);
+  
+    allFields.forEach((f) => {
+      $coneBuilderSubmit.append(buildFields("checkout", f));
+    });
+
+  const $coneBuilderSubmitFoot = document.createElement("div");
+    $coneBuilderSubmitFoot.classList.add("conebuilder-submit-foot");
+
+  const $btn = document.createElement("a");
+    $btn.classList.add("btn-rect");
+    $btn.textContent = "submit";
+    $btn.onclick = async (e) => {
+      const $form = document.querySelector(".conebuilder-submit-form");
+      const valid = validateSubmission($form);
+      if (valid) {
+        buildScreensaver("submitting your custom cone...");
+        const formData = await getSubmissionData($form);
+        await submitCone(formData);
+        await coneSubmissionConfirmation(formData.title);
+        console.log(`build submission confirmation`);
+        removeScreensaver();
+      } else {
+        console.error("please fill out all required fields!");
+      }
+    }
+
+    $coneBuilderSubmitFoot.append($btn);
+
+  $coneBuilderSubmitContainer.append($coneBuilderTitle, $coneBuilderSubmit, $coneBuilderSubmitFoot);
+  $coneBuilderContainer.parentNode.insertBefore($coneBuilderSubmitContainer, $coneBuilderContainer.nextSibling);
+  getContactFromLocalStorage();
+}
+
+const generateConeMakeup = (formData) => {
+  let coneMakeup = "";
+  if (formData.twist) {
+    coneMakeup += `${formData.flavor} + ${formData.secondflavor} twist`;
+  } else {
+    coneMakeup += `${formData.flavor} cone`;
+  }
+
+  if (formData.dip !== "no dip") {
+    coneMakeup += ` in ${formData.dip} dip`;
+  }
+
+  if (formData.topping) {
+    switch (formData.topping.length) {
+      case 1: 
+        coneMakeup += ` with ${formData.topping[0]}`
+        break;
+      case 2:
+        coneMakeup += ` with ${formData.topping[0]} and ${formData.topping[1]}`
+        break;
+      default:
+        coneMakeup += ` with ${formData.topping[0]}, ${formData.topping[1]}, and ${formData.topping[2]}`
+        break;
+    }
+  }
+  return coneMakeup;
+}
+
+const submitCone = async (formData) => {
+  const $makeup = document.querySelector(".conebuilder-submit-makeup");
+    const flavor = $makeup.getAttribute("data-flavor");
+    const dip = $makeup.getAttribute("data-dip");
+    const toppings = $makeup.getAttribute("data-topping") || "none";
+  formData = { ...formData, flavor, dip, toppings}
+
+  let params = "";
+  for (prop in formData) {
+    params += prop + "=" + encodeURIComponent(formData[prop]);
+    params += "&";
+  }
+
+  const url = `https://script.google.com/macros/s/AKfycbwqkZ641gi2WOVt6m7gFVM_biS8TowSjgQMiQaOKV0olwS6cUma5iIalVjwtA1zD5Hp/exec?${params}`;
+  let resp = await fetch(url, { method: "POST", mode: "no-cors" });
+  return resp;
+}
+
+const coneSubmissionConfirmation = (title) => {
+  const $cone = document.getElementById("conebuilder-cone");
+    $cone.classList.remove("conebuilder-cone-final");
+
+  const $submitForm = document.querySelector(".conebuilder-submit-form");
+    $submitForm.remove();
+  const $submitFoot = document.querySelector(".conebuilder-submit-foot");
+    $submitFoot.remove();
+
+  const $coneBuilder = document.querySelector(".conebuilder");
+  
+  const $confirmation = document.createElement("div");
+    $confirmation.classList.add("conebuilder-confirmation");
+    $confirmation.innerHTML = 
+      `<p>your <u>${title}</u> was submitted!</p>
+      <p>we'll contact you if you win. good luck!`;
+
+  const $resubmitBtn = document.createElement("button");
+    $resubmitBtn.classList.add("btn-rect");
+    $resubmitBtn.textContent = "submit another";
+    $resubmitBtn.onclick = () => {
+      location.reload();
+    }
+
+  $confirmation.append($resubmitBtn);
+  $coneBuilder.append($confirmation);
+}
+
+/*==========================================================
 CUSTOMIZATION TOOL
 ==========================================================*/
 const buildCustomizationTool = () => {
@@ -2337,8 +2856,26 @@ const getFields = (fields) => {
         allFields.push(
           { title: "payment-option", type: "checkbox", label: "pay with gift card?", options: [ "pay with gift card?" ]}
         )
+        break;
+      case "cone-builder":
+        allFields.push(
+          { title: "flavor", type: "select", placeholder: "select your flavor", src: "coneBuilderFlavors" },
+          { title: "dip", type: "radio", label: "dip", options: [ "no dip" ] },
+          { title: "toppings", type: "checkbox", label: "select topping (up to 3)", options: [], src: "coneBuilderTopping" }
+        )
+        break;
+      case "cone-builder-second-flavor":
+        allFields.push(
+          { title: "second-flavor", type: "select", placeholder: "select your second flavor", src: "coneBuilderFlavors" }
+        )
+        break;
+      case "cone-builder-title":
+        allFields.push(
+          { title: "title", type: "text", placeholder: "name your creation", required: true }
+        )
+        break;
       default:
-        console.error("hey normal, you tried to build a form with an invalid field");
+        console.error("hey normal, you tried to build a form with an invalid field:", f);
         break;
     }
   })
@@ -4055,9 +4592,9 @@ window.onload = async (e) => {
   lazyLoad();
 
   setPage();  
-  // buildCollapsableStarbursts();
-  // buildLinkStarbursts();
-  // buildStaticStarbursts();
+  buildCollapsableStarbursts();
+  buildLinkStarbursts();
+  buildStaticStarbursts();
   buildCheckoutTool(); // needs to be on all the pages
   
   // setup header
