@@ -3772,6 +3772,26 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "FENJL2ZAB773YX3F437FBB73",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "mirabelle plum sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DUOOD5GDJC5QVBH6JFP3S5PP",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "mirabelle plum sorbet + honey lavender TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
