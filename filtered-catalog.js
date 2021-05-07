@@ -1970,7 +1970,16 @@ var catalog_raw=[
     {
      "id": "HOLFIMRU4ZBHQH2SDVVCCOZM",
      "modifier_data": {
-      "name": "plum sorbet + honey lavender TWIST (gf)",
+      "name": "mirabelle plum sorbet + honey lavender TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "4A4TWVTBNHQ6ZWFTFDBOSHWQ",
+     "modifier_data": {
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2457,6 +2466,24 @@ var catalog_raw=[
      "id": "W3EIUIXD7DUXGPN5IRFNQ2CQ",
      "modifier_data": {
       "name": "honey lavender (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UYNLERWSHM7R4HHYG7JPMYAM",
+     "modifier_data": {
+      "name": "mirabelle plum sorbet + honey lavender TWIST (gf) ",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FKPN4XSA2NZYAIPTUSIVTZLX",
+     "modifier_data": {
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9951,7 +9978,7 @@ var catalog_raw=[
  {
   "id": "HOLFIMRU4ZBHQH2SDVVCCOZM",
   "modifier_data": {
-   "name": "plum sorbet + honey lavender TWIST (gf)",
+   "name": "mirabelle plum sorbet + honey lavender TWIST (gf)",
    "price_money": {
     "amount": 0
    }
@@ -10073,6 +10100,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "4A4TWVTBNHQ6ZWFTFDBOSHWQ",
+  "modifier_data": {
+   "name": "mirabelle plum sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UYNLERWSHM7R4HHYG7JPMYAM",
+  "modifier_data": {
+   "name": "mirabelle plum sorbet + honey lavender TWIST (gf) ",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FKPN4XSA2NZYAIPTUSIVTZLX",
+  "modifier_data": {
+   "name": "mirabelle plum sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
   }
  }
 ]
