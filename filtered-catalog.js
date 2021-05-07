@@ -2474,7 +2474,7 @@ var catalog_raw=[
     {
      "id": "UYNLERWSHM7R4HHYG7JPMYAM",
      "modifier_data": {
-      "name": "mirabelle plum sorbet + honey lavender TWIST (gf) ",
+      "name": "mirabelle plum sorbet + honey lavender TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -10134,7 +10134,7 @@ var catalog_raw=[
  {
   "id": "UYNLERWSHM7R4HHYG7JPMYAM",
   "modifier_data": {
-   "name": "mirabelle plum sorbet + honey lavender TWIST (gf) ",
+   "name": "mirabelle plum sorbet + honey lavender TWIST (gf)",
    "price_money": {
     "amount": 300
    }
