@@ -2409,9 +2409,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BHXNQDYS5YHTSS7UMAN3NEDG",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "K7PU37Z3FQJKAVJZRU3DGKQ7",
      "modifier_data": {
       "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "JDBOBT6KMECCW3ZI7A4364LK",
+     "modifier_data": {
+      "name": "salted vanilla bean + blood orange TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -10112,6 +10130,24 @@ var catalog_raw=[
    "name": "salted vanilla bean + blood orange TWIST (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "BHXNQDYS5YHTSS7UMAN3NEDG",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "JDBOBT6KMECCW3ZI7A4364LK",
+  "modifier_data": {
+   "name": "salted vanilla bean + blood orange TWIST (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
