@@ -254,6 +254,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "X2OUAJPH3BHEF6UKCNLJMWVC",
+     "modifier_data": {
+      "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -10146,6 +10155,15 @@ var catalog_raw=[
    "name": "mirabelle plum sorbet (v) (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "X2OUAJPH3BHEF6UKCNLJMWVC",
+  "modifier_data": {
+   "name": "normal sprinks (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
