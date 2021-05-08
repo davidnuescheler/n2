@@ -10098,6 +10098,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal t-shirt - green",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "6C35O6NSQ7HPFO3AOKED5V4E",
@@ -10117,6 +10118,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal t-shirt - cream",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "Q67Z5RCPCBQYTG3SI2BJKL4O",
