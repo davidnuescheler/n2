@@ -238,15 +238,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TPFXWESTVNMIJG3NGNPUFOGE",
-     "modifier_data": {
-      "name": "roasted plums (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "57A6ID76566ZHSX5DU4ETQYC",
      "modifier_data": {
       "name": "house-made SMOLL-ows (gf)",
@@ -1905,27 +1896,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "C65WZY5CPET54EX73HDUZS2Z",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "T7Y7ATH2M4VUVOLAS6ORUV5L",
      "modifier_data": {
       "name": "blood orange sorbet (v) (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "E4MPI5QQOPRTZLWUB6B5TUWE",
-     "modifier_data": {
-      "name": "salted vanilla bean + blood orange TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9257,15 +9230,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TPFXWESTVNMIJG3NGNPUFOGE",
-  "modifier_data": {
-   "name": "roasted plums (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "OI5BJT3M4S5RJD35WDDFIDWH",
   "modifier_data": {
    "name": "blackberry mostarda (v) (gf)",
@@ -10074,24 +10038,6 @@ var catalog_raw=[
    "name": "mirabelle plum sorbet (v) (gf)",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "C65WZY5CPET54EX73HDUZS2Z",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "E4MPI5QQOPRTZLWUB6B5TUWE",
-  "modifier_data": {
-   "name": "salted vanilla bean + blood orange TWIST (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  }
