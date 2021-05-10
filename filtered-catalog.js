@@ -2657,6 +2657,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "ULGSRSBZ5ZJPCWQPVOM6BWCQ",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -10020,6 +10029,15 @@ var catalog_raw=[
    "name": "mirabelle plum sorbet (v) (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ULGSRSBZ5ZJPCWQPVOM6BWCQ",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
    }
   }
  }
