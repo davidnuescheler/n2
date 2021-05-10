@@ -2657,15 +2657,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "OHAWJ7X577FQFXPGDUJIEL7M",
-     "modifier_data": {
-      "name": "dark chocolate (v)",
-      "price_money": {
-       "amount": 100
-      }
-     }
     }
    ]
   }
@@ -9319,15 +9310,6 @@ var catalog_raw=[
    "name": "chocolate sprinks (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "OHAWJ7X577FQFXPGDUJIEL7M",
-  "modifier_data": {
-   "name": "dark chocolate (v)",
-   "price_money": {
-    "amount": 100
    }
   }
  },
