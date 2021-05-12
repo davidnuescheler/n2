@@ -254,6 +254,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
+     "modifier_data": {
+      "name": "mandarin drizzle (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -10146,6 +10155,15 @@ var catalog_raw=[
   "id": "6O2W4XXTMXEJU2RJ6CKCWZJO",
   "modifier_data": {
    "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
+  "modifier_data": {
+   "name": "mandarin drizzle (gf)",
    "price_money": {
     "amount": 75
    }
