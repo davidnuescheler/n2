@@ -10168,5 +10168,24 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "KLW2T57GCYSCIBAFR7MIF3XQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "Tyler",
+   "variations": [
+    {
+     "id": "WOETHUWNFIYDYPL7IMPFSSSW",
+     "item_variation_data": {
+      "item_id": "KLW2T57GCYSCIBAFR7MIF3XQ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
