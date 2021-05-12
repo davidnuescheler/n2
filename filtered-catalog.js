@@ -245,6 +245,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "6O2W4XXTMXEJU2RJ6CKCWZJO",
+     "modifier_data": {
+      "name": "chocolate sprinks (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -10130,6 +10139,15 @@ var catalog_raw=[
    "name": "salted vanilla bean + blood orange sorbet (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "6O2W4XXTMXEJU2RJ6CKCWZJO",
+  "modifier_data": {
+   "name": "chocolate sprinks (v) (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
