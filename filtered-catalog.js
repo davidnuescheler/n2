@@ -157,6 +157,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "C2NLYYCVWYUDFXWTSK5SDT3N",
+     "modifier_data": {
+      "name": "normal sprinks (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "YZ2Z42XQLPHU4KZ4UMHT7AXO",
      "modifier_data": {
       "name": "fruity pebbles (v) (gf)",
@@ -241,15 +250,6 @@ var catalog_raw=[
      "id": "57A6ID76566ZHSX5DU4ETQYC",
      "modifier_data": {
       "name": "house-made SMOLL-ows (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "6O2W4XXTMXEJU2RJ6CKCWZJO",
-     "modifier_data": {
-      "name": "chocolate sprinks (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -10152,18 +10152,18 @@ var catalog_raw=[
   }
  },
  {
-  "id": "6O2W4XXTMXEJU2RJ6CKCWZJO",
+  "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
   "modifier_data": {
-   "name": "chocolate sprinks (v) (gf)",
+   "name": "mandarin drizzle (gf)",
    "price_money": {
     "amount": 75
    }
   }
  },
  {
-  "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
+  "id": "C2NLYYCVWYUDFXWTSK5SDT3N",
   "modifier_data": {
-   "name": "mandarin drizzle (gf)",
+   "name": "normal sprinks (gf)",
    "price_money": {
     "amount": 75
    }
