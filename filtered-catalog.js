@@ -10187,5 +10187,95 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "4ZPSBGDZXPNYZS75MGXK5UU7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal pocket t-shirt - cream",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "XHWBOM2A3V66XPEZOF347WE5",
+     "item_variation_data": {
+      "item_id": "4ZPSBGDZXPNYZS75MGXK5UU7",
+      "name": "small",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "ZIBUEMQKV6QAE2KI7S5U5Z7C",
+     "item_variation_data": {
+      "item_id": "4ZPSBGDZXPNYZS75MGXK5UU7",
+      "name": "medium",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "S2G6VQO3MELI4B2ZGVAEGYTL",
+     "item_variation_data": {
+      "item_id": "4ZPSBGDZXPNYZS75MGXK5UU7",
+      "name": "extra large",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZNMFBCIBF4OBZR4AW2KSCIKP",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal pocket t-shirt - green",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "JH42GAKMIZZEEK3SZ5TWEC3A",
+     "item_variation_data": {
+      "item_id": "ZNMFBCIBF4OBZR4AW2KSCIKP",
+      "name": "small",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "C5KU6NK7RMIKIXY6INQGAUHS",
+     "item_variation_data": {
+      "item_id": "ZNMFBCIBF4OBZR4AW2KSCIKP",
+      "name": "medium",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "AA5E5XQNMGT7DPLPYOGLDMCW",
+     "item_variation_data": {
+      "item_id": "ZNMFBCIBF4OBZR4AW2KSCIKP",
+      "name": "large",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "NKA77N4EC7AHWNLWPYLGTACS",
+     "item_variation_data": {
+      "item_id": "ZNMFBCIBF4OBZR4AW2KSCIKP",
+      "name": "extra large",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
