@@ -220,6 +220,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
+     "modifier_data": {
+      "name": "blood orange drizzle (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
      "modifier_data": {
       "name": "olive oil powder (v) (gf)",
@@ -250,15 +259,6 @@ var catalog_raw=[
      "id": "57A6ID76566ZHSX5DU4ETQYC",
      "modifier_data": {
       "name": "house-made SMOLL-ows (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
-     "modifier_data": {
-      "name": "mandarin drizzle (gf)",
       "price_money": {
        "amount": 75
       }
@@ -10154,7 +10154,7 @@ var catalog_raw=[
  {
   "id": "OPFBRCNKKALC3IZ5C2KXECTJ",
   "modifier_data": {
-   "name": "mandarin drizzle (gf)",
+   "name": "blood orange drizzle (v) (gf)",
    "price_money": {
     "amount": 75
    }
