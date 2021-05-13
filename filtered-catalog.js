@@ -5721,29 +5721,9 @@ var catalog_raw=[
   "id": "QN7B324UVJPUUYIKP5HYM25C",
   "type": "ITEM",
   "item_data": {
-   "name": "a NORMAL® BEANIE",
+   "name": "normal® beanie - lavender",
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
-    {
-     "id": "Q43SBMBB7WWJUDUMBJX2N2DE",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "neon yellow + white cone",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
-    {
-     "id": "QIUM25EZNJFYV7CJHIPD4EX5",
-     "item_variation_data": {
-      "item_id": "QN7B324UVJPUUYIKP5HYM25C",
-      "name": "pink + spicy kumquat smiley",
-      "price_money": {
-       "amount": 1500
-      }
-     }
-    },
     {
      "id": "52DBWXHXWEDAH2BU334K2YWS",
      "item_variation_data": {
@@ -10272,6 +10252,26 @@ var catalog_raw=[
       "name": "extra large",
       "price_money": {
        "amount": 3000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SOY6VIJLBMZTL3GZJTQ4FRWT",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® beanie - pink",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "MRKQ72X7GK7EO4PWTPUXMI2N",
+     "item_variation_data": {
+      "item_id": "SOY6VIJLBMZTL3GZJTQ4FRWT",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1500
       }
      }
     }
