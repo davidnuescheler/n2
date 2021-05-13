@@ -10277,5 +10277,45 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "SRVUBGC2IOJRMIQYPFLFGITC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® beanie - neon yellow",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "JH6AXNQFDPWKQC6K6JPI25FD",
+     "item_variation_data": {
+      "item_id": "SRVUBGC2IOJRMIQYPFLFGITC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "QKBF6QNIESQICZKZ2MYQZU7A",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal® beanie - black",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+   "variations": [
+    {
+     "id": "G7DSEZ2XGRJEE6R7WD3UUYXE",
+     "item_variation_data": {
+      "item_id": "QKBF6QNIESQICZKZ2MYQZU7A",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
