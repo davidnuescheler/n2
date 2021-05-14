@@ -3679,16 +3679,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZMP7K36PJNL6LGOBLHYC7JOB",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "X6YHL4YNSOEZHBQKDYLZCXO3",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
