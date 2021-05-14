@@ -1941,6 +1941,33 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IT6WV5Y6OUUIQLNY4KTRKD2N",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VBI7DNFYTEQAEDRYCFB56GJH",
+     "modifier_data": {
+      "name": "salted vanilla bean + blood orange sorbet TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "G34EASGR7MTDPIFCLNLCJJMV",
      "modifier_data": {
       "name": "honey lavender (gf)",
@@ -2418,6 +2445,33 @@ var catalog_raw=[
      }
     },
     {
+     "id": "DODS232NWQHNJ3IF7ZWRL46W",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "JWUWM3BNUF4OQGILMTMMX65N",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4PF3C5IYHJJXPESNI6ZGDOMJ",
+     "modifier_data": {
+      "name": "salted vanilla bean + blood orange sorbet TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "W3EIUIXD7DUXGPN5IRFNQ2CQ",
      "modifier_data": {
       "name": "honey lavender (gf)",
@@ -2439,24 +2493,6 @@ var catalog_raw=[
      "id": "FKPN4XSA2NZYAIPTUSIVTZLX",
      "modifier_data": {
       "name": "mirabelle plum sorbet (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "DODS232NWQHNJ3IF7ZWRL46W",
-     "modifier_data": {
-      "name": "salted vanilla bean ",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JWUWM3BNUF4OQGILMTMMX65N",
-     "modifier_data": {
-      "name": "blood orange sorbet ",
       "price_money": {
        "amount": 300
       }
@@ -3701,6 +3737,36 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "banana + milk chocolate TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "3X6BBEPSNONRJGSROX6TCC7T",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "KIMTEYNCHQFRYAXQMYCVDZ7Y",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5Q54GETEJY4SVYVDASHTX5JW",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + blood orange sorbet TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -10201,7 +10267,7 @@ var catalog_raw=[
  {
   "id": "DODS232NWQHNJ3IF7ZWRL46W",
   "modifier_data": {
-   "name": "salted vanilla bean ",
+   "name": "salted vanilla bean (gf)",
    "price_money": {
     "amount": 300
    }
@@ -10210,9 +10276,45 @@ var catalog_raw=[
  {
   "id": "JWUWM3BNUF4OQGILMTMMX65N",
   "modifier_data": {
-   "name": "blood orange sorbet ",
+   "name": "blood orange sorbet (v) (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "4PF3C5IYHJJXPESNI6ZGDOMJ",
+  "modifier_data": {
+   "name": "salted vanilla bean + blood orange sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+  "modifier_data": {
+   "name": "salted vanilla bean (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IT6WV5Y6OUUIQLNY4KTRKD2N",
+  "modifier_data": {
+   "name": "blood orange sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "VBI7DNFYTEQAEDRYCFB56GJH",
+  "modifier_data": {
+   "name": "salted vanilla bean + blood orange sorbet TWIST (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
