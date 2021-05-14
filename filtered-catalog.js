@@ -3677,6 +3677,16 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "3X6BBEPSNONRJGSROX6TCC7T",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "7KISTMLN7JEUZZP5AWV2KAWS",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3707,10 +3717,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3X6BBEPSNONRJGSROX6TCC7T",
+     "id": "FENJL2ZAB773YX3F437FBB73",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
@@ -3721,16 +3731,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "honey lavender (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "FENJL2ZAB773YX3F437FBB73",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
