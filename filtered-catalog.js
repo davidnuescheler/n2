@@ -1914,15 +1914,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "R2L7F6YADB7JNOZWPQ5MCHVZ",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "O3KJCFRNAWMMPYRKKEJAMVGG",
      "modifier_data": {
       "name": "banana (gf)",
@@ -2396,15 +2387,6 @@ var catalog_raw=[
       "name": "no soft serve",
       "price_money": {
        "amount": 0
-      }
-     }
-    },
-    {
-     "id": "KS6UUTZD5GUG25VRZKTVP4LW",
-     "modifier_data": {
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
       }
      }
     },
@@ -3677,16 +3659,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "ZMP7K36PJNL6LGOBLHYC7JOB",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "7KISTMLN7JEUZZP5AWV2KAWS",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3701,6 +3673,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ZMP7K36PJNL6LGOBLHYC7JOB",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -10018,24 +10000,6 @@ var catalog_raw=[
    "name": "dark chocolate",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "KS6UUTZD5GUG25VRZKTVP4LW",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "R2L7F6YADB7JNOZWPQ5MCHVZ",
-  "modifier_data": {
-   "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
    }
   }
  },
