@@ -1304,22 +1304,22 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA wuri",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "EXSYWK42GHQENHXOB7QT5MGZ",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "select your varietal",
       "price_money": {
        "amount": 0
+      }
+     }
+    },
+    {
+     "id": "SSSN5YNAEMIRHOG6DTMNSETV",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 1600
       }
      }
     },
