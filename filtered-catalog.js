@@ -1948,6 +1948,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "GIGNODWMAL7M4YEKD2S4DJNX",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -2403,6 +2412,15 @@ var catalog_raw=[
      "id": "DODS232NWQHNJ3IF7ZWRL46W",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "BFR5JTPQGAYAJFTMPJBLCRBW",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -10085,6 +10103,24 @@ var catalog_raw=[
    "name": "milk chocolate + banana TWIST (gf)",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "BFR5JTPQGAYAJFTMPJBLCRBW",
+  "modifier_data": {
+   "name": "blood orange sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "GIGNODWMAL7M4YEKD2S4DJNX",
+  "modifier_data": {
+   "name": "blood orange sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
    }
   }
  }
