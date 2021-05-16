@@ -1914,9 +1914,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+     "id": "YRIKAVTWVTPH6VLC5UHETU3M",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 0
       }
@@ -1926,6 +1926,15 @@ var catalog_raw=[
      "id": "O3KJCFRNAWMMPYRKKEJAMVGG",
      "modifier_data": {
       "name": "banana (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2364,9 +2373,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DODS232NWQHNJ3IF7ZWRL46W",
+     "id": "J6ZAA6J7Q6XHP225DUVHTL25",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "milk chocolate (gf)",
       "price_money": {
        "amount": 300
       }
@@ -2376,6 +2385,15 @@ var catalog_raw=[
      "id": "74HNMS2HMHIIP5GZEVUVHZLS",
      "modifier_data": {
       "name": "banana (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "DODS232NWQHNJ3IF7ZWRL46W",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 300
       }
@@ -10039,6 +10057,24 @@ var catalog_raw=[
    "name": "honey lavender (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YRIKAVTWVTPH6VLC5UHETU3M",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "J6ZAA6J7Q6XHP225DUVHTL25",
+  "modifier_data": {
+   "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
