@@ -1932,6 +1932,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "5GQ5S3VHPUBCHTGZYRDWJNB5",
+     "modifier_data": {
+      "name": "milk chocolate + banana TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "UZ5XDJCRUXTSZ47VUZCS727R",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
@@ -2376,6 +2385,15 @@ var catalog_raw=[
      "id": "74HNMS2HMHIIP5GZEVUVHZLS",
      "modifier_data": {
       "name": "banana (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "PA6FBZZBAUAYFIPJOKHDSHOH",
+     "modifier_data": {
+      "name": "milk chocolate + banana TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -10047,6 +10065,24 @@ var catalog_raw=[
   "id": "J6ZAA6J7Q6XHP225DUVHTL25",
   "modifier_data": {
    "name": "milk chocolate (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "5GQ5S3VHPUBCHTGZYRDWJNB5",
+  "modifier_data": {
+   "name": "milk chocolate + banana TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PA6FBZZBAUAYFIPJOKHDSHOH",
+  "modifier_data": {
+   "name": "milk chocolate + banana TWIST (gf)",
    "price_money": {
     "amount": 300
    }
