@@ -1939,15 +1939,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "UR57OE655RJTDWEN5JDOIIYY",
-     "modifier_data": {
-      "name": "honey lavender (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -2394,15 +2385,6 @@ var catalog_raw=[
      "id": "DODS232NWQHNJ3IF7ZWRL46W",
      "modifier_data": {
       "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "W3EIUIXD7DUXGPN5IRFNQ2CQ",
-     "modifier_data": {
-      "name": "honey lavender (gf)",
       "price_money": {
        "amount": 300
       }
@@ -9691,15 +9673,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "W3EIUIXD7DUXGPN5IRFNQ2CQ",
-  "modifier_data": {
-   "name": "honey lavender (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "57A6ID76566ZHSX5DU4ETQYC",
   "modifier_data": {
    "name": "house-made SMOLL-ows (gf)",
@@ -10046,15 +10019,6 @@ var catalog_raw=[
   "id": "UZ5XDJCRUXTSZ47VUZCS727R",
   "modifier_data": {
    "name": "salted vanilla bean (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "UR57OE655RJTDWEN5JDOIIYY",
-  "modifier_data": {
-   "name": "honey lavender (gf)",
    "price_money": {
     "amount": 0
    }
