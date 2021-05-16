@@ -1932,24 +1932,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DENJ3RPTE3OEXVRPHNDC54YC",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4YYTMAEYJLYRYHMWTDBNZQBA",
-     "modifier_data": {
-      "name": "banana + milk chocolate TWIST (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UR57OE655RJTDWEN5JDOIIYY",
      "modifier_data": {
       "name": "honey lavender (gf)",
@@ -2394,24 +2376,6 @@ var catalog_raw=[
      "id": "74HNMS2HMHIIP5GZEVUVHZLS",
      "modifier_data": {
       "name": "banana (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JZYOMZFB7IVS4KVGJSUL6QW3",
-     "modifier_data": {
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "GVWQ4CUHVPB3VGYP3QHCFXPG",
-     "modifier_data": {
-      "name": "banana + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3655,26 +3619,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "banana (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UUFBMYMAETA5UQOCDUCOJYJD",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "milk chocolate (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "X6YHL4YNSOEZHBQKDYLZCXO3",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "banana + milk chocolate TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -9048,24 +8992,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DENJ3RPTE3OEXVRPHNDC54YC",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "JZYOMZFB7IVS4KVGJSUL6QW3",
-  "modifier_data": {
-   "name": "milk chocolate (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "K6IO4RAJBBE3ZA7LQZF7IEWS",
   "modifier_data": {
    "name": "olive oil powder (v) (gf)",
@@ -9136,27 +9062,9 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4YYTMAEYJLYRYHMWTDBNZQBA",
-  "modifier_data": {
-   "name": "banana + milk chocolate TWIST (gf)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "74HNMS2HMHIIP5GZEVUVHZLS",
   "modifier_data": {
    "name": "banana (gf)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "GVWQ4CUHVPB3VGYP3QHCFXPG",
-  "modifier_data": {
-   "name": "banana + milk chocolate TWIST (gf)",
    "price_money": {
     "amount": 300
    }
