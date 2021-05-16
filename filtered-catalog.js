@@ -3605,16 +3605,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "3X6BBEPSNONRJGSROX6TCC7T",
-     "item_variation_data": {
-      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "7KISTMLN7JEUZZP5AWV2KAWS",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3625,10 +3615,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z7KI4U2PVQWECU6KXUMBLNHG",
+     "id": "3X6BBEPSNONRJGSROX6TCC7T",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "honey lavender (gf)",
+      "name": "salted vanilla bean (gf)",
       "price_money": {
        "amount": 0
       }
