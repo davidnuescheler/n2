@@ -3679,6 +3679,16 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "RUTXQ7VHYYFT5634N3UGWAHU",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
