@@ -3605,10 +3605,30 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "UF63MIWLSRORFUHRRVVBPC6W",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "7KISTMLN7JEUZZP5AWV2KAWS",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
       "name": "banana (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RJ3U4YIEGAMF76GCJRZGEQDE",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "milk chocolate + banana TWIST (gf)",
       "price_money": {
        "amount": 0
       }
