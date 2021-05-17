@@ -1914,6 +1914,33 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GIGNODWMAL7M4YEKD2S4DJNX",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "GNWMIYCAFO54IDROST3T2KRP",
+     "modifier_data": {
+      "name": "salted vanilla bean + blood orange TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "YRIKAVTWVTPH6VLC5UHETU3M",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -1941,18 +1968,27 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UZ5XDJCRUXTSZ47VUZCS727R",
+     "id": "YMVKKXONRYCWUWU3YWJQZ6L4",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "GIGNODWMAL7M4YEKD2S4DJNX",
+     "id": "ZCJ6KVLAMRB6FXGW5TZBHDPW",
      "modifier_data": {
-      "name": "blood orange sorbet (v) (gf)",
+      "name": "honey lavender (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5QZEUCSJFJZE4GSHEYXDQ5PF",
+     "modifier_data": {
+      "name": "plum sorbet + honey lavender TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -2382,6 +2418,33 @@ var catalog_raw=[
      }
     },
     {
+     "id": "DODS232NWQHNJ3IF7ZWRL46W",
+     "modifier_data": {
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "BFR5JTPQGAYAJFTMPJBLCRBW",
+     "modifier_data": {
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KKVS6LTL2CSRJNOXWV3DDQFU",
+     "modifier_data": {
+      "name": "salted vanilla bean + blood orange TWIST (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "J6ZAA6J7Q6XHP225DUVHTL25",
      "modifier_data": {
       "name": "milk chocolate (gf)",
@@ -2409,18 +2472,27 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DODS232NWQHNJ3IF7ZWRL46W",
+     "id": "3YFXSQYKG3EGT6HSSRVG6Z3L",
      "modifier_data": {
-      "name": "salted vanilla bean (gf)",
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "BFR5JTPQGAYAJFTMPJBLCRBW",
+     "id": "NCN45HQ6TFAKAFTZXGFH3GUI",
      "modifier_data": {
-      "name": "blood orange sorbet (v) (gf)",
+      "name": "honey lavender (gf)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4VUFOEORNQYMP5DWBIIQYQQ5",
+     "modifier_data": {
+      "name": "plum sorbet + honey lavender TWIST (gf)",
       "price_money": {
        "amount": 300
       }
@@ -3641,6 +3713,36 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "3X6BBEPSNONRJGSROX6TCC7T",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RUTXQ7VHYYFT5634N3UGWAHU",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "blood orange sorbet (v) (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "XSHPJ3ANP3JEHFMC6ABZVOY7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + blood orange TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "7KISTMLN7JEUZZP5AWV2KAWS",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
@@ -3671,30 +3773,30 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3X6BBEPSNONRJGSROX6TCC7T",
+     "id": "AQ6M6HXZBARHESE4V5YKUQWR",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean (gf)",
+      "name": "mirabelle plum sorbet (v) (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "RUTXQ7VHYYFT5634N3UGWAHU",
+     "id": "FSO5PKN3WJR5C6B2BCD6NFC4",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "blood orange sorbet (v) (gf)",
+      "name": "honey lavender (gf)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "XSHPJ3ANP3JEHFMC6ABZVOY7",
+     "id": "6GUJF56AOCTUOQ36JWERK324",
      "item_variation_data": {
       "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
-      "name": "salted vanilla bean + blood orange TWIST (gf)",
+      "name": "plum sorbet + honey lavender TWIST (gf)",
       "price_money": {
        "amount": 0
       }
@@ -10141,6 +10243,78 @@ var catalog_raw=[
    "name": "blood orange sorbet (v) (gf)",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "GNWMIYCAFO54IDROST3T2KRP",
+  "modifier_data": {
+   "name": "salted vanilla bean + blood orange TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YMVKKXONRYCWUWU3YWJQZ6L4",
+  "modifier_data": {
+   "name": "mirabelle plum sorbet (v) (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ZCJ6KVLAMRB6FXGW5TZBHDPW",
+  "modifier_data": {
+   "name": "honey lavender (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5QZEUCSJFJZE4GSHEYXDQ5PF",
+  "modifier_data": {
+   "name": "plum sorbet + honey lavender TWIST (gf)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "KKVS6LTL2CSRJNOXWV3DDQFU",
+  "modifier_data": {
+   "name": "salted vanilla bean + blood orange TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "3YFXSQYKG3EGT6HSSRVG6Z3L",
+  "modifier_data": {
+   "name": "mirabelle plum sorbet (v) (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "4VUFOEORNQYMP5DWBIIQYQQ5",
+  "modifier_data": {
+   "name": "plum sorbet + honey lavender TWIST (gf)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "NCN45HQ6TFAKAFTZXGFH3GUI",
+  "modifier_data": {
+   "name": "honey lavender (gf)",
+   "price_money": {
+    "amount": 300
    }
   }
  }
