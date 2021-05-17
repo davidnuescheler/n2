@@ -3689,6 +3689,16 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "XSHPJ3ANP3JEHFMC6ABZVOY7",
+     "item_variation_data": {
+      "item_id": "CVMOVN75J6NADSS7GEG4WMFW",
+      "name": "salted vanilla bean + blood orange TWIST (gf)",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
